@@ -1,9 +1,9 @@
 echo "BEGIN redo_xml.sh"
-echo "construct gra.xml..."
+echo "construct ${dictlo}.xml..."
 python make_xml.py ../orig/${dictlo}.txt ${dictlo}hw.txt ${dictlo}.xml # > redoxml_log.txt
-echo "xmllint on gra.xml..."
+echo "xmllint on ${dictlo}.xml..."
 xmllint --noout --valid ${dictlo}.xml
-echo "gra.sqlite..."
+echo "${dictlo}.sqlite..."
 cd ../web/sqlite
 sh redo.sh
 echo "query_dump ..."
