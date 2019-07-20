@@ -1,0 +1,8 @@
+hwparse.py:T
+hw.py:T
+redo_hw.sh:T
+redo_xml.sh:T
+hw0.py:C
+hw2.py:C
+parseheadline.py:C
+updateByLine.py:C
