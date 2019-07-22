@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- acc.dtd  
+ June 10, 2014
+ April 5, 2017. Add symbol tag
+ May 3, 2017 (div)
+ May 19, 2017 'alt', and 'hwtype'
+-->
+<!ELEMENT  acc (H1)*>
+<!ELEMENT H1 (h,body,tail) >
+<!ENTITY % body_elts "b | i | s |div | alt | symbol | F |  br | H " >
+<!-- h element -->
+<!ELEMENT h  (key1,key2,hom?)>
+<!ELEMENT key1 (#PCDATA) > <!-- in slp1 -->
+<!ELEMENT key2 (#PCDATA )><!-- in AS -->
+
+<!ELEMENT body (#PCDATA  | %body_elts;)*> 
+<!ELEMENT br EMPTY > <!-- line breaks in bhs.txt -->
+<!ELEMENT F (#PCDATA | br | symbol)*> <!-- Footnote  -->
+<!ELEMENT s (#PCDATA | br)*> <!-- Devanagari, in SLP1 transliteration  -->
+<!ELEMENT H EMPTY> <!--   -->
+<!ELEMENT b (#PCDATA | br)*> <!-- bold  -->
+<!ELEMENT i (#PCDATA | br )*> <!-- italic  -->
+<!ELEMENT symbol (#PCDATA)>
+<!ELEMENT div (#PCDATA  | %body_elts;)*>
+<!-- tail -->
+<!ELEMENT tail (#PCDATA | L | pc |hwtype)*>
+<!ELEMENT L (#PCDATA) >
+<!ELEMENT pc (#PCDATA) >
+<!ELEMENT hwtype EMPTY>
+<!ELEMENT alt (#PCDATA | s)*>
+
+<!-- attributes  -->
+<!ATTLIST symbol n CDATA #REQUIRED>
+<!ATTLIST div n (P | 2 | 3) #REQUIRED>
+<!ATTLIST hwtype n (alt | sub | n) #REQUIRED>
+<!ATTLIST hwtype ref CDATA #REQUIRED>

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- bur.dtd  
+ June 17, 2014
+ Mar  29, 2017. add lbinfo tag
+ Jul  27, 2017. add div tag and attribute
+                add alt tag (unused currently)
+                change 'g' tag to lang, with attribute
+                remove H tag and P tag
+-->
+<!ELEMENT  bur (H1)*>
+<!ELEMENT H1 (h,body,tail) >
+<!ENTITY % body_elts "i|b|s|lbinfo|div|alt|lang|ab|s1" >
+<!-- h element -->
+<!ELEMENT h  (key1,key2)>
+<!ELEMENT key1 (#PCDATA)>
+<!ELEMENT key2 (#PCDATA )*>
+<!-- special_chars -->
+<!ELEMENT i (#PCDATA | lbinfo |ab)*>  <!-- italic -->
+<!ELEMENT b (#PCDATA)>  <!-- bold -->
+<!ELEMENT s (#PCDATA)>  <!-- Devanagari in HK -->
+<!ELEMENT lbinfo EMPTY>
+<!ELEMENT div (#PCDATA  | %body_elts;)*>
+<!ELEMENT alt (#PCDATA | s)*>
+<!ELEMENT lang (#PCDATA)*>
+<!ELEMENT ab (#PCDATA | ab )* >
+<!ELEMENT s1 (#PCDATA)*>
+
+<!ELEMENT body (#PCDATA  | %body_elts;)*> 
+
+<!-- tail -->
+<!ELEMENT tail (#PCDATA | L | pc )*>
+<!ELEMENT L (#PCDATA) >
+<!ELEMENT pc (#PCDATA) >
+
+<!-- attributes  -->
+<!ATTLIST lbinfo n CDATA #REQUIRED>
+<!ATTLIST div n CDATA #REQUIRED>  <!-- P,2,3 for bur -->
+<!ATTLIST lang n (greek) #REQUIRED>
+<!ATTLIST ab n CDATA #IMPLIED >
+<!ATTLIST s1 slp1 CDATA #IMPLIED >

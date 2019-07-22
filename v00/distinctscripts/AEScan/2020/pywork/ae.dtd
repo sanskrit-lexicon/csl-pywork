@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- 
+ March 31, 2014
+ March 13, 2018
+ Adapted from mwe.dtd. Not all tags are used for ae.
+-->
+<!ELEMENT  ae (H1)*>
+<!ELEMENT H1 (h,body,tail) >
+<!ENTITY % misc_empty "F |Poem| b | i | s |lang| C | div | sup|alt" >
+<!ENTITY % body_elts "  %misc_empty;  " >
+<!-- h element -->
+<!ELEMENT h  (key1,key2,hom?)>
+<!ELEMENT key1 (#PCDATA)>
+<!ELEMENT key2 (#PCDATA )*>
+<!ELEMENT hom (#PCDATA )*>  <!-- homonym number -->
+
+<!ELEMENT C EMPTY > <!-- Column  -->
+<!ELEMENT F (#PCDATA | %body_elts;)*>  <!-- Footnote -->
+<!ELEMENT Poem (#PCDATA | %body_elts;)*>  
+
+<!ELEMENT body (#PCDATA  | %body_elts;)*> 
+<!ELEMENT lang (#PCDATA)*> <!-- greek  not present in pe -->
+<!ELEMENT sup (#PCDATA)*> <!-- superscript  -->
+<!ELEMENT b (#PCDATA | %body_elts;)*> <!-- bold  -->
+<!ELEMENT i (#PCDATA | %body_elts;)*> <!-- italic  -->
+<!ELEMENT s (#PCDATA | %body_elts;)*> <!-- Devanagari, in slp1  -->
+<!ELEMENT div (#PCDATA | %body_elts;)*> <!-- empty tag in pe -->
+
+<!-- tail -->
+<!ELEMENT tail (#PCDATA | L | pc )*>
+<!ELEMENT L (#PCDATA) >
+<!ELEMENT pc (#PCDATA) >
+<!-- attributes  -->
+<!ATTLIST C n (1 | 2 | 3 | 4 | 5 | 6 |7|8|9|10|11 ) #REQUIRED>
+<!ATTLIST div n (lb | P |HI ) #REQUIRED>
+<!ATTLIST lang n (greek ) #REQUIRED>

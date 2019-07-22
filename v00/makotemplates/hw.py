@@ -171,12 +171,17 @@ def write_hwrecs(hwrecs,fileout):
    # hwrec is a dictionary
    kvparts = []   # sequence of key-value part strings
    for key in hwrec_keys:
+    kvpart = ''
     if key not in hwrec:
      continue
     val = hwrec[key]
     if val == None:
      continue
-    kvpart = '<{}>{}'.format(unicode(key), unicode(val))
+    kvpart += '<'
+    kvpart += unicode(key)
+    kvpart += '>'
+    kvpart += unicode(val)
+    #kvpart = '<{}>{}'.format(unicode(key), unicode(val))
     kvparts.append(kvpart)
    out = ''.join(kvparts)
    f.write(out + '\n')

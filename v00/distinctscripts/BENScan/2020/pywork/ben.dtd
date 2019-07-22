@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- ben.dtd  
+ Mar 26, 2014
+ 
+-->
+<!ELEMENT  ben (H1)*>
+<!ELEMENT H1 (h,body,tail) >
+<!ENTITY % body_elts "i |s |b | g | lb | P | pic" >
+<!-- h element -->
+<!ELEMENT h  (key1,key2,hom?)>
+<!ELEMENT key1 (#PCDATA) > <!-- in slp1 -->
+<!ELEMENT key2 (#PCDATA )><!-- in AS -->
+<!ELEMENT hom (#PCDATA)> <!-- homonym -->
+
+<!ELEMENT body (#PCDATA  | %body_elts;)*> 
+<!ELEMENT i (#PCDATA | lb)*> <!-- italic, Sanskrit, in AS transliteration -->
+<!ELEMENT b (#PCDATA | lb)*> <!-- bold text -->
+<!ELEMENT s (#PCDATA | lb)*> <!-- Sanskrit Devanagari, in HK transliteration  -->
+<!ELEMENT g (#PCDATA)> <!-- Greek text (empty) -->
+<!ELEMENT lb EMPTY> <!-- line break -->
+<!ELEMENT P EMPTY> <!-- headword indicator -->
+<!ELEMENT pic EMPTY> <!-- for picture insertion under 'vatsa'. Sep 29, 2014 -->
+<!ATTLIST pic name CDATA #IMPLIED > <!-- for name of image -->
+<!-- tail -->
+<!ELEMENT tail (#PCDATA | L | pc )*>
+<!ELEMENT L (#PCDATA) >
+<!ELEMENT pc (#PCDATA) >
+
+<!-- attributes  -->
+

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- pwg.dtd  
+ Dec 14, 2017
+-->
+<!ELEMENT  pwg (H1)*>
+<!ELEMENT H1 (h,body,tail) >
+<!ENTITY % body_elts " i |ls |s | lang | div | F |  VN | ab | is | lex" >
+<!-- h element -->
+<!ELEMENT h  (key1,key2,hom?)>
+<!ELEMENT key1 (#PCDATA) > <!-- in slp1 -->
+<!ELEMENT key2 (#PCDATA) ><!-- in slp1 -->
+
+<!ELEMENT body (#PCDATA  | %body_elts;)*> 
+<!ELEMENT VN (#PCDATA | %body_elts; )* > <!-- Undocumented -->
+<!ELEMENT div (#PCDATA | %body_elts; )* > <!-- section marker -->
+<!ELEMENT lex (#PCDATA ) > <!-- Grammatical category -->
+<!ELEMENT lang (#PCDATA)> <!-- Various foreign languages -->
+<!ELEMENT F (#PCDATA | %body_elts;)*> <!-- Footnote -->
+<!ELEMENT ab (#PCDATA)> <!-- abbreviation -->
+<!ELEMENT i (#PCDATA | %body_elts;)*> <!-- italic  -->
+<!ELEMENT ls (#PCDATA | %body_elts;)*> <!-- literary sources -->
+<!ELEMENT s (#PCDATA)> <!-- Sanskrit devanagari, in slp1 transliteration  -->
+<!ELEMENT hom (#PCDATA)> <!-- homonym -->
+<!ELEMENT is (#PCDATA)> <!-- IAST, usu Sanskrit  -->
+<!-- tail -->
+<!ELEMENT tail (#PCDATA | L | pc )*>
+<!ELEMENT L (#PCDATA) >
+<!ELEMENT pc (#PCDATA) >
+
+
+<!-- attributes  -->
+<!-- <!ATTLIST lang n CDATA #REQUIRED > --> <!-- Arabic, Russian, Greek -->
+<!ATTLIST lang n (arabic | Russian | greek | Greek | oldhebrew  | Old-Church-Slavonic) #REQUIRED >
+<!ATTLIST div n (1 | 2| 3| p| v) #REQUIRED >
+<!ATTLIST ab n CDATA #IMPLIED > 
+<!ATTLIST ls n CDATA #IMPLIED > 
+

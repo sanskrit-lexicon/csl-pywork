@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- 
+ Oct, 2013
+ Feb  26, 2018
+ Adapted from pgn.dtd. Not all tags are used for pgn.
+-->
+<!ELEMENT  mwe (H1)*>
+<!ELEMENT H1 (h,body,tail) >
+<!ENTITY % misc_empty "i | s | div | alt" >
+<!ENTITY % body_elts "  %misc_empty;  " >
+<!-- h element -->
+<!ELEMENT h  (key1,key2,hom?)>
+<!ELEMENT key1 (#PCDATA)>
+<!ELEMENT key2 (#PCDATA )*>
+<!ELEMENT hom (#PCDATA )*>  <!-- homonym number -->
+
+<!ELEMENT body (#PCDATA  | %body_elts;)*> 
+<!ELEMENT i (#PCDATA | %body_elts;)*> <!-- italic  -->
+<!ELEMENT s (#PCDATA | %body_elts;)*> <!-- Devanagari, in slp1  -->
+<!ELEMENT div (#PCDATA | %body_elts;)*> <!-- empty tag in pe -->
+
+<!-- tail -->
+<!ELEMENT tail (#PCDATA | L | pc )*>
+<!ELEMENT L (#PCDATA) >
+<!ELEMENT pc (#PCDATA) >
+<!-- attributes  -->
+<!ATTLIST div n (lb) #REQUIRED>

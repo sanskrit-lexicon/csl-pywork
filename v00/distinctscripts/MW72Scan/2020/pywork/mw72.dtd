@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- 
+ May 18, 2014
+ Oct 16, 2014
+ Jul 31, 2017. Added '<meter>' tag for prosody
+ July 22, 2013
+ Mar 8, 2018
+ Adapted from vei.dtd. Not all tags are used for mw72
+    nsi tag is peculiar to mw72
+-->
+<!ELEMENT  mw72 (H1)*>
+<!ELEMENT H1 (h,body,tail) >
+<!ENTITY % misc_empty "F |Poem| b | i | s |lang| C | div | sup|alt|nsi" >
+<!ENTITY % body_elts "  %misc_empty;  " >
+<!-- h element -->
+<!ELEMENT h  (key1,key2,hom?)>
+<!ELEMENT key1 (#PCDATA)>
+<!ELEMENT key2 (#PCDATA )*>
+<!ELEMENT hom (#PCDATA )*>  <!-- homonym number -->
+
+<!ELEMENT C EMPTY > <!-- Column  -->
+<!ELEMENT F (#PCDATA | %body_elts;)*>  <!-- Footnote -->
+<!ELEMENT Poem (#PCDATA | %body_elts;)*>  
+
+<!ELEMENT body (#PCDATA  | %body_elts;)*> 
+<!ELEMENT lang (#PCDATA)*> <!-- greek, etc. -->
+<!ELEMENT sup (#PCDATA)*> <!-- superscript  -->
+<!ELEMENT b (#PCDATA | %body_elts;)*> <!-- bold  -->
+<!ELEMENT i (#PCDATA | %body_elts;)*> <!-- italic  -->
+<!ELEMENT s (#PCDATA | %body_elts;)*> <!-- Devanagari, in slp1  -->
+<!ELEMENT div (#PCDATA | %body_elts;)*> <!-- empty tag in mw72 -->
+<!ELEMENT nsi (#PCDATA)*> <!-- non-Sanskrit italic -->
+
+<!-- tail -->
+<!ELEMENT tail (#PCDATA | L | pc )*>
+<!ELEMENT L (#PCDATA) >
+<!ELEMENT pc (#PCDATA) >
+<!-- attributes  -->
+<!ATTLIST C n (1 | 2 | 3 | 4 | 5 | 6 |7|8|9|10|11 ) #REQUIRED>
+<!ATTLIST div n (lb | P  ) #REQUIRED>
+<!ATTLIST lang n (greek |arabic | slavic | meter) #REQUIRED>

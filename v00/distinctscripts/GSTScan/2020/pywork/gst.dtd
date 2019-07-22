@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- gst.dtd  
+ April 7, 2014
+ Feb   6, 2018
+-->
+<!ELEMENT  gst (H1)*>
+<!ELEMENT H1 (h,body,tail) >
+<!ENTITY % body_elts "i | b | s|lbinfo|div|alt|lang|sup" >
+<!-- h element -->
+<!ELEMENT h  (key1,key2,hom?)>
+<!ELEMENT key1 (#PCDATA) > <!-- in slp1 -->
+<!ELEMENT key2 (#PCDATA )><!-- in AS -->
+<!ELEMENT hom (#PCDATA)> <!-- homonym -->
+
+<!ELEMENT body (#PCDATA  | %body_elts;)*> 
+<!ELEMENT b (#PCDATA) > <!-- bold -->
+<!ELEMENT i (#PCDATA  | %body_elts;)*> <!-- italic -->
+<!ELEMENT s (#PCDATA )*> <!-- Sanskrit, in slp1 transliteration  -->
+<!ELEMENT sup (#PCDATA)* > <!-- superscript. sections in gst -->
+<!ELEMENT lang (#PCDATA)*>
+<!ELEMENT lbinfo EMPTY>
+<!ELEMENT div (#PCDATA  | %body_elts;)*>
+
+<!-- tail -->
+<!ELEMENT tail (#PCDATA | L | pc )*>
+<!ELEMENT L (#PCDATA) >
+<!ELEMENT pc (#PCDATA) >
+
+<!-- attributes  -->
+<!ATTLIST div n (lb | P) #REQUIRED>  <!-- -->
+<!ATTLIST lang n (greek) #REQUIRED> <!-- -->
+
