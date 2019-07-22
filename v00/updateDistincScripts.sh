@@ -7,7 +7,7 @@ for dict in ${dictsthirteen[*]}
 do
 	for script in ${scripts[*]}
 	do
-		wget -O distinctscripts/"$dict"Scan/2020/pywork/make_xml.py https://www.sanskrit-lexicon.uni-koeln.de/scans/"$dict"Scan/2013/pywork/make_xml.py
+		#wget -O distinctscripts/"$dict"Scan/2020/pywork/make_xml.py https://www.sanskrit-lexicon.uni-koeln.de/scans/"$dict"Scan/2013/pywork/make_xml.py
 	done
 	wget -O distinctscripts/"$dict"Scan/2020/pywork/${dict,,}.dtd https://www.sanskrit-lexicon.uni-koeln.de/scans/"$dict"Scan/2013/pywork/${dict,,}.dtd
 done
@@ -16,7 +16,7 @@ for dict in ${dictsfourteen[*]}
 do
 	for script in ${scripts[*]}
 	do
-		wget -O distinctscripts/"$dict"Scan/2020/pywork/make_xml.py https://www.sanskrit-lexicon.uni-koeln.de/scans/"$dict"Scan/2014/pywork/make_xml.py
+		#wget -O distinctscripts/"$dict"Scan/2020/pywork/make_xml.py https://www.sanskrit-lexicon.uni-koeln.de/scans/"$dict"Scan/2014/pywork/make_xml.py
 	done
 	wget -O distinctscripts/"$dict"Scan/2020/pywork/${dict,,}.dtd https://www.sanskrit-lexicon.uni-koeln.de/scans/"$dict"Scan/2014/pywork/${dict,,}.dtd
 done
