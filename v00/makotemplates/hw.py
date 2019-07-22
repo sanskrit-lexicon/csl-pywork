@@ -11,7 +11,10 @@ import sys,codecs
 # next parses key-value pairs coded as <key>val<key1>val1...
 
 from parseheadline import parseheadline
-
+try:
+ unicode
+except NameError:
+ unicode = str
 class Hwmeta(object):
  # class variables for efficiency
  # The structure of the 'meta' line
@@ -162,7 +165,7 @@ def write_hwrecs(hwrecs,fileout):
   %if dictlo != 'mw':
   hwrec_keys = ['L','pc','k1','k2','h','type','LP','k1P','ln1','ln2']
   %else:
-  hwrec_keys = ['L','pc','k1','k2','h','type','LP','k1P','ln1','ln2','e']
+  hwrec_keys = ['L','pc','k1','k2','h','e','type','LP','k1P','ln1','ln2']
   %endif
   for hwrec in hwrecs:
    # hwrec is a dictionary
@@ -173,7 +176,7 @@ def write_hwrecs(hwrecs,fileout):
     val = hwrec[key]
     if val == None:
      continue
-    kvpart = '<' + str(key) + '>' + str(val)
+    kvpart = '<{}>{}'.format(unicode(key), unicode(val))
     kvparts.append(kvpart)
    out = ''.join(kvparts)
    f.write(out + '\n')
