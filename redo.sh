@@ -1,6 +1,6 @@
 #!/bin/bash
 echo "Regenerate the headwords, xml and sqlites for specified dictionaries."
-echo "Usage - ./redo.sh [dictcode]."
+echo "Usage - bash redo.sh [dictcode]."
 echo "If dictcode is not specified, all the dictionaries are updated and regenerated."
 
 if [ -z "$1" ]
