@@ -85,7 +85,7 @@ class Hwextra(object):
  
 def init_hwextra(filein):
  with codecs.open(filein,encoding='utf-8',mode='r') as f:
-  recs = [Hwextra(line) for line in f]
+  recs = [Hwextra(line) for line in f if not line.startswith(';')]
  return recs
 
 class Entry(object):
