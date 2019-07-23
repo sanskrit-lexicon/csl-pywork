@@ -2,15 +2,16 @@
 echo "Regenerate the headwords, xml and sqlites for specified dictionaries."
 echo "Usage - bash redo.sh [dictcode]."
 echo "If dictcode is not specified, all the dictionaries are updated and regenerated."
-
+echo ""
 if [ -z "$1" ]
-then
-dicts=(${$1^^}) # Uppercase
-else
-dicts=(BUR INM MWE PWG SKD STC VCP ACC AE AP90 AP BEN BHS BOP BOR CAE CCS GRA GST IEG KRM MCI MD MW72 MW PD PE PGN PUI PW SCH SHS SNP VEI WIL YAT)
+  then
+	dicts=(BUR INM MWE PWG SKD STC VCP ACC AE AP90 AP BEN BHS BOP BOR CAE CCS GRA GST IEG KRM MCI MD MW72 MW PD PE PGN PUI PW SCH SHS SNP VEI WIL YAT)
+  else
+    dicts=(${1^^}) # Uppercase
 fi
+
 echo "UPDATING THE FOLLOWING DICTIONARIES."
-echo $dicts
+echo "${dicts[*]}"
 
 # Go to scans folder
 cd ..
