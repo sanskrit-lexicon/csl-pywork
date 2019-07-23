@@ -81,7 +81,7 @@ Generates the xml and sqlite files.
 1. For regenerating all dictionaries.
 ```bash
 cd csl-pywork
-./redo.sh
+bash redo.sh
 ```
 
 or 
@@ -89,7 +89,7 @@ or
 2. For regenerating for a particular dictionary e.g. SKD in our example
 ```bash
 cd csl-pywork
-./redo.sh SKD
+bash redo.sh SKD
 ```
 
 # XXX.txt and hwextra/xxx_hwextra.txt
