@@ -108,7 +108,7 @@ def close_divs(line):
 def construct_xmlhead(hwrec):
  key2 = hwrec.k2
  key1 = hwrec.k1
- hom = hwrec.hom
+ hom = hwrec.h
  if hom == None:
   # no homonym
   h = "<key1>%s</key1><key2>%s</key2>" % (key1,key2)
