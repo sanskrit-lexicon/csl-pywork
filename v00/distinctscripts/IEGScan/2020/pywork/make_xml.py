@@ -42,7 +42,7 @@ def dig_to_xml_specific(x):
  # There are a couple entries with an <H> element.
  # Just remove these lines
  if x.startswith('<H>'):
-  print "REMOVING <H> LINE",x.encode('utf-8')
+  print("REMOVING <H> LINE",x.encode('utf-8'))
   return ''
  x = re.sub(r'<P>','<div n="P">',x) # 2322 cases
  #if '<g></g>' in x: # once only. Already converted in stc.txt
@@ -242,7 +242,7 @@ def make_xml(filedig,filehw,fileout):
  nerr = 0
  for ihwrec,hwrec in enumerate(hwrecs):
   if ihwrec > 1000000: # 12 
-   print "debug stopping"
+   print("debug stopping")
    break
   datalines = get_datalines(hwrec,inlines)
   # construct output
@@ -262,7 +262,7 @@ def make_xml(filedig,filehw,fileout):
    outarr.append(xmlstring)
    outarr.append('')
    for out in outarr:
-    print out.encode('utf-8')
+    print(out.encode('utf-8'))
    #exit(1) continue
   # write output
   fout.write(xmlstring + '\n')

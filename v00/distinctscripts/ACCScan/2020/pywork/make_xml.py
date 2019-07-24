@@ -209,7 +209,7 @@ def make_xml(filedig,filehw,fileout):
  # process hwrecs records one at a time and generate output
  for ihwrec,hwrec in enumerate(hwrecs):
   if ihwrec > 1000000: # 12 
-   print "debug stopping"
+   print("debug stopping")
    break
   datalines = get_datalines(hwrec,inlines)
   # construct output
@@ -220,7 +220,7 @@ def make_xml(filedig,filehw,fileout):
    root = ET.fromstring(xmlstring.encode('utf-8'))
   except:
    out = "xml error: n=%s,m line=\n%s\n" %(nout+1,xmlstring)
-   print out.encode('utf-8')
+   print(out.encode('utf-8'))
    exit(1)
   # write output
   fout.write(xmlstring + '\n')

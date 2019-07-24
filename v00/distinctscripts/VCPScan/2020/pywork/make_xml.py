@@ -42,7 +42,7 @@ def dig_to_xml_specific(x):
  x = re.sub(r'<P>','<div n="P">',x) # 2322 cases
  if re.search(r'^<H>',x):
   x = re.sub(r'<H>','<div n="H">',x)  # 18 cases
-  print "Unexpected <H>:",x.encode('utf-8')
+  print("Unexpected <H>:",x.encode('utf-8'))
  x = re.sub(r'<Picture>','<div n="Picture">',x) # 71 cases
  # markup like <C1>x1<C2>x2...  indicates tabular data in vcp.
  x = re.sub(r'<C([0-9]+)>',r'<C n="\1"/>',x)
@@ -237,7 +237,7 @@ def make_xml(filedig,filehw,fileout):
  nerr = 0
  for ihwrec,hwrec in enumerate(hwrecs):
   if ihwrec > 1000000: # 12 
-   print "debug stopping"
+   print("debug stopping")
    break
   datalines = get_datalines(hwrec,inlines)
   # construct output
@@ -257,7 +257,7 @@ def make_xml(filedig,filehw,fileout):
    outarr.append(xmlstring)
    outarr.append('')
    for out in outarr:
-    print out.encode('utf-8')
+    print(out.encode('utf-8'))
    #exit(1) continue
   # write output
   fout.write(xmlstring + '\n')

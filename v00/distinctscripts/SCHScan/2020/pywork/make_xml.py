@@ -172,7 +172,7 @@ def construct_xmlstring(datalines,hwrec):
   if i == 0:
    m = re.search(u'^(.*?¦)(.*)$' ,x)
    if not m:
-    print "xml_string ERROR at =",x.encode('utf-8')
+    print("xml_string ERROR at =",x.encode('utf-8'))
     exit(1)
    head = m.group(1)
    rest = m.group(2)
@@ -243,7 +243,7 @@ def make_xml(filedig,filehw,fileout):
  # process hwrecs records one at a time and generate output
  for ihwrec,hwrec in enumerate(hwrecs):
   if ihwrec > 1000000: # 12 
-   print "debug stopping"
+   print("debug stopping")
    break
   datalines = get_datalines(hwrec,inlines)
   # construct output
@@ -254,7 +254,7 @@ def make_xml(filedig,filehw,fileout):
    root = ET.fromstring(xmlstring.encode('utf-8'))
   except:
    out = "xml error: n=%s,m line=\n%s\n" %(nout+1,xmlstring)
-   print out.encode('utf-8')
+   print(out.encode('utf-8'))
    exit(1)
   # write output
   fout.write(xmlstring + '\n')
