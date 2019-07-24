@@ -6,6 +6,7 @@
    output: xxxhw.txt
    "hom" -> h
 """
+from __future__ import print_function
 import re
 import sys,codecs
 # next parses key-value pairs coded as <key>val<key1>val1...
@@ -37,9 +38,9 @@ class Hwmeta(object):
   keys = set(d.keys())
   if not(self.keysneeded.issubset(keys)):
    # error
-   print "Hwmeta init error",line.encode('utf-8')
-   print "keysneeded=",self.keysneeded
-   print "keys=",keys
+   print("Hwmeta init error",line.encode('utf-8'))
+   print("keysneeded=",self.keysneeded)
+   print("keys=",keys)
    exit(1)
   self.d = d  
   # convert dictionary to object attributes (except for 'e' = extra)
@@ -67,9 +68,9 @@ class Hwextra(object):
   keys = set(d.keys())
   if not(self.keysneeded.issubset(keys)):
    # error
-   print "Hwextra init error",line.encode('utf-8')
-   print "keysneeded=",self.keysneeded
-   print "keys=",keys
+   print("Hwextra init error",line.encode('utf-8'))
+   print("keysneeded=",self.keysneeded)
+   print("keys=",keys)
    exit(1)
   self.d = d  
   # convert dictionary to object attributes
@@ -100,7 +101,7 @@ class Entry(object):
   self.linenum2 = linenum2
   L = self.meta.L
   if L in self.Ldict:
-   print "Entry init error: duplicate L",L,linenum1
+   print("Entry init error: duplicate L",L,linenum1)
    exit(1)
   self.Ldict[L] = self
 
@@ -126,9 +127,9 @@ def init_entries(filein):
     idx2 = None
     inentry = False
    elif line.startswith('<L>'):  # error
-    print 'init_entries Error 1. Not expecting <L>'
-    print "line # %s",idx+1
-    print line.encode('utf-8')
+    print('init_entries Error 1. Not expecting <L>')
+    print("line # %s",idx+1)
+    print(line.encode('utf-8'))
     exit(1)
    else: 
     # keep looking for <LEND>
@@ -139,21 +140,21 @@ def init_entries(filein):
     idx1 = idx
     inentry = True
    elif line.startswith('<LEND>'): # error
-    print 'init_entries Error 2. Not expecting <LEND>'
-    print "line # %s",idx+1
-    print line.encode('utf-8')
+    print('init_entries Error 2. Not expecting <LEND>')
+    print("line # %s",idx+1)
+    print(line.encode('utf-8'))
     exit(1)
    else: 
     # keep looking for <L>
     continue
  # when all lines are read, we should have inentry = False
  if inentry:
-  print 'init_entries Error 3. Last entry not closed'
-  print 'Open entry starts at line',idx1+1
+  print('init_entries Error 3. Last entry not closed')
+  print('Open entry starts at line',idx1+1)
   exit(1)
 
- print len(lines),"lines read from",filein
- print len(recs),"entries found"
+ print(len(lines),"lines read from",filein)
+ print(len(recs),"entries found")
  return recs
   
 def write_hwrecs(hwrecs,fileout):
@@ -186,7 +187,7 @@ def write_hwrecs(hwrecs,fileout):
    out = ''.join(kvparts)
    f.write(out + '\n')
    nout = nout+1
- print nout,"lines written to",fileout
+ print(nout,"lines written to",fileout)
 
 def entry_to_hwrec(entry):
  """ entry is an Entry object. return a dictionary """
@@ -223,7 +224,7 @@ if __name__ == "__main__":
  fileout = sys.argv[3]
 
  recsextra = init_hwextra(fileextra)
- print len(recsextra),"extra headwords from",fileextra
+ print(len(recsextra),"extra headwords from",fileextra)
  entries = init_entries(filedig)
 
  # generate list of key-value dictionaries for normal entries

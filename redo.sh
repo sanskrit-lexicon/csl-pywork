@@ -26,11 +26,10 @@ bash redo_cologne_2020.sh
 echo "STEP 3. UPDATE THE DICTIONARY TEXT FILES FROM GITHUB."
 cd ../../csl-orig/v00
 git pull origin master
-bash redo_cologne_2020.sh
+cd ../..
 echo ""
 echo ""
 
-cd ../..
 for dict in ${dicts[*]}
 do
 	echo $dict

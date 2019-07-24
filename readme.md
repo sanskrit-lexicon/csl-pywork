@@ -40,7 +40,6 @@ cd ../..
 echo "STEP 3. CLONE THE DICTIONARY TEXT FILES FROM GITHUB."
 git clone https://github.com/sanskrit-lexicon/csl-orig.git
 cd csl-orig/v00
-bash redo_cologne_2020.sh
 cd ../..
 ```
 
@@ -61,7 +60,6 @@ bash redo_cologne_2020.sh
 echo "STEP 3. UPDATE THE DICTIONARY TEXT FILES FROM GITHUB."
 cd ../../csl-orig/v00
 git pull origin master
-bash redo_cologne_2020.sh
 ```
 
 # Dictionary updation based on Correction form submission by user.

@@ -23,7 +23,7 @@
  Nov 27, 2018. Changed print X to print(X), for python3 compatibility.
 """
 #
-
+from __future__ import print_function
 import re,sys
 import codecs
 class Change(object):

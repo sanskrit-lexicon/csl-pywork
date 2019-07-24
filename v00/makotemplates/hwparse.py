@@ -4,6 +4,7 @@
    init_hwrecs(filein)  function to read xxxhw.txt and return
     array of HW records.
 """
+from __future__ import print_function
 import re,codecs
 from parseheadline import parseheadline
 class HW(object):
@@ -42,7 +43,7 @@ class HW(object):
    setattr(self,k,d[k])
   # update Ldict
   if self.L in self.Ldict:
-   print "HW_init ERROR: duplicate L-code=",self.L
+   print("HW_init ERROR: duplicate L-code=",self.L)
    exit(1)
   self.Ldict[self.L]=self
 

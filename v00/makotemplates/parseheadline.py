@@ -5,6 +5,9 @@
  It returns a dictionary d, so that d['key']=value.
  Note that the order of the <key>value pairs is not relevant.
 """
+from __future__ import print_function
+from builtins import range
+
 import re
 def parseheadline(headline):
 	"""<L>16850<pc>292-3<k1>visarga<k2>visarga<h>1<e>2"""
@@ -12,7 +15,7 @@ def parseheadline(headline):
 	splits = re.split('[<]([^>]*)[>]([^<]*)',headline)
         #print splits
 	result = {}
-	for i in xrange(len(splits)):
+	for i in range(len(splits)):
 		if i % 3 == 1:
 			result[splits[i]] = splits[i+1]
 	return result
@@ -38,6 +41,6 @@ def test():
   outarr.append("")
   # send outarr to stdout
   for out in outarr:
-   print out.encode('utf-8')
+   print(out.encode('utf-8'))
 if __name__ == "__main__":
  test()

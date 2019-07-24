@@ -3,6 +3,7 @@
  Jul 4, 2018
   
 """
+from __future__ import print_function
 import sys,re
 import codecs
 import os.path,time
@@ -51,18 +52,18 @@ def movedatafiles(statusFlag,dictcode):
 
  for src,dst in movepairs:
   if os.path.exists(src) and statusFlag:
-   print "mv %s %s" %(src,dst)
+   print("mv %s %s" %(src,dst))
    shutil.move(src,dst)
   else:
-   print "# TODO: mv %s %s" %(src,dst)
+   print("# TODO: mv %s %s" %(src,dst))
  
  # reminder on query_dump
  filename="webtc2/query_dump.txt"
  src = '%s/%s' %(savewebpath,filename)
  dst = '%s/%s' %(webpath,filename)
- print "REMINDER on %s:" % dst
- print "  a) cd %s/webtc2" %webpath
- print "  b) sh init_query.sh"
+ print("REMINDER on %s:" % dst)
+ print("  a) cd %s/webtc2" %webpath)
+ print("  b) sh init_query.sh")
 
 def savewebname(webpath):
  # time of last modification.
@@ -87,7 +88,7 @@ def savewebname(webpath):
     found = True
     break
   if not found:
-   print "ERROR savewebname: cannot find new name for",webpath
+   print("ERROR savewebname: cannot find new name for",webpath)
    exit(1)
  return webpathnew
 
@@ -98,16 +99,16 @@ if __name__=="__main__":
  # name of folder where we will move {oldwebparent}/web
  webpath = "%s/web" % oldwebparent
  savewebpath = savewebname(webpath)
- print "rename %s as %s"%(webpath,savewebpath)
+ print("rename %s as %s"%(webpath,savewebpath))
  # rename webpath to savewebpath
  os.rename(webpath,savewebpath)
  # rename webnew to webpath
- print "rename %s as %s"%(webnew,webpath)
+ print("rename %s as %s"%(webnew,webpath))
  try:
   os.rename(webnew,webpath)
   webpathok = True
  except Exception as e:
-  print "ERROR in rename %s as %s"%(webnew,webpath)
+  print("ERROR in rename %s as %s"%(webnew,webpath))
   webpathok = False
  movedatafiles(webpathok,dictcode)
 
