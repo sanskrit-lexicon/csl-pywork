@@ -19,7 +19,11 @@ The description is the same as in csl-pywork.
 
 # Prerequisites
 
-mako - `pip install mako`
+1. python2.6.4 or above / python3.4.10 or above
+2. php
+3. git
+4. apache2 - To run the localhost
+4. mako - `pip install mako`
 
 # Install for the first time
 
