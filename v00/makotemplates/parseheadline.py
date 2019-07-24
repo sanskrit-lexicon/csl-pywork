@@ -6,16 +6,19 @@
  Note that the order of the <key>value pairs is not relevant.
 """
 from __future__ import print_function
-from builtins import range
-
+import sys
 import re
+# Make code python2, python3 compatible.
+if sys.version_info.major > 2:
+    xrange = range
+
 def parseheadline(headline):
 	"""<L>16850<pc>292-3<k1>visarga<k2>visarga<h>1<e>2"""
 	headline = headline.strip()
 	splits = re.split('[<]([^>]*)[>]([^<]*)',headline)
         #print splits
 	result = {}
-	for i in range(len(splits)):
+	for i in xrange(len(splits)):
 		if i % 3 == 1:
 			result[splits[i]] = splits[i+1]
 	return result
