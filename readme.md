@@ -17,6 +17,9 @@ The classification of Copied and Templated are marked by 'C' or 'T' in inventory
 It also has two types of scripts in makotemplates folder - Copied and Templated.
 The description is the same as in csl-pywork.
 
+# Prerequisites
+
+mako - `pip install mako`
 
 # Install for the first time
 
