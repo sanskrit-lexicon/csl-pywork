@@ -10,23 +10,29 @@ if [ -z "$1" ]
     dicts=(${1^^}) # Uppercase
 fi
 
-echo "UPDATING THE FOLLOWING DICTIONARIES."
-echo "${dicts[*]}"
-
 # Go to scans folder
 cd ..
 echo "STEP 1. UPDATE THE WEB DISPLAY CODE BASE FROM GITHUB."
 cd csl-websanlexicon/v00
 git pull origin master
 bash redo_cologne_2020.sh
+echo ""
+echo ""
 echo "STEP 2. UPDATE THE PYWORK CODE BASE FROM GITHUB."
 cd ../../csl-pywork/v00
 git pull origin master
 bash redo_cologne_2020.sh
+echo ""
+echo ""
 echo "STEP 3. UPDATE THE DICTIONARY TEXT FILES FROM GITHUB."
 cd ../../csl-orig/v00
 git pull origin master
 cd ../..
+echo ""
+echo ""
+
+echo "UPDATING THE FOLLOWING DICTIONARIES."
+echo "${dicts[*]}"
 echo ""
 echo ""
 
