@@ -42,7 +42,6 @@ bash redo_cologne_2020.sh
 cd ../..
 echo "STEP 3. CLONE THE DICTIONARY TEXT FILES FROM GITHUB."
 git clone https://github.com/sanskrit-lexicon/csl-orig.git
-cd csl-orig/v00
 cd ../..
 ```
 
