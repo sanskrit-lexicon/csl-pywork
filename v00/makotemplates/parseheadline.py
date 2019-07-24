@@ -9,7 +9,7 @@ from __future__ import print_function
 import sys
 import re
 # Make code python2, python3 compatible.
-if sys.version_info.major > 2:
+if sys.version_info[0] > 2:
     xrange = range
 
 def parseheadline(headline):
