@@ -8,16 +8,16 @@
 1.005a	HAUGHTON, A Dict. BENG. and S.	Haughton, A Dict. Beng. And S.	HAUGHTON, A Dict. BENG. and S. [Cologne Addition]
 1.006	AGNISV.	Agnisv.	AGNISV. = AGNISVĀMIN, ein Scholiast des LĀṬYĀYANA.
 1.007	ĀHNIKAT.	Āhnikat.	ĀHNIKAT. = ĀHNIKATATTVA.
-1.008	AIT. BR.	Ait. Br.	AIT. BR. = AITAREYABRĀHMAṆA. Citirt nach den 8 Pañcikā (einer<lb iast="AIT. BR.">äusseren Abtheilung, in welche die 40 nach sachlichen Rücksichten<lb iast="AIT. BR.">gebildeten Adhyāya zerlegt sind) und den innerhalb der Pañcikā<lb iast="AIT. BR.">durchlaufenden Kapitelzahlen. Hdschr. SĀYAṆA'S Commentar dazu.<lb iast="AIT. BR.">Hdschr.
-1.009	AIT. UP.	Ait. Up.	AIT. UP. = AITAREYOPANIṢAD, nach der Ausgabe von RÖER in der Bi-<lb iast="AIT. UP.">bliotheca indica.
-1.010	AK.	Ak.	AK. = AMARAKOṢA nach der Ausgabe von COLEBROOKE und LOISELEUR<lb iast="AK.">DESLONGCHAMPS (GILD. Bibl. 251. 253).
+1.008	AIT. BR.	Ait. Br.	AIT. BR. = AITAREYABRĀHMAṆA. Citirt nach den 8 Pañcikā (einer<lb>äusseren Abtheilung, in welche die 40 nach sachlichen Rücksichten<lb>gebildeten Adhyāya zerlegt sind) und den innerhalb der Pañcikā<lb>durchlaufenden Kapitelzahlen. Hdschr. SĀYAṆA'S Commentar dazu.<lb>Hdschr.
+1.009	AIT. UP.	Ait. Up.	AIT. UP. = AITAREYOPANIṢAD, nach der Ausgabe von RÖER in der Bi-<lb>bliotheca indica.
+1.010	AK.	Ak.	AK. = AMARAKOṢA nach der Ausgabe von COLEBROOKE und LOISELEUR<lb>DESLONGCHAMPS (GILD. Bibl. 251. 253).
 1.011	AMAR.	Amar.	AMAR. = AMARUŚATAKA nach der Calc. Ausg. (GILD. Bibl. 162).
 1.012	AMARAD.	Amarad.	AMARAD. = AMARADATTA.
 1.013	AMṚTAV. UP.	Amṛtav. Up.	AMṚTAV. UP. = AMṚTAVINDŪPANIṢAD.
 1.014	an.	an.	an. = ANEKĀRTHASAM̃GRAHA (s. H. an.).
 1.015	ĀNANDAL.	Ānandal.	*ĀNANDAL. = ĀNANDALAHARĪ in HAEB. Chrest. S. 246. fgg.
 1.016	ĀNANDAV.	Ānandav.	ĀNANDAV. = ĀNANDAVALLĪ.
-1.017	ANEKĀRTHADHV.	Anekārthadhv.	ANEKĀRTHADHV. = ANEKĀRTHADHVANIMAÑJARĪ, ein Wörterbuch; nach<lb iast="ANEKĀRTHADHV.">dem ŚKDR.
+1.017	ANEKĀRTHADHV.	Anekārthadhv.	ANEKĀRTHADHV. = ANEKĀRTHADHVANIMAÑJARĪ, ein Wörterbuch; nach<lb>dem ŚKDR.
 1.018	Anh.	Anh.	Anh. = Anhang.
 1.019	ANNAṂBH.	Annaṃbh.	ANNAM̃BH. = ANNAM̃BHAṬṬA.
 1.020	ANUKR.	Anukr.	ANUKR. = ANUKRAMAṆIKĀ.
@@ -27,62 +27,62 @@
 1.024	ĀRUṆ. UP.	Āruṇ. Up.	ĀRUṆ. UP. = ĀRUṆIKOPANIṢAD.
 1.025	As. Res.	As. Res.	As. Res. = Asiatick Researches; or, transactions of the Society insti- tuted in Bengal, for inquiring into the History and Antiquities, the Arts, Sciences, and Literature, of Asia. London.
 1.025a	Asiat. Res.	Asiat. Res.	Asiat. Res. = Asiatick Researches [Cologne Addition]
-1.026	AV.	Av.	AV. = ATHARVAVEDASAM̃HITĀ, herausg. von R. ROTH und W. D. WHITNEY.<lb iast="AV.">Berlin bei F. DÜMMLER. 1855. 8º. In den ersten Bogen des Wörter-<lb iast="AV.">buchs finden sich mehrere Citate, deren Zahlen mit der in der Aus-<lb iast="AV.">gabe angenommenen Zählung nicht ganz zusammentreffen. Man kann<lb iast="AV.">den Unterschied dadurch ausgleichen, dass man in den zusammen-<lb iast="AV.">gesetzten Liedern (Paryāyasūkta), welche in der Ausgabe als Ein-<lb iast="AV.">heiten gezählt sind, die Unterabtheilungen (Strophen) als besondere<lb iast="AV.">Lieder zählt.
+1.026	AV.	Av.	AV. = ATHARVAVEDASAM̃HITĀ, herausg. von R. ROTH und W. D. WHITNEY.<lb>Berlin bei F. DÜMMLER. 1855. 8º. In den ersten Bogen des Wörter-<lb>buchs finden sich mehrere Citate, deren Zahlen mit der in der Aus-<lb>gabe angenommenen Zählung nicht ganz zusammentreffen. Man kann<lb>den Unterschied dadurch ausgleichen, dass man in den zusammen-<lb>gesetzten Liedern (Paryāyasūkta), welche in der Ausgabe als Ein-<lb>heiten gezählt sind, die Unterabtheilungen (Strophen) als besondere<lb>Lieder zählt.
 1.027	AVAD. ŚAT.	Avad. Śat.	AVAD. ŚAT. = AVADĀNAŚATAKA, eine buddhistische Legendensammlung.
 1.028	AV. ANUKR.	Av. Anukr.	AV. ANUKR. = ANUKRAMAṆIKĀ des ATHARVAVEDA, 10 Paṭala. Hdschr.
 1.029	avy.	Avy.	avy. = avyaya (s. MED.).
 1.030	AV. PARIŚ.	Av. Pariś.	AV. PARIŚ. = PARIŚIṢṬA des ATHARVAVEDA.
-1.031	AV. PRĀT.	Av. Prāt.	AV. PRĀT. = PRĀTIŚĀKHYA zum ATHARVAVEDA. Citirt nach Adhyāya<lb iast="AV. PRĀT.">und Sūtra. Hdschr. Siehe ROTH'S Einl. z. NIRUKTA, S. XLVII.
+1.031	AV. PRĀT.	Av. Prāt.	AV. PRĀT. = PRĀTIŚĀKHYA zum ATHARVAVEDA. Citirt nach Adhyāya<lb>und Sūtra. Hdschr. Siehe ROTH'S Einl. z. NIRUKTA, S. XLVII.
 1.032	BĀLAB.	Bālab.	BĀLAB. = BĀLABODHANĪ in WINDISCHMANN'S Sancara (GILD. Bibl. 275).
 1.033	BENF. Chr.	Benf. Chr.	BENF. Chr. = BENFEY' Chrestomathie aus Sanskritwerken. Leipzig. 1853.
 1.034	BENF. Gr.	Benf. Gr.	BENF. Gr. = BENFEY, Vollständige Grammatik der Sanskritsprache. Leip- zig 1852.
 1.035	BHAG.	Bhag.	BHAG. = BHAGAVADGĪTĀ, Ausg. von SCHLEGEL (GILD. Bibl. 116).
-1.036	BHĀG. P.	Bhāg. P.	BHĀG. P. = BHĀGAVATAPURĀṆA, nach Anführungen im VP. und ŚKDR.<lb iast="BHĀG. P.">Von {#U#} an sind die 9 von BURNOUF edirten Skandha (Gild. Bibl. 125)<lb iast="BHĀG. P.">ausgebeutet worden.
-1.037	BHĀNUD.	Bhānud.	BHĀNUD. = BHĀNUDĪKṢITA, ein Commentator des AMARAKOṢA; nach<lb iast="BHĀNUD.">Anführungen im ŚKDR.
-1.038	BHAR.	Bhar.	BHAR. = BHARATA, ein Autor über Schauspielkunst, verschieden vom<lb iast="BHAR.">Scholiasten zum AK. (dieser nach Anführungen im ŚKDR.).
-1.039	BHARTṚ.	Bhartṛ.	BHARTṚ. = BHARTṚHARI, Ausg. von BOHLEN (GILD. Bibl. 156), mit Berück-<lb iast="BHARTṚ.">sichtigung des Werkchens; Variae lectiones ad Bohlenii editionem<lb iast="BHARTṚ.">Bhartriharis sententiarum pertinentes, e codicibus extractae per<lb iast="BHARTṚ.">A. SCHIEFNER et A. WEBER. Berolini 1850.
-1.040	BHĀṢĀP.	Bhāṣāp.	*BHĀṢĀP. = BHĀṢĀPARICCHEDA nach der Ausgabe von RÖER in der<lb iast="BHĀṢĀP.">Bibliotheca indica.
+1.036	BHĀG. P.	Bhāg. P.	BHĀG. P. = BHĀGAVATAPURĀṆA, nach Anführungen im VP. und ŚKDR.<lb>Von {#U#} an sind die 9 von BURNOUF edirten Skandha (Gild. Bibl. 125)<lb>ausgebeutet worden.
+1.037	BHĀNUD.	Bhānud.	BHĀNUD. = BHĀNUDĪKṢITA, ein Commentator des AMARAKOṢA; nach<lb>Anführungen im ŚKDR.
+1.038	BHAR.	Bhar.	BHAR. = BHARATA, ein Autor über Schauspielkunst, verschieden vom<lb>Scholiasten zum AK. (dieser nach Anführungen im ŚKDR.).
+1.039	BHARTṚ.	Bhartṛ.	BHARTṚ. = BHARTṚHARI, Ausg. von BOHLEN (GILD. Bibl. 156), mit Berück-<lb>sichtigung des Werkchens; Variae lectiones ad Bohlenii editionem<lb>Bhartriharis sententiarum pertinentes, e codicibus extractae per<lb>A. SCHIEFNER et A. WEBER. Berolini 1850.
+1.040	BHĀṢĀP.	Bhāṣāp.	*BHĀṢĀP. = BHĀṢĀPARICCHEDA nach der Ausgabe von RÖER in der<lb>Bibliotheca indica.
 1.041	BHAṬṬ.	Bhaṭṭ.	*BHAṬṬ. = BHAṬṬIKĀVYA, ed. Calc. (GILD. Bibl. 137).
-1.042	BHĀVAPR.	Bhāvapr.	BHĀVAPR. = BHĀVAPRAKĀŚA, ein medic. Wörterbuch; nach Anführungen<lb iast="BHĀVAPR.">im ŚKDR.
+1.042	BHĀVAPR.	Bhāvapr.	BHĀVAPR. = BHĀVAPRAKĀŚA, ein medic. Wörterbuch; nach Anführungen<lb>im ŚKDR.
 1.043	BHAV. P.	Bhav. P.	BHAV. P. = BHAVIṢYAPURĀṆA.
-1.044	BHŪRIPR.	Bhūripr.	BHŪRIPR. = BHŪRIPRAYOGA, ein Wörterbuch; nach Anführungen im<lb iast="BHŪRIPR.">ŚKDR.
-1.045	BRĀHMAṆ.	Brāhmaṇ.	BRĀHMAṆ. = BRĀHMAṆAVILĀPA in BOPP'S Ardschuna's Reise zu Indra's<lb iast="BRĀHMAṆ.">Himmel u. s. w. Berlin 1824.
+1.044	BHŪRIPR.	Bhūripr.	BHŪRIPR. = BHŪRIPRAYOGA, ein Wörterbuch; nach Anführungen im<lb>ŚKDR.
+1.045	BRĀHMAṆ.	Brāhmaṇ.	BRĀHMAṆ. = BRĀHMAṆAVILĀPA in BOPP'S Ardschuna's Reise zu Indra's<lb>Himmel u. s. w. Berlin 1824.
 1.046	BRAHMĀṆḌA-P.	Brahmāṇḍa-P.	BRAHMĀṆḌA-P. = BRAHMĀṆḌAPURĀṆA.
 1.047	BRAHMA-P.	Brahma-P.	BRAHMA-P. = BRAHMAPURĀṆA in LASSEN'S Anthologie (GILD. Bibl. 48).
 1.048	BRAHMAV. P.	Brahmav. P.	BRAHMAV. P. = BRAHMAVAIVARTAPURĀṆA.
 1.049	BRAHMA-S.	Brahma-S.	*BRAHMA-S. = BRAHMASŪTRA, nach Anführungen in WIND. Sancara.
 1.050	BRAHMOP.	Brahmop.	BRAHMOP. = BRAHMOPANIṢAD.
-1.051	BṚH. ĀR. UP.	Bṛh. Ār. Up.	BṚH. ĀR. UP. = BṚHADĀRAṆYAKOPANIṢAD, nach der Ausgabe von RÖER<lb iast="BṚH. ĀR. UP.">in der Bibliotheca indica.
+1.051	BṚH. ĀR. UP.	Bṛh. Ār. Up.	BṚH. ĀR. UP. = BṚHADĀRAṆYAKOPANIṢAD, nach der Ausgabe von RÖER<lb>in der Bibliotheca indica.
 1.051a	BṚH. ĀR.	Bṛh. Ār.	BṚH. ĀR. = ? BṚHADĀRAṆYAKOPANIṢAD, nach der Ausgabe von RÖER in der Bibliotheca indica. [Cologne Addition]
 1.052	BṚH. ĀR. UP. (POL.)	Bṛh. Ār. Up. (Pol.)	BṚH, ĀR. UP. (POL.) = id., in der Ausgabe von POLEY (GILD. Bibl. 78).
-1.053	BṚHASP.	Bṛhasp.	BṚHASP. = BṚHASPATI, Verfasser eines Gesetzbuchs; nach Anführungen<lb iast="BṚHASP.">in MIT. und DĀY.
+1.053	BṚHASP.	Bṛhasp.	BṚHASP. = BṚHASPATI, Verfasser eines Gesetzbuchs; nach Anführungen<lb>in MIT. und DĀY.
 1.054	BṚH. DEV.	Bṛh. Dev.	BṚH. DEV. = BṚHADDEVATĀ; S. R{%O%}TH, zur L. u. G. d. W. S. 49.
 1.055	Bull. hist.-phil.	Bull. Hist.-Phil.	Bull. hist.-phil. = Bulletin historico-philologique de l'Académie Im- périale des sciences de St.-Pétersbourg.
 1.056	BURN. Intr.	Burn. Intr.	BURN. Intr. = BURNOUF, Introduction à l'histoire du Buddhisme indien. Tome premier. Paris 1844.
 1.057	BURN. Lot. de la b. l.	Burn. Lot. De La B. L.	BURN. Lot. de la b. l. = Le Lotus de la bonne loi, traduit du Sanscrit etc. par M. E. BURNOUF. Paris 1852.
 1.058	ś.	Ś.	ś. = śeṣa (s. H.).
-1.059	ŚABDAC.	Śabdac.	ŚABDAC. = ŚABDACANDRIKĀ, ein Wörterbuch; nach Anführungen im<lb iast="ŚABDAC.">ŚKDR.
+1.059	ŚABDAC.	Śabdac.	ŚABDAC. = ŚABDACANDRIKĀ, ein Wörterbuch; nach Anführungen im<lb>ŚKDR.
 1.060	ŚABDAM.	Śabdam.	ŚABDAM. = ŚABDAMĀLĀ, ein Wörterbuch; nach Anführungen im ŚKDR.
-1.061	ŚABDAR.	Śabdar.	ŚABDAR. = ŚABDARATNĀVALĪ, ein Wörterbuch; nach Anführungen im<lb iast="ŚABDAR.">ŚKDR.
+1.061	ŚABDAR.	Śabdar.	ŚABDAR. = ŚABDARATNĀVALĪ, ein Wörterbuch; nach Anführungen im<lb>ŚKDR.
 1.062	ŚABDĀRṆ.	Śabdārṇ.	ŚABDĀRṆ. = ŚABDĀRṆAVA, ein Wörterbuch; nach Anführungen im ŚKDR.
-1.063	ŚĀK.	Śāk.	ŚĀK. = ŚĀKUNTALA, das Drama in der Ausgabe von BÖHTLINGK (GILD.<lb iast="ŚĀK.">Bibl. 191). Eine einfache Zahl bezeichnet den Śloka, eine doppelte<lb iast="ŚĀK.">-- Seite und Zeile.
+1.063	ŚĀK.	Śāk.	ŚĀK. = ŚĀKUNTALA, das Drama in der Ausgabe von BÖHTLINGK (GILD.<lb>Bibl. 191). Eine einfache Zahl bezeichnet den Śloka, eine doppelte<lb>-- Seite und Zeile.
 1.064	ŚĀK. CH.	Śāk. Ch.	ŚĀK. CH. = CHEZY'S Ausgabe des ŚĀKUNTALA (GILD. Bibl. 187).
-1.065	ŚAṂK.	Śaṃk.	ŚAṂK. oder ŚAṂKAR. = ŚAṂKARA (ein Scholiast des ŚĀKUNTALA) und ŚAM̃-<lb iast="ŚAṂK.">KARĀCĀRYA.
+1.065	ŚAṂK.	Śaṃk.	ŚAṂK. oder ŚAṂKAR. = ŚAṂKARA (ein Scholiast des ŚĀKUNTALA) und ŚAM̃-<lb>KARĀCĀRYA.
 1.065a	ŚAṂKAR.	Śaṃkar.	ŚAṂK. oder ŚAṂKAR. = ŚAṂKARA (ein Scholiast des ŚĀKUNTALA) und ŚAM̃- KARĀCĀRYA.
 1.065b	ŚAṂKARA	Śaṃkara	ŚAṂKARA o= ŚAṂKARA (ein Scholiast des ŚĀKUNTALA) und ŚAM̃- KARĀCĀRYA.
 1.066	ŚĀṄKH. BR.	Śāṅkh. Br.	ŚĀṄKH. BR. = ŚĀṄKHĀYANA'S BRĀHMAṆA.
 1.067	ŚĀṄKH. GṚHY.	Śāṅkh. Gṛhy.	ŚĀṄKH. GṚHY. = ŚĀṄKHĀYANA'S GṚHYASŪTRĀṆI.
 1.068	ŚĀṄKH. ŚR.	Śāṅkh. Śr.	ŚĀṄKH. ŚR. = ŚĀṄKHĀYANA'S ŚRAUTASŪTRĀṆI.
-1.069	ŚĀNT.	Śānt.	ŚĀNT. = ŚĀNTANĀCĀRYA'S PHIṬSŪTRĀṆI in BÖHTLINGK, Ein erster Versuch<lb iast="ŚĀNT.">über den Accent im Sanskrit. St. Petersburg 1843. Besonderer Ab-<lb iast="ŚĀNT.">druck aus: Mémoires de l'Académie Impériale des Sciences de St.-<lb iast="ŚĀNT.">Pétersbourg. Sixième série. Sciences politiques, histoire, philologie.<lb iast="ŚĀNT.">Tome VII. Saint-Pétersbourg 1848.
+1.069	ŚĀNT.	Śānt.	ŚĀNT. = ŚĀNTANĀCĀRYA'S PHIṬSŪTRĀṆI in BÖHTLINGK, Ein erster Versuch<lb>über den Accent im Sanskrit. St. Petersburg 1843. Besonderer Ab-<lb>druck aus: Mémoires de l'Académie Impériale des Sciences de St.-<lb>Pétersbourg. Sixième série. Sciences politiques, histoire, philologie.<lb>Tome VII. Saint-Pétersbourg 1848.
 1.070	ŚĀNTIŚ.	Śāntiś.	ŚĀNTIŚ. = ŚIHLANA'S ŚĀNTIŚATAKA in HAEBERLIN'S Anthology, S. 410. fgg.
 1.071	ŚĀRṄG.	Śārṅg.	ŚĀRṄG. = ŚĀRṄGADHARA.
-1.072	ŚĀRṄG. PADDH.	Śārṅg. Paddh.	ŚĀRṄG. PADDH. = ŚĀRṄGADHARA'S PADDHATI; vgl. Bulletin historico-philo-<lb iast="ŚĀRṄG. PADDH.">logique de l'Académie Impériale des sciences de St.-Pétersbourg.<lb iast="ŚĀRṄG. PADDH.">T. VIII, S. 113. fgg. oder Mélanges asiatiques, T. I, S. 279. fgg.
+1.072	ŚĀRṄG. PADDH.	Śārṅg. Paddh.	ŚĀRṄG. PADDH. = ŚĀRṄGADHARA'S PADDHATI; vgl. Bulletin historico-philo-<lb>logique de l'Académie Impériale des sciences de St.-Pétersbourg.<lb>T. VIII, S. 113. fgg. oder Mélanges asiatiques, T. I, S. 279. fgg.
 1.073	ŚATAR. UP.	Śatar. Up.	ŚATAR. UP. = ŚATARUDRIYOPANIṢAD.
-1.074	ŚAT. BR.	Śat. Br.	ŚAT. BR. = The ŚATAPATHABRĀHMAṆA in the Mādhyandina-Śākhā,<lb iast="ŚAT. BR.">with extracts made from the commentaries of SĀYAṆA, HARISVĀMIN<lb iast="ŚAT. BR.">and DVIVEDAGANGA, edited by Dr. ALBRECHT WEBER. Berlin FERD. DÜMM-<lb iast="ŚAT. BR.">LER'S Buchhandlung. London WILLIAMS and NORGATE. 1849.
+1.074	ŚAT. BR.	Śat. Br.	ŚAT. BR. = The ŚATAPATHABRĀHMAṆA in the Mādhyandina-Śākhā,<lb>with extracts made from the commentaries of SĀYAṆA, HARISVĀMIN<lb>and DVIVEDAGANGA, edited by Dr. ALBRECHT WEBER. Berlin FERD. DÜMM-<lb>LER'S Buchhandlung. London WILLIAMS and NORGATE. 1849.
 1.074a	ŚATAP. BR.	Śatap. Br.	ŚATAP. BR. = ŚATAPATHABRĀHMAṆA ? [Cologne Addition]
-1.075	ŚAUN. CAT.	Śaun. Cat.	ŚAUN. CAT. = ŚAUNAKA'S CATURĀDHYĀYIKĀ, citirt nach Adhyāya und<lb iast="ŚAUN. CAT.">Sūtra. = Av. Prāt.
+1.075	ŚAUN. CAT.	Śaun. Cat.	ŚAUN. CAT. = ŚAUNAKA'S CATURĀDHYĀYIKĀ, citirt nach Adhyāya und<lb>Sūtra. = Av. Prāt.
 1.076	ŚIŚ.	Śiś.	ŚIŚ. = ŚIŚUPĀLAVADHA, ed. Calc. (GILD. Bibl. 141).
-1.077	ŚIV.	Śiv.	ŚIV. = ŚIVANĀMASAHASRA, handschriftlich im Asiatischen Museum der<lb iast="ŚIV.">Kais. Ak. der Wissenschaften.
+1.077	ŚIV.	Śiv.	ŚIV. = ŚIVANĀMASAHASRA, handschriftlich im Asiatischen Museum der<lb>Kais. Ak. der Wissenschaften.
 1.078	ŚKDR.	Śkdr.	ŚKDR. = ŚABDAKALPADRUMA (GILD. Bibl. 371).
 1.079	Śl.	Śl.	Śl. = Śloka.
 1.080	COLEBR. Alg.	Colebr. Alg.	COLEBR. Alg. = Algebra, with Arithmetic and Mensuration, from the Sanscrit of BRAHMEGUPTA and BHÁSCARA. Translated by H. TH. COLE- BROOKE. London 1817. Nach Anführungen in HAUGHTON, A Dict. Beng. and S.
@@ -94,7 +94,7 @@
 1.081d	T. COLEBR. Misc. Ess.	T. Colebr. Misc. Ess.	T. COLEBR. Misc. Ess. = COLEBROOKE'S Miscellaneous Essays. 2 Bände. Lon- don 1837.
 1.082	ŚRĪDHAR.	Śrīdhar.	ŚRĪDHAR. = ŚRĪDHARASVĀMIN, ein Scholiast der BHAG.
 1.083	ŚṚṄGĀRAT.	Śṛṅgārat.	ŚṚṄGĀRAT. = ŚṚṄGĀRATILAKA, ed. GILDEMEISTER (GILD. Bibl. 151).
-1.084	ŚRUT.	Śrut.	ŚRUT. = ŚRUTABODHA in der Zeitschrift für die Kunde des Morgenlan-<lb iast="ŚRUT.">des, IV, S. 60 fgg. Ein dabeistehendes BR. verweist auf die von BROCK-<lb iast="ŚRUT.">HAUS besorgte Ausgabe in seinem Werke: Ueber den Druck Sanskri-<lb iast="ŚRUT.">tischer Werke mit Lateinischen Buchstaben. Leipzig 1841.
+1.084	ŚRUT.	Śrut.	ŚRUT. = ŚRUTABODHA in der Zeitschrift für die Kunde des Morgenlan-<lb>des, IV, S. 60 fgg. Ein dabeistehendes BR. verweist auf die von BROCK-<lb>HAUS besorgte Ausgabe in seinem Werke: Ueber den Druck Sanskri-<lb>tischer Werke mit Lateinischen Buchstaben. Leipzig 1841.
 1.085	ŚUK.	Śuk.	ŚUK. oder ŚUKAS. = ŚUKASAPTATI in LASSEN'S Anthologie (GILD. Bibl. 48).
 1.085a	ŚUKAS.	Śukas.	ŚUK. oder ŚUKAS. = ŚUKASAPTATI in LASSEN'S Anthologie (GILD. Bibl. 48).
 1.086	ŚVETĀŚV. UP.	Śvetāśv. Up.	ŚVETĀŚV. UP. = ŚVETĀŚVATAROPANIṢAD in der Bibliotheca indica.
@@ -103,7 +103,7 @@
 1.088a	WILSON, DAŚAK.	Wilson, Daśak.	*WILSON, DAŚAK. = DAŚAKUMĀRACARITA, ed. WILSON (GILD. Bibl. 236). [Cologne Addition]
 1.089	DĀY.	Dāy.	*DĀY. oder DĀYABH. = DĀYABHĀGA, ed. Calc. 1829 (GILD. Bibl. 344).
 1.089a	DĀYABH.	Dāyabh.	*DĀY. oder DĀYABH. = DĀYABHĀGA, ed. Calc. 1829 (GILD. Bibl. 344).
-1.090	DATT. MĪM.	Datt. Mīm.	*DATT. MĪM. = DATTAKAMĪMĀM̃SĀ, ed. Calc. 1817. 83 Seiten in 8º ohne<lb iast="DATT. MĪM.">Titel (GILD. Bibl. 349).
+1.090	DATT. MĪM.	Datt. Mīm.	*DATT. MĪM. = DATTAKAMĪMĀM̃SĀ, ed. Calc. 1817. 83 Seiten in 8º ohne<lb>Titel (GILD. Bibl. 349).
 1.091	DEV.	Dev.	DEV. = DEVĪMĀHĀTMYA, ed. POLEY (GILD. Bibl. 130).
 1.092	DHAR.	Dhar.	DHAR. = DHARAṆĪKOṢA, ein Wörterbuch; nach Anführungen im CKDR.
 1.093	DHĀTUP.	Dhātup.	DHĀTUP. = DHĀTUPĀṬHA in WESTERGAARD'S Radices (GILD. Bibl. 42).
@@ -112,10 +112,10 @@
 1.096	DIVYA-AV.	Divya-Av.	DIVYA-AV. = DIVYĀVADĀNA, eine buddhistische Legendensammlung.
 1.097	DRAUP.	Draup.	DRAUP. = DRAUPADĪPRAMĀTHA, ed. BOPP (GILD. Bibl. 106).
 1.098	DURGAD.	Durgad.	DURGAD. = DURGADĀSA.
-1.099	DVIRŪPAK.	Dvirūpak.	DVIRŪPAK. = DVIRŪPAKOṢA, eine Sammlung von Wörtern, die in Bezug<lb iast="DVIRŪPAK.">auf die Orthographie in doppelter Gestalt erscheinen; nach Anfüh-<lb iast="DVIRŪPAK.">rungen im ŚKDR.
+1.099	DVIRŪPAK.	Dvirūpak.	DVIRŪPAK. = DVIRŪPAKOṢA, eine Sammlung von Wörtern, die in Bezug<lb>auf die Orthographie in doppelter Gestalt erscheinen; nach Anfüh-<lb>rungen im ŚKDR.
 1.100	DVIVED.	Dvived.	DVIVED. = DVIVEDAGAṄGA, ein Scholiast des MĀDHYAM̃DINA-ĀRAṆYAKA u. s. w.
 1.101	JĀB. UP.	Jāb. Up.	JĀB. UP. = JĀBĀLOPANIṢAD.
-1.103	GAṆAR.	Gaṇar.	GAṆAR. = GAṆARATNAMAHODADHI, s. BÖHTLINGK, Einleitung zum PĀṆINI<lb iast="GAṆAR.">(GILD. Bibl. 244), II, S. XXXIX.
+1.103	GAṆAR.	Gaṇar.	GAṆAR. = GAṆARATNAMAHODADHI, s. BÖHTLINGK, Einleitung zum PĀṆINI<lb>(GILD. Bibl. 244), II, S. XXXIX.
 1.104	GARBHOP.	Garbhop.	GARBHOP. = GARBHOPANIṢAD.
 1.105	JAṬĀDH.	Jaṭādh.	JAṬĀDH. = JAṬĀDHARA, ein Lexicograph; nach Anführungen im CKDR.
 1.106	GAUḌAP.	Gauḍap.	*GAUḌAP. = GAUḌAPĀDA, ein Scholiast zu SĀM̃KHYAK.
@@ -129,20 +129,20 @@
 1.112a	GORRESIO	Gorresio	GORRESIO = ? [Cologne Addition]
 1.113	GOT. S.	Got. S.	GOT. S. = GOTAMA'S SŪTRĀṆI, s. NYĀYA-S.
 1.114	GOVINDABH.	Govindabh.	GOVINDABH. = GOVINDABHAṬṬA.
-1.115	GṚHYASAṂGR.	Gṛhyasaṃgr.	GṚHYASAM̃GR. = GṚHYASAM̃GRAHAPARIŚIṢTA, 2 Prapāṭhaka von 106 und<lb iast="GṚHYASAṂGR.">103 Versen; vgl. ROTH, Zur L. u. G. d. W. S. 120. Hdschr.
-1.116	H.	H.	H. = HEMACANDRA'S ABHIDHĀNACINTĀMAṆI, ein systematisch angeordnetes<lb iast="H.">synonymisches Lexicon. Herausgegeben, übersetzt und mit Anmer-<lb iast="H.">kungen begleitet von OTTO BÖHTLINGK und CHARLES RIEU. St. Peters-<lb iast="H.">burg 1847.
+1.115	GṚHYASAṂGR.	Gṛhyasaṃgr.	GṚHYASAM̃GR. = GṚHYASAM̃GRAHAPARIŚIṢTA, 2 Prapāṭhaka von 106 und<lb>103 Versen; vgl. ROTH, Zur L. u. G. d. W. S. 120. Hdschr.
+1.116	H.	H.	H. = HEMACANDRA'S ABHIDHĀNACINTĀMAṆI, ein systematisch angeordnetes<lb>synonymisches Lexicon. Herausgegeben, übersetzt und mit Anmer-<lb>kungen begleitet von OTTO BÖHTLINGK und CHARLES RIEU. St. Peters-<lb>burg 1847.
 1.117	HAEB. Chrest.	Haeb. Chrest.	*HAEB. Chrest. = KĀVYA-SANGRAHA. A Sanscrit Anthology, being A Col- lection of the best Smaller Poems in the Sanscrit language. By Dr. YOHN HAEBERLIN. Calcutta: W. THACKER and Co. 1847.
 1.118	HALĀY.	Halāy.	HALĀY. = HALĀYUDHA, ein Lexicograph; nach Anführungen im ŚKDR.
 1.119	H. an.	H. an.	H. an. = HEMACANDRA'S ANEKĀRTHASAM̃GRAHA, ed. Calc. (GILD. Bibl. 259).
 1.120	HĀR.	Hār.	HĀR. = HĀRĀVALĪ, ed. Calc. (GILD. Bibl. 258).
 1.121	HARISV.	Harisv.	HARISV. = HARISVĀMIN, ein Scholiast des ŚAT. BR.
-1.122	HARIV.	Hariv.	*HARIV. = HARIVAṂŚA im 4ten Bande des MBH. Aus diesem Werke haben<lb iast="HARIV.">wir die Nomina propria mit Benutzung des Index in der LANGLOIS'-<lb iast="HARIV.">schen Uebersetzung (GILD. Bibl. 122) aufgenommen.
-1.123	H. Ś.	H. Ś.	H. Ś. = die Śeṣa's zu HEMACANDRA'S ABHIDHĀNACINTĀMAṆI (s. unter H.),<lb iast="H. Ś.">S. 421--443.
-1.124	HIḌ.	Hiḍ.	HIḌ. = HIḌIMBAVADHA in BOPP'S Ardschuna's Reise zu Indra's Himmel,<lb iast="HIḌ.">nebst anderen Episoden des Maha-Bharata. Berlin 1824.
+1.122	HARIV.	Hariv.	*HARIV. = HARIVAṂŚA im 4ten Bande des MBH. Aus diesem Werke haben<lb>wir die Nomina propria mit Benutzung des Index in der LANGLOIS'-<lb>schen Uebersetzung (GILD. Bibl. 122) aufgenommen.
+1.123	H. Ś.	H. Ś.	H. Ś. = die Śeṣa's zu HEMACANDRA'S ABHIDHĀNACINTĀMAṆI (s. unter H.),<lb>S. 421--443.
+1.124	HIḌ.	Hiḍ.	HIḌ. = HIḌIMBAVADHA in BOPP'S Ardschuna's Reise zu Indra's Himmel,<lb>nebst anderen Episoden des Maha-Bharata. Berlin 1824.
 1.125	Hindu Th. (WILSON)	Hindu Th. (Wilson)	Hindu Th. (WILSON) = Select specimens of the Theatre of the Hindus, translated from the original Sanscrit, by HORACE HAYMAN WILSON. Second edition. London 1835.
-1.125a	WILSON, Hindu Th.	Wilson, Hindu Th.	WILSON, Hindu Th. = Select specimens of the Theatre of the Hindus,<lb iast="WILSON, Hindu Th.">translated from the original Sanscrit, by HORACE HAYMAN WILSON.<lb iast="WILSON, Hindu Th.">Second edition. London 1835. [Cologne Addition]
+1.125a	WILSON, Hindu Th.	Wilson, Hindu Th.	WILSON, Hindu Th. = Select specimens of the Theatre of the Hindus,<lb>translated from the original Sanscrit, by HORACE HAYMAN WILSON.<lb>Second edition. London 1835. [Cologne Addition]
 1.126	HIOUEN-THSANG	Hiouen-Thsang	HIOUEN-THSANG = Histoire de la vie de HIOUEN-THSANG et de ses voya- ges dans l'Inde, traduite du Chinois par STANISLAS YULIEN. Paris 1853.
-1.127	HIT.	Hit.	HIT. = HITOPADEŚA, ed. SCHLEGEL und LASSEN (GILD. Bibl. 225). Eine<lb iast="HIT.">darauf folgende römische Zahl bezeichnet das Buch, eine arabische<lb iast="HIT.">--die Seite; die zweite Zahl bezeichnet dort den Śloka, hier die<lb iast="HIT.">Zeile.
+1.127	HIT.	Hit.	HIT. = HITOPADEŚA, ed. SCHLEGEL und LASSEN (GILD. Bibl. 225). Eine<lb>darauf folgende römische Zahl bezeichnet das Buch, eine arabische<lb>--die Seite; die zweite Zahl bezeichnet dort den Śloka, hier die<lb>Zeile.
 1.128	HIT. Pr.	Hit. Pr.	HIT. Pr. = Prooemium im HIT.
 1.129	HORĀŚ.	Horāś.	HORĀŚ. = HORĀŚĀSTRA.
 1.130	Hort. beng.	Hort. Beng.	Hort. beng. = Hortus bengalensis. Serampore 1814. 8vo, citirt nach HAUGHTON'S Wörterbuch.
@@ -150,20 +150,20 @@
 1.132	ĪŚOP.	Īśop.	ĪŚOP. = ĪŚOPANIṢAD in der Bibliotheca indica.
 1.133	Ind. des KANDYUR	Ind. Des Kandyur	*Ind. des KANDYUR = Index des KANDYUR. Herausgegeben von der Kai- serlichen Akademie der Wissenschaften und bevorwortet von I. Y. SCHMIDT. St. Petersburg 1845.
 1.133a	Index des KANDJUR	Index Des Kandjur	Index des KANDJUR = ? [Cologne Addition]
-1.134	INDR.	Indr.	INDR. = INDRALOKĀGAMANA in BOPP'S Ardschuna's Reise zu Indra's Him-<lb iast="INDR.">mel u. s. w.
+1.134	INDR.	Indr.	INDR. = INDRALOKĀGAMANA in BOPP'S Ardschuna's Reise zu Indra's Him-<lb>mel u. s. w.
 1.135	Ind. St.	Ind. St.	Ind. St. = WEBER'S Indische Studien.
 1.135a	WEBER, Ind. St.	Weber, Ind. St.	WEBER, Ind. St. = WEBER'S Indische Studien. [Cologne Addition]
 1.136	Institutt. (LASSEN)	Institutt. (Lassen)	Institutt. (LASSEN) = Institutiones linguae pracriticae. Scripsit CHRI- STIANUS LASSEN. Bonnae ad Rhenum 1837.
 1.137	ITIH.	Itih.	ITIH. = ITIHĀSA.
 1.137a	ITIHĀSA	Itihāsa	ITIHĀSA = ? [Cologne Addition]
-1.138	YĀJÑ.	Yājñ.	YĀJÑ. = YĀJÑAVALKYA'S Gesetzbuch. Sanskrit und Deutsch herausge-<lb iast="YĀJÑ.">geben von Dr. ADOLPH FRIEDRICH STENZLER. Berlin und London 1849.
-1.139	YAJÑAD. (LOIS.)	Yajñad. (Lois.)	YAJÑAD. (LOIS.) = YAJÑNADATTABADHA, ou la mort de YAJÑNADATTA, épisode<lb iast="YAJÑAD. (LOIS.)">du RAMAYANA, publié u. s. w. par AUGUSTE LOISELEUR DESLONGCHAMPS.<lb iast="YAJÑAD. (LOIS.)">Paris 1829.
+1.138	YĀJÑ.	Yājñ.	YĀJÑ. = YĀJÑAVALKYA'S Gesetzbuch. Sanskrit und Deutsch herausge-<lb>geben von Dr. ADOLPH FRIEDRICH STENZLER. Berlin und London 1849.
+1.139	YAJÑAD. (LOIS.)	Yajñad. (Lois.)	YAJÑAD. (LOIS.) = YAJÑNADATTABADHA, ou la mort de YAJÑNADATTA, épisode<lb>du RAMAYANA, publié u. s. w. par AUGUSTE LOISELEUR DESLONGCHAMPS.<lb>Paris 1829.
 1.140	YAJ. V.	Yaj. V.	YAJ. V. = YAJURVEDA.
 1.141	YAVANEŚV.	Yavaneśv.	YAVANEŚV. = YAVANEŚVARA.
 1.142	YOGAT.	Yogat.	YOGAT. = YOGATATTVA, S. Ind. St. 2, 49.
 1.143	Journ. as.	Journ. As.	Journ. as. = Journal asiatique.
 1.143a	Journ. asiat.	Journ. Asiat.	Journ. asiat. = Journal asiatique.
-1.144	KĀŚ.	Kāś.	KĀŚ. = KĀŚIKĀVṚTTI; s. die Einleitung zu BÖHTLINGK'S Ausgabe des<lb iast="KĀŚ.">PĀṆINI, S. LIII.
+1.144	KĀŚ.	Kāś.	KĀŚ. = KĀŚIKĀVṚTTI; s. die Einleitung zu BÖHTLINGK'S Ausgabe des<lb>PĀṆINI, S. LIII.
 1.145	KĀDAMB.	Kādamb.	KĀDAMB. = KĀDAMBARĪ.
 1.146	KAIY.	Kaiy.	KAIY. = KAIYAṬA, ein Erklärer von PATAÑJALI'S MAHĀBHĀṢYA.
 1.147	KAIV. UP.	Kaiv. Up.	KAIV. UP. = KAIVALYOPANIṢAD.
@@ -173,40 +173,40 @@
 1.151	CĀṆ.	Cāṇ.	CĀṆ. = CĀṆAKYA in HAEB. Chrest. S. 312--322.
 1.152	Kār.	Kār.	Kār. = Kārikā.
 1.153	KĀṬ.	Kāṭ.	KĀṬ. = KĀṬAVEMA, ein Scholiast des ŚĀKUNTALA.
-1.154	CĀT.	Cāt.	CĀT. = Gedicht vom Vogel Cātaka in der Zeitschrift für die Kunde<lb iast="CĀT.">des Morgenlandes, IV, S. 374--376.
+1.154	CĀT.	Cāt.	CĀT. = Gedicht vom Vogel Cātaka in der Zeitschrift für die Kunde<lb>des Morgenlandes, IV, S. 374--376.
 1.155	KĀṬH.	Kāṭh.	KĀṬH. = KĀṬHAKA-Recension des YĀJ. V.
 1.156	KATHĀS.	Kathās.	KATHĀS. = KATHĀSARITSĀGARA, ed. BROCKHAUS (GILD. Bibl. 237).
 1.156a	KATHĀSARITSĀGARA	Kathāsaritsāgara	KATHĀSARITSĀGARA [Cologne Addition]
 1.157	KAṬHOP.	Kaṭhop.	KAṬHOP. = KAṬHOPANIṢAD in der Bibliotheca indica.
 1.158	KĀTY.	Kāty.	KĀTY. = KĀTYĀYANA.
 1.159	KĀTY. ŚR.	Kāty. Śr.	KĀTY. ŚR. = KĀTYĀYANA'S ŚRAUTASŪTRĀṆI. 26 Adhyāya. Hdschr.
-1.160	CATURBH.	Caturbh.	CATURBH. = CATURBHUJA, ein Scholiast des MAHĀBHĀRATA; nach An-<lb iast="CATURBH.">führungen in BOPP'S Ausgabe des Nala (s. unter N.).
-1.161	KAUŚ.	Kauś.	KAUŚ. = KAUŚIKA'S SŪTRA zum ATHARVAVEDA. 14 Adhyāya. Die Kaṇ-<lb iast="KAUŚ.">ḍikā sind durchgezählt. Hdschr.
+1.160	CATURBH.	Caturbh.	CATURBH. = CATURBHUJA, ein Scholiast des MAHĀBHĀRATA; nach An-<lb>führungen in BOPP'S Ausgabe des Nala (s. unter N.).
+1.161	KAUŚ.	Kauś.	KAUŚ. = KAUŚIKA'S SŪTRA zum ATHARVAVEDA. 14 Adhyāya. Die Kaṇ-<lb>ḍikā sind durchgezählt. Hdschr.
 1.162	CAURAP.	Caurap.	CAURAP. = CAURAPAÑCĀŚIKĀ, ed. BOHLEN (GILD. Bibl. 156).
 1.163	KAUṢ. BR.	Kauṣ. Br.	KAUṢ. BR. = KAUṢĪTAKIBRĀHMAṆA.
 1.164	KAUṢ. UP.	Kauṣ. Up.	KAUṢ. UP. = KAUṢĪTAKYUPANIṢAD.
-1.165	KAVIKALPADR.	Kavikalpadr.	KAVIKALPADR. = KAVIKALPADRUMA, eine Wurzelsammlung; nach Anfüh-<lb iast="KAVIKALPADR.">rungen im ŚKDR.
-1.166	KĀVYAC.	Kāvyac.	KĀVYAC. = KĀVYACANDRIKĀ, ein Lehrbuch der Rhetorik; nach Anfüh-<lb iast="KĀVYAC.">rungen im ŚKDR.
+1.165	KAVIKALPADR.	Kavikalpadr.	KAVIKALPADR. = KAVIKALPADRUMA, eine Wurzelsammlung; nach Anfüh-<lb>rungen im ŚKDR.
+1.166	KĀVYAC.	Kāvyac.	KĀVYAC. = KĀVYACANDRIKĀ, ein Lehrbuch der Rhetorik; nach Anfüh-<lb>rungen im ŚKDR.
 1.167	KĀVYA-PR.	Kāvya-Pr.	*KĀVYA-PR. = KĀVYAPRAKĀŚA, ed. Calc. (GILD. Bibl. 265).
 1.168	KENOP.	Kenop.	KENOP. = KENOPANIṢAD in der Bibliotheca indica.
-1.169	CHANDOM.	Chandom.	CHANDOM. = CHANDOMAÑJARĪ, ein Werk über Metrik; nach Anführungen<lb iast="CHANDOM.">im ŚKDR.
-1.170	CHĀND. UP.	Chānd. Up.	CHĀND. UP. = CHĀNDOGYOPANIṢAD, nach der Ausgabe von RÖER in der<lb iast="CHĀND. UP.">Bibliotheca indica.
+1.169	CHANDOM.	Chandom.	CHANDOM. = CHANDOMAÑJARĪ, ein Werk über Metrik; nach Anführungen<lb>im ŚKDR.
+1.170	CHĀND. UP.	Chānd. Up.	CHĀND. UP. = CHĀNDOGYOPANIṢAD, nach der Ausgabe von RÖER in der<lb>Bibliotheca indica.
 1.171	KIR.	Kir.	*KIR. = KIRĀTĀRJUNĪYA, ed. Calc. (GILD. Bibl. 139).
 1.172	KOS.	Kos.	KOS. = KOSEGARTEN.
 1.173	KOṢṬHĪPR.	Koṣṭhīpr.	KOṢṬHĪPR. = KOṢṬHĪPRADĪPA, nach Anführungen im ŚKDR.
 1.173a	KOṢṬHĪPRADĪPA	Koṣṭhīpradīpa	KOṢṬHĪPRADĪPA, nach Anführungen im ŚKDR. [Cologne Addition]
-1.174	KULL.	Kull.	*KULL. = KULLŪKA, ein Scholiast des MANU, vollständig abgedruckt unter<lb iast="KULL.">andern in der Calc. Ausg. von 1830 (GILD. Bibl. 288).
+1.174	KULL.	Kull.	*KULL. = KULLŪKA, ein Scholiast des MANU, vollständig abgedruckt unter<lb>andern in der Calc. Ausg. von 1830 (GILD. Bibl. 288).
 1.174a	KULLŪKA	Kullūka	KULLŪKA, ein Scholiast des MANU, vollständig abgedruckt unter andern in der Calc. Ausg. von 1830 (GILD. Bibl. 288). [Cologne Addition]
 1.174b	KULLŪKABHAṬṬA	Kullūkabhaṭṭa	KULLŪKABHAṬṬA, ein Scholiast des MANU, vollständig abgedruckt unter andern in der Calc. Ausg. von 1830 (GILD. Bibl. 288). [Cologne Addition]
 1.175	KUMĀRAS.	Kumāras.	KUMĀRAS. = KUMĀRASAM̃BHAVA, ed. STENZLER (GILD. Bibl. 136).
-1.176	KUNT.	Kunt.	KUNT. = KUNTĀPA, zehn Lieder, welche einen besondern Abschnitt<lb iast="KUNT.">von AV. Buch 20 bilden.
+1.176	KUNT.	Kunt.	KUNT. = KUNTĀPA, zehn Lieder, welche einen besondern Abschnitt<lb>von AV. Buch 20 bilden.
 1.177	KŪRMA-P.	Kūrma-P.	KŪRMA-P. = KŪRMAPURĀṆA.
-1.178	KUVALAY.	Kuvalay.	KUVALAY. = KUVALAYĀNANDA (Rhetorik) von APYADĪKṢITA mit dem ALAM̃-<lb iast="KUVALAY.">KĀRACANDRIKĀ genannten Commentar des VAIDYANĀTHA. Pūna 1846.<lb iast="KUVALAY.">176 Bll. querfolio.
+1.178	KUVALAY.	Kuvalay.	KUVALAY. = KUVALAYĀNANDA (Rhetorik) von APYADĪKṢITA mit dem ALAM̃-<lb>KĀRACANDRIKĀ genannten Commentar des VAIDYANĀTHA. Pūna 1846.<lb>176 Bll. querfolio.
 1.179	LA.	La.	LA. = LASSEN'S Anthologie (GILD. Bibl. 48).
 1.180	LAGHUJ.	Laghuj.	LAGHUJ. = VARĀHAMIHIRA'S LAGHUJĀTAKA.
 1.180a	LAGHUJĀT.	Laghujāt.	LAGHUJAT. = VARĀHAMIHIRA'S LAGHUJĀTAKA. [Cologne Addition]
 1.180b	VARĀH. LAGHUJ.	Varāh. Laghuj.	VARĀH. LAGHUJ. = VARĀHAMIHIRA'S LAGHUJĀTAKA. [Cologne Addition]
-1.181	LALIT.	Lalit.	LALIT. = RGYA TCH'ER ROL PA (LALITAVISTĀRA) ou Développement des<lb iast="LALIT.">yeux, traduit etc. par PH. ÉD. FOUCAUX. Deuxième partie--Traduc-<lb iast="LALIT.">tion franśaise. Paris 1848.
+1.181	LALIT.	Lalit.	LALIT. = RGYA TCH'ER ROL PA (LALITAVISTĀRA) ou Développement des<lb>yeux, traduit etc. par PH. ÉD. FOUCAUX. Deuxième partie--Traduc-<lb>tion franśaise. Paris 1848.
 1.182	LALIT. Calc	Lalit. Calc	*LALIT. Calc. = LALITAVISTARA in der Bibliotheca indica.
 1.183	LĀṬY.	Lāṭy.	LĀṬY. = LĀṬYĀYANA'S SŪTRA zum SV. Hdschr.
 1.184	Lebensb. (SCHIEFNER)	Lebensb. (Schiefner)	Lebensb. (SCHIEFNER) = Eine tibetische Lebensbeschreibung Śākyamu- ni's, des Begründers des Buddhathums, im Auszuge mitgetheilt von [Page09-b+ 66] A. SCHIEFNER, in Mémoires présentés à l'Académie Impériale des sciences de St.-Pétersbourg par divers savants. T. VI. Die in Klam- mern beigefügte Seitenzahl bezieht sich auf die Separatabdrücke.
@@ -220,23 +220,23 @@
 1.188a	WEBER. Lit.	Weber. Lit.	WEBER. Lit. = Akademische Vorlesungen über Indische Literatur- geschichte. Gehalten von A. WEBER. Berlin 1852. [Cologne Addition]
 1.188b	WEBER, Lit.	Weber, Lit.	WEBER, Lit. = Akademische Vorlesungen über Indische Literatur- geschichte. Gehalten von A. WEBER. Berlin 1852. [Cologne Addition]
 1.189	LOIS.	Lois.	LOIS. = LOISELEUR DESLONGCHAMPS.
-1.190	M.	M.	M. = MANU'S Gesetzbuch in der Ausg. von LOISELEUR DESLONGCHAMPS<lb iast="M.">(GILD. Bibl. 289).
+1.190	M.	M.	M. = MANU'S Gesetzbuch in der Ausg. von LOISELEUR DESLONGCHAMPS<lb>(GILD. Bibl. 289).
 1.191	MAŚ.	Maś.	MAŚ. oder MAŚ. S. = MAŚAKA'S KALPASŪTRĀṆI.
 1.191a	MAŚ. S.	Maś. S.	MAŚ. oder MAŚ. S. = MAŚAKA'S KALPASŪTRĀṆI.
 1.192	MĀDHAVAK.	Mādhavak.	MĀDHAVAK. = MĀDHAVAKĀRA.
 1.193	MĀDHY. Rec.	Mādhy. Rec.	MĀDHY. Rec. = MĀDHYAM̃DINA-Recension.
-1.194	MADHUS.	Madhus.	MADHUS. = MADHUSŪDANASARASVATĪ'S PRASTHĀNABHEDA in den Indischen<lb iast="MADHUS.">Studien, I, S. 13--24.
+1.194	MADHUS.	Madhus.	MADHUS. = MADHUSŪDANASARASVATĪ'S PRASTHĀNABHEDA in den Indischen<lb>Studien, I, S. 13--24.
 1.195	MAHĀNĀR. UP.	Mahānār. Up.	MAHĀNĀR. UP. = MAHĀNĀRĀYAṆOPANIṢAD.
-1.196	MAHĀV.	Mahāv.	*MAHĀV. = MAHĀVĪRACARITA. The Mahá Víra Charita, or the history of<lb iast="MAHĀV.">Ráma, a Sanscrit play, by BHAṬṬA BHAVABHÚTI. Edited by FRANCIS<lb iast="MAHĀV.">HENRY TRITHEN. London 1848.
+1.196	MAHĀV.	Mahāv.	*MAHĀV. = MAHĀVĪRACARITA. The Mahá Víra Charita, or the history of<lb>Ráma, a Sanscrit play, by BHAṬṬA BHAVABHÚTI. Edited by FRANCIS<lb>HENRY TRITHEN. London 1848.
 1.197	MAHĪDH.	Mahīdh.	MAHĪDH. = MAHĪDHARA, Scholiast der VS.
 1.198	MAHOP.	Mahop.	MAHOP. = MAHOPANIṢAD.
 1.199	MAITR. UP.	Maitr. Up.	MAITR. UP. = MAITRĀYAṆYUPANIṢAD.
-1.200	MALAMĀSAT.	Malamāsat.	MALAMĀSAT. = MALAMĀSATATTVA (GILD. Bibl. 325), nach Anführungen<lb iast="MALAMĀSAT.">im ŚKDR.
+1.200	MALAMĀSAT.	Malamāsat.	MALAMĀSAT. = MALAMĀSATATTVA (GILD. Bibl. 325), nach Anführungen<lb>im ŚKDR.
 1.201	MĀLAT.	Mālat.	*MĀLAT. = MĀLATĪMĀDHAVA, ed. Calc. (GILD. Bibl. 210).
 1.202	MĀLAV.	Mālav.	*MĀLAV. = MĀLAVIKĀGNIMITRA, ed. TULLBERG (GILD. Bibl. 209).
 1.203	MALLIN.	Mallin.	MALLIN. = MALLINĀTHA.
 1.204	MĀṆD. UP.	Māṇd. Up.	MĀṆḌ. UP. = MĀṆḌŪKYOPANIṢAD in der Bibliotheca indica.
-1.205	MĀṆḌ. UP. Kār.	Māṇḍ. Up. Kār.	MĀṆḌ. UP. Kār. = GAUḌAPĀDA'S Kārikā zur MĀṆḌ. UP. in der Biblio-<lb iast="MĀṆḌ. UP. Kār.">theca indica.
+1.205	MĀṆḌ. UP. Kār.	Māṇḍ. Up. Kār.	MĀṆḌ. UP. Kār. = GAUḌAPĀDA'S Kārikā zur MĀṆḌ. UP. in der Biblio-<lb>theca indica.
 1.205a	MĀṆḌ. UP.	Māṇḍ. Up.	MĀṆḌ. UP. = GAUḌAPĀDA'S Kārikā zur MĀṆḌ. UP. in der Biblio- theca indica.
 1.206	MAÑJUŚRĪN.	Mañjuśrīn.	MAÑJUŚRĪN. = ĀRYAMAÑJUŚRĪNĀMASAM̃GĪTI, s. Verz. d. Pet. H. No. 121.
 1.207	Mat. ind. (AINSLIE)	Mat. Ind. (Ainslie)	Mat. ind. (AINSLIE) = Materia indica; or some account of those articles which are employed by the Hindoes, or eastern nations, in their me- dicine, arts and agriculture etc. London. Vol. I. 1826. Vol. II. 1831.
@@ -244,8 +244,8 @@
 1.208	MATSYA-P.	Matsya-P.	MATSYA-P. = MATSYAPURĀṆA.
 1.208a	MĀTSYA-P. iast=	Mātsya-P. Iast=	MĀTSYA-P. = MĀTSYAPURĀṆA MATSYAPURĀṆA.
 1.209	MATSYOP.	Matsyop.	MATSYOP. = MATSYOPĀKHYĀNA, ed. BOPP (GILD. Bibl. 106).
-1.210	MBH.	Mbh.	MBH. = MAHĀBHĀRATA, ed. Calc. (GILD. Bibl. 93). Von S. 521 des Wörter-<lb iast="MBH.">buchs sind die drei ersten Bücher, von S. 601 auch die fünf letzten,<lb iast="MBH.">von {#U#} an auch das 13te Buch ausgebeutet worden.
-1.211	MED.	Med.	MED. = MEDINĪKOṢA, ed. Calc. (GILD. Bibl. 258). Die Wörter sind zu-<lb iast="MED.">nächst nach dem letzten Consonanten im Worte angeordnet: also<lb iast="MED.">{#kAnta#} (k), {#khAnta#} (kh), {#gAnta#} (g) u. s. w. Die Partikeln (avyaya) bilden<lb iast="MED.">einen besondern Abschnitt am Ende, den wir durch avy. bezeichnet<lb iast="MED.">haben.
+1.210	MBH.	Mbh.	MBH. = MAHĀBHĀRATA, ed. Calc. (GILD. Bibl. 93). Von S. 521 des Wörter-<lb>buchs sind die drei ersten Bücher, von S. 601 auch die fünf letzten,<lb>von {#U#} an auch das 13te Buch ausgebeutet worden.
+1.211	MED.	Med.	MED. = MEDINĪKOṢA, ed. Calc. (GILD. Bibl. 258). Die Wörter sind zu-<lb>nächst nach dem letzten Consonanten im Worte angeordnet: also<lb>{#kAnta#} (k), {#khAnta#} (kh), {#gAnta#} (g) u. s. w. Die Partikeln (avyaya) bilden<lb>einen besondern Abschnitt am Ende, den wir durch avy. bezeichnet<lb>haben.
 1.212	MEGH.	Megh.	MEGH. = MEGHADŪTA, ed. GILDEMEISTER (GILD. Bibl. 151).
 1.213	Mél. asiat.	Mél. Asiat.	Mél. asiat. = Mélanges asiatiques tirés du Bulletin historico-philologique de l'Académie Impériale des sciences de St.-Pétersbourg.
 1.213a	Mél. as.	Mél. As.	Mél. as. = Mél. asiat. ?
@@ -257,51 +257,51 @@
 1.216	MṚCCH.	Mṛcch.	MṚCCH. = MṚCCHAKAṬIKĀ, ed. STENZLER (GILD. Bibl. 186).
 1.217	MUDRĀR.	Mudrār.	*MUDRĀR. = MUDRĀRĀKṢASA, ed. Calc. (GILD. Bibl. 213).
 1.218	MUṆḌ. UP.	Muṇḍ. Up.	MUṆḌ. UP. = MUṆḌAKOPANIṢAD in der Bibliotheca indica.
-1.219	N.	N.	N. = NALOPĀKHYĀNA in BÖHTLINGK'S Chrestomathie (GILD. Bibl. 49). Die<lb iast="N.">BOPP'sche Ausgabe (GILD. Bibl. 99) ist durch N. (BOPP) bezeichnet.
-1.220	NAIGH.	Naigh.	NAIGH. = das, YĀSKA'S NIRUKTA zu Grunde liegende NAIGHAṆṬUKAKĀṆḌA.<lb iast="NAIGH.">S. unter NIR.
+1.219	N.	N.	N. = NALOPĀKHYĀNA in BÖHTLINGK'S Chrestomathie (GILD. Bibl. 49). Die<lb>BOPP'sche Ausgabe (GILD. Bibl. 99) ist durch N. (BOPP) bezeichnet.
+1.220	NAIGH.	Naigh.	NAIGH. = das, YĀSKA'S NIRUKTA zu Grunde liegende NAIGHAṆṬUKAKĀṆḌA.<lb>S. unter NIR.
 1.221	NAIṢ.	Naiṣ.	*NAIṢ. = NAIṢADHACARITA, ed. Calc. (GILD. Bibl. 143).
-1.222	NĀNĀRTHAK.	Nānārthak.	NĀNĀRTHAK. = NĀNĀRTHAKOṢA, eine Sammlung von Wörtern, die ver-<lb iast="NĀNĀRTHAK.">schiedene Bedeutungen haben; nach Anführungen im ŚKDR.
+1.222	NĀNĀRTHAK.	Nānārthak.	NĀNĀRTHAK. = NĀNĀRTHAKOṢA, eine Sammlung von Wörtern, die ver-<lb>schiedene Bedeutungen haben; nach Anführungen im ŚKDR.
 1.223	NĀR.	Nār.	NĀR. = NĀRĀYAṆA, ein Scholiast von ŚAṄKH. GṚHY.
 1.224	NAVAR.	Navar.	NAVAR. = NAVARATNA in HAEB. {%C%}hrest. S. 1--3.
 1.225	NIDĀNA-S.	Nidāna-S.	NIDĀNA-S. = NIDĀNASŪTRA.
-1.226	NĪL.	Nīl.	NĪL. oder NĪLAK. = NĪLAKAṆṬHA, ein Scholiast des MAHĀBHĀRATA (an-<lb iast="NĪL.">geführt in BOPP'S Ausgabe des NALA) und auch des AK. (angeführt<lb iast="NĪL.">im ŚKDR.).
-1.227	NIR.	Nir.	NIR. = YĀSKA'S NIRUKTA sammt den NIGHAṆṬAVA'S herausgegeben und<lb iast="NIR.">erklärt von RUDOLPH ROTH. Göttingen 1852.
+1.226	NĪL.	Nīl.	NĪL. oder NĪLAK. = NĪLAKAṆṬHA, ein Scholiast des MAHĀBHĀRATA (an-<lb>geführt in BOPP'S Ausgabe des NALA) und auch des AK. (angeführt<lb>im ŚKDR.).
+1.227	NIR.	Nir.	NIR. = YĀSKA'S NIRUKTA sammt den NIGHAṆṬAVA'S herausgegeben und<lb>erklärt von RUDOLPH ROTH. Göttingen 1852.
 1.228	NĪTIPR.	Nītipr.	NĪTIPR. = NĪTIPRADĪPA in HAEB. Chr. S. 526--528.
 1.229	NYĀYA-S.	Nyāya-S.	*NYĀYA-S. = GOTAMA'S NYĀYASŪTRĀṆI, ed. Calc. (GILD. Bibl. 274).
 1.230	P.	P.	P. = PĀṆINI'S acht Bücher grammatischer Regeln (GILD. Bibl. 244).
 1.231	Padap.	Padap.	Padap. = Padapāṭha.
-1.232	PAÑCAT.	Pañcat.	PAÑCAT. = PAÑCATANTRA. Pantschatantrum sive quinquepartitum de<lb iast="PAÑCAT.">moribus exponens, ex codicibus manuscriptis edidit, commentariis<lb iast="PAÑCAT.">criticis auxit IO. GODOFR. LUDOV. KOSEGARTEN. Pars prima, textum<lb iast="PAÑCAT.">sanscritum simpliciorem tenens. Bonnae ad Rhenum 1848. 8º. Eine<lb iast="PAÑCAT.">darauf folgende römische Zahl bezeichnet das Buch, eine arabische<lb iast="PAÑCAT.">-- die Seite; die zweite Zahl bezeichnet hier die Zeile, dort den<lb iast="PAÑCAT.">Śloka.
+1.232	PAÑCAT.	Pañcat.	PAÑCAT. = PAÑCATANTRA. Pantschatantrum sive quinquepartitum de<lb>moribus exponens, ex codicibus manuscriptis edidit, commentariis<lb>criticis auxit IO. GODOFR. LUDOV. KOSEGARTEN. Pars prima, textum<lb>sanscritum simpliciorem tenens. Bonnae ad Rhenum 1848. 8º. Eine<lb>darauf folgende römische Zahl bezeichnet das Buch, eine arabische<lb>-- die Seite; die zweite Zahl bezeichnet hier die Zeile, dort den<lb>Śloka.
 1.232a	PAÑCATANTRA	Pañcatantra	PAÑCATANTRA
 1.233	PAÑCAV. BR.	Pañcav. Br.	PAÑCAV. BR. = PAÑCAVIṂŚABRĀHMAṆA.
 1.233a	PAÑCAV.	Pañcav.	PAÑCAV. = PAÑCAVIṂŚABRĀHMAṆA ? [Cologne addition]
-1.234	PARĀŚ.	Parāś.	PARĀŚ. = PARĀŚARA, Verfasser eines Gesetzbuchs; nach Anführungen<lb iast="PARĀŚ.">in MIT., DĀY. und ŚKDR.
+1.234	PARĀŚ.	Parāś.	PARĀŚ. = PARĀŚARA, Verfasser eines Gesetzbuchs; nach Anführungen<lb>in MIT., DĀY. und ŚKDR.
 1.235	PĀR. GṚHY.	Pār. Gṛhy.	PĀR. GṚHY. = PĀRASKARA'S GṚHYASŪTRĀṆI.
-1.236	PAT.	Pat.	PAT. = PATAÑJALI, als Verfasser des MAHĀBHĀṢYA; nach Excerpten in<lb iast="PAT.">BÖHTLINGK'S Ausgabe des PĀṆINI.
+1.236	PAT.	Pat.	PAT. = PATAÑJALI, als Verfasser des MAHĀBHĀṢYA; nach Excerpten in<lb>BÖHTLINGK'S Ausgabe des PĀṆINI.
 1.237	PAT. YOGAŚ.	Pat. Yogaś.	PAT. YOGAŚ. = PATAÑJALI'S YOGAŚĀSTRA, ed. BALLANTYNE, Allahabad 1853.
 1.238	Pent. (LASSEN)	Pent. (Lassen)	Pent. (LASSEN) = CHRISTIANI LASSENII commentatio geographica atque historica de Pentapotamia indica. Bonnae ad Rhenum 1827.
-1.239	PRAB.	Prab.	PRAB. oder PRABODH. = PRABODHACANDRODAYA, ed. BROCKHAUS (GILD.<lb iast="PRAB.">Bibl. 216).
+1.239	PRAB.	Prab.	PRAB. oder PRABODH. = PRABODHACANDRODAYA, ed. BROCKHAUS (GILD.<lb>Bibl. 216).
 1.239a	PRABODH.	Prabodh.	PRAB. oder PRABODH. = PRABODHACANDRODAYA, ed. BROCKHAUS (GILD. Bibl. 216).
 1.239b	PRABODHACANDRODAYA	Prabodhacandrodaya	PRABODHACANDRODAYA ? {Cologne Addition]
-1.240	PRAŚNOP.	Praśnop.	PRAŚNOP. = PRAŚNOPANIṢAD, nach der Ausgabe von RÖER in der Biblio-<lb iast="PRAŚNOP.">theca indica.
+1.240	PRAŚNOP.	Praśnop.	PRAŚNOP. = PRAŚNOPANIṢAD, nach der Ausgabe von RÖER in der Biblio-<lb>theca indica.
 1.241	PRĀYAŚCITTAV.	Prāyaścittav.	PRĀYAŚCITTAV. = PRĀYAŚCITTAVIVEKA, nach Anführungen im ŚKDR.
 1.242	PRĀT.	Prāt.	PRĀT. oder PRĀTIŚ. = PRĀTIŚĀKHYA.
 1.242a	PRĀTIŚ.	Prātiś.	PRĀT. oder PRĀTIŚ. = PRĀTIŚĀKHYA.
 1.243	PRAVARĀDHY.	Pravarādhy.	PRAVAR. oder PRAVARĀDHY. = PRAVARĀDHYĀYA.
 1.244	PUR.	Pur.	PUR. = PURĀṆA.
-1.245	PURUṢ.	Puruṣ.	PURUṢ. = PURUṢOTTAMA, ein Lexicograph (unter Anderm auch Ver-<lb iast="PURUṢ.">fasser des TRIK. und der HĀR.); nach Anführungen im ŚKDR.
+1.245	PURUṢ.	Puruṣ.	PURUṢ. = PURUṢOTTAMA, ein Lexicograph (unter Anderm auch Ver-<lb>fasser des TRIK. und der HĀR.); nach Anführungen im ŚKDR.
 1.246	PUṢPAS.	Puṣpas.	PUṢPAS. = PUṢPASŪTRA.
-1.247	R.	R.	R. = RĀMĀYAṆA. Ohne eine nähere Angabe ist bei den zwei ersten<lb iast="R.">Büchern die Ausgabe von SCHLEGEL (GILD. Bibl. 84), bei den vier<lb iast="R.">letzten die von GORRESIO (GILD. Bibl. 85) gemeint.
-1.248	RĀJAN.	Rājan.	RĀJAN. = RĀJANIRGHAṆṬA, ein medicinisches Wörterbuch; nach An-<lb iast="RĀJAN.">führungen im ŚKDR.
-1.249	RĀJA-TAR.	Rāja-Tar.	*RĀJA-TAR. = RĀJATARAṄGIṆĪ, ed. TROYER (GILD. Bibl. 148) für die 6<lb iast="RĀJA-TAR.">ersten Taram̃ga's; für die folgenden die Calc. Ausg. (GILD. Bibl. 147).
+1.247	R.	R.	R. = RĀMĀYAṆA. Ohne eine nähere Angabe ist bei den zwei ersten<lb>Büchern die Ausgabe von SCHLEGEL (GILD. Bibl. 84), bei den vier<lb>letzten die von GORRESIO (GILD. Bibl. 85) gemeint.
+1.248	RĀJAN.	Rājan.	RĀJAN. = RĀJANIRGHAṆṬA, ein medicinisches Wörterbuch; nach An-<lb>führungen im ŚKDR.
+1.249	RĀJA-TAR.	Rāja-Tar.	*RĀJA-TAR. = RĀJATARAṄGIṆĪ, ed. TROYER (GILD. Bibl. 148) für die 6<lb>ersten Taram̃ga's; für die folgenden die Calc. Ausg. (GILD. Bibl. 147).
 1.249a	RĀJA-TARAṄGIṆĪ	Rāja-Taraṅgiṇī	RĀJA-TARAṄGIṆĪ = RĀJATARAṄGIṆĪ ? [Cologne Addition]
 1.250	RĀJAV.	Rājav.	RĀJAV. = RĀJAVALLABHA, nach Anführungen im ŚKDR.
 1.251	RAGH.	Ragh.	RAGH. = RAGHUVAṂŚA, ed. STENZLER (GILD. Bibl. 134).
 1.252	RAGH. (ed. Calc)	Ragh. (Ed. Calc)	RAGH. (ed. Calc.) = RAGHUVAṂŚA, ed. Calc. (GILD. Bibl. 135).
-1.253	RĀYAM.	Rāyam.	RĀYAM. = RĀYAMUKUṬA, ein Commentator des AMARAKOṢA; nach An-<lb iast="RĀYAM.">führungen im ŚKDR.
-1.254	RAMĀN.	Ramān.	RAMĀN. = RAMĀNĀTHA, ein Commentator des AMARAKOṢA; nach An-<lb iast="RAMĀN.">führungen im ŚKDR.
+1.253	RĀYAM.	Rāyam.	RĀYAM. = RĀYAMUKUṬA, ein Commentator des AMARAKOṢA; nach An-<lb>führungen im ŚKDR.
+1.254	RAMĀN.	Ramān.	RAMĀN. = RAMĀNĀTHA, ein Commentator des AMARAKOṢA; nach An-<lb>führungen im ŚKDR.
 1.255	RĀMATARKAV.	Rāmatarkav.	RĀMATARKAV. = RĀMATARKAVĀGĪŚA.
-1.256	RASAM.	Rasam.	RASAM. = RASAMAÑJARĪ (s. Verz. d. B. H. {%N;%} 597), nach Anführungen<lb iast="RASAM.">im ŚKDR.
-1.257	RATIM.	Ratim.	RATIM. = RATIMAÑJARĪ, ein Werk über Erotik; nach Anführungen im<lb iast="RATIM.">ŚKDR.
+1.256	RASAM.	Rasam.	RASAM. = RASAMAÑJARĪ (s. Verz. d. B. H. {%N;%} 597), nach Anführungen<lb>im ŚKDR.
+1.257	RATIM.	Ratim.	RATIM. = RATIMAÑJARĪ, ein Werk über Erotik; nach Anführungen im<lb>ŚKDR.
 1.258	RATNAK.	Ratnak.	RATNAK. = RATNAKOṢA, ein Wörterbuch; nach Anführungen im ŚKDR.
 1.259	RATNAM.	Ratnam.	RATNAM. = RATNAMĀLĀ, ein Wörterbuch; nach Anführungen im ŚKDR.
 1.260	RATNĀV.	Ratnāv.	*RATNĀV. = RATNĀVALĪ, ed. Calc. (GILD. Bibl. 214).
@@ -309,22 +309,22 @@
 1.261a	Fl. ind.	Fl. Ind.	Fl. ind. = ? [Cologne Addition]
 1.261b	ROXB.	Roxb.	ROXB. = ? [Cologne Addition]
 1.262	ṚT.	Ṛt.	ṚT. = ṚTUSAM̃HĀRA, ed. BOHLEN (GILD. Bibl. 155).
-1.263	ṚV.	Ṛv.	ṚV. = ṚGVEDA. Es wird nach Maṇḍala, Sūkta und Ṛc citirt. ROSEN<lb iast="ṚV.">zu ṚV. verweist auf die Anmerkungen in: Rigveda-Sanhita, liber<lb iast="ṚV.">primus, sanskritè et latinè; edidit FRIDERICUS ROSEN. London 1838.
+1.263	ṚV.	Ṛv.	ṚV. = ṚGVEDA. Es wird nach Maṇḍala, Sūkta und Ṛc citirt. ROSEN<lb>zu ṚV. verweist auf die Anmerkungen in: Rigveda-Sanhita, liber<lb>primus, sanskritè et latinè; edidit FRIDERICUS ROSEN. London 1838.
 1.264	ṚV. PRĀT.	Ṛv. Prāt.	ṚV. PRĀT. oder PRĀTIŚ. = PRĀTIŚĀKHYA zun ṚGVEDA, citirt nach Paṭala und Versen. Hdschr. S. ROTH in der Einl z. NIR. S. XLVII.
 1.265	SADDH. L.	Saddh. L.	SADDH. L. = SADDHARMALAṄKĀVATĀRA.
-1.266	SADDH. P. 4.	Saddh. P. 4.	SADDH. P. 4. = SADDHARMAPUṆḌARĪKA, Kap. 4 in: Parabole de l'enfant<lb iast="SADDH. P. 4.">égaré, formant le chapitre IV du Lotus de la bonne loi, publiée pour<lb iast="SADDH. P. 4.">la première fois en sanscrit et en tibétain, lithographiée à la manière<lb iast="SADDH. P. 4.">des livres du Tibet, et accompagnée d'une traduction franśaise d'après<lb iast="SADDH. P. 4.">la version tibétaine du Kandyour, par PH. ÉD. FOUCAUX. Paris 1854.
+1.266	SADDH. P. 4.	Saddh. P. 4.	SADDH. P. 4. = SADDHARMAPUṆḌARĪKA, Kap. 4 in: Parabole de l'enfant<lb>égaré, formant le chapitre IV du Lotus de la bonne loi, publiée pour<lb>la première fois en sanscrit et en tibétain, lithographiée à la manière<lb>des livres du Tibet, et accompagnée d'une traduction franśaise d'après<lb>la version tibétaine du Kandyour, par PH. ÉD. FOUCAUX. Paris 1854.
 1.266a	SADDH. P.	Saddh. P.	SADDH. P. = ? [Cologne Addition]
-1.267	SĀH. D.	Sāh. D.	SĀH. D. = SĀHITYADARPAṆA, auf den 10 ersten Bogen nach der Ausgabe<lb iast="SĀH. D.">von 1828 (GILD. Bibl. 264), auf den folgenden Bogen, wenn nicht<lb iast="SĀH. D.">die Yahreszahl 1828 ausdrücklich bemerkt wird, nach der Ausgabe<lb iast="SĀH. D.">von RÖER in der Bibliotheca indica. Eine einfache Zahl verweist auf<lb iast="SĀH. D.">die Kārikā, eine doppelte auf Seite und Zeile.
+1.267	SĀH. D.	Sāh. D.	SĀH. D. = SĀHITYADARPAṆA, auf den 10 ersten Bogen nach der Ausgabe<lb>von 1828 (GILD. Bibl. 264), auf den folgenden Bogen, wenn nicht<lb>die Yahreszahl 1828 ausdrücklich bemerkt wird, nach der Ausgabe<lb>von RÖER in der Bibliotheca indica. Eine einfache Zahl verweist auf<lb>die Kārikā, eine doppelte auf Seite und Zeile.
 1,267a	D.	D.	SĀH. D. = SĀHITYADARPAṆA, ? [Cologne Addition]
 1.268	SĀY.	Sāy.	SĀY. = SĀYAṆA.
 1.269	SAṂGĪTAD.	Saṃgītad.	SAM̃GĪTAD. = SAM̃GĪTADĀMODARA (über Musik), nach Anführungen im ŚKDR.
-1.270	SĀṂKHYAK.	Sāṃkhyak.	SĀṂKHYAK. = SĀṂKHYAKĀRIKĀ, ed. WILSON (GILD. Bibl. 271), mit Benutzung<lb iast="SĀṂKHYAK.">des Index in LASSEN'S Ausgabe (GILD. Bibl. 270).
+1.270	SĀṂKHYAK.	Sāṃkhyak.	SĀṂKHYAK. = SĀṂKHYAKĀRIKĀ, ed. WILSON (GILD. Bibl. 271), mit Benutzung<lb>des Index in LASSEN'S Ausgabe (GILD. Bibl. 270).
 1.270a	WILSON, SĀṂKHYAK.	Wilson, Sāṃkhyak.	WILSON, SĀṂKHYAK. = SĀṂKHYAKĀRIKĀ, ed. WILSON (GILD. Bibl. 271), mit Benutzung des Index in LASSEN'S Ausgabe (GILD. Bibl. 270). [Cologne Addition]
 1.270b	WILSON'S SĀṂKHYAK.	Wilson'S Sāṃkhyak.	WILSON'S SĀṂKHYAK. = SĀṂKHYAKĀRIKĀ, ed. WILSON (GILD. Bibl. 271), mit Benutzung des Index in LASSEN'S Ausgabe (GILD. Bibl. 270). [Cologne Addition]
 1.270c	WILS. SĀṂKHYAK.	Wils. Sāṃkhyak.	WILS. SĀṂKHYAK. = SĀṂKHYAKĀRIKĀ, ed. WILSON (GILD. Bibl. 271), mit Benutzung des Index in LASSEN'S Ausgabe (GILD. Bibl. 270). [Cologne Addition]
-1.271	SĀRAS.	Sāras.	SĀRAS. = SĀRASUNDARĪ, ein Commentar zum AMARAKOṢA; nach Anfüh-<lb iast="SĀRAS.">rungen im ŚKDR.
+1.271	SĀRAS.	Sāras.	SĀRAS. = SĀRASUNDARĪ, ein Commentar zum AMARAKOṢA; nach Anfüh-<lb>rungen im ŚKDR.
 1.272	SARVOP. S.	Sarvop. S.	SARVOP. S. = SARVOPANIṢATSĀRA.
-1.273	SAUN.	Saun.	SAUN. = SAUNĀGA, s. die Einleitung zu BÖHTLINGK'S Ausgabe des PĀṆINI,<lb iast="SAUN.">S. XLVI.
+1.273	SAUN.	Saun.	SAUN. = SAUNĀGA, s. die Einleitung zu BÖHTLINGK'S Ausgabe des PĀṆINI,<lb>S. XLVI.
 1.274	SĀV.	Sāv.	SĀV. = SĀVITRYUPĀKHYĀNA, ed. BOPP (GILD. Bibl. 106).
 1.275	Sch.	Sch.	Sch. oder Schol. = Scholiast.
 1.275a	Schol.	Schol.	Sch. oder Schol. = Scholiast.
@@ -335,34 +335,34 @@
 1.279	SIDDH. K.	Siddh. K.	SIDDH. K. = SIDDHĀNTAKAUMUDĪ, die Calc. Ausg. in 4º (GILD. Bibl. 245).
 1.280	SKANDA-P.	Skanda-P.	SKANDA-P. = SKANDAPURĀṆA.
 1.281	ST.	St.	ST. = STENZLER.
-1.282	SUŚR.	Suśr.	SUŚR. = SUŚRUTA, ed. Calc. (GILD. Bibl. 367); citirt nach Band, Seite<lb iast="SUŚR.">und Zeile. Den Titel der HESSLER'schen Uebersetzung s. bei GILD.<lb iast="SUŚR.">Bibl. 368.
+1.282	SUŚR.	Suśr.	SUŚR. = SUŚRUTA, ed. Calc. (GILD. Bibl. 367); citirt nach Band, Seite<lb>und Zeile. Den Titel der HESSLER'schen Uebersetzung s. bei GILD.<lb>Bibl. 368.
 1.282a	SUŚRUTA	Suśruta	SUŚRUTA [Cologne Addition]
 1.283	SUND.	Sund.	SUND. = SUNDOPASUNDOPĀKHYĀNA, ed. BOPP (GILD. Bibl. 97).
-1.284	SŪRYAS.	Sūryas.	SŪRYAS. = SŪRYASIDDHĀNTA, nach Anführungen in HAUGHTON, A Dict.<lb iast="SŪRYAS.">Beng. and S.
+1.284	SŪRYAS.	Sūryas.	SŪRYAS. = SŪRYASIDDHĀNTA, nach Anführungen in HAUGHTON, A Dict.<lb>Beng. and S.
 1.284a	SŪRYA-SIDDHĀNTA	Sūrya-Siddhānta	SŪRYA-SIDDHĀNTA = ? [Cologne Addition]
 1.285	SUVARṆAPR.	Suvarṇapr.	SUVARṆAPR. = SUVARṆAPRABHĀSA, ein buddhistisches Werk.
-1.286	SV.	Sv.	SV. = SĀMAVEDA. Die Hymnen des SĀMA-VEDA, herausgegeben, übersetzt<lb iast="SV.">und mit Glossar versehen von THEODOR BENFEY. Leipzig 1848. 8º.<lb iast="SV.">Die Eintheilung BENFEY'S ist beibehalten.
+1.286	SV.	Sv.	SV. = SĀMAVEDA. Die Hymnen des SĀMA-VEDA, herausgegeben, übersetzt<lb>und mit Glossar versehen von THEODOR BENFEY. Leipzig 1848. 8º.<lb>Die Eintheilung BENFEY'S ist beibehalten.
 1.286a	BENFEY, SV.	Benfey, Sv.	BENFEY, SV. = SĀMAVEDA. Die Hymnen des SĀMA-VEDA, herausgegeben, übersetzt und mit Glossar versehen von THEODOR BENFEY. Leipzig 1848. 8º. Die Eintheilung BENFEY'S ist beibehalten. [Cologne Addition]
 1.287	TAITT. ĀR.	Taitt. Ār.	TAITT. ĀR. = TAITTIRĪYĀRAṆYAKA.
 1.288	TAITT. BR.	Taitt. Br.	TAITT. BR. = TAITTIRĪYABRĀHMAṆA.
-1.289	TAITT. PRĀT.	Taitt. Prāt.	TAITT. PRĀT. = PRĀTIŚĀKHYA zur TAITTIRĪYASAM̃HITĀ. S. ROTH in der<lb iast="TAITT. PRĀT.">Einl. z. NIR. S. XLVII.
+1.289	TAITT. PRĀT.	Taitt. Prāt.	TAITT. PRĀT. = PRĀTIŚĀKHYA zur TAITTIRĪYASAM̃HITĀ. S. ROTH in der<lb>Einl. z. NIR. S. XLVII.
 1.289a	TAITT. PR.	Taitt. Pr.	TAITT. PR. = PRĀTIŚĀKHYA zur TAITTIRĪYASAM̃HITĀ. ? [Cologne Addition]
 1.290	TANTRAS.	Tantras.	TANTRAS. = TANTRASĀRA, nach Anführungen im ŚKDR.
 1.291	TEJOV. UP.	Tejov. Up.	TEJOV. UP. = TEJOVINDŪPANIṢAD.
 1.292	Tib. Lebensb. Śāky.	Tib. Lebensb. Śāky.	Tib. Lebensb. Śāky. = Tibetische Lebensbeschreibung Śākyamuni's, das Original von dem oben unter Lebensb. (SCHIEFNER) aufgeführten Auszuge.
 1.293	TRIK.	Trik.	TRIK. = TRIKĀṆḌAŚEṢA, ed. Calc. (GILD. Bibl. 258).
-1.294	TS.	Ts.	TS. = TAITTIRĪYASAM̃HITĀ. 7 Kāṇḍa, eingetheilt in Praśna, Anuvāka<lb iast="TS.">und Kaṇḍikā. Die letzten bezeichnen nicht Satzabschnitte, sondern<lb iast="TS.">umfassen ye 50 Wörter. Hdschr.
+1.294	TS.	Ts.	TS. = TAITTIRĪYASAM̃HITĀ. 7 Kāṇḍa, eingetheilt in Praśna, Anuvāka<lb>und Kaṇḍikā. Die letzten bezeichnen nicht Satzabschnitte, sondern<lb>umfassen ye 50 Wörter. Hdschr.
 1.295	TS. ANUKR.	Ts. Anukr.	TS. ANUKR. = ANUKRAMANIKĀ der TS. Hdschr.
 1.296	Uṇ.	Uṇ.	Uṇ. = Die Uṇādi-Affixe. Herausgegeben und mit Anmerkungen und verschiedenen Indices versehen von OTTO BÖHTLINGK. St. Petersburg 1844.
 1.297	UṆĀDIK.	Uṇādik.	UṆĀDIK. = UṆĀDIKOṢA, nach Anführungen im ŚKDR.
-1.298	UPAL.	Upal.	UPAL. = UPALEKHA de KRAMAPĀṬHA libellus. Ed. G. PERTSCH. Berolini<lb iast="UPAL.">1854. 8º.
+1.298	UPAL.	Upal.	UPAL. = UPALEKHA de KRAMAPĀṬHA libellus. Ed. G. PERTSCH. Berolini<lb>1854. 8º.
 1.298a	PERTSCH, UPAL.	Pertsch, Upal.	PERTSCH, UPAL. = UPALEKHA de KRAMAPĀṬHA libellus. Ed. G. PERTSCH. Berolini 1854. 8º. [Cologne Addition]
 1.299	UTT. RĀMAC.	Utt. Rāmac.	*UTT. RĀMAC. = UTTARA-RĀMACARITRA, ed. Calc. (GILD. Bibl. 212).
 1.300	VAIDY.	Vaidy.	VAIDY. = VAIDYAKA.
-1.301	VAIJ.	Vaij.	VAIJ. = VAIJAYANTĪ, ein Wörterbuch. Excerpte daraus, angeführt in den<lb iast="VAIJ.">Scholien zu KIR. und ŚIŚ., verdanken wir Professor STENZLER.
+1.301	VAIJ.	Vaij.	VAIJ. = VAIJAYANTĪ, ein Wörterbuch. Excerpte daraus, angeführt in den<lb>Scholien zu KIR. und ŚIŚ., verdanken wir Professor STENZLER.
 1.302	VĀYU-P.	Vāyu-P.	VĀYU-P. = VĀYUPURĀṆA.
 1.303	VĀCASP.	Vācasp.	VĀCASP. = VĀCASPATI.
-1.304	VĀLAKH.	Vālakh.	VĀLAKH. = VĀLAKHILYA, die zwischen ṚV. 8, 48 und 49 eingeschobe-<lb iast="VĀLAKH.">nen Lieder.
+1.304	VĀLAKH.	Vālakh.	VĀLAKH. = VĀLAKHILYA, die zwischen ṚV. 8, 48 und 49 eingeschobe-<lb>nen Lieder.
 1.305	Var.	Var.	Var. = Variante.
 1.306	VARĀH. BṚH.	Varāh. Bṛh.	VARĀH. BṚH. = VARĀHAMIHIRA'S BṚHAJJĀTAKA. [Pagè-a+ 33]
 1.307	VARĀH. BṚH. S.	Varāh. Bṛh. S.	VARĀH. BṚH. S. = VARĀHAMIHIRA'S BṚHATSAM̃HITĀ.
@@ -384,18 +384,18 @@
 1.317	VET.	Vet.	VET. = VETĀLAPAÑCAVIṂŚATI in LASSEN'S Anthologie (LA).
 1.318	VIŚV.	Viśv.	VIŚV. = VIŚVĀMITRA'S Kampf in BÖHTLINGK'S Chrestomathie.
 1.319	VID.	Vid.	VID. = Geschichte des VIDŪṢAKA in BÖHTLINGK'S Chrestomathie.
-1.320	VIKR.	Vikr.	VIKR. oder VIKRAM. = VIKRAMORVAŚĪ, ed. BOLLENSEN (GILD. Bibl. 206).<lb iast="VIKR.">Eine einfache Zahl verweist auf einen Śloka, eine doppelte--auf<lb iast="VIKR.">Seite und Zeile.
+1.320	VIKR.	Vikr.	VIKR. oder VIKRAM. = VIKRAMORVAŚĪ, ed. BOLLENSEN (GILD. Bibl. 206).<lb>Eine einfache Zahl verweist auf einen Śloka, eine doppelte--auf<lb>Seite und Zeile.
 1.320a	VIKRAM.	Vikram.	VIKR. oder VIKRAM. = VIKRAMORVAŚĪ, ed. BOLLENSEN (GILD. Bibl. 206). Eine einfache Zahl verweist auf einen Śloka, eine doppelte--auf Seite und Zeile.
 1.321	VĪRAM.	Vīram.	*VĪRAM. = VĪRAMITRODAYA.
 1.322	VIVĀDAC.	Vivādac.	*VIVĀDAC. = VIVĀDACINTĀMAṆI, ed. Calc. (GILD. Bibl. 351).
 1.323	VYAVAHĀRAT.	Vyavahārat.	*VYAVAHĀRAT. = VYAVAHĀRATATTVA, ed. Calc. (GILD. Bibl. 342).
-1.324	VYUTP.	Vyutp.	VYUTP. = VYUTPATTI oder MAHĀVYUTPATTI (s. Mél. asiat. II, 382), ein<lb iast="VYUTP.">sanskrit-tibetisches Wörterbuch aus dem TAÑJUR (Bd. 123 der Sūtra,<lb iast="VYUTP.">S. 223--377). Die Mittheilungen aus diesem Werke nebst andern<lb iast="VYUTP.">auf den Budhismus bezüglichen Notizen verdanken wir A. SCHIEFNER. [Pagè-b+ 32]
+1.324	VYUTP.	Vyutp.	VYUTP. = VYUTPATTI oder MAHĀVYUTPATTI (s. Mél. asiat. II, 382), ein<lb>sanskrit-tibetisches Wörterbuch aus dem TAÑJUR (Bd. 123 der Sūtra,<lb>S. 223--377). Die Mittheilungen aus diesem Werke nebst andern<lb>auf den Budhismus bezüglichen Notizen verdanken wir A. SCHIEFNER. [Pagè-b+ 32]
 1.325	v. l.	V. L.	v. l. = varia lectio.
-1.326	VOP.	Vop.	VOP. oder VOPAD. = VOPADEVA'S Grammatik, nach BÖHTLINGK'S Ausgabe<lb iast="VOP.">(GILD. Bibl. 249, {%a.%} S. 170).
+1.326	VOP.	Vop.	VOP. oder VOPAD. = VOPADEVA'S Grammatik, nach BÖHTLINGK'S Ausgabe<lb>(GILD. Bibl. 249, {%a.%} S. 170).
 1.326a	VOPAD.	Vopad.	VOP. oder VOPAD. = VOPADEVA'S Grammatik, nach BÖHTLINGK'S Ausgabe (GILD. Bibl. 249, {%a.%} S. 170).
-1.327	VP.	Vp.	VP. = VIṢṆUPURĀṆA. Es wird die WILSON'sche Uebersetzung (GILD.<lb iast="VP.">Bibl. 133) citirt.
-1.328	VS.	Vs.	VS. = VĀJASANEYISAM̃HITĀ. The VĀYASANEYI-SANHITĀ in the MĀDHYANDINA<lb iast="VS.">-- and the KĀṆVA-ŚĀKHĀ with the commentary of MAHĪDHARA, edited<lb iast="VS.">by Dr. ALBRECHT WEBER. Berlin Ferd. Dümmler's Verlagṣandlung.<lb iast="VS.">London Williams and Norgate. 1852. 4º.
-1.329	VS. PRĀT.	Vs. Prāt.	VS. PRĀT. = PRĀTIŚĀKHYA zur VĀJASANEYISAM̃HITĀ, citirt nach Adhyāya<lb iast="VS. PRĀT.">und Sūtra. Hdschr. S. ROTH in der Einl. z. NIR. S. XLVI.
+1.327	VP.	Vp.	VP. = VIṢṆUPURĀṆA. Es wird die WILSON'sche Uebersetzung (GILD.<lb>Bibl. 133) citirt.
+1.328	VS.	Vs.	VS. = VĀJASANEYISAM̃HITĀ. The VĀYASANEYI-SANHITĀ in the MĀDHYANDINA<lb>-- and the KĀṆVA-ŚĀKHĀ with the commentary of MAHĪDHARA, edited<lb>by Dr. ALBRECHT WEBER. Berlin Ferd. Dümmler's Verlagṣandlung.<lb>London Williams and Norgate. 1852. 4º.
+1.329	VS. PRĀT.	Vs. Prāt.	VS. PRĀT. = PRĀTIŚĀKHYA zur VĀJASANEYISAM̃HITĀ, citirt nach Adhyāya<lb>und Sūtra. Hdschr. S. ROTH in der Einl. z. NIR. S. XLVI.
 1.330	WEST.	West.	WEST. = WESTERGAARD'S Radices (GILD. Bibl. 42).
 1.331	WILS.	Wils.	WILS. = WILSON'S Wörterbuch (GILD. Bibl. 37).
 1.332	WIND. Sancara	Wind. Sancara	WIND. Sancara = FRID. H. H. WINDISCHMANNI Sancara sive de theo- logumenis Vedanticorum. Bonnae 1833.
@@ -432,21 +432,21 @@
 2.004	BṚHADDHARMA-P.	Bṛhaddharma-P.	BṚHADDHARMA-P. = BṚHADDHARMAPURĀṆA; nach Anführungen im ŚKDR.
 2.004a	BṚHADDHARMAPURĀṆA	Bṛhaddharmapurāṇa	BṚHADDHARMAPURĀṆA [Cologne addition]
 2.005	ŚĀKAṬ.	Śākaṭ.	ŚĀKAṬ. = ŚĀKAṬĀYANA, ein Schol. des ŚĀK.
-2.006	ŚATR.	Śatr.	ŚATR. = ŚATRUM̃JAYAMĀHĀTMYA, nach den von A. WEBER herausgegebe-<lb iast="ŚATR.">nen Fragmenten in den Abhandlungen für die Kunde des Morgen-<lb iast="ŚATR.">landes.
+2.006	ŚATR.	Śatr.	ŚATR. = ŚATRUM̃JAYAMĀHĀTMYA, nach den von A. WEBER herausgegebe-<lb>nen Fragmenten in den Abhandlungen für die Kunde des Morgen-<lb>landes.
 2.007	ŚRĀDDHAT.	Śrāddhat.	ŚRĀDDHAT. = ŚRĀDDHATATTVA; nach Anführungen im ŚKDR.
 2.008	ŚRĀDDHAVIV.	Śrāddhaviv.	ŚRĀDDHAVIV. = ŚRĀDDHAVIVEKA; nach Anführungen im ŚKDR.
 2.009	DEVĪ-P.	Devī-P.	DEVĪ-P. = DEVĪPURĀṆA; nach Anführungen im ŚKDR.
 2.010	DRĀHY.	Drāhy.	DRĀHY. = DRĀHYĀYAṆA.
 2.011	DURGĀRCĀT.	Durgārcāt.	DURGĀRCĀT. = DURGĀRCĀTATTVA; nach Anführungen im ŚKDR.
-2.012	JAIM.	Jaim.	JAIM. = JAIMINI (The Aphorisms of the Mímánsá Philosophy by Yai-<lb iast="JAIM.">mini. With extracts from the commentaries. Allahabad. 1851. In<lb iast="JAIM.">unserm Besitz nur ein Fragment von 36 Seiten.).
+2.012	JAIM.	Jaim.	JAIM. = JAIMINI (The Aphorisms of the Mímánsá Philosophy by Yai-<lb>mini. With extracts from the commentaries. Allahabad. 1851. In<lb>unserm Besitz nur ein Fragment von 36 Seiten.).
 2.013	GILD.	Gild.	GILD. Scriptorum Arabum etc. = Scriptorum Arabum de Rebus Indi- cis loci et opuscula inedita. Ad codicum Pariss. etc. fidem recensuit et illustravit Y. Gildemeister. Bonnae MDCCCXXXVIII.
 2.014	JYOTIṢAT.	Jyotiṣat.	JYOTIṢAT. = JYOTIṢATATTVA; nach Anführungen im ŚKDR.
 2.015	GOBH.	Gobh.	GOBH. = GOBHILA'S GṚHYASŪTRA; nach Mittheilungen von A. WEBER.
 2.016	HIOUEN-THSANG I	Hiouen-Thsang I	HIOUEN-THSANG I = Mémoires sur les contrées occidentales, traduits du sanscrit en chinois, en l'an 648, par Hiouen-thsang, et du chinois en franśais par M. Stanislas Yulien. Tome premier.
-2.017	YĀJÑIKAD. PADDH. zu KĀTY. ŚR.	Yājñikad. Paddh. Zu Kāty. Śr.	YĀJÑIKAD. PADDH. zu KĀTY. ŚR. = YĀJÑIKADEVA'S PADDHATI zu KĀTYĀYA-<lb iast="YĀJÑIKAD. PADDH. zu KĀTY. ŚR.">NA'S ŚRAUTASŪTRA; nach Mittheilungen von A. WEBER.
-2.018	YOGAS.	Yogas.	YOGAS. = YOGASŪTRA (The Aphorisms of the Yoga Philosophy of Patan-<lb iast="YOGAS.">jali. l. Allahabad 1852. II. ebend. 1853.).
-2.019	YUKTIKALPAT.	Yuktikalpat.	YUKTIKALPAT. = YUKTIKALPATARU von BHOJARĀJA; nach Anführungen im<lb iast="YUKTIKALPAT.">ŚKDR.
-2.020	KAP.	Kap.	KAP. = KAPILA (The Aphorisms of the Sánkhya Philosophy, of Kapila;<lb iast="KAP.">with illustrative extracts from the commentaries. I. Allahabad 1852.<lb iast="KAP.">II--IV. ebend. 1834. Auch in der Bibl. ind.).
+2.017	YĀJÑIKAD. PADDH. zu KĀTY. ŚR.	Yājñikad. Paddh. Zu Kāty. Śr.	YĀJÑIKAD. PADDH. zu KĀTY. ŚR. = YĀJÑIKADEVA'S PADDHATI zu KĀTYĀYA-<lb>NA'S ŚRAUTASŪTRA; nach Mittheilungen von A. WEBER.
+2.018	YOGAS.	Yogas.	YOGAS. = YOGASŪTRA (The Aphorisms of the Yoga Philosophy of Patan-<lb>jali. l. Allahabad 1852. II. ebend. 1853.).
+2.019	YUKTIKALPAT.	Yuktikalpat.	YUKTIKALPAT. = YUKTIKALPATARU von BHOJARĀJA; nach Anführungen im<lb>ŚKDR.
+2.020	KAP.	Kap.	KAP. = KAPILA (The Aphorisms of the Sánkhya Philosophy, of Kapila;<lb>with illustrative extracts from the commentaries. I. Allahabad 1852.<lb>II--IV. ebend. 1834. Auch in der Bibl. ind.).
 2.021	KARMAPRAD.	Karmaprad.	KARMAPRAD. = KARMAPRADĪPA.
 2.022	KĀTY. PADDH.	Kāty. Paddh.	KĀTY. PADDH. = YĀJÑIKADEVA'S PADDHATI zu KĀTYĀYANA'S ŚRAUTASŪTRA.
 2.023	KṢUR. UP.	Kṣur. Up.	KṢUR. UP. = KṢURIKOPANIṢAD.
@@ -455,70 +455,70 @@
 2.026	MAHĀN.	Mahān.	MAHĀN. = MAHĀNĀṬAKA (GILD. Bibl. 220).
 2.027	MĀYĀT.	Māyāt.	MĀYĀT. = MĀYĀTANTRA; nach Anführungen im ŚKDR.
 2.028	MĀRK. P.	Mārk. P.	MĀRK. P. = MĀRKĀṆḌEYAPURĀṆA in der Bibliotheca indica.
-2.029	MATHURĀN.	Mathurān.	MATHURĀN. = MATHURĀNĀTHA, ein Schol. des AK.; nach Anführungen<lb iast="MATHURĀN.">im ŚKDR.
+2.029	MATHURĀN.	Mathurān.	MATHURĀN. = MATHURĀNĀTHA, ein Schol. des AK.; nach Anführungen<lb>im ŚKDR.
 2.030	MOLESW.	Molesw.	MOLESW. = A Dictionary Murathee and English by YAMES T. MOLESWORTH. Bombay 1831. 4º.
 2.031	MUṆḌAMĀLĀT.	Muṇḍamālāt.	MUṆḌAMĀLĀT. = MUṆḌAMĀLĀTANTRA; nach Anführungen im ŚKDR.
-2.032	NĀRĀYAṆACAKR.	Nārāyaṇacakr.	NĀRĀYAṆACAKR. = NĀRĀYAṆACAKRAVARTIN, ein Schol. des AK.; nach An-<lb iast="NĀRĀYAṆACAKR.">führungen im ŚKDR.
+2.032	NĀRĀYAṆACAKR.	Nārāyaṇacakr.	NĀRĀYAṆACAKR. = NĀRĀYAṆACAKRAVARTIN, ein Schol. des AK.; nach An-<lb>führungen im ŚKDR.
 2.033	PARĀŚARAPADDH.	Parāśarapaddh.	PARĀŚARAPADDH. = PARĀŚARAPADDHATI; nach Anführungen im ŚKDR.
 2.033a	PARĀŚARA-P.	Parāśara-P.	PARĀŚARA-P. = PARĀŚARAPADDHATI; nach Anführungen im ŚKDR. [Cologne Addition]
 2.034	PARAM. UP.	Param. Up.	PARAM. UP. = PARAMAHAM̃SOPANIṢAD.
 2.035	PATHYĀPATHYAV.	Pathyāpathyav.	PATHYĀPATHYAV. = PATHYĀPATHYAVIVEKA; nach Anführungen im ŚKDR.
-2.036	RAGHUN.	Raghun.	RAGHUN. = RAGHUNANDANABHAṬṬĀCĀRYA, ein Scholiast des TITHYĀDITATTVA;<lb iast="RAGHUN.">nach Anführungen im ŚKDR.
+2.036	RAGHUN.	Raghun.	RAGHUN. = RAGHUNANDANABHAṬṬĀCĀRYA, ein Scholiast des TITHYĀDITATTVA;<lb>nach Anführungen im ŚKDR.
 2.038	SAṂSKĀRAT.	Saṃskārat.	SAṂSKĀRAT. = SAṂSKĀRATATTVA; nach Anführungen im ŚKDR.
-2.039	SMARAD.	Smarad.	SMARAD. = SMARADĪPIKĀ, ein Werk über Erotik; nach Anführungen<lb iast="SMARAD.">im ŚKDR.
+2.039	SMARAD.	Smarad.	SMARAD. = SMARADĪPIKĀ, ein Werk über Erotik; nach Anführungen<lb>im ŚKDR.
 2.040	SUBH.	Subh.	SUBH. = SUBRŪTI, ein Schol. des AK.; nach Anführungen im ŚKDR.
 2.041	SUKHAB.	Sukhab.	SUKHAB. = SUKHABODHA; nach Anführungen im ŚKDR.
-2.042	TATTVAS.	Tattvas.	TATTVAS. = A Lecture on the Sánkhya Philosophy, embracing the text<lb iast="TATTVAS.">of the Tattwa Samása. Mirzapore 1850.
+2.042	TATTVAS.	Tattvas.	TATTVAS. = A Lecture on the Sánkhya Philosophy, embracing the text<lb>of the Tattwa Samása. Mirzapore 1850.
 2.043	TBR.	Tbr.	TBR. = TAITTIRĪYABRĀHMAṆA.
 2.044	TITHYĀDIT.	Tithyādit.	TITHYĀDIT. = TITHYĀDITATTVA; nach Anführungen im ŚKDR.
 2.045	Trans. R. A. S.	Trans. R. A. S.	Trans. R. A. S. = The Transactions of the Royal Asiatic Society of Great Britain and Ireland; nach Anführungen bei HAUGHTON.
 2.046	UDVĀHAT.	Udvāhat.	UDVĀHAT. = UDVĀHATATTVA; nach Anführungen im ŚKDR.
 2.047	UP. und UPAK.	Up. Und Upak.	UP. und UPAK. = UPAKOŚĀ (Geschichte der; s. GILD. Bibl. 239).
 2.048	VĀR. P.	Vār. P.	VĀR. P. = VĀRĀHAPURĀṆA.
-2.049	VEDĀNTAS. (Allah.)	Vedāntas. (Allah.)	VEDĀNTAS. (Allah.) = A Lecture on the Vedánta, embracing the text of<lb iast="VEDĀNTAS. (Allah.)">the Vedánta-Sára. Allahabad 1850.
+2.049	VEDĀNTAS. (Allah.)	Vedāntas. (Allah.)	VEDĀNTAS. (Allah.) = A Lecture on the Vedánta, embracing the text of<lb>the Vedánta-Sára. Allahabad 1850.
 2.050	VEṆĪS.	Veṇīs.	VEṆĪS. = VEṆĪSAM̃HĀRA; nach Anführungen im ŚKDR.
 2.051	Verh. d. k. s. G. d. Ww.	Verh. D. K. S. G. D. Ww.	Verh. d. k. s. G. d. Ww. = Verhandlungen der königlich-sächsischen Gesellschaft der Wissenschaften zu Leipzig.
 2.015a	Verh. d. k. s. Ges. d. W.	Verh. D. K. S. Ges. D. W.	Verh. d. k. s. Ges. d. W. = Verhandlungen der königlich-sächsischen Gesellschaft der Wissenschaften zu Leipzig. [Cologne Addition]
 2.015b	Verh. d. k. s. Ges. d. W. zu Leipzig, phil.hist. KI.	Verh. D. K. S. Ges. D. W. Zu Leipzig, Phil.Hist. Ki.	Verh. d. k. s. Ges. d. W. zu Leipzig, phil.hist. KI. = Verhandlungen der königlich-sächsischen Gesellschaft der Wissenschaften zu Leipzig. [Cologne Addition]
-2.052	VIDAGDHAMUKHAM.	Vidagdhamukham.	VIDAGDHAMUKHAM. = VIDAGDHAMUKHAMAṆḌANA; nach Anführungen im<lb iast="VIDAGDHAMUKHAM.">ŚKDR.
+2.052	VIDAGDHAMUKHAM.	Vidagdhamukham.	VIDAGDHAMUKHAM. = VIDAGDHAMUKHAMAṆḌANA; nach Anführungen im<lb>ŚKDR.
 2.053	VIVĀDĀRṆ.	Vivādārṇ.	VIVĀDĀRṆ. = VIVĀDĀRṆAVASETU; nach Anführungen im ŚKDR.
-3.001	BUDDHOKT.	Buddhokt.	BUDDHOKT. = BUDDHOKTASAM̃SĀRĀMAYA, handschriftlich in der Pariser<lb iast="BUDDHOKT.">Bibliothek, nach Mittheilungen von A. SCHIEFNER.
-3.002	DAŚABH.	Daśabh.	DAŚABH. = DAŚABHŪMĪŚVARA, handschriftlich in der Pariser Bibliothek,<lb iast="DAŚABH.">nach Mittheilungen von A. SCHIEFNER.
+3.001	BUDDHOKT.	Buddhokt.	BUDDHOKT. = BUDDHOKTASAM̃SĀRĀMAYA, handschriftlich in der Pariser<lb>Bibliothek, nach Mittheilungen von A. SCHIEFNER.
+3.002	DAŚABH.	Daśabh.	DAŚABH. = DAŚABHŪMĪŚVARA, handschriftlich in der Pariser Bibliothek,<lb>nach Mittheilungen von A. SCHIEFNER.
 3.003	GOLD. MĀN.	Gold. Mān.	GOLD. MĀN. = MĀNAVA-KALPA-SŪTRA; being a portion of this ancient work on Vaidik rites, together with the Commentary of KUMĀRILA- SVĀMIN. With a preface by THEODOR GOLDSTÜCKER. London 1861.
 3.003a	GOLD. in der Einl. zu MĀN.	Gold. In Der Einl. Zu Mān.	GOLD. in der Einl. zu MĀN. = ? {3.003} [Cologne Addition]
 3.004	Journ. of the Am. Or. S.	Journ. Of The Am. Or. S.	Journ. of the Am. Or. S. = Journal of the American Oriental Society.
 3.004a	J. Am. Or. Soc.	J. Am. Or. Soc.	J. Am. Or. Soc.  = Journal of the American Oriental Society. ? [Cologne Addition]
 3.004b	Journ. of the Am. S.	Journ. Of The Am. S.	Journ. of the Am. S. = Journal of the American Oriental Society.
-3.005	KALPADRUMĀV.	Kalpadrumāv.	KALPADRUMĀV. = KALPADRUMĀVADĀNA, handschriftlich in der Pariser<lb iast="KALPADRUMĀV.">Bibliothek, nach Mittheilungen von A. SCHIEFNER.
-3.006	KĀPĪŚĀV.	Kāpīśāv.	KĀPĪŚĀV. = KĀPĪŚĀVADĀNA, handschriftlich in der Pariser Bibliothek,<lb iast="KĀPĪŚĀV.">nach Mittheilungen von A. SCHIEFNER.
-3.007	KAṬHINĀV.	Kaṭhināv.	KAṬHINĀV. = KAṬHINĀVADĀNA, handschriftlich in der Pariser Bibliothek,<lb iast="KAṬHINĀV.">nach Mittheilungen von SCHIEFNER.
-3.008	KRIYĀSAM.	Kriyāsam.	KRIYĀSAM. = KRIYĀSAMUCCAYA, handschriftlich in der Pariser Bibliothek,<lb iast="KRIYĀSAM.">nach Mittheilungen von A. SCHIEFNER.
+3.005	KALPADRUMĀV.	Kalpadrumāv.	KALPADRUMĀV. = KALPADRUMĀVADĀNA, handschriftlich in der Pariser<lb>Bibliothek, nach Mittheilungen von A. SCHIEFNER.
+3.006	KĀPĪŚĀV.	Kāpīśāv.	KĀPĪŚĀV. = KĀPĪŚĀVADĀNA, handschriftlich in der Pariser Bibliothek,<lb>nach Mittheilungen von A. SCHIEFNER.
+3.007	KAṬHINĀV.	Kaṭhināv.	KAṬHINĀV. = KAṬHINĀVADĀNA, handschriftlich in der Pariser Bibliothek,<lb>nach Mittheilungen von SCHIEFNER.
+3.008	KRIYĀSAM.	Kriyāsam.	KRIYĀSAM. = KRIYĀSAMUCCAYA, handschriftlich in der Pariser Bibliothek,<lb>nach Mittheilungen von A. SCHIEFNER.
 3.009	MUIR, Sanskr. Texts	Muir, Sanskr. Texts	MUIR, Sanskr. Texts = Original Sanskrit Texts on the origin and pro- [Page003-b+ 17] gress of the Religion and Institutions of India; collected, translat- ed into English, and illustrated by Notes. Chiefly for the use of students and others in India. By Y. MUIR.
 3.009a	MUIR, ST.	Muir, St.	MUIR, ST. = MUIR, Sanskr. Texts ?
 3.009b	MUIR, Sanskrit Texts	Muir, Sanskrit Texts	MUIR, Sanskrit Texts = MUIR, Sanskr. Texts ?
 3.010	NIGH. PR.	Nigh. Pr.	NIGH. PR. = NIGHAṆṬA PRAKĀŚA von BĀPŪ GAṄGĀDHARA. Bombay 1839. 4º.
-3.011	PĀŚAKAK.	Pāśakak.	PĀŚAKAK. = PĀŚAKAKEVALĪ in «Monatsberichte der Kön. Akademie der<lb iast="PĀŚAKAK.">Wissenschaften zu Berlin», 1859, S. 158. fgg.
-3.012	RĀṢṬRAPĀLAP.	Rāṣṭrapālap.	RĀṢṬRAPĀLAP. = RĀṢTRAPĀLAPARIPṚCCHĀ, handschriftlich in der Pariser<lb iast="RĀṢṬRAPĀLAP.">Bibliothek, nach Mittheilungen von A. SCHIEFNER.
+3.011	PĀŚAKAK.	Pāśakak.	PĀŚAKAK. = PĀŚAKAKEVALĪ in «Monatsberichte der Kön. Akademie der<lb>Wissenschaften zu Berlin», 1859, S. 158. fgg.
+3.012	RĀṢṬRAPĀLAP.	Rāṣṭrapālap.	RĀṢṬRAPĀLAP. = RĀṢTRAPĀLAPARIPṚCCHĀ, handschriftlich in der Pariser<lb>Bibliothek, nach Mittheilungen von A. SCHIEFNER.
 3.013	SADDH. P. (mit nachfolgender einfacher Zahl)	Saddh. P. (Mit Nachfolgender Einfacher Zahl)	SADDH. P. (mit nachfolgender einfacher Zahl) = SADDHARMAPUṆḌARĪKA, handschriftlich in der Pariser Bibliothek, nach Mittheilungen von A. SCHIEFNER.
-3.014	SOM. NAL.	Som. Nal.	SOM. NAL. = Die Sage von NALA und DAMAYANTI nach der Bearbeitung<lb iast="SOM. NAL.">des SOMADEVA herausgegeben von HERMANN BROCKHAUS. Leipzig 1859.
+3.014	SOM. NAL.	Som. Nal.	SOM. NAL. = Die Sage von NALA und DAMAYANTI nach der Bearbeitung<lb>des SOMADEVA herausgegeben von HERMANN BROCKHAUS. Leipzig 1859.
 3.014a	SOM. NALA	Som. Nala	SOM. NALA
-3.015	UPAG. AV.	Upag. Av.	UPAG. AV. = UPAGUPTĀVADĀNA, handschriftlich in der Bibliothek der<lb iast="UPAG. AV.">Asiatischen Gesellschaftzu Paris, nach Mittheilungen von A. SCHIEFNER.
-3.016	VAJRĀSANASĀDHANAM.	Vajrāsanasādhanam.	VAJRĀSANASĀDHANAM. = VAJRĀSANASĀDHANAMĀLĀ, handschriftlich in der<lb iast="VAJRĀSANASĀDHANAM.">Pariser Bibliothek, nach Mittheilungen von A. SCHIEFNER.
+3.015	UPAG. AV.	Upag. Av.	UPAG. AV. = UPAGUPTĀVADĀNA, handschriftlich in der Bibliothek der<lb>Asiatischen Gesellschaftzu Paris, nach Mittheilungen von A. SCHIEFNER.
+3.016	VAJRĀSANASĀDHANAM.	Vajrāsanasādhanam.	VAJRĀSANASĀDHANAM. = VAJRĀSANASĀDHANAMĀLĀ, handschriftlich in der<lb>Pariser Bibliothek, nach Mittheilungen von A. SCHIEFNER.
 4.001	BANERJEA und BANERJEA, Dial.	Banerjea Und Banerjea, Dial.	BANERJEA und BANERJEA, Dial. = Dialogues on the Hindu Philosophy, comprising the Nyaya, the Sankhya, the Vedant; to which is added a discussion of the authority of the Vedas. By Rev. K. M. BANERJEA. London, 1861.
 4.001a	BANERJEA, Dial.	Banerjea, Dial.	BANERJEA und BANERJEA, Dial. = Dialogues on the Hindu Philosophy, comprising the Nyaya, the Sankhya, the Vedant; to which is added a discussion of the authority of the Vedas. By Rev. K. M. BANERJEA. London, 1861.
-4.002	ŚĀRṄG. SAṂH.	Śārṅg. Saṃh.	ŚĀRṄG. SAM̃H. = SAM̃HITĀ des ŚĀRṄGADHARA. Bombai 1853. Citirt nach<lb iast="ŚĀRṄG. SAṂH.">Kāṇḍa, Adhyāya und der Reihenfolge der in der Ausgabe angenom<lb iast="ŚĀRṄG. SAṂH.">menen Paragraphen.
-4.003	DAŚAR.	Daśar.	DAŚAR. = The Daśa-Rūpa, or Hindu Canons of Dramaturgy by Dhanan-<lb iast="DAŚAR.">jaya. Ed. by Fitz-Edward HALL. Calcutta, 1861.
+4.002	ŚĀRṄG. SAṂH.	Śārṅg. Saṃh.	ŚĀRṄG. SAM̃H. = SAM̃HITĀ des ŚĀRṄGADHARA. Bombai 1853. Citirt nach<lb>Kāṇḍa, Adhyāya und der Reihenfolge der in der Ausgabe angenom<lb>menen Paragraphen.
+4.003	DAŚAR.	Daśar.	DAŚAR. = The Daśa-Rūpa, or Hindu Canons of Dramaturgy by Dhanan-<lb>jaya. Ed. by Fitz-Edward HALL. Calcutta, 1861.
 4.005	HALL	Hall	HALL = A contribution towards an index to the Bibliography of the Indian philosophical systems. By Fitzedward HALL. Calcutta, 1859.
-4.006	KĀŚĪKH.	Kāśīkh.	KĀŚĪKH. = KĀŚĪKHAṆḌA, nach Anführungen in AUFRECHT'S Index zum<lb iast="KĀŚĪKH.">HALĀYUDHA.
-4.007	MADHYAM.	Madhyam.	MADHYAM. = MADHYAMAKAVṚTTI, handschriftlich in der Kais. Bibl. zu<lb iast="MADHYAM.">Paris, nach Mittheilungen von A. SCHIEFNER.
+4.006	KĀŚĪKH.	Kāśīkh.	KĀŚĪKH. = KĀŚĪKHAṆḌA, nach Anführungen in AUFRECHT'S Index zum<lb>HALĀYUDHA.
+4.007	MADHYAM.	Madhyam.	MADHYAM. = MADHYAMAKAVṚTTI, handschriftlich in der Kais. Bibl. zu<lb>Paris, nach Mittheilungen von A. SCHIEFNER.
 4.007a	MADHYAMAVṚ.	Madhyamavṛ.	MADHYAMAVṚ. = ? MADHYAMAKAVṚTTI,
-4.008	NĪLAK.	Nīlak.	NĪLAK. = A rational refutation of the Hindu philosophical systems by<lb iast="NĪLAK.">Nehemiah Nīlakaṇṭha, Śāstrí Gore, translated from the original Hindí,<lb iast="NĪLAK.">printed and manuscript, by Fitz-Edward HALL. Calcutta, 1862.
-4.009	NYĀYAMĀLĀV.	Nyāyamālāv.	NYĀYAMĀLĀV. = NYĀYAMĀLĀVISTARA, nach Anführungen bei MUIR, Sans- [Page1219-1b+ 21]<lb iast="NYĀYAMĀLĀV.">krit Texts.
+4.008	NĪLAK.	Nīlak.	NĪLAK. = A rational refutation of the Hindu philosophical systems by<lb>Nehemiah Nīlakaṇṭha, Śāstrí Gore, translated from the original Hindí,<lb>printed and manuscript, by Fitz-Edward HALL. Calcutta, 1862.
+4.009	NYĀYAMĀLĀV.	Nyāyamālāv.	NYĀYAMĀLĀV. = NYĀYAMĀLĀVISTARA, nach Anführungen bei MUIR, Sans- [Page1219-1b+ 21]<lb>krit Texts.
 4.010	PK.	Pk.	PK. = PĀRŚVANĀTHAKĀVYA, in AUFRECHT'S Index zum HALĀYUDHA.
-4.011	PRATĀPAR.	Pratāpar.	PRATĀPAR. = VIDYĀNĀTHA'S PRATĀPARUDRĪYAM ALAM̃KĀRAŚĀSTRAM. Lith. zu<lb iast="PRATĀPAR.">Pūnā, Śāka 1771.
-4.012	RATNAG.	Ratnag.	RATNAG. = ĀRYAPRAJÑĀPĀRAMITĀRATNAGUṆASAM̃CAYAGĀTHĀ, handschriftlich<lb iast="RATNAG.">im Asiat. Museum der Kais. Akad. d. Ww. in St. Petersburg, nach<lb iast="RATNAG.">Mittheilungen von A. SCHIEFNER.
-4.013	RATNĀVAD.	Ratnāvad.	RATNĀVAD. = RATNĀVADĀNAMĀLĀ, handschriftlich in der Kais. Bibl. zu<lb iast="RATNĀVAD.">Paris, nach Mittheilungen von A. SCHIEFNER.
-4.014	SAṂSK. K.	Saṃsk. K.	SAṂSK. K. = SAṂSKĀRAKAUSTUBHA von ANANTADEVA. Lith. Ausg. in folio<lb iast="SAṂSK. K.">ohne Angabe des Ortes und des Yahres.
+4.011	PRATĀPAR.	Pratāpar.	PRATĀPAR. = VIDYĀNĀTHA'S PRATĀPARUDRĪYAM ALAM̃KĀRAŚĀSTRAM. Lith. zu<lb>Pūnā, Śāka 1771.
+4.012	RATNAG.	Ratnag.	RATNAG. = ĀRYAPRAJÑĀPĀRAMITĀRATNAGUṆASAM̃CAYAGĀTHĀ, handschriftlich<lb>im Asiat. Museum der Kais. Akad. d. Ww. in St. Petersburg, nach<lb>Mittheilungen von A. SCHIEFNER.
+4.013	RATNĀVAD.	Ratnāvad.	RATNĀVAD. = RATNĀVADĀNAMĀLĀ, handschriftlich in der Kais. Bibl. zu<lb>Paris, nach Mittheilungen von A. SCHIEFNER.
+4.014	SAṂSK. K.	Saṃsk. K.	SAṂSK. K. = SAṂSKĀRAKAUSTUBHA von ANANTADEVA. Lith. Ausg. in folio<lb>ohne Angabe des Ortes und des Yahres.
 4.016	Spr.	Spr.	Spr. = Indische Sprüche. Sanskrit und deutsch herausgegeben von Otto BÖHTLINGK. St. Petersburg, 1863. 1864.
 4.017	WEBER, JYOT.	Weber, Jyot.	WEBER, JYOT. = WEBER, Ueber den Vedakalender, Namens Jyoti- ṣam. Berlin, 1862.
 4.018	WEBER, Nakṣ.	Weber, Nakṣ.	WEBER, Nakṣ. = WEBER, Die vedischen Nachrichten von den Nakṣatra (Mondstationen). Berlin, 1860. 1862.
