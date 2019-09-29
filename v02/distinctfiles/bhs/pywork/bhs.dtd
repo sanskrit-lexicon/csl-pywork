@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- bhs.dtd  
+ June 17, 2014
+ 
+-->
+<!ELEMENT  bhs (H1)*>
+<!ELEMENT H1 (h,body,tail) >
+<!ENTITY % body_elts "i | b | lbinfo|div|alt|lang" >
+<!-- h element -->
+<!ELEMENT h  (key1,key2,hom?)>
+<!ELEMENT key1 (#PCDATA) > <!-- in slp1 -->
+<!ELEMENT key2 (#PCDATA )><!-- in AS -->
+<!ELEMENT hom (#PCDATA)> <!-- homonym -->
+
+<!ELEMENT body (#PCDATA  | %body_elts;)*> 
+<!ELEMENT b (#PCDATA | g | br)*> <!-- bold  -->
+<!ELEMENT i (#PCDATA | br | g )*> <!-- italic  -->
+<!ELEMENT div (#PCDATA  | %body_elts;)*>
+<!ELEMENT alt (#PCDATA)*>
+<!ELEMENT lang (#PCDATA)*>
+
+<!-- tail -->
+<!ELEMENT tail (#PCDATA | L | pc )*>
+<!ELEMENT L (#PCDATA) >
+<!ELEMENT pc (#PCDATA) >
+
+<!-- attributes  -->
+<!ATTLIST div n (lb) #REQUIRED> 
+<!ATTLIST lang n (greek) #REQUIRED> <!-- only 3 -->
+
+

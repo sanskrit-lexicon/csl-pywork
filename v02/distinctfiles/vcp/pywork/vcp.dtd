@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- skd.dtd  
+ Oct, 2013
+ Aug 14, 2017. Replace HI,P,H,Picture with <div n="HI">, etc.
+   Add 'alt' and 'hwtype' for alternate headwords. 
+-->
+<!ELEMENT  vcp (H1)*>
+<!ELEMENT H1 (h,body,tail) >
+<!ENTITY % body_elts " s  | lb |C |edit|div|alt" >
+<!-- h element -->
+<!ELEMENT h  (key1,key2)>
+<!ELEMENT key1 (#PCDATA)>
+<!ELEMENT key2 (#PCDATA)*> 
+
+<!ELEMENT body (#PCDATA  | %body_elts;)*> 
+<!ELEMENT C EMPTY > <!-- 'column' in table -->
+<!ELEMENT lb EMPTY > <!-- line break -->
+<!ELEMENT edit EMPTY > <!-- marks point where vcp.txt edited -->
+<!ELEMENT s (#PCDATA  )*> <!-- Devanagari, in HK transliteration  -->
+<!ELEMENT alt (#PCDATA | s)*>
+<!ELEMENT div (#PCDATA  | %body_elts;)*>
+
+<!-- tail -->
+<!ELEMENT tail (#PCDATA | L | pc | hwtype)*>
+<!ELEMENT L (#PCDATA) >
+<!ELEMENT pc (#PCDATA) >
+<!ELEMENT hwtype EMPTY>
+<!-- attributes  -->
+<!ATTLIST C n (1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 | 10 | 11 | 12) #IMPLIED>
+<!ATTLIST div n (HI|P|H|Picture) #REQUIRED> 
+<!ATTLIST hwtype n (alt | sub | n) #REQUIRED>
+<!ATTLIST hwtype ref CDATA #REQUIRED>
+<!ATTLIST edit type (hw) #REQUIRED>

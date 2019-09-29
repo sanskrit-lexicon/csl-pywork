@@ -1,0 +1,112 @@
+*:pywork/hwparse.py:T
+; templates for some or all dictionaries
+*:pywork/hw.py:T
+*:pywork/redo_hw.sh:T
+*:pywork/redo_xml.sh:T
+; redo_xml.sh calls redo_postxml.sh
+*:pywork/redo_postxml.sh:T
+; -------------------------------------------
+; constant files for some or all dictionaries
+*:pywork/hw0.py:C
+*:pywork/hw2.py:C
+*:pywork/parseheadline.py:C
+*:pywork/updateByLine.py:C
+; --------------------------------------------------------------
+; files for updating web/sqlite
+; --------------------------------------------------------------
+*:pywork/sqlite/def.sql:T
+*:pywork/sqlite/make_input.php:T
+*:pywork/sqlite/redo.sh:T
+; change redo.sh to delete input.txt
+;*:pywork/sqlite/input.txt:D
+; --------------------------------------------------------------
+; files for update webtc2/query_dump.txt
+; --------------------------------------------------------------
+; init_query.py was a template in websanlexicon -- but no template code found
+; check for equivalence in skd
+*:pywork/webtc2/init_query.py:C
+*:pywork/webtc2/redo.sh:T
+; -------------------------------------------
+; distinct files for some or all dictionaries
+; -------------------------------------------
+*:pywork/make_xml.py:CD
+; these two should be combined into a template
+pw pwg:pywork/make_xml_ls.py:CD
+*:pywork/${dictlo}.dtd:CD
+*:pywork/hwextra/${dictlo}_hwextra.txt:CD
+;  not yet initialized in init_distinctfiles
+*:pywork/${dictlo}-meta2.txt:CD
+*:pywork/${dictlo}header.xml:CD
+; --------------------------------------------------------------
+; -- abbreviations
+; --------------------------------------------------------------
+;   Currently, treat as distinct files
+;   Later, try to get all abbreviations to be the same,
+;   so templates can be used.
+;   also append to redo_xml.sh : 'cd burab, sh redo.sh'
+bur cae mw pw pwg:pywork/${dictlo}ab/${dictlo}ab.sql:CD
+bur cae mw pw pwg:pywork/${dictlo}ab/${dictlo}ab_input.txt:CD
+; need to edit new version of readme
+bur cae mw pw pwg:pywork/${dictlo}ab/readme.txt:CD
+bur cae mw pw pwg:pywork/${dictlo}ab/redo.sh:CD
+bur cae mw pw pwg:pywork/${dictlo}ab/redo_${dictlo}ab.sh:CD
+; --------------------------------------------------------------
+; -- literary sources: MW
+; --------------------------------------------------------------
+; MW is coded differently from PW, PWG.
+; The files here are only those which are needed to do update.
+; Also the readme.org, which should be greatly simplified.
+mw:pywork/mwauth/readme.org:CD
+mw:pywork/mwauth/mwauth.txt:CD
+mw:pywork/mwauth/redo.sh:CD
+; tooltip.py could be greatly simplified: lots of currently unused code
+; tooltip.py not python3
+mw:pywork/mwauth/tooltip.py:CD
+; transcoder.py does NOT work with Python3
+mw:pywork/transcoder.py:CD
+mw:pywork/mwauth/transcoder/slp1_roman.xml:CD
+mw:pywork/mwauth/mwauthtooltips.sql:CD
+; --------------------------------------------------------------
+; -- literary sources: pw and pwg
+; --------------------------------------------------------------
+pw pwg:pywork/${dictlo}auth/redo.sh:CD
+pw pwg:pywork/${dictlo}auth/${dictlo}bib_input.txt:CD
+pw pwg:pywork/${dictlo}auth/redo_${dictlo}bib.sh:CD
+pw pwg:pywork/${dictlo}auth/${dictlo}bib.sql:CD
+; bibrec.py used by pywork/make_xml_ls.py, run during redo_xml.sh
+pw pwg:pywork/${dictlo}auth/bibrec.py:CD
+pw pwg:pywork/${dictlo}auth/${dictlo}bib.txt:CD
+; --------------------------------------------------------------
+; ---- mwkeys: This is used with sanhw1.  Not sure if actually used in displays
+; --------------------------------------------------------------
+mw:pywork/mwkeys/extract_keys_a.py:CD
+mw:pywork/mwkeys/extract_keys_a.sh:CD
+mw:pywork/mwkeys/extract_keys_b.py:CD
+mw:pywork/mwkeys/extract_keys_b.sh:CD
+mw:pywork/mwkeys/extract_keys.py:CD
+mw:pywork/mwkeys/extract_keys.sh:CD
+mw:pywork/mwkeys/mwkeys.sql:CD
+mw:pywork/mwkeys/redo_mwkeys.sh:CD
+mw:pywork/mwkeys/redo.sh:CD
+; ------------------------------------------------
+; Westergaard for MW
+mw:pywork/westmwtab/dbinit.php:CD
+mw:pywork/westmwtab/mwdp.xml:CD
+mw:pywork/westmwtab/redo.sh:CD
+mw:pywork/westmwtab/redo_westmwtab.sh:CD
+mw:pywork/westmwtab/westmwtab.sql:CD
+; ------------------------------------------------
+; Whitney roots for MW
+; ------------------------------------------------
+mw:pywork/whitmwtab/dbinit.php:CD
+mw:pywork/whitmwtab/mwwhitmap.xml:CD
+mw:pywork/whitmwtab/redo.sh:CD
+mw:pywork/whitmwtab/redo_whitmwtab.sh:CD
+mw:pywork/whitmwtab/whitmwtab.sql:CD
+; ------------------------------------------------
+; downloads directory
+; ------------------------------------------------
+*:downloads/redo_all.sh:C
+*:downloads/redo_txt.sh:T
+*:downloads/redo_xml.sh:T
+*:downloads/redo_web.sh:T

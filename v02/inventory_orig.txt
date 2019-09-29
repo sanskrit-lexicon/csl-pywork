@@ -1,0 +1,2 @@
+; the xxx.txt  digitization, kept in orig directory
+*:orig/${dictlo}.txt:CD

@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- 05-03-2018
+-->
+<!ELEMENT  mw (H1 | H2 | H3 | H4 | H1A | H2A | H3A | H4A |
+  H1B | H2B | H3B | H4B | H1C | H2C | H3C | H4C | H1E | H2E | H3E | H4E)*>
+<!ELEMENT H1 (h,body,tail) >
+<!ELEMENT H2 (h,body,tail) >
+<!ELEMENT H3 (h,body,tail) >
+<!ELEMENT H4 (h,body,tail) >
+<!ELEMENT H1A (h,body,tail) >
+<!ELEMENT H2A (h,body,tail) >
+<!ELEMENT H3A (h,body,tail) >
+<!ELEMENT H4A (h,body,tail) >
+<!ELEMENT H1B (h,body,tail) >
+<!ELEMENT H2B (h,body,tail) >
+<!ELEMENT H3B (h,body,tail) >
+<!ELEMENT H4B (h,body,tail) >
+<!ELEMENT H1C (h,body,tail) >
+<!ELEMENT H2C (h,body,tail) >
+<!ELEMENT H3C (h,body,tail) >
+<!ELEMENT H4C (h,body,tail) >
+<!ELEMENT H1E (h,body,tail) >
+<!ELEMENT H2E (h,body,tail) >
+<!ELEMENT H3E (h,body,tail) >
+<!ELEMENT H4E (h,body,tail) >
+<!ELEMENT HPW (h,body,tail) >
+<!ENTITY % special_chars "srs | shortlong" >
+<!ENTITY % misc_empty "info " >
+<!ENTITY % ref_elts "pc | pcol | pb" >
+<!ENTITY % spcl_text  "ab | etym | s | ns | bot | bio |
+ls | hom |s1 | div | i" >
+<!ENTITY % lex_elts "lex  " >
+<!ENTITY % lang_elts "lang" >
+<!ENTITY % body_elts "%special_chars; |  %misc_empty; |
+%spcl_text; | %lex_elts; | %ref_elts; | %lang_elts;
+  " >
+<!-- h element -->
+<!ELEMENT h  (key1,key2,hom?)>
+<!ELEMENT key1 (#PCDATA)>
+<!ELEMENT key2 (#PCDATA | %special_chars; | root)*>
+<!ELEMENT hom (#PCDATA) >
+<!-- special_chars -->
+<!ELEMENT srs EMPTY >
+<!ELEMENT shortlong EMPTY>
+<!ELEMENT body (#PCDATA  | %body_elts;)*> 
+<!-- misc_empty -->
+<!ELEMENT div EMPTY >
+<!ELEMENT info EMPTY >
+<!ELEMENT ls (#PCDATA | %body_elts; )* >
+<!ELEMENT s (#PCDATA | %special_chars; | root )* >
+<!ELEMENT s1 (#PCDATA) >
+<!ELEMENT lex (#PCDATA | %body_elts;)* >
+<!-- ref_elts -->
+<!ELEMENT ab (#PCDATA | ab )* >
+<!ELEMENT bio (#PCDATA )* >
+<!ELEMENT bot (#PCDATA )* >
+<!ELEMENT etym (#PCDATA | %body_elts; )* >
+<!ELEMENT pc (#PCDATA) >
+<!ELEMENT pb (#PCDATA) >
+<!ELEMENT pcol (#PCDATA) >
+<!ELEMENT ns (#PCDATA )* >
+<!ELEMENT i (#PCDATA )* >  <!-- italic text not elsewhere classified -->
+<!-- tail -->
+<!ELEMENT tail (#PCDATA | L | pc )*>
+<!ELEMENT L (#PCDATA) >
+<!ELEMENT lang (#PCDATA | %body_elts; )* >
+
+<!-- attributes  -->
+<!ATTLIST lex type (inh | phw | hw | hwifc | hwalt | nhw | hwinfo | part | extra) #IMPLIED >
+<!ATTLIST vlex type (root | preverb | nhw | hwalt | hwinfo | part) #IMPLIED >
+<!ATTLIST pb n CDATA #IMPLIED >
+<!ATTLIST lang script (Arabic) #IMPLIED >
+<!ATTLIST lang n (greek | Arabic | Hindustani | Persian | Turkish) #IMPLIED >
+<!ATTLIST info and CDATA #IMPLIED >
+<!ATTLIST info cp CDATA #IMPLIED >
+<!ATTLIST info lexcat CDATA #IMPLIED >
+<!ATTLIST info n CDATA #IMPLIED >
+<!ATTLIST info or CDATA #IMPLIED >
+<!ATTLIST info orsl CDATA #IMPLIED >
+<!ATTLIST info parse CDATA #IMPLIED >
+<!ATTLIST info phwchild CDATA #IMPLIED >
+<!ATTLIST info phwparent CDATA #IMPLIED >
+<!ATTLIST info verb (root|genuineroot|pre|gati|nom) #IMPLIED >
+<!ATTLIST info westergaard CDATA #IMPLIED >
+<!ATTLIST info whitneyroots CDATA #IMPLIED >
+<!ATTLIST info lex CDATA #IMPLIED >
+<!ATTLIST ab n CDATA #IMPLIED >
+<!ATTLIST ab slp1 CDATA #IMPLIED >
+<!ATTLIST s1 slp1 CDATA #IMPLIED >
+<!ATTLIST div n CDATA #IMPLIED >

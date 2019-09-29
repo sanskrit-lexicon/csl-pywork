@@ -1,0 +1,129 @@
+pd-meta2.txt
+Feb 4, 2018
+
+This supercedes pd-meta.txt as a description of 
+ the current digitization pd.txt.
+
+The digitization is in the utf-8 encoding.
+
+The {X...X} style of coding serves several purposes:
+{#X#}  : Devanagari text, in SLP1 transcoding
+{@X@}  : bold text
+{%X%}  : italic text 
+{??}   : unreadable text (occurs in 784 lines as of 02-04-2018)
+
+The pseudo-xml <> style of coding is used as follows:
+
+<L>,<e>,<h>,<k1>,<k2>,<pc>,<LEND> are used in the 'meta lines' (see below) 
+<div n="lb">  line break
+<sup>n</sup>  Homonym numbers in text, displayed as html 'sup' (superscript)
+
+Meta lines: 
+Each entry of the digitization is contained within a beginning and ending
+markup. As example,
+<L>1<pc>1-0001a<k1>a<k2>a<h>1
+<sup>1</sup>{#a#}¦ (a) the first letter of the Devanāgarī alphabet. All {%Akṣarasamā-%}
+<div n="lb">{%mnāyas%} begin with it. cf. ŚivSū.(Gr.) 1. The NandiKāśi. on it (vv. 3-9)
+ ...  MANY MORE LINES
+<LEND>
+
+The ending markup is <LEND>.
+The beginning markup contains various identifying fields, expressed in
+a <fieldname>fieldvalue format. The fields are:
+required fields
+  L Cologne record identifier
+  pc page-col reference to scanned image
+  k1 key1. The headword spelling, in slp1 coding for Sanskrit headwords
+  k2 key2. The original headword spelling, either in slp1 or IAST
+optional field for homonym
+  h The homonym number (usually a digit). 
+
+Page breaks are coded as [Page...].
+Page breaks are more specifically coded as
+[PageV-PPPP-C+ NN] where
+V is volumne (1-8)
+PPPP is page number (consecutive through the volumes)
+C  is column (a or b)
+NN is the number of lines in the column of the page.   
+The lines in the entry bodies correspond to lines of printed text.
+For pages with a letter break per page, the coding is
+[PagePPP-1C+ NN]; similarly if there are 2 or 3 letter breaks in a page.
+
+Words using diacritics with the Latin alphabet are represented in Unicode 
+characters. The vast majority of such words with diacritics are Sanskrit.
+There are also several words in German, French, etc. with diacritics.
+The Sanskrit words are not distinguished typographically from words in English
+or other languages.
+
+The spelling aims to be modern IAST unicode,
+generally as described in https://en.wikipedia.org/wiki/International_Alphabet_of_Sanskrit_Transliteration; the use of diacritics in the printed text already
+corresponds almost exactly with that of modern IAST with one main exception:
+The text uses ṁ (m with dot above) for Sanskrit anusvara;  we have changed
+this to ṃ (m with dot below) to agree with modern IAST as described.
+
+
+Here are the extended ASCII characters that occur in the text.
+with their  frequency as of this writing (01-30-2018):
+
+£  (\u00a3)  1067 := POUND SIGN
+   This represents non-combining chandra-bindu in transcoding of Devanagari;
+   We don't know how to represent this with Unicode.
+¦  (\u00a6) 107630 := BROKEN BAR
+   end of raw headword in first line of each entry.
+   The last headword is apacaya.
+§  (\u00a7)    12 := SECTION SIGN
+º  (\u00ba)  3186 := MASCULINE ORDINAL INDICATOR
+É  (\u00c9)     1 := LATIN CAPITAL LETTER E WITH ACUTE
+Ó  (\u00d3)     7 := LATIN CAPITAL LETTER O WITH ACUTE
+×  (\u00d7)     2 := MULTIPLICATION SIGN
+à  (\u00e0)    17 := LATIN SMALL LETTER A WITH GRAVE
+á  (\u00e1)  2059 := LATIN SMALL LETTER A WITH ACUTE
+ã  (\u00e3)     1 := LATIN SMALL LETTER A WITH TILDE
+ä  (\u00e4)     2 := LATIN SMALL LETTER A WITH DIAERESIS
+é  (\u00e9)    40 := LATIN SMALL LETTER E WITH ACUTE
+í  (\u00ed)   135 := LATIN SMALL LETTER I WITH ACUTE
+ñ  (\u00f1) 18353 := LATIN SMALL LETTER N WITH TILDE
+ò  (\u00f2)     3 := LATIN SMALL LETTER O WITH GRAVE
+ó  (\u00f3)    23 := LATIN SMALL LETTER O WITH ACUTE
+ô  (\u00f4)     1 := LATIN SMALL LETTER O WITH CIRCUMFLEX
+ö  (\u00f6)     5 := LATIN SMALL LETTER O WITH DIAERESIS
+ù  (\u00f9)     1 := LATIN SMALL LETTER U WITH GRAVE
+ú  (\u00fa)    82 := LATIN SMALL LETTER U WITH ACUTE
+ü  (\u00fc)    10 := LATIN SMALL LETTER U WITH DIAERESIS
+Ā  (\u0100) 11774 := LATIN CAPITAL LETTER A WITH MACRON
+ā  (\u0101) 340421 := LATIN SMALL LETTER A WITH MACRON
+ā̀  (\u0101\u0300)     2 := LATIN SMALL LETTER A WITH MACRON + COMBINING GRAVE ACCENT
+ā́  (\u0101\u0301)   160 := LATIN SMALL LETTER A WITH MACRON + COMBINING ACUTE ACCENT
+Ī  (\u012a)  1624 := LATIN CAPITAL LETTER I WITH MACRON
+ī  (\u012b) 45552 := LATIN SMALL LETTER I WITH MACRON
+ī́  (\u012b\u0301)    30 := LATIN SMALL LETTER I WITH MACRON + COMBINING ACUTE ACCENT
+Ś  (\u015a) 52469 := LATIN CAPITAL LETTER S WITH ACUTE
+ś  (\u015b) 34497 := LATIN SMALL LETTER S WITH ACUTE
+Ū  (\u016a)    46 := LATIN CAPITAL LETTER U WITH MACRON
+ū  (\u016b) 26128 := LATIN SMALL LETTER U WITH MACRON
+ū́  (\u016b\u0301)    19 := LATIN SMALL LETTER U WITH MACRON + COMBINING ACUTE ACCENT
+ə  (\u0259)     1 := LATIN SMALL LETTER SCHWA
+Ḍ  (\u1e0c)   105 := LATIN CAPITAL LETTER D WITH DOT BELOW
+ḍ  (\u1e0d)  8677 := LATIN SMALL LETTER D WITH DOT BELOW
+ḥ  (\u1e25)  1688 := LATIN SMALL LETTER H WITH DOT BELOW
+ḷ  (\u1e37)   110 := LATIN SMALL LETTER L WITH DOT BELOW
+ḹ  (\u1e39)     2 := LATIN SMALL LETTER L WITH DOT BELOW AND MACRON
+ṃ  (\u1e43) 19154 := LATIN SMALL LETTER M WITH DOT BELOW
+ṅ  (\u1e45) 22497 := LATIN SMALL LETTER N WITH DOT ABOVE
+ṇ  (\u1e47) 31737 := LATIN SMALL LETTER N WITH DOT BELOW
+ṉ  (\u1e49)     1 := LATIN SMALL LETTER N WITH LINE BELOW
+Ṛ  (\u1e5a)  4483 := LATIN CAPITAL LETTER R WITH DOT BELOW
+ṛ  (\u1e5b) 30492 := LATIN SMALL LETTER R WITH DOT BELOW
+ṛ́  (\u1e5b\u0301)    28 := LATIN SMALL LETTER R WITH DOT BELOW + COMBINING ACUTE ACCENT
+ṝ  (\u1e5d)    33 := LATIN SMALL LETTER R WITH DOT BELOW AND MACRON
+Ṣ  (\u1e62)   365 := LATIN CAPITAL LETTER S WITH DOT BELOW
+ṣ  (\u1e63) 38268 := LATIN SMALL LETTER S WITH DOT BELOW
+Ṭ  (\u1e6c)  3685 := LATIN CAPITAL LETTER T WITH DOT BELOW
+ṭ  (\u1e6d) 25056 := LATIN SMALL LETTER T WITH DOT BELOW
+–  (\u2013)     3 := EN DASH   used as a metrical 'longum'
+‘  (\u2018)  4304 := LEFT SINGLE QUOTATION MARK
+’  (\u2019)  4316 := RIGHT SINGLE QUOTATION MARK
+“  (\u201c)    45 := LEFT DOUBLE QUOTATION MARK
+”  (\u201d)    45 := RIGHT DOUBLE QUOTATION MARK
+…  (\u2026) 93377 := HORIZONTAL ELLIPSIS
+⏑  (\u23d1)     6 := METRICAL BREVE

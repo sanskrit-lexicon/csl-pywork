@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- ap90.dtd  
+ May 24, 2014
+ Nov  5, 2016  
+   'n' attribute of h (for alternate headwords)
+   'ref' attribute of body (for alternate headwords)
+ June 28, 2017:  'alt' and 'hwtype'
+ July  1, 2017: Remove 3 instances of <H>; so remove 'H' from body_elts
+-->
+<!ELEMENT  ap90 (H1)*>
+<!ELEMENT H1 (h,body,tail) >
+<!ENTITY % body_elts "s | lb | P | i | b | alt" >
+<!-- h element -->
+<!ELEMENT h  (key1,key2,hom?)>
+<!-- n attribute of 'h' takes values
+  n (the default value) meaning normal element
+ alt meaning an alternate headword
+-->
+<!ATTLIST h n (n|alt) "n">  
+<!ELEMENT key1 (#PCDATA) > <!-- in slp1 -->
+<!ELEMENT key2 (#PCDATA )><!-- in AS -->
+<!ELEMENT hom (#PCDATA)> <!-- homonym -->
+
+<!ELEMENT body (#PCDATA  | %body_elts;)*> 
+<!-- ref attribute of body
+  Absent when 'n' attribute of 'h' has value 'n' (i.e., for normal records)
+  Otherwise, Should be the L-code of the so-called 'parent' element
+-->
+<!ATTLIST body ref CDATA #IMPLIED>
+<!ELEMENT i (#PCDATA | lb)*> <!-- italic text -->
+<!ELEMENT s (#PCDATA |  lb)*> <!-- Sanskrit, in SLP1 transliteration  -->
+<!ELEMENT b (#PCDATA | s | lb)*> <!-- bold text -->
+<!ELEMENT lb EMPTY> <!-- line break -->
+<!ELEMENT P EMPTY> <!-- Paragraph -->
+<!ELEMENT H EMPTY> <!-- Headline -->
+
+<!-- tail -->
+<!ELEMENT tail (#PCDATA | L | pc | hwtype)*>
+<!ELEMENT L (#PCDATA) >
+<!ELEMENT pc (#PCDATA) >
+<!ELEMENT hwtype EMPTY>
+<!ELEMENT alt (#PCDATA | s)*>
+
+<!-- attributes  -->
+<!ATTLIST hwtype n (alt | sub | n) #REQUIRED>
+<!ATTLIST hwtype ref CDATA #REQUIRED>
+

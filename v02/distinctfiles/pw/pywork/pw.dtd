@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- pw.dtd  
+ June 6, 2014
+ Oct 12, 2014 mdash
+ Apr 21, 2015 R instead of RUSSISCH
+ Oct 5, 2017  For meta-line version of pw.xml
+-->
+<!ELEMENT  pw (H1)*>
+<!ELEMENT H1 (h,body,tail) >
+<!ENTITY % body_elts "i |s|div|ls|sic|alt|lang|ab|is|bot|lex" >
+<!-- h element -->
+<!ELEMENT h  (key1,key2,hom?)>
+<!ELEMENT key1 (#PCDATA) > <!-- in slp1 -->
+<!ELEMENT key2 (#PCDATA )><!-- in slp1 -->
+<!ELEMENT hom (#PCDATA)> <!-- homonym -->
+
+<!ELEMENT body (#PCDATA  | %body_elts;)*> 
+<!ELEMENT i (#PCDATA |is | bot | ab |lex | s | lang | ls | sic)*> <!-- italic -->
+<!ELEMENT is (#PCDATA)*> <!-- IAST sanskrit -->
+<!ELEMENT s (#PCDATA)> <!-- Sanskrit, in slp1 transliteration  -->
+<!ELEMENT div (#PCDATA | %body_elts;)* > <!-- section marker -->
+<!ELEMENT ls (#PCDATA )*> <!-- literary sources -->
+<!ELEMENT sic EMPTY > <!-- Undocumented -->
+<!ELEMENT bot (#PCDATA )*> <!-- scientific name of plant -->
+<!ELEMENT tail (#PCDATA | L | pc | hwtype)*>
+<!ELEMENT L (#PCDATA) >
+<!ELEMENT pc (#PCDATA) >
+<!ELEMENT hwtype EMPTY>
+<!ELEMENT alt (#PCDATA | s)*>
+<!ELEMENT ab (#PCDATA)*>
+<!ELEMENT lex (#PCDATA)*>
+<!ELEMENT lang (#PCDATA)*>
+
+<!-- attributes  -->
+
+<!ATTLIST div n (1 | 2 | 3 | 4 | m | o | p) #REQUIRED> <!-- name of section  -->
+<!ATTLIST hwtype n (alt | sub | n) #REQUIRED>
+<!ATTLIST hwtype ref CDATA #REQUIRED>
+<!ATTLIST is n (1) #IMPLIED>
+<!ATTLIST lang n (arabic | greek | russian) #REQUIRED>
+<!ATTLIST ab n CDATA #IMPLIED>  <!-- for 'local' abbreviations' -->
+<!ATTLIST ls n CDATA #IMPLIED> 
+

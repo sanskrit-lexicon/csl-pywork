@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- yat.dtd  
+ May 28, 2014
+ May 31, 2017. 
+-->
+<!ELEMENT  yat (H1)*>
+<!ELEMENT H1 (h,body,tail) >
+<!ENTITY % body_elts "i |s|br|g " >
+<!-- h element -->
+<!ELEMENT h  (key1,key2,hom?)>
+<!ELEMENT key1 (#PCDATA) > <!-- in slp1 -->
+<!ELEMENT key2 (#PCDATA )><!-- in SLP1-->
+<!ELEMENT hom (#PCDATA)> <!-- homonym -->
+
+<!ELEMENT body (#PCDATA  | %body_elts;)*> 
+<!ELEMENT i (#PCDATA | br)*> <!-- italic -->
+<!ELEMENT s (#PCDATA |br)*> <!-- Sanskrit, in SLP1 transliteration  -->
+<!ELEMENT br EMPTY>  <!-- line break -->
+<!ELEMENT g (#PCDATA) >  <!-- Greek text, 1 instance -->
+<!-- tail -->
+<!ELEMENT tail (#PCDATA | L | pc )*>
+<!ELEMENT L (#PCDATA) >
+<!ELEMENT pc (#PCDATA) >
+
+<!-- attributes  -->
+

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- wil.dtd  
+ June 25, 2014
+ April 16, 2015. Removed 'ar' tag, replaced with 'A' (2 cases)
+ Remove 'R' tag, replaced with 'A' (1 case)
+-->
+<!ELEMENT  wil (H1)*>
+<!ELEMENT H1 (h,body,tail) >
+<!ENTITY % body_elts "i |s|lang|symbol |div" >
+<!-- h element -->
+<!ELEMENT h  (key1,key2,hom?)>
+<!ELEMENT key1 (#PCDATA) > <!-- in slp1 -->
+<!ELEMENT key2 (#PCDATA )><!-- in AS -->
+<!ELEMENT hom (#PCDATA)> <!-- homonym -->
+
+<!ELEMENT body (#PCDATA  | %body_elts;)*> 
+<!ELEMENT i (#PCDATA | br)*> <!-- italic -->
+<!ELEMENT s (#PCDATA)> <!-- Sanskrit, in HK transliteration  -->
+<!ELEMENT symbol (#PCDATA)> <!-- svastika character (once) -->
+<!ELEMENT lang (#PCDATA)> <!-- Arabic Alphabet text (4) -->
+<!ELEMENT div (#PCDATA  | %body_elts;)*>
+
+<!-- tail -->
+<!ELEMENT tail (#PCDATA | L | pc )*>
+<!ELEMENT L (#PCDATA) >
+<!ELEMENT pc (#PCDATA) >
+
+<!-- attributes  -->
+<!ATTLIST symbol n CDATA #REQUIRED>
+<!ATTLIST div n (E | 1 | 2| lex) #REQUIRED>
+<!ATTLIST hwtype n  (alt | sub | n) #REQUIRED>
+<!ATTLIST hwtype ref CDATA #REQUIRED>
+<!ATTLIST lang n (arabic | greek ) #REQUIRED>
+
+

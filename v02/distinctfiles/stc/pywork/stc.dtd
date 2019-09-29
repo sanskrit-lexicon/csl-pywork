@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- stc.dtd  
+ May 17, 2013
+ June 22, 2013
+ Sep 16, 2017  Revised for meta-line format and other standardizations
+-->
+<!ELEMENT  stc (H1)*>
+<!ELEMENT H1 (h,body,tail) >
+
+<!ENTITY % body_elts "i | b | lbinfo|div|alt|lang|sup" >
+
+<!-- h element -->
+<!ELEMENT h  (key1,key2,hom?)>
+<!ELEMENT key1 (#PCDATA)>
+<!ELEMENT key2 (#PCDATA)>
+<!ELEMENT hom (#PCDATA)>
+
+<!ELEMENT body (#PCDATA  | %body_elts;)*> 
+<!ELEMENT b (#PCDATA) > <!-- bold -->
+<!ELEMENT i (#PCDATA | br)* > <!-- italic -->
+<!ELEMENT sup (#PCDATA) > <!-- superscript -->
+<!ELEMENT lbinfo EMPTY>
+<!ELEMENT div (#PCDATA  | %body_elts;)*>
+<!ELEMENT alt (#PCDATA)*>
+<!ELEMENT lang (#PCDATA)*>
+
+<!-- tail -->
+<!ELEMENT tail (#PCDATA | L | pc )*>
+<!ELEMENT L (#PCDATA) >
+<!ELEMENT pc (#PCDATA) >
+<!-- attributes  -->
+<!ATTLIST lbinfo n CDATA #REQUIRED>
+<!ATTLIST div n CDATA #REQUIRED>  <!-- P for stc -->
+<!ATTLIST lang n (greek) #REQUIRED> <!-- only once -->
+

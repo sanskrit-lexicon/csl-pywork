@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- skd.dtd  
+ Oct, 2013
+ Nov 20, 2014. 'om' empty element removed
+ Oct 20, 2016
+   'n' attribute of h (for alternate headwords)
+   'ref' attribute of body (for alternate headwords)
+ Aug 23, 2017.  After metaline conversion:
+   'HI' tag removed
+   'P' and 'H' tags replaced by <mark n="P"/> and <mark n="H"/>
+   'F' tag replaced by  <div n="F">...</div>
+   'alt' tag added
+   hwtype  (for alternate headwords)
+   Removed 'n' and 'alt attributes of h
+-->
+<!ELEMENT  skd (H1)*>
+<!ELEMENT H1 (h,body,tail) >
+<!ENTITY % body_elts " s  | lb |C |mark | div | alt" >
+<!-- h element -->
+<!ELEMENT h  (key1,key2)>
+<!ELEMENT key1 (#PCDATA)>
+<!ELEMENT key2 (#PCDATA)*> 
+
+<!ELEMENT body (#PCDATA  | %body_elts;)*> 
+<!-- ref attribute of body
+  Absent when 'n' attribute of 'h' has value 'n' (i.e., for normal records)
+  Otherwise, Should be the L-code of the so-called 'parent' element
+-->
+<!ATTLIST body ref CDATA #IMPLIED>
+<!ELEMENT C EMPTY > <!-- 'column' in table -->
+<!ELEMENT mark EMPTY > <!-- P and H-->
+<!ELEMENT lb EMPTY > <!-- line break -->
+<!ELEMENT s (#PCDATA  )*> <!-- Devanagari, in SLP1 transliteration  -->
+<!ELEMENT alt (#PCDATA | s)*>
+<!ELEMENT div (#PCDATA | %body_elts;)* > <!-- Footnote (5 cases) -->
+<!-- tail -->
+<!ELEMENT tail (#PCDATA | L | pc | hwtype)*>
+<!ELEMENT L (#PCDATA) >
+<!ELEMENT pc (#PCDATA) >
+<!ELEMENT hwtype EMPTY>
+
+<!-- attributes  -->
+<!ATTLIST C n (1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 | 10 | 11) #IMPLIED>
+<!ATTLIST div n CDATA #REQUIRED>  <!--F -->
+<!ATTLIST hwtype n (alt | sub | n) #REQUIRED>
+<!ATTLIST hwtype ref CDATA #REQUIRED>
+<!ATTLIST mark n (P | H | Picture) #REQUIRED>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- sch.dtd  
+ Mar 18, 2014
+ Apr 24, 2017
+-->
+<!ELEMENT  sch (H1)*>
+<!ELEMENT H1 (h,body,tail) >
+<!ENTITY % body_elts "i |s|type|hom|div " >
+<!-- h element -->
+<!ELEMENT h  (key1,key2)>
+<!ELEMENT key1 (#PCDATA) > <!-- in slp1 -->
+<!ELEMENT key2 (#PCDATA )><!-- in IAST -->
+<!ELEMENT hom (#PCDATA)> <!-- pwk homonym - see attrib below -->
+
+<!ELEMENT body (#PCDATA  | %body_elts;)*> 
+<!ELEMENT i (#PCDATA)*> <!-- italic, Sanskrit, in IAST transliteration -->
+<!ELEMENT s (#PCDATA)> <!-- Sanskrit, in SLP1 transliteration  -->
+<!ELEMENT type (#PCDATA)> <!-- characters preceding word in entry: *º+ -->
+<!ELEMENT div (#PCDATA  | %body_elts;)*> <!-- EM-DASH divisions -->
+<!-- tail -->
+<!ELEMENT tail (#PCDATA | L | pc|info )*>
+<!ELEMENT L (#PCDATA) >
+<!ELEMENT pc (#PCDATA) >
+<!ELEMENT info (#PCDATA)> <!-- some meta-data. See attributes below-->
+<!-- attributes  -->
+<!ATTLIST info seq CDATA #REQUIRED> <!-- original entry sequence number -->
+<!ATTLIST info n CDATA #REQUIRED> <!-- # of lines in entry in print edition-->
+<!ATTLIST info part CDATA #IMPLIED> <!-- N for Nachtrag, else not present -->
+<!ATTLIST hom n CDATA "pwk">
+
+

@@ -1,0 +1,312 @@
+
+readme.org for mwauth
+03-31-2018
+
+This work begun in conjunction with the meta/iast conversion of mw,
+  (see pywork/correctionwork/cologne-issue-216).
+It adapts and extends the work of mwaux/mwauthorities.
+
+* mwauth.txt
+  created initially from work/mwauth1.txt
+* tooltip.txt
+python tooltip.py roman mwauth.txt tooltip.txt
+
+* redo.sh
+ Recreates things as needed. Based on mwauth.txt
+
+* temp_tooltip.txt
+  This is used for research, in 
+    pywork/correctionwork/cologne-issue-216/lswork
+ python temp_tooltip.py roman mwauth.txt temp_tooltip.txt
+
+* ----------------------------------------------------------
+*  Initial creation of work/mwauth1.txt and work/tab_table2.py
+*  This information for historical use only
+* -----------------------------------------------------------
+* orig
+This directory contains files drawn from mwaux/mwauthorities,
+as of 2018-03-31:
+** mwauthorities_init.txt
+   Prepared by Peter Scharf, et. al. ca 2007.
+     The mwauthorities_init.txt file is a tab-delimited file containing:
+      key (which matches with the 'data' of linkmwauthorities)
+      type  (code indicating author, title, etc.)
+      data  (xml structure specifying the  author, title, etc.)
+** linkmwauthorities_init.txt
+The file consists of lines; each line contains 3 tab-delimited fields:
+  - key:  A code as it appears in MW record(s) within <ls> entry.
+  - numinstance:  the number of times this code appears in MW.  Not used
+    for display.  Has not been revised recently. See mwupdate/mwauthorities.
+  - data: The id linking to mwauthorities data.
+
+** mw-authorities.rnc and .rng
+These give clues to interpret the xml-based 'data' field of 
+mwauthorities_init.txt.
+
+* scan pages
+mw010005.jpg and mw010006.jpg are the two pages from the printed text
+of the LIST OF WORKS AND AUTHORS.
+* work 
+This contains intermediate steps in the transition to form used in
+the meta/iast version of mw.
+* work/mwauthorities_init1.txt
+python init1.py ../orig/mwauthorities_init.txt mwauthorities_init1.txt
+
+This inserts a cologne id field as a first field.
+The authorities list consists almost entirely of records corresponding
+to the printed list of works and authors; and the records are in the
+same order as that printed list.
+In a later step, we will want to supplement this list to included our
+guesses as to literary source references mentioned in the text, but not
+covered in the printed list.
+We want the index structured with these two purposes in mind.
+Each of the two printed pages has 5 columns.  Each of the 10 columns has
+less than 100 entries.
+xx:nny   xx = 01,...,10  or 'ca' = cologne addition
+        For the entries corresponding to the printed entries,
+        nn = sequence number within column 
+       So if the first column of the printed text has 50 entries, 
+       their ids will be
+       01:01, 01:02, 01:03, ..., 01:49, 01:50.
+       The second column will have entries
+       02:01, 02:02, 02:03, ..., 02:49, 02:50,
+
+ A Cologne addition will use the y-field, lower case letters a,b, etc.
+     So if two cologne additions are inserted after the 15th item of
+     column 7,  their ids will be 07:15a, and 07:15b.
+* changes to work/mwauthorities_init1.txt
+** 1. R -> r
+old 11:03	aDyR	ti	<abbr><slp cap="true">aDy</slp><slp cap="true">R</slp></abbr><expandMW><ti><slp cap="true">aDyAtma</slp><slp cap="true">rAmAyaRa</slp></ti></expandMW>
+old 11:03	aDyR	ti	<abbr><slp cap="true">aDy</slp><slp cap="true">r</slp></abbr><expandMW><ti><slp cap="true">aDyAtma</slp><slp cap="true">rAmAyaRa</slp></ti></expandMW>
+** 2. Kielhorm - remove ?
+old 11:52	k	au	<abbr>K</abbr><expandMW><au>Kielhorn (?)</au></expandMW>
+new 11:52	k	au	<abbr>K</abbr><expandMW><au>Kielhorn</au></expandMW>
+** 3. yajurv
+old 11:51	yajurv	litcat	<abbr><slp cap="true">yajurv</slp></abbr><expandMW><litcat><slp cap="true">yajur-veda</slp></litcat></expandMW>
+new 11:51	yajurv	litcat	<abbr><slp cap="true">yajur</slp><abbr><slp cap="true">v</slp></abbr><expandMW><litcat><slp cap="true">yajur-veda</slp></litcat></expandMW>
+** 4. 
+old 11:02	Apgf	ti	<abbr><slp cap="true">Apgf</slp></abbr><expandMW><au><slp cap="true">Apastamba</slp></au>'s <litcat><slp cap="true">gfhya-sUtra</slp></litcat></expandMW><expandNorm><ti><slp cap="true">Apastamba-gfhya-sUtra</slp></ti></expandNorm>
+new 11:02	Apgf	ti	<abbr><slp cap="true">Ap</slp>><slp cap="true">gf</slp></abbr><expandMW><au><slp cap="true">Apastamba</slp></au>'s <litcat><slp cap="true">gfhya-sUtra</slp></litcat></expandMW><expandNorm><ti><slp cap="true">Apastamba-gfhya-sUtra</slp></ti></expandNorm>
+** 5. SivaS -> Siva
+old 11:16	Sivas	ti	<abbr><slp cap="true">Siva</slp><slp cap="true">s</slp></abbr><expandMW><ti><slp cap="true">Siva</slp><slp cap="true">sUtra</slp></ti></expandMW><expandNorm><ti><slp cap="true">Siva-sUtra</slp></ti></expandNorm>
+new 11:16	Siva	ti	<abbr><slp cap="true">Siva</slp></abbr><expandMW><ti><slp cap="true">Siva</slp><slp cap="true">sUtra</slp></ti></expandMW><expandNorm><ti><slp cap="true">Siva-sUtra</slp></ti></expandNorm>
+** 6.
+old 11:41	tanukr	ti	<abbr><slp cap="true">tanukr</slp></abbr><expandMW>NONE</expandMW><expandNorm><ti><slp cap="true">tEttirIya-anukramaRI</slp></ti></expandNorm>
+new 11:41	tanukr	ti	<abbr><slp cap="true">t</slp><slp cap="true">anukr</slp></abbr><expandMW>NONE</expandMW><expandNorm><ti><slp cap="true">tEttirIya-anukramaRI</slp></ti></expandNorm>
+** 7.
+old 11:42	taRqinAmup	ti	<abbr><slp cap="true">taRqinAmup</slp></abbr><expandMW>NONE</expandMW><expandNorm><ti><slp cap="true">taRqinAm-upanizad</slp></ti></expandNorm>
+new 11:42	taRqinAmup	ti	<abbr><slp cap="true">taRqinAm</slp><slp cap="true">up</slp></abbr><expandMW>NONE</expandMW><expandNorm><ti><slp cap="true">taRqinAm-upanizad</slp></ti></expandNorm>
+** 8. 
+old 11:43	tSup	ti	<abbr><slp cap="true">tSup</slp></abbr><expandMW>NONE</expandMW><expandNorm><ti><slp cap="true">triSiKi-brAhmaRa-upanizad</slp></ti></expandNorm>
+new 
+** 9. 
+old 11:40	saMnyup	ti	<abbr><slp cap="true">saMnyup</slp></abbr><expandMW>NONE</expandMW><expandNorm><ti><slp cap="true">saMnyAsa-upanizad</slp></ti></expandNorm>
+new 11:40	saMnyup	ti	<abbr><slp cap="true">saMny</slp><slp cap="true">up</slp></abbr><expandMW>NONE</expandMW><expandNorm><ti><slp cap="true">saMnyAsa-upanizad</slp></ti></expandNorm>
+** 10.  print change in mwauthorities
+ authorities has toqarAnanda, which is alternate spelling of woqarAnanda.
+ All abbreviations have 'woqar'.
+old 09:33	toqar	ti	<abbr><slp cap="true">toqar</slp></abbr><expandMW><ti><slp cap="true">toqarAnanda</slp></ti></expandMW>
+new 09:33	woqar	ti	<abbr><slp cap="true">woqar</slp></abbr><expandMW><ti><slp cap="true">woqarAnanda</slp></ti></expandMW>
+** 11. print change in mwauthorities
+text abbreviations are Vcar. not VCar.
+old 10:25	vcar	ti	<abbr><slp cap="true">v</slp><slp cap="true">car</slp></abbr><expandMW><ti><slp cap="true">vikramANkadeva</slp><slp cap="true">carita</slp></ti>, by <au><slp cap="true">bilhaRa</slp></au></expandMW><expandNorm><ti><slp cap="true">vikramANkadeva-carita</slp></ti>, by <au><slp cap="true">bilhaRa</slp></au></expandNorm>
+new 10:25	vcar	ti	<abbr><slp cap="true">vcar</slp></abbr><expandMW><ti><slp cap="true">vikramANkadeva</slp><slp cap="true">carita</slp></ti>, by <au><slp cap="true">bilhaRa</slp></au></expandMW><expandNorm><ti><slp cap="true">vikramANkadeva-carita</slp></ti>, by <au><slp cap="true">bilhaRa</slp></au></expandNorm>
+** 12. change in mwauthorities: capitalization of abbreviatin
+old 09:37	uRvf	ti	<abbr><slp cap="true">uR</slp><slp cap="true">vf</slp></abbr><expandMW><ti><slp cap="true">uRAdi</slp><slp cap="true">vftti</slp></ti></expandMW><expandNorm><ti><slp cap="true">uRAdi-vftti</slp></ti></expandNorm>
+new 09:37	uRvf	ti	<abbr><slp cap="true">uRvf</slp></abbr><expandMW><ti><slp cap="true">uRAdi</slp><slp cap="true">vftti</slp></ti></expandMW><expandNorm><ti><slp cap="true">uRAdi-vftti</slp></ti></expandNorm>
+** 13. typo in mwauthorities
+prava -> pravar
+old 06:36	prava	litcat	<abbr><slp cap="true">prava</slp></abbr><expandMW><litcat><slp cap="true">pravara</slp> texts</litcat></expandMW>
+new 06:36	pravar	litcat	<abbr><slp cap="true">pravar</slp></abbr><expandMW><litcat><slp cap="true">pravara</slp> texts</litcat></expandMW>
+** 14. typo in mwauthorities
+dUtaNgada -> dUtANgada
+old 02:63	dUtaNg	ti	<abbr><slp cap="true">dUtaNg</slp></abbr><expandMW><ti><slp cap="true">dUtaNgada</slp></ti></expandMW>
+new 02:63	dUtANg	ti	<abbr><slp cap="true">dUtANg</slp></abbr><expandMW><ti><slp cap="true">dUtANgada</slp></ti></expandMW>
+** 15. print change in mwauthorities:  
+SaMB -> SamB  
+old 07:36	SaMBmAh	ti	<abbr><slp cap="true">SaMB</slp><slp cap="true">mAh</slp></abbr><expandMW><ti><slp cap="true">SaMBalagrAma</slp><slp cap="true">mAhAtmya</slp></ti></expandMW><expandNorm><ti><slp cap="true">SaMBalagrAma-mAhAtmya</slp></ti></expandNorm>
+new 07:36	SamBmAh	ti	<abbr><slp cap="true">SamB</slp><slp cap="true">mAh</slp></abbr><expandMW><ti><slp cap="true">SamBalagrAma</slp><slp cap="true">mAhAtmya</slp></ti></expandMW><expandNorm><ti><slp cap="true">SamBalagrAma-mAhAtmya</slp></ti></expandNorm>
+** 16 print change PingSch
+ Change the abbreviated form in mwauthorities
+old 06:23	piNgSch	au	<abbr><slp cap="true">piNg</slp>Sch</abbr><expandMW><au><slp cap="true">piNgala</slp></au>Scholiast, i.e. <au><slp cap="true">halAyuDa</slp></au></expandMW><addedInfo>author of <ti><slp cap="true">mftasanjIvanI</slp></ti>, commentary on <au><slp cap="true">piNgala</slp></au>'s <ti><slp cap="true">CandaH-sUtra</slp></ti></addedInfo>
+new 06:23	piNg	au	<abbr><slp cap="true">piNg</slp></abbr><expandMW><au><slp cap="true">piNgala</slp></au> Scholiast, i.e. <au><slp cap="true">halAyuDa</slp></au></expandMW><addedInfo>author of <ti><slp cap="true">mftasanjIvanI</slp></ti>, commentary on <au><slp cap="true">piNgala</slp></au>'s <ti><slp cap="true">CandaH-sUtra</slp></ti></addedInfo>
+** 17. print change in mwauthorities
+Change abbreviation to SAk, in agreement with printed dictionary instances
+old 07:29	SAkaw	au	<abbr><slp cap="true">SAkaw</slp></abbr><expandMW><au><slp cap="true">SAkawAyana</slp></au></expandMW>
+new 
+* linkmwauthorities_init1.txt
+a copy of ../orig/linkmwauthorities_init.txt
+* some changes to linkmwauthorities, part 1
+  Some changes made in relation to the mwauthorities_init1 changes above
+* some changes to linkmwauthorities, part 2
+These changes were made by removing unused duplicate codes, as
+determined in tab_table1a.txt below.
+python unused_ascodes.py tab_table1a.txt ../../correctionwork/cologne-issue-216/temp_mwwithmeta1a.txt unused
+* work/tab_table1.txt
+python tab_table.py 'roman' tab_table1.txt linkmwauthorities_init1.txt mwauthorities_init1.txt
+* work/tab_table1a.txt
+python tab_table1.py 'roman' tab_table1a.txt linkmwauthorities_init1.txt mwauthorities_init1.txt
+
+This capitalizes when 'roman' is the output.
+* work/tab_table1b.txt
+python tab_table1b.py 'roman' tab_table1b.txt linkmwauthorities_init1.txt mwauthorities_init1.txt
+
+Also, provide the link-key in same form as it is 
+correctionwork/cologne-issue-216/temp_mwwithmeta7.txt
+* linkmwauthorities_init2.txt , mwauthorities_init2.txt
+Start as copies of linkmwauthorities_init1.txt, mwauthorities_init1.txt
+Make changes as follows; refer to
+section 'v5/lsas_tab_table_edit.txt' in 
+correctionwork/cologne-issue-216/lswork/readme.org
+
+del link: A1S3vS3r.	1	ASvSr  
+add link: A1nandal.	ānanda-laharī	Title
+del link: Agp.	1	agp
+del link: Asht2a1n3g.	1	azwANg
+add link: Das3ak.	?	daS
+del link: Hparis3.	5	hpariS
+del link: Hpar.	1	hpariS
+add link: Ja1tak.	?	jAtakam
+add link: Prasan3ga7bh.	?	prasaNg
+del linl: Prasamar.	1	prasannar
+DON'T DO THIS chg 06:34	Pratijn5a1s.	pratijñā-sūtra(?)	Title
+add link: RVAnukr.	?	ranukr
+del link: S3a1ntas3.	1	SAntiS
+del link: Saddh.	1	sAh
+del link: S3a1y.	915	sAy
+del link: S3u1ryas.	1	sUryas
+add link: Subha1sh.	?	suB
+add Vishn2uP.	?	vp
+add link: Vaidyaj.	?	vEdyajIv
+add link: Vaita1n.	?	vEt
+add link: Veda7ntaparibh.	?	vedAntap
+chg link: Ven2is.	126	veRis --> Ven2i1s.	126	veRIs
+  Make similar change to 11:18 in mwauthorities_init2
+NOTE: even after these changes, the linkmwauthorities_init1 and
+  linkmwauthorities_init2 files have the same number of lines !
+10 lines were added, 10 deleted, and 1 was changed.
+
+* work/tab_table1b2.txt
+ Use .._init2  files as input
+python tab_table1b.py 'roman' tab_table1b2.txt linkmwauthorities_init2.txt mwauthorities_init2.txt
+NOTE: 
+651 lines written to tab_table1b2.txt569 records read from mwauthorities_init2.txt
+55 unused records from mwauthorities_init2.txt
+
+* another change to mwauthorities_init2.txt
+There are two editions of alaMkArasarvasva mentioned in mwauthorities print,
+but all 6 instances do not distinguish these. Thus, we remove the superscript
+1 and 2 from the abbreviations in mwauthorities_init2.txt
+old 01:11	alaMkAras1	ti	<abbr><slp cap="true">alaMkAras</slp>1</abbr><expandMW><ti><slp cap="true">alaMkArasarvasva</slp> by <slp cap="true">maNKaka</slp></ti>, by <slp cap="true">ruyyaka</slp></au></expandMW>
+new 01:11	alaMkAras	ti	<abbr><slp cap="true">alaMkAras</slp></abbr><expandMW><ti>1 <slp cap="true">alaMkArasarvasva</slp></ti>, by <au><slp cap="true">ruyyaka</slp></au></expandMW>
+
+old 01:12	alaMkAras2	ti	<abbr><slp cap="true">alaMkAras</slp>2</abbr><expandMW><ti><slp cap="true">alaMkArasarvasva</slp></ti>, by <au><slp cap="true">maNKaka</slp></au></expandMW>
+new 01:12	alaMkAras	ti	<abbr><slp cap="true">alaMkAras</slp></abbr><expandMW><ti>2 <slp cap="true">alaMkArasarvasva</slp></ti>, by <au><slp cap="true">maNKaka</slp></au></expandMW>
+
+* another change to mwauthorities_init2.txt
+There are two works with abbreviation 'Uttamac' in preface.  Second one
+ is distinguished by superscript 2.  This distinction not in instances.
+
+old 09:42	uttamac2	ti	<abbr><slp cap="true">uttamac</slp>2</abbr><expandMW><ti><slp cap="true">uttamacaritra</slp></ti> in about 700 verses</expandMW>
+new 09:42	uttamac2	ti	<abbr><slp cap="true">uttamac</slp></abbr><expandMW><ti>2 <slp cap="true">uttamacaritra</slp></ti> in about 700 verses</expandMW>
+
+* another change to linkmwauthorities_init2.txt
+  Ra1tn. is print error in text, should be Ratn.  So this link un-needed
+del Ra1tn.	1	ratnA
+ APra1t. is print error in text, should be APra1t.
+del A1Pra1t.	1	apr
+change: Alaṃkārasarvasva, Alaṃkāraśekhara
+old Alam2ka1ras.	5	alaMkAraS
+new Alam2ka1ras.	5	alaMkAra
+del Aryav.	6	Aryav    # typo in mw.txt. change to A1ryav.
+del A.V.	1	av   # typo AV.
+del Br2A1r.Up.	1	bfArup  # not used Br2A1rUp.
+del ChUP.	1	Cup   # not used ChUp.
+del Da1s3.	3	daS  # Das3.
+del HYogas.	1	hyog  # HYogas3
+del Kas3i1Kh.	1	kASIK  # Ka1s3i1Kh.
+del Kat2h.	7	kAW  # Ka1t2h.
+del Kat2ha7rn2.	1	kaTArR # Katha7rn2
+del Ma1llin.	1	mall  # Mallin
+del Mun2d2UP.	1	muRqup # Mun2d2Up.
+del Phet2k.	1	Petk  # Phetk.
+del Pra7yaS3c.	1	prAyaSc # Pra7yas3c.
+del Rv.	1	fv  # RV.
+del Rpra1t.	1	rprAt  # RPra1t.
+del S3a1k.	3	Sak  # S3a1k. -> SAk.  internal error in linkmwauth.
+del S3a1n3khGr.	1	SANKgf  # S3a1n3khGr2.
+del S3arvad.	1	sarvad  # Sarvad.
+del S3us3r.	1	suSr  # duplicate in linkmwauth.
+del S3usr.	3	suSr  # Sus3r.
+del Vpra1t.	9	vprAt # VPra1t.
+del V.P.	1	vp  # VP.
+del YA1jn5.	1	yAjY  # Ya1jn5.
+del S3arn3g.	1	SArNg  # S3a1rn3g.
+del DivyA7v.	843	divyAv # Divya7v.
+del Divya4v.	1	divyAv # Divya7v.
+
+
+* another change to mwauthorities_init2.txt
+change abbreviation.  The preface abbreviation is never used. also link change.
+old 01:42	apr	ti	<abbr><slp cap="true">a</slp><slp cap="true">pr</slp></abbr><expandMW><ti><slp cap="true">aTarva</slp>-<slp cap="true">veda</slp><slp cap="true">prAtiSAKya</slp></ti></expandMW><expandNorm><ti><slp cap="true">aTarva-veda-prAtiSAKya</slp></ti></expandNorm>
+new 01:42	aprAt	ti	<abbr><slp cap="true">a</slp><slp cap="true">prAt</slp></abbr><expandMW><ti><slp cap="true">aTarva</slp>-<slp cap="true">veda</slp><slp cap="true">prAtiSAKya</slp></ti></expandMW><expandNorm><ti><slp cap="true">aTarva-veda-prAtiSAKya</slp></ti></expandNorm>
+
+Add new record to mwauthorities_init2 for Alaṃkāraratnākara and 
+  abbreviation Alaṃkārar. (3 instances)
+
+Change abbreviation from fV to RV (not slp1) since preface says 
+ 'referred to as RV'
+old 07:18	fv	ti	<abbr><slp cap="true">f</slp><slp cap="true">v</slp></abbr><expandMW><ti><slp cap="true">fg-</slp><slp cap="true">veda</slp></ti>, referred to as <ti>R.V.</ti></expandMW><expandNorm><ti><slp cap="true">fg-veda</slp></ti></expandNorm>
+new 07:18	fv	ti	<abbr>RV</abbr><expandMW><ti><slp cap="true">fg-</slp><slp cap="true">veda</slp></ti>, referred to as <ti>R.V.</ti></expandMW><expandNorm><ti><slp cap="true">fg-veda</slp></ti></expandNorm>
+
+
+change in capitalization of abbreviation
+old 10:37	yogaSup	ti	<abbr><slp cap="true">yoga</slp><slp cap="true">S</slp><slp cap="true">up</slp></abbr><expandMW><ti><slp cap="true">yogaSiKA</slp><slp cap="true">upanizad</slp></ti></expandMW><expandNorm><ti><slp cap="true">yogaSiKA-upanizad</slp></ti></expandNorm>
+new 10:37	yogaSup	ti	<abbr><slp cap="true">yogaS</slp><slp cap="true">up</slp></abbr><expandMW><ti><slp cap="true">yogaSiKA</slp><slp cap="true">upanizad</slp></ti></expandMW><expandNorm><ti><slp cap="true">yogaSiKA-upanizad</slp></ti></expandNorm>
+
+* work/tab_table1c.txt
+python tab_table1c.py tab_table1c.txt linkmwauthorities_init2.txt mwauthorities_init2.txt
+
+* two changes in mwauthorities_init2.txt
+There are two preface entries for Uttamac. and Alaṃkāras.
+Add a '2' to the second in each case, so each record id has a different
+instance abbreviation.  Add a corresponding abbreviation in linkmwauthorities
+old 01:12	alaMkAras	ti	<abbr><slp cap="true">alaMkAras</slp></abbr><expandMW><ti>2 <slp cap="true">alaMkArasarvasva</slp></ti>, by <au><slp cap="true">maNKaka</slp></au></expandMW>
+mew 01:12	alaMkAras2	ti	<abbr><slp cap="true">alaMkAras</slp></abbr><expandMW><ti>2 <slp cap="true">alaMkArasarvasva</slp></ti>, by <au><slp cap="true">maNKaka</slp></au></expandMW>
+
+No need to change for 
+09:42	uttamac2	ti	<abbr><slp cap="true">uttamac</slp></abbr><expandMW><ti>2 <slp cap="true">uttamacaritra</slp></ti> in about 700 verses</expandMW>
+Just add another item in link file.
+
+* work/tab_table1d.txt
+ A simple display, like tab_table1.txt EXCEPT that the iastcode is printed,
+instead of the ascode.
+
+python tab_table1d.py tab_table1d.txt linkmwauthorities_init2.txt mwauthorities_init2.txt
+
+* work/mwauth1.txt
+python mwauth1.py mwauth1.txt linkmwauthorities_init2.txt mwauthorities_init2.txt
+mwauth1.py is like tab_table1c.py, except that it generates different output,
+which combines linkmwauthorities_init2.txt mwauthorities_init2.txt into
+one file.
+This file will be the basis of further work.
+* NO NEED FOR linkmwauthorities_init2.txt mwauthorities_init2.txt
+From here on, we will consider mwauth1.txt as the base.
+* work/tab_table2.txt
+tab_table2.txt should be like tab_table1d.txt, except that it is constructed
+directly from mwauth1.txt, rather than from
+linkmwauthorities_init2.txt and mwauthorities_init2.txt.
+
+python tab_table2.py roman mwauth1.txt tab_table2.txt
+* We can use work/tab_table2.txt to generate tooltips
+The tab-delimited fields are:
+ cologne-id
+ iastcode  << use this for matching
+ name  (of work, author, etc)
+ type  (category: Title, Author, etc.)
+
+* THE END
+
+
+ 
+

@@ -1,0 +1,98 @@
+ab.	<id>ab.</id> <disp>ablatif</disp>
+ac.	<id>ac.</id> <disp>accusatif</disp>
+act.	<id>act.</id> <disp>actif</disp>
+a.	<id>a.</id> <disp>adjectif</disp>
+adv.	<id>adv.</id> <disp>adverbe</disp>
+anat.	<id>anat.</id> <disp>anatomie</disp>
+a1.	<id>a1.</id> <disp>aoriste 1er</disp>
+a2.	<id>a2.</id> <disp>aoriste 2nd</disp>
+astr.	<id>astr.</id> <disp>astronomie</disp>
+aug.	<id>aug.</id> <disp>augmentatif</disp>
+bd.	<id>bd.</id> <disp>buddhique</disp>
+c-à-d.	<id>c-à-d.</id> <disp>c’est-à-dire</disp>
+c.	<id>c.</id> <disp>causatif</disp>
+cf.	<id>cf.</id> <disp>comparez</disp>
+comp.	<id>comp.</id> <disp>comparatif</disp>
+cond.	<id>cond.</id> <disp>conditionnel</disp>
+conj.	<id>conj.</id> <disp>conjonction</disp>
+conjf.	<id>conjf.</id> <disp>conjonctif</disp>
+d.	<id>d.</id> <disp>datif</disp>
+dém.	<id>dém.</id> <disp>démonstratif</disp>
+dés.	<id>dés.</id> <disp>désidératif</disp>
+du.	<id>du.</id> <disp>duel</disp>
+ép.	<id>ép.</id> <disp>épithète</disp>
+Ep.	<id>Ep.</id> <disp>épithète</disp>
+esp.	<id>esp.</id> <disp>espèce</disp>
+ex.	<id>ex.</id> <disp>exemple</disp>
+f.	<id>f.</id> <disp>féminin</disp>
+fig.	<id>fig.</id> <disp>figuré</disp>
+fr.	<id>fr.</id> <disp>français</disp>
+f1.	<id>f1.</id> <disp>futur 1er</disp>
+f2.	<id>f2.</id> <disp>futur 2nd</disp>
+gal.	<id>gal.</id> <disp>gaëlique</disp>
+g.	<id>g.</id> <disp>génitif</disp>
+gér.	<id>gér.</id> <disp>gérondif</disp>
+germ.	<id>germ.</id> <disp>germanique</disp>
+got.	<id>got.</id> <disp>gothique</disp>
+gr.	<id>gr.</id> <disp>grec</disp>
+impf.	<id>impf.</id> <disp>imparfait</disp>
+imp.	<id>imp.</id> <disp>impératif</disp>
+ind.	<id>ind.</id> <disp>indicatif</disp>
+indéc.	<id>indéc.</id> <disp>indéclinable</disp>
+inf.	<id>inf.</id> <disp>infinitif</disp>
+i.	<id>i.</id> <disp>instrumental</disp>
+lat.	<id>lat.</id> <disp>latin</disp>
+lith.	<id>lith.</id> <disp>lithuanien</disp>
+l.	<id>l.</id> <disp>locatif</disp>
+m.	<id>m.</id> <disp>masculin</disp>
+M.	<id>M.</id> <disp>masculin</disp>
+mms.	<id>mms.</id> <disp>même signification</disp>
+m. à m.	<id>m. à m.</id> <disp>mot à mot</disp>
+moy.	<id>moy.</id> <disp>moyen</disp>
+n.	<id>n.</id> <disp>neutre</disp>
+neg.	<id>neg.</id> <disp>negatif</disp>
+np.	<id>np.</id> <disp>nom propre</disp>
+o.	<id>o.</id> <disp>optatif</disp>
+ordint.	<id>ordint.</id> <disp>ordinairement</disp>
+p.	<id>p.</id> <disp>parfait</disp>
+part.	<id>part.</id> <disp>particule</disp>
+ps.	<id>ps.</id> <disp>passif</disp>
+pf.	<id>pf.</id> <disp>participe futur</disp>
+pfx.	<id>pfx.</id> <disp>préfixe</disp>
+pl.	<id>pl.</id> <disp>pluriel</disp>
+pp.	<id>pp.</id> <disp>participe passé</disp>
+ppf.	<id>ppf.</id> <disp>participe parfait</disp>
+ppr.	<id>ppr.</id> <disp>participe présent</disp>
+pqp.	<id>pqp.</id> <disp>plus-que-parfait</disp>
+pr.	<id>pr.</id> <disp>présent</disp>
+prép.	<id>prép.</id> <disp>préposition</disp>
+priv.	<id>priv.</id> <disp>privatif</disp>
+pron.	<id>pron.</id> <disp>pronom</disp>
+ppt.	<id>ppt.</id> <disp>proprement</disp>
+1p.	<id>1p.</id> <disp>1er personne</disp>
+2p.	<id>2p.</id> <disp>2e personne, etc</disp>
+3p.	<id>3p.</id> <disp>3e personne, etc</disp>
+qq.	<id>qq.</id> <disp>quelques</disp>
+qqc.	<id>qqc.</id> <disp>quelque chose</disp>
+qqf.	<id>qqf.</id> <disp>quelquefois</disp>
+Qqf.	<id>Qqf.</id> <disp>quelquefois</disp>
+qqn.	<id>qqn.</id> <disp>quelqu’un</disp>
+red.	<id>red.</id> <disp>redoublement</disp>
+s-ent.	<id>s-ent.</id> <disp>sous-entendu</disp>
+sg.	<id>sg.</id> <disp>singulier</disp>
+subj.	<id>subj.</id> <disp>subjonctif</disp>
+s.	<id>s.</id> <disp>substantif</disp>
+S.	<id>S.</id> <disp>substantif</disp>
+sfx.	<id>sfx.</id> <disp>suffixe</disp>
+sup.	<id>sup.</id> <disp>superlatif</disp>
+surn.	<id>surn.</id> <disp>surnom</disp>
+Surn.	<id>Surn.</id> <disp>surnom</disp>
+sync.	<id>sync.</id> <disp>syncope</disp>
+t.	<id>t.</id> <disp>terme</disp>
+tg.	<id>tg.</id> <disp>terme grammatical</disp>
+th.	<id>th.</id> <disp>thème</disp>
+tr.	<id>tr.</id> <disp>très</disp>
+Vd.	<id>Vd.</id> <disp>Véda, védique</disp>
+v.	<id>v.</id> <disp>vocatif</disp>
+zd.	<id>zd.</id> <disp>zend</disp>
+(?)	<id>(?)</id> <disp>douteux</disp> <info>no period</info>

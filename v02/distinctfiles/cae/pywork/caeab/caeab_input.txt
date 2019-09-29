@@ -1,0 +1,96 @@
+A.	<id>A.</id> <disp>Active</disp>
+a.	<id>a.</id> <disp>adjective</disp>
+abl.	<id>abl.</id> <disp>ablative</disp>
+abs.	<id>abs.</id> <disp>absolutive</disp>
+absol.	<id>absol.</id> <disp>absolutely</disp>
+abstr.	<id>abstr.</id> <disp>abstract</disp>
+acc.	<id>acc.</id> <disp>accusative</disp>
+adj.	<id>adj.</id> <disp>adjective</disp>
+add.	<id>add.</id> <disp>additions</disp>
+adv.	<id>adv.</id> <disp>adverb</disp>
+C.	<id>C.</id> <disp>Causative</disp>
+cert.	<id>cert.</id> <disp>certain</disp>
+cf.	<id>cf.</id> <disp>compare</disp>
+comp.	<id>comp.</id> <disp>comparative</disp>
+compar.	<id>compar.</id> <disp>comparative</disp>
+conj.	<id>conj.</id> <disp>conjunctive</disp>
+correl.	<id>correl.</id> <disp>correlative</disp>
+D.	<id>D.</id> <disp>Desiderative</disp>
+d.	<id>d.</id> <disp>drama</disp>
+dat.	<id>dat.</id> <disp>dative</disp>
+den.	<id>den.</id> <disp>denominative</disp>
+demin.	<id>demin.</id> <disp>deminutive (Lat.) = diminutive</disp>
+du.	<id>du.</id> <disp>dual</disp>
+E.	<id>E.</id> <disp>epithet</disp>
+e.g.	<id>e.g.</id> <disp>for example</disp>
+encl.	<id>encl.</id> <disp>enclitic</disp>
+esp.	<id>esp.</id> <disp>especially</disp>
+etc.	<id>etc.</id> <disp>et cetera</disp>
+excl.	<id>excl.</id> <disp>exclamation</disp>
+exclam.	<id>exclam.</id> <disp>exclamation</disp>
+f.	<id>f.</id> <disp>feminine</disp>
+fig.	<id>fig.</id> <disp>figuratively</disp>
+fut.	<id>fut.</id> <disp>future</disp>
+g.	<id>g.</id> <disp>grammar</disp>
+gen.	<id>gen.</id> <disp>genitive</disp>
+ger.	<id>ger.</id> <disp>gerund</disp>
+I.	<id>I.</id> <disp>intensive</disp>
+i.e.	<id>i.e.</id> <disp>that is</disp>
+i.g.	<id>i.g.</id> <disp>in general</disp>
+imper.	<id>imper.</id> <disp>imperative</disp>
+impers.	<id>impers.</id> <disp>impersonally</disp>
+ind.	<id>ind.</id> <disp>indeclinable</disp>
+indecl.	<id>indecl.</id> <disp>indeclinable</disp>
+inf.	<id>inf.</id> <disp>infinitive</disp>
+infin.	<id>infin.</id> <disp>infinitive</disp>
+instr.	<id>instr.</id> <disp>instrumental</disp>
+interj.	<id>interj.</id> <disp>interjection</disp>
+interr.	<id>interr.</id> <disp>interrogative</disp>
+j.	<id>j.</id> <disp>jurisprudence</disp>
+l.&f.	<id>l.&f.</id> <disp>literally and figuratively</disp>
+l.	<id>l.</id> <disp>literally</disp>
+lit.	<id>lit.</id> <disp>literally</disp>
+l.l.	<id>l.l.</id> <disp>later language</disp>
+loc.	<id>loc.</id> <disp>locative</disp>
+m.	<id>m.</id> <disp>masculine</disp>
+M.	<id>M.</id> <disp>Middle</disp>
+mg.	<id>mg.</id> <disp>meaning</disp>
+N.	<id>N.</id> <disp>Name</disp>
+n.	<id>n.</id> <disp>neuter</disp>
+nom.	<id>nom.</id> <disp>nominative</disp>
+num.	<id>num.</id> <disp>numeral</disp>
+o.	<id>o.</id> <disp>often</disp>
+opp.	<id>opp.</id> <disp>opposed</disp>
+opt.	<id>opt.</id> <disp>optative</disp>
+orig.	<id>orig.</id> <disp>originally</disp>
+P.	<id>P.</id> <disp>passive</disp>
+p.	<id>p.</id> <disp>possessive</disp>
+part.	<id>part.</id> <disp>particle</disp>
+perf.	<id>perf.</id> <disp>perfect</disp>
+pers.	<id>pers.</id> <disp>person or personal</disp>
+th.	<id>th.</id> <disp>thing</disp>
+pl.	<id>pl.</id> <disp>plural</disp>
+poss.	<id>poss.</id> <disp>possessive</disp>
+prec.	<id>prec.</id> <disp>preceding</disp>
+pp.	<id>pp.</id> <disp>participle</disp>
+pref.	<id>pref.</id> <disp>prefix</disp>
+prep.	<id>prep.</id> <disp>preposition</disp>
+pres.	<id>pres.</id> <disp>present</disp>
+pron.	<id>pron.</id> <disp>pronoun</disp>
+q.v.	<id>q.v.</id> <disp>which see</disp>
+r.	<id>r.</id> <disp>rarely</disp>
+(r.).	<id>(r.).</id> <disp>ritual or religion</disp>
+(rh.).	<id>(rh.).</id> <disp>rhetoric</disp>
+S.	<id>S.</id> <disp>simple</disp>
+s.	<id>s.</id> <disp>substantive</disp>
+sc.	<id>sc.</id> <disp>scilicet - that is to say; namely</disp>
+seq.	<id>seq.</id> <disp>following</disp>
+sev.	<id>sev.</id> <disp>several</disp>
+sp.	<id>sp.</id> <disp>space</disp>
+t.	<id>t.</id> <disp>time</disp>
+superl.	<id>superl.</id> <disp>superlative</disp>
+s.v.	<id>s.v.</id> <disp>sub voce</disp>
+trans.	<id>trans.</id> <disp>transitive</disp>
+vocat.	<id>vocat.</id> <disp>vocative</disp>
+voc.	<id>voc.</id> <disp>vocative</disp>
+w.	<id>w.</id> <disp>with</disp>
