@@ -212,7 +212,7 @@
 1.184	Lebensb. (SCHIEFNER)	Lebensb. (Schiefner)	Lebensb. (SCHIEFNER) = Eine tibetische Lebensbeschreibung Śākyamu- ni's, des Begründers des Buddhathums, im Auszuge mitgetheilt von [Page09-b+ 66] A. SCHIEFNER, in Mémoires présentés à l'Académie Impériale des sciences de St.-Pétersbourg par divers savants. T. VI. Die in Klam- mern beigefügte Seitenzahl bezieht sich auf die Separatabdrücke.
 1.184a	Lebensb.	Lebensb.	Lebensb. = ? [Cologne Addition]
 1.184b	Leb.	Leb.	Leb. = ? [Cologne Addition]
-1.184c	SCHIEFNER, Lebensb.	Schiefner, Lebensb.	"SCHIEFNER, Lebensb. = ? [Cologne Addition]
+1.184c	SCHIEFNER, Lebensb.	Schiefner, Lebensb.	SCHIEFNER, Lebensb. = ? [Cologne Addition]
 1.185	Lex. sanscr. tib.	Lex. Sanscr. Tib.	Lex. sanscr. tib. = VYUTP. (s. d.)
 1.186	LIA.	Lia.	LIA. = LASSEN'S Indische Alterthumskunde.
 1.187	LIṄGA-P.	Liṅga-P.	LIṄGA-P. = LIṄGAPURĀṆA.
@@ -250,7 +250,7 @@
 1.213	Mél. asiat.	Mél. Asiat.	Mél. asiat. = Mélanges asiatiques tirés du Bulletin historico-philologique de l'Académie Impériale des sciences de St.-Pétersbourg.
 1.213a	Mél. as.	Mél. As.	Mél. as. = Mél. asiat. ?
 1.214	Mém. sur l'Inde (REINAUD)	Mém. Sur L'Inde (Reinaud)	Mém. sur l'Inde (REINAUD) = Mémoire géographique, historique et scientifique sur l'Inde antérieurement au milieu du XIe siècle de l'ère chrétienne d'après les écrivains arabes, persans et chinois par M. REINAUD. Paris 1849.
-1.214a	Mém. sur l'Inde	Mém. Sur L'Inde	"Mém. sur l'Inde" = ? [Cologne Addition]
+1.214a	Mém. sur l'Inde	Mém. Sur L'Inde	Mém. sur l'Inde = ? [Cologne Addition]
 1.214b	REINAUD, Mém. sur l'Inde	Reinaud, Mém. Sur L'Inde	REINAUD, Mém. sur l'Inde = ? [Cologne Addition]
 1.214c	REINAUD, Mémoire sur l'Inde	Reinaud, Mémoire Sur L'Inde	REINAUD, Mémoire sur l'Inde = ? [Cologne Addition]
 1.215	MIT.	Mit.	*MIT. = MITĀKṢARĀ, ed. Calc. 1829 (GILD. Bibl. 314).
@@ -539,7 +539,7 @@ c.007a	RĀMAT. UP.	Rāmat. Up.	RĀMAT. UP. = ? [Cologne Addition]
 c.008	WILSON, Sel. Works	Wilson, Sel. Works	WILSON, Sel. Works = ? [Cologne Addition]
 c.009	WILSON.	Wilson.	WILSON. = ? [Cologne Addition]
 c.009a	WILSON	Wilson	WILSON = ? [Cologne Addition]
-c.010x	SIDDH.K.	Siddh.K.	SIDDH.K. = (same as 1.279 "SIDDH. K.") [Cologne Addition]
+c.010x	SIDDH.K.	Siddh.K.	SIDDH.K. = (same as 1.279 SIDDH. K.) [Cologne Addition]
 c.011	SARVADARŚANAS.	Sarvadarśanas.	SARVADARŚANAS. = ? [Cologne Addition]
 c.011a	SARVADARŚANASAṂGR.	Sarvadarśanasaṃgr.	SARVADARŚANASAṂGR. = ? [Cologne Addition]
 c.012	SĀMAVIDH. BR.	Sāmavidh. Br.	SĀMAVIDH. BR. = ? [Cologne Addition]
