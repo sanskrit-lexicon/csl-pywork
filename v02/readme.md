@@ -74,3 +74,72 @@ Then, if `<outdir>` is in the scope of a web server, a user may access the
 displays.   Let 'OUTDIR-URL' be the url corresponding to `<outdir>`.
 Then 'OUTDIR-URL/web' will bring up a menu of displays.
 
+
+## Software Prerequisites
+
+1. python  (python2.6.4 or above / python3.4.10 or above)
+   * Not all parts are python3 compatible as of 9/29/2019.
+   *  mako - `pip install mako`
+2. php  
+   * cli version required in addition to normal web server ver
+   * pdo driver
+3. git
+4. apache2 - To run the localhost.  
+5. bash shell
+   * git command-line tool
+   * sqlite3 command-line tool
+   * zip command-line tool
+
+## Initialization/Update of all dictionaries on Cologne server
+The script `redo_cologne_all.sh` installs all dictionaries.
+Dictionary xxx is installed into subdirectory XXXScan/2020 of scans directory.
+The process takes about 30 minutes and adds about 3Gigabytes of storage.
+
+## Initialization/Update of all dictionaries on XAMPP server
+The script `redo_xampp_all.sh` installs all dictionaries.
+
+The file system is assumed as:
+* htdocs   -- xampp server root directory
+  * cologne --  The name can be different; it should be a descendant
+    of htdocs, but need not be a child of htdocs.
+    * csl-orig  cloned from https://github.com/sanskrit-lexicon/csl-orig
+    * csl-pywork  cloned from https://github.com/sanskrit-lexicon/csl-pywork
+    * csl-websanlexicon  cloned from https://github.com/sanskrit-lexicon/csl-websanlexicon
+    * xxx1  (first dictionary installed), eg. acc
+    * xxx2  (second dictionary installed), eg. ae
+    * ...
+
+With this configuration, a localhost url for a given dictionary, say mw, is
+http://localhost/cologne/mw/web/.
+
+### Git Bash
+The installation under XAMPP server has been tested on Windows 10 using
+the GitBash terminal.  In addition to python (Python2.7.x with `mako` installed) , sqlite3.exe and
+zip.exe had to be installed.  Here is one way to do this:
+* **sqlite3** : From https://www.sqlite.org/download.html, download sqlite-tools-win32.
+  * extract the zip file, and put 'sqlite3.exe' into "/c/xampp/htdocs/sqlite3".
+    [This assumes the directory of your xampp installation is `C:\xampp`.
+  * Add "/c/xampp/htdocs/sqlite3" to the system variable 'Path'.
+    Here is [a link](https://www.architectryan.com/2018/03/17/add-to-the-path-on-windows-10/) that shows how to do this.
+  * When GitBash is restarted, the 'sqlite3' executable is available
+    try 'which sqlite3' in Git Bash terminal. You should see
+    `/c/xampp/sqlite3/sqlite3`.
+* **zip** 
+  * Download the [GoW installer](https://github.com/bmatzelle/gow/releases/download/v0.8.0/Gow-0.8.0.exe). (Gnu on Windows) 
+  * run the installer.
+  * copy the zip executable to our sqlite3 directory: In Git Bash terminal:
+    `cp "/c/Program Files (x86)/Gow/bin/zip.exe" /c/xampp/sqlite3/`
+  * restart Git Bash; try `which zip`, you should see `/c/xampp/sqlite3/zip`
+  * Note:  zip is only used to generate the '.zip' files in the 'downloads'
+    subdirectory of each dictionary.  For a personal Xampp installation, this
+    has little utility, and so 'zip' does not have to be installed.
+
+## Initialization/Update of all dictionaries on Ubuntu server
+The process is almost the same as for installation on Windows Xampp server.
+Two differences may be:
+* The server home directory on Ubuntu will differ. One typical web server path
+  is `/var/www/html/`.  So you use this instead of `/c/xampp/htdocs/`.
+* The file permissions typically need to be set so the web server.
+* There are still unresolved questions here.  See Issues for discussion.
+
+ 
