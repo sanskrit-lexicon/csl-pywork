@@ -4,20 +4,23 @@
 """ Python version of transcoder. 
     Uses built-in library xml.etree.ElementTree,
     rather than lxml.
+    Revised 02-20-2017 Regarding special handling of slp1 to deva;
+     search for  regexCode  variable, and fsmentry['regex'] for where this comes into play.
+     This kind of coding is ugly, and needs to be revised for greater generality.
 """ 
+from __future__ import print_function
 
 __program_name__ = 'transcoder.py'
 __author__ = 'Jim Funderburk'
 __email__ = 'funderburk1@verizon.net'
 __copyright__ = 'Copyright 2011, Jim Funderburk'
-__license__ = 'GPL //www.gnu.org/licenses/gpl.txt'
+__license__ = 'GPL http://www.gnu.org/licenses/gpl.txt'
 __date__ = '2011-12'
-
 
 # Python Standard Library
 import os
 import sys
-#import codecs
+import codecs
 #import locale
 import re
 #import logging
@@ -37,28 +40,42 @@ import xml.etree.ElementTree as ET
 # Assume transcoder xml files are in directory ../data/transcoder,
 # relative to the directory containing this transcoder.py file
 
+
 global transcoder_dir,transcoder_fsmarr
 transcoder_dir =os.path.dirname(os.path.abspath(__file__))
 transcoder_dir = os.path.dirname(transcoder_dir) ## parent
 transcoder_dir += "/data/transcoder"
 transcoder_fsmarr = {}  # a dictionary. keys are from+to
+global python_version
+python_version = sys.version[0]  # first character: 2 or 3
+if python_version == '3':
+ xrange = range
+ unichr = chr
 
 def transcoder_fsm(sfrom,to) :
  global transcoder_dir,transcoder_fsmarr
  fromto = sfrom + "_" + to
  if (fromto in transcoder_fsmarr) :
   return
- 
+ regexCode=None
+ regexpairs = [('slp1','deva'),('hkt','tamil')]
+ if sfrom.startswith('slp1') and to.startswith('deva'):
+  regexCode = 'slp1_deva'
+ elif sfrom.startswith('deva') and to.startswith('slp1'):
+  regexCode = 'deva_slp1'
+ elif sfrom.startswith('hkt') and to.startswith('tamil'):
+  regexCode = 'hkt_tamil'
+
  filein = transcoder_dir + '/' + fromto + ".xml"
  if (not os.path.exists(filein)) :
-  #  print "file does not exist = " + filein
+  #  print("file does not exist = " + filein)
   return
-  # print "file exists = " + filein
+  # print("file exists = " + filein)
  tree = ET.parse(filein)
  xml = tree.getroot()
  attributes = xml.attrib
  # for a in attributes:
- #  print a + "," + attributes[a]
+ #  print(a + "," + attributes[a])
  start = attributes['start']  ## required
  entries = list(xml)  ## children
  fsm = {} ## finite state machine to construct
@@ -73,8 +90,10 @@ def transcoder_fsm(sfrom,to) :
    continue
   x = e.find("in")
   inval = x.text
+  if not inval:  # 
+   inval=''
   conlook = False
-  match = re.match('^([^/]+)/\^',inval)
+  match = re.match(r'^([^/]+)/\^',inval)
   if match :
    ## In transcoding from slp1 to devanagari, it is necessary to do a
    ## 'look-ahead' when deciding how to code a consonant.  If the 
@@ -87,7 +106,10 @@ def transcoder_fsm(sfrom,to) :
    ##    Note that the last 3 elements '^', '/', and '\' are present only
    ##    because of accents. 
    ## except in these two cases, we process this entry no further
-   if ( (fromto != 'slp1_deva') and (fromto != 'hkt_tamil')) :
+   ## 02-22-2017. Allow some other names for from and to
+   #if ( (fromto != 'slp1_deva') and (fromto != 'hkt_tamil')and
+   #     (fromto != 'deva_slp1')) :
+   if not regexCode:
     continue
    inval = match.group(1)
    conlook=True
@@ -115,16 +137,15 @@ def transcoder_fsm(sfrom,to) :
   fsmentry['in'] = newinval
   # fsmentry['regex'] is defined only when conlook is true
   if conlook:
-   fsmentry['regex']=to  # ?? this is just some 'true' value
+   fsmentry['regex']=regexCode
   fsmentry['out']=newoutval
   fsmentry['next']=nextState
+  # Dec 5, 2013 save raw inval/outval
+  fsmentry['inraw']=inval
+  fsmentry['outraw']=outval
+  fsmentry['e-elt'] = ET.tostring(e)
   fsmentries.append(fsmentry)
   
-  #for k in fsmentry.keys():
-  # print k,"=>",fsmentry[k]
-  #  print (sval,inval,outval,nextval),etree.tostring(e)
-  
-  # print n,etree.tostring(e)
   n += 1
 
  fsm['fsm']=fsmentries
@@ -136,8 +157,13 @@ def transcoder_fsm(sfrom,to) :
  ientry=0
  for fsmentry in fsmentries:
   inval = fsmentry['in']
-  #print "inval=",inval
-  c = inval[0] # first character of inval
+  #print("inval=",inval)
+  # special logic for deva_slp1 for <in></in> <out>a</out>,
+  # where inval is empty string
+  if (len(inval)>0):
+   c = inval[0] # first character of inval
+  else:
+   c = inval # empty string
   if (c in states):
    state=states[c]
    state.append(ientry)
@@ -150,12 +176,48 @@ def transcoder_fsm(sfrom,to) :
  
  fsm['states']=states
  transcoder_fsmarr[fromto]=fsm
- #print n 
-
+ #debug
+ if (False):
+  print("filein=",filein)
+  filedbg = "dbg_%s.txt" %fromto
+  print("transcoder.py. Dbg info written to",filedbg)
+  fdbg = codecs.open(filedbg,"w","utf-8")
+  fdbg.write("fsmentries=...\n")
+  keys = ['starts','in','regex','out','next','inraw','outraw']
+  for i in xrange(0,len(fsmentries)):
+   fsmentry = fsmentries[i]
+   s = []
+   
+   #for key in fsmentry:
+   for key in keys:
+    if key not in fsmentry: # regex
+     continue
+    val = fsmentry[key]
+    if key == 'starts':
+     val = ' '.join(val)
+    s.append("%s => %s" %(key,val))
+   sout = ' , '.join(s)
+   out = "fsmentry[%s]=%s" %(i,sout)
+   #print(out.encode('utf-8'))
+   fdbg.write("%s\n" % out)
+   fdbg.write("  e-elt=%s\n" % fsmentry['e-elt'])
+  #print("states=...")
+  fdbg.write("states=...\n")
+  for c in states:
+   state = states[c]
+   y = []
+   for i in state:
+    y.append('%s' % i)
+   x = ' '.join(y)
+   out = "c=%s, state=%s" %(c,x)
+   #print(out.encode('utf-8'))
+   fdbg.write("%s\n" % out)
+  fdbg.close()
 def to_unicode(x):
  # x is assumed to be a string with one of two forms
  # (a) \uxxxx\uyyyy  this is interpreted as unicode
  # (b) other -  this is returned without change
+ global python_version
  if (x == r"\u"):  # a case where notation is confusing
   return x
  match = re.match('\\\\u',x)
@@ -178,6 +240,12 @@ def to_unicode(x):
  else:
   return x
 
+vowel_signs = ['\u094d','\u093e','\u093f','\u0940','\u0941','\u0942','\u0943','\u0944','\u0962','\u0963','\u0947','\u0948','\u094b','\u094c']
+vowel_signs_unicode=[]
+for vowel_sign in vowel_signs:
+ vowel_sign1 = to_unicode(vowel_sign)
+ vowel_signs_unicode.append(vowel_sign1)
+
 def transcoder_processString(line,from1,to) :
  global transcoder_dir,transcoder_fsmarr
  if (from1 == to) :
@@ -198,7 +266,7 @@ def transcoder_processString(line,from1,to) :
  result='' ## returned value
  m=len(line)
  while (n < m) :
-  c = line[n] # character a position n
+  c = line[n] # character at position n
   if (c not in states):
    result += c
    currentState=fsm['start']
@@ -223,6 +291,8 @@ def transcoder_processString(line,from1,to) :
    match = transcoder_processString_match(line,n,m,fsmentry)
    nmatch=len(match)
    ##   echo "chk2: n=n, c='c', nmatch=nmatch<br>\n"
+   #out = "chk2: n=%s, c='%s', nmatch=%s" %(n,c,nmatch)
+   #print(out.encode('utf-8'))
    if (nmatch > nbest) :
     best = match
     nbest=nmatch
@@ -270,18 +340,43 @@ def transcoder_processString_match(line,n,m,fsmentry) :
   if (n1 == m) :
    return match 
   d = line[n1]
-  if (fsmentry['regex'] == 'deva') :
-   test = re.match('[^aAiIuUfFxXeEoO^\/\\\\]',d)
+  #if (fsmentry['regex'] == 'deva') :
+  if (fsmentry['regex'] == 'slp1_deva') :
+   #test = re.match('[^aAiIuUfFxXeEoO^\/\\\\]',d)
+   test = re.match(r'[^aAiIuUfFxXeEoO^\/\\\\]',d)
    if (test) :
     return match
    return ""
   
-  if (fsmentry['regex'] == 'tamil') :
+  if (fsmentry['regex'] == 'hkt_tamil') :
    test = re.match('[^aAiIuUeEoO]',d)
    if (test):
     return match
    return ""
   
+  if (fsmentry['regex'] == 'deva_slp1'):
+   for vowel_sign1 in vowel_signs_unicode:
+    vowel_sign1_len = len(vowel_sign1)
+    found=True
+    for j in xrange(0,vowel_sign1_len):
+     k = n1 + j
+     if k >= m:
+      found=False
+      continue
+     if vowel_sign1[j] != line[k]:
+      found = False
+      continue
+     if found:
+      # the consonant is followed by $vowel_sign.
+      # return empty string to indicate rule failure.
+      # This program logic cannot distinguish between 
+      # a mismatch, and an empty string.
+      # In particular, we don't handle virama properly otherwise,
+      # so we do this special test to correct the problem
+      #    if ($j == 0) {return $match;}  # case of virama
+      return "" # case of a vowel sign
+     # the consonant is not followed by either virama or a vowel sign. 
+   return match  # fell through for vowel_sign1
   return ""
 def transcoder_processElements(line,from1,to,tagname):
  global transcoder_from,transcoder_to
