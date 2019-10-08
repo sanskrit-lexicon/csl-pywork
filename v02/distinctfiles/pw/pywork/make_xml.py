@@ -1,7 +1,6 @@
 # coding=utf-8
-""" make_xml.py for pw
+""" make_xml.py
  Reads/Writes utf-8
- Oct 5, 2017
 """
 import xml.etree.ElementTree as ET
 import sys, re,codecs
@@ -36,10 +35,9 @@ def unused_adjust_slp1(x):
  return ans
 
 def dig_to_xml_specific(x):
- """ changes particular to stc digitization"""
- # Nothing to do for pw
+ """ no changes particular to digitization"""
  return x
- """
+ # There are a couple entries with an <H> element.
  # Just remove these lines
  if x.startswith('<H>'):
   print "REMOVING <H> LINE",x.encode('utf-8')
@@ -53,8 +51,7 @@ def dig_to_xml_specific(x):
  # change '--' to mdash
  x = x.replace('--',u'—')  #597 cases
  #{^X^}  superscript
- x = re.sub(r'{^(.*?)^}','<sup>\1</sup>',x)
- """
+ x = re.sub(r'{\^(.*?)\^}',r'<sup>\1</sup>',x)
  return x
 
 def dig_to_xml_general(x):
@@ -64,9 +61,8 @@ def dig_to_xml_general(x):
  # remove broken bar.  In xxx.txt, this usu. indicates a headword end
  x = x.replace(u'¦',' ') 
  # bold, italic, and Sanskrit markup converted to xml forms.
- # No bold in pw.txt
- #x = re.sub(r'{@','<b>',x)
- #x = re.sub(r'@}','</b>',x)
+ x = re.sub(r'{@','<b>',x)
+ x = re.sub(r'@}','</b>',x)
  x = re.sub(r'{%','<i>',x)
  x = re.sub(r'%}','</i>',x)
  x = re.sub(r'{#','<s>',x)

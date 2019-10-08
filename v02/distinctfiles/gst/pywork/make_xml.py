@@ -1,7 +1,6 @@
 # coding=utf-8
-""" make_xml.py for gst
+""" make_xml.py
  Reads/Writes utf-8
- Feb  6, 2017
 """
 import xml.etree.ElementTree as ET
 import sys, re,codecs
@@ -36,8 +35,7 @@ def unused_adjust_slp1(x):
  return ans
 
 def dig_to_xml_specific(x):
- """ changes particular to gst digitization"""
- # Nothing to do here for gst
+ """ no changes particular to digitization"""
  return x
  # There are a couple entries with an <H> element.
  # Just remove these lines
@@ -45,7 +43,7 @@ def dig_to_xml_specific(x):
   print "REMOVING <H> LINE",x.encode('utf-8')
   return ''
  x = re.sub(r'<P>','<div n="P">',x) # 2322 cases
- #if '<g></g>' in x: # once only. Already converted in gst.txt
+ #if '<g></g>' in x: # once only. Already converted in stc.txt
  # x = x.replace('<g></g>','<lang n="greek"></lang>')
  #x = re.sub(r'<Picture>','<div n="Picture">',x) # 71 cases
  # markup like <C1>x1<C2>x2...  indicates tabular data in vcp.
@@ -87,10 +85,10 @@ def dbgout(dbg,s):
  fout.close()
 
 def close_divs(line):
- """ line is the full xml record, but the '<div> elements have not been
-  closed.  
+ """ line is the full xml record, but the <div> elements have not been
+  closed.  Don't close empty div tags.
  """
- divregex = r'<div.*?>'
+ divregex = r'<div[^>]*?[^/]>'
  if not re.search(divregex,line):
   # no divs to close
   return line

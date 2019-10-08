@@ -1,10 +1,6 @@
 # coding=utf-8
-""" make_xml.py for  2014-06-10
+""" make_xml.py
  Reads/Writes utf-8
- Mar 12, 2015
- Remove conversion of HK to SLP1 - See convertwork/readme.txt
- 05-03-2017  <HI1> -> <div n="2">...</div>
- 05-31-2017  Revise to use new forms digitization and headwords.
 """
 import xml.etree.ElementTree as ET
 import sys, re,codecs

@@ -1,7 +1,6 @@
 # coding=utf-8
-""" make_xml.py for ben
+""" make_xml.py
  Reads/Writes utf-8
- Sep 15, 2017
 """
 import xml.etree.ElementTree as ET
 import sys, re,codecs
@@ -36,14 +35,14 @@ def unused_adjust_slp1(x):
  return ans
 
 def dig_to_xml_specific(x):
- """ changes particular to ben digitization"""
+ """ changes particular to digitization"""
  # There are a couple entries with an <H> element.
  # Just remove these lines
  if x.startswith('<H>'):
   print "REMOVING <H> LINE",x.encode('utf-8')
   return ''
  x = re.sub(r'<P>','<div n="P">',x) # 2322 cases
- #if '<g></g>' in x: # once only. Already converted in ben.txt
+ #if '<g></g>' in x: # once only. Already converted in stc.txt
  # x = x.replace('<g></g>','<lang n="greek"></lang>')
  #x = re.sub(r'<Picture>','<div n="Picture">',x) # 71 cases
  # markup like <C1>x1<C2>x2...  indicates tabular data in vcp.

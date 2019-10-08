@@ -1,8 +1,6 @@
 # coding=utf-8
-""" make_xml.py for mwe
+""" make_xml.py
  Reads/Writes utf-8
- Feb 15, 2018
-  Similar to pe's program.
 """
 import xml.etree.ElementTree as ET
 import sys, re,codecs
@@ -37,8 +35,8 @@ def unused_adjust_slp1(x):
  return ans
 
 def dig_to_xml_specific(x):
- """ changes particular to mwe digitization"""
- # nothing to do for mwe
+ """ changes particular to digitization"""
+ # nothing to do
  return x
  # There are a couple entries with an <H> element.
  # Just remove these lines

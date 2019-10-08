@@ -1,7 +1,6 @@
 # coding=utf-8
-""" make_xml.py for gra
+""" make_xml.py
  Reads/Writes utf-8
- 01-23-2018
 """
 import xml.etree.ElementTree as ET
 import sys, re,codecs
@@ -36,7 +35,7 @@ def unused_adjust_slp1(x):
  return ans
 
 def dig_to_xml_specific(x):
- """ no changes particular to gra digitization"""
+ """ no changes particular to digitization"""
  return x
  # There are a couple entries with an <H> element.
  # Just remove these lines

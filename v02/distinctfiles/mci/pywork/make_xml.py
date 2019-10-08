@@ -1,7 +1,6 @@
 # coding=utf-8
-""" make_xml.py for stc
+""" make_xml.py
  Reads/Writes utf-8
- Sep 15, 2017
 """
 import xml.etree.ElementTree as ET
 import sys, re,codecs
@@ -36,7 +35,7 @@ def unused_adjust_slp1(x):
  return ans
 
 def dig_to_xml_specific(x):
- """ changes particular to stc digitization"""
+ """ changes particular to digitization"""
  # There are a couple entries with an <H> element.
  # Just remove these lines
  if x.startswith('<H>'):
@@ -51,7 +50,7 @@ def dig_to_xml_specific(x):
  # change '--' to mdash
  x = x.replace('--',u'—')  #597 cases
  #{^X^}  superscript
- x = re.sub(r'{^(.*?)^}','<sup>\1</sup>',x)
+ x = re.sub(r'{\^(.*?)\^}',r'<sup>\1</sup>',x)
  return x
 
 def dig_to_xml_general(x):

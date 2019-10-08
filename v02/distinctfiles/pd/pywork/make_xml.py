@@ -1,7 +1,6 @@
 # coding=utf-8
-""" make_xml.py for pd
+""" make_xml.py
  Reads/Writes utf-8
- 02-04-2018
 """
 import xml.etree.ElementTree as ET
 import sys, re,codecs
@@ -36,7 +35,7 @@ def unused_adjust_slp1(x):
  return ans
 
 def dig_to_xml_specific(x):
- """ changes particular to pd digitization"""
+ """ changes particular to digitization"""
  x = re.sub(r' < ',' &lt; ',x)  # 6 cases
  return x
  # There are a couple entries with an <H> element.
@@ -87,10 +86,10 @@ def dbgout(dbg,s):
  fout.close()
 
 def close_divs(line):
- """ line is the full xml record, but the '<div> elements have not been
-  closed.  
+ """ line is the full xml record, but the <div> elements have not been
+  closed.  Don't close empty div tags
  """
- divregex = r'<div.*?>'
+ divregex = r'<div[^>]*?[^/]>' 
  if not re.search(divregex,line):
   # no divs to close
   return line
