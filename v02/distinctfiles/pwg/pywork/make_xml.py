@@ -59,7 +59,7 @@ def dig_to_xml_general(x):
  # xml requires that an ampersand be represented by &amp; entity
  x = x.replace('&','&amp;')
  # remove broken bar.  In xxx.txt, this usu. indicates a headword end
- x = x.replace(u'Â¦',' ') 
+ x = x.replace(u'¦',' ') 
  # bold, italic, and Sanskrit markup converted to xml forms.
  x = re.sub(r'{@','<b>',x)
  x = re.sub(r'@}','</b>',x)
