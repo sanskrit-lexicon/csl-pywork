@@ -36,7 +36,7 @@ def unused_adjust_slp1(x):
 
 def dig_to_xml_specific(x):
  """ no changes particular to digitization"""
- return x
+ #return x  # test
  # There are a couple entries with an <H> element.
  # Just remove these lines
  if x.startswith('<H>'):
@@ -49,9 +49,9 @@ def dig_to_xml_specific(x):
  # markup like <C1>x1<C2>x2...  indicates tabular data in vcp.
  #x = re.sub(r'<C([0-9]+)>',r'<C n="\1"/>',x)
  # change '--' to mdash
- x = x.replace('--',u'—')  #597 cases
+ # x = x.replace('--',u'—')  #597 cases   test
  #{^X^}  superscript
- x = re.sub(r'{^(.*?)^}','<sup>\1</sup>',x)
+ x = re.sub(r'{\^(.*?)\^}',r'<sup>\1</sup>',x)
  return x
 
 def dig_to_xml_general(x):
@@ -88,7 +88,7 @@ def close_divs(line):
  """ line is the full xml record, but the <div> elements have not been
   closed.  Don't close empty div tags
  """
- divregex = r'<div[^>]*?[^/]>' 
+ divregex = r'<div[^>]*?[^/]>'
  if not re.search(divregex,line):
   # no divs to close
   return line

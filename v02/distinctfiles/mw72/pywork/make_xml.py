@@ -36,7 +36,6 @@ def unused_adjust_slp1(x):
 
 def dig_to_xml_specific(x):
  """ changes particular to digitization"""
- # nothing to do
  return x
  # There are a couple entries with an <H> element.
  # Just remove these lines
@@ -86,11 +85,10 @@ def dbgout(dbg,s):
  fout.close()
 
 def close_divs(line):
- """ line is the full xml record, but the '<div> elements have not been
+ """ line is the full xml record, but the <div> elements have not been
   closed.  Don't close empty div tags
  """
  divregex = r'<div[^>]*?[^/]>' 
- #divregex = r'<div.*?>'
  if not re.search(divregex,line):
   # no divs to close
   return line
