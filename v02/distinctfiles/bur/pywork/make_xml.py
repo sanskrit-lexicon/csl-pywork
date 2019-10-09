@@ -1,7 +1,6 @@
 # coding=utf-8
-""" make_xml.py for bur
+""" make_xml.py
  Reads/Writes utf-8
- Jul 27, 2017
 """
 import xml.etree.ElementTree as ET
 import sys, re,codecs
@@ -9,7 +8,7 @@ from hwparse import init_hwrecs,HW
 xmlroot = HW.dictcode  
 
 def dig_to_xml_specific(x):
- """ changes particular to bur digitization"""
+ """ changes particular to digitization"""
  if re.search(r'^<P>',x):
   x = re.sub(r'<P>','<div n="P">',x)
  elif re.search(r'^<H>',x):
@@ -30,7 +29,7 @@ def dig_to_xml_general(x):
  # xml requires that an ampersand be represented by &amp; entity
  x = x.replace('&','&amp;')
  # remove broken bar.  In xxx.txt, this usu. indicates a headword end
- x = x.replace(u'Â¦',' ') 
+ x = x.replace(u'¦',' ') 
  # bold, italic, and Sanskrit markup converted to xml forms.
  x = re.sub(r'{@','<b>',x)
  x = re.sub(r'@}','</b>',x)

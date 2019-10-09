@@ -1,8 +1,6 @@
 # coding=utf-8
-""" make_xml.py for skd
+""" make_xml.py
  Reads/Writes utf-8
- Aug 22, 2017
- 
 """
 import xml.etree.ElementTree as ET
 import sys, re,codecs
@@ -73,7 +71,7 @@ def dig_to_xml_general(x):
  # xml requires that an ampersand be represented by &amp; entity
  x = x.replace('&','&amp;')
  # remove broken bar.  In xxx.txt, this usu. indicates a headword end
- x = x.replace(u'Â¦',' ') 
+ x = x.replace(u'¦',' ') 
  # bold, italic, and Sanskrit markup converted to xml forms.
  # These are not applicable to skd, but do no harm
  x = re.sub(r'{@','<b>',x)

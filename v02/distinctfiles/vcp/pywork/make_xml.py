@@ -1,7 +1,6 @@
 # coding=utf-8
-""" make_xml.py for vcp
+""" make_xml.py
  Reads/Writes utf-8
- Aug 14, 2017
 """
 import xml.etree.ElementTree as ET
 import sys, re,codecs
@@ -36,7 +35,7 @@ def adjust_slp1(x):
  return ans
 
 def dig_to_xml_specific(x):
- """ changes particular to vcp digitization"""
+ """ changes particular to digitization"""
  x = re.sub(r'<>','<lb/>',x) # <lb/>
  x = re.sub(r'<HI>','<div n="HI">',x) # 3362 cases
  x = re.sub(r'<P>','<div n="P">',x) # 2322 cases
@@ -56,7 +55,7 @@ def dig_to_xml_general(x):
  # xml requires that an ampersand be represented by &amp; entity
  x = x.replace('&','&amp;')
  # remove broken bar.  In xxx.txt, this usu. indicates a headword end
- x = x.replace(u'Â¦',' ') 
+ x = x.replace(u'¦',' ') 
  # bold, italic, and Sanskrit markup converted to xml forms.
  # These are not applicable to vcp, but do no harm
  x = re.sub(r'{@','<b>',x)

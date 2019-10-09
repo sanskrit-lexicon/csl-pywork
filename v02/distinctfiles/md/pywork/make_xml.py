@@ -1,10 +1,6 @@
 # coding=utf-8
-""" make_xml.py for  2014-06-10
+""" make_xml.py
  Reads/Writes utf-8
- Mar 12, 2015
- Remove conversion of HK to SLP1 - See convertwork/readme.txt
- 05-03-2017  <HI1> -> <div n="2">...</div>
- 05-19-2017  Revise to use new forms of acc.txt and acchw.txt
 """
 import xml.etree.ElementTree as ET
 import sys, re,codecs
@@ -12,7 +8,7 @@ from hwparse import init_hwrecs,HW
 xmlroot = HW.dictcode  
 
 def dig_to_xml_specific(x):
- """ changes particular to md digitization"""
+ """ changes particular to digitization"""
  # we maintain line breaks and don't put in divs.
  #  the pattern <b>-   is a promising pattern for a div 
  #  but there are two many variations for which this does not
@@ -47,7 +43,7 @@ def dig_to_xml_general(x):
  # xml requires that an ampersand be represented by &amp; entity
  x = x.replace('&','&amp;')
  # remove broken bar.  In xxx.txt, this usu. indicates a headword end
- x = x.replace(u'Â¦',' ') 
+ x = x.replace(u'¦',' ') 
  # bold, italic, and Sanskrit markup converted to xml forms.
  x = re.sub(r'{@','<b>',x)
  x = re.sub(r'@}','</b>',x)

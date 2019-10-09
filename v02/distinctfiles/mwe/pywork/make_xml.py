@@ -35,8 +35,7 @@ def unused_adjust_slp1(x):
  return ans
 
 def dig_to_xml_specific(x):
- """ changes particular to digitization"""
- # nothing to do
+ """ no changes particular to digitization"""
  return x
  # There are a couple entries with an <H> element.
  # Just remove these lines
@@ -52,7 +51,7 @@ def dig_to_xml_specific(x):
  # change '--' to mdash
  x = x.replace('--',u'—')  #597 cases
  #{^X^}  superscript
- x = re.sub(r'{^(.*?)^}','<sup>\1</sup>',x)
+ x = re.sub(r'{\^(.*?)\^}',r'<sup>\1</sup>',x)
  return x
 
 def dig_to_xml_general(x):
@@ -60,7 +59,7 @@ def dig_to_xml_general(x):
  # xml requires that an ampersand be represented by &amp; entity
  x = x.replace('&','&amp;')
  # remove broken bar.  In xxx.txt, this usu. indicates a headword end
- x = x.replace(u'Â¦',' ') 
+ x = x.replace(u'¦',' ') 
  # bold, italic, and Sanskrit markup converted to xml forms.
  # These are not applicable to vcp, but do no harm
  x = re.sub(r'{@','<b>',x)
