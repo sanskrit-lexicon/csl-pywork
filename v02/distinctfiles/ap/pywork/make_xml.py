@@ -1,5 +1,5 @@
 # coding=utf-8
-""" make_xml.py for  ap. 2017-07-10
+""" make_xml.py
  Reads/Writes utf-8
 """
 import xml.etree.ElementTree as ET
@@ -7,8 +7,35 @@ import sys, re,codecs
 from hwparse import init_hwrecs,HW
 xmlroot = HW.dictcode  
 
+def unused_adjust_slp1(x):
+ # in vcp, all text is Devanagari.  But, the text is vcp.txt does not use
+ #  the {#..#} markup to denote Devanagari.
+ # We want to add <s>..</s> markup.
+ # This requires that we separate out other markup  (always in form
+ # <...>)
+ outarr = []
+ import string
+ regex = r'(<[^>]+>)|(\[Page.*?\])|([^%s])' %string.printable
+ parts = re.split(regex,x) 
+ for part in parts: 
+  if not part: #why needed? 
+   pass 
+  elif part.startswith('<') and part.endswith('>'):
+   outarr.append(part)
+  elif part.startswith('[Page') and part.endswith(']'):
+   outarr.append(part)
+ # elif part.startswith('&') and part.endswith(';'):
+  elif part[0] not in string.printable:
+   outarr.append(part)
+  else: # assume text slp1
+   # put it into <s></s>
+   y = part
+   outarr.append("<s>%s</s>" % y)
+ ans = ''.join(outarr)
+ return ans
+
 def dig_to_xml_specific(x):
- """ changes particular to acc digitization"""
+ """ changes particular to digitization"""
  # There is one instance of a 'Poem' tag, under hw=akzOhiRI
  #  <Poem>...
  #  ...
@@ -91,10 +118,10 @@ def dbgout(dbg,s):
  fout.close()
 
 def close_divs(line):
- """ line is the full xml record, but the '<div> elements have not been
-  closed.  
+ """ line is the full xml record, but the <div> elements have not been
+  closed.  Don't close empty div tags.
  """
- divregex = r'<div.*?>'
+ divregex = r'<div[^>]*?[^/]>'
  if not re.search(divregex,line):
   # no divs to close
   return line
@@ -278,7 +305,7 @@ def make_xml(filedig,filehw,fileout):
  fout.close()
 
 if __name__=="__main__":
- filein = sys.argv[1] # acc.txt
- filein1 = sys.argv[2] #acchw2.txt
- fileout = sys.argv[3] # acc.xml
+ filein = sys.argv[1] # xxx.txt
+ filein1 = sys.argv[2] #xxxhw2.txt
+ fileout = sys.argv[3] # xxx.xml
  make_xml(filein,filein1,fileout)

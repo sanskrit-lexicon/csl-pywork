@@ -84,10 +84,10 @@ def dbgout(dbg,s):
  fout.close()
 
 def close_divs(line):
- """ line is the full xml record, but the '<div> elements have not been
-  closed.  
+ """ line is the full xml record, but the <div> elements have not been
+  closed.  Don't close empty div tags.
  """
- divregex = r'<div.*?>'
+ divregex = r'<div[^>]*?[^/]>'
  if not re.search(divregex,line):
   # no divs to close
   return line

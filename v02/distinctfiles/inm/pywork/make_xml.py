@@ -85,10 +85,10 @@ def dbgout(dbg,s):
  fout.close()
 
 def close_divs(line):
- """ line is the full xml record, but the '<div> elements have not been
-  closed.  
+ """ line is the full xml record, but the <div> elements have not been
+  closed.  Don't close empty div tags.
  """
- divregex = r'<div.*?>'
+ divregex = r'<div[^>]*?[^/]>'
  if not re.search(divregex,line):
   # no divs to close
   return line
@@ -201,10 +201,8 @@ def construct_xmlstring(datalines,hwrec):
  bodylines = [dig_to_xml(x) for x in datalines]
  if hwrec.type != None:
   bodylines = body_alt(bodylines,hwrec)
- # bop closing divs is awkward in present of <F>X</F>
- bodylines1 = body_inm(bodylines)
- body0 = ' '.join(bodylines1)
- #body0 = ' '.join(bodylines)
+ bodylines = body_inm(bodylines)
+ body0 = ' '.join(bodylines)
  dbgout(dbg,"chk4: %s" % body0)
  body = body0
  dbgout(dbg,"body0: %s" % body0)
@@ -213,7 +211,6 @@ def construct_xmlstring(datalines,hwrec):
  #4. construct result
  data = "<H1><h>%s</h><body>%s</body><tail>%s</tail></H1>" % (h,body,tail)
  #5. Close the <div> elements
- #data = close_divs(data) # don't use this for inm
  return data
 
 def xml_header(xmlroot):

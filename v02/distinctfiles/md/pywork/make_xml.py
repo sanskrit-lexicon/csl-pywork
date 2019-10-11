@@ -68,10 +68,10 @@ def dbgout(dbg,s):
  fout.close()
 
 def close_divs(line):
- """ line is the full xml record, but the '<div> elements have not been
-  closed.  
+ """ line is the full xml record, but the <div> elements have not been
+  closed.  Don't close empty div tags.
  """
- divregex = r'<div.*?>'
+ divregex = r'<div[^>]*?[^/]>'
  if not re.search(divregex,line):
   # no divs to close
   return line
@@ -255,7 +255,7 @@ def make_xml(filedig,filehw,fileout):
  fout.close()
 
 if __name__=="__main__":
- filein = sys.argv[1] # acc.txt
- filein1 = sys.argv[2] #acchw2.txt
- fileout = sys.argv[3] # acc.xml
+ filein = sys.argv[1] # xxx.txt
+ filein1 = sys.argv[2] #xxxhw2.txt
+ fileout = sys.argv[3] # xxx.xml
  make_xml(filein,filein1,fileout)

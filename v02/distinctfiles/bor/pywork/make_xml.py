@@ -1,8 +1,6 @@
 # coding=utf-8
-""" make_xml.py for bor
+""" make_xml.py
  Reads/Writes utf-8
- Feb 21, 2018
-  
 """
 import xml.etree.ElementTree as ET
 import sys, re,codecs
@@ -37,8 +35,7 @@ def unused_adjust_slp1(x):
  return ans
 
 def dig_to_xml_specific(x):
- """ changes particular to pgn digitization"""
- # nothing to do for pgn
+ """ no changes particular to digitization"""
  return x
  # There are a couple entries with an <H> element.
  # Just remove these lines
@@ -54,7 +51,7 @@ def dig_to_xml_specific(x):
  # change '--' to mdash
  x = x.replace('--',u'—')  #597 cases
  #{^X^}  superscript
- x = re.sub(r'{^(.*?)^}','<sup>\1</sup>',x)
+ x = re.sub(r'{\^(.*?)\^}',r'<sup>\1</sup>',x)
  return x
 
 def dig_to_xml_general(x):
@@ -88,13 +85,12 @@ def dbgout(dbg,s):
  fout.close()
 
 def close_divs(line):
- """ line is the full xml record, but the '<div> elements have not been
-  closed.  Don't close empty div tags
+ """ line is the full xml record, but the <div> elements have not been
+  closed.  Don't close empty div tags.
  """
- # for bor, we assume this closure already done
+ # we assume this closure already done
  return line
- divregex = r'<div[^>]*?[^/]>' 
- #divregex = r'<div.*?>'
+ divregex = r'<div[^>]*?[^/]>'
  if not re.search(divregex,line):
   # no divs to close
   return line

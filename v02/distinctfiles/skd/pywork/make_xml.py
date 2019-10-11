@@ -73,7 +73,7 @@ def dig_to_xml_general(x):
  # remove broken bar.  In xxx.txt, this usu. indicates a headword end
  x = x.replace(u'¦',' ') 
  # bold, italic, and Sanskrit markup converted to xml forms.
- # These are not applicable to skd, but do no harm
+ # These are not applicable to vcp, but do no harm
  x = re.sub(r'{@','<b>',x)
  x = re.sub(r'@}','</b>',x)
  x = re.sub(r'{%','<i>',x)
@@ -97,10 +97,10 @@ def dbgout(dbg,s):
  fout.close()
 
 def close_divs(line):
- """ line is the full xml record, but the '<div> elements have not been
-  closed.  
+ """ line is the full xml record, but the <div> elements have not been
+  closed.  Don't close empty div tags.
  """
- divregex = r'<div.*?>'
+ divregex = r'<div[^>]*?[^/]>'
  if not re.search(divregex,line):
   # no divs to close
   return line
@@ -203,9 +203,6 @@ def construct_xmlstring(datalines,hwrec):
  #4. construct result
  data = "<H1><h>%s</h><body>%s</body><tail>%s</tail></H1>" % (h,body,tail)
  #5. Close the <div> elements
- # FOR SKD we do NOT close div. See comment regarding <F> in 
- # dig_to_xml_specific
- #data = close_divs(data)
  return data
 
 def xml_header(xmlroot):

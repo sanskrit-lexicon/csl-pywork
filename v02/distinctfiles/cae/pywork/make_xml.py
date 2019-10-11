@@ -1,7 +1,6 @@
 # coding=utf-8
-""" make_xml.py for cae
+""" make_xml.py
  Reads/Writes utf-8
- Oct 30, 2017
 """
 import xml.etree.ElementTree as ET
 import sys, re,codecs
@@ -36,8 +35,7 @@ def unused_adjust_slp1(x):
  return ans
 
 def dig_to_xml_specific(x):
- """ changes particular to digitization"""
- # Nothing to do for cae
+ """ no changes particular to digitization"""
  return x
 
 def dig_to_xml_general(x):
@@ -71,10 +69,10 @@ def dbgout(dbg,s):
  fout.close()
 
 def close_divs(line):
- """ line is the full xml record, but the '<div> elements have not been
-  closed.  
+ """ line is the full xml record, but the <div> elements have not been
+  closed.  Don't close empty div tags.
  """
- divregex = r'<div.*?>'
+ divregex = r'<div[^>]*?[^/]>'
  if not re.search(divregex,line):
   # no divs to close
   return line

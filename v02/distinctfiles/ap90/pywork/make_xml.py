@@ -1,7 +1,6 @@
 # coding=utf-8
-""" make_xml.py for ap90
+""" make_xml.py
  Reads/Writes utf-8
- Jun 28, 2015
 """
 import xml.etree.ElementTree as ET
 import sys, re,codecs
@@ -50,10 +49,10 @@ def dbgout(dbg,s):
  fout.close()
 
 def close_divs(line):
- """ line is the full xml record, but the '<div> elements have not been
-  closed.  
+ """ line is the full xml record, but the <div> elements have not been
+  closed.  Don't close empty div tags.
  """
- divregex = r'<div.*?>'
+ divregex = r'<div[^>]*?[^/]>'
  if not re.search(divregex,line):
   # no divs to close
   return line
@@ -145,7 +144,6 @@ def construct_xmlstring(datalines,hwrec):
  dbgout(dbg,"tail: %s" % tail)  
  #3. construct body
  # To mimic current display of Sch, we remove the 'head' from first line:
- datalines1=[]
  for i,x in enumerate(datalines):
   if i == 0:
    m = re.search(u'^(.*?¦)(.*)$' ,x)
@@ -219,16 +217,14 @@ def make_xml(filedig,filehw,fileout):
   fout.write(line + '\n')
   nout = nout + 1
  # process hwrecs records one at a time and generate output
+ nerr = 0
  for ihwrec,hwrec in enumerate(hwrecs):
-  if ihwrec >  1000000: # 12 
+  if ihwrec > 1000000: # 12 
    print "debug stopping"
    break
   datalines = get_datalines(hwrec,inlines)
   # construct output
   xmlstring = construct_xmlstring(datalines,hwrec)
-  # write output
-  fout.write(xmlstring + '\n')
-  nout = nout + 1
   # data is a string, which should be well-formed xml
   # try parsing this string to verify well-formed.
   try:
@@ -236,8 +232,12 @@ def make_xml(filedig,filehw,fileout):
   except:
    out = "xml error: n=%s,m line=\n%s\n" %(nout+1,xmlstring)
    print out.encode('utf-8')
+   fout.write(xmlstring + '\n')
    fout.close()
    exit(1)
+  # write output
+  fout.write(xmlstring + '\n')
+  nout = nout + 1
 
  # write closing line for xml file.
  out = "</%s>\n" % xmlroot
@@ -245,7 +245,7 @@ def make_xml(filedig,filehw,fileout):
  fout.close()
 
 if __name__=="__main__":
- filein = sys.argv[1] # acc.txt
- filein1 = sys.argv[2] #acchw2.txt
- fileout = sys.argv[3] # acc.xml
+ filein = sys.argv[1] # xxx.txt
+ filein1 = sys.argv[2] #xxxhw2.txt
+ fileout = sys.argv[3] # xxx.xml
  make_xml(filein,filein1,fileout)

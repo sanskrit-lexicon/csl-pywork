@@ -1,10 +1,6 @@
 # coding=utf-8
-""" make_xml.py for  2014-06-10
+""" make_xml.py
  Reads/Writes utf-8
- Mar 12, 2015
- Remove conversion of HK to SLP1 - See convertwork/readme.txt
- 05-03-2017  <HI1> -> <div n="2">...</div>
- 05-31-2017  Revise to use new forms digitization and headwords.
 """
 import xml.etree.ElementTree as ET
 import sys, re,codecs
@@ -72,10 +68,10 @@ def dbgout(dbg,s):
  fout.close()
 
 def close_divs(line):
- """ line is the full xml record, but the '<div> elements have not been
-  closed.  
+ """ line is the full xml record, but the <div> elements have not been
+  closed.  Don't close empty div tags.
  """
- divregex = r'<div.*?>'
+ divregex = r'<div>' # sch has '<div>' with no attributes.
  if not re.search(divregex,line):
   # no divs to close
   return line
@@ -167,7 +163,6 @@ def construct_xmlstring(datalines,hwrec):
  dbgout(dbg,"tail: %s" % tail)  
  #3. construct body
  # To mimic current display of Sch, we remove the 'head' from first line:
- datalines1=[]
  for i,x in enumerate(datalines):
   if i == 0:
    m = re.search(u'^(.*?¦)(.*)$' ,x)
@@ -241,6 +236,7 @@ def make_xml(filedig,filehw,fileout):
   fout.write(line + '\n')
   nout = nout + 1
  # process hwrecs records one at a time and generate output
+ nerr = 0
  for ihwrec,hwrec in enumerate(hwrecs):
   if ihwrec > 1000000: # 12 
    print "debug stopping"
@@ -266,7 +262,7 @@ def make_xml(filedig,filehw,fileout):
  fout.close()
 
 if __name__=="__main__":
- filein = sys.argv[1] # acc.txt
- filein1 = sys.argv[2] #acchw2.txt
- fileout = sys.argv[3] # acc.xml
+ filein = sys.argv[1] # xxx.txt
+ filein1 = sys.argv[2] #xxxhw2.txt
+ fileout = sys.argv[3] # xxx.xml
  make_xml(filein,filein1,fileout)

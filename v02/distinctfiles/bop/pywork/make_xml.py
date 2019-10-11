@@ -1,7 +1,6 @@
 # coding=utf-8
-""" make_xml.py for bop
+""" make_xml.py
  Reads/Writes utf-8
- 02-01-2018  close_divs_bop is special for bop
 """
 import xml.etree.ElementTree as ET
 import sys, re,codecs
@@ -36,12 +35,10 @@ def unused_adjust_slp1(x):
  return ans
 
 def dig_to_xml_specific(x):
- """ changes particular to stc digitization"""
- # nothing to do for BOP
+ """ no changes particular to digitization"""
  return x
  # There are a couple entries with an <H> element.
  # Just remove these lines
-
  if x.startswith('<H>'):
   print "REMOVING <H> LINE",x.encode('utf-8')
   return ''
@@ -54,7 +51,7 @@ def dig_to_xml_specific(x):
  # change '--' to mdash
  x = x.replace('--',u'—')  #597 cases
  #{^X^}  superscript
- x = re.sub(r'{^(.*?)^}','<sup>\1</sup>',x)
+ x = re.sub(r'{\^(.*?)\^}',r'<sup>\1</sup>',x)
  return x
 
 def dig_to_xml_general(x):
@@ -79,11 +76,6 @@ def dig_to_xml(xin):
  x = dig_to_xml_specific(x)
  return x
 
-#def close_divs_bop(line):
-# line = re.sub(r'<F>(.*?)</div><div',r'</div><F>\1<div',line)
-# line = re.sub(r'</F></div>','</div></F>',line)
-# return line
-
 def dbgout(dbg,s):
  if not dbg:
   return
@@ -93,10 +85,10 @@ def dbgout(dbg,s):
  fout.close()
 
 def close_divs(line):
- """ line is the full xml record, but the '<div> elements have not been
-  closed.  
+ """ line is the full xml record, but the <div> elements have not been
+  closed.  Don't close empty div tags.
  """
- divregex = r'<div.*?>'
+ divregex = r'<div[^>]*?[^/]>'
  if not re.search(divregex,line):
   # no divs to close
   return line
@@ -129,7 +121,6 @@ def close_divs(line):
  else:
   raise ValueError("close_divs_error: %s"%line.encode('utf-8'))
  newline = new + newrest
- #newline = close_divs_bop(newline)
  return newline
 
 def construct_xmlhead(hwrec):
@@ -210,9 +201,9 @@ def construct_xmlstring(datalines,hwrec):
  bodylines = [dig_to_xml(x) for x in datalines]
  if hwrec.type != None:
   bodylines = body_alt(bodylines,hwrec)
- # bop closing divs is awkward in present of <F>X</F>
- bodylines1 = body_bop(bodylines)
- body0 = ' '.join(bodylines1)
+ # bop closing divs is awkward in presence of <F>X</F>
+ bodylines = body_bop(bodylines)
+ body0 = ' '.join(bodylines)
  dbgout(dbg,"chk4: %s" % body0)
  body = body0
  dbgout(dbg,"body0: %s" % body0)
@@ -221,7 +212,6 @@ def construct_xmlstring(datalines,hwrec):
  #4. construct result
  data = "<H1><h>%s</h><body>%s</body><tail>%s</tail></H1>" % (h,body,tail)
  #5. Close the <div> elements
- #data = close_divs(data)  # don't use this for bop
  return data
 
 def xml_header(xmlroot):

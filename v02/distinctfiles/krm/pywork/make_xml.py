@@ -1,13 +1,11 @@
 # coding=utf-8
-""" make_xml.py for krm
+""" make_xml.py
  Reads/Writes utf-8
- 01-27-2018
 """
 import xml.etree.ElementTree as ET
 import sys, re,codecs
 from hwparse import init_hwrecs,HW
 xmlroot = HW.dictcode  
-
 
 def unused_adjust_slp1(x):
  # in vcp, all text is Devanagari.  But, the text is vcp.txt does not use
@@ -44,8 +42,7 @@ def close_divs_krm(newline):
  return newline
 
 def dig_to_xml_specific(x):
- """ a couple of kluges so xml is well-formed.  
- """
+ """ changes particular to digitization"""
  x = x.replace('</F>','')
  x = x.replace('<F>','<div n="F">');
  return x
@@ -63,7 +60,7 @@ def dig_to_xml_specific(x):
  # change '--' to mdash
  #x = x.replace('--',u'—')  #597 cases
  #{^X^}  superscript
- x = re.sub(r'{^(.*?)^}','<sup>\1</sup>',x)
+ x = re.sub(r'{\^(.*?)\^}',r'<sup>\1</sup>',x)
  return x
 
 def dig_to_xml_general(x):
@@ -97,10 +94,10 @@ def dbgout(dbg,s):
  fout.close()
 
 def close_divs(line):
- """ line is the full xml record, but the '<div> elements have not been
-  closed.  
+ """ line is the full xml record, but the <div> elements have not been
+  closed.  Don't close empty div tags.
  """
- divregex = r'<div.*?>'
+ divregex = r'<div[^>]*?[^/]>'
  if not re.search(divregex,line):
   # no divs to close
   return line

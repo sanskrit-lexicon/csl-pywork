@@ -8,7 +8,7 @@ from hwparse import init_hwrecs,HW
 xmlroot = HW.dictcode  
 
 def dig_to_xml_specific(x):
- """ changes particular to bur digitization"""
+ """ changes particular to digitization"""
  x = re.sub('<>','<lb/>',x)
  x = re.sub(r' E[.]','<div n="E"> E.',x)
  x = re.sub(r' ([mfn]+[.] *\(<s>.*?</s>\))',r' <div n="1">\1',x)
@@ -19,21 +19,6 @@ def dig_to_xml_specific(x):
  # divs for roots
  x = re.sub(r' (r[.] [1-9])',r'<div n="1">\1',x)
  x = re.sub(r' ([wW]ith *<s>.*?</s>)',r'<div n="1">\1',x)
- """
- if re.search(r'^<P>',x):
-  x = re.sub(r'<P>','<div n="P">',x)
- elif re.search(r'^<H>',x):
-  x = re.sub(r'<H>','<H/>',x)
-  print "Unexpected <H>:",x.encode('utf-8')
- # change '||' to a div, type = 2
- #  Also, remove the '||' -- aesthetic choice
- x = x.replace('||','<div n="2">')
- # change '--' to mdash
- x = x.replace('--',u'—')
- # We want most mdashes to start a div. but not all.
- # Restricting to the desired group is tricky. Here is a try.
- x = re.sub(u'(— *[A-Z])',r'<div n="3">\1',x)
- """
  return x
 
 def dig_to_xml_general(x):
@@ -66,10 +51,10 @@ def dbgout(dbg,s):
  fout.close()
 
 def close_divs(line):
- """ line is the full xml record, but the '<div> elements have not been
-  closed.  
+ """ line is the full xml record, but the <div> elements have not been
+  closed.  Don't close empty div tags.
  """
- divregex = r'<div.*?>'
+ divregex = r'<div[^>]*?[^/]>'
  if not re.search(divregex,line):
   # no divs to close
   return line
@@ -253,7 +238,7 @@ def make_xml(filedig,filehw,fileout):
  fout.close()
 
 if __name__=="__main__":
- filein = sys.argv[1] # bur.txt
- filein1 = sys.argv[2] #burhw2.txt
- fileout = sys.argv[3] # bur.xml
+ filein = sys.argv[1] # xxx.txt
+ filein1 = sys.argv[2] #xxxhw2.txt
+ fileout = sys.argv[3] # xxx.xml
  make_xml(filein,filein1,fileout)

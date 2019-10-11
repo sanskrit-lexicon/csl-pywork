@@ -36,7 +36,7 @@ def unused_adjust_slp1(x):
 
 def dig_to_xml_specific(x):
  """ no changes particular to digitization"""
- #return x  # test
+ return x
  # There are a couple entries with an <H> element.
  # Just remove these lines
  if x.startswith('<H>'):
@@ -49,7 +49,7 @@ def dig_to_xml_specific(x):
  # markup like <C1>x1<C2>x2...  indicates tabular data in vcp.
  #x = re.sub(r'<C([0-9]+)>',r'<C n="\1"/>',x)
  # change '--' to mdash
- # x = x.replace('--',u'—')  #597 cases   test
+ #x = x.replace('--',u'—')  #597 cases
  #{^X^}  superscript
  x = re.sub(r'{\^(.*?)\^}',r'<sup>\1</sup>',x)
  return x
@@ -61,7 +61,6 @@ def dig_to_xml_general(x):
  # remove broken bar.  In xxx.txt, this usu. indicates a headword end
  x = x.replace(u'¦',' ') 
  # bold, italic, and Sanskrit markup converted to xml forms.
- # These are not applicable to vcp, but do no harm
  x = re.sub(r'{@','<b>',x)
  x = re.sub(r'@}','</b>',x)
  x = re.sub(r'{%','<i>',x)
@@ -86,7 +85,7 @@ def dbgout(dbg,s):
 
 def close_divs(line):
  """ line is the full xml record, but the <div> elements have not been
-  closed.  Don't close empty div tags
+  closed.  Don't close empty div tags.
  """
  divregex = r'<div[^>]*?[^/]>'
  if not re.search(divregex,line):

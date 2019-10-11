@@ -8,7 +8,7 @@ from hwparse import init_hwrecs,HW
 xmlroot = HW.dictcode  
 
 def adjust_slp1(x):
- # in vcp, all text is Devanagari.  But, the text is vcp.txt does not use
+ # in skd, all text is Devanagari.  But, the text is skd.txt does not use
  #  the {#..#} markup to denote Devanagari.
  # We want to add <s>..</s> markup.
  # This requires that we separate out other markup  (always in form
@@ -46,7 +46,7 @@ def dig_to_xml_specific(x):
  # markup like <C1>x1<C2>x2...  indicates tabular data in vcp.
  x = re.sub(r'<C([0-9]+)>',r'<C n="\1"/>',x)
  # change '--' to mdash
- x = x.replace('--',u'—')  #21659 cases
+ x = x.replace('--',u'—')  #597 cases
  x = adjust_slp1(x) # add <s> markup to text
  return x
 
@@ -81,10 +81,10 @@ def dbgout(dbg,s):
  fout.close()
 
 def close_divs(line):
- """ line is the full xml record, but the '<div> elements have not been
-  closed.  
+ """ line is the full xml record, but the <div> elements have not been
+  closed.  Don't close empty div tags.
  """
- divregex = r'<div.*?>'
+ divregex = r'<div[^>]*?[^/]>'
  if not re.search(divregex,line):
   # no divs to close
   return line
