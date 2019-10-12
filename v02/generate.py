@@ -5,7 +5,7 @@
   includes 'D' option
  09-22-2019 includes 'CD' (copy distinct) option
  Also, inventory records now have 3 fields
-
+ 10-11-2019 Special logic so mako can handle pywork/make_xml.py.
 """
 from __future__ import print_function
 import sys,re
@@ -124,6 +124,28 @@ def expand_template(x,dictparms):
   print('expand_template. x=',x,'y=',y)
  return y
 
+def mako_preprocess(text):
+ text1 = text.replace('<%s>','!!!s!!!')
+ text1 = text1.replace('</%s>','!!!/s!!!')
+ text1 = re.sub(r'^# coding=utf-8','!# coding=utf-8',text1)
+ text1 = text1.replace('##','!!!##!!!')
+ return text1
+
+def mako_postprocess(text):
+ text1 = text.replace('!!!s!!!','<%s>')
+ text1 = text1.replace('!!!/s!!!','</%s>')
+ text1 = re.sub(r'^!# coding=utf-8',r'# coding=utf-8',text1)
+ text1 = text1.replace('!!!##!!!','##')
+ return text1
+
+def mako_special_handling(filein,dictparms):
+ with codecs.open(filein,"r","utf-8") as f:
+  text = f.read()
+ text1 = mako_preprocess(text)
+ template = Template(text1)
+ renderedtext1 = template.render_unicode(**dictparms)
+ renderedtext = mako_postprocess(renderedtext1)
+ return renderedtext
 if __name__=="__main__":
  dictcode = sys.argv[1]
  filein = sys.argv[2]  # inventory.txt
@@ -160,8 +182,12 @@ if __name__=="__main__":
    # process as a template
    filename1 = "%s/%s" %(olddir,filename)
    newfile = "%s/%s" %(newdir,filename)
-   template = Template(filename=filename1,input_encoding='utf-8',)
-   renderedtext = template.render_unicode(**dictparms)
+   if filename != 'pywork/make_xml.py':
+    template = Template(filename=filename1,input_encoding='utf-8',)
+    renderedtext = template.render_unicode(**dictparms)
+   else:
+    renderedtext = mako_special_handling(filename1,dictparms)
+
    with codecs.open(newfile,"w","utf-8") as f:
     f.write(renderedtext)
   elif category == 'D':

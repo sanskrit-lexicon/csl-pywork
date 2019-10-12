@@ -26,10 +26,12 @@
 ; check for equivalence in skd
 *:pywork/webtc2/init_query.py:C
 *:pywork/webtc2/redo.sh:T
+; 10-11-2019: Changed make_xml.py from 'CD' to 'T'
+*:pywork/make_xml.py:T
 ; -------------------------------------------
 ; distinct files for some or all dictionaries
 ; -------------------------------------------
-*:pywork/make_xml.py:CD
+;*:pywork/make_xml.py:CD
 ; these two should be combined into a template
 pw pwg:pywork/make_xml_ls.py:CD
 *:pywork/${dictlo}.dtd:CD
