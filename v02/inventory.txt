@@ -28,13 +28,16 @@
 *:pywork/webtc2/redo.sh:T
 ; 10-11-2019: Changed make_xml.py from 'CD' to 'T'
 *:pywork/make_xml.py:T
+; 10-13-2019: Changed ${dictlo}.dtd from 'CD' to 'T'
+; Note new syntax in 2nd parameter.
+*:pywork/one.dtd pywork/${dictlo}.dtd:T
 ; -------------------------------------------
 ; distinct files for some or all dictionaries
 ; -------------------------------------------
 ;*:pywork/make_xml.py:CD
 ; these two should be combined into a template
 pw pwg:pywork/make_xml_ls.py:CD
-*:pywork/${dictlo}.dtd:CD
+;*:pywork/${dictlo}.dtd:CD
 *:pywork/hwextra/${dictlo}_hwextra.txt:CD
 ;  not yet initialized in init_distinctfiles
 *:pywork/${dictlo}-meta2.txt:CD

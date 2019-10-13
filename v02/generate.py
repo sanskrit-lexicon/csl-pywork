@@ -168,21 +168,27 @@ if __name__=="__main__":
  makedirs(newdir,inventory)
  # copy
  for category,filename in inventory:
+  if ' ' in filename:
+   # allow 'filename' to contain 2 values: old new
+   filename_old,filename_new = re.split(' +',filename)
+  else:
+   filename_old = filename
+   filename_new = filename 
   if category == 'C':
    # just copy
-   filename1 = "%s/%s" %(olddir,filename)
-   newfile = "%s/%s" %(newdir,filename)
+   filename1 = "%s/%s" %(olddir,filename_old)
+   newfile = "%s/%s" %(newdir,filename_new)
    copyfile(filename1,newfile)
   elif category == 'CD':
    # just copy distinct file from olddir1
-   filename1 = "%s/%s" %(olddir1,filename)
-   newfile = "%s/%s" %(newdir,filename)
+   filename1 = "%s/%s" %(olddir1,filename_old)
+   newfile = "%s/%s" %(newdir,filename_new)
    copyfile(filename1,newfile)
   elif category == 'T':
    # process as a template
-   filename1 = "%s/%s" %(olddir,filename)
-   newfile = "%s/%s" %(newdir,filename)
-   if filename != 'pywork/make_xml.py':
+   filename1 = "%s/%s" %(olddir,filename_old)
+   newfile = "%s/%s" %(newdir,filename_new)
+   if filename_old != 'pywork/make_xml.py':
     template = Template(filename=filename1,input_encoding='utf-8',)
     renderedtext = template.render_unicode(**dictparms)
    else:
@@ -191,8 +197,8 @@ if __name__=="__main__":
    with codecs.open(newfile,"w","utf-8") as f:
     f.write(renderedtext)
   elif category == 'D':
-   filename1 = "%s/%s" %(olddir,filename)
-   newfile = "%s/%s" %(newdir,filename)
+   filename1 = "%s/%s" %(olddir,filename_old)
+   newfile = "%s/%s" %(newdir,filename_new)
    if os.path.exists(newfile):
     os.remove(newfile)
    else:
