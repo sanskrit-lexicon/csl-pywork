@@ -41,6 +41,8 @@ acc: none  (it was used to initialize one.dtd)
 ae:  Attribute value 'lb' for n, with element div
 ap: <div n="">  CDATA  One value in ap is '?', and this can't be in
     an enumeration.
+      Added value 'Q':  <div n="Q">. 
+      Changed make_xml.py for AP to use "Q" instead of "?"
     <div name=""> CDATA
     <root/>  new empty element, in body_elts
     add s to elements within 'b'
@@ -94,7 +96,8 @@ sch : add element 'type'
       add element 'info' with attributes seq, n, part
       for 'hom', attribute n="pwk"
       add 'hom' to children of 'body'
-      div does not have attributes
+      div does not have attributes.  Change "#REQUIRED" to "#IMPLIED"
+         for the attributes of div.
 shs : for elt. 'div', attribute 'n', add values E | Poem 
 skd : add element 'mark' with attribute 'n'
       for 'C', attribute 'n', add values 7 | 8 | 9 | 10 | 11

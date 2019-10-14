@@ -168,7 +168,7 @@ def dig_to_xml_specific(x):
  # divisions. This is the /{#-BaH#} type case
  if x.startswith('.'):
   #print "extra div:",x.encode('utf-8')
-  x = re.sub(r'^[.]','<div n="?">',x)
+  x = re.sub(r'^[.]','<div n="Q">',x)
  return x
 %endif # ap dictionary
 %if dictlo == 'skd':

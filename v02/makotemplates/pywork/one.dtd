@@ -82,16 +82,8 @@ H1B | H2B | H3B | H4B | H1C | H2C | H3C | H4C | H1E | H2E | H3E | H4E)*>
 <!ELEMENT srs EMPTY >
 
 <!ATTLIST symbol n CDATA #REQUIRED>
-%if dictlo in ['ap']:
-## The following is not valid for DTD (the '?' character can't be a value
-## <!ATTLIST div n (2 | 3 | lb | ? | Poem) #REQUIRED>
-## Thus, we must use CDATA
-<!ATTLIST div n CDATA #REQUIRED>
 <!ATTLIST div name CDATA #IMPLIED>
-%endif
-%if dictlo not in ['ap','sch']:
-<!ATTLIST div n (P | 2 | 3 | lb |pfx |1 | I | xe | xs |p|H|P1|HI|F|NI|m|o|4|v|E|Poem|Picture|lex|to|vp) #REQUIRED>
-%endif
+<!ATTLIST div n (P | 2 | 3 | lb |pfx |1 | I | xe | xs |p|H|P1|HI|F|NI|m|o|4|v|E|Poem|Picture|lex|to|vp|Q) #IMPLIED>
 <!ATTLIST hwtype n (alt | sub | n) #REQUIRED>
 <!ATTLIST hwtype ref CDATA #REQUIRED>
 <!ATTLIST lang n (greek | arabic | meter |slavic|russian|Russian|Greek|oldhebrew|Old-Church-Slavonic|Arabic|Hindustani|Persian|Turkish) #REQUIRED>
