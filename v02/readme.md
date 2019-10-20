@@ -140,6 +140,7 @@ Tested on Bodhi Linux 5, a minimalist ubuntu based distro, on 20 Oct 2019.
 
 ### Installing necessary packages on Ubuntu local machine.
 
+```bash
 sudo apt update
 sudo apt upgrade
 sudo apt install python-pip
@@ -154,20 +155,23 @@ sudo apt install php-xml
 sudo apt install php-sqlite3
 sudo apt install libxml2-utils
 sudo apt service apache2 restart
+```
 
 ### Downloading the necessary repositories.
 
+```bash
 cd /var/www/html
 sudo mkdir cologne
 cd cologne
 sudo git clone https://github.com/sanskrit-lexicon/csl-orig.git
 sudo git clone https://github.com/sanskrit-lexicon/csl-pywork.git
 sudo git clone https://github.com/sanskrit-lexicon/csl-websanlexicon.git
+```
 
 ### Regenerate all dictionaries for local usage.
 
+```bash
 cd csl-pywork/v02/
 sudo bash redo_xampp_all.sh
+```
 
-
- 
