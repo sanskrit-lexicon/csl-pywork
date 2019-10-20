@@ -134,7 +134,7 @@ zip.exe had to be installed.  Here is one way to do this:
     subdirectory of each dictionary.  For a personal Xampp installation, this
     has little utility, and so 'zip' does not have to be installed.
 
-## Initialization/Update of all dictionaries on Ubuntu server
+## Initialization/Update of all dictionaries on local Ubuntu machine.
 
 Tested on Bodhi Linux 5, a minimalist ubuntu based distro, on 20 Oct 2019.
 
