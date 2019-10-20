@@ -135,11 +135,39 @@ zip.exe had to be installed.  Here is one way to do this:
     has little utility, and so 'zip' does not have to be installed.
 
 ## Initialization/Update of all dictionaries on Ubuntu server
-The process is almost the same as for installation on Windows Xampp server.
-Two differences may be:
-* The server home directory on Ubuntu will differ. One typical web server path
-  is `/var/www/html/`.  So you use this instead of `/c/xampp/htdocs/`.
-* The file permissions typically need to be set so the web server.
-* There are still unresolved questions here.  See Issues for discussion.
+
+Tested on Bodhi Linux 5, a minimalist ubuntu based distro, on 20 Oct 2019.
+
+### Installing necessary packages on Ubuntu local machine.
+
+sudo apt update
+sudo apt upgrade
+sudo apt install python-pip
+sudo pip install mako
+sudo apt install git
+sudo apt install apache2
+sudo apt install zip
+sudo apt install sqlite3
+sudo apt install php
+sudo apt install php-cli
+sudo apt install php-xml
+sudo apt install php-sqlite3
+sudo apt install libxml2-utils
+sudo apt service apache2 restart
+
+### Downloading the necessary repositories.
+
+cd /var/www/html
+sudo mkdir cologne
+cd cologne
+sudo git clone https://github.com/sanskrit-lexicon/csl-orig.git
+sudo git clone https://github.com/sanskrit-lexicon/csl-pywork.git
+sudo git clone https://github.com/sanskrit-lexicon/csl-websanlexicon.git
+
+### Regenerate all dictionaries for local usage.
+
+cd csl-pywork/v02/
+sudo bash redo_xampp_all.sh
+
 
  
