@@ -1,0 +1,661 @@
+000195 inm  <C n="1">
+000268 pe   <C n="1">
+000921 skd  <C n="1">
+000070 vcp  <C n="1">
+000029 vei  <C n="1">
+000024 skd  <C n="10">
+000004 vcp  <C n="10">
+000012 skd  <C n="11">
+000004 vcp  <C n="11">
+000004 vcp  <C n="12">
+000114 inm  <C n="2">
+000262 pe   <C n="2">
+000926 skd  <C n="2">
+000070 vcp  <C n="2">
+000029 vei  <C n="2">
+000065 inm  <C n="3">
+000065 pe   <C n="3">
+000824 skd  <C n="3">
+000070 vcp  <C n="3">
+000028 vei  <C n="3">
+000056 inm  <C n="4">
+000014 pe   <C n="4">
+000825 skd  <C n="4">
+000070 vcp  <C n="4">
+000023 inm  <C n="5">
+000011 pe   <C n="5">
+000789 skd  <C n="5">
+000068 vcp  <C n="5">
+000018 inm  <C n="6">
+000055 skd  <C n="6">
+000066 vcp  <C n="6">
+000046 skd  <C n="7">
+000004 vcp  <C n="7">
+000046 skd  <C n="8">
+000004 vcp  <C n="8">
+000042 skd  <C n="9">
+000004 vcp  <C n="9">
+000033 acc  <F>
+000059 bop  <F>
+000001 gra  <F>
+000025 inm  <F>
+000101 pe   <F>
+008890 pui  <F>
+000038 pwg  <F>
+011133 vei  <F>
+049822 acc  <H1>
+011360 ae   <H1>
+032187 ap90 <H1>
+017313 ben  <H1>
+017836 bhs  <H1>
+008960 bop  <H1>
+024608 bor  <H1>
+019775 bur  <H1>
+040069 cae  <H1>
+030011 ccs  <H1>
+010785 gra  <H1>
+006780 gst  <H1>
+007907 ieg  <H1>
+012655 inm  <H1>
+002061 krm  <H1>
+002643 mci  <H1>
+020749 md   <H1>
+031834 mw   <H1>
+055388 mw72 <H1>
+032378 mwe  <H1>
+008799 pe   <H1>
+000485 pgn  <H1>
+017513 pui  <H1>
+135788 pw   <H1>
+122736 pwg  <H1>
+029114 sch  <H1>
+047312 shs  <H1>
+042531 skd  <H1>
+000453 snp  <H1>
+024574 stc  <H1>
+050134 vcp  <H1>
+003834 vei  <H1>
+044578 wil  <H1>
+045206 yat  <H1>
+009468 mw   <H1A>
+009767 mw   <H1B>
+000633 mw   <H1C>
+000550 mw   <H1E>
+032466 mw   <H2>
+021752 mw   <H2A>
+017599 mw   <H2B>
+000545 mw   <H2C>
+000198 mw   <H2E>
+112130 mw   <H3>
+016893 mw   <H3A>
+015057 mw   <H3B>
+000788 mw   <H3C>
+000019 mw   <H3E>
+017106 mw   <H4>
+000378 mw   <H4A>
+000232 mw   <H4B>
+000015 mw   <H4C>
+000001 mw   <H4E>
+000049 acc  <H>
+049822 acc  <L>
+011360 ae   <L>
+032187 ap90 <L>
+017313 ben  <L>
+017836 bhs  <L>
+008960 bop  <L>
+024608 bor  <L>
+019775 bur  <L>
+040069 cae  <L>
+030011 ccs  <L>
+010785 gra  <L>
+006780 gst  <L>
+007907 ieg  <L>
+012655 inm  <L>
+002061 krm  <L>
+002643 mci  <L>
+020749 md   <L>
+287431 mw   <L>
+055388 mw72 <L>
+032378 mwe  <L>
+008799 pe   <L>
+000485 pgn  <L>
+017513 pui  <L>
+135788 pw   <L>
+122736 pwg  <L>
+029114 sch  <L>
+047312 shs  <L>
+042531 skd  <L>
+000453 snp  <L>
+024574 stc  <L>
+050134 vcp  <L>
+003834 vei  <L>
+044578 wil  <L>
+045206 yat  <L>
+000008 ap90 <P>
+000002 krm  <Poem>
+000118 pe   <Poem>
+000003 pwg  <VN>
+000001 bur  <ab n>
+015364 mw   <ab n>
+000009 pw   <ab n>
+000107 pwg  <ab n>
+002539 mw   <ab slp1>
+053734 bur  <ab>
+025562 cae  <ab>
+182812 mw   <ab>
+071390 pw   <ab>
+000001 pwg  <ab>
+001592 acc  <alt>
+000436 ap90 <alt>
+000001 cae  <alt>
+000335 skd  <alt>
+001764 vcp  <alt>
+032371 ae   <b>
+072909 ap90 <b>
+041553 ben  <b>
+033924 bhs  <b>
+025041 bor  <b>
+000104 bur  <b>
+024302 gra  <b>
+054063 inm  <b>
+002068 krm  <b>
+006386 mci  <b>
+047778 md   <b>
+025159 stc  <b>
+009084 vei  <b>
+000501 mw   <bio>
+049822 acc  <body>
+011360 ae   <body>
+032187 ap90 <body>
+017313 ben  <body>
+017836 bhs  <body>
+008960 bop  <body>
+024608 bor  <body>
+019775 bur  <body>
+040069 cae  <body>
+030011 ccs  <body>
+010785 gra  <body>
+006780 gst  <body>
+007907 ieg  <body>
+012655 inm  <body>
+002061 krm  <body>
+002643 mci  <body>
+020749 md   <body>
+287431 mw   <body>
+055388 mw72 <body>
+032378 mwe  <body>
+008799 pe   <body>
+000485 pgn  <body>
+017513 pui  <body>
+135788 pw   <body>
+122736 pwg  <body>
+029114 sch  <body>
+047312 shs  <body>
+042531 skd  <body>
+000453 snp  <body>
+024574 stc  <body>
+050134 vcp  <body>
+003834 vei  <body>
+044578 wil  <body>
+045206 yat  <body>
+009265 mw   <bot>
+007957 pw   <bot>
+002274 snp  <bot>
+036696 acc  <br>
+024749 yat  <br>
+027206 bor  <div n="1">
+078363 pw   <div n="1">
+064368 pwg  <div n="1">
+056105 shs  <div n="1">
+044744 wil  <div n="1">
+031678 acc  <div n="2">
+018594 bur  <div n="2">
+038170 pw   <div n="2">
+023976 pwg  <div n="2">
+050670 shs  <div n="2">
+000054 wil  <div n="2">
+005418 acc  <div n="3">
+002121 bur  <div n="3">
+003871 pw   <div n="3">
+001498 pwg  <div n="3">
+000002 pw   <div n="4">
+038395 shs  <div n="E">
+039701 wil  <div n="E">
+009292 krm  <div n="F">
+000005 skd  <div n="F">
+004405 gra  <div n="H">
+000015 vcp  <div n="H">
+000022 inm  <div n="HI">
+000012 pgn  <div n="HI">
+000003 snp  <div n="HI">
+003361 vcp  <div n="HI">
+016020 bor  <div n="I">
+001873 krm  <div n="NI">
+010515 pe   <div n="NI">
+000020 acc  <div n="P">
+014889 bur  <div n="P">
+000982 gra  <div n="P">
+001139 gst  <div n="P">
+001016 ieg  <div n="P">
+001658 inm  <div n="P">
+000277 krm  <div n="P">
+001879 mci  <div n="P">
+000064 mw72 <div n="P">
+000008 pe   <div n="P">
+000570 pgn  <div n="P">
+015320 pui  <div n="P">
+001739 snp  <div n="P">
+022092 stc  <div n="P">
+002387 vcp  <div n="P">
+001321 vei  <div n="P">
+034442 gra  <div n="P1">
+000071 vcp  <div n="Picture">
+000010 shs  <div n="Poem">
+042839 ae   <div n="lb">
+075233 ben  <div n="lb">
+069874 bhs  <div n="lb">
+018500 bop  <div n="lb">
+066228 bor  <div n="lb">
+027883 gst  <div n="lb">
+008618 ieg  <div n="lb">
+084332 inm  <div n="lb">
+024135 krm  <div n="lb">
+067357 mci  <div n="lb">
+216137 mw72 <div n="lb">
+088481 mwe  <div n="lb">
+096209 pe   <div n="lb">
+005717 pgn  <div n="lb">
+023758 pui  <div n="lb">
+002119 snp  <div n="lb">
+035317 vei  <div n="lb">
+000001 wil  <div n="lex">
+002636 pw   <div n="m">
+000019 pw   <div n="o">
+003190 cae  <div n="p">
+000004 mw   <div n="p">
+007942 pw   <div n="p">
+009227 pwg  <div n="p">
+001902 bop  <div n="pfx">
+012416 mw   <div n="to">
+014624 pwg  <div n="v">
+002815 mw   <div n="vp">
+013894 bor  <div n="xe">
+013894 bor  <div n="xs">
+002217 sch  <div>
+000031 vcp  <edit type="hw">
+002654 mw   <etym>
+000001 yat  <g>
+049822 acc  <h>
+011360 ae   <h>
+032187 ap90 <h>
+017313 ben  <h>
+017836 bhs  <h>
+008960 bop  <h>
+024608 bor  <h>
+019775 bur  <h>
+040069 cae  <h>
+030011 ccs  <h>
+010785 gra  <h>
+006780 gst  <h>
+007907 ieg  <h>
+012655 inm  <h>
+002061 krm  <h>
+002643 mci  <h>
+020749 md   <h>
+287431 mw   <h>
+055388 mw72 <h>
+032378 mwe  <h>
+008799 pe   <h>
+000485 pgn  <h>
+017513 pui  <h>
+135788 pw   <h>
+122736 pwg  <h>
+029114 sch  <h>
+047312 shs  <h>
+042531 skd  <h>
+000453 snp  <h>
+024574 stc  <h>
+050134 vcp  <h>
+003834 vei  <h>
+044578 wil  <h>
+045206 yat  <h>
+000491 sch  <hom n="pwk">
+000039 ap90 <hom>
+000096 bhs  <hom>
+000793 bop  <hom>
+002560 cae  <hom>
+001796 ccs  <hom>
+000361 gra  <hom>
+000025 gst  <hom>
+004295 inm  <hom>
+000319 mci  <hom>
+000920 md   <hom>
+036234 mw   <hom>
+003657 mw72 <hom>
+002909 pe   <hom>
+007338 pui  <hom>
+007099 pw   <hom>
+006431 pwg  <hom>
+001149 stc  <hom>
+000314 vei  <hom>
+001592 acc  <hwtype n="alt">
+000436 ap90 <hwtype n="alt">
+000001 cae  <hwtype n="alt">
+000335 skd  <hwtype n="alt">
+001764 vcp  <hwtype n="alt">
+001592 acc  <hwtype ref>
+000436 ap90 <hwtype ref>
+000001 cae  <hwtype ref>
+000335 skd  <hwtype ref>
+001764 vcp  <hwtype ref>
+001592 acc  <hwtype>
+000436 ap90 <hwtype>
+000001 cae  <hwtype>
+000335 skd  <hwtype>
+001764 vcp  <hwtype>
+001373 acc  <i>
+034079 ae   <i>
+031762 ap90 <i>
+061770 ben  <i>
+030934 bhs  <i>
+024019 bop  <i>
+023611 bor  <i>
+072252 bur  <i>
+042109 ccs  <i>
+023906 gra  <i>
+006829 gst  <i>
+020789 ieg  <i>
+077817 inm  <i>
+000002 krm  <i>
+031657 mci  <i>
+109597 md   <i>
+000140 mw   <i>
+238309 mw72 <i>
+063539 mwe  <i>
+003435 pe   <i>
+001299 pgn  <i>
+023359 pui  <i>
+194806 pw   <i>
+200143 pwg  <i>
+011808 sch  <i>
+000007 shs  <i>
+001227 snp  <i>
+045268 stc  <i>
+016889 vei  <i>
+010874 wil  <i>
+056193 yat  <i>
+001473 mw   <info and>
+010384 mw   <info cp>
+263601 mw   <info lex>
+000374 mw   <info lexcat>
+006597 mw   <info n>
+029114 sch  <info n>
+005972 mw   <info or>
+000084 mw   <info orsl>
+007016 mw   <info parse>
+001096 sch  <info part>
+002371 mw   <info phwchild>
+002363 mw   <info phwparent>
+029114 sch  <info seq>
+000809 mw   <info verb="gati">
+000747 mw   <info verb="genuineroot">
+001216 mw   <info verb="nom">
+006207 mw   <info verb="pre">
+001405 mw   <info verb="root">
+001361 mw   <info westergaard>
+000813 mw   <info whitneyroots>
+017400 mw   <info>
+030210 sch  <info>
+000150 pw   <is n="1">
+031604 pw   <is>
+054175 pwg  <is>
+049822 acc  <key1>
+011360 ae   <key1>
+032187 ap90 <key1>
+017313 ben  <key1>
+017836 bhs  <key1>
+008960 bop  <key1>
+024608 bor  <key1>
+019775 bur  <key1>
+040069 cae  <key1>
+030011 ccs  <key1>
+010785 gra  <key1>
+006780 gst  <key1>
+007907 ieg  <key1>
+012655 inm  <key1>
+002061 krm  <key1>
+002643 mci  <key1>
+020749 md   <key1>
+287431 mw   <key1>
+055388 mw72 <key1>
+032378 mwe  <key1>
+008799 pe   <key1>
+000485 pgn  <key1>
+017513 pui  <key1>
+135788 pw   <key1>
+122736 pwg  <key1>
+029114 sch  <key1>
+047312 shs  <key1>
+042531 skd  <key1>
+000453 snp  <key1>
+024574 stc  <key1>
+050134 vcp  <key1>
+003834 vei  <key1>
+044578 wil  <key1>
+045206 yat  <key1>
+049822 acc  <key2>
+011360 ae   <key2>
+032187 ap90 <key2>
+017313 ben  <key2>
+017836 bhs  <key2>
+008960 bop  <key2>
+024608 bor  <key2>
+019775 bur  <key2>
+040069 cae  <key2>
+030011 ccs  <key2>
+010785 gra  <key2>
+006780 gst  <key2>
+007907 ieg  <key2>
+012655 inm  <key2>
+002061 krm  <key2>
+002643 mci  <key2>
+020749 md   <key2>
+287431 mw   <key2>
+055388 mw72 <key2>
+032378 mwe  <key2>
+008799 pe   <key2>
+000485 pgn  <key2>
+017513 pui  <key2>
+135788 pw   <key2>
+122736 pwg  <key2>
+029114 sch  <key2>
+047312 shs  <key2>
+042531 skd  <key2>
+000453 snp  <key2>
+024574 stc  <key2>
+050134 vcp  <key2>
+003834 vei  <key2>
+044578 wil  <key2>
+045206 yat  <key2>
+000053 mw   <lang n="Arabic">
+000001 pwg  <lang n="Greek">
+000003 mw   <lang n="Hindustani">
+000058 pwg  <lang n="Old-Church-Slavonic">
+000039 mw   <lang n="Persian">
+000023 pwg  <lang n="Russian">
+000005 mw   <lang n="Turkish">
+000066 mw72 <lang n="arabic">
+000048 pw   <lang n="arabic">
+000117 pwg  <lang n="arabic">
+000004 wil  <lang n="arabic">
+001490 ben  <lang n="greek">
+000003 bhs  <lang n="greek">
+001701 bop  <lang n="greek">
+000677 bur  <lang n="greek">
+000003 cae  <lang n="greek">
+000229 gra  <lang n="greek">
+000013 gst  <lang n="greek">
+010778 inm  <lang n="greek">
+000008 md   <lang n="greek">
+001157 mw   <lang n="greek">
+001665 mw72 <lang n="greek">
+000186 pw   <lang n="greek">
+000397 pwg  <lang n="greek">
+000001 snp  <lang n="greek">
+000001 stc  <lang n="greek">
+000147 vei  <lang n="greek">
+000023 wil  <lang n="greek">
+000011 mw72 <lang n="meter">
+000003 pwg  <lang n="oldhebrew">
+000001 pw   <lang n="russian">
+000001 mw72 <lang n="slavic">
+000100 mw   <lang script="Arabic">
+000100 mw   <lang>
+167704 ap90 <lb>
+061456 md   <lb>
+053006 shs  <lb>
+447531 skd  <lb>
+367276 vcp  <lb>
+009895 bur  <lbinfo n>
+004247 ccs  <lbinfo n>
+018257 gra  <lbinfo n>
+012339 md   <lbinfo n>
+007649 stc  <lbinfo n>
+001451 mw   <lex type="hw">
+000857 mw   <lex type="hwalt">
+000884 mw   <lex type="hwifc">
+000456 mw   <lex type="hwinfo">
+000680 mw   <lex type="nhw">
+000100 mw   <lex type="part">
+002369 mw   <lex type="phw">
+044925 cae  <lex>
+197421 mw   <lex>
+163624 pw   <lex>
+124438 pwg  <lex>
+071843 pw   <ls n>
+561586 pwg  <ls n>
+000526 bor  <ls>
+319085 mw   <ls>
+006871 pw   <ls>
+073608 pwg  <ls>
+000109 skd  <mark n="H">
+001133 skd  <mark n="P">
+000005 skd  <mark n="Picture">
+000726 krm  <note n="1">
+002504 mw   <ns>
+005728 mw72 <nsi>
+000749 mw   <pb n>
+049822 acc  <pc>
+011360 ae   <pc>
+032187 ap90 <pc>
+017313 ben  <pc>
+017836 bhs  <pc>
+008960 bop  <pc>
+024608 bor  <pc>
+019775 bur  <pc>
+040069 cae  <pc>
+030011 ccs  <pc>
+010785 gra  <pc>
+006780 gst  <pc>
+007907 ieg  <pc>
+012655 inm  <pc>
+002061 krm  <pc>
+002643 mci  <pc>
+020749 md   <pc>
+287431 mw   <pc>
+055388 mw72 <pc>
+032378 mwe  <pc>
+008799 pe   <pc>
+000485 pgn  <pc>
+017513 pui  <pc>
+135788 pw   <pc>
+122736 pwg  <pc>
+029114 sch  <pc>
+047312 shs  <pc>
+042531 skd  <pc>
+000453 snp  <pc>
+024574 stc  <pc>
+050134 vcp  <pc>
+003834 vei  <pc>
+044578 wil  <pc>
+045206 yat  <pc>
+001558 mw   <pcol>
+000001 ben  <pic name>
+005571 bur  <s1 slp1>
+053035 mw   <s1 slp1>
+056786 acc  <s>
+088778 ae   <s>
+110124 ap90 <s>
+022200 ben  <s>
+043413 bop  <s>
+089396 bor  <s>
+019855 bur  <s>
+058888 cae  <s>
+047551 ccs  <s>
+049791 gst  <s>
+073694 krm  <s>
+000002 mci  <s>
+021176 md   <s>
+351452 mw   <s>
+025857 mw72 <s>
+157757 mwe  <s>
+000025 pe   <s>
+000001 pgn  <s>
+000003 pui  <s>
+236806 pw   <s>
+575041 pwg  <s>
+209001 shs  <s>
+534889 skd  <s>
+586430 vcp  <s>
+200979 wil  <s>
+092810 yat  <s>
+000234 mw   <shortlong>
+000028 pw   <sic>
+037257 mw   <srs>
+000059 bop  <sup>
+004494 gst  <sup>
+006950 inm  <sup>
+009292 krm  <sup>
+000497 mci  <sup>
+001924 pgn  <sup>
+008890 pui  <sup>
+000271 stc  <sup>
+011133 vei  <sup>
+012375 acc  <symbol n>
+000001 wil  <symbol n>
+049822 acc  <tail>
+011360 ae   <tail>
+032187 ap90 <tail>
+017313 ben  <tail>
+017836 bhs  <tail>
+008960 bop  <tail>
+024608 bor  <tail>
+019775 bur  <tail>
+040069 cae  <tail>
+030011 ccs  <tail>
+010785 gra  <tail>
+006780 gst  <tail>
+007907 ieg  <tail>
+012655 inm  <tail>
+002061 krm  <tail>
+002643 mci  <tail>
+020749 md   <tail>
+287431 mw   <tail>
+055388 mw72 <tail>
+032378 mwe  <tail>
+008799 pe   <tail>
+000485 pgn  <tail>
+017513 pui  <tail>
+135788 pw   <tail>
+122736 pwg  <tail>
+029114 sch  <tail>
+047312 shs  <tail>
+042531 skd  <tail>
+000453 snp  <tail>
+024574 stc  <tail>
+050134 vcp  <tail>
+003834 vei  <tail>
+044578 wil  <tail>
+045206 yat  <tail>
+011247 sch  <type>
+001091 cae  <vlex type="root">

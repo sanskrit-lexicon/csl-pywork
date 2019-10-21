@@ -1,0 +1,661 @@
+000033 acc  <F>
+049822 acc  <H1>
+000049 acc  <H>
+049822 acc  <L>
+001592 acc  <alt>
+049822 acc  <body>
+036696 acc  <br>
+031678 acc  <div n="2">
+005418 acc  <div n="3">
+000020 acc  <div n="P">
+049822 acc  <h>
+001592 acc  <hwtype n="alt">
+001592 acc  <hwtype ref>
+001592 acc  <hwtype>
+001373 acc  <i>
+049822 acc  <key1>
+049822 acc  <key2>
+049822 acc  <pc>
+056786 acc  <s>
+012375 acc  <symbol n>
+049822 acc  <tail>
+011360 ae   <H1>
+011360 ae   <L>
+032371 ae   <b>
+011360 ae   <body>
+042839 ae   <div n="lb">
+011360 ae   <h>
+034079 ae   <i>
+011360 ae   <key1>
+011360 ae   <key2>
+011360 ae   <pc>
+088778 ae   <s>
+011360 ae   <tail>
+032187 ap90 <H1>
+032187 ap90 <L>
+000008 ap90 <P>
+000436 ap90 <alt>
+072909 ap90 <b>
+032187 ap90 <body>
+032187 ap90 <h>
+000039 ap90 <hom>
+000436 ap90 <hwtype n="alt">
+000436 ap90 <hwtype ref>
+000436 ap90 <hwtype>
+031762 ap90 <i>
+032187 ap90 <key1>
+032187 ap90 <key2>
+167704 ap90 <lb>
+032187 ap90 <pc>
+110124 ap90 <s>
+032187 ap90 <tail>
+017313 ben  <H1>
+017313 ben  <L>
+041553 ben  <b>
+017313 ben  <body>
+075233 ben  <div n="lb">
+017313 ben  <h>
+061770 ben  <i>
+017313 ben  <key1>
+017313 ben  <key2>
+001490 ben  <lang n="greek">
+017313 ben  <pc>
+000001 ben  <pic name>
+022200 ben  <s>
+017313 ben  <tail>
+017836 bhs  <H1>
+017836 bhs  <L>
+033924 bhs  <b>
+017836 bhs  <body>
+069874 bhs  <div n="lb">
+017836 bhs  <h>
+000096 bhs  <hom>
+030934 bhs  <i>
+017836 bhs  <key1>
+017836 bhs  <key2>
+000003 bhs  <lang n="greek">
+017836 bhs  <pc>
+017836 bhs  <tail>
+000059 bop  <F>
+008960 bop  <H1>
+008960 bop  <L>
+008960 bop  <body>
+018500 bop  <div n="lb">
+001902 bop  <div n="pfx">
+008960 bop  <h>
+000793 bop  <hom>
+024019 bop  <i>
+008960 bop  <key1>
+008960 bop  <key2>
+001701 bop  <lang n="greek">
+008960 bop  <pc>
+043413 bop  <s>
+000059 bop  <sup>
+008960 bop  <tail>
+024608 bor  <H1>
+024608 bor  <L>
+025041 bor  <b>
+024608 bor  <body>
+027206 bor  <div n="1">
+016020 bor  <div n="I">
+066228 bor  <div n="lb">
+013894 bor  <div n="xe">
+013894 bor  <div n="xs">
+024608 bor  <h>
+023611 bor  <i>
+024608 bor  <key1>
+024608 bor  <key2>
+000526 bor  <ls>
+024608 bor  <pc>
+089396 bor  <s>
+024608 bor  <tail>
+019775 bur  <H1>
+019775 bur  <L>
+000001 bur  <ab n>
+053734 bur  <ab>
+000104 bur  <b>
+019775 bur  <body>
+018594 bur  <div n="2">
+002121 bur  <div n="3">
+014889 bur  <div n="P">
+019775 bur  <h>
+072252 bur  <i>
+019775 bur  <key1>
+019775 bur  <key2>
+000677 bur  <lang n="greek">
+009895 bur  <lbinfo n>
+019775 bur  <pc>
+005571 bur  <s1 slp1>
+019855 bur  <s>
+019775 bur  <tail>
+040069 cae  <H1>
+040069 cae  <L>
+025562 cae  <ab>
+000001 cae  <alt>
+040069 cae  <body>
+003190 cae  <div n="p">
+040069 cae  <h>
+002560 cae  <hom>
+000001 cae  <hwtype n="alt">
+000001 cae  <hwtype ref>
+000001 cae  <hwtype>
+040069 cae  <key1>
+040069 cae  <key2>
+000003 cae  <lang n="greek">
+044925 cae  <lex>
+040069 cae  <pc>
+058888 cae  <s>
+040069 cae  <tail>
+001091 cae  <vlex type="root">
+030011 ccs  <H1>
+030011 ccs  <L>
+030011 ccs  <body>
+030011 ccs  <h>
+001796 ccs  <hom>
+042109 ccs  <i>
+030011 ccs  <key1>
+030011 ccs  <key2>
+004247 ccs  <lbinfo n>
+030011 ccs  <pc>
+047551 ccs  <s>
+030011 ccs  <tail>
+000001 gra  <F>
+010785 gra  <H1>
+010785 gra  <L>
+024302 gra  <b>
+010785 gra  <body>
+004405 gra  <div n="H">
+000982 gra  <div n="P">
+034442 gra  <div n="P1">
+010785 gra  <h>
+000361 gra  <hom>
+023906 gra  <i>
+010785 gra  <key1>
+010785 gra  <key2>
+000229 gra  <lang n="greek">
+018257 gra  <lbinfo n>
+010785 gra  <pc>
+010785 gra  <tail>
+006780 gst  <H1>
+006780 gst  <L>
+006780 gst  <body>
+001139 gst  <div n="P">
+027883 gst  <div n="lb">
+006780 gst  <h>
+000025 gst  <hom>
+006829 gst  <i>
+006780 gst  <key1>
+006780 gst  <key2>
+000013 gst  <lang n="greek">
+006780 gst  <pc>
+049791 gst  <s>
+004494 gst  <sup>
+006780 gst  <tail>
+007907 ieg  <H1>
+007907 ieg  <L>
+007907 ieg  <body>
+001016 ieg  <div n="P">
+008618 ieg  <div n="lb">
+007907 ieg  <h>
+020789 ieg  <i>
+007907 ieg  <key1>
+007907 ieg  <key2>
+007907 ieg  <pc>
+007907 ieg  <tail>
+000195 inm  <C n="1">
+000114 inm  <C n="2">
+000065 inm  <C n="3">
+000056 inm  <C n="4">
+000023 inm  <C n="5">
+000018 inm  <C n="6">
+000025 inm  <F>
+012655 inm  <H1>
+012655 inm  <L>
+054063 inm  <b>
+012655 inm  <body>
+000022 inm  <div n="HI">
+001658 inm  <div n="P">
+084332 inm  <div n="lb">
+012655 inm  <h>
+004295 inm  <hom>
+077817 inm  <i>
+012655 inm  <key1>
+012655 inm  <key2>
+010778 inm  <lang n="greek">
+012655 inm  <pc>
+006950 inm  <sup>
+012655 inm  <tail>
+002061 krm  <H1>
+002061 krm  <L>
+000002 krm  <Poem>
+002068 krm  <b>
+002061 krm  <body>
+009292 krm  <div n="F">
+001873 krm  <div n="NI">
+000277 krm  <div n="P">
+024135 krm  <div n="lb">
+002061 krm  <h>
+000002 krm  <i>
+002061 krm  <key1>
+002061 krm  <key2>
+000726 krm  <note n="1">
+002061 krm  <pc>
+073694 krm  <s>
+009292 krm  <sup>
+002061 krm  <tail>
+002643 mci  <H1>
+002643 mci  <L>
+006386 mci  <b>
+002643 mci  <body>
+001879 mci  <div n="P">
+067357 mci  <div n="lb">
+002643 mci  <h>
+000319 mci  <hom>
+031657 mci  <i>
+002643 mci  <key1>
+002643 mci  <key2>
+002643 mci  <pc>
+000002 mci  <s>
+000497 mci  <sup>
+002643 mci  <tail>
+020749 md   <H1>
+020749 md   <L>
+047778 md   <b>
+020749 md   <body>
+020749 md   <h>
+000920 md   <hom>
+109597 md   <i>
+020749 md   <key1>
+020749 md   <key2>
+000008 md   <lang n="greek">
+061456 md   <lb>
+012339 md   <lbinfo n>
+020749 md   <pc>
+021176 md   <s>
+020749 md   <tail>
+031834 mw   <H1>
+009468 mw   <H1A>
+009767 mw   <H1B>
+000633 mw   <H1C>
+000550 mw   <H1E>
+032466 mw   <H2>
+021752 mw   <H2A>
+017599 mw   <H2B>
+000545 mw   <H2C>
+000198 mw   <H2E>
+112130 mw   <H3>
+016893 mw   <H3A>
+015057 mw   <H3B>
+000788 mw   <H3C>
+000019 mw   <H3E>
+017106 mw   <H4>
+000378 mw   <H4A>
+000232 mw   <H4B>
+000015 mw   <H4C>
+000001 mw   <H4E>
+287431 mw   <L>
+015364 mw   <ab n>
+002539 mw   <ab slp1>
+182812 mw   <ab>
+000501 mw   <bio>
+287431 mw   <body>
+009265 mw   <bot>
+000004 mw   <div n="p">
+012416 mw   <div n="to">
+002815 mw   <div n="vp">
+002654 mw   <etym>
+287431 mw   <h>
+036234 mw   <hom>
+000140 mw   <i>
+001473 mw   <info and>
+010384 mw   <info cp>
+263601 mw   <info lex>
+000374 mw   <info lexcat>
+006597 mw   <info n>
+005972 mw   <info or>
+000084 mw   <info orsl>
+007016 mw   <info parse>
+002371 mw   <info phwchild>
+002363 mw   <info phwparent>
+000809 mw   <info verb="gati">
+000747 mw   <info verb="genuineroot">
+001216 mw   <info verb="nom">
+006207 mw   <info verb="pre">
+001405 mw   <info verb="root">
+001361 mw   <info westergaard>
+000813 mw   <info whitneyroots>
+017400 mw   <info>
+287431 mw   <key1>
+287431 mw   <key2>
+000053 mw   <lang n="Arabic">
+000003 mw   <lang n="Hindustani">
+000039 mw   <lang n="Persian">
+000005 mw   <lang n="Turkish">
+001157 mw   <lang n="greek">
+000100 mw   <lang script="Arabic">
+000100 mw   <lang>
+001451 mw   <lex type="hw">
+000857 mw   <lex type="hwalt">
+000884 mw   <lex type="hwifc">
+000456 mw   <lex type="hwinfo">
+000680 mw   <lex type="nhw">
+000100 mw   <lex type="part">
+002369 mw   <lex type="phw">
+197421 mw   <lex>
+319085 mw   <ls>
+002504 mw   <ns>
+000749 mw   <pb n>
+287431 mw   <pc>
+001558 mw   <pcol>
+053035 mw   <s1 slp1>
+351452 mw   <s>
+000234 mw   <shortlong>
+037257 mw   <srs>
+287431 mw   <tail>
+055388 mw72 <H1>
+055388 mw72 <L>
+055388 mw72 <body>
+000064 mw72 <div n="P">
+216137 mw72 <div n="lb">
+055388 mw72 <h>
+003657 mw72 <hom>
+238309 mw72 <i>
+055388 mw72 <key1>
+055388 mw72 <key2>
+000066 mw72 <lang n="arabic">
+001665 mw72 <lang n="greek">
+000011 mw72 <lang n="meter">
+000001 mw72 <lang n="slavic">
+005728 mw72 <nsi>
+055388 mw72 <pc>
+025857 mw72 <s>
+055388 mw72 <tail>
+032378 mwe  <H1>
+032378 mwe  <L>
+032378 mwe  <body>
+088481 mwe  <div n="lb">
+032378 mwe  <h>
+063539 mwe  <i>
+032378 mwe  <key1>
+032378 mwe  <key2>
+032378 mwe  <pc>
+157757 mwe  <s>
+032378 mwe  <tail>
+000268 pe   <C n="1">
+000262 pe   <C n="2">
+000065 pe   <C n="3">
+000014 pe   <C n="4">
+000011 pe   <C n="5">
+000101 pe   <F>
+008799 pe   <H1>
+008799 pe   <L>
+000118 pe   <Poem>
+008799 pe   <body>
+010515 pe   <div n="NI">
+000008 pe   <div n="P">
+096209 pe   <div n="lb">
+008799 pe   <h>
+002909 pe   <hom>
+003435 pe   <i>
+008799 pe   <key1>
+008799 pe   <key2>
+008799 pe   <pc>
+000025 pe   <s>
+008799 pe   <tail>
+000485 pgn  <H1>
+000485 pgn  <L>
+000485 pgn  <body>
+000012 pgn  <div n="HI">
+000570 pgn  <div n="P">
+005717 pgn  <div n="lb">
+000485 pgn  <h>
+001299 pgn  <i>
+000485 pgn  <key1>
+000485 pgn  <key2>
+000485 pgn  <pc>
+000001 pgn  <s>
+001924 pgn  <sup>
+000485 pgn  <tail>
+008890 pui  <F>
+017513 pui  <H1>
+017513 pui  <L>
+017513 pui  <body>
+015320 pui  <div n="P">
+023758 pui  <div n="lb">
+017513 pui  <h>
+007338 pui  <hom>
+023359 pui  <i>
+017513 pui  <key1>
+017513 pui  <key2>
+017513 pui  <pc>
+000003 pui  <s>
+008890 pui  <sup>
+017513 pui  <tail>
+135788 pw   <H1>
+135788 pw   <L>
+000009 pw   <ab n>
+071390 pw   <ab>
+135788 pw   <body>
+007957 pw   <bot>
+078363 pw   <div n="1">
+038170 pw   <div n="2">
+003871 pw   <div n="3">
+000002 pw   <div n="4">
+002636 pw   <div n="m">
+000019 pw   <div n="o">
+007942 pw   <div n="p">
+135788 pw   <h>
+007099 pw   <hom>
+194806 pw   <i>
+000150 pw   <is n="1">
+031604 pw   <is>
+135788 pw   <key1>
+135788 pw   <key2>
+000048 pw   <lang n="arabic">
+000186 pw   <lang n="greek">
+000001 pw   <lang n="russian">
+163624 pw   <lex>
+071843 pw   <ls n>
+006871 pw   <ls>
+135788 pw   <pc>
+236806 pw   <s>
+000028 pw   <sic>
+135788 pw   <tail>
+000038 pwg  <F>
+122736 pwg  <H1>
+122736 pwg  <L>
+000003 pwg  <VN>
+000107 pwg  <ab n>
+000001 pwg  <ab>
+122736 pwg  <body>
+064368 pwg  <div n="1">
+023976 pwg  <div n="2">
+001498 pwg  <div n="3">
+009227 pwg  <div n="p">
+014624 pwg  <div n="v">
+122736 pwg  <h>
+006431 pwg  <hom>
+200143 pwg  <i>
+054175 pwg  <is>
+122736 pwg  <key1>
+122736 pwg  <key2>
+000001 pwg  <lang n="Greek">
+000058 pwg  <lang n="Old-Church-Slavonic">
+000023 pwg  <lang n="Russian">
+000117 pwg  <lang n="arabic">
+000397 pwg  <lang n="greek">
+000003 pwg  <lang n="oldhebrew">
+124438 pwg  <lex>
+561586 pwg  <ls n>
+073608 pwg  <ls>
+122736 pwg  <pc>
+575041 pwg  <s>
+122736 pwg  <tail>
+029114 sch  <H1>
+029114 sch  <L>
+029114 sch  <body>
+002217 sch  <div>
+029114 sch  <h>
+000491 sch  <hom n="pwk">
+011808 sch  <i>
+029114 sch  <info n>
+001096 sch  <info part>
+029114 sch  <info seq>
+030210 sch  <info>
+029114 sch  <key1>
+029114 sch  <key2>
+029114 sch  <pc>
+029114 sch  <tail>
+011247 sch  <type>
+047312 shs  <H1>
+047312 shs  <L>
+047312 shs  <body>
+056105 shs  <div n="1">
+050670 shs  <div n="2">
+038395 shs  <div n="E">
+000010 shs  <div n="Poem">
+047312 shs  <h>
+000007 shs  <i>
+047312 shs  <key1>
+047312 shs  <key2>
+053006 shs  <lb>
+047312 shs  <pc>
+209001 shs  <s>
+047312 shs  <tail>
+000921 skd  <C n="1">
+000024 skd  <C n="10">
+000012 skd  <C n="11">
+000926 skd  <C n="2">
+000824 skd  <C n="3">
+000825 skd  <C n="4">
+000789 skd  <C n="5">
+000055 skd  <C n="6">
+000046 skd  <C n="7">
+000046 skd  <C n="8">
+000042 skd  <C n="9">
+042531 skd  <H1>
+042531 skd  <L>
+000335 skd  <alt>
+042531 skd  <body>
+000005 skd  <div n="F">
+042531 skd  <h>
+000335 skd  <hwtype n="alt">
+000335 skd  <hwtype ref>
+000335 skd  <hwtype>
+042531 skd  <key1>
+042531 skd  <key2>
+447531 skd  <lb>
+000109 skd  <mark n="H">
+001133 skd  <mark n="P">
+000005 skd  <mark n="Picture">
+042531 skd  <pc>
+534889 skd  <s>
+042531 skd  <tail>
+000453 snp  <H1>
+000453 snp  <L>
+000453 snp  <body>
+002274 snp  <bot>
+000003 snp  <div n="HI">
+001739 snp  <div n="P">
+002119 snp  <div n="lb">
+000453 snp  <h>
+001227 snp  <i>
+000453 snp  <key1>
+000453 snp  <key2>
+000001 snp  <lang n="greek">
+000453 snp  <pc>
+000453 snp  <tail>
+024574 stc  <H1>
+024574 stc  <L>
+025159 stc  <b>
+024574 stc  <body>
+022092 stc  <div n="P">
+024574 stc  <h>
+001149 stc  <hom>
+045268 stc  <i>
+024574 stc  <key1>
+024574 stc  <key2>
+000001 stc  <lang n="greek">
+007649 stc  <lbinfo n>
+024574 stc  <pc>
+000271 stc  <sup>
+024574 stc  <tail>
+000070 vcp  <C n="1">
+000004 vcp  <C n="10">
+000004 vcp  <C n="11">
+000004 vcp  <C n="12">
+000070 vcp  <C n="2">
+000070 vcp  <C n="3">
+000070 vcp  <C n="4">
+000068 vcp  <C n="5">
+000066 vcp  <C n="6">
+000004 vcp  <C n="7">
+000004 vcp  <C n="8">
+000004 vcp  <C n="9">
+050134 vcp  <H1>
+050134 vcp  <L>
+001764 vcp  <alt>
+050134 vcp  <body>
+000015 vcp  <div n="H">
+003361 vcp  <div n="HI">
+002387 vcp  <div n="P">
+000071 vcp  <div n="Picture">
+000031 vcp  <edit type="hw">
+050134 vcp  <h>
+001764 vcp  <hwtype n="alt">
+001764 vcp  <hwtype ref>
+001764 vcp  <hwtype>
+050134 vcp  <key1>
+050134 vcp  <key2>
+367276 vcp  <lb>
+050134 vcp  <pc>
+586430 vcp  <s>
+050134 vcp  <tail>
+000029 vei  <C n="1">
+000029 vei  <C n="2">
+000028 vei  <C n="3">
+011133 vei  <F>
+003834 vei  <H1>
+003834 vei  <L>
+009084 vei  <b>
+003834 vei  <body>
+001321 vei  <div n="P">
+035317 vei  <div n="lb">
+003834 vei  <h>
+000314 vei  <hom>
+016889 vei  <i>
+003834 vei  <key1>
+003834 vei  <key2>
+000147 vei  <lang n="greek">
+003834 vei  <pc>
+011133 vei  <sup>
+003834 vei  <tail>
+044578 wil  <H1>
+044578 wil  <L>
+044578 wil  <body>
+044744 wil  <div n="1">
+000054 wil  <div n="2">
+039701 wil  <div n="E">
+000001 wil  <div n="lex">
+044578 wil  <h>
+010874 wil  <i>
+044578 wil  <key1>
+044578 wil  <key2>
+000004 wil  <lang n="arabic">
+000023 wil  <lang n="greek">
+044578 wil  <pc>
+200979 wil  <s>
+000001 wil  <symbol n>
+044578 wil  <tail>
+045206 yat  <H1>
+045206 yat  <L>
+045206 yat  <body>
+024749 yat  <br>
+000001 yat  <g>
+045206 yat  <h>
+056193 yat  <i>
+045206 yat  <key1>
+045206 yat  <key2>
+045206 yat  <pc>
+092810 yat  <s>
+045206 yat  <tail>
