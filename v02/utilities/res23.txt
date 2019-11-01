@@ -362,8 +362,8 @@
 238309 mw72 <i>
 055388 mw72 <key1>
 055388 mw72 <key2>
-000066 mw72 <lang n="arabic">
-001665 mw72 <lang n="greek">
+000067 mw72 <lang n="arabic">
+001659 mw72 <lang n="greek">
 000011 mw72 <lang n="meter">
 000001 mw72 <lang n="slavic">
 005728 mw72 <nsi>
@@ -479,12 +479,11 @@
 054175 pwg  <is>
 122736 pwg  <key1>
 122736 pwg  <key2>
-000001 pwg  <lang n="Greek">
 000058 pwg  <lang n="Old-Church-Slavonic">
-000023 pwg  <lang n="Russian">
 000117 pwg  <lang n="arabic">
-000397 pwg  <lang n="greek">
+000398 pwg  <lang n="greek">
 000003 pwg  <lang n="oldhebrew">
+000023 pwg  <lang n="russian">
 124438 pwg  <lex>
 561586 pwg  <ls n>
 073608 pwg  <ls>
@@ -651,11 +650,11 @@
 045206 yat  <L>
 045206 yat  <body>
 024749 yat  <br>
-000001 yat  <g>
 045206 yat  <h>
 056193 yat  <i>
 045206 yat  <key1>
 045206 yat  <key2>
+000001 yat  <lang n="greek">
 045206 yat  <pc>
 092810 yat  <s>
 045206 yat  <tail>

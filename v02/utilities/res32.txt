@@ -284,7 +284,6 @@
 002217 sch  <div>
 000031 vcp  <edit type="hw">
 002654 mw   <etym>
-000001 yat  <g>
 049822 acc  <h>
 011360 ae   <h>
 032187 ap90 <h>
@@ -478,13 +477,11 @@
 044578 wil  <key2>
 045206 yat  <key2>
 000053 mw   <lang n="Arabic">
-000001 pwg  <lang n="Greek">
 000003 mw   <lang n="Hindustani">
 000058 pwg  <lang n="Old-Church-Slavonic">
 000039 mw   <lang n="Persian">
-000023 pwg  <lang n="Russian">
 000005 mw   <lang n="Turkish">
-000066 mw72 <lang n="arabic">
+000067 mw72 <lang n="arabic">
 000048 pw   <lang n="arabic">
 000117 pwg  <lang n="arabic">
 000004 wil  <lang n="arabic">
@@ -498,16 +495,18 @@
 010778 inm  <lang n="greek">
 000008 md   <lang n="greek">
 001157 mw   <lang n="greek">
-001665 mw72 <lang n="greek">
+001659 mw72 <lang n="greek">
 000186 pw   <lang n="greek">
-000397 pwg  <lang n="greek">
+000398 pwg  <lang n="greek">
 000001 snp  <lang n="greek">
 000001 stc  <lang n="greek">
 000147 vei  <lang n="greek">
 000023 wil  <lang n="greek">
+000001 yat  <lang n="greek">
 000011 mw72 <lang n="meter">
 000003 pwg  <lang n="oldhebrew">
 000001 pw   <lang n="russian">
+000023 pwg  <lang n="russian">
 000001 mw72 <lang n="slavic">
 000100 mw   <lang script="Arabic">
 000100 mw   <lang>
