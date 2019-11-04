@@ -40,7 +40,8 @@ def get_directories(paths):
  return dirs
 
 def makedirs(dirname,inventory):
- paths = ["%s/%s" % (dirname,filename) for (category,filename) in inventory]
+ paths = ["%s/%s" % (dirname,filename_new) for 
+          (category,filename_old,filename_new) in inventory]
  subdirs = get_directories(paths)
  #print('makedirs:',subdirs)
  for dirname in subdirs:
@@ -60,18 +61,6 @@ def copyfiles(filenames,olddir,newdir):
   copyfile(src,dst)
  #print(len(filenames),'copied from',olddir,'to',newdir)
 
-def previous_init_inventory(filein):
- # read inventory. all paths assumed relative
- ans = []
- with codecs.open(filein,"r","utf-8") as f:
-  for x in f:
-   if x.startswith(';'): # comment
-    continue 
-   x = x.rstrip('\r\n')
-   (filename,category) = x.split(':')
-   ans.append((category,filename))
- return ans
-
 def init_inventory_distinct(filein,dictcode):
  """
  # inventory. all paths assumed relative
@@ -89,6 +78,8 @@ def init_inventory_distinct(filein,dictcode):
      dictionaries pw and pwg
   3.  *:${dictlo}.dtd:C   means that xxx.dtd is in inventory for all dictionary
         codes xxx.
+  11-04-2019  the 2nd parameter (filename) can have an old and new name
+     space-delimited. e.g. *:${dictlo}.txt orig/${dictlo}.txt:CD
  """
  ans = []
  with codecs.open(filein,"r","utf-8") as f:
@@ -110,11 +101,17 @@ def init_inventory_distinct(filein,dictcode):
    filename_template = string.Template(filename_template_str)
    d = {'dictlo':dictcode}
    filename = filename_template.substitute(d)
-   ans.append((category,filename))
+   if ' ' in filename:
+    # allow 'filename' to contain 2 values: old new
+    filename_old,filename_new = re.split(' +',filename)
+   else:
+    filename_old = filename
+    filename_new = filename 
+   ans.append((category,filename_old,filename_new))
  if False:
   print('Generated inventory for',dictcode,'from input',filein)
-  for (cat,filename) in ans:
-   print(cat,filename)
+  for (cat,filename_old,filename_new) in ans:
+   print(cat,filename_old,filename_new)
  return ans
 
 def expand_template(x,dictparms):
@@ -167,13 +164,7 @@ if __name__=="__main__":
  # make newdir directory, and needed subdirectories
  makedirs(newdir,inventory)
  # copy
- for category,filename in inventory:
-  if ' ' in filename:
-   # allow 'filename' to contain 2 values: old new
-   filename_old,filename_new = re.split(' +',filename)
-  else:
-   filename_old = filename
-   filename_new = filename 
+ for category,filename_old,filename_new in inventory:
   if category == 'C':
    # just copy
    filename1 = "%s/%s" %(olddir,filename_old)

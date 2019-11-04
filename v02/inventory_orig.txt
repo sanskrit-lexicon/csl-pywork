@@ -1,2 +1,5 @@
 ; the xxx.txt  digitization, kept in orig directory
-*:orig/${dictlo}.txt:CD
+;   the source (old) file relative path is xxx.txt. The new is orig/xxx.txt
+*:${dictlo}.txt orig/${dictlo}.txt:CD
+; xxx_hwextra.txt  new path is pywork/hwextra/xxx_hwextra.txt
+*:${dictlo}_hwextra.txt pywork/hwextra/${dictlo}_hwextra.txt:CD
