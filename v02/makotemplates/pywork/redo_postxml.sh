@@ -1,4 +1,6 @@
 # 
+# 0. copy xxxheader.xml from pywork to web
+cp ${dictlo}header.xml ../web/
 # 1. Redo web/xxx.sqlite
 cd sqlite
 sh redo.sh
