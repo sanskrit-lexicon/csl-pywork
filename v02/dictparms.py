@@ -10,10 +10,6 @@ alldictparms = {
   "dictlo":"gra",
   "dictname":u"Grassman Wörterbuch zum Rig Veda",
   "dictversion":"02",
-  
-  # next is similar to webtc/dictinfo.php $english.
-  # current use (07-09-2018) in webtc1/listhierview for styling headwords
-  # in the list. This is handled by a dictionary code check in listhier.
  },
  "bur": {
   "dictup":"BUR",
