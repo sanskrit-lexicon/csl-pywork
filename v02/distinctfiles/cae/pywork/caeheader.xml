@@ -18,6 +18,11 @@
    </titleStmt>
    <editionStmt>
     <edition>xml version, <date when="2014-06-30">30 June 2014</date></edition>
+    <respStmt>
+     <resp>Greek data entry</resp>
+     <name>Jonathan Migliore</name>
+     <note>2017-2019</note>
+    </respStmt>
    </editionStmt>
    <extent>3.0 MB</extent>
    <publicationStmt>
