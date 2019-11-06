@@ -41,8 +41,9 @@ pw pwg:pywork/make_xml_ls.py:CD
 ; This xxx_hwextra.txt now generated from generate_orig.sh (11-04-2019)
 ;*:pywork/hwextra/${dictlo}_hwextra.txt:CD
 ;  not yet initialized in init_distinctfiles
-*:pywork/${dictlo}-meta2.txt:CD
-*:pywork/${dictlo}header.xml:CD
+; xxx-meta2.txt and xxxheader.xml now generated from generate_orig.sh (11-06-2019)
+;*:pywork/${dictlo}-meta2.txt:CD
+;*:pywork/${dictlo}header.xml:CD
 ; --------------------------------------------------------------
 ; -- abbreviations
 ; --------------------------------------------------------------

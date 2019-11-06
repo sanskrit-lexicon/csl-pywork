@@ -3,3 +3,6 @@
 *:${dictlo}.txt orig/${dictlo}.txt:CD
 ; xxx_hwextra.txt  new path is pywork/hwextra/xxx_hwextra.txt
 *:${dictlo}_hwextra.txt pywork/hwextra/${dictlo}_hwextra.txt:CD
+; 11-06-2019. get xxx-meta2.txt and xxxheader.xml from csl-orig/v02
+*:${dictlo}-meta2.txt pywork/${dictlo}-meta2.txt:CD
+*:${dictlo}header.xml pywork/${dictlo}header.xml:CD
