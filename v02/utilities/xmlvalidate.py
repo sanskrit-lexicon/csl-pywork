@@ -4,6 +4,7 @@
    Usage:
    python xmlvalidate.py <xmlfilename> <dtdfilename>
 """
+from __future__ import print_function
 from lxml import etree
 import sys
 
@@ -21,7 +22,7 @@ def validate(xmlfile,dtdfile):
 
 if __name__ == "__main__":
  if len(sys.argv) != 3:
-  print "Usage: python xmlvalidate.py <xmlfilename> <dtdfilename>"
+  print("Usage: python xmlvalidate.py <xmlfilename> <dtdfilename>")
   exit(1)
  xmlfile = sys.argv[1]
  dtdfile = sys.argv[2]

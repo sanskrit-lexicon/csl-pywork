@@ -1,6 +1,6 @@
 """ check_xml_tags.py (generic)
 """
-
+from __future__ import print_function
 import re,sys
 import codecs
 
@@ -22,7 +22,7 @@ def write_tags(d,fileout):
  with codecs.open(fileout,'w','utf-8') as f:
   for out in outarr:
    f.write(out + '\n')
- print len(keys),"lines written to",fileout
+ print(len(keys),"lines written to",fileout)
 
 #-----------------------------------------------------
 if __name__=="__main__":

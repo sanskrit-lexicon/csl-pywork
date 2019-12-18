@@ -2,6 +2,7 @@
 """ make_xml.py
  Reads/Writes utf-8
 """
+from __future__ import print_function
 import xml.etree.ElementTree as ET
 import sys, re,codecs
 from hwparse import init_hwrecs,HW
@@ -72,7 +73,7 @@ def dig_to_xml_specific(x):
  # There are a couple entries with an <H> element.
  # Just remove these lines
  if x.startswith('<H>'):
-  print "REMOVING <H> LINE",x.encode('utf-8')
+  print("REMOVING <H> LINE",x.encode('utf-8'))
   return ''
 %endif
 %if dictlo in ['vcp']:
@@ -92,7 +93,7 @@ def dig_to_xml_specific(x):
 %if dictlo in ['vcp']:
  if re.search(r'^<H>',x):
   x = re.sub(r'<H>','<div n="H">',x)  # 18 cases
-  print "Unexpected <H>:",x.encode('utf-8')
+  print("Unexpected <H>:",x.encode('utf-8'))
  x = re.sub(r'<Picture>','<div n="Picture">',x) # 71 cases
 %endif
  # markup like <C1>x1<C2>x2...  indicates tabular data in vcp.
@@ -167,7 +168,7 @@ def dig_to_xml_specific(x):
  # a period.  This was the convention used by Thomas to designate
  # divisions. This is the /{#-BaH#} type case
  if x.startswith('.'):
-  #print "extra div:",x.encode('utf-8')
+  #print("extra div:",x.encode('utf-8'))
   x = re.sub(r'^[.]','<div n="Q">',x)
  return x
 %endif # ap dictionary
@@ -191,7 +192,7 @@ def dig_to_xml_specific(x):
   # purpose of the <mark n="..."/> tag.
   x = re.sub(r'<H>','<mark n="H"/>',x)  
 
-  #print "Unexpected <H>:",x.encode('utf-8')
+  #print("Unexpected <H>:",x.encode('utf-8'))
  # text has <F>...</F> five cases
  # This is the only 'div' markup used.
  # We close the div HERE, and do NOT call close_divs function
@@ -306,7 +307,7 @@ def dig_to_xml_specific(x):
   x = '<div n="E">' + x[1:]
  elif re.search(r'^[.]',x):
   # unknown division
-  print "UNKNOWN DIVISION: ",x.encode('utf-8')
+  print("UNKNOWN DIVISION: ",x.encode('utf-8'))
   x =  " " + x
  else:
   # assume a simple continuation line
@@ -325,7 +326,7 @@ def dig_to_xml_specific(x):
  x = x.replace('<>','<lb/>')
  x = x.replace('<P>','<P/>')
  if '<H>' in x:  # this has been removed (20170701)
-  print "Skipping",x.encode('utf-8')
+  print("Skipping",x.encode('utf-8'))
   x = ''
  x = x.replace('<NI>','<P/>') # under kAlidAsa in Appendix II
  return x
@@ -337,7 +338,7 @@ def dig_to_xml_specific(x):
   x = re.sub(r'<P>','<div n="P">',x)
  elif re.search(r'^<H>',x):
   x = re.sub(r'<H>','<H/>',x)
-  print "Unexpected <H>:",x.encode('utf-8')
+  print("Unexpected <H>:",x.encode('utf-8'))
  # change '||' to a div, type = 2
  #  Also, remove the '||' -- aesthetic choice
  x = x.replace('||','<div n="2">')
@@ -582,7 +583,7 @@ def construct_xmlstring(datalines,hwrec):
   if i == 0:
    m = re.search(u'^(.*?¦)(.*)$' ,x)
    if not m:
-    print "xml_string ERROR at =",x.encode('utf-8')
+    print("xml_string ERROR at =",x.encode('utf-8'))
     exit(1)
    head = m.group(1)
    rest = m.group(2)
@@ -674,7 +675,7 @@ def make_xml(filedig,filehw,fileout):
  nerr = 0
  for ihwrec,hwrec in enumerate(hwrecs):
   if ihwrec > 1000000: # 12 
-   print "debug stopping"
+   print("debug stopping")
    break
   datalines = get_datalines(hwrec,inlines)
   # construct output
@@ -695,17 +696,17 @@ def make_xml(filedig,filehw,fileout):
    outarr.append(xmlstring)
    outarr.append('')
    for out in outarr:
-    print out.encode('utf-8')
+    print(out.encode('utf-8'))
    #exit(1) continue
 %endif
 %if dictlo in ['sch','acc','yat']:
    out = "xml error: n=%s,m line=\n%s\n" %(nout+1,xmlstring)
-   print out.encode('utf-8')
+   print(out.encode('utf-8'))
    exit(1)
 %endif
 %if dictlo in ['wil','ap90']:
    out = "xml error: n=%s,m line=\n%s\n" %(nout+1,xmlstring)
-   print out.encode('utf-8')
+   print(out.encode('utf-8'))
    fout.write(xmlstring + '\n')
    fout.close()
    exit(1)

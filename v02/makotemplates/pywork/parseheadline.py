@@ -16,7 +16,7 @@ def parseheadline(headline):
 	"""<L>16850<pc>292-3<k1>visarga<k2>visarga<h>1<e>2"""
 	headline = headline.strip()
 	splits = re.split('[<]([^>]*)[>]([^<]*)',headline)
-        #print splits
+        #print(splits)
 	result = {}
 	for i in xrange(len(splits)):
 		if i % 3 == 1:
