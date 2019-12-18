@@ -2,6 +2,7 @@
 """ tooltip.py
     04-04-2018.  
 """
+from __future__ import print_function
 import sys,re,codecs
 sys.path.append('../')
 import transcoder
@@ -30,7 +31,7 @@ class Unused_Link(object):
   if authtype in known_types:
    type1 = known_types[authtype]
   else:
-   print "WARNING: Unknown author type:",authtype
+   print("WARNING: Unknown author type:",authtype)
    type1 = authtype
   return type1
  def toString(self):
@@ -38,7 +39,7 @@ class Unused_Link(object):
   try:
    outarr.append(self.authrec.cologneid)
   except:
-   print "Link.toString error:",self.line.encode('utf-8')
+   print("Link.toString error:",self.line.encode('utf-8'))
    exit(1)
   outarr.append(self.linkkey)
   authkey1 = self.authrec.authabbrev()
@@ -70,7 +71,7 @@ class Auth(object):
   try:
    (self.cologneid,self.iastcode,self.authkey,self.authtype,self.authdata) = line.split('\t')
   except:
-   print 'ERROR Auth.__init__: line=',line.encode('utf-8')
+   print('ERROR Auth.__init__: line=',line.encode('utf-8'))
    exit(1)
 
  def abbrv2AS(self):
@@ -78,7 +79,7 @@ class Auth(object):
   abbrv1 =  transcoder.transcoder_processElements(abbrv,"slp1",'as',"SA")
   # capitalize letter after {
   abbrv2 = capitalize(abbrv1,tranout)
-  #print 'CHK abbrv2AS:  %s -> %s -> %s' %(abbrv,abbrv1,abbrv2)
+  #print(CHK abbrv2AS:  %s -> %s -> %s' %(abbrv,abbrv1,abbrv2))
   abbrv2 = abbrv2 + '.'
   return abbrv2
  def authabbrev(self):
@@ -113,7 +114,7 @@ class Auth(object):
   if authtype in known_types:
    type1 = known_types[authtype]
   else:
-   print "WARNING: Unknown author type:",authtype
+   print("WARNING: Unknown author type:",authtype)
    type1 = authtype
   return type1
 
@@ -137,7 +138,7 @@ if __name__=="__main__":
  fileout = sys.argv[3]
  filein = sys.argv[2] # mwauth1
  authrecs = create_authrecs(filein)
- print len(authrecs),"auth records"
+ print(len(authrecs),"auth records")
  outlines = []
  for ilink,authrec in enumerate(authrecs):
   outarr=[]
@@ -156,4 +157,4 @@ if __name__=="__main__":
  with codecs.open(fileout,"w","utf-8") as f:
   for out in outlines:
    f.write(out + '\n')
- print len(outlines),"lines written to",fileout
+ print(len(outlines),"lines written to",fileout)
