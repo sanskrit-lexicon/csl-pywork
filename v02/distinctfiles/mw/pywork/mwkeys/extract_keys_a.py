@@ -3,6 +3,7 @@
  Read extract_keys.txt, and construct extract_keys_a.txt.
  
 """
+from __future__ import print_function
 import sys, re,codecs
 
 def extract_keys_a(filein,fileout):
@@ -15,14 +16,14 @@ def extract_keys_a(filein,fileout):
  for line in f:
   n = n + 1
   if n > 1000000: #50:
-   print "Debug breaking"
+   print("Debug breaking")
    break
   line = line.rstrip('\r\n')
   # A small number of keys have non-SLP characters. We remove these
   line1 = line
   line = re.sub(r'[^a-zA-Z0-9,.|]','',line)
   if line != line1:
-   print "WARNING: Characters in key: %s (change to %s)" %(line1,line)
+   print("WARNING: Characters in key: %s (change to %s)" %(line1,line))
   (key,hcode,lnum) = re.split(',',line)
   if key0 == '': #First time through  
    key0 = key
@@ -65,8 +66,8 @@ def extract_keys_a(filein,fileout):
   fout.write("%s\n" % out)
  fout.close()
  # summary messages
- print n,"records in",filein
- print len(outarr),"records written to",fileout
+ print(n,"records in",filein)
+ print(len(outarr),"records written to",fileout)
 
 if __name__=="__main__": 
  filein = sys.argv[1] #  extract_keys.txt

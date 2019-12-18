@@ -4,6 +4,7 @@
  04-04-2018. Revised to use hwkeys.txt as input
  
 """
+from __future__ import print_function
 import sys, re,codecs
 sys.path.append('../')  # pywork
 import hwparse
@@ -25,7 +26,7 @@ def old_extract_keys(filein,fileout):
   nout = nout + 1
  f.close()
  fout.close()
- print n,"records in,",nout,"records written"
+ print(n,"records in,",nout,"records written")
 
 def extract_keys(filein,fileout):
  fout = codecs.open(fileout,"w",'utf-8')
@@ -48,7 +49,7 @@ def extract_keys(filein,fileout):
   nout = nout + 1
  #f.close()
  fout.close()
- print n,"records in,",nout,"records written"
+ print(n,"records in,",nout,"records written")
 
 if __name__=="__main__": 
  filein = sys.argv[1] #  monier.xml

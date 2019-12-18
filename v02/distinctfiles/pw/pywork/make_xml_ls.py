@@ -4,6 +4,7 @@
  July 20, 2018
  Adds 'n="..."' attribute to selected <ls> elements
 """
+from __future__ import print_function
 import sys, re, codecs
 sys.path.append('pwauth')
 from bibrec import Bibrec,init_bibrecs,prepare_bibrec_codes,match_best_prefix
@@ -54,11 +55,11 @@ def make_xmlfun(filein,dcodes,fileout):
     if line1 != line:
      nadj = nadj + 1
      if nadj > 5000000:
-      print "DEBUG Quitting after",nadj,"changes"
+      print("DEBUG Quitting after",nadj,"changes")
       break
     fout.write(line1)
 
- print nadj,"lines changed"
+ print(nadj,"lines changed")
 
 if __name__=="__main__":
  filein = sys.argv[1] # pw0.xml

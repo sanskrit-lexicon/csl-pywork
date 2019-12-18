@@ -3,6 +3,7 @@
    07-19-2018.  This is for pw. The ascode field
    differs from that of pwg, in that it is absent in pwbib.txt
 """
+from __future__ import print_function
 import re,codecs,sys
 
 class Bibrec(object):
@@ -16,7 +17,7 @@ class Bibrec(object):
    lineid = m.group(1)
    body = m.group(2)
   except:
-   print "abbrv4 Bibrec init error: line=\n",line.encode('utf-8')
+   print("abbrv4 Bibrec init error: line=\n",line.encode('utf-8'))
    exit(1)
   self.lineid=lineid
   # entryflag indicates to caller that this record is/is-not an entry record
@@ -28,7 +29,7 @@ class Bibrec(object):
   if not m:
    # [Page...],
    # [Volume...]
-   print "SKIPPING LINE",body.encode('utf-8')
+   print("SKIPPING LINE",body.encode('utf-8'))
    return 
   #if m.group(1) == '':
   # return  # incomplete records.
@@ -40,7 +41,7 @@ class Bibrec(object):
    # This is not a feature in pwbib.txt.
    # leading asterisk has some meaning in Bibliography
    # but is not needed for matching
-   print "Bibrec: removing asterisk from",self.code.encode('utf-8')
+   print("Bibrec: removing asterisk from",self.code.encode('utf-8'))
    self.code = self.code[1:] 
   # some codes are of form A oder B. Replace these with A
   #m = re.search(r'^(.*?) oder (.*?)$',self.ascode)
@@ -49,8 +50,8 @@ class Bibrec(object):
   ## update dictionary
   """
   if self.code in Bibrec.d:
-   print "Bibrec skip duplicate iast:",self.code.encode('utf-8'),self.lineid
-   print "Previous lineid with this code is",Bibrec.d[self.code].lineid
+   print("Bibrec skip duplicate iast:",self.code.encode('utf-8'),self.lineid)
+   print("Previous lineid with this code is",Bibrec.d[self.code].lineid)
    return
   Bibrec.d[self.code] = self
   self.used = False  # do any references match to this one?
@@ -69,7 +70,7 @@ def init_bibrecs(filein):
 
 def prepare_bibrec_codes(bibrecs):
  codes = [r.code for r in bibrecs if hasattr(r,'code')]
- #print len(codes),"codes in bibrecs"
+ #print(len(codes),"codes in bibrecs")
  d = {}
  for code in codes:
   a = code[0] # first letter
@@ -107,11 +108,11 @@ if __name__ == "__main__":
  filetest = sys.argv[2]
  
  bibrecs = init_bibrecs(filebib)
- print len(bibrecs),"records from",filebib
+ print(len(bibrecs),"records from",filebib)
  dcodes = prepare_bibrec_codes(bibrecs)
  with codecs.open(filetest,"r","utf-8") as f:
   txts = [x.rstrip('\r\n') for x in f]
  for txt in txts:
   ans = match_best_prefix(txt,dcodes)
   out = "%s  -> %s" %(txt,ans)
-  print out.encode('utf-8')
+  print(out.encode('utf-8'))

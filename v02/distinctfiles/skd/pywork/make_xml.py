@@ -2,6 +2,7 @@
 """ make_xml.py
  Reads/Writes utf-8
 """
+from __future__ import print_function
 import xml.etree.ElementTree as ET
 import sys, re,codecs
 from hwparse import init_hwrecs,HW
@@ -53,7 +54,7 @@ def dig_to_xml_specific(x):
   # purpose of the <mark n="..."/> tag.
   x = re.sub(r'<H>','<mark n="H"/>',x)  
 
-  #print "Unexpected <H>:",x.encode('utf-8')
+  #print("Unexpected <H>:",x.encode('utf-8'))
  # text has <F>...</F> five cases
  # This is the only 'div' markup used.
  # We close the div HERE, and do NOT call close_divs function
@@ -251,7 +252,7 @@ def make_xml(filedig,filehw,fileout):
  nerr = 0
  for ihwrec,hwrec in enumerate(hwrecs):
   if ihwrec > 1000000: # 12 
-   print "debug stopping"
+   print("debug stopping")
    break
   datalines = get_datalines(hwrec,inlines)
   # construct output
@@ -271,7 +272,7 @@ def make_xml(filedig,filehw,fileout):
    outarr.append(xmlstring)
    outarr.append('')
    for out in outarr:
-    print out.encode('utf-8')
+    print(out.encode('utf-8'))
    #exit(1) continue
   # write output
   fout.write(xmlstring + '\n')

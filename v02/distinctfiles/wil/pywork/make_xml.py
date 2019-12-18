@@ -24,7 +24,7 @@ def dig_to_xml_specific(x):
   x = '<div n="E">' + x[1:]
  elif re.search(r'^[.]',x):
   # unknown division
-  print "UNKNOWN DIVISION: ",x.encode('utf-8')
+  print("UNKNOWN DIVISION: ",x.encode('utf-8'))
   x =  " " + x
  else:
   # assume a simple continuation line
@@ -220,7 +220,7 @@ def make_xml(filedig,filehw,fileout):
  nerr = 0
  for ihwrec,hwrec in enumerate(hwrecs):
   if ihwrec > 1000000: # 12 
-   print "debug stopping"
+   print("debug stopping")
    break
   datalines = get_datalines(hwrec,inlines)
   # construct output
@@ -231,7 +231,7 @@ def make_xml(filedig,filehw,fileout):
    root = ET.fromstring(xmlstring.encode('utf-8'))
   except:
    out = "xml error: n=%s,m line=\n%s\n" %(nout+1,xmlstring)
-   print out.encode('utf-8')
+   print(out.encode('utf-8'))
    fout.write(xmlstring + '\n')
    fout.close()
    exit(1)

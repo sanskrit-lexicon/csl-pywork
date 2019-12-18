@@ -3,6 +3,7 @@
  Read extract_keys.txt, and construct extract_keys_b.txt.
  
 """
+from __future__ import print_function
 import sys, re,codecs
 
 import string
@@ -16,7 +17,7 @@ def slp_cmp(a,b):
   a1 = string.translate(a,trantable)
   b1 = string.translate(b,trantable)
  except:
-  print "slp_cmp error: a=",a,"b=",b
+  print("slp_cmp error: a=",a,"b=",b)
   exit(1)
  return cmp(a1,b1)
 
@@ -29,7 +30,7 @@ def extract_keys_b(filein,fileout):
  for line in f:
   n = n + 1
   if n > 1000000: #50:
-   print "Debug breaking"
+   print("Debug breaking")
    break
   line = line.rstrip('\r\n')
   (key,hcode,L1,L2) = re.split(',',line)
@@ -55,8 +56,8 @@ def extract_keys_b(filein,fileout):
   fout.write("%s\t%s\t%s\n" % (key1,nout,out))
  fout.close()
  # summary messages
- print n,"records in",filein
- print nout,"records written to",fileout
+ print(n,"records in",filein)
+ print(nout,"records written to",fileout)
 
 if __name__=="__main__": 
  filein = sys.argv[1] #  extract_keys_a.txt
