@@ -5,13 +5,17 @@
 """
 from __future__ import print_function
 import sys, re,codecs
-
 import string
+if sys.version_info[0] == 2:
+	from string import maketrans
+else:
+	from str import maketrans
+
 # Note 'L' and '|' and 'Z' and 'V' are not present
 # Not sure where they go 
 tranfrom="aAiIuUfFxXeEoOMHkKgGNcCjJYwWqLQ|RtTdDnpPbBmyrlvSzsh"
 tranto = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxy"
-trantable = string.maketrans(tranfrom,tranto)
+trantable = maketrans(tranfrom,tranto)
 def slp_cmp(a,b):
  try:
   a1 = string.translate(a,trantable)
