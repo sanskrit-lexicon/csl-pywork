@@ -18,6 +18,10 @@ from mako.template import Template
 # Use string.Template for
 import string  
 
+def get_cologne_flag():
+ path = os.path.abspath(__file__)  # full path of this file
+ return path.startswith('/nfs/')
+
 def current_mmddyyyy():
  gmtime = time.gmtime()  # current UTC time a 'time.struct_time' object
  year = gmtime.tm_year
@@ -156,6 +160,8 @@ if __name__=="__main__":
  # revise dictversion to include microversion
  dictparms['dictversion'] = dictparms['dictversion'] + microversion
  #print("Using dictversion=%s" %dictparms['dictversion'])
+ # Add cologne flag  (used in redo_xml.sh for mw)
+ dictparms['cologne_flag'] = get_cologne_flag()
  #
  inventory = init_inventory_distinct(filein,dictcode)
  olddir = expand_template(olddir_template,dictparms)
