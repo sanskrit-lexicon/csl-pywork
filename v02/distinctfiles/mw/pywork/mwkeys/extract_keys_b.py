@@ -6,20 +6,31 @@
 from __future__ import print_function
 import sys, re,codecs
 import string
-if sys.version_info[0] == 2:
-	from string import maketrans
-else:
-	from str import maketrans
+pyversion2 = (sys.version_info[0] == 2)
 
 # Note 'L' and '|' and 'Z' and 'V' are not present
 # Not sure where they go 
 tranfrom="aAiIuUfFxXeEoOMHkKgGNcCjJYwWqLQ|RtTdDnpPbBmyrlvSzsh"
 tranto = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxy"
-trantable = maketrans(tranfrom,tranto)
+# ref: https://stackoverflow.com/questions/41708770/translate-function-in-python-3
+if pyversion2:
+ trantable = string.maketrans(tranfrom,tranto)
+else: #version3 of python
+ trantable = str.maketrans(tranfrom,tranto)
+
+def translate_one(a):
+ if pyversion2:
+  a1 = string.translate(a,trantable)
+ else:
+  a1 = a.translate(trantable)
+ return a1
+
 def slp_cmp(a,b):
  try:
-  a1 = string.translate(a,trantable)
-  b1 = string.translate(b,trantable)
+  #a1 = string.translate(a,trantable)
+  #b1 = string.translate(b,trantable)
+  a1 = translate_one(a)
+  b1 = translate_one(b)
  except:
   print("slp_cmp error: a=",a,"b=",b)
   exit(1)
@@ -48,10 +59,14 @@ def extract_keys_b(filein,fileout):
  # for slp_cmp to work (namely, string.translate, need array of ascii keys
  keys = []
  for key in keyhash:  
-  key = key.decode("utf-8").encode("ascii","ignore")
+  if pyversion2:
+   key = key.decode("utf-8").encode("ascii","ignore")
   keys.append(key)
  # sort keys  into Sanskrit alphabetical order
- sorted_keys = sorted(keys,cmp=slp_cmp)
+ if pyversion2:
+  sorted_keys = sorted(keys,cmp=slp_cmp)
+ else:
+  sorted_keys = sorted(keys,key=lambda x: translate_one(x))
  #--- output phase
  nout = 0
  for key1 in sorted_keys:

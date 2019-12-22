@@ -87,14 +87,17 @@ pw pwg:pywork/${dictlo}auth/${dictlo}bib.txt:CD
 ; ---- mwkeys: This is used with sanhw1.  Not sure if actually used in displays
 ; --------------------------------------------------------------
 mw:pywork/mwkeys/extract_keys_a.py:CD
-mw:pywork/mwkeys/extract_keys_a.sh:CD
+; extract_keys.sh, extract_keys_a.sh, extract_keys_b.sh now in redo.sh
+; they are recoded from CD (copy-distinct) to D (delete)
+mw:pywork/mwkeys/extract_keys_a.sh:D
 mw:pywork/mwkeys/extract_keys_b.py:CD
-mw:pywork/mwkeys/extract_keys_b.sh:CD
+mw:pywork/mwkeys/extract_keys_b.sh:D
 mw:pywork/mwkeys/extract_keys.py:CD
-mw:pywork/mwkeys/extract_keys.sh:CD
+mw:pywork/mwkeys/extract_keys.sh:D
 mw:pywork/mwkeys/mwkeys.sql:CD
 mw:pywork/mwkeys/redo_mwkeys.sh:CD
-mw:pywork/mwkeys/redo.sh:CD
+; redo.sh is changed to a template, so can use python3 on mw
+mw:pywork/mwkeys/redo.sh:T
 ; ------------------------------------------------
 ; Westergaard for MW
 mw:pywork/westmwtab/dbinit.php:CD
