@@ -22,7 +22,8 @@ Instr.	<id>Instr.</id> <disp>Instrumental - instrumental (case)</disp>
 Intens.	<id>Intens.</id> <disp>Intensiv - intensive</disp>
 Interj.	<id>Interj.</id> <disp>Interjection - interjection </disp>
 Loc.	<id>Loc.</id> <disp>Locativ - locative case</disp>
-Med.	<id>Med.</id> <disp>Medizin - medicine</disp>
+; Med.	<id>Med.</id> <disp>Medizin - medicine</disp> changed 12/26/2019
+Med.	<id>Med.</id> <disp>Medium – ātmanepada</disp>
 Metron.	<id>Metron.</id> <disp>Metronym(Deu.)/Metronymicum(Lat.) - metronym</disp>
 Metronn.	<id>Metronn.</id> <disp>Metronyme(Deu.)/Metronymica(Lat.) - metronym</disp>
 N.	<id>N.</id> <disp>Namen? - name</disp>
