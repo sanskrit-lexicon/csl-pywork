@@ -62,6 +62,8 @@ dat.	<id>dat.</id> <disp>dative case</disp>
 Dat.	<id>Dat.</id> <disp>dative case</disp>  <INFER/>
 defect.	<id>defect.</id> <disp>defective</disp>
 Desid.	<id>Desid.</id> <disp>Desiderative</disp>
+Desid. Caus.	<id>Desid. Caus.</id> <disp>Desiderative Causal</disp>
+Desid. Pass.	<id>Desid. Pass.</id> <disp>Desiderative Passive</disp>
 dimin.	<id>dimin.</id> <disp>diminutive</disp>
 dram.	<id>dram.</id> <disp>dramatic language</disp>
 du.	<id>du.</id> <disp>dual number</disp>
