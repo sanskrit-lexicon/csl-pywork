@@ -163,7 +163,7 @@ O.	<id>O.</id> <disp>Old</disp> <INFER/>
 O.E.	<id>O.E.</id> <disp>Old English</disp> <INFER/>
 O.H.G.	<id>O.H.G.</id> <disp>Old High German</disp> <INFER/>
 O.N.	<id>O.N.</id> <disp>Old Norse</disp> <INFER/>
-O.Pr.	<id>O.Pt.</id> <disp>Old Prussian</disp> <INFER/>
+O.Pr.	<id>O.Pr.</id> <disp>Old Prussian</disp> <INFER/>
 obs.	<id>obs.</id> <disp>obsolete</disp>
 onomat.	<id>onomat.</id> <disp>onomatopoetic (i.e. formed from imitation of sounds)</disp>
 opp.	<id>opp.</id> <disp>opposed</disp> <INFER/> 446 cases. Maybe all opp. to ?
