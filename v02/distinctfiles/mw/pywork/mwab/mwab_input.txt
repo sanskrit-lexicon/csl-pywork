@@ -254,8 +254,8 @@ ss.vv.	<id>ss.vv.</id> <disp>sub voce, i.e. the word in the Sanskrit order</disp
 SV.	<id>SV.</id> <disp>Sāma-Veda </disp>  <INFER/> (should be ls? hw=traya)
 Svargakh.	<id>Svargakh.</id> <disp>Svargakhaṇḍa. 3rd book of Padma-Purāṇa</disp> <INFER/>   
 Upan.	<id>Upan.</id> <disp>Upaniṣad</disp> <INFER/>
-Vārt.	<id>Va1rt.</id> <disp>Vārttika</disp>   <UNMARKED>
-Vārtt.	<id>Va1rtt.</id> <disp>Vārttika</disp>  <PROBLEM? - LS?>
+Vārt.	<id>Vārt.</id> <disp>Vārttika</disp>   <UNMARKED>
+Vārtt.	<id>Vārtt.</id> <disp>Vārttika</disp>  <PROBLEM? - LS?>
 vb.	<id>vb.</id> <disp>verb</disp>
 Ved.	<id>Ved.</id> <disp>Vedic or Veda</disp>
 v.l.	<id>v.l.</id> <disp>varia lectio, or ‘variant reading or readings’</disp>
