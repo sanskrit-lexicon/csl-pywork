@@ -339,14 +339,19 @@ def dig_to_xml_specific(x):
  elif re.search(r'^<H>',x):
   x = re.sub(r'<H>','<H/>',x)
   print("Unexpected <H>:",x.encode('utf-8'))
- # change '||' to a div, type = 2
- #  Also, remove the '||' -- aesthetic choice
- x = x.replace('||','<div n="2">')
- # change '--' to mdash
- x = x.replace('--',u'—')
+ # -- div takes precedence over || div
+ # change '||' to a div, type = 3
+ #  Retain the '||' , an aesthetic choice
+ x = x.replace('||','<div n="3">||')
  # We want most mdashes to start a div. but not all.
  # Restricting to the desired group is tricky. Here is a try.
- x = re.sub(u'(— *[A-Z])',r'<div n="3">\1',x)
+ x = re.sub(u'(-- *[A-Z])',r'<div n="2">\1',x)
+ x = re.sub(u'(-- *<ab>[SMFN][.])',r'<div n="2">\1',x)
+ # {%X%} has already been changed to <i>X</i>
+ x = re.sub(u'(-- *<i>)',r'<div n="2">\1',x)
+ x = re.sub(u'(-- *\()',r'<div n="2">\1',x)
+ # change '--' to mdash
+ x = x.replace('--',u'—')
  return x
 %endif
 %if dictlo == 'acc':
