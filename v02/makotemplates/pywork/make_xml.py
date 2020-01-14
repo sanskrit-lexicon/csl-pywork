@@ -341,8 +341,8 @@ def dig_to_xml_specific(x):
   print("Unexpected <H>:",x.encode('utf-8'))
  # -- div takes precedence over || div
  # change '||' to a div, type = 3
- #  Retain the '||' , an aesthetic choice
- x = x.replace('||','<div n="3">||')
+ #  do NOT Retain the '||' , an aesthetic choice
+ x = x.replace('||','<div n="3">')
  # We want most mdashes to start a div. but not all.
  # Restricting to the desired group is tricky. Here is a try.
  x = re.sub(u'(-- *[A-Z])',r'<div n="2">\1',x)
