@@ -11,7 +11,7 @@ sh redo.sh
 cd ../ # back to pywork
 # For applicable dictionaries, update other web/sqlite databases
 # abbreviations
-%if dictlo in ['bur','cae','mw','pw','pwg']:
+%if dictlo in ['stc','bur','cae','mw','pw','pwg']:
  cd ${dictlo}ab
  sh redo.sh
  cd ../ # back to pywork
