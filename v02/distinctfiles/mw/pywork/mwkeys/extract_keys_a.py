@@ -21,7 +21,8 @@ def extract_keys_a(filein,fileout):
   line = line.rstrip('\r\n')
   # A small number of keys have non-SLP characters. We remove these
   line1 = line
-  line = re.sub(r'[^a-zA-Z0-9,.|]','',line)
+  # Add ~ (candra-bindu) to acceptable characters.
+  line = re.sub(r'[^a-zA-Z0-9,.|~]','',line)
   if line != line1:
    print("WARNING: Characters in key: %s (change to %s)" %(line1,line))
   (key,hcode,lnum) = re.split(',',line)
