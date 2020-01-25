@@ -34,8 +34,8 @@ def extract_keys_a(filein,fileout):
    keyhash = {}
    keyhash[key0]=hcode0
    continue
-  # Special handling for hcode=X[ABC]
-  if re.search(r'[ABC]$',hcode):
+  # Special handling for hcode=X[ABCE]
+  if re.search(r'[ABCE]$',hcode):
    L2 = lnum
    if not (key in keyhash):
     keyhash[key]=hcode
