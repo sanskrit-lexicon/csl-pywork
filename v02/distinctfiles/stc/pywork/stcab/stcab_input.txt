@@ -4,11 +4,11 @@ abs.	<id>abs.</id> <disp>absolutif.</disp>
 acc.	<id>acc.</id> <disp>accusatif.</disp>
 act.	<id>act.</id> <disp>actif (voix active).</disp>
 adv.	<id>adv.</id> <disp>adverbe.</disp>
-ag.	<id>ag.</id> <disp>nom d'agent </disp>
+ag.	<id>ag.</id> <disp>nom d’agent </disp>
 aor.	<id>aor.</id> <disp>aoriste.</disp>
 caus.	<id>caus.</id> <disp>causatif.</disp>
 cf.	<id>cf.</id> <disp>confer.</disp>
-comp.	<id>comp.</id> <disp>composé, composition (ne s'emploie que dans un composé).</disp>
+comp.	<id>comp.</id> <disp>composé, composition (ne s’emploie que dans un composé).</disp>
 compar.	<id>compar.</id> <disp>comparatif.</disp>
 conj.	<id>conj.</id> <disp>conjonction.</disp>
 dat.	<id>dat.</id> <disp>datif.</disp>
@@ -23,8 +23,8 @@ fut.	<id>fut.</id> <disp>futur. </disp>
 fut. périphr.	<id>fut. périphr.</id> <disp>futur périphrastique.</disp>
 gén.	<id>gén.</id> <disp>génitif.</disp>
 gramm.	<id>gramm.</id> <disp>grammaire (vocabulaire des grammairiens indiens).</disp>
-ifc.	<id>ifc.</id> <disp>in fine compositi : s'emploie aussi ou uniquement comme dernier membre d'un composé.</disp>
-iic.	<id>iic.</id> <disp>in initio compositi : s'emploie aussi ou uniquement comme premier membre d'un composé.</disp>
+ifc.	<id>ifc.</id> <disp>in fine compositi : s’emploie aussi ou uniquement comme dernier membre d’un composé.</disp>
+iic.	<id>iic.</id> <disp>in initio compositi : s’emploie aussi ou uniquement comme premier membre d’un composé.</disp>
 impér.	<id>impér.</id> <disp>impératif.</disp>
 impers.	<id>impers.</id> <disp>impersonnel.</disp>
 impf.	<id>impf.</id> <disp>imparfait.</disp>
@@ -58,7 +58,7 @@ pron.	<id>pron.</id> <disp>pronom, pronominal.</disp>
 qq.	<id>qq.</id> <disp>quelque.</disp>
 qqch.	<id>qqch.</id> <disp>quelque chose.</disp>
 qqf.	<id>qqf.</id> <disp>quelquefois.</disp>
-qq'un	<id>qq'un</id> <disp>quelqu'un.</disp>
+qq'un	<id>qq'un</id> <disp>quelqu’un.</disp>
 Rām.	<id>Rām.</id> <disp>Rāmāyana.</disp>
 rhét.	<id>rhét.</id> <disp>rhétorique.</disp>
 sg.	<id>sg.</id> <disp>singulier.</disp>
