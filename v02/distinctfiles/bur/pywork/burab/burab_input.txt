@@ -35,7 +35,7 @@ F.	<id>F.</id> <disp>Féminin</disp>
 fig.	<id>fig.</id> <disp>figuré</disp>
 fr.	<id>fr.</id> <disp>français</disp>
 f1.	<id>f1.</id> <disp>futur 1er</disp>
-f2.	<id>f2.</id> <disp>futur 2nd</disp>
+f2.	<id>f2.</id> <disp>futur 2d</disp>
 gal.	<id>gal.</id> <disp>gaëlique</disp>
 g.	<id>g.</id> <disp>génitif</disp>
 G.	<id>G.</id> <disp>Génitif</disp>
@@ -51,8 +51,10 @@ indéc.	<id>indéc.</id> <disp>indéclinable</disp>
 inf.	<id>inf.</id> <disp>infinitif</disp>
 i.	<id>i.</id> <disp>instrumental</disp>
 lat.	<id>lat.</id> <disp>latin</disp>
+Lat.	<id>Lat.</id> <disp>latin</disp>
 lith.	<id>lith.</id> <disp>lithuanien</disp>
 l.	<id>l.</id> <disp>locatif</disp>
+L.	<id>L.</id> <disp>locatif</disp>
 m.	<id>m.</id> <disp>masculin</disp>
 M.	<id>M.</id> <disp>Masculin</disp>
 mms.	<id>mms.</id> <disp>même signification</disp>
@@ -61,6 +63,7 @@ m. à m.	<id>m. à m.</id> <disp>mot à mot</disp>
 m à m.	<id>m à m.</id> <disp>mot à mot</disp>
 moy.	<id>moy.</id> <disp>moyen</disp>
 Moy.	<id>Moy.</id> <disp>Moyen</disp>
+M§	<id>M§</id> <disp>paragraphe(s) de notre Méthode sanscrite :</disp>
 n.	<id>n.</id> <disp>neutre</disp>
 N.	<id>N.</id> <disp>Neutre</disp>
 neg.	<id>neg.</id> <disp>negatif</disp>
@@ -71,6 +74,7 @@ ordint.	<id>ordint.</id> <disp>ordinairement</disp>
 p.	<id>p.</id> <disp>parfait</disp>
 part.	<id>part.</id> <disp>particule</disp>
 ps.	<id>ps.</id> <disp>passif</disp>
+Ps.	<id>Ps.</id> <disp>passif</disp>
 pf.	<id>pf.</id> <disp>participe futur</disp>
 pfx.	<id>pfx.</id> <disp>préfixe</disp>
 pl.	<id>pl.</id> <disp>pluriel</disp>
@@ -100,6 +104,7 @@ s.	<id>s.</id> <disp>substantif</disp>
 S.	<id>S.</id> <disp>substantif</disp>
 sfx.	<id>sfx.</id> <disp>suffixe</disp>
 sup.	<id>sup.</id> <disp>superlatif</disp>
+slav.	<id>slav.</id> <disp>slave</disp>
 surn.	<id>surn.</id> <disp>surnom</disp>
 Surn.	<id>Surn.</id> <disp>Surnom</disp>
 sync.	<id>sync.</id> <disp>syncope</disp>

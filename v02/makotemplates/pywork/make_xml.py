@@ -347,6 +347,8 @@ def dig_to_xml_specific(x):
  # Restricting to the desired group is tricky. Here is a try.
  x = re.sub(u'(-- *[A-Z])',r'<div n="2">\1',x)
  x = re.sub(u'(-- *<ab>[SMFN][.])',r'<div n="2">\1',x)
+ # additional abbreviations before ANY abbreviation (only about 100 cases left)
+ x = re.sub(u'(-- *<ab>)',r'<div n="2">\1',x)
  # {%X%} has already been changed to <i>X</i>
  x = re.sub(u'(-- *<i>)',r'<div n="2">\1',x)
  x = re.sub(u'(-- *\()',r'<div n="2">\1',x)
