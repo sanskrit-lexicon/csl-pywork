@@ -19,7 +19,7 @@ dim.	<id>dim.</id> <disp>diminutif</disp>
 dimin.	<id>dimin.</id> <disp>diminutif</disp>
 du.	<id>du.</id> <disp>duel</disp>
 encl.	<id>encl.</id> <disp>enclitique</disp>
-exclam.	<id>exclam.</id> <disp>exclamatif</disp>
+exclam.	<id>exclam.</id> <disp>exclamation/exclamatif</disp>
 ép.	<id>ép.</id> <disp>épithète</disp>
 f.	<id>f.</id> <disp>féminin</disp>
 fig.	<id>fig.</id> <disp>figuré</disp>
@@ -49,7 +49,7 @@ mauv.	<id>mauv.</id> <disp>[mauvaise]</disp>
 MhBh.	<id>MhBh.</id> <disp>Mahābhārata</disp>
 moy.	<id>moy.</id> <disp>moyen (voix moyenne)</disp>
 n.	<id>n.</id> <disp>nom</disp>
-nég.	<id>nég.</id> <disp>négatif</disp>
+nég.	<id>nég.</id> <disp>négation/négatif</disp>
 nomin.	<id>nomin.</id> <disp>nominatif.</disp>>
 nom.	<id>nom.</id> <disp>nominatif.</disp>>
 num.	<id>num.</id> <disp>numéral</disp>
@@ -81,8 +81,8 @@ sup.	<id>sup.</id> <disp>superlatif</disp>
 s. v.	<id>s. v.</id> <disp>sub vocabulo [voir/sous ce/le terme]</disp>
 Up.	<id>Up.</id> <disp>Upaniṣad</disp>
 v.	<id>v.</id> <disp>voir</disp>
-v. s.	<id>v. s.</id> <disp>[voir sous…]</disp>
-v. s. v.	<id>v. s. v.</id> <disp>[voir sous ce(s)/voir sous le(s) terme(s)]</disp>  <olddisp>[« voir sous ce(s) terme(s) » ou « voir sous le(s) terme(s)… »]</olddisp>
+v. s.	<id>v. s.</id> <disp>voir sous</disp>
+v. s. v.	<id>v. s. v.</id> <disp>voir sous ce(s)/voir sous le(s) terme(s)</disp>  <olddisp>[« voir sous ce(s) terme(s) » ou « voir sous le(s) terme(s)… »]</olddisp>
 var.	<id>var.</id> <disp>variante</disp>
 v. l.	<id>v. l.</id> <disp>[varia lectio] variante</disp>
 véd.	<id>véd.</id> <disp>védique</disp>

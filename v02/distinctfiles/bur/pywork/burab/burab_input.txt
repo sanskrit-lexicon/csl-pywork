@@ -63,7 +63,8 @@ m. à m.	<id>m. à m.</id> <disp>mot à mot</disp>
 m à m.	<id>m à m.</id> <disp>mot à mot</disp>
 moy.	<id>moy.</id> <disp>moyen</disp>
 Moy.	<id>Moy.</id> <disp>Moyen</disp>
-M§	<id>M§</id> <disp>paragraphe(s) de notre Méthode sanscrite :</disp>
+M§	<id>M§</id> <disp>voir notre Méthode sanscrite, paragraphe</disp>
+M§§	<id>M§§</id> <disp>voir notre Méthode sanscrite, paragraphes</disp>
 n.	<id>n.</id> <disp>neutre</disp>
 N.	<id>N.</id> <disp>Neutre</disp>
 neg.	<id>neg.</id> <disp>negatif</disp>
