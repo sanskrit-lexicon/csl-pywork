@@ -23,7 +23,9 @@ conj.	<id>conj.</id> <disp>conjonction</disp>
 conjf.	<id>conjf.</id> <disp>conjonctif</disp>
 d.	<id>d.</id> <disp>datif</disp>
 dém.	<id>dém.</id> <disp>démonstratif</disp>
+dén.	<id>dén.</id> <disp>dénominatif</disp>
 dés.	<id>dés.</id> <disp>désidératif</disp>
+Dés.	<id>Dés.</id> <disp>désidératif</disp>
 du.	<id>du.</id> <disp>duel</disp>
 ép.	<id>ép.</id> <disp>épithète</disp>
 Ep.	<id>Ep.</id> <disp>épithète</disp>
@@ -49,6 +51,7 @@ imp.	<id>imp.</id> <disp>impératif</disp>
 ind.	<id>ind.</id> <disp>indicatif</disp>
 indéc.	<id>indéc.</id> <disp>indéclinable</disp>
 inf.	<id>inf.</id> <disp>infinitif</disp>
+interj.	<id>interj.</id> <disp>interjection</disp>
 i.	<id>i.</id> <disp>instrumental</disp>
 lat.	<id>lat.</id> <disp>latin</disp>
 Lat.	<id>Lat.</id> <disp>latin</disp>
