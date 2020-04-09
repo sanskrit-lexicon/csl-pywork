@@ -1,6 +1,14 @@
 
-The 'distinctfiles' directory was initialized in the v01 subdirectory at
-Cologne. Specifically, the init_distinctfiles.sh script did the initialization.
+# Installation of Cologne sanskrit-lexicon from repositories
+
+This describes in some detail how to install the Cologne sanskrit-lexicon from Github repositories.
+In addition to the 3-repository installation instructions described below, there are also 'optional'
+installations from repositories. 
+* csl-homepage   
+* csl-doc
+* csl-whitroot
+* csl-kale
+* csl-apidev
 
 
 ## repository requirements
