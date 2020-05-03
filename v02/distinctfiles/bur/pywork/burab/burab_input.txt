@@ -7,11 +7,14 @@ a.	<id>a.</id> <disp>adjectif</disp>
 A.	<id>A.</id> <disp>Adjectif</disp>
 adv.	<id>adv.</id> <disp>adverbe</disp>
 anat.	<id>anat.</id> <disp>anatomie</disp>
+angl.	<id>angl.</id> <disp>Anglais</disp>
+Angl.	<id>Angl.</id> <disp>Anglais</disp>
 a1.	<id>a1.</id> <disp>aoriste 1er</disp>
 a2.	<id>a2.</id> <disp>aoriste 2nd</disp>
 astr.	<id>astr.</id> <disp>astronomie</disp>
 aug.	<id>aug.</id> <disp>augmentatif</disp>
 bd.	<id>bd.</id> <disp>buddhique, bouddhique</disp>
+Bd.	<id>bd.</id> <disp>buddhique, bouddhique</disp>
 c-à-d.	<id>c-à-d.</id> <disp>c’est-à-dire</disp>
 c. à d.	<id>c-à-d.</id> <disp>c’est-à-dire</disp>
 c.	<id>c.</id> <disp>causatif</disp>
@@ -43,7 +46,10 @@ g.	<id>g.</id> <disp>génitif</disp>
 G.	<id>G.</id> <disp>Génitif</disp>
 gér.	<id>gér.</id> <disp>gérondif</disp>
 germ.	<id>germ.</id> <disp>germanique</disp>
+Germ.	<id>Germ.</id> <disp>germanique</disp>
 got.	<id>got.</id> <disp>gothique</disp>
+goth.	<id>goth.</id> <disp>gothique</disp>
+Goth.	<id>Goth.</id> <disp>gothique</disp>
 gr.	<id>gr.</id> <disp>grec</disp>
 Gr.	<id>Gr.</id> <disp>Grec</disp>
 impf.	<id>impf.</id> <disp>imparfait</disp>
@@ -53,6 +59,8 @@ indéc.	<id>indéc.</id> <disp>indéclinable</disp>
 inf.	<id>inf.</id> <disp>infinitif</disp>
 interj.	<id>interj.</id> <disp>interjection</disp>
 i.	<id>i.</id> <disp>instrumental</disp>
+Irl.	<id>Irl.</id> <disp>irlandais</disp>
+irl.	<id>irl.</id> <disp>irlandais</disp>
 lat.	<id>lat.</id> <disp>latin</disp>
 Lat.	<id>Lat.</id> <disp>latin</disp>
 lith.	<id>lith.</id> <disp>lithuanien</disp>
