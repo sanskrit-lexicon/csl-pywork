@@ -15,6 +15,7 @@ astr.	<id>astr.</id> <disp>astronomie</disp>
 aug.	<id>aug.</id> <disp>augmentatif</disp>
 bd.	<id>bd.</id> <disp>buddhique, bouddhique</disp>
 Bd.	<id>bd.</id> <disp>buddhique, bouddhique</disp>
+bot.	<id>bot.</id> <dispbotanique</disp>
 c-à-d.	<id>c-à-d.</id> <disp>c’est-à-dire</disp>
 c. à d.	<id>c-à-d.</id> <disp>c’est-à-dire</disp>
 c.	<id>c.</id> <disp>causatif</disp>
