@@ -352,6 +352,9 @@ def dig_to_xml_specific(x):
  # {%X%} has already been changed to <i>X</i>
  x = re.sub(u'(-- *<i>)',r'<div n="2">\1',x)
  x = re.sub(u'(-- *\()',r'<div n="2">\1',x)
+ # 05-03-2020. Somehow, there are empty <div n="2"> instances
+ # try to get rid of these
+ x = re.sub(r'<div n="2"><div n="2">','<div n="2">',x)
  # change '--' to mdash
  x = x.replace('--',u'—')
  return x
