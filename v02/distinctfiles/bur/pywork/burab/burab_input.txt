@@ -62,9 +62,12 @@ interj.	<id>interj.</id> <disp>interjection</disp>
 i.	<id>i.</id> <disp>instrumental</disp>
 Irl.	<id>Irl.</id> <disp>irlandais</disp>
 irl.	<id>irl.</id> <disp>irlandais</disp>
+irland.	<id>irland.</id> <disp>irlandais</disp>
+Irland.	<id>Irland.</id> <disp>Irlandais</disp>
 lat.	<id>lat.</id> <disp>latin</disp>
 Lat.	<id>Lat.</id> <disp>latin</disp>
 lith.	<id>lith.</id> <disp>lithuanien</disp>
+Lith.	<id>Lith.</id> <disp>lithuanien</disp>
 l.	<id>l.</id> <disp>locatif</disp>
 L.	<id>L.</id> <disp>locatif</disp>
 m.	<id>m.</id> <disp>masculin</disp>
@@ -91,6 +94,7 @@ Ps.	<id>Ps.</id> <disp>passif</disp>
 pf.	<id>pf.</id> <disp>participe futur</disp>
 pfx.	<id>pfx.</id> <disp>préfixe</disp>
 pl.	<id>pl.</id> <disp>pluriel</disp>
+polon.	<id>polon.</id> <disp>polonais</disp>
 pp.	<id>pp.</id> <disp>participe passé</disp>
 Pp.	<id>Pp.</id> <disp>Participe passé</disp>
 ppf.	<id>ppf.</id> <disp>participe parfait</disp>
