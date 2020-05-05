@@ -50,6 +50,7 @@ MhBh.	<id>MhBh.</id> <disp>Mahābhārata</disp>
 moy.	<id>moy.</id> <disp>moyen (voix moyenne)</disp>
 n.	<id>n.</id> <disp>nom</disp>
 nég.	<id>nég.</id> <disp>négation/négatif</disp>
+not.	<id>not.</id> <disp>notamment</disp>
 nomin.	<id>nomin.</id> <disp>nominatif.</disp>>
 nom.	<id>nom.</id> <disp>nominatif.</disp>>
 num.	<id>num.</id> <disp>numéral</disp>
