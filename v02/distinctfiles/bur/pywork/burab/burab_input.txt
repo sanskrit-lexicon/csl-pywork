@@ -2,6 +2,8 @@ ab.	<id>ab.</id> <disp>ablatif</disp>
 Ab.	<id>Ab.</id> <disp>Ablatif</disp>
 ac.	<id>ac.</id> <disp>accusatif</disp>
 Ac.	<id>Ac.</id> <disp>Accusatif</disp>
+Actt.	<id>Actt.</id> <disp>activement</disp>
+actt.	<id>actt.</id> <disp>activement</disp>
 act.	<id>act.</id> <disp>actif</disp>
 a.	<id>a.</id> <disp>adjectif</disp>
 A.	<id>A.</id> <disp>Adjectif</disp>
@@ -36,6 +38,7 @@ Ep.	<id>Ep.</id> <disp>épithète</disp>
 esp.	<id>esp.</id> <disp>espèce</disp>
 Esp.	<id>Esp.</id> <disp>Espèce</disp>
 ex.	<id>ex.</id> <disp>exemple</disp>
+ext.	<id>ext.</id> <disp>extension</disp>
 f.	<id>f.</id> <disp>féminin</disp>
 F.	<id>F.</id> <disp>Féminin</disp>
 fig.	<id>fig.</id> <disp>figuré</disp>
