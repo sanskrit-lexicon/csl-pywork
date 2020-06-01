@@ -126,7 +126,7 @@
 1.110a	GĪTAG.	Gītag.	*GĪT. oder GĪTAG. = GĪTAGOVINDA, ed. LASSEN (GILD. Bibl. 168).
 1.111	JYOT.	Jyot.	JYOT. = JYOTIṢA.
 1.112	GORR.	Gorr.	GORR. = GORRESIO.
-1.112a	GORRESIO	Gorresio	GORRESIO = ? [Cologne Addition]
+1.112a	GORRESIO	Gorresio	GORRESIO = Gaspare Gorresio, translator of RĀMĀYAṆA [Cologne Addition]
 1.113	GOT. S.	Got. S.	GOT. S. = GOTAMA'S SŪTRĀṆI, s. NYĀYA-S.
 1.114	GOVINDABH.	Govindabh.	GOVINDABH. = GOVINDABHAṬṬA.
 1.115	GṚHYASAṂGR.	Gṛhyasaṃgr.	GṚHYASAM̃GR. = GṚHYASAM̃GRAHAPARIŚIṢTA, 2 Prapāṭhaka von 106 und<lb>103 Versen; vgl. ROTH, Zur L. u. G. d. W. S. 120. Hdschr.
@@ -2619,7 +2619,7 @@ c.2069	VĪJAGAṆITA	Vījagaṇita	VĪJAGAṆITA = ? [Cologne Addition]
 c.2070	ŚATAKĀV.	Śatakāv.	ŚATAKĀV. = ? [Cologne Addition] 
 c.2071	KRAMACANDRIKĀ	Kramacandrikā	KRAMACANDRIKĀ = ? [Cologne Addition] 
 c.2072	AUFRECHT, HALĀY.	Aufrecht, Halāy.	AUFRECHT, HALĀY. = ? [Cologne Addition]
-c.2073	R. GORR.	R. Gorr.	R. GORR. = ? [Cologne Addition]
+c.2073	R. GORR.	R. Gorr.	R. GORR. = RĀMĀYAṆA, translation by Gaspare Gorresio. [Cologne Addition]
 c.2074	PRAKĪRṆĀKHY	Prakīrṇākhy	PRAKĪRṆĀKHY = ? [Cologne Addition]
 c.2075	PISCHEL, de Gramm. prācr.	Pischel, De Gramm. Prācr.	PISCHEL, de Gramm. prācr. = ? [Cologne Addition]
 c.2076	STENZLER, de Lexicogr. sanscr. principils	Stenzler, De Lexicogr. Sanscr. Principils	STENZLER, de Lexicogr. sanscr. principils = ? [Cologne Addition]
