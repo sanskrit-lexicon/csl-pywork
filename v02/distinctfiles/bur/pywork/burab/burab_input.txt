@@ -24,6 +24,7 @@ c.	<id>c.</id> <disp>causatif</disp>
 cf.	<id>cf.</id> <disp>comparez; confer</disp>
 Cf.	<id>Cf.</id> <disp>Comparez; Confer</disp>
 comp.	<id>comp.</id> <disp>comparatif</disp>
+composit.	<id>composit.</id> <disp>composition</disp>
 cond.	<id>cond.</id> <disp>conditionnel</disp>
 conj.	<id>conj.</id> <disp>conjonction</disp>
 conjf.	<id>conjf.</id> <disp>conjonctif</disp>
@@ -136,8 +137,8 @@ t.	<id>t.</id> <disp>terme</disp>
 tg.	<id>tg.</id> <disp>terme grammatical</disp>
 th.	<id>th.</id> <disp>thème</disp>
 tr.	<id>tr.</id> <disp>très</disp>
-Vd.	<id>Vd.</id> <disp>Véda, Vêdique</disp>
-vd.	<id>Vd.</id> <disp>vêdique</disp>
+Vd.	<id>Vd.</id> <disp>Véda, védique</disp>
+vd.	<id>vd.</id> <disp>védique</disp>
 v.	<id>v.</id> <disp>vocatif</disp>
 zd.	<id>zd.</id> <disp>zend</disp>
 (?)	<id>(?)</id> <disp>douteux</disp> <info>no period</info>
