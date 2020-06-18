@@ -136,7 +136,7 @@ t.	<id>t.</id> <disp>terme</disp>
 tg.	<id>tg.</id> <disp>terme grammatical</disp>
 th.	<id>th.</id> <disp>thème</disp>
 tr.	<id>tr.</id> <disp>très</disp>
-Vd.	<id>Vd.</id> <disp>Vêda</disp>
+Vd.	<id>Vd.</id> <disp>Véda, Vêdique</disp>
 vd.	<id>Vd.</id> <disp>vêdique</disp>
 v.	<id>v.</id> <disp>vocatif</disp>
 zd.	<id>zd.</id> <disp>zend</disp>
