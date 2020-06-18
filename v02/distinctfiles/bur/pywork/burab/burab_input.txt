@@ -112,6 +112,9 @@ ppt.	<id>ppt.</id> <disp>proprement</disp>
 1p.	<id>1p.</id> <disp>1er personne</disp>
 2p.	<id>2p.</id> <disp>2e personne, etc</disp>
 3p.	<id>3p.</id> <disp>3e personne, etc</disp>
+qconque.	<id>qconque.</id> <disp>quelconque</disp>
+qconque	<id>qconque</id> <disp>quelconque</disp>
+qconques	<id>qconques</id> <disp>quelconques</disp>
 qq.	<id>qq.</id> <disp>quelques</disp>
 qqc.	<id>qqc.</id> <disp>quelque chose</disp>
 qqf.	<id>qqf.</id> <disp>quelquefois</disp>
