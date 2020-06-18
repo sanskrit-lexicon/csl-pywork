@@ -89,6 +89,7 @@ neg.	<id>neg.</id> <disp>negatif</disp>
 np.	<id>np.</id> <disp>nom propre</disp>
 Np.	<id>Np.</id> <disp>Nom propre</disp>
 o.	<id>o.</id> <disp>optatif</disp>
+oppos.	<id>oppos.</id> <disp>opposition</disp>
 ordint.	<id>ordint.</id> <disp>ordinairement</disp>
 p.	<id>p.</id> <disp>parfait</disp>
 part.	<id>part.</id> <disp>particule</disp>
