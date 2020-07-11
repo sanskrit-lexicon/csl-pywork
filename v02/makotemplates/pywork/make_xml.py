@@ -587,7 +587,8 @@ def construct_xmlstring(datalines,hwrec):
  tail = construct_xmltail(hwrec)
  dbgout(dbg,"tail: %s" % tail)  
  #3. construct body
-%if dictlo in ['sch','ap90']:
+#%if dictlo in ['sch','ap90']:
+%if dictlo in ['sch']:  
  # To mimic current display of Sch, we remove the 'head' from first line:
  for i,x in enumerate(datalines):
   if i == 0:
