@@ -6,6 +6,10 @@ This work begun in conjunction with the meta/iast conversion of mw,
   (see pywork/correctionwork/cologne-issue-216).
 It adapts and extends the work of mwaux/mwauthorities.
 
+Note: 11-16-2020.
+  Changed '&amp;c' to 'etc'   and '&amp;' to 'and'.
+  Reason: in kadala,  basicadjust.php did not parse properly.
+  It has hard to know how otherwise to correct this problem.
 * mwauth.txt
   created initially from work/mwauth1.txt
 * tooltip.txt
