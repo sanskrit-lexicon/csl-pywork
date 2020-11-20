@@ -49,6 +49,7 @@ f2.	<id>f2.</id> <disp>futur 2d</disp>
 gal.	<id>gal.</id> <disp>gaëlique</disp>
 g.	<id>g.</id> <disp>génitif</disp>
 G.	<id>G.</id> <disp>Génitif</disp>
+gén.	<id>gén.</id> <disp>général</disp>
 gér.	<id>gér.</id> <disp>gérondif</disp>
 germ.	<id>germ.</id> <disp>germanique</disp>
 Germ.	<id>Germ.</id> <disp>germanique</disp>
