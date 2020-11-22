@@ -50,12 +50,12 @@ pw pwg:pywork/make_xml_ls.py:CD
 ;   Currently, treat as distinct files
 ;   Later, try to get all abbreviations to be the same,
 ;   so templates can be used.
-;   also append to redo_xml.sh : 'cd burab, sh redo.sh'
-stc bur cae mw pw pwg:pywork/${dictlo}ab/${dictlo}ab.sql:CD
-stc bur cae mw pw pwg:pywork/${dictlo}ab/${dictlo}ab_input.txt:CD
-stc bur cae mw pw pwg:pywork/${dictlo}ab/readme.txt:CD
-stc bur cae mw pw pwg:pywork/${dictlo}ab/redo.sh:CD
-stc bur cae mw pw pwg:pywork/${dictlo}ab/redo_${dictlo}ab.sh:CD
+;   also append to redo_postxml.sh : 'cd burab, sh redo.sh'
+stc bur cae mw pw pwg lan:pywork/${dictlo}ab/${dictlo}ab.sql:CD
+stc bur cae mw pw pwg lan:pywork/${dictlo}ab/${dictlo}ab_input.txt:CD
+stc bur cae mw pw pwg lan:pywork/${dictlo}ab/readme.txt:CD
+stc bur cae mw pw pwg lan:pywork/${dictlo}ab/redo.sh:CD
+stc bur cae mw pw pwg lan:pywork/${dictlo}ab/redo_${dictlo}ab.sh:CD
 ; --------------------------------------------------------------
 ; -- literary sources: MW
 ; --------------------------------------------------------------

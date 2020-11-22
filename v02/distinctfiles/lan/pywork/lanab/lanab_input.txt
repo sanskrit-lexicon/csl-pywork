@@ -1,0 +1,145 @@
+a.	<id>a.</id> <disp>adjective.</disp>
+abl.	<id>abl.</id> <disp>ablative.</disp>
+acc.	<id>acc.</id> <disp>accusative.</disp>
+acct.	<id>acct.</id> <disp>accent.</disp>
+acct	<id>acct</id> <disp>accent.</disp>
+act.	<id>act.</id> <disp>active, actively.</disp>
+adj.	<id>adj.</id> <disp>adjective, adjectively.</disp>
+adv.	<id>adv.</id> <disp>adverb, adverbial.</disp>
+advly.	<id>advly.</id> <disp>adverbially.</disp>
+aor.	<id>aor.</id> <disp>aorist.</disp>
+AS.	<id>AS.</id> <disp>Anglo-Saxon.</disp>
+assev.	<id>assev.</id> <disp>asseverative.</disp>
+B.	<id>B.</id> <disp>Brāhmaṇa.</disp>
+beg.	<id>beg.</id> <disp>beginning.</disp>
+caus.	<id>caus.</id> <disp>causative.</disp>
+cf.	<id>cf.</id> <disp>compare.</disp>
+colloq.	<id>colloq.</id> <disp>colloquial.</disp>
+comp.	<id>comp.</id> <disp>comparative.</disp>
+conj.	<id>conj.</id> <disp>conjunction.</disp>
+correl.	<id>correl.</id> <disp>correlative.</disp>
+cpds.	<id>cpds.</id> <disp>compounds.</disp>
+cpds	<id>cpds</id> <disp>compounds.</disp>
+cpd	<id>cpd</id> <disp>compound</disp>
+dat.	<id>dat.</id> <disp>dative.</disp>
+denom.	<id>denom.</id> <disp>denominative.</disp>
+deriv.	<id>deriv.</id> <disp>derivative</disp>
+derivs.	<id>derivs.</id> <disp>derivatives.</disp>
+desid.	<id>desid.</id> <disp>desiderative.</disp>
+e.g.	<id>e.g.</id> <disp>for example.</disp>
+e. g.	<id>e. g.</id> <disp>for example.</disp>
+encl.	<id>encl.</id> <disp>enclitic.</disp>
+Eng.	<id>Eng.</id> <disp>English.</disp>
+equiv.	<id>equiv.</id> <disp>equivalent.</disp>
+esp.	<id>esp.</id> <disp>especially, especial.</disp>
+etc.	<id>etc.</id> <disp>and so forth.</disp>
+excl.	<id>excl.</id> <disp>exclamation.</disp>
+f.	<id>f.</id> <disp>feminine</disp>
+fem.	<id>fem.</id> <disp>feminine.</disp>
+ff.	<id>ff.</id> <disp>and the following.</disp>
+fig.	<id>fig.</id> <disp>figuratively, figurative.</disp>
+fr.	<id>fr.</id> <disp>from.</disp>
+fut.	<id>fut.</id> <disp>future.</disp>
+gen.	<id>gen.</id> <disp>genitive.</disp>
+Ger.	<id>Ger.</id> <disp>German.</disp>
+Goth.	<id>Goth.</id> <disp>Gothic.</disp>
+grd.	<id>grd.</id> <disp>gerund.</disp>
+grdv.	<id>grdv.</id> <disp>gerundive.</disp>
+Hdt.	<id>Hdt.</id> <disp>Herodotus.</disp>
+ident.	<id>ident.</id> <disp>identical.</disp>
+i. e.	<id>i. e.</id> <disp>that is.</disp>
+imf.	<id>imf.</id> <disp>imperfect.</disp>
+impers.	<id>impers.</id> <disp>impersonally, impersonal.</disp>
+imv.	<id>imv.</id> <disp>imperative.</disp>
+ind.	<id>ind.</id> <disp>indicative.</disp>
+indecl.	<id>indecl.</id> <disp>indeclinable.</disp>
+indef.	<id>indef.</id> <disp>indefinite.</disp>
+inf.	<id>inf.</id> <disp>infinitive.</disp>
+instr.	<id>instr.</id> <disp>instrumental.</disp>
+intens.	<id>intens.</id> <disp>intensive.</disp>
+interr.	<id>interr.</id> <disp>interrogative.</disp>
+intrans.	<id>intrans.</id> <disp>intransitive, intransitively.</disp>
+irreg.	<id>irreg.</id> <disp>irregularly, irregular.</disp>
+Lat.	<id>Lat.</id> <disp>Latin.</disp>
+lit.	<id>lit.</id> <disp>literally, literal.</disp>
+loc.	<id>loc.</id> <disp>locative.</disp>
+m.	<id>m.</id> <disp>masculine.</disp>
+masc.	<id>masc.</id> <disp>masculine.</disp>
+MBh.	<id>MBh.</id> <disp>Mahābhārata.</disp>
+met.	<id>met.</id> <disp>metaphorically, metaphor.</disp>
+mg	<id>mg</id> <disp>meaning</disp>
+mg.	<id>mg.</id> <disp>meaning</disp>
+mgs	<id>mgs</id> <disp>meanings.</disp>
+mgs.	<id>mgs.</id> <disp>meanings.</disp>
+mid.	<id>mid.</id> <disp>middle.</disp>
+N.	<id>N.</id> <disp>note.</disp>
+n.	<id>n.</id> <disp>neuter.</disp>
+neut.	<id>neut.</id> <disp>neuter.</disp>
+nom.	<id>nom.</id> <disp>nominative.</disp>
+num.	<id>num.</id> <disp>numeral.</disp>
+opp.	<id>opp.</id> <disp>opposed, opposite.</disp>
+opt.	<id>opt.</id> <disp>optative.</disp>
+orig.	<id>orig.</id> <disp>originally, original.</disp>
+pass.	<id>pass.</id> <disp>passive, passively.</disp>
+pcl.	<id>pcl.</id> <disp>particle.</disp>
+perf.	<id>perf.</id> <disp>perfect.</disp>
+pers.	<id>pers.</id> <disp>person, personal.</disp>
+pl.	<id>pl.</id> <disp>plural.</disp>
+poss.	<id>poss.</id> <disp>possibly.</disp>
+ppl.	<id>ppl.</id> <disp>participle.</disp>
+prep.	<id>prep.</id> <disp>preposition.</disp>
+pres.	<id>pres.</id> <disp>present.</disp>
+prob.	<id>prob.</id> <disp>probably, probable.</disp>
+pron.	<id>pron.</id> <disp>pronoun, pronominal.</disp>
+prop.	<id>prop.</id> <disp>properly.</disp>
+q. v.	<id>q. v.</id> <disp>which see.</disp>
+q.v.	<id>q.v.</id> <disp>which see.</disp>
+reg.	<id>reg.</id> <disp>regularly, regular.</disp>
+RV.	<id>RV.</id> <disp>Rigveda, Rigveda Saṃhitā</disp>
+S.	<id>S.</id> <disp>Sūtra.</disp>
+s. v.	<id>s. v.</id> <disp>sub voce.</disp>
+s.	<id>s.</id> <disp>singular.</disp>
+sc.	<id>sc.</id> <disp>scilicet.</disp>
+sing.	<id>sing.</id> <disp>singular.</disp>
+Skt.	<id>Skt.</id> <disp>Sanskrit.</disp>
+subst.	<id>subst.</id> <disp>substantive, substantively.</disp>
+superl.	<id>superl.</id> <disp>superlative.</disp>
+trans.	<id>trans.</id> <disp>transitive, transitively.</disp>
+U. f.	<id>U. f.</id> <disp>uncombined form or forms.</disp>
+vbl.	<id>vbl.</id> <disp>verbal.</disp>
+V.	<id>V.</id> <disp>Vedic, Veda.</disp>
+voc.	<id>voc.</id> <disp>vocative.</disp>
+w.	<id>w.</id> <disp>with.</disp>
+SV.	<id>SV.</id> <disp>Sāmaveda Saṃhitā.</disp>
+AV.	<id>AV.</id> <disp>Atharvaveda Saṃhitā.</disp>
+MS.	<id>MS.</id> <disp>Maitrāyaṇī Saṃhitā.</disp>
+TS.	<id>TS.</id> <disp>Taittirīya Saṃhitā.</disp>
+VS.	<id>VS.</id> <disp>Vājasaneyi Saṃhitā.</disp>
+K.	<id>K.</id> <disp>Kāṭhaka.</disp>
+AB.	<id>AB.</id> <disp>Aitareya Brāhmaṇa.</disp>
+ŚB.	<id>ŚB.</id> <disp>Śatapatha Brāhmaṇa.</disp>
+PB.	<id>PB.</id> <disp>Pañcaviṃśa or Tāṇḍya Br.</disp>
+TA.	<id>TA.</id> <disp>Taittirīya Āraṇyaka.</disp>
+AGS.	<id>AGS.</id> <disp>Aśvalāyana Gṛhya-sūtra.</disp>
+ŚGS.	<id>ŚGS.</id> <disp>Śāṅkhāyana Gṛhya-sūtra.</disp>
+PGS.	<id>PGS.</id> <disp>Pāraskara Gṛhya-sūtra.</disp>
+JASB.	<id>JASB.</id> <disp>Journal of the Asiatic Society of Bengal.</disp>
+JA.	<id>JA.</id> <disp>Journal Asiatique.</disp>
+JRAS.	<id>JRAS.</id> <disp>Journal of the Royal Asiatic Society.</disp>
+JAOS.	<id>JAOS.</id> <disp>Journal of the American Oriental Society.</disp>
+PAOS.	<id>PAOS.</id> <disp>Proceedings of the American Oriental Society.</disp>
+ZDMG.	<id>ZDMG.</id> <disp>Zeitschrift der Deutschen Morgenländischen Gesellschaft.</disp>
+AJP.	<id>AJP.</id> <disp>American Journal of Philology--ed. B. L. Gildersleeve.</disp>
+Ind. Ant.	<id>Ind. Ant.</id> <disp>Indian Antiquary--ed. James Burgess.</disp>
+ISt.	<id>ISt.</id> <disp>Indische Studien--ed. Albrecht Weber.</disp>
+KZ.	<id>KZ.</id> <disp>Zeitschrift für vergleichende Sprachforschung--ed. A. Kuhn.</disp>
+ASL.	<id>ASL.</id> <disp>History of Ancient Sanskrit Literature, by Max Müller.</disp>
+BI.	<id>BI.</id> <disp>Bibliotheca Indica--publ. by the Asiatic Society of Bengal.</disp>
+BR.	<id>BR.</id> <disp>Böhtlingk and Roth's Sanskrit-Wörterbuch--see Brief List, p. xviii, no. 5.</disp>
+GKR.	<id>GKR.</id> <disp>Geldner, Kaegi, and Roth's Siebenzig Lieder--see p. xix, no. 15.</disp>
+HIL.	<id>HIL.</id> <disp>History of Indian Literature, Weber--see p. xx, no. 21.</disp>
+IA.	<id>IA.</id> <disp>Indische Alterthumskunde, by Christian Lassen.</disp>
+ILuC.	<id>ILuC.</id> <disp>Indiens Literatur und Cultur, Schroeder--see p. 359, § 100.</disp>
+OLSt.	<id>OLSt.</id> <disp>Oriental and Linguistic Studies, Whitney--see p. 359, § 100.</disp>
+VP.	<id>VP.</id> <disp>Viṣṇu Purāṇa--Bombay text; or Wilson's translation, ed. 1 or ed. 2 (F. Hall).</disp>
+SBE.	<id>SBE.</id> <disp>Sacred Books of the East--transl. by various scholars and ed. F. Max Müller.</disp>

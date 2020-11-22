@@ -221,6 +221,12 @@ alldictparms = {
   "dictname":u"Aufrecht Catalogus Catalogorum",
   "dictversion":"02",
  },
+"lan": {
+  "dictup":"LAN",
+  "dictlo":"lan",
+  "dictname":u"Lanman Sanskrit Reader Vocabulary",
+  "dictversion":"02",
+ },
 
 }
 

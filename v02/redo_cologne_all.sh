@@ -34,3 +34,4 @@ sh generate_dict.sh vcp  ../../VCPScan/2020/
 sh generate_dict.sh vei  ../../VEIScan/2020/
 sh generate_dict.sh wil  ../../WILScan/2020/
 sh generate_dict.sh yat  ../../YATScan/2020/
+sh generate_dict.sh lan  ../../LANScan/2020/
