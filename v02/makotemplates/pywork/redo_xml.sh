@@ -4,7 +4,7 @@ echo "construct ${dictlo}0.xml..."
 python make_xml.py ../orig/${dictlo}.txt ${dictlo}hw.txt ${dictlo}0.xml # > redoxml_log.txt
 echo "construct ${dictlo}.xml"
 python make_xml_ls.py ${dictlo}0.xml ${dictlo}auth/${dictlo}bib.txt ${dictlo}.xml
-%elif (dictlo == 'mw') and cologne_flag: # use python3
+%elif (dictlo in ['mw','lan']) and cologne_flag: # use python3
 echo "construct ${dictlo}.xml..."
 python3 make_xml.py ../orig/${dictlo}.txt ${dictlo}hw.txt ${dictlo}.xml # > redoxml_log.txt
 %else:
