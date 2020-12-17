@@ -12,13 +12,20 @@
 *:pywork/parseheadline.py:C
 *:pywork/updateByLine.py:C
 ; --------------------------------------------------------------
-; files for updating web/sqlite
+; files for updating web/sqlite. 
+;  Use Python sqlite rather than sqlite3
 ; --------------------------------------------------------------
-*:pywork/sqlite/def.sql:T
-*:pywork/sqlite/make_input.php:T
 *:pywork/sqlite/redo.sh:T
-; change redo.sh to delete input.txt
-;*:pywork/sqlite/input.txt:D
+*:pywork/sqlite/sqlite.py:C
+; --------------------------------------------------------------
+; files for updating web/sqlite.  OLD - changed 12-16-2020
+; All but redo.sh now Deleted (formerly T (template))
+; D indicates these files will be deleted in the target dictionary
+; directories, if present. This is to remove unused code.
+; --------------------------------------------------------------
+*:pywork/sqlite/def.sql:D
+*:pywork/sqlite/make_input.php:D
+;  *:pywork/sqlite/redo.sh:T
 ; --------------------------------------------------------------
 ; files for update webtc2/query_dump.txt
 ; --------------------------------------------------------------
