@@ -87,11 +87,16 @@ def init_inventory_distinct(filein,dictcode):
  """
  ans = []
  with codecs.open(filein,"r","utf-8") as f:
-  for x in f:
+  for ix,x in enumerate(f):
    if x.startswith(';'): # comment
     continue 
    x = x.rstrip('\r\n')
-   (dictcodes_str,filename_template_str,category) = x.split(':')
+   try:
+    (dictcodes_str,filename_template_str,category) = x.split(':')
+   except:
+    print('ERROR parsing',filein,'at line',ix+1)
+    print('line=',x)
+    exit(1)
    # does our dictcode parameter match the dictcodes_str parameter?
    in_dictcode_inventory = False  
    if dictcodes_str == '*':
