@@ -10,7 +10,7 @@ installations from repositories.
 * csl-kale
 * csl-apidev
 
-
+ 
 ## repository requirements
 The generate_dict.sh script requires local copies of 3 repositories:
 
