@@ -19,7 +19,7 @@ bd.	<id>bd.</id> <disp>bouddhique</disp>
 Bd.	<id>bd.</id> <disp>bouddhique</disp>
 bot.	<id>bot.</id> <disp>botanique</disp>
 c-à-d.	<id>c-à-d.</id> <disp>c’est-à-dire</disp>
-c. à d.	<id>c-à-d.</id> <disp>c’est-à-dire</disp>
+c.-à-d.	<id>c.-à-d.</id> <disp>c’est-à-dire</disp>
 c.	<id>c.</id> <disp>causatif</disp>
 cf.	<id>cf.</id> <disp>comparez; confer</disp>
 Cf.	<id>Cf.</id> <disp>Comparez; Confer</disp>
