@@ -697,32 +697,22 @@ def make_xml(filedig,filehw,fileout):
   try:
    root = ET.fromstring(xmlstring)
   except:
-%if dictlo not in ['sch','wil','ap90','acc','yat']:
-   outarr = []
+   # 01-09-2021. Remove conditional err messaging
+   # since some Python versions (e.g. 2.7.5) give false occasions
    nerr = nerr + 1
-   out = "<!-- xml error #%s: L = %s, hw = %s-->" %(nerr,hwrec.L,hwrec.k1)
-   outarr.append(out)
-   outarr.append("datalines = ")
-   outarr = outarr + datalines
-   outarr.append("xmlstring=")
-   outarr.append(xmlstring)
-   outarr.append('')
-   for out in outarr:
-    print(out)
-   #exit(1) continue
-%endif
-%if dictlo in ['sch','acc','yat']:
-   out = "xml error: n=%s,m line=\n%s\n" %(nout+1,xmlstring)
-   print(out)
-   exit(1)
-%endif
-%if dictlo in ['wil','ap90']:
-   out = "xml error: n=%s,m line=\n%s\n" %(nout+1,xmlstring)
-   print(out)
-   fout.write(xmlstring + '\n')
-   fout.close()
-   exit(1)
-%endif
+   # For debugging, change False to True
+   if False:
+    outarr = []
+    out = "<!-- xml error #%s: L = %s, hw = %s-->" %(nerr,hwrec.L,hwrec.k1)
+    outarr.append(out)
+    outarr.append("datalines = ")
+    outarr = outarr + datalines
+    outarr.append("xmlstring=")
+    outarr.append(xmlstring)
+    outarr.append('')
+    for out in outarr:
+     print(out)
+    #exit(1) continue
   # write output
   fout.write(xmlstring + '\n')
   nout = nout + 1
@@ -731,7 +721,10 @@ def make_xml(filedig,filehw,fileout):
  out = "</%s>\n" % xmlroot
  fout.write(out)
  fout.close()
-
+ if (nerr == 0):
+  print("All records parsed by ET")
+ else:
+  print("WARNING: make_xml.py:",nerr,"records records not parsed by ET")
 if __name__=="__main__":
  filein = sys.argv[1] # xxx.txt
 %if dictlo != 'mw':

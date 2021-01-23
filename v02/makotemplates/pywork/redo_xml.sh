@@ -1,7 +1,14 @@
 echo "BEGIN redo_xml.sh"
 %if dictlo in ['pw','pwg']:
 echo "construct ${dictlo}0.xml..."
+## 01-05-2021
+## make_xml.py requires python3 at Cologne
+## Otherwise it is python 2.7.5, which generates false error messages from ET
+%if cologne_flag: 
+python3 make_xml.py ../orig/${dictlo}.txt ${dictlo}hw.txt ${dictlo}0.xml # > redoxml_log.txt
+%else:
 python make_xml.py ../orig/${dictlo}.txt ${dictlo}hw.txt ${dictlo}0.xml # > redoxml_log.txt
+%endif
 echo "construct ${dictlo}.xml"
 python3 make_xml_ls.py ${dictlo}0.xml ${dictlo}auth/${dictlo}bib.txt ${dictlo}.xml
 ##%elif (dictlo in ['mw','lan']) and cologne_flag: # use python3
