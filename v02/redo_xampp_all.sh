@@ -33,3 +33,4 @@ sh generate_dict.sh vei  ../../vei
 sh generate_dict.sh wil  ../../wil
 sh generate_dict.sh yat  ../../yat
 sh generate_dict.sh lan  ../../lan
+
