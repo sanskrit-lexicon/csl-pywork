@@ -9,11 +9,11 @@ import sys, re,codecs
 from hwparse import init_hwrecs,HW
 xmlroot = HW.dictcode
 
-%if dictlo in ['skd','vcp']:
+%if dictlo in ['skd','vcp','armh']:
 def adjust_slp1(x):
  # in skd, all text is Devanagari.  But, the text is skd.txt does not use
 %endif
-%if dictlo not in ['skd','vcp','sch','md','shs','wil','ap90','bur','acc','yat']:
+%if dictlo not in ['skd','vcp','sch','md','shs','wil','ap90','bur','acc','yat','armh']:
 def unused_adjust_slp1(x):
  # in vcp, all text is Devanagari.  But, the text is vcp.txt does not use
 %endif
@@ -114,6 +114,10 @@ def dig_to_xml_specific(x):
  x = re.sub(r'{\^(.*?)\^}',r'<sup>\1</sup>',x)
 %endif
 %if dictlo in ['vcp']:
+ x = adjust_slp1(x) # add <s> markup to text
+%endif
+%if dictlo in ['armh']:
+ x = re.sub(r'(.)$', '\g<1><br/>', x)
  x = adjust_slp1(x) # add <s> markup to text
 %endif
  return x
