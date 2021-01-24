@@ -7,7 +7,7 @@ from __future__ import print_function
 import xml.etree.ElementTree as ET
 import sys, re,codecs
 from hwparse import init_hwrecs,HW
-xmlroot = HW.dictcode  
+xmlroot = HW.dictcode
 
 %if dictlo in ['skd','vcp']:
 def adjust_slp1(x):
@@ -17,7 +17,7 @@ def adjust_slp1(x):
 def unused_adjust_slp1(x):
  # in vcp, all text is Devanagari.  But, the text is vcp.txt does not use
 %endif
-%if dictlo not in ['sch','md','shs','wil','ap90','bur','acc','yat']: 
+%if dictlo not in ['sch','md','shs','wil','ap90','bur','acc','yat']:
  #  the {#..#} markup to denote Devanagari.
  # We want to add <s>..</s> markup.
  # This requires that we separate out other markup  (always in form
@@ -25,10 +25,10 @@ def unused_adjust_slp1(x):
  outarr = []
  import string
  regex = r'(<[^>]+>)|(\[Page.*?\])|([^%s])' %string.printable
- parts = re.split(regex,x) 
- for part in parts: 
-  if not part: #why needed? 
-   pass 
+ parts = re.split(regex,x)
+ for part in parts:
+  if not part: #why needed?
+   pass
   elif part.startswith('<') and part.endswith('>'):
    outarr.append(part)
   elif part.startswith('[Page') and part.endswith(']'):
@@ -136,7 +136,7 @@ def dig_to_xml_specific(x):
  # in AP, ‡ is used in Devanagari text to indicate a line-break hyphen
  # This is different from the usage of this symbol in AP90.
  # Replace with '-'
- x = re.sub(u'‡','-',x) 
+ x = re.sub(u'‡','-',x)
  # in ap.txt, the Currency symbol € is markup indicating a root. It has no
  # correspondent in the printed text. About 3000+ instances.
  # For now, replace it with an empty '<root/>' element, and do not display
@@ -144,9 +144,9 @@ def dig_to_xml_specific(x):
  x = x.replace(u'€','<root/>')
  # Divisions are indicated by lines starting with a period.
  # Three types are seen:
- # .{#-BaH#}   
+ # .{#-BaH#}
  # .²1 Absence  ...
- # .³({%a%})    
+ # .³({%a%})
  if re.search(u'^[.][²]',x):
  # there may be nothing else on the line (300+ cases), in particular no space
  # do same thing anyway, not requiring the trailing space.
@@ -181,24 +181,24 @@ def dig_to_xml_specific(x):
   and <C n="..."/>
  """
  x = re.sub(r'<>','<lb/>',x) # <lb/>
- # <P> seems to indicate that the line is indented. 
- x = re.sub(r'<P>','<mark n="P"/>',x) # 
- x = re.sub(r'<Picture>','<mark n="Picture"/>',x)  
+ # <P> seems to indicate that the line is indented.
+ x = re.sub(r'<P>','<mark n="P"/>',x) #
+ x = re.sub(r'<Picture>','<mark n="Picture"/>',x)
  if re.search(r'^<H>',x):
-  # There are many case. 
+  # There are many case.
   # In the preparation of meta-line version, some (noticeably letter-breaks)
   # have been put OUTSIDE of the <L>...<LEND> scope which we are parsing
   # here.  The other <H> indicate intermediate titles. But it seems safer
-  # to view them now as EMPTY tags, rather than divs. That is the 
+  # to view them now as EMPTY tags, rather than divs. That is the
   # purpose of the <mark n="..."/> tag.
-  x = re.sub(r'<H>','<mark n="H"/>',x)  
+  x = re.sub(r'<H>','<mark n="H"/>',x)
 
   #print("Unexpected <H>:",x)
  # text has <F>...</F> five cases
  # This is the only 'div' markup used.
  # We close the div HERE, and do NOT call close_divs function
  x = re.sub(r'<F>','<div n="F">',x) # 5 cases in skd: Footnote
- x = re.sub(r'</F>','</div>',x) 
+ x = re.sub(r'</F>','</div>',x)
  # markup like <C1>x1<C2>x2...  indicates tabular data in skd.
  x = re.sub(r'<C([0-9]+)>',r'<C n="\1"/>',x)
  # change '--' to mdash
@@ -242,7 +242,7 @@ def dig_to_xml_specific(x):
 def dig_to_xml_specific(x):
  """ changes particular to digitization"""
  # we maintain line breaks and don't put in divs.
- #  the pattern <b>-   is a promising pattern for a div 
+ #  the pattern <b>-   is a promising pattern for a div
  #  but there are two many variations for which this does not
  #  render properly. Thus we postpone this enhancement for now.
  # and retain line-breaks.
@@ -289,7 +289,7 @@ def dig_to_xml_specific(x):
 def dig_to_xml_specific(x):
  """ no changes particular to digitization"""
  return x
-%endif 
+%endif
 %if dictlo == 'wil':
 def dig_to_xml_specific(x):
  """ changes particular to digitization"""
@@ -302,7 +302,7 @@ def dig_to_xml_specific(x):
   # and start <div n="1">
   x = '<div n="1">' + x[2:]
  elif re.search(r'^[.]E[.]',x):
-  # an Etymology division 
+  # an Etymology division
   # drop the initial '.'
   # and start <div n="E">
   x = '<div n="E">' + x[1:]
@@ -318,7 +318,7 @@ def dig_to_xml_specific(x):
  # <div n="2">
  x = re.sub(r'[\^]','<div n="2">',x)
  return x
-%endif 
+%endif
 %if dictlo == 'ap90':
 def dig_to_xml_specific(x):
  """ changes particular to ap90 digitization"""
@@ -388,7 +388,7 @@ def dig_to_xml_general(x):
  # xml requires that an ampersand be represented by &amp; entity
  x = x.replace('&','&amp;')
  # remove broken bar.  In xxx.txt, this usu. indicates a headword end
- x = x.replace(u'¦',' ') 
+ x = x.replace(u'¦',' ')
  # bold, italic, and Sanskrit markup converted to xml forms.
 %if dictlo in ['ben','ccs','mci','stc','bhs','gra','pe','gst','ieg','mwe','pgn','pui','vei','pd','mw72','snp','bor','krm','inm','skd','bop','vcp']:
  # These are not applicable to vcp, but do no harm
@@ -448,7 +448,7 @@ def close_divs(line):
  # we assume this closure already done
  return line
 %endif
-%if dictlo == 'sch':  
+%if dictlo == 'sch':
  divregex = r'<div>' # sch has '<div>' with no attributes.
 %else:
  divregex = r'<div[^>]*?[^/]>'
@@ -459,12 +459,12 @@ def close_divs(line):
  ans = [] # strings parts of data
  idx0 = 0
  # div can have attribute
- for m in re.finditer(divregex,line): 
+ for m in re.finditer(divregex,line):
    idx1=m.start()
    idx2 = m.end()
    line1 = line[idx0:idx1] # text preceding this div
    ans.append(line1)
-   if idx0 != 0: 
+   if idx0 != 0:
     # close the previous div
     ans.append('</div>')
    # include this div
@@ -472,10 +472,10 @@ def close_divs(line):
    ans.append(linediv)
    idx0 = idx2 # reset for next iteration
  # construct string for all text in line upto position idx0
- new = ''.join(ans) 
+ new = ''.join(ans)
  # The last div will not be closed
- rest = line[idx0:]  
- # We can assume that rest contains 
+ rest = line[idx0:]
+ # We can assume that rest contains
  # <type>*</type></body> -> </div><type>*</type></body>
  # (no type)</body> -> </div></body>
  if re.search(r'(<type>.*?</type>)</body>',rest):
@@ -583,13 +583,13 @@ def construct_xmlstring(datalines,hwrec):
  datalines1 = []
  # 1. h (head)
  h = construct_xmlhead(hwrec)
- dbgout(dbg,"head: %s" % h)  
+ dbgout(dbg,"head: %s" % h)
  #2. construct tail
  tail = construct_xmltail(hwrec)
- dbgout(dbg,"tail: %s" % tail)  
+ dbgout(dbg,"tail: %s" % tail)
  #3. construct body
 #%if dictlo in ['sch','ap90']:
-%if dictlo in ['sch']:  
+%if dictlo in ['sch']:
  # To mimic current display of Sch, we remove the 'head' from first line:
  for i,x in enumerate(datalines):
   if i == 0:
@@ -673,7 +673,7 @@ def make_xml(filedig,filehw,fileout):
  # slurp txt file into list of lines
  with codecs.open(filein,encoding='utf-8',mode='r') as f:
     inlines = [line.rstrip('\r\n') for line in f]
- # parse xxxhw.txt 
+ # parse xxxhw.txt
  hwrecs = init_hwrecs(filehw)
  # open output xml file
  fout = codecs.open(fileout,'w','utf-8')
@@ -686,7 +686,7 @@ def make_xml(filedig,filehw,fileout):
  # process hwrecs records one at a time and generate output
  nerr = 0
  for ihwrec,hwrec in enumerate(hwrecs):
-  if ihwrec > 1000000: # 12 
+  if ihwrec > 1000000: # 12
    print("debug stopping")
    break
   datalines = get_datalines(hwrec,inlines)
