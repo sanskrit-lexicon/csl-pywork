@@ -5,9 +5,9 @@ python3 hw.py ../orig/${dictlo}.txt hwextra/${dictlo}_hwextra.txt ${dictlo}hw.tx
 python3 hw2.py ${dictlo}hw.txt ${dictlo}hw2.txt
 python3 hw0.py ${dictlo}hw.txt ${dictlo}hw0.txt
 %else: 
-python hw.py ../orig/${dictlo}.txt hwextra/${dictlo}_hwextra.txt ${dictlo}hw.txt
-python hw2.py ${dictlo}hw.txt ${dictlo}hw2.txt
-python hw0.py ${dictlo}hw.txt ${dictlo}hw0.txt
+python3 hw.py ../orig/${dictlo}.txt hwextra/${dictlo}_hwextra.txt ${dictlo}hw.txt
+python3 hw2.py ${dictlo}hw.txt ${dictlo}hw2.txt
+python3 hw0.py ${dictlo}hw.txt ${dictlo}hw0.txt
 %endif
 # both hw2.txt and hw0.txt are easily constructed from hw.txt
 # not clear, therefore, that either hw2.txt or hw0.txt is needed directly

@@ -14,4 +14,4 @@ if [ -z "$1" ] || [ -z "$2" ]
     outdir=$2
 fi
 
- python generate.py "$dict" inventory.txt  makotemplates distinctfiles/${dict} $outdir
+ python3 generate.py "$dict" inventory.txt  makotemplates distinctfiles/${dict} $outdir

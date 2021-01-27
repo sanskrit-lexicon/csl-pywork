@@ -227,7 +227,11 @@ alldictparms = {
   "dictname":u"Lanman Sanskrit Reader Vocabulary",
   "dictversion":"02",
  },
+"armh": {
+  "dictup":"ARMH",
+  "dictlo":"armh",
+  "dictname":u"Abhidhānaratnamālā of Halāyudha",
+  "dictversion":"02",
+ },
 
 }
-
-

@@ -19,5 +19,5 @@ dictup=${dict^^} # Uppercase
 
 #python generate.py "$dict" inventory_orig.txt _ '../../csl-orig/v00/csl-data/${dictup}Scan/2020' $outdir
 
-python generate.py "$dict" inventory_orig.txt _ '../../csl-orig/v02/${dictlo}' $outdir
+python3 generate.py "$dict" inventory_orig.txt _ '../../csl-orig/v02/${dictlo}' $outdir
 
