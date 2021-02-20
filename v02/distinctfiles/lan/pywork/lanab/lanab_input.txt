@@ -44,6 +44,7 @@ gen.	<id>gen.</id> <disp>genitive.</disp>
 Ger.	<id>Ger.</id> <disp>German.</disp>
 Goth.	<id>Goth.</id> <disp>Gothic.</disp>
 grd.	<id>grd.</id> <disp>gerund.</disp>
+grd	<id>grd</id> <disp>gerund</disp>
 grdv.	<id>grdv.</id> <disp>gerundive.</disp>
 Hdt.	<id>Hdt.</id> <disp>Herodotus.</disp>
 ident.	<id>ident.</id> <disp>identical.</disp>
@@ -107,6 +108,7 @@ superl.	<id>superl.</id> <disp>superlative.</disp>
 trans.	<id>trans.</id> <disp>transitive, transitively.</disp>
 U. f.	<id>U. f.</id> <disp>uncombined form or forms.</disp>
 vbl.	<id>vbl.</id> <disp>verbal.</disp>
+vbl	<id>vbl</id> <disp>verbal</disp>
 V.	<id>V.</id> <disp>Vedic, Veda.</disp>
 voc.	<id>voc.</id> <disp>vocative.</disp>
 w.	<id>w.</id> <disp>with.</disp>
