@@ -28,7 +28,7 @@ Metron.	<id>Metron.</id> <disp>Metronym - metronym</disp>
 N.	<id>N.</id> <disp>Namen? - name</disp>
 N.ag.	<id>N.ag.</id> <disp>? - ?</disp>
 N.pr.	<id>N.pr.</id> <disp>Nomen proprium? - proper noun</disp>
-Nom.	<id>Nom.</id> <disp>Nomen? - noun</disp>
+Nom.	<id>Nom.</id> <disp>Nominativ - nominative (case)</disp>
 Nom.abstr.	<id>Nom.abstr.</id> <disp>Nomen abstractum - abstract noun</disp>
 Nom.ag.	<id>Nom.ag.</id> <disp>Nomen agentis - nomen agentis</disp>
 Nomin.	<id>Nomin.</id> <disp>Nominativ - nominative (case)</disp>
