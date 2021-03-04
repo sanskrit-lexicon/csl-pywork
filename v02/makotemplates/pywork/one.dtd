@@ -112,6 +112,7 @@ H1B | H2B | H3B | H4B | H1C | H2C | H3C | H4C | H1E | H2E | H3E | H4E)*>
 <!ATTLIST info verb (root|genuineroot|pre|gati|nom) #IMPLIED >
 <!ATTLIST info westergaard CDATA #IMPLIED >
 <!ATTLIST info whitneyroots CDATA #IMPLIED >
+<!ATTLIST info pc CDATA #IMPLIED >
 
 <!ATTLIST mark n (P | H | Picture) #REQUIRED>
 <!ATTLIST edit type (hw) #REQUIRED>
