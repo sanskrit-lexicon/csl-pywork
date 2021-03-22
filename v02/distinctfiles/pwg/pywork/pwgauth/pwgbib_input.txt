@@ -519,6 +519,7 @@
 4.012	RATNAG.	Ratnag.	RATNAG. = ĀRYAPRAJÑĀPĀRAMITĀRATNAGUṆASAM̃CAYAGĀTHĀ, handschriftlich<lb>im Asiat. Museum der Kais. Akad. d. Ww. in St. Petersburg, nach<lb>Mittheilungen von A. SCHIEFNER.
 4.013	RATNĀVAD.	Ratnāvad.	RATNĀVAD. = RATNĀVADĀNAMĀLĀ, handschriftlich in der Kais. Bibl. zu<lb>Paris, nach Mittheilungen von A. SCHIEFNER.
 4.014	SAṂSK. K.	Saṃsk. K.	SAṂSK. K. = SAṂSKĀRAKAUSTUBHA von ANANTADEVA. Lith. Ausg. in folio<lb>ohne Angabe des Ortes und des Yahres.
+c.2117	Spr. (II)	SPR. (II)	Indische Sprüche. Sanskrit und Deutsch. Herausgegeben von Otto Böhtlingk. Zweite vermehrte und verbesserte Auflage. 1870-1873
 4.016	Spr.	Spr.	Spr. = Indische Sprüche. Sanskrit und deutsch herausgegeben von Otto BÖHTLINGK. St. Petersburg, 1863. 1864.
 4.017	WEBER, JYOT.	Weber, Jyot.	WEBER, JYOT. = WEBER, Ueber den Vedakalender, Namens Jyoti- ṣam. Berlin, 1862.
 4.018	WEBER, Nakṣ.	Weber, Nakṣ.	WEBER, Nakṣ. = WEBER, Die vedischen Nachrichten von den Nakṣatra (Mondstationen). Berlin, 1860. 1862.

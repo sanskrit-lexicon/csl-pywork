@@ -519,6 +519,7 @@
 4.012 <HI code="RATNAG." iast="RATNAG.">RATNAG. = ĀRYAPRAJÑĀPĀRAMITĀRATNAGUṆASAM̃CAYAGĀTHĀ, handschriftlich<lb iast="RATNAG.">im Asiat. Museum der Kais. Akad. d. Ww. in St. Petersburg, nach<lb iast="RATNAG.">Mittheilungen von A. SCHIEFNER.
 4.013 <HI code="RATNA10VAD." iast="RATNĀVAD.">RATNĀVAD. = RATNĀVADĀNAMĀLĀ, handschriftlich in der Kais. Bibl. zu<lb iast="RATNĀVAD.">Paris, nach Mittheilungen von A. SCHIEFNER.
 4.014 <HI code="SAM5SK. K." iast="SAṂSK. K.">SAṂSK. K. = SAṂSKĀRAKAUSTUBHA von ANANTADEVA. Lith. Ausg. in folio<lb iast="SAṂSK. K.">ohne Angabe des Ortes und des Yahres.
+c.2117 <HI code="Spr. (II)" iast="Spr. (II)"> Indische Sprüche. Sanskrit und Deutsch. Herausgegeben von Otto Böhtlingk. Zweite vermehrte und verbesserte Auflage. 1870-1873 [Cologne Addition]
 4.016 <HI code="Spr." iast="Spr.">Spr. = Indische Sprüche. Sanskrit und deutsch herausgegeben von<lb>Otto BÖHTLINGK. St. Petersburg, 1863. 1864.
 4.017 <HI code="WEBER, G4JOT." iast="WEBER, JYOT.">WEBER, JYOT. = WEBER, Ueber den Vedakalender, Namens Jyoti-<lb>ṣam. Berlin, 1862.
 4.018 <HI code="WEBER, Nax." iast="WEBER, Nakṣ.">WEBER, Nakṣ. = WEBER, Die vedischen Nachrichten von den Nakṣatra<lb>(Mondstationen). Berlin, 1860. 1862.
