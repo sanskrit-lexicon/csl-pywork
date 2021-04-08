@@ -1,0 +1,74 @@
+Abl.	<id>Abl.</id> <disp>Ablativ - ablative (case)</disp>
+Absol.	<id>Absol.</id> <disp>Absolutiv - absolutive </disp>
+Augm.	<id>Augm.</id> <disp>Augment - augment</disp>
+Acc.	<id>Acc.</id> <disp>Accusativ - accusative (case)</disp>
+A.	<id>A.</id> <disp>Accusativ - accusative (case)</disp>
+act.	<id>act.</id> <disp>Activ - active </disp>
+Adv.	<id>Adv.</id> <disp>Adverb - adverb</disp>
+adv.	<id>adv.</id> <disp>adverbial? - adverbial</disp>
+Aor.	<id>Aor.</id> <disp>Aorist - aorist</disp>
+Bed.	<id>Bed.</id> <disp>Bedeutung(en) - meanings</disp>
+Caus.	<id>Caus.</id> <disp>Causativ - causative</disp>
+Conj.	<id>Conj.</id> <disp>Conjunctiv - subjunctive (mood)</disp>
+dass.	<id>dass.</id> <disp>dasselbe - the same</disp>
+Dat.	<id>Dat.</id> <disp>Dativ - dative (case)</disp>
+Denom.	<id>Denom.</id> <disp>Denominativ? - denominative</disp>
+Desid.	<id>Desid.</id> <disp>Desiderativ - desiderative</disp>
+du.	<id>du.</id> <disp>Dual - dual </disp>
+Gen.	<id>Gen.</id> <disp>Genitiv - genitive (case)</disp>
+G.	<id>G.</id> <disp>Genitiv - genitive (case)</disp>
+Inf.	<id>Inf.</id> <disp>Infinitiv - infinitive</disp>
+Infin.	<id>Infin.</id> <disp>Infinitiv - infinitive</disp>
+Instr.	<id>Instr.</id> <disp>Instrumental - instrumental (case)</disp>
+I.	<id>I.</id> <disp>Instrumental - instrumental (case)</disp>
+Intens.	<id>Intens.</id> <disp>Intensiv - intensive</disp>
+Loc.	<id>Loc.</id> <disp>Locativ - locative case</disp>
+L.	<id>L.</id> <disp>Locativ - locative case</disp>
+Med.	<id>Med.</id> <disp>Medium - ātmanepada</disp>
+med.	<id>med.</id> <disp>Medium - ātmanepada</disp>
+Metr.	<id>Metr.</id> <disp>Meter - metre require</disp>
+N.	<id>N.</id> <disp>Name/Nominativ - name/nominative</disp>
+Nom.	<id>Nom.</id> <disp>Nominativ - noun</disp>
+Partic.	<id>Partic.</id> <disp>Participium - participle</disp>
+Part.	<id>Part.</id> <disp>Participium - participle</disp>
+Pass.	<id>Pass.</id> <disp>Passiv - passive</disp>
+Patron.	<id>Patron.</id> <disp>Patronym - patronym</disp>
+Perf.	<id>Perf.</id> <disp>Perfekt - perfect tense</disp>
+Pl.	<id>Pl.</id> <disp>Plural - plural</disp>
+pl.	<id>Pl.</id> <disp>Plural - plural</disp>
+Präp.	<id>Präp.</id> <disp>Präposition - preposition</disp>
+Sing.	<id>Sing.</id> <disp>Singular - singular</disp>
+Subst.	<id>Subst.</id> <disp>Substantiv - noun</disp>
+subst.	<id>subst.</id> <disp>Substantiv - noun</disp>
+Vgl.	<id>Vgl.</id> <disp>Vergleiche - compare</disp>
+vgl.	<id>vgl.</id> <disp>Vergleiche - compare</disp>
+Voc.	<id>Voc.</id> <disp>Vocativ - vocative (case)</disp>
+Adj.	<id>Adj.</id> <disp>Adjectiv - adjective</disp>
+adj.	<id>adj.</id> <disp>adjectivisch - adjective</disp>
+f.	<id>f.</id> <disp>femininum - feminine</disp>
+m.	<id>m.</id> <disp>masculinum - masculine</disp>
+n.	<id>n.</id> <disp>neutrum - neuter</disp>
+pron.	<id>pron.</id> <disp>Pronomen - pronoun</disp>
+me.	<id>me.</id> <disp>Medium - ātmanepada</disp>
+st.	<id>st.</id> <disp>stadt - instead of</disp>
+urspr.	<id>urspr.</id> <disp>ursprünglich - originally</disp>
+neutr.	<id>neutr.</id> <disp>neutrum - neuter</disp>
+u. s. w.	<id>u. s. w.</id> <disp>und so weiter - and so on</disp>
+v.	<id>v.</id> <disp>von - from</disp>
+p.	<id>p.</id> <disp>proprium - Nomen propium</disp>
+u.	<id>u.</id> <disp>und - and</disp>
+ähnl.	<id>ähnl.</id> <disp>ähnlich - similar</disp>
+od.	<id>od.</id> <disp>oder - or</disp>
+s.	<id>s.</id> <disp>sehe - see</disp>
+Iv.	<id>Iv.</id> <disp>?</disp>
+Impv.	<id>Impv.</id> <disp>Imperativ - imperative</disp>
+Praes.	<id>Praes.</id> <disp>Praesens - present</disp>
+Ind.	<id>Ind.</id> <disp>Indicativ - indicative</disp>
+Indic.	<id>Indic.</id> <disp>Indicativ - indicative</disp>
+pag.	<id>pag.</id> <disp>pagination - page</disp>
+Cu.	<id>Cu.</id> <disp>?</disp>
+C.	<id>C.</id> <disp>Causativ - causative</disp>
+lat.	<id>lat.</id> <disp>lateinisch - latin</disp>
+goth.	<id>goth.</id> <disp>gothisch - gothic</disp>
+Impf.	<id>Impf.</id> <disp>Imperfekt  - imperfect</disp>
+Imperf.	<id>Imperf.</id> <disp>Imperfekt  - imperfect</disp>
