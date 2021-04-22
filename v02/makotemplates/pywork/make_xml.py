@@ -328,12 +328,22 @@ def dig_to_xml_specific(x):
  """ changes particular to ap90 digitization"""
  # introduce '<div>' before each EM DASH
  #x = x.replace(u'—',u'<div>—')
+ x = re.sub(r'^<>--([0-9])',r'<div n="1"/>— \1',x)
  x = x.replace('<>','<lb/>')
+ x = re.sub(r' --([0-9][.])',r' <div n="1"/>— \1',x)
  x = x.replace('<P>','<P/>')
  if '<H>' in x:  # this has been removed (20170701)
   print("Skipping",x)
   x = ''
  x = x.replace('<NI>','<P/>') # under kAlidAsa in Appendix II
+ # 04-21-2021.  Code formerly in basicadjust.php (— is mdash = &#x2014;
+ x = x.replace('<P/>','<div n="P"/>')
+ x = x.replace('<b>--','<div n="1"/><b>— ')
+ x = x.replace('<s>--','<div n="1"/><b>—</b> <s>')
+ x = x.replace('<i>--','<div n="1"/><i>— ')
+ x = re.sub(r'--([IV]+[.])',r'<div n="1"/>— \1',x)
+ #remaining -- to mdash
+ x = x.replace('--',u'— ')  
  return x
 %endif
 %if dictlo == 'bur':
