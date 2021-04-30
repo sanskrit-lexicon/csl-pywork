@@ -1,4 +1,4 @@
-Ait Br.	Aitareya Brāhmaṇa (Bombay).
+Ait. Br.	Aitareya Brāhmaṇa (Bombay).
 Ak.	Amarakoṣa.
 A. L.	Ānandalaharī.
 Amaru.	Amaruśataka.
@@ -26,8 +26,8 @@ Bṛ. Kath.	Bṛhatkathā.
 Br. Sūt.	Brahmasūtras.
 Bṛ. Up.	Bṛhadāraṇyakopaniṣad.
 Bv.	Bhāminīvilāsa (Bombay).
-Caṇḍ K.	Caṇḍakauśika.
-Cand M.	Chandomañjarī.
+Caṇḍ. K.	Caṇḍakauśika.
+Cand. M.	Chandomañjarī.
 Chandr.	Candrāloka.
 Chāṇ.	Cāṇakyaśataka.
 Chāt.	Cātakāṣṭaka (in two parts.)
@@ -54,6 +54,7 @@ Halāy.	Halāyudha.
 Hariv.	Harivaṃśa.
 Hch.	Harṣacarita.
 H. D.	Haṃsadūta.
+H. Pr.	?
 Hem.	Hemacandra.
 Iśop.	Īśopaniṣad.
 J. N. V.	Jaiminīyanyāyamālāvistara (Goldstücker’s Edition).
@@ -62,7 +63,7 @@ Kām.	Kāmandakinītisāra.
 Kāśi.	Kāśikāvṛtti (Benares).
 Karpūr.	Karpūramañjarī (published in the Kāvyamālā).
 Kaṭh.	Kaṭhopaniṣad.
-Kāṭh.	Kātyāyana.
+Kāty.	Kātyāyana.
 Kauś.	Kauśikasūtra.
 Kaus. Br.	Kauṣītaki Brāhmaṇa.
 Kaus. Up.	Kauṣītakyupaniṣad.
@@ -105,6 +106,7 @@ Nalod.	Nalodaya.
 Nir.	Nirukta.
 Nīti.	Nītisāra.
 Nītipr.	Nītipradīpa.
+Nyāya S.	?
 P.	Pāṇini’s Aṣṭādhyāyī.
 Pad. D.	Padāṅkadūta.
 P. P.	Pārvatīpariṇaya.
@@ -127,6 +129,7 @@ Rv.	Ṛgveda (Max Müller’s Edition).
 Sān. K.	Sāṃkhyakārikā.
 Sāṃkhya K.	Sāṃkhyakārikā.
 Sān. S.	Sāṃkhyasūtra.
+Śānti.	?
 Sar. K.	Sarasvatīkaṇṭhābharaṇa.
 Sarva. S.	Sarvadarśanasaṃgraha.
 Sar. S.	Sarvadarśanasaṃgraha.
@@ -152,6 +155,7 @@ Sūrya S.	Sūryasiddhānta.
 Suśr.	Suśruta.
 Sv.	Sāmaveda.
 Śvet. Up.	Śvetāśvataropaniṣad.
+Taitt. Up.	Taittirīya Upaniṣad.
 Tarka K.	Tarkakaumudī (Bombay).
 Trik.	Trikāṇḍaśeṣa.
 T. S.	Tarkasaṃgraha (Bombay).
