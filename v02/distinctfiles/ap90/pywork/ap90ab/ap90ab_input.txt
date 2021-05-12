@@ -14,9 +14,13 @@ Bah.	<id>Bah.</id> <disp>Bahuvrīhi.</disp>
 Caus.	<id>Caus.</id> <disp>Causal.</disp>
 cf.	<id>cf.</id> <disp>Compare.</disp>
 Com.	<id>Com.</id> <disp>Commentary.</disp>
+compar.	<id>compar.</id> <disp>Comparative</disp>
+Compar.	<id>Compar.</id> <disp>Comparative</disp>
 comp.	<id>comp.</id> <disp>Compound.</disp>
 dat.	<id>dat.</id> <disp>Dative.</disp>
 Den.	<id>Den.</id> <disp>Denominative.</disp>
+Denom.	<id>Denom.</id> <disp>Denominative.</disp>
+denom.	<id>Denom.</id> <disp>Denominative.</disp>
 desid.	<id>desid.</id> <disp>Desiderative.</disp>
 du.	<id>du.</id> <disp>Dual.</disp>
 e. g.	<id>e. g.</id> <disp>Exempli gratia, for example.</disp>
@@ -52,6 +56,7 @@ n.	<id>n.</id> <disp>Neuter.</disp>
 N.	<id>N.</id> <disp>Name.</disp>
 N. B.	<id>N. B.</id> <disp>nota bene = Note well</disp>
 Nom.	<id>Nom.</id> <disp>Nominative.</disp>
+nom.	<id>nom.</id> <disp>Nominative.</disp>
 num. a.	<id>num. a.</id> <disp>Numeral adjective.</disp>
 oft.	<id>oft.</id> <disp>Often times.</disp>
 opp.	<id>opp.</id> <disp>Opposite of.</disp>
@@ -68,13 +73,17 @@ pron. a.	<id>pron. a.</id> <disp>Pronominal adjective.</disp>
 q. v.	<id>q. v.</id> <disp>quod vide, which see.</disp>
 Rhet.	<id>Rhet.</id> <disp>Rhetoric.</disp>
 sing.	<id>sing.</id> <disp>Singular.</disp>
+Sing.	<id>Sing.</id> <disp>Singular.</disp>
 Subst.	<id>Subst.</id> <disp>Substantive.</disp>
 s. v.	<id>s. v.</id> <disp>sub voce, see under the word.</disp>
+superl.	<id>superl.</id> <disp>Superlative</disp>
+Superl.	<id>Superl.</id> <disp>Superlative</disp>
 Tat.	<id>Tat.</id> <disp>Tatpuruṣa.</disp>
 U.	<id>U.</id> <disp>Ubhayapada (Parasmai. and Ātmane.)</disp>
 Vārt.	<id>Vārt.</id> <disp>Vārtika.</disp>
 Ved.	<id>Ved.</id> <disp>Vedic.</disp>
 v. l.	<id>v. l.</id> <disp>Various reading.</disp>
 Voc.	<id>Voc.</id> <disp>Vocative.</disp>
+voc.	<id>voc.</id> <disp>Vocative.</disp>
 A. D.	<id>A. D.</id> <disp>Anno Domini = CE (Common Era)</disp>
 B. C.	<id>B. C.</id> <disp>Before Christ= BCE (Before Common Era)<disp>
