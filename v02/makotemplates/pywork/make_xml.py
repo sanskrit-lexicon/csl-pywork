@@ -348,6 +348,8 @@ def dig_to_xml_specific(x):
  # 05-24-2021.
  # {cNc} -> N
  x = re.sub(r'{c(.*?)c}',r'\1',x)
+ # {vXv}
+ x = re.sub(r'{v(.*?)v}', r'<br/> <span style="font-size:larger;font-weight:bold;">\1</span>',x)
  # {1} -> <div n="1"/>—
  x = re.sub(r'{([0-9]+)}', r'<div n="1"/> \1',x)
  #remaining -- to mdash
