@@ -27,6 +27,7 @@ Br. Sūt.	Brahmasūtras
 Bṛ. Up.	Bṛhadāraṇyakopaniṣad
 Bv.	Bhāminīvilāsa (Bombay)
 Caṇḍ. K.	Caṇḍakauśika
+Chand. M.	Chandomañjarī
 Cand. M.	Chandomañjarī
 Chandr.	Candrāloka
 Chāṇ.	Cāṇakyaśataka
@@ -65,8 +66,8 @@ Karpūr.	Karpūramañjarī (published in the Kāvyamālā)
 Kaṭh.	Kaṭhopaniṣad
 Kāty.	Kātyāyana
 Kauś.	Kauśikasūtra
-Kaus. Br.	Kauṣītaki Brāhmaṇa
-Kaus. Up.	Kauṣītakyupaniṣad
+Kauṣ. Br.	Kauṣītaki Brāhmaṇa
+Kauṣ. Up.	Kauṣītakyupaniṣad
 Kāv.	Kāvyādarśa
 Kāvyāl.	Kāvyālaṃkāra (published in the Kāvyamālā)
 Ken.	Kenopaniṣad
@@ -127,10 +128,11 @@ Rs.	Ṛtusaṃhāra (Bombay)
 Rv.	Ṛgveda (Max Müller’s Edition)
 Ś.	Śakuntalā (Bombay)
 Śabdak.	Śabdakalpadruma
-Sān. K.	Sāṃkhyakārikā
-Sāṃkhya K.	Sāṃkhyakārikā
-Sān. S.	Sāṃkhyasūtra
+Sāṅ. K.	Sāṃkhyakārikā
+Sāṅkhya K.	Sāṃkhyakārikā
+Sāṅ. S.	Sāṃkhyasūtra
 Śānti.	Śāntiśataka by Śilhaṇa
+Sāv.	Sāvitryupākhyāna
 Sar. K.	Sarasvatīkaṇṭhābharaṇa
 Sarva. S.	Sarvadarśanasaṃgraha
 Sar. S.	Sarvadarśanasaṃgraha
@@ -150,14 +152,16 @@ S. L.	Sudhālaharī (published in the Kāvyamālā)
 Śrut.	Śrutabodha
 Ś. Til.	Śṛṅgāratilaka
 Śukra N.	Śukranītisāra
+Śukra.	Śukranītisāra
 Subh.	Subhāṣitaratnākara (Bombay)
-Subhāsh.	Subhāṣita
+Subhāṣ.	Subhāṣita
 Subh. Ratn.	Subhāṣitaratnabhāṇḍāgāra (Bombay)
 Sūrya S.	Sūryasiddhānta
 Suśr.	Suśruta
 Sv.	Sāmaveda
 Śvet. Up.	Śvetāśvataropaniṣad
 Taitt. Up.	Taittirīya Upaniṣad
+T. Up.	Taittirīya Upaniṣad
 Tarka K.	Tarkakaumudī (Bombay)
 Trik.	Trikāṇḍaśeṣa
 T. S.	Tarkasaṃgraha (Bombay)
