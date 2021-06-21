@@ -7,6 +7,7 @@ act.	<id>act.</id> <disp>actif (voix active)</disp>
 adv.	<id>adv.</id> <disp>adverbe</disp>
 ag.	<id>ag.</id> <disp>nom d’agent </disp>
 aor.	<id>aor.</id> <disp>aoriste</disp>
+bouddh.	<id>bouddh.</id> <disp>bouddhique</disp>
 caus.	<id>caus.</id> <disp>causatif</disp>
 cf.	<id>cf.</id> <disp>confer</disp>
 comp.	<id>comp.</id> <disp>composé, composition (ne s’emploie que dans un composé)</disp>
