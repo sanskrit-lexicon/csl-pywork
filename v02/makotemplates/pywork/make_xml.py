@@ -151,12 +151,15 @@ def dig_to_xml_specific(x):
  # .{#-BaH#}
  # .²1 Absence  ...
  # .³({%a%})
- if re.search(u'^[.][²]',x):
+ # 07-03-2021.  Drop restriction that the line STARTS with .² or .³
+ #if re.search(u'^[.][²]',x):
+ if re.search(u'[.][²]',x):
  # there may be nothing else on the line (300+ cases), in particular no space
  # do same thing anyway, not requiring the trailing space.
   x = re.sub(u'[.][²]([^ ]*) ',r'<div n="2" name="\1">\1 ',x)
   x = re.sub(u'[.][²]([^ ]*)',r'<div n="2" name="\1">\1 ',x)
- elif re.search(u'^[.][³]',x):
+ #elif re.search(u'^[.][³]',x):
+ elif re.search(u'[.][³]',x):
   m = re.search('[.][³]([^ ]*) ',x)
   if not m:
    m = re.search('[.][³]([^ ]*)',x)
