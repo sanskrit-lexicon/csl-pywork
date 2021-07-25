@@ -2662,5 +2662,4 @@ c.2112	KṚTYATATTVĀRṆAVA	Kṛtyatattvārṇava	KṚTYATATTVĀRṆAVA = ? [Co
 c.2113	MADANARATNA	Madanaratna	MADANARATNA = ? [Cologne Addition]
 c.2114	Буслаева	Буслаева	 Буслаева = Ѳ. Буслаевъ. Опытъ исторической грамматики русскаго языка. Москва, 1858. (F. Buslaev. An experimental historical grammar of Russian language. Moscow, 1858.) [Cologne Addition]
 c.2115	Минаевъ	Минаевъ	Минаевъ = И. Минаевъ. Пратимокша-сутра, буддійскій служебникъ. Санктпетербургъ, 1869. (I. Minaev (also Minayev, Minayeff). Prātimokṣa-sūtra, a buddhist ritual book. Sankt-Peterburg, 1869.) [Cologne Addition]
-c.2116	Антарабида	Антарабида	Антарабида  = ? [Cologne Addition]
 c.2118	VIKRAMĀṄKADEVACARITA	Vikramāṅkadevacarita	VIKRAMĀṄKADEVACARITA = ? [Cologne Addition] 
