@@ -311,6 +311,7 @@
 1.262	ṚT.	Ṛt.	ṚT. = ṚTUSAM̃HĀRA, ed. BOHLEN (GILD. Bibl. 155).
 1.263	ṚV.	Ṛv.	ṚV. = ṚGVEDA. Es wird nach Maṇḍala, Sūkta und Ṛc citirt. ROSEN<lb>zu ṚV. verweist auf die Anmerkungen in: Rigveda-Sanhita, liber<lb>primus, sanskritè et latinè; edidit FRIDERICUS ROSEN. London 1838.
 1.264	ṚV. PRĀT.	Ṛv. Prāt.	ṚV. PRĀT. oder PRĀTIŚ. = PRĀTIŚĀKHYA zun ṚGVEDA, citirt nach Paṭala und Versen. Hdschr. S. ROTH in der Einl z. NIR. S. XLVII.
+1.264a	ṚV. PRĀTIŚ.	Ṛv. Prātiś.	ṚV. PRĀT. oder PRĀTIŚ. = PRĀTIŚĀKHYA zun ṚGVEDA, citirt nach Paṭala und Versen. Hdschr. S. ROTH in der Einl z. NIR. S. XLVII.
 1.265	SADDH. L.	Saddh. L.	SADDH. L. = SADDHARMALAṄKĀVATĀRA.
 1.266	SADDH. P. 4.	Saddh. P. 4.	SADDH. P. 4. = SADDHARMAPUṆḌARĪKA, Kap. 4 in: Parabole de l'enfant<lb>égaré, formant le chapitre IV du Lotus de la bonne loi, publiée pour<lb>la première fois en sanscrit et en tibétain, lithographiée à la manière<lb>des livres du Tibet, et accompagnée d'une traduction franśaise d'après<lb>la version tibétaine du Kandyour, par PH. ÉD. FOUCAUX. Paris 1854.
 1.266a	SADDH. P.	Saddh. P.	SADDH. P. = ? [Cologne Addition]
@@ -346,7 +347,8 @@
 1.287	TAITT. ĀR.	Taitt. Ār.	TAITT. ĀR. = TAITTIRĪYĀRAṆYAKA.
 1.288	TAITT. BR.	Taitt. Br.	TAITT. BR. = TAITTIRĪYABRĀHMAṆA.
 1.289	TAITT. PRĀT.	Taitt. Prāt.	TAITT. PRĀT. = PRĀTIŚĀKHYA zur TAITTIRĪYASAM̃HITĀ. S. ROTH in der<lb>Einl. z. NIR. S. XLVII.
-1.289a	TAITT. PR.	Taitt. Pr.	TAITT. PR. = PRĀTIŚĀKHYA zur TAITTIRĪYASAM̃HITĀ. ? [Cologne Addition]
+1.289a	TAITT. PR.	Taitt. Pr.	TAITT. PR. = PRĀTIŚĀKHYA zur TAITTIRĪYASAM̃HITĀ. S. ROTH in derEinl. z. NIR. S. XLVII. [Cologne Addition]
+1.289b	TS. PRĀT.	Ts. Prāt.	TS. PRĀT. = PRĀTIŚĀKHYA zur TAITTIRĪYASAM̃HITĀ. S. ROTH in derEinl. z. NIR. S. XLVII. [Cologne Addition]
 1.290	TANTRAS.	Tantras.	TANTRAS. = TANTRASĀRA, nach Anführungen im ŚKDR.
 1.291	TEJOV. UP.	Tejov. Up.	TEJOV. UP. = TEJOVINDŪPANIṢAD.
 1.292	Tib. Lebensb. Śāky.	Tib. Lebensb. Śāky.	Tib. Lebensb. Śāky. = Tibetische Lebensbeschreibung Śākyamuni's, das Original von dem oben unter Lebensb. (SCHIEFNER) aufgeführten Auszuge.
@@ -1984,7 +1986,6 @@ c.1398	ŚABDASTOMAMAHĀNIDHI.	Śabdastomamahānidhi.	ŚABDASTOMAMAHĀNIDHI. = ? 
 c.1399	ŚĀṬYĀYANA	Śāṭyāyana	ŚĀṬYĀYANA = ? [Cologne Addition] 
 c.1400	CHĀNDOGYABHĀṢYA.	Chāndogyabhāṣya.	CHĀNDOGYABHĀṢYA. = ? [Cologne Addition] 
 c.1401	MAR	Mar	MAR = ? [Cologne Addition] 
-c.1402	PRĀTIŚĀKHYA	Prātiśākhya	PRĀTIŚĀKHYA = ? [Cologne Addition] 
 c.1403	NĪDAK.	Nīdak.	NĪDAK. = ? [Cologne Addition] 
 c.1404	ĀDYAVAHNIPURĀṆA.	Ādyavahnipurāṇa.	ĀDYAVAHNIPURĀṆA. = ? [Cologne Addition] 
 c.1405	ŚĀNKHĀYANA	Śānkhāyana	ŚĀNKHĀYANA = ? [Cologne Addition] 
