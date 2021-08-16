@@ -1,3 +1,4 @@
+dt=$(date '+%Y%m%d%H%M%S');
 echo "STEP 1. SELECT THE FILES TO BE HANDLED BASED ON GIT LOG OF CSL-ORIG REPOSITORY."
 cd ../../csl-orig
 git pull origin master
@@ -21,7 +22,7 @@ do
 	python2 make_babylon.py $dict 1
 	git add output/
 	git add production/
-	git commit -m "$dict update"
+	git commit -m "$dict update $dt"
 done < ../csl-orig/v02/.files_to_handle
 git push
 
@@ -31,7 +32,7 @@ while read dict;
 do
 	python2 json_from_babylon.py $dict
 	git add ashtadhyayi.com/
-	git commit -m "$dict update"
+	git commit -m "$dict update $dt"
 done < ../csl-orig/v02/.files_to_handle
 git push
 
