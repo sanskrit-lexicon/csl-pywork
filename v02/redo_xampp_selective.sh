@@ -17,18 +17,25 @@ cp ../hwnorm1/sanhw1/hwnorm1c.txt input/hwnorm1c.txt
 while read dict;
 do
 	python2 make_babylon.py $dict 0
-	python2 make_babylon.py $Val 1
+	python2 make_babylon.py $dict 1
+	git add output/
+	git add production/
+	git commit -m "$dict update"
 done < ../csl-orig/v02/.files_to_handle
+git push
 
 echo "STEP 4. GENERATE JSON FILES."
 cd ../csl-json
 while read dict;
 do
-	python2 json_from_babylon.py $Val
+	python2 json_from_babylon.py $dict
+	git add ashtadhyayi.com/
+	git commit -m "$dict update"
 done < ../csl-orig/v02/.files_to_handle
+git push
 
 echo "STEP 5. UPDATE THE .XAMPP_LAST_RUN FILE."
-cd ../../csl-orig
+cd ../csl-orig
 git rev-parse HEAD > v02/.xampp_last_run
 cd ../csl-pywork/v02
 
