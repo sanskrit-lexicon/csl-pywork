@@ -1,5 +1,6 @@
 echo "STEP 1. SELECT THE FILES TO BE HANDLED BASED ON GIT LOG OF CSL-ORIG REPOSITORY."
 cd ../../csl-orig
+git pull origin master
 git diff --name-only `(cat v02/.xampp_last_run)`..`(git rev-parse HEAD)` | grep -oP '[\/]\K([^\/]*)(?=[.]txt)' > v02/.files_to_handle
 
 echo "STEP 2. GENERATE DICTIONARIES FOR LOCAL DISPLAY."
