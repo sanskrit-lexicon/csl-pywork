@@ -26,8 +26,18 @@ do
 done < ../csl-orig/v02/.files_to_handle
 git push
 
-echo "STEP 4. GENERATE JSON FILES."
-cd ../csl-json
+echo "STEP 4. UPDATE FOR STARDICT-SANSKRIT-DICTIONARY-UPDATER."
+cd ../../indic-dict/stardict-sanskrit
+git pull origin master
+cd ../../cologne/cologne-stardict
+bash move_to_stardict.sh
+cd ../../indic-dict/stardict-sanskrit
+git add .
+git commit -m "update $dt"
+git push origin master
+
+echo "STEP 5. GENERATE JSON FILES."
+cd ../../cologne/csl-json
 while read dict;
 do
 	python2 json_from_babylon.py $dict
