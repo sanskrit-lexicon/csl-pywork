@@ -1,12 +1,33 @@
+echo "STEP 1. SELECT THE FILES TO BE HANDLED BASED ON GIT LOG OF CSL-ORIG REPOSITORY."
 cd ../../csl-orig
 git diff --name-only `(cat v02/.xampp_last_run)`..`(git rev-parse HEAD)` | grep -oP '[\/]\K([^\/]*)(?=[.]txt)' > v02/.files_to_handle
-cd ../csl-pywork/v02
 
+echo "STEP 2. GENERATE DICTIONARIES FOR LOCAL DISPLAY."
+cd ../csl-pywork/v02
 while read dict;
 do
 	sh generate_dict.sh $dict  ../../$dict
 done < ../../csl-orig/v02/.files_to_handle
 
+echo "STEP 3. GENERATE STARDICT FILES."
+cd ../../hwnorm1
+git pull origin master
+cd ../cologne-stardict
+cp ../hwnorm1/sanhw1/hwnorm1c.txt input/hwnorm1c.txt
+while read dict;
+do
+	python2 make_babylon.py $dict 0
+	python2 make_babylon.py $Val 1
+done < ../csl-orig/v02/.files_to_handle
+
+echo "STEP 4. GENERATE JSON FILES."
+cd ../csl-json
+while read dict;
+do
+	python2 json_from_babylon.py $Val
+done < ../csl-orig/v02/.files_to_handle
+
+echo "STEP 5. UPDATE THE .XAMPP_LAST_RUN FILE."
 cd ../../csl-orig
 git rev-parse HEAD > v02/.xampp_last_run
 cd ../csl-pywork/v02
