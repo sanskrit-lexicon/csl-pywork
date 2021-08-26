@@ -128,6 +128,7 @@ Intens.	<id>Intens.</id> <disp>Intensive</disp>
 intens.	<id>intens.</id> <disp>Intensive</disp> <INFER/>
 interj.	<id>interj.</id> <disp>interjection</disp>   <INFER/>
 interpol.	<id>interpol.</id> <disp>interpolation</disp>
+intrans.	<id>intrans.</id> <disp>intransitive</disp>
 Introd.	<id>Introd.</id> <disp>Introduction</disp>
 Ion.	<id>Ion.</id> <disp>Ionic</disp> <UNMARKED>
 irr.	<id>irr.</id> <disp>irregular</disp>
@@ -253,6 +254,7 @@ s.v.	<id>s.v.</id> <disp>sub voce, i.e. the word in the Sanskrit order</disp>
 ss.vv.	<id>ss.vv.</id> <disp>sub voce, i.e. the word in the Sanskrit order</disp>  <INFER/>
 SV.	<id>SV.</id> <disp>Sāma-Veda </disp>  <INFER/> (should be ls? hw=traya)
 Svargakh.	<id>Svargakh.</id> <disp>Svargakhaṇḍa. 3rd book of Padma-Purāṇa</disp> <INFER/>   
+trans.	<id>trans.</id> <disp>transitive</disp>
 Upan.	<id>Upan.</id> <disp>Upaniṣad</disp> <INFER/>
 Vārt.	<id>Vārt.</id> <disp>Vārttika</disp>   <UNMARKED>
 Vārtt.	<id>Vārtt.</id> <disp>Vārttika</disp>  <PROBLEM? - LS?>
