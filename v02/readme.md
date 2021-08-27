@@ -183,3 +183,13 @@ cd csl-pywork/v02/
 sudo bash redo_xampp_all.sh
 ```
 
+### Regenerate only the changed file based on changes in csl-orig repository for local usage.
+
+This is mostly used for a cronjob to update files which are changed in csl-orig repository since the last usage.
+
+```bash
+cd csl-pywork/v02/
+sudo bash redo_xampp_selective.sh
+```
+
+
