@@ -22,9 +22,11 @@ do
 	sh generate_dict.sh $dict  ../../${dict^^}Scan/2020/
 done < ../../csl-orig/v02/.files_to_handle
 
-echo "STEP 3. UPDATE THE .XAMPP_LAST_RUN FILE."
+echo "STEP 3. UPDATE THE .COLOGNE_LAST_RUN FILE."
 cd ../../csl-orig
 git rev-parse HEAD > v02/.cologne_last_run
+echo "2.0.`git log | grep '^commit' | wc -l`" > .version
+
 
 echo "STEP 4. UPDATE COLOGNE HOMEPAGE TO DISPLAY TODAY'S DATE."
 cd ../csl-homepage

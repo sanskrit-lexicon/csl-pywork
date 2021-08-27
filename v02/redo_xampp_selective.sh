@@ -23,7 +23,7 @@ do
 done < ../../csl-orig/v02/.files_to_handle
 
 echo "STEP 3. GENERATE STARDICT FILES."
-cd ../cologne-stardict
+cd ../../cologne-stardict
 cp ../hwnorm1/sanhw1/hwnorm1c.txt input/hwnorm1c.txt
 while read dict;
 do
@@ -58,6 +58,7 @@ git push
 echo "STEP 5. UPDATE THE .XAMPP_LAST_RUN FILE."
 cd ../csl-orig
 git rev-parse HEAD > v02/.xampp_last_run
+echo "2.0.`git log | grep '^commit' | wc -l`" > .version
 
 echo "STEP 6. UPDATE COLOGNE HOMEPAGE TO DISPLAY TODAY'S DATE."
 cd ../csl-homepage
