@@ -2,6 +2,7 @@ dt=$(date '+%Y%m%d%H%M%S');
 echo "STEP 1. SELECT THE FILES TO BE HANDLED BASED ON GIT LOG OF CSL-ORIG REPOSITORY."
 cd /var/www/html/cologne/csl-pywork/v02
 cd ../../csl-orig
+touch v02/.xampp_last_run
 git pull origin master
 git diff --name-only `(cat v02/.xampp_last_run)`..`(git rev-parse HEAD)` | grep -oP '[\/]\K([^\/]*)(?=[.]txt)' > v02/.files_to_handle
 
@@ -50,5 +51,9 @@ git push
 echo "STEP 5. UPDATE THE .XAMPP_LAST_RUN FILE."
 cd ../csl-orig
 git rev-parse HEAD > v02/.xampp_last_run
+
+echo "STEP 6. UPDATE COLOGNE HOMEPAGE TO DISPLAY TODAY'S DATE."
+cd ../csl-homepage
+bash redo_xampp.sh
 cd ../csl-pywork/v02
 
