@@ -1,7 +1,16 @@
 dt=$(date '+%Y%m%d%H%M%S');
-echo "STEP 1. SELECT THE FILES TO BE HANDLED BASED ON GIT LOG OF CSL-ORIG REPOSITORY."
+echo "Step 0. UPDATE RELEVANT GIT REPOSITORIES."
 cd /var/www/html/cologne/csl-pywork/v02
-cd ../../csl-orig
+git pull origin master
+cd ../../csl-homepage
+git pull origin master
+cd ../csl-websanlexicon
+git pull origin master
+cd ../hwnorm1
+git pull origin master
+cd ../csl-orig
+git pull origin master
+echo "STEP 1. SELECT THE FILES TO BE HANDLED BASED ON GIT LOG OF CSL-ORIG REPOSITORY."
 touch v02/.xampp_last_run
 git pull origin master
 git diff --name-only `(cat v02/.xampp_last_run)`..`(git rev-parse HEAD)` | grep -oP '[\/]\K([^\/]*)(?=[.]txt)' > v02/.files_to_handle
@@ -14,8 +23,6 @@ do
 done < ../../csl-orig/v02/.files_to_handle
 
 echo "STEP 3. GENERATE STARDICT FILES."
-cd ../../hwnorm1
-git pull origin master
 cd ../cologne-stardict
 cp ../hwnorm1/sanhw1/hwnorm1c.txt input/hwnorm1c.txt
 while read dict;
