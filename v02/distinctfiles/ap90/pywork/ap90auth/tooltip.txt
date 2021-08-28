@@ -1,10 +1,10 @@
-Adhikaraṇamālā	Adhikaraṇamālā (Work by Bhāratītīrtha)
+Adhikaraṇamālā	Adhikaraṇaratnamālā, 1913, a treatise in the मीमांसा philosophy
 Ādipurāṇa	name of the Brahma-purāṇa
-Agni P.	Agnipurāṇa
+Agni P.	Agni Purāṇa
 Ait. Br.	Aitareya Brāhmaṇa (Bombay)
 Ak.	Amarakoṣa
 Amara	Name of Amarasiṃha (Author)
-A. L.	Ānandalaharī
+Ā. L.	Ānandalaharī
 Amaru.	Amaruśataka
 Āpast.	Āpastamba
 A. R.	Anargharāghava (published in the Kāvyamālā)
@@ -19,7 +19,7 @@ Bg.	Bhagavadgītā (Bombay)
 Bh.	Bhartṛhari’s three Śatakas (the figures 1., 2., 3. after Bh. denoting Śṛṅgāraº, Nītiº, and Vairāgyaº)
 Bhartṛ.	Bhartṛhari (Author)
 Bhartṛhari	Bhartṛhari (Author)
-Bharata	Author, founder of the dramatic science
+Bharata	Bharatamuni, author of  Nāṭyaśāstra
 Bhav. P.	Bhaviṣyottara Purāṇa
 Bhāg.	Bhāgavata (Bombay)
 Bhāminīvilāsa	  poem by Jagannātha Paṇḍitarāja 
@@ -31,6 +31,7 @@ Bk.	Bhaṭṭikāvya
 B. R.	Bālarāmāyaṇa (Benares)
 B. and R.	Böthlingk and Roth
 Bṛ. S.	Varāhamihira’s Bṛhatsaṃhitā
+Bṛhat Saṃhitā	Varāhamihira’s Bṛhatsaṃhitā
 Bṛ. Kath.	Bṛhatkathā
 Br. Sūt.	Brahmasūtras
 Bṛ. Up.	Bṛhadāraṇyakopaniṣad
@@ -53,18 +54,18 @@ Dāy.	Dāyabhāga
 Dāy. B.	Dāyabhāga
 Dāyabhāga	Dāyabhāga (Work)
 D. Bhāg.	Devībhāgavata
-Dakṣa.	Unknown?
+Dakṣa.	Dakṣamṛti, an ancient treatise in Dharmaśāstra
 Dhan. V.	Dhanaṃjayavijaya
 Dhātupāṭha	Dhātupāṭha of Pāṇini
 Dharm.	Dharmaviveka
 Dhūrt.	Dhūrtasamāgama
 Dhūrtas.	Dhūrtasamāgama (Work of Drama)
-Dīpikā.	Dīpikā ? (Work)
+Dīpikā.	Muhūrta Dīpikā
 Dk.	Daśakumāracarita (Bombay)
 D. R.	Daśarūpa (Hall’s Edition)
 Dṛ. Ś.	Dṛṣṭāntaśataka
 Gadādhara.	Gadādhara (Author)
-Gaṅgāṣṭaka	Gaṅgāṣṭaka (Hymn)
+Gaṅgāṣṭaka	A generic work under Stotra category, praising the River Gaṅgā.
 Gaṇapāṭha	Gaṇapāṭha (Work by Pāṇini)
 Gauḍapāda	Gauḍapāda (Author)
 Gaut. S.	Gautamasūtra
@@ -72,12 +73,13 @@ Gaut. Sūt.	Gautamasūtra
 Gautama	Gautama (Author)
 Ghaṭ.	Ghaṭakarparakāvya
 Gīt.	Gītagovinda
+Gobhila	Gobhila (Author)
 G. L.	Gaṅgālaharī
 G. M.	Gaṇaratnamahodadhi of Vardhamāna
 Golādh.	Golādhyāya
 H.	Hitopadeśa (Nirṇaya Sāgara Edition)
 Halāy.	Halāyudha
-Hariv.	Harivaṃśa
+Hariv.	Harivaṃśa (Poem)
 Harivaṃśa	Harivaṃśa (Poem)
 Hch.	Harṣacarita
 H. D.	Haṃsadūta
@@ -85,11 +87,11 @@ H. Pr.	Hitopadeśa prastāvikā
 Hem.	Hemacandra
 Hemacandra	Hemacandra (Jaina Author)
 Hemādri	Hemādri (Author)
-Haima	Lexicon of Hemacandra
+Haima	the Abhidhānacintāmaṇi of Hemacandra
 Hārāvalī	Hārāvalī (Work)
 Hārīta	Hārīta (Author)
-Hist. Anc. lit.	?
-Iśop.	Īśopaniṣad
+Hist. Anc. Lit.	(Max Müller's) History of Ancient Sanskrit literature
+Īśop.	Īśopaniṣad
 J. N. V.	Jaiminīyanyāyamālāvistara (Goldstücker’s Edition)
 Jābāli	Jābāli (Author)
 Jagaddhara	Jagaddhara (Author)
@@ -97,21 +99,20 @@ Jag.	Jagannātha Pandit
 Jagannātha	Jagannātha Pandit
 Jaimini S.	Jaiminisūtra (Work)
 Jaimini's Sūtra	Jaiminisūtra (Work)
-Jyotiṣa	Jyotiṣa (Author, Astronomer)
+Jyotiṣa	Raghunandana's Jyotiṣatattva
 K.	Kādambarī (Bombay)
 Kaiyaṭa	Kaiyaṭa (Author)
 Kalhaṇa	Kalhaṇa (Author)
-Kālikā P.	Kālikā Purāṇa
-Kālikā Purāṇa	Kālikā Purāṇa
+Kālikā P.	Kālikāpurāṇa
+Kālikā Purāṇa	Kālikāpurāṇa
 Kāmandaka	Kāmandaka (Author)
-Karka	Karka (commentator)
+Karka	Karka (Author)
 Kām.	Kāmandakinītisāra
 Kāśi.	Kāśikāvṛtti (Benares)
 Kāśikā.	Kāśikāvṛtti
 Karpūr.	Karpūramañjarī (published in the Kāvyamālā)
 Kāśyapa	Kāśyapa (Author)
 Kaṭh.	Kaṭhopaniṣad
-Kath.	Kaṭhopaniṣad ?
 Kāty.	Kātyāyana
 Kātyāyana	Kātyāyana (Author)
 Kauś.	Kauśikasūtra
@@ -126,7 +127,7 @@ Kīr. K.	Kīrtikaumudī (Bombay)
 K. P.	Kāvyaprakāśa
 K.R.	Kavirahasya
 Kavirahasya	Kavirahasya (Work)
-Kavirāja	Kavirāja (Author)
+Kavirāja	A 12th century poet, who authored Rāghavapāṇḍavīyam
 Ks.	Kathāsaritsāgara
 Ku.	Kumārasambhava (Bombay)
 Kull.	Kullūka
@@ -148,7 +149,7 @@ M.P.	Mārkaṇḍeya Purāṇa?
 M. W.	Monier-Williams Sanskrit-English Dictionary
 Madhusūdana	Madhusūdana (Author(s))
 Mahānāṭaka	Mahānāṭaka (a drama)
-Maṅgalāṣṭaka	Maṅgalāṣṭaka (Work?)
+Maṅgalāṣṭaka	Maṅgalāṣṭaka (Hymn)
 Manoramā	Manoramā (various works)
 Mb.	Mahābhārata (Bombay)
 Mbh.	Mahābhāṣya (Bombay)
@@ -158,16 +159,16 @@ Med.	Medinīkośa
 Medinī	Medinīkośa
 Mit.	Mitākṣarā (Bombay)
 Mīm.	Mīmāṃsā
-Mīmāmsā	Mīmāmsā =? Pūrva-mīmāṉsā or Karma-mīmāṉsā by Jaimini 
+Mīmāmsā	Pūrva-mīmāṃsā 
 Mk.	Mṛcchakaṭikā
 Moha M.	Mohamudgara
 Ms.	Manusmṛti
-Mu.	Mudrārākṣasa (Bombay),
+Mu.	Mudrārākṣasa (Bombay)
 Mugdha.	Mugdhabodha
-Muhūrta.	Muhūrtakalpadruma ?
+Muhūrta.	Muhūrtacintāmaṇi
 Muṇḍ.	Muṇḍakopaniṣad
 Mv.	Mahāvīracarita (Borooah’s Edition),
-Muktā.	Siddhāntamuktāvali ?
+Muktā.	(Nyāyasiddhānta)muktāvali
 N.	Naiṣadhacarita
 Nāg.	Nāgānanda
 Naiṣadha.	Naiṣadhacarita (Work)
@@ -199,8 +200,8 @@ Praśna Up.	Praśnopaniṣad
 Pratāparudra	Pratāparudra (Author)
 Priy. D.	Priyadarśikā (Bombay)
 Pt.	Pañcatantra (Bombay)
-Pūjā Mantra	Pūjā Mantra
-Pūjāmantra	Pūjā Mantra
+Pūjā Mantra	A generic invocation used as Bhūtaśuddhi before taking up any work- esp. the Pūjā during festivals or other such sacred works
+Pūjāmantra	A generic invocation used as Bhūtaśuddhi before taking up any work- esp. the Pūjā during festivals or other such sacred works
 Puṣpadanta	Puṣpadanta (Author)
 Rāghavānanda	Rāghavānanda (Author)
 R.	Raghuvaṃśa (Bombay)
@@ -209,10 +210,9 @@ Rāj. T.	Rājataraṅgiṇī
 Rām.	Rāmāyaṇa (Bombay)
 Ras. M.	Rasamañjarī
 Rasamañjarī	Rasamañjarī (Work)
-Ratimanjarī	Ratimanjarī (Work)
 Ratn.	Ratnāvalī (Bombay)
 R. G.	Rasagaṅgādhara (published in the Kāvyamālā)
-Rāyamukuta	Rāyamukuta (Author)
+Rāyamukuṭa	Rāyamukuṭa (Author)
 Rs.	Ṛtusaṃhāra (Bombay)
 Rv.	Ṛgveda (Max Müller’s Edition)
 Śabarasvāmin	Śabarasvāmin (Author)
@@ -223,33 +223,33 @@ Sāṅ. K.	Sāṃkhyakārikā
 Sāṅkhya K.	Sāṃkhyakārikā
 Sāṅkhya	Sāṃkhyakārikā ?
 Sāṅ. S.	Sāṃkhyasūtra
-Śaṅkara	Śaṃkarâcārya (Author)
+Śaṅkara	Śaṃkarācārya (Author)
 Sandhyā Mantra	Saṃdhyā Mantra (Work)
+Saṃdhyā Mantra	Saṃdhyā Mantra (Work)
 Śānti.	Śāntiśataka by Śilhaṇa
-Śāntilakṣaṇa	?
+Śāntilakṣaṇa	A Buddhist work?
 Sāv.	Sāvitryupākhyāna
 Sar. K.	Sarasvatīkaṇṭhābharaṇa
 Saralā	Saralā (Work)
 Sarva. S.	Sarvadarśanasaṃgraha
-Sarva.	Sarvadarśanasaṃgraha ?
+Sarva.	Sarvadarśanasaṃgraha 
 Sar. S.	Sarvadarśanasaṃgraha
 Śat. Br.	Śatapatha Brāhmaṇa
-Sāy.	Sāyaṇa
+Sāy.	Sāyaṇa (Author)
 Sāyaṇa	Sāyaṇa (Author)
 Ś. B.	Śārīrabhāṣya
 S. D.	Sāhityadarpaṇa
 Śi.	Śiśupālavadha
 Sid. Mukt.	Siddhāntamuktāvalī
-Sid. Muktā.	Siddhāntamuktāvalī
 Sid. Śir.	Siddhāntaśiromaṇi
-Śik.	Śikṣā ?
-Śikṣā	Śikṣā ?
-Śiva P.	Śiva Purāṇa
+Śik.	Pāṇinīya Śikṣā 
+Śikṣā	Pāṇinīya Śikṣā 
+Śiva P.	Śivapurāṇa
 Sk.	Siddhānta-Kaumudī (Bombay)
 Skanda P.	Skanda Purāṇa
-Smṛti.	Smṛti. ?
-Śrāddha Mantra	Śrāddha Mantra (Work)
-Śrāvaṇī Mantra	Śrāvaṇī Mantra (Work)
+Smṛti.	Smṛtitattvam, name of a legal wk. by Raghunandana
+Śrāddha Mantra	The mantra recited during one of the pāka-yajña-saṃsthās, as mentioned in Gautama-dharma-sūtra. These are Aṣṭakā, Pārvaṇa, Śrāddha, Śrāvaṇī, Āgrahāyaṇī, Caitrī, and Āśvayujī.
+Śrāvaṇī Mantra	The mantra recited during one of the pāka-yajña-saṃsthās, as mentioned in Gautama-dharma-sūtra. These are Aṣṭakā, Pārvaṇa, Śrāddha, Śrāvaṇī, Āgrahāyaṇī, Caitrī, and Āśvayujī.
 Śrīdhara	Śrīdhara (Author)
 S. L.	Sudhālaharī (published in the Kāvyamālā)
 Śrut.	Śrutabodha
@@ -258,7 +258,7 @@ S. L.	Sudhālaharī (published in the Kāvyamālā)
 Śukra.	Śukranītisāra
 Subh.	Subhāṣitaratnākara (Bombay)
 Subhāṣ.	Subhāṣita
-Subhāṣita	Subhāṣita ?
+Subhāṣita	Subhāṣita 
 Subh. Ratn.	Subhāṣitaratnabhāṇḍāgāra (Bombay)
 Sūrya S.	Sūryasiddhānta
 Suśr.	Suśruta
@@ -266,11 +266,11 @@ Suśruta	Suśruta (Author)
 Sv.	Sāmaveda
 Śvet. Up.	Śvetāśvataropaniṣad
 Śvet.	Śvetāśvataropaniṣad
-Śyāmāstava	Śyāmāstava (Work)
+Śyāmāstava	A stava (stuti) mentioned in the Tantric text Śyāmārahasyatantra
 T. Up.	Taittirīya Upaniṣad
 Tāṇḍya Br.	Tāṇḍya Brāhmaṇa
 Tāṇḍya.	Tāṇḍya Brāhmaṇa
-Tantra.	?
+Tantra.	Tantrasāra ?
 Tarka K.	Tarkakaumudī (Bombay)
 Trik.	Trikāṇḍaśeṣa
 T. S.	Tarkasaṃgraha (Bombay)
@@ -281,11 +281,10 @@ Udbhaṭa	Udbhaṭa (Author)
 Ud. D.	Uddhavadūta
 Ud. S.	Uddhavasaṃdeśa
 Ujjval.	Ujjvaladatta
-Ujjvalamaṇi	Ujjvalanīlamaṇi ? (Work)
+Ujjvalamaṇi	Ujjvalanīlamaṇi, a treatise on Skt. Poetics by Rūpagosvāmin
 Uṇ.	Uṇādisūtras
 Uṇādisūtras	Uṇādisūtras
 Up.	Upaniṣad
-Upan.	Upaniṣad
 Uśanas	Uśanas (Author)
 V.	Vikramorvaśīyam (Bombay)
 Vāgb.	Vāgbhaṭa
@@ -301,33 +300,32 @@ Vasiṣṭha	Vasiṣṭha (Author)
 Vb.	Viddhaśālabhañjikā (Bombay)
 Ve.	Veṇīsaṃhāra
 Vedānta P.	Vedāntaparibhāṣā
-Vedānta	Vedāntaparibhāṣā (Work)
+Vedānta	Vedāntasāra, a work by Sadānanda, published by GA Jacob
 V. Paribhāṣā	Vedāntaparibhāṣā (Work)
 Vedānta S.	Vedanta Sūtra, also known as Brahma Sūtra
 Vedāntasāra	Vedāntasāra (Work)
-Vet.	Vetālapañca vimśati
+Vet.	Vetālapañcavimśati
 Vid.	Vidagdhamukhamaṇḍana
 Vikr.	Vikramāṅkadevacarita (Bombay)
 Vīr. M.	Vīramitrodaya
 V. May.	Vyavahāramayūkha (Mr. Mandlik’s Edition)
-Vop.	Vopadeva
+Vop.	Vopadeva (Author)
 Bop.	Bopadeva (= Vopadeva)
 Vopadeva	Vopadeva (Author)
 Bopadeva	Vopadeva (Author)
 V. P.	Viṣṇu Purāṇa
-Viṣṇu. P.	Viṣṇu Purāṇa
-Viṣṇu Smṛti	Viṣṇu Smṛti (Work)
-Viṣṇu.	Viṣṇu ?
-Viśva	Viśvakoṣa (Work) ?
+Viṣṇu P.	Viṣṇu Purāṇa
+Viṣṇu Smṛti	Viṣṇusmṛti, one of the ancient texts in Dharmaśāstra
+Viṣṇu.	Viṣṇusmṛti, one of the ancient texts in Dharmaśāstra
+Viśva	Viśvakośa, lexical work by Maheśvara
 V. Ratn.	Vṛttaratnākara
 Vṛnd. Ś.	Vṛndāvanaśataka
 V. Sah.	Viṣṇusahasranāman
 V. Sahas.	Viṣṇusahasranāman
-Vopadeva	Vopadeva (Author)
-Vyāsa	Vyāsa (Author)
+Vyāsa	Vyāsasmṛti, one of the ancient texts in Dharmaśāstra
 Yādava	Yādava (Author)
 Y.	Yājñavalkya (Mr. Mandlik’s Edition)
-Yama	Yama ? (Author)
+Yama	Yamasmṛti
 Yoga S.	Yogasūtras
 Yv.	Yajurveda
 Yaj.	Yajurveda
