@@ -1,0 +1,106 @@
+adhy.	<id>adhy.</id> <disp>adhyāya.</disp>
+A.S.	<id>A.S.</id> <disp>Anglo-Saxon.</disp>
+Ātm.	<id>Ātm.</id> <disp>Ātmanepada.</disp>
+Caus.	<id>Caus.</id> <disp>Causal.</disp>
+C.	<id>C.</id> <disp>Chezy.</disp>
+Comp.	<id>Comp.</id> <disp>Compound.</disp>
+comp.	<id>comp.</id> <disp>compound</disp>
+d.	<id>d.</id> <disp>distich.</disp>
+denomin.	<id>denomin.</id> <disp>denominative.</disp>
+desid.	<id>desid.</id> <disp>desiderative.</disp>
+frequent.	<id>frequent.</id> <disp>frequentative.</disp>
+frequentat.	<id>frequentat.</id> <disp>frequentative.</disp>
+Frequentat.	<id>Frequentat.</id> <disp>frequentative.</disp>
+Desid.	<id>Desid.</id> <disp>desiderative.</disp>
+Frequent.	<id>Frequent.</id> <disp>frequentative.</disp>
+Goth.	<id>Goth.</id> <disp>Gothic.</disp>
+Grammar.	<id>Grammar.</id> <disp>Grammarians.</disp>
+Icel.	<id>Icel.</id> <disp>Icelandic.</disp>
+Lat.	<id>Lat.</id> <disp>Latin.</disp>
+N.H.G.	<id>N.H.G.</id> <disp>New High German.</disp>
+N.N.L.	<id>N.N.L.</id> <disp>New Netherlandis or Dutch.</disp>
+O.H.G.	<id>O.H.G.</id> <disp>Old High German.</disp>
+O.N.	<id>O.N.</id> <disp>Old Norse.</disp>
+Par.	<id>Par.</id> <disp>Parasmaipada.</disp>
+Part.	<id>Part.</id> <disp>particle.</disp>
+Pr.	<id>Pr.</id> <disp>prologue.</disp>
+Prākṛ.	<id>Prākṛ.</id> <disp>Prākṛt.</disp>
+Ssk.	<id>Ssk.</id> <disp>Sanskrit.</disp>
+Sskr.	<id>Sskr.</id> <disp>Sanskrit.</disp>
+Swed.	<id>Swed.</id> <disp>Swedish.</disp>
+f.	<id>f.</id> <disp>feminine</disp>
+fem.	<id>fem.</id> <disp>feminine</disp>
+m.	<id>m.</id> <disp>masculine</disp>
+n.	<id>n.</id> <disp>neuter</disp>
+nom.	<id>nom.</id> <disp>nominative</disp>
+Nom.	<id>Nom.</id> <disp>nominative</disp>
+acc.	<id>acc.</id> <disp>accusative</disp>
+Acc.	<id>Acc.</id> <disp>accusative</disp>
+accus.	<id>accus.</id> <disp>accusative</disp>
+instr.	<id>instr.</id> <disp>instrumental</disp>
+Instr.	<id>Instr.</id> <disp>instrumental</disp>
+dat.	<id>dat.</id> <disp>dative</disp>
+sing.	<id>sing.</id> <disp>singular</disp>
+Sing.	<id>Sing.</id> <disp>singular</disp>
+pl.	<id>pl.</id> <disp>plural</disp>
+plur.	<id>plur.</id> <disp>plural</disp>
+du.	<id>du.</id> <disp>dual</disp>
+abl.	<id>abl.</id> <disp>ablative</disp>
+Abl.	<id>Abl.</id> <disp>ablative</disp>
+gen.	<id>gen.</id> <disp>genitive</disp>
+loc.	<id>loc.</id> <disp>locative</disp>
+Loc.	<id>Loc.</id> <disp>locative</disp>
+voc.	<id>voc.</id> <disp>vocative</disp>
+adj.	<id>adj.</id> <disp>adjective</disp>
+Adj.	<id>Adj.</id> <disp>adjective</disp>
+adv.	<id>adv.</id> <disp>adverb</disp>
+anomal.	<id>anomal.</id> <disp>anomalous</disp>
+Anomal.	<id>Anomal.</id> <disp>anomalous</disp>
+impf.	<id>impf.</id> <disp>imperfect</disp>
+impfct.	<id>impfct.</id> <disp>imperfect</disp>
+imprt.	<id>imprt.</id> <disp>imperative</disp>
+imptve.	<id>imptve.</id> <disp>imperative</disp>
+imptive.	<id>imptive.</id> <disp>imperative</disp>
+potent.	<id>potent.</id> <disp>potential</disp>
+prep.	<id>prep.</id> <disp>preposition</disp>
+superl.	<id>superl.</id> <disp>superlative</disp>
+Superl.	<id>Superl.</id> <disp>superlative</disp>
+subst.	<id>subst.</id> <disp>substantive</disp>
+fut.	<id>fut.</id> <disp>future</disp>
+vb.	<id>vb.</id> <disp>verb</disp>
+cf.	<id>cf.</id> <disp>confer</disp>
+Cf.	<id>Cf.</id> <disp>confer</disp>
+ptcple.	<id>ptcple.</id> <disp>participle</disp>
+Ptcple.	<id>Ptcple.</id> <disp>participle</disp>
+pass.	<id>pass.</id> <disp>passive</disp>
+Pass.	<id>Pass.</id> <disp>passive</disp>
+pf.	<id>pf.</id> <disp>perfect</disp>
+Pf.	<id>Pf.</id> <disp>perfect</disp>
+pres.	<id>pres.</id> <disp>present</disp>
+Pres.	<id>Pres.</id> <disp>present</disp>
+i. e.	<id>i. e.</id> <disp>id est (that is)</disp>
+i.e.	<id>i.e.</id> <disp>id est (that is)</disp>
+v. r.	<id>v. r.</id> <disp>variant reading (?)</disp>
+v.r.	<id>v.r.</id> <disp>variant reading (?)</disp>
+Eng.	<id>Eng.</id> <disp>english</disp>
+ved.	<id>ved.</id> <disp>Vedic</disp>
+Ved.	<id>Ved.</id> <disp>Vedic</disp>
+denominat.	<id>denominat.</id> <disp>denominative</disp>
+desider.	<id>desider.</id> <disp>desiderative</disp>
+Desider.	<id>Desider.</id> <disp>desiderative</disp>
+M.M.	<id>M.M.</id> <disp>Max Müller</disp>
+N.G.	<id>N.G.</id> <disp>New German ?</disp>
+N.V.A.	<id>N.V.A.</id> <disp>nominative, vocative and accusative</disp>
+N.V.	<id>N.V.</id> <disp>nominative and vocative</disp>
+D.A.	<id>D.A.</id> <disp>dative and accusative</disp>
+patronym.	<id>patronym.</id> <disp>patronymic</disp>
+Patronym.	<id>Patronym.</id> <disp>patronymic</disp>
+aor.	<id>aor.</id> <disp>aorist</disp>
+Aor.	<id>Aor.</id> <disp>aorist</disp>
+conj.	<id>conj.</id> <disp>conjugation</disp>
+comparat.	<id>comparat.</id> <disp>comparative</disp>
+Comparat.	<id>Comparat.</id> <disp>comparative</disp>
+interj.	<id>interj.</id> <disp>interjection</disp>
+Interj.	<id>Interj.</id> <disp>interjection</disp>
+corr.	<id>corr.</id> <disp>?</disp>
+Corr.	<id>Corr.</id> <disp>?</disp>

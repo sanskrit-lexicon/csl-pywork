@@ -1,0 +1,114 @@
+Amar.	Amaruśataka, ed. Calcutt.
+Ānandal.	Ānandalaharī, in Häberlin's Sanskrit Anthology.
+Arj.	Arjunasamāgama, an episode of the MBh., ed. Bopp.
+Ujjvalad.	Ujjvaladatta, ed. Aufrecht.
+Bhag.	Bhagavadgītā, ed. Schlegel.
+Bhāg. P.	Bhāgavata-Purāṇa, ed. Burnouf.
+Bhartṛ.	Bhartṛhari, ed. Bohlen.
+Bhāṣāp.	Bhāṣāpariccheda, in Bibliotheca Indica and in my Sanskrit Chrestomathy.
+Bhaṭṭ.	Bhaṭṭikāvya, ed. Calc.
+Bhaviṣyap.	Bhaviṣya-Purāṇa.
+Böhtl. Chr.	Böhtlingk, Sanskrit Chrestomathy.
+Böhtl. Ind. Spr.	Böhtlingk. Indische Sprüche (Indian Sentences).
+Br.	Brockhaus.
+Brāhmaṇ.	Brāhmaṇavilāpa, an episode of the MBh., ed. Bopp.
+Brāhmaṇav.	Brāhmaṇavilāpa, an episode of the MBh., ed. Bopp.
+Brahmav. P.	Brahmavaivarta-Purāṇa, ed. Stenzler.
+Śāk.	Śākuntala, ed. Böhtlingk.
+Śāntiś.	Śāntiśataka, in Häberlin's Sanskrit Anthology.
+Śārṅg.	Śārṅgadhara-Paddhati (MSS. used by Böhtl.).
+Śatr.	Śatruṃjayamāhātmya, ed. A. Weber.
+Cāṇ.	Cāṇakya, published in Häberlin's Anthology, and by Weber in Berl. Monatsb. Hist. Phil. Cl., i. e. in ‘Monthly Reports of the Berlin Academy of Sciences, Class of History and Philology,’ 1864.
+Cāt.	Cātaka, in Zeitschrift für die Kunde des Morgenlands, i. e. ‘Journal for the Knowledge of the Orient,’ vol. iv.
+Caur.	Caurapañcāśikā, in Bohlen's ed. of Bhartṛhari.
+Caurap.	Caurapañcāśikā, in Bohlen's ed. of Bhartṛhari.
+Chr.	my Sanskrit Chrestomathy.
+Śiś.	Śiśupālavadha, 2. ed. Calc.; the ninth book in my Chr.
+ŚKD.	Śabdakalpadruma.
+Śṛṅgārat.	Śṛṅgāratilaka, ed. Gildemeister, in his edition of the Meghadūta.
+Śrut.	Śrutabodha, ed. Brockhaus.
+Śukas.	Śukasaptati (MSS. of St. Petersburg).
+Śvet. Up.	Śvetāśvataropaniṣad, in Bibliotheca Indica.
+Daśak.	Daśakumāracarita, ed. Wilson, partly in my Chr.
+Daśar.	Daśa-Rūpa, ed. Fitz-Edward Hall.
+Dev.	Devīmāhātmya, ed. Poley.
+Draup.	Draupadīpramātha, an episode of the MBh., ed. Bopp.
+Ghaṭ.	Ghaṭakarpara, ed. Calc.
+Gīt.	Gītagovinda. ed. Lassen.
+Gött. Gel. Anz.	Göttinger Gelehrte Anzeigen, i. e. ‘Scientific Reports published in Göttingen.’ 
+Govardhana, Āryā Sapt.	Govardhana Āryāsaptaśatī, ed. Soma Nath Mookerjea.
+Govardh. Āryā Sapt.	Govardhana Āryāsaptaśatī, ed. Soma Nath Mookerjea.
+Govardh. Āryā Saptaśatī	Govardhana Āryāsaptaśatī, ed. Soma Nath Mookerjea.
+Häb.	Kāvya Sangraha, ‘A Sanskrit Anthology,’ by John Häberlin.
+Häberl.	Kāvya Sangraha, ‘A Sanskrit Anthology,’ by John Häberlin.
+Häberl. Chr.	Kāvya Sangraha, ‘A Sanskrit Anthology,’ by John Häberlin.
+Häberl. Anth.	Kāvya Sangraha, ‘A Sanskrit Anthology,’ by John Häberlin.
+Häberl. Anthol.	Kāvya Sangraha, ‘A Sanskrit Anthology,’ by John Häberlin.
+Hariv.	Harivaṃśa, ed. Calc.
+Hiḍ.	Hiḍimbavadha, an episode of the MBh., ed. Bopp.
+Hit.	Hitopadeśa, ed. of Lassen, and when followed by M.M.,that of Max Müller. When followed by two Arabian numerals, the first denotes the page, the second the line; when followed by a Roman and Arabian numeral, the first denotes the book, the second the distich.
+Indr.	Indralokāgamana, an episode of the MBh., ed. Bopp.
+Johns. Sel.	Johnson's Selections from the Mahābhārata.
+Kām. Nītis.	Kāmandakīya Nītisāra, in Bibliotheca Indica.
+Kāmand. Nītis.	Kāmandakīya Nītisāra, in Bibliotheca Indica.
+Kathās.	Kathāsaritsāgara, ed. Brockhaus.
+Kāvya Prak.	Kāvya Prakaśa, 2. ed. Calcutta, 1865.
+Kāvya Pr.	Kāvya Prakaśa, 2. ed. Calcutta, 1865.
+Kir.	Kirātārjunīya, 2. ed. Calc., 1846, and the fifth book in my Chr.
+Kirāt.	Kirātārjunīya, 2. ed. Calc., 1846, and the fifth book in my Chr.
+Kull.	Kullūka Schol. ed. Man.
+Kumāras.	Kumārasaṃbhava, ed. Stenzler.
+Kusumāñj.	Kusumāñjali, ed. Cowell.
+Lalit.	Lalitavistara, in Bibliotheca Indica.
+Lass.	Lassen, Anthologia Sanskritica.
+Lass. Pentap.	Lassen, Commentatio de Pentapotamia Indica.
+Mahāv.	Mahāvīracarita, ed. Trithen.
+Mahāvīr.	Mahāvīracarita, ed. Trithen.
+Mahāvīrac.	Mahāvīracarita, ed. Trithen.
+Mālat.	Mālatīmādhava, ed. Calc.
+Mālav.	Mālavikāgnimitra, ed. Tullberg.
+Man.	Mānavadharmaśāstra, ed. Haughton and Lois. (i. e. Loiseleur Deslongchamps). Where there is a numeral in brackets, it denotes the verse of Jones’ translation.
+Mārk. P.	Mārkaṇḍeya-Purāṇa, in Bibliotheca Indica.
+Matsyop.	Matsyopākhyāna, an episode of the MBh., ed. Bopp.
+MBh.	Mahābhārata, ed. Calc.
+Megh.	Meghadūta, ed. Gildemeister. 
+Mit.	Mitākṣarā, ed. Calc., 1829.
+Mṛcch.	Mṛcchakaṭikā, ed. Stenzler.
+Mudrār.	Mudrārākṣasa, ed. Calc.
+Naiṣ.	Naiṣadhacarita, ed. Calc.
+Nal.	Nala, an episode of the MBh. ed. Bopp.; a numeral in brackets denotes Böhtlingk's ed. in his Chrestomathy.
+Nalod.	Nalodaya, ed. Benary.
+Nyāya S.	Nyāya-Sūtrāṇi of Gotama, ed. Calc.
+Padmap.	Padma-Purāṇa, ed. Wollheim.
+Pāṇ.	Pāṇini, ed. Böhtlingk.
+Pañc.	Pañcatantra, ed. Kosegarten; the numerals are used on the same system as in Hit. When there is added ‘ed. orn.,’ it denotes the fragment of the recensioornatior, published by Kosegarten.
+Prab.	Prabodhacandrodaya, ed. Brockhaus.
+Ragh.	Raghuvaṃśa, ed. Stenzler.
+Rāgh.	Rāghavānanda, Sch. ad Man.
+Rājat.	Rājataraṅgiṇī, ed. Troyer, the fifth book in my Chrestomathy.
+Rām.	Rāmāyaṇa, the two first books after the ed. of Schlegel; when that of Gorresio is meant, there is added Gorr.; the remaining books after Gorresio's.
+Ratnāv.	Ratnāvalī, 2. ed. Calc.
+Schl.	Friedrich Schlegel, German Romantic philosopher and linguist
+Gorr.	Gaspare Gorresio, Italian Orientalist and Indologist
+Rigv.	Rigveda.
+Ṛt.	Ṛtusaṃhāra, ed. Bohlen, the first chapter also in Lass., the sixth in my Chrestomathy.
+Sāh. D.	Sāhitya Darpaṇa, in Bibliotheca Indica.
+Sāh. Darp.	Sāhitya Darpaṇa, in Bibliotheca Indica.
+Sāṅkhya Aph.	Sāṅkhya Sūtras, in Hall's ed. of Saṅkhya Pravacana Bhāṣya in Bibl. Ind.
+Sāv.	Sāvitryupākhyāna, an episode of the MBh., ed. Bopp.
+Siddh. K.	Siddhāntakaumudi, ed. Calc., 4to.
+Siddh. Mukt.	Siddhānta Muktāvali, ed. Roër in Bibl. Ind. 
+Skandap. Kāśikh.	Kāśikhaṇḍa, a part of the Skanda-Purāṇa (MSS.).
+Suśr.	Suśruta, ed. Calc.; the first numeral denotes the vol., the second the page, the third the line.
+Sund.	Sundopasundopākhyāna, an episode of the MBh., ed. Bopp.
+Upak.	Upakośa, an episode of the Kathās., ed. Brockhaus.
+Utt. Rāmac.	Uttara Rāmacarita, 2. ed. Calc., 1862.
+Varāh. Bṛh.	Varāhamihira's Bṛhajjātaka.
+Varāh. Bṛh. S.	Varāhamihira's Bṛhatsaṃhitā.
+Vārt.	Vārtika.
+Vedāntas.	Vedāntasāra, in my Chrestomathy.
+Vikr.	Vikramorvaśī, ed. Bollensen. 
+Vop.	Vopadeva, ed. Böhtlingk.
+Ind. St.	Weber, Indische Studien, i. e. ‘Essays concerning India.’
+Yājñ.	Yājñavalkya, ed. Stenzler.
+Yogas.	Yogasūtrāṇi, ed. Allahabad, 1852-53.
