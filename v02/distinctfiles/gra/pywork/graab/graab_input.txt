@@ -70,5 +70,6 @@ Cu.	<id>Cu.</id> <disp>?</disp>
 C.	<id>C.</id> <disp>Causativ - causative</disp>
 lat.	<id>lat.</id> <disp>lateinisch - latin</disp>
 goth.	<id>goth.</id> <disp>gothisch - gothic</disp>
+go.	<id>goth.</id> <disp>gothisch - gothic</disp>
 Impf.	<id>Impf.</id> <disp>Imperfekt  - imperfect</disp>
 Imperf.	<id>Imperf.</id> <disp>Imperfekt  - imperfect</disp>
