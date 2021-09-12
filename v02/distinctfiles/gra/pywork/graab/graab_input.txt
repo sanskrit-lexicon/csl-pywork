@@ -12,7 +12,7 @@ Caus.	<id>Caus.</id> <disp>Causativ - causative</disp>
 Conj.	<id>Conj.</id> <disp>Conjunctiv - subjunctive (mood)</disp>
 dass.	<id>dass.</id> <disp>dasselbe - the same</disp>
 Dat.	<id>Dat.</id> <disp>Dativ - dative (case)</disp>
-Denom.	<id>Denom.</id> <disp>Denominativ? - denominative</disp>
+Denom.	<id>Denom.</id> <disp>Denominativ - denominative</disp>
 Desid.	<id>Desid.</id> <disp>Desiderativ - desiderative</disp>
 du.	<id>du.</id> <disp>Dual - dual </disp>
 Gen.	<id>Gen.</id> <disp>Genitiv - genitive (case)</disp>
@@ -60,15 +60,22 @@ u.	<id>u.</id> <disp>und - and</disp>
 ähnl.	<id>ähnl.</id> <disp>ähnlich - similar</disp>
 od.	<id>od.</id> <disp>oder - or</disp>
 s.	<id>s.</id> <disp>sehe - see</disp>
-Iv.	<id>Iv.</id> <disp>?</disp>
+Iv.	<id>Iv.</id> <disp>Imperativ - imperative</disp>
 Impv.	<id>Impv.</id> <disp>Imperativ - imperative</disp>
 Praes.	<id>Praes.</id> <disp>Praesens - present</disp>
 Ind.	<id>Ind.</id> <disp>Indicativ - indicative</disp>
 Indic.	<id>Indic.</id> <disp>Indicativ - indicative</disp>
 pag.	<id>pag.</id> <disp>pagination - page</disp>
-Cu.	<id>Cu.</id> <disp>?</disp>
 C.	<id>C.</id> <disp>Causativ - causative</disp>
 lat.	<id>lat.</id> <disp>lateinisch - latin</disp>
 goth.	<id>goth.</id> <disp>gothisch - gothic</disp>
+go.	<id>goth.</id> <disp>gothisch - gothic</disp>
 Impf.	<id>Impf.</id> <disp>Imperfekt  - imperfect</disp>
 Imperf.	<id>Imperf.</id> <disp>Imperfekt  - imperfect</disp>
+Cu.	<id>Cu.</id> <disp>Curtius, Grundzüge der griechischen Etymologie</disp>
+Fi.	<id>Fi.</id> <disp>Fick, Vergleichendes Wörterbuch der indogermanischen Sprachen 1870</disp>
+Ku.	<id>Ku.</id> <disp>Kuhn, Zeitschrift für vergleichende Sprachforschung</disp>
+BR.	<id>BR.</id> <disp>Böhtlingk und Roth, Sanskrit-Wörterbuch</disp>
+Be. SV. gl.	<id>Be. SV. gl.</id> <disp>Benfey, Glossar zum Sāma-Veda </disp>
+Be. SV. gloss.	<id>Be. SV. gloss.</id> <disp>Benfey, Glossar zum Sāma-Veda </disp>
+Be.	<id>Be.</id> <disp>Benfey</disp>
