@@ -12,7 +12,6 @@ cd ../csl-orig
 git pull origin master
 echo "STEP 1. SELECT THE FILES TO BE HANDLED BASED ON GIT LOG OF CSL-ORIG REPOSITORY."
 touch v02/.xampp_last_run
-git pull origin master
 git diff --name-only `(cat v02/.xampp_last_run)`..`(git rev-parse HEAD)` | grep -oP '[\/]\K([^\/]*)(?=[.]txt)' > v02/.files_to_handle
 
 echo "STEP 2. GENERATE DICTIONARIES FOR LOCAL DISPLAY."
@@ -55,12 +54,12 @@ do
 done < ../csl-orig/v02/.files_to_handle
 git push
 
-echo "STEP 5. UPDATE THE .XAMPP_LAST_RUN FILE."
+echo "STEP 6. UPDATE THE .XAMPP_LAST_RUN AND .VERSION FILE."
 cd ../csl-orig
 git rev-parse HEAD > v02/.xampp_last_run
 echo "2.0.`git log | grep '^commit' | wc -l`" > .version
 
-echo "STEP 6. UPDATE COLOGNE HOMEPAGE TO DISPLAY TODAY'S DATE."
+echo "STEP 7. UPDATE HOMEPAGE TO DISPLAY TODAY'S DATE."
 cd ../csl-homepage
 bash redo_xampp.sh
 cd ../csl-pywork/v02
