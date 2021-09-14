@@ -2,7 +2,7 @@
 
 Put the following in the crontab of your computer.
 Whenever you reboot your computer, everything should be auto-updated.
-`@reboot sleep 120 && /var/www/html/cologne/csl-pywork/v02/redo_xampp_selective.sh`
+`@reboot sleep 120 && bash /var/www/html/cologne/csl-pywork/v02/redo_xampp_selective.sh`
 
 
 # Prerequisites
