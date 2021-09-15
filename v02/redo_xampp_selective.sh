@@ -8,6 +8,10 @@ cd ../csl-websanlexicon
 git pull origin master
 cd ../hwnorm1
 git pull origin master
+cd ../csl-json
+git pull
+cd ../cologne-stardict
+git pull
 cd ../csl-orig
 git pull origin master
 echo "STEP 1. SELECT THE FILES TO BE HANDLED BASED ON GIT LOG OF CSL-ORIG REPOSITORY."
