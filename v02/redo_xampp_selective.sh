@@ -16,7 +16,13 @@ cd ../csl-orig
 git pull origin master
 echo "STEP 1. SELECT THE FILES TO BE HANDLED BASED ON GIT LOG OF CSL-ORIG REPOSITORY."
 touch v02/.xampp_last_run
-git diff --name-only `(cat v02/.xampp_last_run)`..`(git rev-parse HEAD)` | grep -oP '[\/]\K([^\/]*)(?=[.]txt)' > v02/.files_to_handle
+git diff --name-only `(cat v02/.xampp_last_run)`..`(git rev-parse HEAD)` | grep -oP '[\/]\K([^\/]*)(?=[.]txt)' > v02/.files_changed
+ls -a v02 | cat | grep '^[^.]*$' > v02/.valid_dicts
+# See https://unix.stackexchange.com/questions/398142/common-lines-between-two-files
+comm -12 <(sort v02/.files_changed) <(sort v02/.valid_dicts) > v02/.files_to_handle
+rm v02/.files_changed
+rm v02/.valid_dicts
+exit
 
 echo "STEP 2. GENERATE DICTIONARIES FOR LOCAL DISPLAY."
 cd ../csl-pywork/v02
