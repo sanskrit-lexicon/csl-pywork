@@ -22,7 +22,6 @@ ls -a v02 | cat | grep '^[^.]*$' > v02/.valid_dicts
 comm -12 <(sort v02/.files_changed) <(sort v02/.valid_dicts) > v02/.files_to_handle
 rm v02/.files_changed
 rm v02/.valid_dicts
-exit
 
 echo "STEP 2. GENERATE DICTIONARIES FOR LOCAL DISPLAY."
 cd ../csl-pywork/v02
