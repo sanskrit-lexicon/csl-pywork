@@ -623,6 +623,8 @@ def construct_xmlstring(datalines,hwrec):
 #%if dictlo in ['sch','ap90']:
 %if dictlo in ['sch']:
  # To mimic current display of Sch, we remove the 'head' from first line:
+ # Sept. 2021.  Head has two parts {#X#} N? {%Y%} : (N optional).
+ # Remove only {#X#}
  for i,x in enumerate(datalines):
   if i == 0:
    m = re.search(u'^(.*?¦)(.*)$' ,x)
@@ -631,7 +633,10 @@ def construct_xmlstring(datalines,hwrec):
     exit(1)
    head = m.group(1)
    rest = m.group(2)
-   x = rest
+   head1 = re.sub(r'{#.*?#} ','',head)
+   head1 = head1.replace('¦',' ')
+   x = head1 + rest
+   #x = rest
   datalines1.append(x)
  datalines = datalines1
 %endif
