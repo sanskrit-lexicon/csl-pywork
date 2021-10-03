@@ -141,8 +141,7 @@
 02:57	Dhūrtas.	DUrtas	ti	<abbr><slp cap="true">DUrtas</slp></abbr><expandMW><ti><slp cap="true">DUrtasamAgama</slp></ti></expandMW>
 02:58	DhyānabUp.	DyAnabup	ti	<abbr><slp cap="true">DyAnab</slp><slp cap="true">up</slp></abbr><expandMW><ti><slp cap="true">DyAnabindu</slp><slp cap="true">upanizad</slp></ti></expandMW><expandNorm><ti><slp cap="true">DyAnabindu-upanizad</slp></ti></expandNorm>
 02:59	Dīp.	dIp	ti	<abbr><slp cap="true">dIp</slp></abbr><expandMW><ti><slp cap="true">dIpikA</slp></ti></expandMW>
-02:60	Divyāv.	divyAv	ti	<abbr><slp cap="true">divyAv</slp></abbr><expandMW><ti><slp cap="true">divyAvadAna</slp></ti></expandMW>
-02:60X	Divyâv.	divyAv	ti	<abbr><slp cap="true">divyAv</slp></abbr><expandMW><ti><slp cap="true">divyAvadAna</slp></ti></expandMW>
+02:60	Divyâv.	divyAv	ti	<abbr><slp cap="true">divyAv</slp></abbr><expandMW><ti><slp cap="true">divyAvadAna</slp></ti></expandMW>
 02:61	Drāhy.	drAhy	au	<abbr><slp cap="true">drAhy</slp></abbr><expandMW><au><slp cap="true">drAhyAyaRa</slp></au></expandMW>
 02:62	Durgāv.	durgAv	ti	<abbr><slp cap="true">durgAv</slp></abbr><expandMW><ti><slp cap="true">durgAvilAsa</slp></ti></expandMW>
 02:63	Dūtâṅg.	dUtANg	ti	<abbr><slp cap="true">dUtANg</slp></abbr><expandMW><ti><slp cap="true">dUtANgada</slp></ti></expandMW>
