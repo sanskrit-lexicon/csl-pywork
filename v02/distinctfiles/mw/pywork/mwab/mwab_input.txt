@@ -44,6 +44,7 @@ Cf.	<id>Cf.</id> <disp>confer, compare</disp> <INFER/>
 ch.	<id>ch.</id> <disp>chapter</disp>
 cl.	<id>cl.</id> <disp>class</disp>  <UNMARKED> used in <vlex>, not <ab>
 Class.	<id>Class.</id> <disp>Classical</disp>
+class.	<id>class.</id> <disp>Classical</disp>
 col.	<id>col.</id> <disp>column</disp>
 cols.	<id>cols.</id> <disp>columns</disp>
 Comm.	<id>Comm.</id> <disp>commentator or commentary</disp>
@@ -69,6 +70,7 @@ dram.	<id>dram.</id> <disp>dramatic language</disp>
 du.	<id>du.</id> <disp>dual number</disp>
 e.g.	<id>e.g.</id> <disp>exempli gratia, ‘for example’</disp>
 ed.	<id>ed.</id> <disp>edition</disp>
+encl.	<id>encl.</id> <disp>enclitic</disp>
 Eng.	<id>Eng.</id> <disp>English</disp>
 Engl.	<id>Engl.</id> <disp>English</disp> <INFER/>
 Ep.	<id>Ep.</id> <disp>Epic</disp>  <UNMARKED>  (lower case marked)
@@ -241,6 +243,7 @@ Schol.	<id>Schol.</id> <disp>Scholiast or Commentator</disp>
 scil.	<id>scil.</id> <disp>scilicet</disp>
 Scot.	<id>Scot.</id> <disp>Scotch or Highland-Scotch</disp>   <UNMARKED>
 seq.	<id>seq.</id> <disp>sequens, or ‘following, next’</disp>
+seqq.	<id>seq.</id> <disp>sequens, or ‘following, next’</disp>
 sev.	<id>sev.</id> <disp>several</disp>
 sg.	<id>sg.</id> <disp>singular number</disp> <INFER/>
 sing.	<id>sing.</id> <disp>singular number</disp>
