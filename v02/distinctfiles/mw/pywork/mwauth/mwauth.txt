@@ -67,7 +67,7 @@
 01:53	Bhadrab.	Badrab	ti	<abbr><slp cap="true">Badrab</slp></abbr><expandMW><ti><slp cap="true">BadrabAhu-caritra</slp></ti></expandMW>
 01:54	Bhag.	Bag	ti	<abbr><slp cap="true">Bag</slp></abbr><expandMW><ti><slp cap="true">Bagavad-gItA</slp></ti></expandMW>
 01:55	BhP.	Bp	ti	<abbr><slp cap="true">B</slp><slp cap="true">p</slp></abbr><expandMW><ti><slp cap="true">BAgavata</slp><slp cap="true">purARa</slp></ti></expandMW><expandNorm><ti><slp cap="true">BAgavata-purARa</slp></ti></expandNorm>
-01:55x	Bh.	Bp	ti	<abbr><slp cap="true">B</slp><slp cap="true">p</slp></abbr><expandMW><ti><slp cap="true">BAgavata</slp><slp cap="true">purARa</slp></ti></expandMW><expandNorm><ti><slp cap="true">BAgavata-purARa</slp></ti></expandNorm>
+01:55x	Bh.	Bh	ti	<abbr><slp cap="true">B</slp><slp cap="true">p</slp></abbr><expandMW><ti><slp cap="true">BAgavata</slp><slp cap="true">purARa</slp></ti></expandMW><expandNorm><ti><slp cap="true">BAgavata-purARa</slp></ti></expandNorm>
 01:55y	BhāgP.	Bp	ti	<abbr><slp cap="true">B</slp><slp cap="true">p</slp></abbr><expandMW><ti><slp cap="true">BAgavata</slp><slp cap="true">purARa</slp></ti></expandMW><expandNorm><ti><slp cap="true">BAgavata-purARa</slp></ti></expandNorm>
 01:56	Bhagavatīg.	BagavatIg	ti	<abbr><slp cap="true">BagavatIg</slp></abbr><expandMW><ti><slp cap="true">BagavatIgItA</slp></ti></expandMW><expandNorm><ti><slp cap="true">BagavatI-gItA</slp></ti></expandNorm>
 01:57	Bhaktâm.	BaktAm	ti	<abbr><slp cap="true">BaktAm</slp></abbr><expandMW><ti><slp cap="true">BaktAmara-stotra</slp></ti></expandMW>
@@ -551,6 +551,7 @@
 09:21	TPrāt.	tprAt	ti	<abbr><slp cap="true">t</slp><slp cap="true">prAt</slp></abbr><expandMW><ti><slp cap="true">tEttirIya</slp><slp cap="true">prAtiSAKya</slp></ti></expandMW><expandNorm><ti><slp cap="true">tEttirIya-prAtiSAKya</slp></ti></expandNorm>
 09:22	TS.	ts	ti	<abbr><slp cap="true">t</slp><slp cap="true">s</slp></abbr><expandMW><ti><slp cap="true">tEttirIya</slp><slp cap="true">saMhitA</slp></ti></expandMW><expandNorm><ti><slp cap="true">tEttirIya-saMhitA</slp></ti></expandNorm>
 09:23	TUp.	tup	ti	<abbr><slp cap="true">t</slp><slp cap="true">up</slp></abbr><expandMW><ti><slp cap="true">tEttirIya</slp><slp cap="true">upanizad</slp></ti></expandMW><expandNorm><ti><slp cap="true">tEttirIya-upanizad</slp></ti></expandNorm>
+09:23x	Taitt.Up.	tup	ti	<abbr><slp cap="true">t</slp><slp cap="true">up</slp></abbr><expandMW><ti><slp cap="true">tEttirIya</slp><slp cap="true">upanizad</slp></ti></expandMW><expandNorm><ti><slp cap="true">tEttirIya-upanizad</slp></ti></expandNorm>
 09:24	Tāj.	tAj	litcat	<abbr><slp cap="true">tAj</slp></abbr><expandMW><litcat><slp cap="true">tAjaka</slp></litcat></expandMW>
 09:25	TāṇḍyaBr.	tARqyabr	ti	<abbr><slp cap="true">tARqya</slp><slp cap="true">br</slp></abbr><expandMW><ti><slp cap="true">tARqya</slp><slp cap="true">brAhmaRa</slp></ti></expandMW><expandNorm><ti><slp cap="true">tARqya-brAhmaRa</slp></ti></expandNorm>
 09:25x	TāṇḍBr.	tARqyabr	ti	<abbr><slp cap="true">tARqya</slp><slp cap="true">br</slp></abbr><expandMW><ti><slp cap="true">tARqya</slp><slp cap="true">brAhmaRa</slp></ti></expandMW><expandNorm><ti><slp cap="true">tARqya-brAhmaRa</slp></ti></expandNorm>
@@ -703,3 +704,39 @@
 12:12	Ṛgvidh.	fgviD	ti	<expandNorm><ti>Ṛgvidhāna</ti> [Cologne Addition]</expandNorm>
 12:13	Ṛktantr.	fktantr	ti	<expandNorm><ti>Ṛktantravyākaraṇa</ti> [Cologne Addition]</expandNorm>
 12:14	M.M.	MMChips	ti	<expandNorm><ti>Max Muller, Chips from a German Workshop</ti> [Cologne Addition]</expandNorm>
+12:15	Am.	Am	ti	<expandNorm><ti> ? </ti> [Cologne Addition]</expandNorm>
+12:16	Ind.Ant.	Ind.Ant.	ti	<expandNorm><ti> ? </ti> [Cologne Addition]</expandNorm>
+12:17	IndAnt.	IndAnt	ti	<expandNorm><ti> ? </ti> [Cologne Addition]</expandNorm>
+12:18	Aufrecht	Aufrecht	au	<expandNorm><au>Theodor Aufrecht</au> [Cologne Addition]</expandNorm>
+12:19	Bühler	Bühler	au	<expandNorm><au>Georg Bühler</au> [Cologne Addition]</expandNorm>
+12:20	Böhtl.	Böhtl.	au	<expandNorm><au>Otto von Böhtlingk</au> [Cologne Addition]</expandNorm>
+12:21	Beames	Beames	au	<expandNorm><au>?</au> [Cologne Addition]</expandNorm>
+12:22	Hunter	Hunter	au	<expandNorm><au>?</au> [Cologne Addition]</expandNorm>
+12:23	Zachariae	Zachariae	au	<expandNorm><au>Theodor Zachariae,  Die indischen Wörterbücher</au> [Cologne Addition]</expandNorm>
+12:24	Bloomfield	Bloomfield	au	<expandNorm><au>Maurice Bloomfield</au> [Cologne Addition]</expandNorm>
+12:25	Bn.	Bn.	au	<expandNorm><ti>?</ti> [Cologne Addition]</expandNorm>
+12:26	Boehtlingk	Boehtlingk	au	<expandNorm><au>Otto von Böhtlingk</au> [Cologne Addition]</expandNorm>
+12:27	Buddhac.	Buddhac.	au	<expandNorm><ti>Buddhacarita</ti> [Cologne Addition]</expandNorm>
+12:28	Burnouf	Burnouf	au	<expandNorm><au>Eugène Burnouf</au> [Cologne Addition]</expandNorm>
+12:29	Colebrooke	Colebrooke	au	<expandNorm><au>Henry Thomas Colebrooke</au> [Cologne Addition]</expandNorm>
+12:30	Cowell	Cowell	au	<expandNorm><au>Edward Byles Cowell</au> [Cologne Addition]</expandNorm>
+12:31	Kaegi	Kaegi	au	<expandNorm><au>Adolf Kaegi</au> [Cologne Addition]</expandNorm>
+12:32	Goldst.	Goldst.	au	<expandNorm><ti>Theodor Goldstücker Sanskrit-English Dictionary</ti> [Cologne Addition]</expandNorm>
+12:33	Gram.	Gram.	au	<expandNorm><ti>Whitney Sanskrit Grammar</ti> [Cologne Addition]</expandNorm>
+12:34	Haughton	Haughton	au	<expandNorm><ti>Dictionary of Bengali-Sanskrit-English, Graves C. Haughton</ti> [Cologne Addition]</expandNorm>
+12:35	Hpar.	hpar	ti	<abbr><slp cap="true">h</slp><slp cap="true">pariS</slp></abbr><expandMW><au><slp cap="true">hemacandra</slp></au>'s <ti><slp cap="true">pariSizwaparvan</slp></ti></expandMW>
+12:36	JBr.	jbr	ti	<abbr><slp cap="true">jEm</slp><slp cap="true">br</slp></abbr><expandMW><ti><slp cap="true">jEminIya</slp><slp cap="true">brAhmaRa</slp></ti></expandMW><expandNorm><ti><slp cap="true">jEminIya-brAhmaRa</slp></ti></expandNorm>
+12:37	Kosegarten	Kosegarten	au	<expandNorm><au>Johann Gottfried Ludwig Kosegarten</au> [Cologne Addition]</expandNorm>
+12:38	Luders	Luders	au	<expandNorm><au>Heinrich Lüders</au> [Cologne Addition]</expandNorm>
+12:39	Ludwig	Ludwig	au	<expandNorm><au>?</au> [Cologne Addition]</expandNorm>
+12:40	Muir	Muir	au	<expandNorm><au>John Muir</au> [Cologne Addition]</expandNorm>
+12:41	Pischel	Pischel	au	<expandNorm><au>Richard Pischel</au> [Cologne Addition]</expandNorm>
+12.42	Prav.	prav	litcat	<abbr><slp cap="true">pravar</slp></abbr><expandMW><litcat><slp cap="true">pravara</slp> texts</litcat></expandMW>
+12:43	Wh.	Wh.	au	<expandNorm><au>?</au> [Cologne Addition]</expandNorm>
+12:44	Ro.	Ro.	au	<expandNorm><au>?</au> [Cologne Addition]</expandNorm>
+12:45	Schlegel	Schlegel	au	<expandNorm><au>Friedrich Schlegel</au> [Cologne Addition]</expandNorm>
+12:46	VRJ.	VRJ.	au	<expandNorm><au>?</au> [Cologne Addition]</expandNorm>
+12:47	Vaidyakaparibh.	vEdyakapariB	ti	<abbr><slp cap="true">vEdyakapariB</slp></abbr><expandNorm>NONE</expandNorm><expandNorm><ti><slp cap="true">vEdyakapariBAzA</slp></ti> [Cologne Addition]</expandNorm>
+12:48	Weber	Weber	au	<expandNorm><au>Albrecht Weber</au> [Cologne Addition]</expandNorm>
+12:49	Whitney's Gr.	Whitney's Gr.	au	<expandNorm><ti>Whitney Sanskrit Grammar</ti> [Cologne Addition]</expandNorm>
+12:50	Yog.	Yog.	ti	<expandNorm><ti>Yogasūtra</ti> [Cologne Addition]</expandNorm>

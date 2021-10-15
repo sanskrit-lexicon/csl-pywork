@@ -12,9 +12,19 @@ add.	<id>add.</id> <disp>additions</disp>
 adj.	<id>adj.</id> <disp>adjective (cf. mfn.)</disp>
 adv.	<id>adv.</id> <disp>adverb</disp>
 Aeol.	<id>Aeol.</id> <disp>AEolic</disp>
+Afghan.	<id>Afghan.</id> <disp>language of Afghanistan</disp>
 alg.	<id>alg.</id> <disp>algebra</disp>
 anat.	<id>anat.</id> <disp>anatomy</disp>
 Angl.Sax.	<id>Angl.Sax.</id> <disp>Anglo-Saxon</disp>
+A.S.	<id>A.S.</id> <disp>Anglo-Saxon</disp>
+OSax.	<id>OSax.</id> <disp>Old Saxon</disp>
+Old Sax.	<id>Old Sax.</id> <disp>Old Saxon</disp>
+Goth. Old S.	<id>Goth. Old S.</id> <disp>Gothic Old Saxon</disp>
+A.D.	<id>A.D.</id> <disp>anno Domini, in the year of the Lord</disp>
+B.C.	<id>B.C.</id> <disp>before Christ</disp>
+B	<id>B</id> <disp>Bombay edition</disp>
+C	<id>C</id> <disp>Calcutta edition</disp>
+Calc.	<id>Calc.</id> <disp>Calcutta edition</disp>
 anom.	<id>anom.</id> <disp>anomalous</disp>
 Aor.	<id>Aor.</id> <disp>Aorist</disp>
 aor.	<id>aor.</id> <disp>Aorist</disp>
@@ -27,6 +37,7 @@ astrol.	<id>astrol.</id> <disp>astrology</disp>
 astron.	<id>astron.</id> <disp>astronomy</disp>
 B.	<id>B.</id> <disp>Bombay edition</disp>
 B.C.	<id>B.C.</id> <disp>Before Christ</disp> <INFER/>
+Beng.	<id>Beng.</id> <disp>Bengali</disp> <UNMARKED>
 Boh.	<id>Boh.</id> <disp>Bohemian</disp> <UNMARKED>
 Bohem.	<id>Bohem.</id> <disp>Bohemian</disp> <UNMARKED>
 Bomb.	<id>Bomb.</id> <disp>Bombay edition</disp> <INFER/>
@@ -58,14 +69,17 @@ concr.	<id>concr.</id> <disp>concrete</disp> <INFER/>
 Cond.	<id>Cond.</id> <disp>Conditional</disp>
 cond.	<id>cond.</id> <disp>Conditional</disp> <INFER/>
 conj.	<id>conj.</id> <disp>conjectural</disp>
+Conj.	<id>Conj.</id> <disp>conjectural</disp>
 cons.	<id>cons.</id> <disp>consonant</disp>
 dat.	<id>dat.</id> <disp>dative case</disp>
 Dat.	<id>Dat.</id> <disp>dative case</disp>  <INFER/>
 defect.	<id>defect.</id> <disp>defective</disp>
 Desid.	<id>Desid.</id> <disp>Desiderative</disp>
+Des.	<id>Des.</id> <disp>Desiderative</disp>
 Desid. Caus.	<id>Desid. Caus.</id> <disp>Desiderative Causal</disp>
 Desid. Pass.	<id>Desid. Pass.</id> <disp>Desiderative Passive</disp>
 dimin.	<id>dimin.</id> <disp>diminutive</disp>
+Dor.	<id>Dor.</id> <disp>Doric</disp>
 dram.	<id>dram.</id> <disp>dramatic language</disp>
 du.	<id>du.</id> <disp>dual number</disp>
 e.g.	<id>e.g.</id> <disp>exempli gratia, ‘for example’</disp>
@@ -80,29 +94,43 @@ etym.	<id>etym.</id> <disp>etymology</disp>
 f.	<id>f.</id> <disp>feminine</disp> NOTE: NORMALLY in <lex>
 fem.	<id>fem.</id> <disp>feminine</disp> <INFER/>
 fig.	<id>fig.</id> <disp>figuratively</disp>
+Feb.	<id>Feb.</id> <disp>February</disp>
 fr.	<id>fr.</id> <disp>from</disp>
+Fr.	<id>Fr.</id> <disp>From or French</disp>
 Fut.	<id>Fut.</id> <disp>future</disp>
 fut.	<id>fut.</id> <disp>future</disp>
 fut.p.p.	<id>fut.p.p.</id> <disp>future passive participle</disp>  <UNMARKED>
 fut.Pass.p.	<id>fut.Pass.p.</id> <disp>future passive participle</disp>  <INFER/>
 g.	<id>g.</id> <disp>gaṇa</disp>
 G.	<id>G.</id> <disp>Gaspard Gorresio Italian edition</disp> <INFER/>
+G	<id>G</id> <disp>Gaspard Gorresio Italian edition</disp> <INFER/>
 Gorr.	<id>Gorr.</id> <disp>Gaspard Gorresio Italian edition</disp> <INFER/>
+Gorresio	<id>Gorresio</id> <disp>Gaspard Gorresio</disp> <INFER/>
 Gael.	<id>Gael.</id> <disp>Gaelic</disp>
 gen.	<id>gen.</id> <disp>genitive case</disp>
+Gen.	<id>Gen.</id> <disp>genitive case</disp>
 gend.	<id>gend.</id> <disp>gender</disp>  <UNMARKED>
 geom.	<id>geom.</id> <disp>geometry</disp>
 Germ.	<id>Germ.</id> <disp>German</disp>
+Old Germ.	<id>Old Germ.</id> <disp>Old German</disp>
+Old Pers.	<id>Old Pers.</id> <disp>Old Persian</disp>
+Old Persian	<id>Old Persian</id> <disp>Old Persian</disp>
+Old High Germ.	<id>Old High Germ.</id> <disp>Old High German</disp>
+Old Slav.	<id>Old Slav.</id> <disp>Old Slavic</disp>
 Gk.	<id>Gk.</id> <disp>Greek</disp>
 Got.	<id>Got.</id> <disp>Gothic</disp>  <INFER/>
 Goth.	<id>Goth.</id> <disp>Gothic</disp>
 Govind.	</id>Govind.</id> <disp>Govinda</disp> <INFER/> def? hw = jawADAriSEvamata, darSanAvaraRIya
-Gr.	<id>Gr.</id> <disp>grammar</disp>
+Gr.	<id>Gr.</id> <disp>grammar, esp. Whitney's Sanskrit Grammar</disp>
 Gram.	<id>Gram.</id> <disp>grammar</disp>  <INFER/>
+gram.	<id>gram.</id> <disp>grammar</disp>  <INFER/>
 Gramm.	<id>Gramm.</id> <disp>grammar</disp>  <INFER/>
 HGerm.	<id>HGerm.</id> <disp>High German</disp> <INFER/>
+NHGerm.	<id>NHGerm.</id> <disp>New High German</disp> <INFER/>
+OGerm.	<id>OGerm.</id> <disp>Old German</disp> <INFER/>
 Hib.	<id>Hib.</id> <disp>Hibernian or Irish</disp>
 Hind.	<id>Hind.</id> <disp>Hindī</disp>
+Kelt.	<id>Kelt.</id> <disp>Keltic (or Celtic)</disp>
 i.e.	<id>i.e.</id> <disp>id est, or ‘that is’</disp>
 ib.	<id>ib.</id> <disp>ibidem or ‘in the same place or book or text’ as the preceding</disp>
 ibc.	<id>ibc.</id> <disp>in the beginning of a compound</disp>
@@ -118,6 +146,7 @@ impv.	<id>impv.</id> <disp>imperative</disp> <INFER/>
 Imp.	<id>Imp.</id> <disp>imperative</disp> <INFER/>
 Imper.	<id>Imper.</id> <disp>imperative</disp> <INFER/>
 ind.	<id>ind.</id> <disp>indeclinable</disp>
+Ind.	<id>Ind.</id> <disp>indeclinable</disp>
 ind.p.	<id>ind.p.</id> <disp>indeclinable participle</disp>  <INFER/>
 Indic.	<id>Indic.</id> <disp>indicative (= optative)</disp>  <INFER/>
 inf.	<id>inf.</id> <disp>infinitive mood</disp>
@@ -142,6 +171,7 @@ Lett.	<id>Lett.</id> <disp>Lettish</disp>
 lit.	<id>lit.</id> <disp>literally</disp>
 Lith.	<id>Lith.</id> <disp>Lithuanian</disp>
 Lit.	<id>Lit.</id> <disp>Lithuanian</disp>  <INFER/> ? hw= Dfz
+Lin.	<id>Lin.</id> <disp>Carl Linnaeus</disp>  <INFER/>
 Loc.	<id>loc.</id> <disp>locative case</disp> <INFER/>
 loc.	<id>Loc.</id> <disp>locative case</disp>
 log.	<id>log.</id> <disp>logic</disp>
@@ -162,6 +192,7 @@ myth.	<id>myth.</id> <disp>mythology</disp>
 N.	<id>N.</id> <disp>Name (also = title or epithet)</disp>
 n.	<id>n.</id> <disp>neuter gender</disp>   USED IN <lex>
 neg.	<id>neg.</id> <disp>negative</disp>
+negat.	<id>negat.</id> <disp>negative</disp>
 Nom.	<id>Nom.</id> <disp>Nominal verb</disp>
 nom.	<id>nom.</id> <disp>nominative case</disp>
 O.	<id>O.</id> <disp>Old</disp> <INFER/>
@@ -169,13 +200,16 @@ O.E.	<id>O.E.</id> <disp>Old English</disp> <INFER/>
 O.H.G.	<id>O.H.G.</id> <disp>Old High German</disp> <INFER/>
 O.N.	<id>O.N.</id> <disp>Old Norse</disp> <INFER/>
 O.Pr.	<id>O.Pr.</id> <disp>Old Prussian</disp> <INFER/>
+O.S.	<id>O.S.</id> <disp>?</disp> <INFER/>
 obs.	<id>obs.</id> <disp>obsolete</disp>
 onomat.	<id>onomat.</id> <disp>onomatopoetic (i.e. formed from imitation of sounds)</disp>
 opp.	<id>opp.</id> <disp>opposed</disp> <INFER/> 446 cases. Maybe all opp. to ?
 opp. to	<id>opp. to</id> <disp>opposed to</disp>
 opt.	<id>opt.</id> <disp>optative</disp> <UNMARKED>
 Opt.	<id>Opt.</id> <disp>optative</disp> <INFER/>
+Osk.	<id>Osk.</id> <disp>?</disp> <INFER/>
 orig.	<id>orig.</id> <disp>originally</disp>
+Orig.	<id>Orig.</id> <disp>originally</disp>
 Osset.	<id>Osset.</id> <disp>Ossetic</disp>
 others	<id>others</id> <disp>according to others</disp>  <UNMARKED>
 oxyt.	<id>oxyt.</id>  <disp>oxytone, having an acute accent on last syllable</disp>  <INFER/>
@@ -203,6 +237,7 @@ pl.	<id>pl.</id> <disp>plural number</disp>
 poet.	<id>poet.</id> <disp>poetry or poetic</disp>
 possess.	<id>possess.</id> <disp>possessive</disp> <INFER/>
 Pot.	<id>Pot.</id> <disp>Potential</disp>
+Pol.	<id>Pol.</id> <disp>Polish</disp>
 Pr.	<id>Pr.</id> <disp>proper</disp>
 Prāk.	<id>Prāk.</id> <disp>Prākṛit</disp>   <UNMARKED>
 Prākr.	<id>Prākr.</id> <disp>Prākṛit</disp>  <MARKED, BUT WITH Pra1kr>
@@ -218,6 +253,7 @@ pres.	<id>pres.</id> <disp>present tense</disp>
 Pres.	<id>Pres.</id> <disp>present tense</disp> <INFER/>
 priv.	<id>priv.</id> <disp>privative</disp>
 prob.	<id>prob.</id> <disp>probably</disp>
+Prob.	<id>Prob.</id> <disp>probably</disp>
 pron.	<id>pron.</id> <disp>pronoun</disp>
 pronom.	<id>pronom.</id> <disp>pronominal</disp>
 propar.	<id>propar.</id> <disp>proparoxytone</disp>  <UNMARKED>
@@ -247,11 +283,15 @@ seqq.	<id>seq.</id> <disp>sequens, or ‘following, next’</disp>
 sev.	<id>sev.</id> <disp>several</disp>
 sg.	<id>sg.</id> <disp>singular number</disp> <INFER/>
 sing.	<id>sing.</id> <disp>singular number</disp>
+Sk.	<id>Sk.</id> <disp>Sanskrit</disp>
+Skr.	<id>Skr.</id> <disp>Sanskrit</disp>
 Slav.	<id>Slav.</id> <disp>Slavonic or Slavonian</disp>
+Sl.	<id>Sl.</id> <disp>Slovak</disp>
 Subj.	<id>Subj.</id> <disp>subjunctive</disp>
 subst.	<id>subst.</id> <disp>substantive</disp>
 suff.	<id>suff.</id> <disp>suffix</disp>
 superl.	<id>superl.</id> <disp>superlative degree</disp>
+Superl.	<id>Superl.</id> <disp>superlative degree</disp>
 surg.	<id>surg.</id> <disp>surgery</disp>
 s.v.	<id>s.v.</id> <disp>sub voce, i.e. the word in the Sanskrit order</disp>
 ss.vv.	<id>ss.vv.</id> <disp>sub voce, i.e. the word in the Sanskrit order</disp>  <INFER/>
@@ -273,4 +313,15 @@ w.r.	<id>w.r.</id> <disp>wrong reading</disp>
 wk.	<id>wk.</id> <disp>work</disp>
 wks.	<id>wks.</id> <disp>works</disp>
 YV.	<id>YV.</id> <disp>Yajur-Veda</disp> <INFER/> should be ls? 
+YV	<id>YV</id> <disp>Yajur-Veda</disp> <INFER/> should be ls? 
 Zd.	<id>Zd.</id> <disp>Zend</disp>
+Zend	<id>Zend</id> <disp>Zend</disp>
+Z.	<id>Z.</id> <disp>Zend</disp>
+Sept.	<id>Sept.</id> <disp>September</disp>
+Oct.	<id>Oct.</id> <disp>October</disp>
+Nov.	<id>Nov.</id> <disp>November</disp>
+Them.	<id>Them.</id> <disp>?</disp>
+Theme	<id>Theme</id> <disp>?</disp>
+Thema	<id>Thema</id> <disp>?</disp>
+Transl.	<id>Transl.</id> <disp>translation</disp>
+Umbr.	<id>Umbr.</id> <disp>Umbrian</disp>
