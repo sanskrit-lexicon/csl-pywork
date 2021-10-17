@@ -160,6 +160,7 @@ intens.	<id>intens.</id> <disp>Intensive</disp> <INFER/>
 interj.	<id>interj.</id> <disp>interjection</disp>   <INFER/>
 interpol.	<id>interpol.</id> <disp>interpolation</disp>
 intrans.	<id>intrans.</id> <disp>intransitive</disp>
+intr.	<id>intr.</id> <disp>intransitive</disp>
 Introd.	<id>Introd.</id> <disp>Introduction</disp>
 Ion.	<id>Ion.</id> <disp>Ionic</disp> <UNMARKED>
 irr.	<id>irr.</id> <disp>irregular</disp>
@@ -278,10 +279,12 @@ Sch.	<id>Sch.</id> <disp>Scholiast or Commentator</disp>
 Schol.	<id>Schol.</id> <disp>Scholiast or Commentator</disp>
 scil.	<id>scil.</id> <disp>scilicet</disp>
 Scot.	<id>Scot.</id> <disp>Scotch or Highland-Scotch</disp>   <UNMARKED>
-seq.	<id>seq.</id> <disp>sequens, or ‘following, next’</disp>
-seqq.	<id>seq.</id> <disp>sequens, or ‘following, next’</disp>
+seq.	<id>seq.</id> <disp>sequens, the following one</disp>
+seqq.	<id>seqq.</id> <disp>sequentia, the following ones</disp>
 sev.	<id>sev.</id> <disp>several</disp>
 sg.	<id>sg.</id> <disp>singular number</disp> <INFER/>
+st.	<id>st.</id> <disp>Stadt (German); instead of</disp>
+collect.	<id>collect.</id> <disp>collective or collectively</disp>
 sing.	<id>sing.</id> <disp>singular number</disp>
 Sk.	<id>Sk.</id> <disp>Sanskrit</disp>
 Skr.	<id>Skr.</id> <disp>Sanskrit</disp>
