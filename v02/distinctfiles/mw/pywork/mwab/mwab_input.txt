@@ -208,7 +208,7 @@ opp.	<id>opp.</id> <disp>opposed</disp> <INFER/> 446 cases. Maybe all opp. to ?
 opp. to	<id>opp. to</id> <disp>opposed to</disp>
 opt.	<id>opt.</id> <disp>optative</disp> <UNMARKED>
 Opt.	<id>Opt.</id> <disp>optative</disp> <INFER/>
-Osk.	<id>Osk.</id> <disp>?</disp> <INFER/>
+Osk.	<id>Osk.</id> <disp>Oskan</disp> <INFER/>
 orig.	<id>orig.</id> <disp>originally</disp>
 Orig.	<id>Orig.</id> <disp>originally</disp>
 Osset.	<id>Osset.</id> <disp>Ossetic</disp>
@@ -264,7 +264,7 @@ q.v.	<id>q.v.</id> <disp>quod vide, which see</disp>
 qq.vv.	<id>qq.vv.</id> <disp>quod vide, which see</disp> <INFER/>
 qq.v.	<id>qq.v.</id> <disp>quod vide, which see</disp> <INFER/>
 redupl.	<id>redupl.</id> <disp>reduplicated</disp>
-Rec.	<id>Rec.</id> <disp> ?? </disp> <INFER/> Def? hw=aByAkAram
+Rec.	<id>Rec.</id> <disp>Recension </disp> <INFER/> 
 Rev.	<id>Rev.</id> <disp> ?? </disp> <INFER/> Def? hw=arjuneSvaratIrTa, etc.
 Reflex.	<id>Reflex.</id> <disp>Reflexive or used reflexively</disp>   <UNMARKED>
 reflex.	<id>reflex.</id> <disp>Reflexive or used reflexively</disp>   <UNMARKED>
@@ -289,7 +289,7 @@ sing.	<id>sing.</id> <disp>singular number</disp>
 Sk.	<id>Sk.</id> <disp>Sanskrit</disp>
 Skr.	<id>Skr.</id> <disp>Sanskrit</disp>
 Slav.	<id>Slav.</id> <disp>Slavonic or Slavonian</disp>
-Sl.	<id>Sl.</id> <disp>Slovak</disp>
+Sl.	<id>Sl.</id> <disp>Slavonic or Slavonian.</disp>
 Subj.	<id>Subj.</id> <disp>subjunctive</disp>
 subst.	<id>subst.</id> <disp>substantive</disp>
 suff.	<id>suff.</id> <disp>suffix</disp>
@@ -323,8 +323,8 @@ Z.	<id>Z.</id> <disp>Zend</disp>
 Sept.	<id>Sept.</id> <disp>September</disp>
 Oct.	<id>Oct.</id> <disp>October</disp>
 Nov.	<id>Nov.</id> <disp>November</disp>
-Them.	<id>Them.</id> <disp>?</disp>
-Theme	<id>Theme</id> <disp>?</disp>
-Thema	<id>Thema</id> <disp>?</disp>
+Them.	<id>Them.</id> <disp>Thema or base</disp>
+Theme	<id>Theme</id> <disp>Thema or base</disp>
+Thema	<id>Thema</id> <disp>Thema or base</disp>
 Transl.	<id>Transl.</id> <disp>translation</disp>
 Umbr.	<id>Umbr.</id> <disp>Umbrian</disp>

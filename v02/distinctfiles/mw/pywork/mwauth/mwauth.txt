@@ -67,7 +67,7 @@
 01:53	Bhadrab.	Badrab	ti	<abbr><slp cap="true">Badrab</slp></abbr><expandMW><ti><slp cap="true">BadrabAhu-caritra</slp></ti></expandMW>
 01:54	Bhag.	Bag	ti	<abbr><slp cap="true">Bag</slp></abbr><expandMW><ti><slp cap="true">Bagavad-gItA</slp></ti></expandMW>
 01:55	BhP.	Bp	ti	<abbr><slp cap="true">B</slp><slp cap="true">p</slp></abbr><expandMW><ti><slp cap="true">BAgavata</slp><slp cap="true">purARa</slp></ti></expandMW><expandNorm><ti><slp cap="true">BAgavata-purARa</slp></ti></expandNorm>
-01:55x	Bh.	Bh	ti	<abbr><slp cap="true">B</slp><slp cap="true">p</slp></abbr><expandMW><ti><slp cap="true">BAgavata</slp><slp cap="true">purARa</slp></ti></expandMW><expandNorm><ti><slp cap="true">BAgavata-purARa</slp></ti></expandNorm>
+01:55x	Bh.	Bh	ti	<expandNorm><ti>Bhāvaprakāśa</ti> [Cologne Addition]</expandNorm>
 01:55y	BhāgP.	Bp	ti	<abbr><slp cap="true">B</slp><slp cap="true">p</slp></abbr><expandMW><ti><slp cap="true">BAgavata</slp><slp cap="true">purARa</slp></ti></expandMW><expandNorm><ti><slp cap="true">BAgavata-purARa</slp></ti></expandNorm>
 01:56	Bhagavatīg.	BagavatIg	ti	<abbr><slp cap="true">BagavatIg</slp></abbr><expandMW><ti><slp cap="true">BagavatIgItA</slp></ti></expandMW><expandNorm><ti><slp cap="true">BagavatI-gItA</slp></ti></expandNorm>
 01:57	Bhaktâm.	BaktAm	ti	<abbr><slp cap="true">BaktAm</slp></abbr><expandMW><ti><slp cap="true">BaktAmara-stotra</slp></ti></expandMW>
@@ -704,9 +704,9 @@
 12:12	Ṛgvidh.	fgviD	ti	<expandNorm><ti>Ṛgvidhāna</ti> [Cologne Addition]</expandNorm>
 12:13	Ṛktantr.	fktantr	ti	<expandNorm><ti>Ṛktantravyākaraṇa</ti> [Cologne Addition]</expandNorm>
 12:14	M.M.	MMChips	ti	<expandNorm><ti>Max Muller, Chips from a German Workshop</ti> [Cologne Addition]</expandNorm>
-12:15	Am.	Am	ti	<expandNorm><ti> ? </ti> [Cologne Addition]</expandNorm>
-12:16	Ind.Ant.	Ind.Ant.	ti	<expandNorm><ti> ? </ti> [Cologne Addition]</expandNorm>
-12:17	IndAnt.	IndAnt	ti	<expandNorm><ti> ? </ti> [Cologne Addition]</expandNorm>
+12:15	Am.	Am	ti	<expandNorm><ti>Amarakośa</ti> [Cologne Addition]</expandNorm>
+12:16	Ind.Ant.	Ind.Ant.	ti	<expandNorm><ti>Indian Antiquary</ti> [Cologne Addition]</expandNorm>
+12:17	IndAnt.	IndAnt	ti	<expandNorm><ti>Indian Antiquary</ti> [Cologne Addition]</expandNorm>
 12:18	Aufrecht	Aufrecht	au	<expandNorm><au>Theodor Aufrecht</au> [Cologne Addition]</expandNorm>
 12:19	Bühler	Bühler	au	<expandNorm><au>Georg Bühler</au> [Cologne Addition]</expandNorm>
 12:20	Böhtl.	Böhtl.	au	<expandNorm><au>Otto von Böhtlingk</au> [Cologne Addition]</expandNorm>
@@ -728,15 +728,16 @@
 12:36	JBr.	jbr	ti	<abbr><slp cap="true">jEm</slp><slp cap="true">br</slp></abbr><expandMW><ti><slp cap="true">jEminIya</slp><slp cap="true">brAhmaRa</slp></ti></expandMW><expandNorm><ti><slp cap="true">jEminIya-brAhmaRa</slp></ti></expandNorm>
 12:37	Kosegarten	Kosegarten	au	<expandNorm><au>Johann Gottfried Ludwig Kosegarten</au> [Cologne Addition]</expandNorm>
 12:38	Luders	Luders	au	<expandNorm><au>Heinrich Lüders</au> [Cologne Addition]</expandNorm>
-12:39	Ludwig	Ludwig	au	<expandNorm><au>?</au> [Cologne Addition]</expandNorm>
+12:39	Ludwig	Ludwig	au	<expandNorm>Alfred Ludwig, Der Rigveda (1876) [Cologne Addition]</expandNorm>
 12:40	Muir	Muir	au	<expandNorm><au>John Muir</au> [Cologne Addition]</expandNorm>
 12:41	Pischel	Pischel	au	<expandNorm><au>Richard Pischel</au> [Cologne Addition]</expandNorm>
-12.42	Prav.	prav	litcat	<abbr><slp cap="true">pravar</slp></abbr><expandMW><litcat><slp cap="true">pravara</slp> texts</litcat></expandMW>
-12:43	Wh.	Wh.	au	<expandNorm><au>?</au> [Cologne Addition]</expandNorm>
-12:44	Ro.	Ro.	au	<expandNorm><au>?</au> [Cologne Addition]</expandNorm>
+12.42	Prav.	prav	ti	<expandNorm>Pravarādhyāya [Cologne Addition]</expandNorm>
+12:43	Wh.	Wh.	au	<expandNorm>Whitney, W. D. (1872). [Cologne Addition]</expandNorm>
+12:44	Ro.	Ro.	au	<expandNorm>Fridericus Rosen (Friedrich August Rosen)[Cologne Addition]</expandNorm>
 12:45	Schlegel	Schlegel	au	<expandNorm><au>Friedrich Schlegel</au> [Cologne Addition]</expandNorm>
 12:46	VRJ.	VRJ.	au	<expandNorm><au>?</au> [Cologne Addition]</expandNorm>
 12:47	Vaidyakaparibh.	vEdyakapariB	ti	<abbr><slp cap="true">vEdyakapariB</slp></abbr><expandNorm>NONE</expandNorm><expandNorm><ti><slp cap="true">vEdyakapariBAzA</slp></ti> [Cologne Addition]</expandNorm>
 12:48	Weber	Weber	au	<expandNorm><au>Albrecht Weber</au> [Cologne Addition]</expandNorm>
-12:49	Whitney's Gr.	Whitney's Gr.	au	<expandNorm><ti>Whitney Sanskrit Grammar</ti> [Cologne Addition]</expandNorm>
+12:49	Whitney's Gr.	Whitney's Gr.	ti	<expandNorm>Whitney Sanskrit Grammar [Cologne Addition]</expandNorm>
 12:50	Yog.	Yog.	ti	<expandNorm><ti>Yogasūtra</ti> [Cologne Addition]</expandNorm>
+12:51	Windisch	Windisch	au	<expandNorm><au>Ernst Wilhelm Oskar Windisch</au> [Cologne Addition]</expandNorm>
