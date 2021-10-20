@@ -36,7 +36,6 @@ Armor.	<id>Armor.</id> <disp>Armorican or the language of Brittany</disp> <UNMAR
 astrol.	<id>astrol.</id> <disp>astrology</disp>
 astron.	<id>astron.</id> <disp>astronomy</disp>
 B.	<id>B.</id> <disp>Bombay edition</disp>
-B.C.	<id>B.C.</id> <disp>Before Christ</disp> <INFER/>
 Beng.	<id>Beng.</id> <disp>Bengali</disp> <UNMARKED>
 Boh.	<id>Boh.</id> <disp>Bohemian</disp> <UNMARKED>
 Bohem.	<id>Bohem.</id> <disp>Bohemian</disp> <UNMARKED>
@@ -46,7 +45,6 @@ Bret.	<id>Bret.</id> <disp>Breton</disp>  <UNMARKED>
 C.	<id>C.</id> <disp>Calcutta edition</disp>
 Buddh.	<id>Buddh.</id> <disp>Buddhist</disp>
 c.	<id>c.</id> <disp>case</disp>
-Calc.	<id>Calc.</id> <disp>Calcutta edition</disp>
 Cambro-Brit.	<id>Cambro-Brit.</id> <disp>Cambro-Briton, or Welsh</disp> <INFER/>
 Cat.	<id>Cat.</id> <disp>catalogue or catalogues</disp>  <UNMARKED> <ls>?
 Caus.	<id>Caus.</id> <disp>Causal</disp>
