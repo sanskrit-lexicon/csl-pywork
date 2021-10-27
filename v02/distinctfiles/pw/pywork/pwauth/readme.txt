@@ -13,7 +13,9 @@ Reason:
 - redo.sh uses redo_pwbib.sh
 
 However, pwbib.txt IS used by make_xml_ls.py  as part of redo_xml.sh.
-
+Note: 10-26-2021.  I think make_xml_ls.py is NOT now part of redo_xml.sh for pw
+      Thus, pwbib.txt and pwbib_input.txt are allowed to be out of sync.
+      
 This is rather confusing. 
 When we make an correction to an abbreviation expansion in pwbib_input.txt,
 this correction makes its way into the display abbreviation tooltip by

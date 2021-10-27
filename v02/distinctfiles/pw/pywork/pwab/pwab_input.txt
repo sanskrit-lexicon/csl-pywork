@@ -7,6 +7,8 @@ adv.	<id>adv.</id> <disp>adverbial? - adverbial</disp>
 Aor.	<id>Aor.</id> <disp>Aorist - aorist</disp>
 Bein.	<id>Bein.</id> <disp>Beiname - epithet, by name</disp>
 Beinn.	<id>Beinn.</id> <disp>Beinamen - epithets, by names</disp>
+best.	<id>best.</id> <disp>bestimmte - a certain (kind of)</disp>
+ebend.	<id>ebend.</id> <disp>ebenda - ibid. (ibidem) - in the same source</disp>
 Caus.	<id>Caus.</id> <disp>Causativ - causative</disp>
 Comm.	<id>Comm.</id> <disp>Commentar? - commentary</disp>
 Conj.	<id>Conj.</id> <disp>Conjunctiv? - subjunctive (mood)</disp>
@@ -43,6 +45,7 @@ Präp.	<id>Präp.</id> <disp>Präposition - preposition</disp>
 s.u.	<id>s.u.</id> <disp>siehe unten?/unter? - see below/under</disp>
 Sg.	<id>Sg.</id> <disp>Singular - singular</disp>
 Subst.	<id>Subst.</id> <disp>Substantiv - noun</disp>
+Sch.	<id>Sch.</id> <disp>Scholiast or Commentator</disp>
 v.l.	<id>v.l.</id> <disp>vide licet - that us to say, namely</disp>
 Vgl.	<id>Vgl.</id> <disp>Vergleiche - compare</disp>
 vgl.	<id>Vgl.</id> <disp>vergleiche - compare</disp>

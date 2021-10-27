@@ -277,7 +277,7 @@
 1277	VAITĀN.	Vaitān.	VAITĀN. = VAITĀNASŪTRA, Ausg, von GARBE. 
 1278	VĀYU-P.	Vāyu-P.	VĀYU-P. = VĀYUPURĀṆA, nach Citaten in andern Werken. 
 1279	VĀLAKH.	Vālakh.	VĀLAKH. = VĀLAKHILYA, die zwischen ṚV. 8, 84 und 49 eingeschobenen Lieder (ROTH). 
-1280	VĀMANA.	Vāmana.	VĀMANA. = VĀMANA'S KĀVYĀLAṂKĀRAVṚTTI, Ausg. von CAPELLER. 
+1280	VĀMANA	Vāmana	VĀMANA = VĀMANA'S KĀVYĀLAṂKĀRAVṚTTI, Ausg. von CAPELLER. 
 1281	VAṂŚABR.	Vaṃśabr.	VAṂŚABR. = VAṂŚABRĀHMAṆA, Ausg. von BURNELL (ROTH). 
 1282	VARĀH.BṚH.	Varāh.Bṛh.	VARĀH.BṚH. = VARĀHAMIHIRA'S BṚHAJJĀTAKA (KERN). 
 1283	VARĀH.BṚH.S.	Varāh.Bṛh.S.	VARĀH.BṚH.S. = VARĀHAMIHIRA'S BṚHATSAṂHITĀ (KERN). 
@@ -296,6 +296,7 @@
 1296	VIṢṆUS.	Viṣṇus.	VIṢṆUS. = VIṢṆUSŪTRA, zur Herausgabe vorbereitet von Y. JOLLY (JOLLY) 
 1297	VP.	Vp.	VP. = VIṢṆUPURĀṆA ed. Bomb. 
 1298	VP.².	Vp.².	VP.². = 2te Auflage von WILSON's Uebersetzung des VIṢṆUPURĀṆA, herausgegeben von HALL. 
+1298x	VP.²	Vp.²	VP.² = 2te Auflage von WILSON's Uebersetzung des VIṢṆUPURĀṆA, herausgegeben von HALL. 
 1299	VS.	Vs.	VS. = VĀJASANEYISAṂHITĀ (ROTH und WEBER). 
 1300	VS.PRĀT.	Vs.Prāt.	VS.PRĀT. = PRĀTIŚĀKHYA zu VS in Ind. St. 4. 
 1301	WEBER,JYOT.	Weber,Jyot.	WEBER,JYOT. = WEBER, Ueber den Vedakalender, Namens JYOTIṢAM. 
@@ -607,7 +608,6 @@ X116	ROTH.	Roth.	ROTH. = [unknown literary source]
 X117	KĀTY.ŚR.PADDH.	Kāty.Śr.Paddh.	KĀTY.ŚR.PADDH. = [unknown literary source]
 X118	HARADATTA.	Haradatta.	HARADATTA. = [unknown literary source]
 X119	DRAUP.	Draup.	DRAUP. = [unknown literary source]
-X120	Sch.	Sch.	Sch. = [unknown literary source]
 X121	MALLIKĀMĀRUTA.	Mallikāmāruta.	MALLIKĀMĀRUTA. = [unknown literary source]
 X122	VIJÑĀNEŚVARA.	Vijñāneśvara.	VIJÑĀNEŚVARA. = [unknown literary source]
 X123	SUD.	Sud.	SUD. = [unknown literary source]
