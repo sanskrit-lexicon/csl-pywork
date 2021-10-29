@@ -19,6 +19,7 @@ Desid.	<id>Desid.</id> <disp>Desiderativ - desiderative</disp>
 Du.	<id>Du.</id> <disp>Dual - dual </disp>
 Gen.	<id>Gen.</id> <disp>Genitiv - genitive (case)</disp>
 Inf.	<id>Inf.</id> <disp>Infinitiv - infinitive</disp>
+Hdschr.	<id>Hdschr.</id> <disp>Handschrift - manuscript</disp>
 Infin.	<id>Infin.</id> <disp>Infinitiv - infinitive</disp>
 Instr.	<id>Instr.</id> <disp>Instrumental - instrumental (case)</disp>
 Intens.	<id>Intens.</id> <disp>Intensiv - intensive</disp>
@@ -40,13 +41,18 @@ Pass.	<id>Pass.</id> <disp>Passiv - passive</disp>
 Patron.	<id>Patron.</id> <disp>Patronym (Deu.)/Patronymicum(Lat.) - patronym</disp>
 Patronn.	<id>Patronn.</id> <disp>Patronyme(Deu.)/Patrnymica (Lat.) - patronyms</disp>
 Pl.	<id>Pl.</id> <disp>Plural - plural</disp>
-Potent.	<id>Potent.</id> <disp>Potentialis - potential mood</disp>
+Potent.	<id>Potent.</id> <disp>Potentialis - potential mood</disp> 
 Präp.	<id>Präp.</id> <disp>Präposition - preposition</disp>
 s.u.	<id>s.u.</id> <disp>siehe unten?/unter? - see below/under</disp>
 Sg.	<id>Sg.</id> <disp>Singular - singular</disp>
 Subst.	<id>Subst.</id> <disp>Substantiv - noun</disp>
 Sch.	<id>Sch.</id> <disp>Scholiast or Commentator</disp>
+Schol.	<id>Schol.</id> <disp>Scholiast or Commentator</disp>
 v.l.	<id>v.l.</id> <disp>vide licet - that us to say, namely</disp>
+v.u.	<id>v.u.</id> <disp>von unten - line number counted from below, from the last line up</disp>
+v.a.	<id>v.a.</id> <disp>vor allem - above all, especially</disp>
+gedr.	<id>gedr.</id> <disp>gedruckt - printed</disp>
+u.s.w.	<id>u.s.w.</id> <disp>und so weiter - and so on, and so forth = etc.</disp>
 Vgl.	<id>Vgl.</id> <disp>Vergleiche - compare</disp>
 vgl.	<id>Vgl.</id> <disp>vergleiche - compare</disp>
 Voc.	<id>Voc.</id> <disp>Vocativ - vocative (case)</disp>
