@@ -4,6 +4,12 @@ pwauth/readme.txt
 06-01-2020
 To make changes, modify file pwbib_input.txt.
 
+Note: pwbib_input.txt has 4 tab-delimited fields.
+For consistency with the sqlite construction (pwbib.sql), the
+first field must be a unique identifier.
+check_pwbib.py checks that pwbib_input.txt conforms to these constraints.
+python check_pwbib.py pwbib_input.txt
+
 Note 1:
 There is some confusion regarding pwbib_input.txt and pwbib.txt.
 pwbib.txt is NOT used in remaking the pwbib.sqlite

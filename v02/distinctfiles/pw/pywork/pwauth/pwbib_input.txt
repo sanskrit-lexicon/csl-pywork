@@ -246,8 +246,8 @@
 1235	ṚTUS.	Ṛtus.	ṚTUS. = RṬUSAṂHĀRA, Ausg. von BOHLEN. 
 1236	ṚV.	Ṛv.	ṚV. = ṚGVEDA (ROTH). 
 1237	ṚV.PRĀT.	Ṛv.Prāt.	ṚV.PRĀT. = PRĀTIŚĀKHYA zum ṚGVEDA. 
-1237	ṚV.PRĀT.(ed. M.)	Ṛv.Prāt.(ed. M.)	ṚV.PRĀT.(ed. M.) = PRĀTIŚĀKHYA zum ṚGVEDA. 
-1237a	ed. M.	ed. M.	ed. M. = PRĀTIŚĀKHYA zum ṚGVEDA. [unknown literary source]
+1237a	ṚV.PRĀT.(ed. M.)	Ṛv.Prāt.(ed. M.)	ṚV.PRĀT.(ed. M.) = PRĀTIŚĀKHYA zum ṚGVEDA. 
+1237b	ed. M.	ed. M.	ed. M. = PRĀTIŚĀKHYA zum ṚGVEDA. [unknown literary source]
 1238	SADDH.P.4.	Saddh.P.4.	SADDH.P.4. = das 4te Kapitel des SADDHARMAPUṆḌARĪKA, lithographirt in Parabole de l'Enfant egare. Par. PH. ED. FOUCAUX. Paris. 1854. 
 1239	SĀH.D.	Sāh.D.	SĀH.D. = SĀHITYADARPAṆA in der Bibl. ind. 
 1240	SĀY.	Sāy.	SĀY. = SĀYAṆA. 

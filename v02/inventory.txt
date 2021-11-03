@@ -84,9 +84,11 @@ mw:pywork/mwauth/mwauthtooltips.sql:CD
 ; --------------------------------------------------------------
 pw pwg:pywork/${dictlo}auth/redo.sh:CD
 pw pwg:pywork/${dictlo}auth/${dictlo}bib_input.txt:CD
+pw pwg:pywork/${dictlo}auth/check_pwbib.py:CD
 pw pwg:pywork/${dictlo}auth/redo_${dictlo}bib.sh:CD
 pw pwg:pywork/${dictlo}auth/${dictlo}bib.sql:CD
 ; bibrec.py used by pywork/make_xml_ls.py, run during redo_xml.sh
+; 11-03-2021  next two files not currently used.
 pw pwg:pywork/${dictlo}auth/bibrec.py:CD
 pw pwg:pywork/${dictlo}auth/${dictlo}bib.txt:CD
 ; --------------------------------------------------------------
