@@ -1,849 +1,844 @@
-1001	ĀŚV.ŚR.	Āśv.Śr.	ĀŚV.ŚR. = ĀŚVALĀYANA's ŚRAUTASŪTRA in der Bibl. ind. 
-1002	ĀŚV.GṚHY.	Āśv.Gṛhy.	ĀŚV.GṚHY. = ĀŚVALĀYANA'S GṚHYASŪTRA; Ausg. von STENZLER. 
-1003	ĀŚV.GṚHY.PARIŚ.	Āśv.Gṛhy.Pariś.	ĀŚV.GṚHY.PARIŚ. = PARIŚIṢṬA ZU ĀŚV. GṚHY. in der Bibl. ind. 
-1004	AGNI-P.	Agni-P.	AGNI-P. = AGNIPURĀṆA in der Bibl. ind. 
-1005	AIT.ĀR.	Ait.Ār.	AIT.ĀR. = AITAREYĀRAṆYAKA in der Bibl. ind. In der Regel citirt nach Seite und Zeile (KERN und ROTH). 
-1006	AIT.BR.	Ait.Br.	AIT.BR. = AITAREYABRĀHMAṆA, Ausg. von HAUG. 
-1007	AIT.UP.	Ait.Up.	AIT.UP. = AITAREYOPANIṢAD in der Bibl. ind. 
-1008	AK.	Ak.	AK. = AMARAKOŚA, Ausg. von LOISELEUR DESLONGCHAMPS. 
-1009	ĀCĀRĀDARŚA.	Ācārādarśa.	ĀCĀRĀDARŚA. = , Benares 1921 (STENZLER). 
-1010	AMṚT.UP.	Amṛt.Up.	AMṚT.UP. = AMṚTABINDŪPANIṢAD in der Bibl. ind. (GELDNER und ROTH). 
-1011	ĀNANDAG.	Ānandag.	ĀNANDAG. = ĀNANDAGIRI, Glossator zu ŚAṂKARĀCĀRYA'S Comm. zu BṚH. ĀR Up. in der Bibi. ind. (KERN). 
-1012	ANUKR.zuṚV.	Anukr.Zuṛv.	ANUKR.zuṚV. = ANUKRAMAṆIKĀ zu ṚV. im Comm. SĀYAṆA'S. 
-1013	ĀPAST.	Āpast.	ĀPAST. = ĀPASTAMBA'S DHARMASŪTRA, Ausg. von BÜHLER. 
-1014	ĀPAST.ŚR.	Āpast.Śr.	ĀPAST.ŚR. = ĀPASTAMBA'S ŚRAUTASŪTRA, Hdschr. (GARME und ROTH). 
-1015	ĀRYABH.	Āryabh.	ĀRYABH. = ĀRYABHAṬA Ausg. von KERN (KERN). 
-1016	ĀRYAV.	Āryav.	ĀRYAV. = ĀRYAVIDYĀSUDHĀKARA, Bombay 1868 (KERN). 
-1017	ĀRṢ.BR.	Ārṣ.Br.	ĀRṢ.BR. = ĀRṢEYABRĀHMAṆA, Ausg. von BURNELL. 
-1018	ĀRUṆ.UP.	Āruṇ.Up.	ĀRUṆ.UP. = ĀRUṆEYOPANIṢAD in der Bibl. ind. (GELDNER und ROTH). 
-1019	ĀTMOPAN.	Ātmopan.	ĀTMOPAN. = ĀTMOPANIṢAD in der Bibl. ind. (GELDER und ROTH). 
-1020	AV.	Av.	AV. = ATHARVAVEDA, Ausg. von ROTH und WHITNEY (ROTH). 
-1020a	AV.(Hdschrr.)	AV.(Hdschrr.)	AV.(Hdschrr.) = ATHARVAVEDA, Manuscripts. [unknown literary source]
-1021	AV.JYOT.	Av.Jyot.	AV.JYOT. = JYOTIṢA zum AV. , Hdschr. (ROTH). 
-1022	AV.PAIPP.	Av.Paipp.	AV.PAIPP. = AV. der PAIPPALĀDA-Schule, Hdschr. (ROTH). 
-1023	AV.PARIŚ.	Av.Pariś.	AV.PARIŚ. = PARIŚIṢṬA zum AV. , Hdschr. (ROTH). 
-1024	AV.PRĀYAŚC.	Av.Prāyaśc.	AV.PRĀYAŚC. = PRĀYAŚCITTA zum AV. , Hdschr. (ROTH). 
-1025	BĀDAR.	Bādar.	BĀDAR. = BĀDARĀYAṆA'S BRAHMASŪTRA in der Bibl. ind. 
-1026	B.A.J.	B.A.J.	B.A.J. = Bombay Asiatic Journal (GELDNER). 
-1027	BĀLAR.	Bālar.	BĀLAR. = BĀLARĀMĀYAṆA, Benares 1869 (KERN). 
-1028	Beitr.z.K.d.ig.Spr.	Beitr.Z.K.D.Ig.Spr.	Beitr.z.K.d.ig.Spr. = Beiträge zur Kunde der indogermanischen Sprachen. 
-1029	BENF.Chr.	Benf.Chr.	BENF.Chr. = BENFEY'S Chrestomathie. 
-1030	BHAG.	Bhag.	BHAG. = BHAGAVADGITĀ, Ausg. von SCHLEGEL. 
-1031	BHĀG.P.	Bhāg.P.	BHĀG.P. = BHĀGAVATAPURĀṆA. Die 9 ersten Skandha nach BURNOUF's. Ausgabe, wenn nicht ausdrücklich. ed. Bomb. hinzugefügt wird; die letzten Skandha nach der ed. Bomb. In Klammern eingeschlossene Zahlen verweisen auf ed. Bomb. 
-1032	BHĀR.NĀṬYAŚ.	Bhār.Nāṭyaś.	BHĀR.NĀṬYAŚ. = BHĀRATĪYANĀṬYAŚĀSTRA am Schluss von DAŚAR. In der Bi?? in. 
-1033	BHĀṢĀP.	Bhāṣāp.	BHĀṢĀP. = BHĀṢĀPARICCHEDA in der Bibl. ind. 
-1034	BHAṬṬ.	Bhaṭṭ.	BHAṬṬ. = BHAṬṬIKĀVYA, Calcutta 1828. 
-1035	BHĀVAPR.	Bhāvapr.	BHĀVAPR. = BHĀVAPRAKĀŚA, Calcutta 1875 und Hdschr. (ROTH). 
-1035a	BHĀVAPR.(Hdschr.)	Bhāvapr.(Hdschr.)	BHĀVAPR.(Hdschr.) = BHĀVAPRAKĀŚA,  Hdschr. (ROTH). 
-1035b	BHĀVAPR.Hdschr.	Bhāvapr.Hdschr.	BHĀVAPR.Hdschr. = BHĀVAPRAKĀŚA,  Hdschr. (ROTH). 
-1036	BHAVIṢYOTT.P.	Bhaviṣyott.P.	BHAVIṢYOTT.P. = BHAVIṢYOTTARAPURĀṆA nach Citaten in andern Werken. 
-1037	BHOJA-CAR.	Bhoja-Car.	BHOJA-CAR. = BHOJACARITRA, Madras 1862 (STENZLER). 
-1038	BHOJA-PR.	Bhoja-Pr.	BHOJA-PR. = BHOJAPRABANDHA, Benares 1925(KERN). 
-1039	Bibl.ind.	Bibl.Ind.	Bibl.ind. = Bibliotheca indica. 
-1040	BĪJAG.	Bījag.	BĪJAG. = BĪJAGAṆITA, Calcutta 1846(KERN). 
-1041	BRAHMABINDŪP.	Brahmabindūp.	BRAHMABINDŪP. = BRAHMABINDŪPANIṢAD in der Bibl. ind. (GELDER uns ROTH). 
-1042	BRAHMA-P.	Brahma-P.	BRAHMA-P. = BRAMAPURĀṆA nach Citaten in verschiedenen Werkes. 
-1043	BRAHMAS.	Brahmas.	BRAHMAS. = BĀDAR. 
-1044	BRAHMOP.	Brahmop.	BRAHMOP. = BRAHMOPANIṢAD in der Bibl. ind. (GELDNER und ROTH). 
-1045	BṚHADD.	Bṛhadd.	BṚHADD. = BṚHADDEVATĀ. 
-1046	BṚH.ĀR.UP.	Bṛh.Ār.Up.	BṚH.ĀR.UP. = BṚHADĀRAṆYAKOPANIṢAD in der Bibl. ind. 
-1047	BÜHLER,Rep.	Bühler,Rep.	BÜHLER,Rep. = Detailed Report of a Tour in search of Sanskrit Mss. made. in Kāsmir, Rajputana, and Central India. By G. BÜHLER, Bombay 1877. 
-1048	BÜHL.GUZ.	Bühl.Guz.	BÜHL.GUZ. = Catalogue of S. Mss. fromm Guzerat etc. by G. BÜHLER. Bombay 1871-1873 (ROTH). 
-1049	BURN.Intr.	Burn.Intr.	BURN.Intr. = BURNOUF, Introdution a l'historie du Buddhisme Indien. 
-1050	ŚABDAC.	Śabdac.	ŚABDAC. = ŚABDACANDRIKĀ, nach GOLDSTÜCKER. 
-1051	ŚĀK.	Śāk.	ŚĀK. = ŚĀKUNTALA, Ausg. von BÖHTLINGK, wenn nicht ausdrücklich PISCH. (PISCHEL) oder PRAMAC. (PREMACANDRA) hinzugefügt wird. 
-1052	ŚAṂK.	Śaṃk.	ŚAṂK. = ŚAṂKARĀCĀRYA als Commentator verchiedener UPANIṢAD. 
-1053	ŚĀṆḌ.	Śāṇḍ.	ŚĀṆḌ. = The Aphorisms of SĀṆḌILYA in der Bibl. ind. 
-1054	ŚĀṄKH.BR.	Śāṅkh.Br.	ŚĀṄKH.BR. = ŚĀṄKHĀYANA'S BRĀHMAṆA (WEBER). 
-1055	ŚĀṄKH.ŚR.	Śāṅkh.Śr.	ŚĀṄKH.ŚR. = ŚĀṄKHĀYANA'S ŚRAUTASŪTRA (WEBER). 
-1056	ŚĀṄKH.GṚHY.	Śāṅkh.Gṛhy.	ŚĀṄKH.GṚHY. = ŚĀṄKHĀYANA'S GṚHYASŪTRA, herausg. von OLDENBERG in Ind. St. 15. 
-1057	ŚĀNT.	Śānt.	ŚĀNT. = ŚĀNTANAVA'S PHIṬSŪTRA, AUSG. VON KIELHORN. 
-1058	ŚĀRṄG.PADDH.	Śārṅg.Paddh.	ŚĀRṄG.PADDH. = ŚĀRṄGADHARA'S PADDHATI, Hdschr. im Asiatischen Museum der Kais. Ak. d. Ww. in St. petersbug. 
-1059	ŚĀRṄG.SAṂH.	Śārṅg.Saṃh.	ŚĀRṄG.SAṂH. = ŚĀRṄGADHARA'S SAṂHITĀ, Bombay 1853 (ROTH). 
-1060	ŚAT.BR.	Śat.Br.	ŚAT.BR. = ŚATAPATHABRĀHMAṆA, nach WEBER'S Index. 
-1060a	ŚAT.BR.(KĀṆVA.-Rec.)	Śat.Br.(Kāṇva.-Rec.)	ŚAT.BR. = ŚATAPATHABRĀHMAṆA ?
-1061	Cat.C.PR.	Cat.C.Pr.	Cat.C.PR. = A Catalogue of S. Mss. existing in the central provinces. Ed. by F. KIELHORN. Nagpur 1874(ROTH). 
-1062	Cat.NW.PR.	Cat.Nw.Pr.	Cat.NW.PR. = A Catalogue of S. Mss. in private libarties of the North-Western Provinves. I. Benares 1874 (ROTH). 
-1063	ŚATR.	Śatr.	ŚATR. = ŚATRUṂJAYAMĀHĀTMYA, Ausg. von WEBER. 
-1064	CHILDERS.	Childers.	CHILDERS. = CHILDERS' Pali-Wörterbuch. 
-1065	Chr.	Chr.	Chr. = BÖHTLINGK'S Sanskrit-Chresthomathie, 2te Aufl. 
-1066	ŚIŚ.	Śiś.	ŚIŚ. = ŚIŚUPĀLAVADHA, Calcutta 1815. 
-1067	ŚIRA-UP.	Śira-Up.	ŚIRA-UP. = ŚIRAUPANIṢAD in der Bibl. ind. (GELDNER und ROTH). 
-1068	COLEBR.Alg.	Colebr.Alg.	COLEBR.Alg. = COLEBROOKE, Algebra with Arithmetic and Mensuration u. s. w. London 1817. 
-1069	COLEBR.Misc.Ess.	Colebr.Misc.Ess.	COLEBR.Misc.Ess. = Miscellaneous Essays by H. T. COLEBROOKE. London. 1837. 
-1070	ŚRĪP.	Śrīp.	ŚRĪP. = ŚRĪPATI. 
-1071	ŚULBAS.	Śulbas.	ŚULBAS. = ŚULBASŪTRA in der Zeitschirft The Pandit IX. X und New Series I (CAPELLER). 
-1072	ŚVETĀŚV.UP.	Śvetāśv.Up.	ŚVETĀŚV.UP. = ŚVETĀŚVATAROPANIṢAD in der Bibl. ind. 
-1073	DAŚAK.	Daśak.	DAŚAK. = DAŚAKUMĀRA, Ausg. von BÜHLER (CAPELLER). 
-1074	DAŚAR.	Daśar.	DAŚAR. = DAŚARŪPA in der Bibl. ind. 
-1075	DAIV.BR.	Daiv.Br.	DAIV.BR. = DAIVATABRĀHMAṆA, Calcutta 1875 und Ausg. von BURNELL. Mangalore 1873 (ROTH). 
-1076	DEVATĀDHY.BRĀHM.	Devatādhy.Brāhm.	DEVATĀDHY.BRĀHM. = DAIV. BR. <NF> 
-1077	DHAMMAP.	Dhammap.	DHAMMAP. = DHAMMAPADA, Ausg. von FAUṢÖLL. 
-1078	DHANV.	Dhanv.	DHANV. = DHANVANTARI'S Wörterbuch, Hdschr. (ROTH). 
-1079	DHĀTUP.	Dhātup.	DHĀTUP. = DHĀTUPĀṬHA, Ausg. von WESTERGAARD. 
-1080	DHYĀNAB.UP.	Dhyānab.Up.	DHYĀNAB.UP. = DHYĀNABINDŪPANIṢAD in der Bibl. ind. (GELDNER und ROTH). 
-1081	DHŪRTAN.	Dhūrtan.	DHŪRTAN. = DHŪRTANĀṬAKA, Hdschr. (CAPELLER). 
-1082	DHŪRTAS.	Dhūrtas.	DHŪRTAS. = DHŪRTASAMĀGAMA in LASSEN'S Anthologie. 
-1083	DH.V.	Dh.V.	DH.V. = DHANAṂJAYAVIJAYA, Calcutta 1871 (CAPELLER). 
-1084	DIVYĀVAD.	Divyāvad.	DIVYĀVAD. = DIVYĀVADĀNA, Hdschr. (SCHIEFNER). 
-1085	JĀBĀLOP.	Jābālop.	JĀBĀLOP. = JĀBĀLOPANIṢAD in der Bibl. ind. (GELDNER und ROTH). 
-1086	JAIM.	Jaim.	JAIM. = JAIMINI'S Mimāṃsādarśana in der Bibl. ind. 
-1087	JAIM.BHĀR.	Jaim.Bhār.	JAIM.BHĀR. = JAIMINI'S BHĀRATA, nach Citaten in Ind. St. <NF> 
-1088	GAL.	Gal.	GAL. = GALANO's Wörterbuch, Abschrift von WEBER;vgl. Monatsbericht der Kön. Pr. Akad. der Wissensch. 1876, S. 801. fgg. (CAPELLER). 
-1089	gaṇa.	Gaṇa.	gaṇa. = gaṇa im Gaṇapātha zu P. 
-1090	GAṆAR.	Gaṇar.	GAṆAR. = GAṆARATNAMAHODADHI, nach der im Druck befindlichen Ausg. von EGGELING. Nur ein paar Mal gelegentlich citirt. 
-1091	GAṆIT.	Gaṇit.	GAṆIT. = GAṆITĀDHĀYA in BHĀSKARA'S SIDDHĀNTA ŚIROMAṆI, Benares 1866(KERN). 
-1092	GAṆIT.ADHIM.	Gaṇit.Adhim.	GAṆIT.ADHIM. = GAṆITA, ADHIMĀSANIRṆAYA (KERN). 
-1093	GAṆIT.BHAGAṆ.	Gaṇit.Bhagaṇ.	GAṆIT.BHAGAṆ. = GAṆITA, BHAGAṆĀDHYĀYA (KERN). 
-1094	GAṆIT.GRAH.	Gaṇit.Grah.	GAṆIT.GRAH. = GAṆITA, GRAHĀNAYADHĀYA (KERN). 
-1095	GAṆIT.PRATYABD.	Gaṇit.Pratyabd.	GAṆIT.PRATYABD. = GAṆITA, PRATYABDAŚUDDI (KERN). 
-1096	GAṆIT.TRIPR.	Gaṇit.Tripr.	GAṆIT.TRIPR. = GAṆITA, TRIPRAŚANĀDHIKĀRA (KERN). 
-1097	GARBHOP.	Garbhop.	GARBHOP. = GARBHOPANIṢAD in Bibl. ind. (GELDNER und ROTH). 
-1098	GAUḌAP.	Gauḍap.	GAUḌAP. = GAUḌAPĀDA, Commentator der SĀṂKHYAKĀRIKĀ. 
-1099	GAUT.	Gaut.	GAUT. = GAUTAMA'S DHARMAŚĀSTRA, Ausg. von STENZLER. 
-1100	GĪT.	Gīt.	GĪT. = GĪTAGOVINDA, Ausg. von LASSEN. 
-1101	GOBH.	Gobh.	GOBH. = GOBHILA'S GṚHYASŪTRA in der Bibl. ind. (ROTH). 
-1102	GOLĀDHY.	Golādhy.	GOLĀDHY. = BHĀSKARA'S GOLĀDHYĀYA (KERN). 
-1103	GOLD.	Gold.	GOLD. = GOLDSTÜCKER'S Wörterbuch 
-1104	GOP.BR.	Gop.Br.	GOP.BR. = GOPATHABRĀHMAṆA in der Bibl. ind. (ROTH). 
-1105	GOVINDĀN.	Govindān.	GOVINDĀN. = GOVINDĀNANDA, Glossator zu ŚAṂKARĀCĀRYA'S Comm. zu BĀDAR. (KERN). 
-1106	H.	H.	H. = HEMACANDRA'S ABHIDHĀNACINTĀMAṆI, Ausg. von BÖHTLINGK und RIEU. 
-1107	HALĀY.	Halāy.	HALĀY. = HALĀYUDHA'S Wörterbuch, Ausg. von AUFRECHT. 
-1108	H.an.	H.An.	H.an. = HEMACANDRA'S ANEKĀRTHASAṂGRAHA. 
-1109	HĀR.	Hār.	HĀR. = HĀRĀVALI. 
-1110	HARISV.	Harisv.	HARISV. = HARISVĀMIN. 
-1111	HARIV.	Hariv.	HARIV. = HARIVAṂŚA. Mit einer Zahi die ältere Calc. Ausg. gemeint, drei Zahlen die neuere lithographirte. 
-1112	HARṢAC.	Harṣac.	HARṢAC. = HARṢACARITA, Calcutta 1876 (KERN). 
-1113	HĀSY.	Hāsy.	HĀSY. = HĀSYĀRṆAVA, Bombay 1757 und Hdschr. (CAPELLER). 
-1114	HAUG,Acc.	Haug,Acc.	HAUG,Acc. = HAUG, Ueber das Wesen und den Werth des vedischen Accents. München 1874. 
-1115	HEMĀDRI	Hemādri	HEMĀDRI = HEMĀDRI'S CATURVARGACINTĀMAṆI in der Bibl. ind. 
-1115a	HEDRI.	Hedri.	HEDRI. = HEMĀDRI'S CATURVARGACINTĀMAṆI in der Bibl. ind. 
-1115b	HEMĀDRI	Hemādri	HEMĀDRI = HEMĀDRI'S CATURVARGACINTĀMAṆI in der Bibl. ind. 
-1116	HEM.YOG.	Hem.Yog.	HEM.YOG. = HEMACANDRA'S YOGAŚĀSTRA in Z. d. d. m. G/. 28. Aus einem hdschr. Comm. hat WINISCH manche Berichtigung und Erklärung mir bereitwilligst zukommen lassen. 
-1117	HEM.Pr.Gr.ed.Bomb.	Hem.Pr.Gr.ed.Bomb.	HEM.Pr.Gr.ed.Bomb. = HEMACANDRA's Prākrit-Grammatik, Bombay (STENZLER) 
-1118	HIḌ.	Hiḍ.	HIḌ. = HIḌIMBAVADHA, Ausg. von Bopp. 
-1119	HIT.	Hit.	HIT. = HITOPADEŚA, Ausg. von SCHLEGEL und LASSEN. 
-1120	HIT.ed.JOHNS.	Hit.ed.Johns.	HIT.ed.JOHNS. = HITOPADEŚA, Ausg. von JOHNSON, Lonon und Hertford 1847. 
-1121	YĀJÑ.	Yājñ.	YĀJÑ. = YĀJÑAVALKYA's Gesetzbuch, Ausg. von STENZLER. 
-1122	J.A.O.S.	J.A.O.S.	J.A.O.S. = Journal of the American Oriental Society. 
-1123	Ind.Antiq.	Ind.Antiq.	Ind.Antiq. = Indian Antiquary (ROTH). 
-1124	Ind.St.	Ind.St.	Ind.St. = Indische Studien von WEBER. 
-1125	YOGAS.	Yogas.	YOGAS. = YOGASŪTRA. 
-1126	YOGAT.UP.	Yogat.Up.	YOGAT.UP. = YOGATATTVOPANIṢAD in der Bibl. ind. (GELDNER und ROTH) 
-1127	JOLLY,Schuld.	Jolly,Schuld.	JOLLY,Schuld. = JOLLY, ueber das indische Schuldrecht, in Müchener Philos. Philol. Abh. 1877, S. 287. fgg. 
-1128	J.R.A.S.	J.R.A.S.	J.R.A.S. = Journal of the Royal Asiatic Society (KERN). 
-1129	KĀŚ.	Kāś.	KĀŚ. = KĀŚIKĀ VṚTTI in der Zeitschrift The PANDIT VII. fgg. 
-1130	KĀD.	Kād.	KĀD. = KĀDAMBARĪ, Calcutta Saṃvat 1919 (KERN). 
-1131	CAKR.	Cakr.	CAKR. = CAKRADATTA, Commentator von CARAKA und SUŚRUTA, Hdschr. (ROTH). 
-1132	KĀLAC.	Kālac.	KĀLAC. = KĀLACAKRA, Hdschr. (SCHIEFNER). 
-1133	KĀM.NĪTIS.	Kām.Nītis.	KĀM.NĪTIS. = KĀMANDAKĪYANĪTISĀRA in der Bibl. ind. 
-1134	KAṆ.	Kaṇ.	KAṆ. = KAṆĀDA'S VAIŚEṢIKADARŚANA in der Bibl. ind. 
-1135	KĀṆḌ.	Kāṇḍ.	KĀṆḌ. = KĀṆḌŪPĀKHYĀNA in LA. 
-1136	CAṆḌAK.	Caṇḍak.	CAṆḌAK. = KṢEMĪŚVARA'S CAṆḌAKAUŚIKA (PISCHEL). 
-1137	KAP.	Kap.	KAP. = KAPILA'S SĀṂKHYAPRAVACANA. Einen vollständigen Index hat WINDISCH ZU Verfügung gestellt. 
-1137a	KAP.(ed.Allah.1852)	Kap.(ed.Allah.1852)	KAP.(ed.Allah.1852) = KAPILA'S SĀṂKHYAPRAVACANA. [unknown literary source]
-1138	KĀRIKĀ.	Kārikā.	KĀRIKĀ. = Kārikā. 
-1139	CARAKA.	Caraka.	CARAKA. = CARAKASAṂHITĀ, Calcutta 1929 und 1877 und Hdschr. im Besitz von ROTH (KERN und ROTH). 
-1140	KARMAPR.	Karmapr.	KARMAPR. = KARMAPRADĪPA (STENZLER). Steht unter dem falschen Titel KĀTYĀYANASMṚTI im DHARMAŚĀSTRASAṂGRAHA, Vol. I, S 603-644. 
-1141	KĀṬH.	Kāṭh.	KĀṬH. = KĀṬHAKA (WEBER). 
-1142	KATHĀS.	Kathās.	KATHĀS. = KATHĀSARITSĀGARA, Ausg. von BROCKHAUS. 
-1143	KĀTY.ŚR.	Kāty.Śr.	KĀTY.ŚR. = KĀTYĀYANA'S ŚRAUTASŪTRA, nach WEBER'S Index. 
-1144	KĀTY.DH.	Kāty.Dh.	KĀTY.DH. = KĀTYĀYANA'S DHARMAŚĀSTRA (STENZLER). 
-1145	KĀTY.SNĀNAS.	Kāty.Snānas.	KĀTY.SNĀNAS. = KĀTYĀYANA'S SNĀNASŪTRA (STENZLER). 
-1146	KAUŚ.	Kauś.	KAUŚ. = KAUŚIKA'S SŪTRA zum AV. , Hdschr. (ROTH und WEBER). 
-1147	CAURAP.	Caurap.	CAURAP. = CAURAPAÑCĀŚIKĀ, Ausg. von BOHLEN. 
-1148	KAUṢ.ĀR.	Kauṣ.Ār.	KAUṢ.ĀR. = KAUṢITAKĀRAṆYAKA (WEBER). 
-1149	KAUṢ.UP.	Kauṣ.Up.	KAUṢ.UP. = KAUṢITAKIBRĀHMAṆOPANIṢAD in der Bibl. ind. 
-1150	KAUTUKAR.	Kautukar.	KAUTUKAR. = KAUTUKARATNĀKARA, Hdschr. (CAPELLER). 
-1151	KĀVYAPR.	Kāvyapr.	KĀVYAPR. = KĀVYAPRAKĀŚA, Calcutta 1866. Nach Ullāsa und Sūtra citirt, wenn nicht S. (Seite) und Z. (Zeile) hinzungefügt werden. 
-1152	KENOP.	Kenop.	KENOP. = KENOPANIṢAD in der Bibl. ind. 
-1153	CHANDOM.	Chandom.	CHANDOM. = CHANDOMAÑJARI, herusg. von BROCKHAUS in Berichte über die Verhadlungen der Kön. Sächsischen Gesellschaft der Wissenschaftten zu Leipzig Phil. -hist. Kl. Bd. VI, 1854. 
-1154	CHĀND.UP.	Chānd.Up.	CHĀND.UP. = CHĀNDOGYOPANIṢAD in der Bibl. ind. 
-1155	KIR.	Kir.	KIR. = KIRĀTĀRJUNIYA, Calcutta 1814. 
-1156	KṚṢIS.	Kṛṣis.	KṚṢIS. = PARĀŚARA'S KṚṢISAṂGRAHA, Calcutta 1862(ROTH). 
-1157	KṢITĪŚ.	Kṣitīś.	KṢITĪŚ. = KṢITĪŚAVAṂŚĀVALĪCARITA, Ausg. von PERTSCH. 
-1158	KṢURIKOP.	Kṣurikop.	KṢURIKOP. = KṢURIKOPANIṢAD in der Bibl. ind. 
-1159	KULL.	Kull.	KULL. = KULLŪKA, Commentator des MANU. 
-1160	KUMĀRAS.	Kumāras.	KUMĀRAS. = KUMĀRASAṂBHAVA, Ausg. von STENZLER. 
-1161	KUMĀRASV.	Kumārasv.	KUMĀRASV. = KUMĀRASVĀMIN, Commentator des PRATĀPAR. (PISCHEL). 
-1162	KUSUM.	Kusum.	KUSUM. = KUSUMĀÑJALI, Ausg. von COWELL. 
-1163	KUVALAY.	Kuvalay.	KUVALAY. = KUVALAYĀNANDA. , nach zwei lithogr. Ausgg. 
-1164	LA.	La.	LA. = LASSEN'S Anthologie 3te Ausg. 
-1165	LAGHUK.	Laghuk.	LAGHUK. = LAGHUKAUMUDĪ, Ausg. von BALLANTYNE, Benares 1876(CAPELLER). 
-1166	LALIT.	Lalit.	LALIT. = LALITAVISTARAPURĀṆA in der Bibl. ind. (KERN). 
-1167	LĀṬY.	Lāṭy.	LĀṬY. = LĀṬYĀYANA'S ŚRAUTASŪTRA in der Bibl. ind. 
-1168	LĪLĀV.	Līlāv.	LĪLĀV. = BHĀSKARA'S LĪLĀVATĪ, Calcutta 1846(KERN). 
-1169	L.K.	L.K.	L.K. = LAGHUK. 
-1170	Lot.delab.l.	Lot.delab.l.	Lot.delab.l. = BURNOUF, Lotus de la bonne loi. 
-1171	M.	M.	M. = MĀNAVADHARMAŚĀSTRA. 
-1172	MADANAV.	Madanav.	MADANAV. = MADANAPĀLA'S MADANAVINODA, Benares 1869 und Hdschr. (ROTH). 
-1173	MĀDH.KĀLAN.	Mādh.Kālan.	MĀDH.KĀLAN. = MĀDHAVA'S KĀLANIRṆAYA (WEBER). 
-1174	MAHĀBH.	Mahābh.	MAHĀBH. = MAHĀBHĀṢYA, lith. in Benares. 
-1175	MAHĀBH.(K.)	Mahābh.(K.)	MAHĀBH.(K.) = KIELHORN'S Ausg. des MAHĀBHĀṢYA. 
-1175a	MAHĀBH.[K.]	Mahābh.[K.]	MAHĀBH.[K.] = KIELHORN'S Ausg. des MAHĀBHĀṢYA. 
-1176	MAHĀVĪRAC.	Mahāvīrac.	MAHĀVĪRAC. = MAHĀVĪRACARITA, Ausg. von TRITHEN. 
-1177	MAHĪDH.	Mahīdh.	MAHĪDH. = MAHĪDHARA, Commentator der VS. 
-1178	MAITRYUP.	Maitryup.	MAITRYUP. = MAITRYUPANIṢAD in der Bibl. ind. Die Accente, die wegen ihrer Fehlerhaftigkeit oft weggelassen oder durch (!) als verdächtig bezeichnet wurden, hat SCHRÖDER einer Hdschr. entnommen. 
-1179	MAITR.S.	Maitr.S.	MAITR.S. = MAITRĀYAṆI SAṂHITĀ, zur Herausgabe vorbereitet von L. SCHRÖDER. Da die accentuirten Hdschr. nicht gleich zu Anfang zur Hand waren, konnten einige Accente erst in den Nachträgen angegeben werden (SCHRÖDER). 
-1180	MĀLATĪM.	Mālatīm.	MĀLATĪM. = MĀLATĪMĀDHAVA, nach zwei Ausgaben, Calcutta 1830 und Bombay 1876. 
-1181	MĀLAV.	Mālav.	MĀLAV. = MĀLAVIKĀGNIMITRA, Ausg. von TULLIBERG. 
-1182	MĀṆḌ.ŚIKṢĀ.	Māṇḍ.Śikṣā.	MĀṆḌ.ŚIKṢĀ. = MĀṆḌŪKI ŚIKṢĀ(WEBER). 
-1183	MĀN.GṚHY.	Mān.Gṛhy.	MĀN.GṚHY. = MĀNAVAGṚHYASŪTRA, nach einer Hdschr. in der Universitätsbibliothek zu Bombay (SCHRÖDER). 
-1184	MĀN.K.S.	Mān.K.S.	MĀN.K.S. = MĀNAVAKALPASŪTRA, nach Citaten bei GOLD. 
-1185	MANTRABR.	Mantrabr.	MANTRABR. = MANTRABRĀHMAṆA, Calcutta 1872(ROTH). 
-1186	MĀRK.P.	Mārk.P.	MĀRK.P. = MĀRKAṆḌEYAPURĀṆA in der Bibl. ind. 
-1187	Mat.med.	Mat.Med.	Mat.med. = The Materia medica of the Hindus compiled from Sankr. medical works by UDOY CHAND DUTT Civil Medicinal officer. With a Glossary of Indian Plants by GE. KING. Superint. R. Bot. Garden Calc. and the author. Calcutta 1877. 
-1188	MAYR,Ind.Erb.	Mayr,Ind.Erb.	MAYR,Ind.Erb. = Das indische Erbrecht von AUREL MAYR, Wien 1873. 
-1189	MBH.	Mbh.	MBH. = MAHĀBHĀRATA, citirt nach Parvan, Adhyāya und Śloka der Bomb. Ausg. Die ältere Calcuttaer Ausg. mit zwei Zahlen wird nur dann angeführt, wenn sie eine abweichende Lesart bietet. 
-1189x	Bomb.Ausgg.	Bomb.Ausgg.	Bomb.Ausgg. = Bombay editions [unknown literary source] (gagaRa)
-1190	MED.	Med.	MED. = MEDINIKOŚA. 
-1191	MED.avy.	Med.Avy.	MED.avy. = AVYAYĀNEKĀRTHAVARGA am Ende des MEDINIKOŚA. 
-1192	MEGH.	Megh.	MEGH. = MEGHADŪTA, Ausg. von STENZLER. 
-1193	MIT.	Mit.	MIT. = MITĀKṢARĀ. Bei zwei Zahlen ist der VYAVAHĀRĀDHYĀYA, Calcutta 1829, gemeint, bei zwei Zahlen mit folgendem {%a%} oder {%b%} nebst Angabe der Zeile -- das vollständige Werk in 4to. 
-1194	M.K.S.	M.K.S.	M.K.S. = MĀN. K. S. 
-1195	MṚCCH.	Mṛcch.	MṚCCH. = MṚCCHAKAṬIKA, Ausg. von STENZLER. Comm. zu MṚCCH. sind die Auszüge in den Anmerkungen zu meiner Uebersetzung dieses Schauspiels. 
-1196	MUDRĀR.	Mudrār.	MUDRĀR. = MUDRĀRĀKṢASA, nach zwei Ausgaben, Calcutta 1831 und 1926 (CAPELLER). 
-1197	NĀGĀN.	Nāgān.	NĀGĀN. = NĀGĀNANDA nach zwei Calcuttaer Ausgaben (CAPELLER) 
-1198	NAIṢ.	Naiṣ.	NAIṢ. = NAIṢADHACARITA. 
-1199	NĀR.	Nār.	NĀR. = NĀRADA'S DHARMAŚĀSTRA (JOLLY). 
-1200	NIGH.PR.	Nigh.Pr.	NIGH.PR. = NIGHAṆṬUPRAKĀŚA (ROTH). 
-1201	NĪL.	Nīl.	NĪL. = A rational Refutation of the Hindu Phisosphical Systems, by NEHEMIAH NĪLAKAṆṬHA ŚĀSTRĪ GORE. Translated etc. by RITZ-EDWARD HALL. Calcutta 1862. 
-1202	NĪLAK.miteinerZahl.	Nīlak.Miteinerzahl.	NĪLAK.miteinerZahl. = NĪL. 
-1203	NĪLAK.	Nīlak.	NĪLAK. = NĪLAKAṆṬHA, Commentator des MBH. 
-1204	NĪLAR.UP.	Nīlar.Up.	NĪLAR.UP. = NĪLARUDROPANIṢAD in der Bibl. ind. (GELDNER und ROTH). 
-1205	NIR.	Nir.	NIR. = NIRUKTA, Ausg. von ROTH (ROTH). 
-1206	NYĀYAM.	Nyāyam.	NYĀYAM. = JAIMINIYANYĀYAMĀLĀVISTARA, Ausg. von GOLDSTÜCKER UND Cowell (KERN). 
-1207	NYĀYAS.	Nyāyas.	NYĀYAS. = GOTAMA'S NYĀYADARŚANA in der Bibl. ind. Die Ausg. Calcutta 1828 wird durch Beifügung von (1828) bezeichnet. (KERN). 
-1207a	NYĀYAS.(1828)	Nyāyas.(1828)	NYĀYAS.(1828) = GOTAMA'S NYĀYADARŚANA in der Bibl. ind. Die Ausg. Calcutta 1828 wird durch Beifügung von (1828) bezeichnet. (KERN). 
-1208	NY.K.	Ny.K.	NY.K. = NYĀYAKOŚA or Dictionary of the technical Terms of the NYĀYA Philosophy, by BHIMĀCHĀRYA JHALAKIKAR. Bombay 1875. 
-1209	NṚS.UP.	Nṛs.Up.	NṚS.UP. = NṚSIṂHATĀPANĪYOPANIṢAD, herausg. von WEBER in Ind. St. 9 und in der Bibl. ind. 
-1210	P.	P.	P. = PĀṆINI. 
-1211	PAÑCAD.	Pañcad.	PAÑCAD. = PAÑCADAṆḌACCHATTRABANDHA, herausg. von WEBER. 
-1212	PAÑCAR.	Pañcar.	PAÑCAR. = NĀRADA'S PAÑCARĀTRA in der Bibl. ind. 
-1213	PAÑCAT.	Pañcat.	PAÑCAT. =  ohne nähere Angabe PAÑCATANTRA, vollständige Ausg. von KOSEGARTEN. Mit Beifügung von ed. Bomb. --die Ausg. von BÜHLER und KIELHORN. 
-1214	PARĀŚ.	Parāś.	PARĀŚ. = PARĀŚARA'S DHARMAŚĀSTRA (STENZLER). 
-1215	PĀR.GṚHY.	Pār.Gṛhy.	PĀR.GṚHY. = PĀRASKARA'S GṚHYASŪTRA, Ausg. von STENZLER. 
-1216	PARIBH.	Paribh.	PARIBH. = PARIBHĀṢĀ in PARIBHĀṢENDUŚEKHARA, Ausg. von KIELHORN. 
-1217	PAT.zuP.	Pat.Zup.	PAT.zuP. = PATAÑJALI ZU PĀṆINI. 
-1218	PIṆḌOP.	Piṇḍop.	PIṆḌOP. = PIṆḌOPANIṢAD in der Bibl. ind. (GELDNER und ROTH). 
-1219	PISCHEL,deGr.pr.	Pischel,Degr.Pr.	PISCHEL,deGr.pr. = PISCHEL, de Grammaticis prācriticis. Vratislaviae 1874. 
-1220	PRAB.	Prab.	PRAB. = PRABODHACANDRODAYA, Ausg. von BROCKHAUS. 
-1221	PRAŚNOP.	Praśnop.	PRAŚNOP. = PRAŚNOPANIṢAD in der Bibl. ind. 
-1222	PRĀYAŚCITTAT.	Prāyaścittat.	PRĀYAŚCITTAT. = PRĀYAŚCITTATATTVA (ROTH). 
-1223	PRAYOGAR.	Prayogar.	PRAYOGAR. = NĀRĀYAṆABHAṬṬA'S PRAYOGARATNA (STENZLER). 
-1224	PRASANNAR.	Prasannar.	PRASANNAR. = JAYADEVA'S PRASANNARĀGHAVA (KERN). 
-1225	PRATĀPAR.	Pratāpar.	PRATĀPAR. = PRATĀPARUDRIYA. 
-1226	PRIY.	Priy.	PRIY. = PRIYADARŚIKĀ, Calcutta 18?? (CAPELLER). 
-1227	Procc.A.S.B.	Procc.A.S.B.	Procc.A.S.B. = Proceedings of the Asiatic Society of Bengal. 
-1228	PUṢPAS.	Puṣpas.	PUṢPAS. = PUṢPASŪTRA (WEBER). 
-1229	R.	R.	R. = RĀMĀYAṆA. Das 1ste und 2te Kāṇḍa nach der Ausg. von SCHLEGEL, das 3--6te nach der von GORRESIO, das 7te nach der Bomb. Ausg., wenn nicht ausdrücklich eine andere Ausgabe genannt ist. Eine eingeklammerte Zahl bezieht ist sich auf ed. Bomb. 
-1230	RĀJAN.	Rājan.	RĀJAN. = RĀJANIGHAṆṬU, Hdschr. (ROTH). 
-1231	RĀJAT.	Rājat.	RĀJAT. = RĀJATARAṂGIṆĪ. Die 6 ersten Bücher nach der Ausg. von TROYER. Die Beträge aus dem 7ten und 8ten Buche von KERN. 
-1232	RAGH.	Ragh.	RAGH. = RAGHUVAṂŚA, Ausg. von STENZLER, wenn nicht ed. Calc. hinzuge- fügt wird. 
-1233	RATNAM.	Ratnam.	RATNAM. = RATNAMĀLĀ. (ROTH). 
-1234	ROXB.	Roxb.	ROXB. = Flora indica or description of Indian Plants. By the late WILLIAM ROXBURGH. Serampore 1832 (ROTH). 
-1234a	ROXBURGH, Flora ind.	Roxburgh, Flora ind.	ROXBURGH, Flora ind. = Flora indica or description of Indian Plants. By the late WILLIAM ROXBURGH. Serampore 1832 (ROTH). 
-1235	ṚTUS.	Ṛtus.	ṚTUS. = RṬUSAṂHĀRA, Ausg. von BOHLEN. 
-1236	ṚV.	Ṛv.	ṚV. = ṚGVEDA (ROTH). 
-1237	ṚV.PRĀT.	Ṛv.Prāt.	ṚV.PRĀT. = PRĀTIŚĀKHYA zum ṚGVEDA. 
-1237a	ṚV.PRĀT.(ed. M.)	Ṛv.Prāt.(ed. M.)	ṚV.PRĀT.(ed. M.) = PRĀTIŚĀKHYA zum ṚGVEDA. 
-1237b	ed. M.	ed. M.	ed. M. = PRĀTIŚĀKHYA zum ṚGVEDA. [unknown literary source]
-1238	SADDH.P.4.	Saddh.P.4.	SADDH.P.4. = das 4te Kapitel des SADDHARMAPUṆḌARĪKA, lithographirt in Parabole de l'Enfant egare. Par. PH. ED. FOUCAUX. Paris. 1854. 
-1239	SĀH.D.	Sāh.D.	SĀH.D. = SĀHITYADARPAṆA in der Bibl. ind. 
-1240	SĀY.	Sāy.	SĀY. = SĀYAṆA. 
-1241	SĀMAV.BR.	Sāmav.Br.	SĀMAV.BR. = SĀMAVIDHĀNABRĀHMAṆA, Ausg. von BURNELL. 
-1242	SAṂHITOPAN.	Saṃhitopan.	SAṂHITOPAN. = SAṂHITOPANIṢAD, Ausg. von BURNELL. 
-1243	SĀṂKHYAK.	Sāṃkhyak.	SĀṂKHYAK. = SĀṂKHYAKĀRIKĀ, Ausg. von WILSON. 
-1244	SAṂNY.UP.	Saṃny.Up.	SAṂNY.UP. = SAṂNYĀSOPANIṢAD in der Bibl. ind. (GELDNER und ROTH). 
-1245	SAṂSK.K.	Saṃsk.K.	SAṂSK.K. = ANANTADEVA'S SAṂSKĀRAKAUSTUBHA, obl. fol. 
-1246	SĀRAS.	Sāras.	SĀRAS. = SĀRASUNDARĪ, ein Commentar zu AK. 
-1247	SĀRĀV.	Sārāv.	SĀRĀV. = SĀRĀVALI, citirt bei UTPALA ZU VARĀH. BṚH. 
-1248	SARVAD.	Sarvad.	SARVAD. = SARVADARŚANASAṂGRAHA in der Bibl. ind. (KERN). 
-1249	SARVOPAN.	Sarvopan.	SARVOPAN. = SARVOPANIṢATSĀRA in der Bibl. ind. (GELDNER und ROTH). 
-1250	SĀV.	Sāv.	SĀV. = SĀVITRĪ, herausg. von Bopp. 
-1251	ṢAḌV.BR.	Ṣaḍv.Br.	ṢAḌV.BR. = ṢAḌVIṂŚABRĀHMAṆA (WEBER). 
-1252	SIDDH.ŚIR.	Siddh.Śir.	SIDDH.ŚIR. = SIDDHĀNTAŚIROMAṆI (KERN). 
-1253	Spr.	Spr.	Spr. = Indische Sprüche, herausg. von O. BÖHTLINGK. 2te Aufl. Von 7614 an in Melanges asiatiques, T. VIII, S. 217. fgg. Ebendaselbst S. 203. fgg. stehen die durch "zu Spr. " bezeichneten Varianten. 
-1254	S.S.S.	S.S.S.	S.S.S. = SAṂGITASĀRASAṂGRAHA, Calcutta 1932 (CAPELLER). 
-1255	SUBHĀṢITAR.	Subhāṣitar.	SUBHĀṢITAR. = SUBHĀṢITARATNĀKARA, Bombay 1872. 
-1256	SUŚR.	Suśr.	SUŚR. = SUŚRUTA (ROTRH). 
-1257	SUPARṆ.	Suparṇ.	SUPARṆ. = SUPARṆĀDHYA, herausg. von ELIMAR GRUBE in Ind. St. 14. 
-1258	SŪRYAD.	Sūryad.	SŪRYAD. = SŪRYADEVAYAJVAN (KERN). 
-1259	SŪRYAS.	Sūryas.	SŪRYAS. = SŪRYASIDDHĀNTA in der Bibl. ind. 
-1260	SV.	Sv.	SV. = SĀMAVEDA (ROTH). 
-1260a	SV.(Calc. Ausg.)	Sv.(Calc. Ausg.)	SV.(Calc. Ausg.) = SĀMAVEDA [unknown literary source)
-1261	SV.ĀR.	Sv.Ār.	SV.ĀR. = ĀRAṆYAKA zum SV. (ROTH). 
-1262	TAITT.ĀR.	Taitt.Ār.	TAITT.ĀR. = TAITTIRĪYĀRAṆYAKA in der Bibl. ind. 
-1263	TAITT.UP.	Taitt.Up.	TAITT.UP. = TAITTIRĪYOPANIṢAD in der Bibl. ind. 
-1264	TĀṆḌYA-BR.	Tāṇḍya-Br.	TĀṆḌYA-BR. = TĀṆḌYABRĀHMAṆA in der Bibl. Im grossen Wörterbuch als PAÑCAV. BR. citirt. 
-1265	TARKAS.	Tarkas.	TARKAS. = TARKASAṂGRAHA, Allahabad 1849(ROTH). 
-1266	TATTVAS.	Tattvas.	TATTVAS. = TATTVASAMĀSA, Mirzapore 1850(ROTH). 
-1267	TBR.	Tbr.	TBR. = TAITTIRĪYA BRĀHMAṆA (ROTH). 
-1268	TRIK.	Trik.	TRIK. = TRIKĀṆḌAŚEṢA. 
-1269	TS.	Ts.	TS. = TAITTIRĪYASAṂHITĀ (ROTH und WEBER). 
-1269a	TS.(ed.WEBER)	Ts.(ed.WEBER)	TS.(ed.WEBER) = TAITTIRĪYASAṂHITĀ (WEBER). 
-1270	TS.PRĀT.	Ts.Prāt.	TS.PRĀT. = PRĀTIŚĀKHYA zur TS. , Ausg. von WHITNEY. 
-1271	UJJVAL.	Ujjval.	UJJVAL. = UJJVALADATTA, Commentator der UṆĀDISŪTRA. 
-1272	UṆĀDIS.	Uṇādis.	UṆĀDIS. = UṆĀDISŪTRA, herausg. von AUFRECHT. 
-1273	UTTARAR.	Uttarar.	UTTARAR. = UTTARARĀMACARITRA, nach zwei Ausgaben, Calcutta 1831 und 1862. 
-1273a	UTTARARĀMAC.	Uttararāmac.	UTTARARĀMAC. = UTTARARĀMACARITRA, nach zwei Ausgaben, Calcutta 1831 und 1862. 
-1274	VĀGBH.	Vāgbh.	VĀGBH. = VĀGBHAṬA'S ĀYURVEDADARŚANA (ROTH). 
-1275	VAJRAS.	Vajras.	VAJRAS. = VAJRASŪCI, Ausg. von WEBER. 
-1276	VAIDYABH.	Vaidyabh.	VAIDYABH. = VAIDYABHĀṢYA (ROTH). 
-1277	VAITĀN.	Vaitān.	VAITĀN. = VAITĀNASŪTRA, Ausg, von GARBE. 
-1278	VĀYU-P.	Vāyu-P.	VĀYU-P. = VĀYUPURĀṆA, nach Citaten in andern Werken. 
-1279	VĀLAKH.	Vālakh.	VĀLAKH. = VĀLAKHILYA, die zwischen ṚV. 8, 84 und 49 eingeschobenen Lieder (ROTH). 
-1280	VĀMANA	Vāmana	VĀMANA = VĀMANA'S KĀVYĀLAṂKĀRAVṚTTI, Ausg. von CAPELLER. 
-1281	VAṂŚABR.	Vaṃśabr.	VAṂŚABR. = VAṂŚABRĀHMAṆA, Ausg. von BURNELL (ROTH). 
-1282	VARĀH.BṚH.	Varāh.Bṛh.	VARĀH.BṚH. = VARĀHAMIHIRA'S BṚHAJJĀTAKA (KERN). 
-1283	VARĀH.BṚH.S.	Varāh.Bṛh.S.	VARĀH.BṚH.S. = VARĀHAMIHIRA'S BṚHATSAṂHITĀ (KERN). 
-1284	VARĀH.YOGAY.	Varāh.Yogay.	VARĀH.YOGAY. = VARĀHAMIHIRA'S YOGAYĀTRĀ, herausg. von KERN in Ind. St. 10. 14 und 15. 
-1285	VARĀH.LAGH.	Varāh.Lagh.	VARĀH.LAGH. = VARĀHAMIHIRA'S LAGHUJĀTAKA. Die zwei ersten Adhjaja herausgegeben von WEBER in Ind. St. 2. 
-1286	Vārtt.	Vārtt.	Vārtt. = Vārttika. 
-1287	VĀS.	Vās.	VĀS. = VĀSANTIKĀ, Hdschr. (CAPELLER). 
-1288	VĀSAV.	Vāsav.	VĀSAV. = VĀSAVADATTĀ in der Bibl. ind. 
-1289	VEṆĪS.	Veṇīs.	VEṆĪS. = VEṆĪSAṂHĀRA, Ausg. von GRILL (CAPELLER). 
-1290	Verz.d.B.H.	Verz.D.B.H.	Verz.d.B.H. = WEBER, Verzeichniss der Berliner Handschriften. 
-1291	Verz.d.Oxf.H.	Verz.D.Oxf.H.	Verz.d.Oxf.H. = AUFRECHT, Verzeichniss der Oxforder Handschriften. 
-1292	VET.	Vet.	VET. = VETĀLAPAÑCAVIṂŚATI in LA. 
-1293	VIDDH.	Viddh.	VIDDH. = VIDDHAŚĀLABHAÑJIKĀKHYANĀṬIKĀ in der Zeitschrift PRATNAKAMRANANDINI(CAPELLER). 
-1294	VIKR.	Vikr.	VIKR. = VIKRAMORVAŚĪ, Ausg. von BOLLENSEN. 
-1295	VIKRAMĀṄKAC.	Vikramāṅkac.	VIKRAMĀṄKAC. = VIKRAMĀṄKADEVACARITA, Ausg. von BÜHLER. 
-1295a	Bomb.Ausgaben	Bomb.Ausgaben	Bomb.Ausgaben = Bombay editions [unknown literary source]
-1295b	Bomb.Ausgg.	Bomb.Ausgg.	Bomb.Ausgg. = Bombay editions [unknown literary source]
-1295c	Bomb.Ausg.	Bomb.Ausg.	Bomb.Ausg. = Bombay edition [unknown literary source]
-1295d	Bomb.	Bomb.	Bomb. = Bombay  [unknown literary source]
-1296	VIṢṆUS.	Viṣṇus.	VIṢṆUS. = VIṢṆUSŪTRA, zur Herausgabe vorbereitet von Y. JOLLY (JOLLY) 
-1297	VP.	Vp.	VP. = VIṢṆUPURĀṆA ed. Bomb. 
-1298	VP.².	Vp.².	VP.². = 2te Auflage von WILSON's Uebersetzung des VIṢṆUPURĀṆA, herausgegeben von HALL. 
-1298x	VP.²	Vp.²	VP.² = 2te Auflage von WILSON's Uebersetzung des VIṢṆUPURĀṆA, herausgegeben von HALL. 
-1299	VS.	Vs.	VS. = VĀJASANEYISAṂHITĀ (ROTH und WEBER). 
-1300	VS.PRĀT.	Vs.Prāt.	VS.PRĀT. = PRĀTIŚĀKHYA zu VS in Ind. St. 4. 
-1301	WEBER,JYOT.	Weber,Jyot.	WEBER,JYOT. = WEBER, Ueber den Vedakalender, Namens JYOTIṢAM. 
-1302	WEBER,KṚṢṆAJ.	Weber,Kṛṣṇaj.	WEBER,KṚṢṆAJ. = WEBER, Ueber die KṚṢṆAJANMĀṢṬAMĪ. Berlin 1868. 
-1303	WEBER,Nax.	Weber,Nax.	WEBER,Nax. = WEBER, Die vedischen Nachrichten von den naxatra. Berlin 1860. 
-1304	WILSON,Sel.W.	Wilson,Sel.W.	WILSON,Sel.W. = Select Works of H. H. WILSON. 
-1305	WISE.	Wise.	WISE. = Commentary on the Hindu System of Medicine, by T. A. WISE. Calcutta 1845. 
-1306	Z.d.d.m.G.	Z.D.D.M.G.	Z.d.d.m.G. = Zeitschrift der deutschen morgenlandischen Gesellschaft 
-2001	AINSLIE.	Ainslie.	AINSLIE. = AINSLIE, Materia indica. London 1826. 
-2002	ĀNANDAL.	Ānandal.	ĀNANDAL. = ĀNANDALAHARĪ in HAEBELIN's Anthologie. 
-2003	BAUDH.	Baudh.	BAUDH. = BAUDHĀYANA, nach Citaten in andern Werken. 
+1004	AGNI-P.	Agni-P.	AGNIPURĀṆA in der Bibl. ind. 
+2001	AINSLIE.	Ainslie.	AINSLIE, Materia indica. London 1826. 
+Y001	AIT.	Ait.	[unknown literary source]
+1006	AIT. BR.	Ait. Br.	AITAREYABRĀHMAṆA, Ausg. von HAUG. 
+1007	AIT. UP.	Ait. Up.	AITAREYOPANIṢAD in der Bibl. ind. 
+1005	AIT. ĀR.	Ait. Ār.	AITAREYĀRAṆYAKA in der Bibl. ind. In der Regel citirt nach Seite und Zeile (KERN und ROTH). 
+1008	AK.	Ak.	AMARAKOŚA, Ausg. von LOISELEUR DESLONGCHAMPS. 
+5003	ALAṂKĀRAT.	Alaṃkārat.	ALAṂKĀRATILAKA, Hdschr. (AUFRECHT). 
+5004	ALAṂKĀRAV.	Alaṃkārav.	ALAṂKĀRAVIMARŚINĪ von JAYARATHA, Deccan Coll. Hdschr. No. 230 (PISCHEL). 
+6001	ALAṂKĀRAŚ.	Alaṃkāraś.	ALAṂKĀRAŚEKHARA, lith. Ausg. Benares 1923 (TH. AUFRECHT und R. PISCHEL).
+1010	AMṚT. UP.	Amṛt. Up.	AMṚTABINDŪPANIṢAD in der Bibl. ind. (GELDNER und ROTH). 
+5005	ANARGHAR.	Anarghar.	ANARGHARĀGHAVA, Calcutta Śaka 1782 (AUFRECHT). 
+X112	ANTYEṢṬIK.	Antyeṣṭik.	[unknown literary source]
+1012	ANUKR. zu ṚV.	Anukr. zu Ṛv.	ANUKRAMAṆIKĀ zu ṚV. im Comm. SĀYAṆA'S. 
+X259	ANUPADA	Anupada	[unknown literary source]
+X166	ANUPADAS.	Anupadas.	[unknown literary source]
+3001	APARĀRKA.	Aparārka.	APARĀRKA (JOLLY). 
+X277	ARJ.	Arj.	[unknown literary source]
+5006	ASAHĀYA	Asahāya	ASAHĀYA , ein Commentator des NĀRADA (JOLLY). 
+X197	ATHARVAPADDH.	Atharvapaddh.	[unknown literary source]
+X153	ATHARVAŚIKHOP.	Atharvaśikhop.	[unknown literary source]
+X015	AUFRECHT	Aufrecht	[unknown literary source]
+X137	AUPAMANYAVA	Aupamanyava	[unknown literary source]
+1020	AV.	Av.	ATHARVAVEDA, Ausg. von ROTH und WHITNEY (ROTH). 
+1020a	AV. (Hdschrr.)	Av. (Hdschrr.)	ATHARVAVEDA, Manuscripts. [unknown literary source]
+X193	AV. ANUKR.	Av. Anukr.	[unknown literary source]
+1021	AV. JYOT.	Av. Jyot.	JYOTIṢA zum AV. , Hdschr. (ROTH). 
+X192	AV. JYOTIṢA.	Av. Jyotiṣa.	[unknown literary source]
+Y016	AV. PADDH.	Av. Paddh.	[unknown literary source]
+1022	AV. PAIPP.	Av. Paipp.	AV. der PAIPPALĀDA-Schule, Hdschr. (ROTH). 
+X213	AV. PAR.	Av. Par.	AV.PARIŚ. [unknown literary source]
+1023	AV. PARIŚ.	Av. Pariś.	PARIŚIṢṬA zum AV. , Hdschr. (ROTH). 
+X134	AV. PRĀT.	Av. Prāt.	[unknown literary source]
+1024	AV. PRĀYAŚC.	Av. Prāyaśc.	PRĀYAŚCITTA zum AV. , Hdschr. (ROTH). 
+X110	AŚVAV.	Aśvav.	[unknown literary source]
+Y013	B. A. I.	B. A. I.	[unknown literary source]
+1026	B. A. J.	B. A. J.	Bombay Asiatic Journal (GELDNER). 
+2003	BAUDH.	Baudh.	BAUDHĀYANA, nach Citaten in andern Werken. 
+X058	BAUDH. GṚHY. PARIŚ.	Baudh. Gṛhy. Pariś.	[unknown literary source]
 2003a	BAUDHĀYANA	Baudhāyana	BAUDHĀYANA [unknown literary source]
-2004	BRAHMAVAIV.P.	Brahmavaiv.P.	BRAHMAVAIV.P. = BRAHMAVAIVARTAPURĀṆA. 
-2005	BÜHLER,Rep.1872-73.	Bühler,Rep.1872-73.	BÜHLER,Rep.1872-73. = BÜHLER, Report on Sanskrit Mss. 1872--73. 
-2006	ŚĀNTIŚ.	Śāntiś.	ŚĀNTIŚ. = ŚĀNTIŚATAKA in HAEBERLIN'S Anthologie. 
-2007	Cat.GUYAR.	Cat.Guyar.	Cat.GUYAR. = A Catalogue of Sanskrit Manuscripts contained in the private libraries of GUYARĀT, KĀṬHIĀVĀD, KATCHCHH, SINDH and KHĀDE'S. Compeld unter the superintendence of G. BÜHLER (ROTH). 
-2008	Cat.WILLMOT.	Cat.Willmot.	Cat.WILLMOT. = A Catalogue of Sanskrit Mss. existing in the central provinces, prepared by order of E. WILLMOT Esq. (ROTH). 
-2009	ŚĪLĀṄKA.	Śīlāṅka.	ŚĪLĀṄKA. = ŚĪLĀṄKA'S Commentar zum ĀCĀRĀṄGASŪTRA, Calcutta 1878 (JACOBI). 
-2010	ŚKDR.	Śkdr.	ŚKDR. = ŚABDAKALPADRUMA. 
-2011	ŚOBH.	Śobh.	ŚOBH. = ŚOBHANAMUNI'S ŚOBHANASTUTAYAS in Z. d. d. m. G. 32, 509. fgg. (JACOBI). 
-2012	ŚRUT.(BR.)	Śrut.(Br.)	ŚRUT.(BR.) = ŚRUTABODHA, Ausg. von BROCKHAUS. 
-2013	CUNNINGHAM,Arch.Surv.	Cunningham,Arch.Surv.	CUNNINGHAM,Arch.Surv. = CUNNINGHAM, Archaeological Survey of India. 
-2014	DAŚAK.(1925)	Daśak.(1925)	DAŚAK.(1925) = DAŚAKUMĀRACARITA, Calcutta 1234 {#saMvatsarE#} (CAPELLER). 
-2014a	DAŚAK.(1883)	Daśak.(1883)	DAŚAK.(1883) = DAŚAKUMĀRACARITA, Calcutta 1234 {#saMvatsarE#} (CAPELLER). 
-2015	DĀY.	Dāy.	DĀY. = DĀYABHĀGA, Calcutta 1829. 
-2016	DEŚĪN.	Deśīn.	DEŚĪN. = HEMACANDRA'S DEŚĪNĀMĀLĀ, Hdschr. (PISCHEL). 
-2018	FÜHRER,BṚH.	Führer,Bṛh.	FÜHRER,BṚH. = Darstellung der Lehre von den Schriften in BṚHASPATI'S DHARMAŚĀSTRA. Inauguraldissertation von ALOIS ANTON FÜBER. 
-2019	GAṆIT.BHAGRAH.	Gaṇit.Bhagrah.	GAṆIT.BHAGRAH. = GAṆITA, BHAGRAHAYUTYADHIKĀRA (KERN). 
-2020	GAṆIT.KAKṢ.	Gaṇit.Kakṣ.	GAṆIT.KAKṢ. = GAṆITA, KAKṢĀDHYĀYA (KERN). 
-2021	GAṆIT.SPAṢṬ.	Gaṇit.Spaṣṭ.	GAṆIT.SPAṢṬ. = GAṆITA, SPAṢṬĀDHIKĀRA (KERN). 
-2022	GĀR.UP.	Gār.Up.	GĀR.UP. = GĀRUḌOPANIṢAD in der Bibl. ind. 
-2023	JAṬĀDH.	Jaṭādh.	JAṬĀDH. = JAṬĀDHARA im ŚKDR. 
-2024	GOLĀDHY.BHUV.	Golādhy.Bhuv.	GOLĀDHY.BHUV. = GOLĀDHYĀYA, BHUVANAKOŚA (KERN). 
-2025	GṚHYĀS.	Gṛhyās.	GṚHYĀS. = GṚHYĀSAṂGRAHA in der Bibl. ind. 
-2026	HĀLA.	Hāla.	HĀLA. = HĀLA. Citirt nach der neuen noch im Druck befindlichen Ausgabe von WEBER (CAPELLER). 
-2027	HAṂSOP.	Haṃsop.	HAṂSOP. = HAṂSOPANIṢAD in der Bibl. ind. (GELDNER). 
-2028	HANUM.UP.	Hanum.Up.	HANUM.UP. = HANUMADUKTARĀMOPANIṢAD in der Bibl. ind. (GELDNER). 
-2029	HARIV.LANGL.	Hariv.Langl.	HARIV.LANGL. = LANGLOIS' Uebersetzung des Harivaṃśa. 
-2031	HEM.PAR.	Hem.Par.	HEM.PAR. = HEMACANDRA'S PARIŚIṢṬAPARVAN, Hdschr. (JACOBI). 
-2032	Ind.Str.	Ind.Str.	Ind.Str. = WEBER, Indische Streifen. 
-2033	J.A.S.Beng.	J.A.S.Beng.	J.A.S.Beng. = Journal of the Asiatic Society of Bengal. Part I. (History, Antiquities, &c. ). 
-2033a	J.A.S.	J.A.S.	J.A.S. = ? Journal of the Asiatic Society of Bengal. Part I. (History, Antiquities, &c. ). [unknown literary source]
-2034	YOGAŚ.UP.	Yogaś.Up.	YOGAŚ.UP. = YOGAŚIKHOPANIṢAD in der Bibl. ind. (GELDNER). 
-2035	CAITANY.	Caitany.	CAITANY. = CAITANY. == CAITANYACANDRODAYA in der Bibl. ind. (PISCHEL). 
-2036	KALPAS.	Kalpas.	KALPAS. = KALPASŪTRA, herausg. von H. JACOBI (JACOBI und KERN). 
-2037	CĀṆ.	Cāṇ.	CĀṆ. = CĀṆAKYA in HAEBERLIN'S Anthologie. 
-2039	KĀRAṆḌ.	Kāraṇḍ.	KĀRAṆḌ. = KĀRAṆḌAVYŪHA, Calcutta 1873(KERN). 
-2040	KĀT.	Kāt.	KĀT. = KĀTANTRA, heraugsgegeben von EGGELING. 
-2042	KĀṬH.GṚHY.	Kāṭh.Gṛhy.	KĀṬH.GṚHY. = KĀṬHAKAGṚHYASŪTRA, Hdschr. (JOLLY). 
-2043	KAP.S.	Kap.S.	KAP.S. = KAPIṢṬHALAKAṬHASAṂHITA, Hdschr. (v. SCHRÖDER). 
-2044	CŪLIKOP.	Cūlikop.	CŪLIKOP. = CŪLIKOPANIṢAD in der Bibl. ind. (GELDNER). 
-2045	VARĀH.LAGHUJ.	Varāh.Laghuj.	VARĀH.LAGHUJ. = VARĀHAMIHIRA'S LAGHUJĀTAKA. 
-2046	MAGAVY.	Magavy.	MAGAVY. = Ueber zwei Parteischriften zu Gunsten der MAGA, resp. ŚĀKADVIPIYA BRĀHMAṆA. Von A. WEBER. 
-2047	MAHĀŚ.	Mahāś.	MAHĀŚ. = MAHĀŚĀNTI, Hdschr. (ROTH). 
-2048	MAITR.PADDH.	Maitr.Paddh.	MAITR.PADDH. = PADDHATI ZU MAITR. S. , Hdschr. (v. SCHRÖDER). 
-2049	MĀN.ŚR.	Mān.Śr.	MĀN.ŚR. = MĀNAVAŚRAUTASŪTRA, Hdschr. (v. SCHRÖDER). 
-2050	MĀṆḌ.UP.	Māṇḍ.Up.	MĀṆḌ.UP. = MĀṆḌŪKYOPANIṢAD in der BIbl. ind. 
-2051	MOLESW.	Molesw.	MOLESW. = A Dictionary, Marāṭhi and English, compiled by Y. T. MOLESWORTH, Bombay 1857. 
-2052	Mon.d.B.A.	Mon.D.B.A.	Mon.d.B.A. = Monatsberichte der Königlich Preussichen Akademie der Wissenschaften in Berlin. 
-2052a	Monatsberichte d. Kön.Pr.Ak.d.Ww.	Monatsberichte d. Kön.Pr.Ak.d.Ww.	Monatsberichte d. Kön.Pr.Ak.d.Ww. = Monatsberichte der Königlich Preussichen Akademie der Wissenschaften in Berlin. 
-2053	NĀDAB.UP.	Nādab.Up.	NĀDAB.UP. = NĀDABINŪPANIṢAD in der Bibl. ind. (GELDNER). 
-2054	NIGH.	Nigh.	NIGH. = YĀSKA'S NIRUKTA sammt den NIGHAṆṬAVAS, herausgegeben und erläutert von RUDOLPH ROTH. 
-2055	NIRṆAYAS.	Nirṇayas.	NIRṆAYAS. = NIRṆAYASINDHU. 
-2056	OPP.CAT.	Opp.Cat.	OPP.CAT. = List of Sanskrit Manuscripts in Private libraries of southern India. Compiled, arranged and indexed by GUSTAV OPPERT. 
-2057	PAÑCAT.ed.orn.	Pañcat.ed.orn.	PAÑCAT.ed.orn. = KOSEGARTEN, PAÑCATANTRA sive quinque partitum de moribus exponens. Pars secunda, textum sanscritum, ornatiorem tenens. 
-2058	RĀJAV.	Rājav.	RĀJAV. = RĀJAVALLABHA, nach Citaten ŚKDR. 
-2059	SETUB.	Setub.	SETUB. = SETUBANDHA, herausgegeben von SIEGFRIED GOLDSCHMIDT. 
-2060	TAL.BR.	Tal.Br.	TAL.BR. = A legend from the TALAVAKĀRA or JAIMINĪYA BRĀHMAṆA of the SĀMAVEDA by A. C. BURNELL, Mangalore 1878. 
-2061	TEJOB.UP.	Tejob.Up.	TEJOB.UP. = TEJOBINDŪPANIṢAD in der Bibl. ind. (GELDNER). 
-2062	VĀSTUV.	Vāstuv.	VĀSTUV. = VIŚVAKARMA'S VĀSTUVIDYĀ, Hdschr (KERN). 
-2063	VIŚVA.	Viśva.	VIŚVA. = VIŚVAKOŚA (PISCHEL). 
-2064	VIVĀDAC.	Vivādac.	VIVĀDAC. = VIVĀDACINTĀMAṆI, Calcutta {#saMvat#} {#1234#} {#zAkE#} {#5678#} {#vaizakhE. #} 
-2065	VIVEKAV.	Vivekav.	VIVEKAV. = VIVEKAVILĀSA im Journal PRATNAKAMRANANDINI. 
-2066	VOP.	Vop.	VOP. = VOPADEVA'S MUGDHABODHA, herausgegeben und erklärt von O. BÖHTLINGK. 
-2067	WEBER,Lit.	Weber,Lit.	WEBER,Lit. = Akademische Vorlesung über Indische Literaturgeschichte. Von ALBRECHT WEBER. Zweite vermehrte Auflage. 
-2068	WILSON,Sel.Spec.	Wilson,Sel.Spec.	WILSON,Sel.Spec. = WILSON, Select Specimens of the Theatre of the Hindus. 
-3001	APARĀRKA.	Aparārka.	APARĀRKA. = APARĀRKA (JOLLY). 
-3002	BHĀM.	Bhām.	BHĀM. = BHĀMATĪ in der Bibl. ind. (STENZLER). 
-3003	BṚHANM.	Bṛhanm.	BṚHANM. = BṚHANMANU, nach Citaten in verschiedenen juristischen Büchern(JOLLY). 
-3004	BṚHASP.	Bṛhasp.	BṚHASP. = BṚHASPATI, nach Citaten in verschiedenen jurischen Büchern (JOLLY). 
-3005	Cat.ALLAR.	Cat.Allar.	Cat.ALLAR. = A Catalogue of Sanscrit Manuscripts in Oudh (ROTH). 
-3006	Cat.KIELH.	Cat.Kielh.	Cat.KIELH. = Cat. C. PR. 
-3007	ŚRUT.	Śrut.	ŚRUT. = ŚRUTABODHA in der Zeitschrift für die Kunde des Morgenlandes, Bd. IV. 
-3008	ŚUKRAN.	Śukran.	ŚUKRAN. = ŚUKRANĪTI in OPPERT, On the army organization of the Ancient Hindus S. 107 (WEBER). 
-3009	DEVALA.	Devala.	DEVALA. = DEVALA nach Citaten in verschiedenen juristischen Schriften (JOLLY). 
-3010	DONNER,PIṆḌ.	Donner,Piṇḍ.	DONNER,PIṆḌ. = PIṆḌAPITṚYAJÑA, von Dr. O. DONNER. Berlin. 1870. 
-3011	EITEL,Chin.B.	Eitel,Chin.B.	EITEL,Chin.B. = Hand-Book for the student of Chinese Buddhism, by Rev. E. l. EITEL. London, 1870. 
-3012	GAṆITA,MADHYĀM(ĀDHYĀYA).	Gaṇita,Madhyām(Ādhyāya).	GAṆITA,MADHYĀM(ĀDHYĀYA). = GAṆITA,MADHYĀM(ĀDHYĀYA)KERN. 
-3013	GOBH.ŚRĀDDHAK.	Gobh.Śrāddhak.	GOBH.ŚRĀDDHAK. = GOBHILA'S ŚRĀDDHAKALPA in der Bibl. ind. 
-3013a	GOBH.(KNAUER)	Gobh.(Knauer)	GOBH.(KNAUER) = ? GOBHILA'S ŚRĀDDHAKALPA [unknown literary source
-3013b	GOBH.(ed. KNAUER)	Gobh.(ed. Knauer)	GOBH.(ed. KNAUER) = ? GOBHILA'S ŚRĀDDHAKALPA [unknown literary source
-3014	HAEB.Anth.	Haeb.Anth.	HAEB.Anth. = HAEBERLIN'S Anthology, Calcutta 1847. 
-3015	HILLEBR.N.	Hillebr.N.	HILLEBR.N. = HILLEBRANDT'S altindisches Neu- und Vollmondsopfer. 
-3017	KAIVALYOP.	Kaivalyop.	KAIVALYOP. = KAIVALYOPANIṢAD in der Bibl. ind. 
-3018	KAṬHOP.	Kaṭhop.	KAṬHOP. = KAṬHOP(ANIṢAD) in der Bibl. ind. 
-3019	KĀTY(ĀYANA).	Kāty(Āyana).	KĀTY(ĀYANA). = KĀTY(ĀYANA) nach Citaten in verschiedenen juristischen Werken(JOLLY). 
-3020	KĀTY.ŚRĀDDHAK.	Kāty.Śrāddhak.	KĀTY.ŚRĀDDHAK. = KĀTYĀYANA'S ŚRĀDDHAKALPASŪTRA (STENZLER). 
-3022	KUHN'S.Z.	Kuhn'S.Z.	KUHN'S.Z. = Zeitschrift für vergleichende Sprachforschung anf dem Gebiete der indogermanischen Sprachen. 
-3024	LIA.	Lia.	LIA. = LASSEN'S Indische Alterthunmskunde. 
-3025	MBH.ed.Vardh.	Mbh.ed.Vardh.	MBH.ed.Vardh. = MBH. ed. Vardh. ist die auf Kosten des Fürsten von Vardhamāna (Burdwan) gedruckte Ausg. des MAHĀBHĀRATA. Sie enthält nur die 12 ersten Parvan. 
-3025a	ed.Vardh.	ed.Vardh.	ed.Vardh. = MBH. ed. Vardh. ist die auf Kosten des Fürsten von Vardhamāna (Burdwan) gedruckte Ausg. des MAHĀBHĀRATA. Sie enthält nur die 12 ersten Parvan. 
-3026	MEDHĀT.	Medhāt.	MEDHĀT. = MEDHĀTITHI, ein Scholiast des MANU (JOLLY). 
-3027	MÜLLER,SL.	Müller,Sl.	MÜLLER,SL. = A History of Ancient Sanskrit Literature. By MAX MÜLLER. 1859. 
-3028	MUṆḌ.UP.	Muṇḍ.Up.	MUṆḌ.UP. = MUṆḌAKOPANIṢAD in der Bibl. ind. 
-3029	OLD.Buddha.	Old.Buddha.	OLD.Buddha. = OLD.Buddha = Buddha. Sein Leben, seine Lehre, seine Gemeinde. Von HERMANN OLDENBERG. Berlin 1881. 
-3030	PRAJĀPATI.	Prajāpati.	PRAJĀPATI. = PRAJĀPATI , nach Citaten in verschiendenen juristischen Werken (JOLLY). 
-3031	PR.P.	Pr.P.	PR.P. = PRACAṆḌAPĀṆḌAVA, EIN SCHAUSPIEL. HDSCHR. (CAPELLER). 
-3032	RĀMAPŪRVAT.UP.	Rāmapūrvat.Up.	RĀMAPŪRVAT.UP. = RĀMAPŪRVATĀPANĪYOPANIṢAD in der Bibl. ind. 
-3033	RASAR.	Rasar.	RASAR. = RASAR. RASARATNĀKARA, Calcutta 1878 (ROTH). 
-3034	RASENDRAC.	Rasendrac.	RASENDRAC. = RASENDRACINTĀMAṆI Calcutta 1878 (ROTH). 
-3035	SOMAKARMAPR.	Somakarmapr.	SOMAKARMAPR. = SOMAKARMAPRADĪPA des RĀMA, Hdschr. (ROTH). 
-3036	SUKHĀV.	Sukhāv.	SUKHĀV. = SUKHĀVATĪVYŪHA nach der nocht nich erschienenen Ausg. von F. MAX MÜLLER.
-3036.1	SVAPNAC.	Svapnac.	SVAPNAC. = SVAPNACINTĀMAṆI (PISCHEL).
-3037	VAJRACCH.	Vajracch.	VAJRACCH. = VAJRACCHEDIKĀ, herausgegeben von (F. MAX MÜLLER). 
-3038	VASIṢṬHA.	Vasiṣṭha.	VASIṢṬHA. = VASIṢṬHA, nach der Ausg. von Benares (JOLLY). 
-3039	VET.(U.)	Vet.(U.)	VET.(U.) = VETĀLAPAÑCA VIṂŚATIKĀ, herausgegeben von HEINRICH UHLE. 
-3040	VYUTP.	Vyutp.	VYUTP. = VYUTPATTI, ein Sanskrit-Tibetisches Wörterbuch aus dem TAÑJUR (SCHIEFNER). 
-3041	VṚṢABH.	Vṛṣabh.	VṚṢABH. = VṚṢABHĀNUJA im 3ten und 4ten Bande des Pandit (CAPELLER). 
-3042	WEBER,RĀMAT.	Weber,Rāmat.	WEBER,RĀMAT. = WEBER'S Ausg. RĀMATĀPANĪYOPANIṢAD. 
-3043	WIND.SANC.	Wind.Sanc.	WIND.SANC. = FRIDERICI HENR. HUG. WINDISHMANNI SANCARA sive de theologumenis Vedanticorum. 
-3044	BHĀM.V.	Bhām.V.	BHĀM.V. = BHĀMINĪVILĀSA, Ausg. von ABELBERGAIGNER(CAPELLER. ) 
-4001	ŚAṂK.VIJ.	Śaṃk.Vij.	ŚAṂK.VIJ. = ŚAṂKARAVIJAYA in der Bibl. ind. 
-4002	CANTOR.	Cantor.	CANTOR. = CANTOR, Geschichte der Mathematik (WINDISCH) . 
-4003	GAṆITA,GRAHACCH.	Gaṇita,Grahacch.	GAṆITA,GRAHACCH. = GAṆITA,GRAHACCHĀYĀDHIKĀRA (KERN) . 
-4004	GAṆITA,SŪRYAGR.	Gaṇita,Sūryagr.	GAṆITA,SŪRYAGR. = GAṆITA,SŪRYAGRAHAṆĀDHIKĀRA (KERN) . 
-4005	GOVARDH.	Govardh.	GOVARDH. = Govardhana's SAPTAŚATĪ (WEBER) . 
-4006	KAṆṬHAŚR.UP.	Kaṇṭhaśr.Up.	KAṆṬHAŚR.UP. = KAṆṬHAŚRUTYUPANIṢAD in der Bibl. ind. 
-4007	KIELHORN,Rep.	Kielhorn,Rep.	KIELHORN,Rep. = Report on the search for Sanskrit Mss. in the Bombay Presidency, during the year 1880-81. by F. KIELHORN(ROTH) . 
-4008	LOKAPR.	Lokapr.	LOKAPR. = LOKAPRAKĀŚA (JOLLY) . 
-4009	PRATIJÑĀS.	Pratijñās.	PRATIJÑĀS. = PRATIJÑĀS(ŪTRA) berausg. von A. WEBER. 
-4011	SADDH.P.	Saddh.P.	SADDH.P. = SADDHARMAPUṆḌARĪKA (KERN) . 
-4013	VĪRAM.	Vīram.	VĪRAM. = VĪRAMITRODAYA, Khadirapura 1815(STENZLER) . 
-5001	ALAṂKĀRAR.	Alaṃkārar.	ALAṂKĀRAR. = ALAṂKĀRARATNĀKARA des ŚOBHĀKARA, Deccan. Coll. Hdschr. No. 227 (PISCHEL). 
-5002	ALAṂKĀRAS.	Alaṃkāras.	ALAṂKĀRAS. = ALAṂKĀRASARVASVA von RUYYAKA, Deccan Coll. Hdschr. No. 231 (PISCHEL). 
-5003	ALAṂKĀRAT.	Alaṃkārat.	ALAṂKĀRAT. = ALAṂKĀRATILAKA, Hdschr. (AUFRECHT). 
-5004	ALAṂKĀRAV.	Alaṃkārav.	ALAṂKĀRAV. = ALAṂKĀRAVIMARŚINĪ von JAYARATHA, Deccan Coll. Hdschr. No. 230 (PISCHEL). 
-5005	ANARGHAR.	Anarghar.	ANARGHAR. = ANARGHARĀGHAVA, Calcutta Śaka 1782 (AUFRECHT). 
-5006	ASAHĀYA.	Asahāya.	ASAHĀYA. = ASAHĀYA , ein Commentator des NĀRADA (JOLLY). 
-5008	Berl.Mon.	Berl.Mon.	Berl.Mon. = Monatsbericht der Königlich Preussischen Akademie der Wissenschaften zu Berlin. 
-5009	BHADRAB.	Bhadrab.	BHADRAB. = BHADRABĀHUCARITRA, herausgegeben von H. Y. JACOBI in Z. d. d. m. G. 38, 19. fgg. (JACOBI). 
-5010	BHARAṬAKA.	Bharaṭaka.	BHARAṬAKA. = BHARAṬAKADVĀTRIṂŚIKĀ, Hdschr. (AUFRECHT). 
-5011	BHAVIṢYAP.	Bhaviṣyap.	BHAVIṢYAP. = BHAVIṢYAPURĀṆA Hdschr. (AUFRECHT). 
-5013	BURNELL,T.	Burnell,T.	BURNELL,T. = Classified Index to the Sanskrit Mss. in the Palace of Tanjore. By A. C. BURNELL. 
-5014	ŚĀŚVATA.	Śāśvata.	ŚĀŚVATA. = ŚĀŚVATA'S ANEKĀRTHASAMUCCAYA, herausgegeben von THEODOR ZACHARIAE. 
-5015	ŚĀKTĀN.	Śāktān.	ŚĀKTĀN. = ŚĀKTĀNANDATARAṂGIṆI Hdschr. (AUFRECHT). 
-5016	ŚĀRṄG.	Śārṅg.	ŚĀRṄG. = ŚĀRṄG. PADDH. , auch nach Mittheilungen von AUFRECHT. 
-5017	ŚIVA-P.	Śiva-P.	ŚIVA-P. = ŚIVA-PURĀṆA (SK. , dschr. No. 126 in verzeichnis der Oxforder Handschriften (AUFRECHT). 
-5018	ŚRĪMĀLĀM.	Śrīmālām.	ŚRĪMĀLĀM. = ŚRĪMĀLĀMĀHĀTMYA, Hdschr. (AUFRECHT). 
-5019	DARPAD.	Darpad.	DARPAD. = DARPADALANA von KṢEMENDRA, Hdschr. (AUFRECHT). 
-5020	DATTAKAŚ.	Dattakaś.	DATTAKAŚ. = DATTAKAŚIROMAṆI, Calcutta 1867 (JOLLY). 
-5021	DEVĪBHĀG.	Devībhāg.	DEVĪBHĀG. = DEVĪBHĀGAVATAPURĀṆA, Hdschr. (AUFRECHT). 
-5022	DRAVYAŚ.	Dravyaś.	DRAVYAŚ. = DRAVYAŚUDDHITATTVA, Hdschr. (AUFRECHT). 
-5023	GAṆITA,CANDRAGR.	Gaṇita,Candragr.	GAṆITA,CANDRAGR. = GAṆITA,CANDRAGRAHĀDHIKĀRA (KERN). 
-5025	KĀŚĪKH.	Kāśīkh.	KĀŚĪKH. = KĀŚĪKHAṆḌA, HDSCHR. (AUFRECHT). 
-5026	CAMPAKA.	Campaka.	CAMPAKA. = Ueber das CAMPAKAŚREṢṬHIKATHĀNAKAM, die Geschichte vom Kaufmann CAMPAKA. Herausgegeben von A. WEBER in Sitzungsberichte der Königlich Preussischen Akademie der Wissenschaften zu Berlin. Yahrgang 1883. S. 567. fgg. 885. fgg. Vgl. Mélanges asiatiques tirés du Bulletin de l'Académie Impériale des Sciences de St. Pétersbourg. Tome IX, S. 75. fgg. 
-5027	KATHĀRṆAVA	Kathārṇava	KATHĀRṆAVA = KATHĀRṆAVA , Hdschr. (AUFRECHT). 
-5028	KĀTY.KARM.	Kāty.Karm.	KĀTY.KARM. = KĀTY(ĀYANA'S)KARMAPRADĪPA (STENZLER). 
-5029	KĀTY.	Kāty.	KĀTY. = KĀTYĀYANA'S PARIBH (ĀṢĀS) IN 'Zwölf Hymnen des Rigveda, herausgegeben von ERNST WIDISCH'S. 169. fgg. 
-5030	KĀVYĀL.	Kāvyāl.	KĀVYĀL. = KĀVYĀLOKALOCANA, Hdschr. (AUFRECHT). 
-5031	KHAṆḌAPR.	Khaṇḍapr.	KHAṆḌAPR. = KHAṆḌAPRAŚASTI im Pandit, Bed. 5 und 6 (AUFRECHT). 
-5032	CHĀNDOGYAP.	Chāndogyap.	CHĀNDOGYAP. = CHĀNDOGYAPARIŚIṢṬA nach Citaten in andern Werken (AUFRECHT). 
-5033	KULĀRṆAVA.	Kulārṇava.	KULĀRṆAVA. = KULĀRṆAVA , Hdschr. (AUFRECHT). 
-5034	LEUMANN,Aup.Gl.	Leumann,Aup.Gl.	LEUMANN,Aup.Gl. = Glossar in. , Das Aupapātika Sūtra, herausgegeben von Dr. ERNST LEUMANN. 
-5035	MATSYAP.	Matsyap.	MATSYAP. = MATSYAPURĀṆA, Poona-Ausg. (AUFRECHT). 
-5036	M.MÜLLER,Ren.	M.Müller,Ren.	M.MÜLLER,Ren. = The Renaissance of Sanskrit Literature in M. MüLLER'S India what can it teach us? S. 281. fgg. Auch die vorangehenden Abschnitte werden so citirt. 
-5037	NĀRADA.	Nārada.	NĀRADA. = NĀRADA (a.) bezeichnet die ausführlichere Recension NĀRADA'S (JOLLY). 
-5037a	NĀRADA(a.)	Nārada(a.)	NĀRADA(a.) = bezeichnet die ausführlichere Recension NĀRADA'S (JOLLY). 
-5037b	NĀRADA[a.]	Nārada[a.]	NĀRADA[a.] = bezeichnet die ausführlichere Recension NĀRADA'S (JOLLY). 
-5038	PADDH.	Paddh.	PADDH. = PADDHATI zu MĀN (AVA) GṚHY (ASŪTRA), Hdschr. (v. BRADKE). 
-5039	PADYĀVALĪ.	Padyāvalī.	PADYĀVALĪ. = PADYĀVALĪ , Hdschr. (AUFRECHT). 
-5040	PĀRŚVAN.	Pārśvan.	PĀRŚVAN. = PĀRŚVANĀTHAKĀVYA, Hdschr. (AUFRECHT). 
-5041	PRĀYAŚCITTAV.	Prāyaścittav.	PRĀYAŚCITTAV. = PRĀYAŚCITTAVIVEKA, Hdschr. (AUFRECHT). 
-5042	PRAKRIYĀK.	Prakriyāk.	PRAKRIYĀK. = PRAKRIYĀKAUMUDĪ, Hdschr. (Aufrecht).
-5042.1	RĀJENDR.Not..	Rājendr.Not..	RĀJENDR.Not.. = Notices of Sanskrit Mss. by RĀJENDRALĀLA MITRA.
-5043	ṚKT.	Ṛkt.	ṚKT. = ṚKTANTRA, herausgegeben von BURNELL (STENZLER). 
-5044	SADUKTIK.	Saduktik.	SADUKTIK. = SADUKTIKARṆĀMṚTA von ŚRĪDHARADĀSA, Hdschr. (AUFRECHT). 
-5045	SAṂKṢEPAŚ.	Saṃkṣepaś.	SAṂKṢEPAŚ. = SAṂKṢEPAŚAṂKARAJAYA von MĀDHAVA (AUFRECHT). 
-5046	SARASVATĪK.	Sarasvatīk.	SARASVATĪK. = SARASVATĪKAṆṬHĀBHARAṆA, Hdschr. (AUFRECHT). 
-5047	SCHIEFNER,TĀRAN.	Schiefner,Tāran.	SCHIEFNER,TĀRAN. = TĀRĀNĀTHA'S Geschichte des Buddhismus in Indien, aus den Tibetschen übersetzt von ANTON SCHIEFNER. 
-5048	SUBHĀṢITĀV.	Subhāṣitāv.	SUBHĀṢITĀV. = SUBHĀṢITĀVALI von VALLABHADEVA, Hdschr. (AUFRECHT). 
-5049	UTTAMAC.	Uttamac.	UTTAMAC. = Ueber das UTTAMACARITRAKATHĀNAKAM, die Geschichte vom prinzen Trefflichst in Sitzungsserichte der Kön der Kön. Pr. Akademie der Ww- zu Berlin 1884, No. XVII. 
-5050	VĀMANAP.	Vāmanap.	VĀMANAP. = VĀMANAPURĀṆA, Hdschr. (AUFRECHT). 
-5051	VĀRĀHAP.	Vārāhap.	VĀRĀHAP. = VĀRĀHAPURĀṆA , Hdschr. (JACOBI). 
-5053	VIKR.drāv.	Vikr.Drāv.	VIKR.drāv. = KĀLIDĀSA'S VIKRAMORVAŚĪYAM nach drāvidischen Handschriften, herausgegeben von RICHARD PISCHEL in. , Monatsbericht der Königlich Preussischen Akademie der Wissenschaften zu Berlin 1875, S. 609. fgg. 
-5053a	VIKR.ed.PISCHEL	Vikr.ed.Pischel	VIKR.ed.PISCHEL = VIKR.drāv. [unknown literary source]
-5054	ZACH.Beitr.	Zach.Beitr.	ZACH.Beitr. = Beiträge zur indischen Lexicographie von THEODOR ZACHARIAE. 
-5055	Z.f.d.K.d.M.	Z.F.D.K.D.M.	Z.f.d.K.d.M. = Zeitschrift für die Kunde des Morgenlandes. 
-6001	ALAṂKĀRAŚ.	Alaṃkāraś.	ALAṂKĀRAŚ. = ALAṂKĀRAŚEKHARA, lith. Ausg. Benares 1923 (TH. AUFRECHT und R. PISCHEL).
-6001.1	AUCITY.	Aucity.	AUCITY. = AUCITYĀLAṂKĀRA (R. PISCHEL).
-6002	Bydragen.	Bydragen.	Bydragen. = Bydragen (tot de Taal-, Land-en Volkenkunde van Nederlandsch Indie) (H. KERN). 
-6003	ŚĀK.(Kāśm.)	Śāk.(Kāśm.)	ŚĀK.(Kāśm.) = ist die von K. BURKHARD in den Sitzungsberichten der phil-hist. Klasse der Kais. Ak. d. Ww. in Wien, Bd. 107, veröffentlichte Kaśmirer Śakuntalā-Handschrift (C. CAPELLER). 
-6004	ŚUKAS.	Śukas.	ŚUKAS. = ŚUKASAṂDEŚA in Journal of the Royal Asiatic Society of Great Britain & Ireland, Bd. XVI. 
-6005	JĀTAKAM.	Jātakam.	JĀTAKAM. = JĀTAKAMĀLĀ, Hdschr. (H. KERN). 
-6006	CANDRĀLOKA.	Candrāloka.	CANDRĀLOKA. = CANDRĀLOKA (R. PISCHEL).
-6008	KṢEM.	Kṣem.	KṢEM. = KṢEMENDRA'S KAVIKAṆṬĀBHARAṆA, herausgegeben von Y. SCHÖNBERG in den Sitzungsberichten der Phil-hist. Klasse der Kais. Ak. d. Ww. in Wien, Bd. 106 (C. CAPELLER). 
-6009	NIDĀNAS.	Nidānas.	NIDĀNAS. = NIDĀNASŪTRA (A. WEBER). 
-6010	PARAMĀRTHA.	Paramārtha.	PARAMĀRTHA. = PARAMĀRTHASĀRA (TH. AUFRECHT). 
-6011	RUDRAṬĀLAṂKĀRAṬ.	Rudraṭālaṃkāraṭ.	RUDRAṬĀLAṂKĀRAṬ. = RUDRAṬĀLAṂKĀRAṬIPPAṆAKA, auch RUDRAṬAKĀVYĀLAṂKĀRAṬ. genannt (R. PISCHEL. ) 
-6012	SAHṚDAYĀLOKA.	Sahṛdayāloka.	SAHṚDAYĀLOKA. = SAHṚDAYĀLOKA (R. PISCHEL).
-6014	SUBHĀṢITARATNABH.	Subhāṣitaratnabh.	SUBHĀṢITARATNABH. = SUBHĀṢITARATNABHĀṆḌĀGĀRA (TH. AUFRECHT). 
-6015	TATTVAK.	Tattvak.	TATTVAK. = TATTVAKAUMUDĪ (H. Kern). 
-6017	WEBER.	Weber.	WEBER. = WEBER , BHAGAVATĪ. 
-X001	DAMAYANTĪK.	Damayantīk.	DAMAYANTĪK. = [unknown literary source]
-X002	UTPALA	Utpala	UTPALA = a lexicographer [unknown literary source]
-X003	ŚĀṄKH.ĀR.	Śāṅkh.Ār.	ŚĀṄKH.ĀR. = [unknown literary source]
-X004	NṚS.TĀP.UP.	Nṛs.Tāp.Up.	NṚS.TĀP.UP. = [unknown literary source]
-X005	ṚṢIMAṆḌALASTOTRA.	Ṛṣimaṇḍalastotra.	ṚṢIMAṆḌALASTOTRA. = [unknown literary source]
-X006	ŚĀṄKH.	Śāṅkh.	ŚĀṄKH. = [unknown literary source]
-X007	ed.Bomb.	ed.Bomb.	ed.Bomb. = Bombay edition [unknown literary source]
-X007a	ed.Calc.	ed.Calc.	ed.Calc. = Calcutta edition [unknown literary source]
-X007b	Vardh.	Vardh.	Vardh. = ? [unknown literary source]
-X007c	ed.Boll.	ed.Boll.	ed.Boll. = Bollensen edition [unknown literary source]
-X008	MALLIN.	Mallin.	MALLIN. = [unknown literary source]
-X009	Nachträge.	Nachträge.	Nachträge. = [unknown literary source]
-X010	SCHRÖDER.	Schröder.	SCHRÖDER. = [unknown literary source]
-X011	KUMĀRILA.	Kumārila.	KUMĀRILA. = [unknown literary source]
-X012	SIDDH.K.ed.TĀR.	Siddh.K.ed.Tār.	SIDDH.K.ed.TĀR. = [unknown literary source]
-X013	WHITNEY.	Whitney.	WHITNEY. = [unknown literary source]
-X014	CAṆḌIDĀSA.	Caṇḍidāsa.	CAṆḌIDĀSA. = [unknown literary source]
-X015	AUFRECHT.	Aufrecht.	AUFRECHT. = [unknown literary source]
-X016	KĀD.ed.Bomb.	Kād.ed.Bomb.	KĀD.ed.Bomb. = [unknown literary source]
-X016a	KĀD.(ed.Bomb.)	Kād.ed.Bomb.	KĀD.(ed.Bomb.) = [unknown literary source]
-X016b	KĀD.(1793)	Kād.1793	KĀD.(1793) = [unknown literary source]
-X016c	KĀD.(Śaka 1793)	Kād.(Śaka 1793)	KĀD.(Śaka 1793) = [unknown literary source]
-X017	ŚŪDRADH.	Śūdradh.	ŚŪDRADH. = [unknown literary source]
-X018	KAMALĀKARA.	Kamalākara.	KAMALĀKARA. = [unknown literary source]
-X019	PANDIT.	Pandit.	PANDIT. = [unknown literary source]
-X020	DRAVYAV.	Dravyav.	DRAVYAV. = [unknown literary source]
-X021	PAÑCAT.ed.Bomb.	Pañcat.ed.Bomb.	PAÑCAT.ed.Bomb. = [unknown literary source]
-X022	R.GORR.	R.Gorr.	R.GORR. =  RĀMĀYAṆA, translation by Gaspare Gorresio. [Cologne Addition]
-X023	R.ed.GORR.	R.ed.Gorr.	R.ed.GORR. =  RĀMĀYAṆA, translation by Gaspare Gorresio. [Cologne Addition]
-X024	R.ed.Bomb.	R.ed.Bomb.	R.ed.Bomb. = [unknown literary source]
-X024a	R.ed.SCHL.	R.ed.SCHL.	R.ed.SCHL. = [unknown literary source]
-X025	R.Schl.	R.Schl.	R.Schl. = [unknown literary source]
-X026	BHĀG.P.ed.Bomb.	Bhāg.P.ed.Bomb.	BHĀG.P.ed.Bomb. = [unknown literary source]
-X027	ĀPAST.GAUT.	Āpast.Gaut.	ĀPAST.GAUT. = [unknown literary source]
-X028	ĀPAST.GṚHY.	Āpast.Gṛhy.	ĀPAST.GṚHY. = [unknown literary source]
-X029	ZIMMER.	Zimmer.	ZIMMER. = [unknown literary source]
-X030	ZACH.	Zach.	ZACH. = [unknown literary source]
-X030a	ZACHARIAE	Zachariae	 ZACHARIAE = ?[unknown literary source]
-X031	VARDHAMĀNAC.	Vardhamānac.	VARDHAMĀNAC. = [unknown literary source]
-X032	ŚAṂK.zu.BĀDAR.	Śaṃk.zu.Bādar.	ŚAṂK.zu.BĀDAR. = [unknown literary source]
-X033	CAKR.zu.SUŚR.	Cakr.zu.Suśr.	CAKR.zu.SUŚR. = [unknown literary source]
-X034	VAIDYAKA.	Vaidyaka.	VAIDYAKA. = [unknown literary source]
-X035	SIDDH.K.	Siddh.K.	SIDDH.K. = [unknown literary source]
-X036	SATYA.	Satya.	SATYA. = [unknown literary source]
-X037	VYĀSA.	Vyāsa.	VYĀSA. = [unknown literary source]
-X038	BHAR.	Bhar.	BHAR. = [unknown literary source]
-X039	KERN.	Kern.	KERN. = [unknown literary source]
-X040	TANTRAS.	Tantras.	TANTRAS. = ? TANTRASĀRA [unknown literary source]
-X041	MANU	Manu	MANU = [unknown literary source]
-X042	WEBER,RĀMAT.Up.	Weber,Rāmat.Up.	WEBER,RĀMAT.Up. = [unknown literary source]
-X043	ZIMMER,Altind.Leben	Zimmer,Altind.Leben	ZIMMER,Altind.Leben = [unknown literary source]
-X044	HALL.	Hall.	HALL. = [unknown literary source]
-X045	HEM.YOGAŚ.	Hem.Yogaś.	HEM.YOGAŚ. = [unknown literary source]
-X046	HEM.Pr.Gr.	Hem.Pr.Gr.	HEM.Pr.Gr. = [unknown literary source]
-X047	ŚĀY(PISCH.)	Śāy(Pisch.)	ŚĀY(PISCH.) = [unknown literary source]
-X048	YOGAY.	Yogay.	YOGAY. = [unknown literary source]
-X049	KĀVYĀD.	Kāvyād.	KĀVYĀD. = [unknown literary source]
-X050	KAUTUKAS.	Kautukas.	KAUTUKAS. = [unknown literary source]
-X051	NAIGH.	Naigh.	NAIGH. = [unknown literary source]
-X052	PAT.	Pat.	PAT. = Patañjali [unknown literary source]
-X053	KUHN.	Kuhn.	KUHN. = [unknown literary source]
-X054	KUHN'S.Beitr.	Kuhn'S.Beitr.	KUHN'S.Beitr. = [unknown literary source]
-X055	VIṢṆU.	Viṣṇu.	VIṢṆU. = [unknown literary source]
-X056	BHĀG.P.ed.BURN.	Bhāg.P.ed.Burn.	BHĀG.P.ed.BURN. = [unknown literary source]
-X057	STENZLER.	Stenzler.	STENZLER. = [unknown literary source]
-X058	BAUDH.GṚHY.PARIŚ.	Baudh.Gṛhy.Pariś.	BAUDH.GṚHY.PARIŚ. = [unknown literary source]
-X059	BENFEY.	Benfey.	BENFEY. = [unknown literary source]
-X060	SATUA.	Satua.	SATUA. = [unknown literary source]
-X061	MBH.ed.Bomb.	Mbh.ed.Bomb.	MBH.ed.Bomb. = [unknown literary source]
-X062	M.MÜLLER.	M.Müller.	M.MÜLLER. = [unknown literary source]
-X063	BURNOUF.	Burnouf.	BURNOUF. = [unknown literary source]
-X064	CARAKA.ed.Calc.	Caraka.ed.Calc.	CARAKA.ed.Calc. = [unknown literary source]
-X065	MBH.ed.Calc.	Mbh.ed.Calc.	MBH.ed.Calc. = [unknown literary source]
-X066	RĀJAT.ed.Calc.	Rājat.ed.Calc.	RĀJAT.ed.Calc. = [unknown literary source]
-X067	HEM.Pr.Gr.ed.PISCHEL.	Hem.Pr.Gr.ed.Pischel.	HEM.Pr.Gr.ed.PISCHEL. = [unknown literary source]
-X068	TBR.Comm.	Tbr.Comm.	TBR.Comm. = [unknown literary source]
-X069	KĀLIDĀSA.	Kālidāsa.	KĀLIDĀSA. = [unknown literary source]
-X070	WILSON,SĀṂKHYAK.	Wilson,Sāṃkhyak.	WILSON,SĀṂKHYAK. = [unknown literary source]
-X071	WILSON.	Wilson.	WILSON. = [unknown literary source]
-X072	DAŚAK.ed.WILSON.	Daśak.ed.Wilson.	DAŚAK.ed.WILSON. = [unknown literary source]
-X072a	DAŚAK.ed.W.	Daśak.ed.W.	DAŚAK.ed.W. = Daśak.ed.Wilson. [unknown literary source]
-X072b	DAŚAK.(WILSON)	Daśak.(Wilson)	DAŚAK.(WILSON) = Daśak.ed.Wilson. [unknown literary source]
-X073	DĀRILA.	Dārila.	DĀRILA. = [unknown literary source]
-X074	RAGH.ed.Calc.	Ragh.ed.Calc.	RAGH.ed.Calc. = [unknown literary source]
-X075	DHŪRTAS.ed.Calc.	Dhūrtas.ed.Calc.	DHŪRTAS.ed.Calc. = [unknown literary source]
-X075a	DHŪRTAS. (ed. LASSEN)	Dhūrtas. (ed. Lassen)	DHŪRTAS. (ed. LASSEN) = ? DHŪRTASAMĀGAMA in LASSEN'S Anthologie. 
-X076	MĀLAV.ed.BOLL.	Mālav.ed.Boll.	MĀLAV.ed.BOLL. = [unknown literary source]
-X077	TAITT.PRĀT.	Taitt.Prāt.	TAITT.PRĀT. = [unknown literary source]
-X078	BRĀHMAṆA.	Brāhmaṇa.	BRĀHMAṆA. = [unknown literary source]
-X079	UPALEKHA.	Upalekha.	UPALEKHA. = [unknown literary source]
-X080	GELDNER.	Geldner.	GELDNER. = [unknown literary source]
-X081	BṚHASPATI.	Bṛhaspati.	BṚHASPATI. = [unknown literary source]
-X082	WHITNEY,Ind.	Whitney,Ind.	WHITNEY,Ind. = [unknown literary source]
-X083	SMṚTIM.	Smṛtim.	SMṚTIM. = [unknown literary source]
-X084	D.P.	D.P.	D.P. = [unknown literary source]
-X085	BHĀRADVĀJA.	Bhāradvāja.	BHĀRADVĀJA. = [unknown literary source]
-X086	DURGA.zu.NIR.	Durga.Zu.Nir.	DURGA.zu.NIR. = [unknown literary source]
-X087	MAHĀN.	Mahān.	MAHĀN. = [unknown literary source]
-X088	KĀṆVA-REC.	Kāṇva-Rec.	KĀṆVA-REC. = [unknown literary source]
-X089	ŚĀK.PISCH.	Śāk.Pisch.	ŚĀK.PISCH. = [unknown literary source]
-X089a	ŚĀK.(PISCH.)	Śāk.(Pisch.)	ŚĀK.(PISCH.) = [unknown literary source]
-X090	WRIGHT,Hist.of.Nep.	Wright,Hist.Of.Nep.	WRIGHT,Hist.of.Nep. = [unknown literary source]
-X091	MUIR.ST.	Muir.St.	MUIR.ST. = [unknown literary source]
-X092	HEDRI.	Hedri.	HEDRI. = [unknown literary source]
-X093	PADMAP.	Padmap.	PADMAP. = [unknown literary source]
-X094	PATAÑJALI.	Patañjali.	PATAÑJALI. = [unknown literary source]
-X095	KĀŚYAPA.	Kāśyapa.	KĀŚYAPA. = [unknown literary source]
-X096	DELBRÜCK.	Delbrück.	DELBRÜCK. = [unknown literary source]
-X097	TAWNEY.	Tawney.	TAWNEY. = [unknown literary source]
-X098	C.H.TAWNEY.	C.H.Tawney.	C.H.TAWNEY. = [unknown literary source]
-X099	YAVANEŚVARA.	Yavaneśvara.	YAVANEŚVARA. = [unknown literary source]
-X100	HULTZSCH.	Hultzsch.	HULTZSCH. = [unknown literary source]
-X101	VṚTTARATNĀKARA	Vṛttaratnākara	VṚTTARATNĀKARA = [unknown literary source]
-X102	KAIY.	Kaiy.	KAIY. = [unknown literary source]
-X103	MED.j.	Med.J.	MED.j. = [unknown literary source]
-X103a	MED.v.	Med.v.	MED.j. = [unknown literary source]
-X104	BHARATA.	Bharata.	BHARATA. = [unknown literary source]
-X105	GARBE.	Garbe.	GARBE. = [unknown literary source]
-X106	ĪŚOP.	Īśop.	ĪŚOP. = [unknown literary source]
-X107	VRATARĀJA.	Vratarāja.	VRATARĀJA. = [unknown literary source]
-X108	MĀDHAVĪYADHĀTUVṚTTI.	Mādhavīyadhātuvṛtti.	MĀDHAVĪYADHĀTUVṚTTI. = [unknown literary source]
-X109	BHĀG.	Bhāg.	BHĀG. = [unknown literary source]
-X110	AŚVAV.	Aśvav.	AŚVAV. = [unknown literary source]
-X111	ŚĀK.CH.	Śāk.Ch.	ŚĀK.CH. = [unknown literary source]
-X111a	ŚĀK.(CH.)	Śāk.(Ch.)	ŚĀK.(CH.) = [unknown literary source]
-X112	ANTYEṢṬIK.	Antyeṣṭik.	ANTYEṢṬIK. = [unknown literary source]
-X113	RUDRAYĀMALA.	Rudrayāmala.	RUDRAYĀMALA. = [unknown literary source]
-X114	COLEBR.MISC.Ess.	Colebr.Misc.Ess.	COLEBR.MISC.Ess. = [unknown literary source]
-X115	RĀYENDR.Not.	Rāyendr.Not.	RĀYENDR.Not. = [unknown literary source]
-X116	ROTH.	Roth.	ROTH. = [unknown literary source]
-X116a	ROTH,Zur Lit.	Roth,Zur Lit.	ROTH,Zur Lit. = [unknown literary source]
-X117	KĀTY.ŚR.PADDH.	Kāty.Śr.Paddh.	KĀTY.ŚR.PADDH. = [unknown literary source]
-X118	HARADATTA.	Haradatta.	HARADATTA. = [unknown literary source]
-X119	DRAUP.	Draup.	DRAUP. = [unknown literary source]
-X121	MALLIKĀMĀRUTA.	Mallikāmāruta.	MALLIKĀMĀRUTA. = [unknown literary source]
-X122	VIJÑĀNEŚVARA.	Vijñāneśvara.	VIJÑĀNEŚVARA. = [unknown literary source]
-X123	SUD.	Sud.	SUD. = [unknown literary source]
-X124	KĀTANTRA.	Kātantra.	KĀTANTRA. = [unknown literary source]
-X125	BRĀHMAṆ.	Brāhmaṇ.	BRĀHMAṆ. = [unknown literary source]
-X126	CHANDOGAPARIŚ.	Chandogapariś.	CHANDOGAPARIŚ. = [unknown literary source]
-X127	ŚIKṢĀ.	Śikṣā.	ŚIKṢĀ. = [unknown literary source]
-X128	RĀM.RĀS.	Rām.Rās.	RĀM.RĀS. = [unknown literary source]
-X129	PUṢPADANTA.	Puṣpadanta.	PUṢPADANTA. = [unknown literary source]
-X130	PARAMAHAṂSOP.	Paramahaṃsop.	PARAMAHAṂSOP. = [unknown literary source]
-X131	AV.PADDH.	Av.Paddh.	AV.PADDH. = [unknown literary source]
-X132	OPPERT.	Oppert.	OPPERT. = [unknown literary source]
-X132a	OPP.	Opp.	OPP. =? OPPERT. [unknown literary source]
-X133	KNAUER	Knauer	KNAUER = [unknown literary source]
-X134	AV.PRĀT.	Av.Prāt.	AV.PRĀT. = [unknown literary source]
-X135	CHANDOGOPARIŚ.	Chandogopariś.	CHANDOGOPARIŚ. = [unknown literary source]
-X136	R.ed.SCHL.	R.ed.Schl.	R.ed.SCHL. = [unknown literary source]
-X137	AUPAMANYAVA.	Aupamanyava.	AUPAMANYAVA. = [unknown literary source]
-X138	YAŚNA.	Yaśna.	YAŚNA. = [unknown literary source]
-X139	DURGA.	Durga.	DURGA. = [unknown literary source]
-X140	JACOBI.	Jacobi.	JACOBI. = [unknown literary source]
-X141	ṚGVIDHĀNA.	Ṛgvidhāna.	ṚGVIDHĀNA. = [unknown literary source]
-X142	BHĀGURI.	Bhāguri.	BHĀGURI. = [unknown literary source]
-X143	SUBHĀṢITARATNABH.PRAK.	Subhāṣitaratnabh.Prak.	SUBHĀṢITARATNABH.PRAK. = [unknown literary source]
-X144	SIDDH.K.ed.TĀRĀN.	Siddh.K.ed.Tārān.	SIDDH.K.ed.TĀRĀN. = [unknown literary source]
-X144a	SIDDH.K.(neue Ausg.)	Siddh.K.(neue Ausg.)	SIDDH.K.(neue Ausg.) = [unknown literary source]
-X145	ṚV.ed.M.	Ṛv.ed.M.	ṚV.ed.M. = [unknown literary source]
-X146	ĀNANDAGIRI.	Ānandagiri.	ĀNANDAGIRI. = [unknown literary source]
-X147	ŚAṂKARA.	Śaṃkara.	ŚAṂKARA. = [unknown literary source]
-X148	LALLA.	Lalla.	LALLA. = [unknown literary source]
-X149	VIVEK.	Vivek.	VIVEK. = [unknown literary source]
-X150	JOLLY.	Jolly.	JOLLY. = [unknown literary source]
-X151	MAD.	Mad.	MAD. = [unknown literary source]
-X152	HIRAṆYAKEŚIN.	Hiraṇyakeśin.	HIRAṆYAKEŚIN. = [unknown literary source]
-X153	ATHARVAŚIKHOP.	Atharvaśikhop.	ATHARVAŚIKHOP. = [unknown literary source]
-X154	UVAṬA.	Uvaṭa.	UVAṬA. = [unknown literary source]
-X155	FOUCAUX.	Foucaux.	FOUCAUX. = [unknown literary source]
-X156	PETERSON.	Peterson.	PETERSON. = [unknown literary source]
-X157	MĀLATĪM.ed.Bomb.	Mālatīm.ed.Bomb.	MĀLATĪM.ed.Bomb. = [unknown literary source]
-X157a	MĀLATĪM.(ed.Bomb.)	Mālatīm.(ed.Bomb.)	MĀLATĪM.(ed.Bomb.) = [unknown literary source]
-X158	DURGĀDĀSA.zu.VOP.	Durgādāsa.Zu.Vop.	DURGĀDĀSA.zu.VOP. = [unknown literary source]
-X159	RUDOLF MEYER	Rudolf Meyer	RUDOLF MEYER = [unknown literary source]
-X160	KAP.(BALL.)	Kap.(Ball.)	KAP.(BALL.) = [unknown literary source]
-X161	VEDĀNTASĀRA.	Vedāntasāra.	VEDĀNTASĀRA. = [unknown literary source]
-X162	KHILA.	Khila.	KHILA. = [unknown literary source]
-X163	GARGA.	Garga.	GARGA. = [unknown literary source]
-X164	CAURAP.(A.)	Caurap.(A.)	CAURAP.(A.) = [unknown literary source]
-X165	GAṆ.BHAGRAHAY.	Gaṇ.Bhagrahay.	GAṆ.BHAGRAHAY. = [unknown literary source]
-X166	ANUPADAS.	Anupadas.	ANUPADAS. = [unknown literary source]
-X167	ŚĀK.(PISCH)	Śāk.(Pisch)	ŚĀK.(PISCH) = [unknown literary source]
-X168	NERIOSENGH.	Neriosengh.	NERIOSENGH. = [unknown literary source]
-X169	KIELHORN.	Kielhorn.	KIELHORN. = [unknown literary source]
-X170	BÜHLER.	Bühler.	BÜHLER. = [unknown literary source]
-X171	HARṢAC.(Śaka 1936)	Harṣac.(Śaka 1936)	HARṢAC.(Śaka  1936) = [unknown literary source]
-X171a	HARṢAC.[Śaka 1936]	Harṣac.[Śaka 1936]	HARṢAC.[Śaka 1936] = [unknown literary source]
-X171b	HARṢAC.(1936)	Harṣac.(1936)	HARṢAC.(1936) = HARṢAC.(Śaka  1936)[unknown literary source]
-X172	Kön.Pr.Ak.	Kön.Pr.Ak.	Kön.Pr.Ak. = [unknown literary source]
-X173	CKRADATTA.	Ckradatta.	CKRADATTA. = [unknown literary source]
-X174	SCHÖNBERG,KṢEM.	Schönberg,Kṣem.	SCHÖNBERG,KṢEM. = [unknown literary source]
-X175	SCHÖNBERG,KṢ.	Schönberg,Kṣ.	SCHÖNBERG,KṢ. = [unknown literary source]
-X176	PULASTYA.	Pulastya.	PULASTYA. = [unknown literary source]
-X177	GAṆIT.KAKṢĀDH.	Gaṇit.Kakṣādh.	GAṆIT.KAKṢĀDH. = [unknown literary source]
-X178	SĀMĀNYAN.	Sāmānyan.	SĀMĀNYAN. = [unknown literary source]
-X179	SPEYER.	Speyer.	SPEYER. = [unknown literary source]
-X180	Mel.asiat.	Mel.Asiat.	Mel.asiat. = [unknown literary source]
-X181	RICE.	Rice.	RICE. = [unknown literary source]
-X182	JAIMINI.	Jaimini.	JAIMINI. = [unknown literary source]
-X183	PAÑCAT.ed.KOSEG.	Pañcat.ed.Koseg.	PAÑCAT.ed.KOSEG. = [unknown literary source]
-X184	NALOD.	Nalod.	NALOD. = [unknown literary source]
-X185	MAHĀVASTU.ed.SENART.	Mahāvastu.ed.Senart.	MAHĀVASTU.ed.SENART. = [unknown literary source]
-X186	MAHĀVASTU.	Mahāvastu.	MAHĀVASTU. = [unknown literary source]
-X187	VIKR.ed.PISCH.	Vikr.ed.Pisch.	VIKR.ed.PISCH. = [unknown literary source]
-X188	VIKR.ed.BOLL.	Vikr.ed.Boll.	VIKR.ed.BOLL. = [unknown literary source]
-X189	ŚĀK.ed.PISCH.	Śāk.ed.Pisch.	ŚĀK.ed.PISCH. = [unknown literary source]
-X190	VĪRAMITROD.	Vīramitrod.	VĪRAMITROD. = [unknown literary source]
-X191	PĀṆINI.	Pāṇini.	PĀṆINI. = [unknown literary source]
-X192	AV.JYOTIṢA.	Av.Jyotiṣa.	AV.JYOTIṢA. = [unknown literary source]
-X193	AV.ANUKR.	Av.Anukr.	AV.ANUKR. = [unknown literary source]
-X194	VĀSIṢṬHA.	Vāsiṣṭha.	VĀSIṢṬHA. = [unknown literary source]
-X195	RĀMADĀSA.	Rāmadāsa.	RĀMADĀSA. = [unknown literary source]
-X196	PARĀŚARA.	Parāśara.	PARĀŚARA. = [unknown literary source]
-X197	ATHARVAPADDH.	Atharvapaddh.	ATHARVAPADDH. = [unknown literary source]
-X198	VIJÑ.	Vijñ.	VIJÑ. = [unknown literary source]
-X199	HODGSON,Ess.	Hodgson,Ess.	HODGSON,Ess. = [unknown literary source]
-X200	HODGSON,Essays.	Hodgson,Essays.	HODGSON,Essays. = [unknown literary source]
-X201	MAṆIMĀLĀ.	Maṇimālā.	MAṆIMĀLĀ. = [unknown literary source]
-X202	JACOBI,KALPAS.	Jacobi,Kalpas.	JACOBI,KALPAS. = [unknown literary source]
-X203	WASSILIEW,Der.Buddh.	Wassiliew,Der.Buddh.	WASSILIEW,Der.Buddh. = [unknown literary source]
-X204	Ind.	Ind.	Ind. = [unknown literary source]
-X205	VIṢṆUCANDRA.	Viṣṇucandra.	VIṢṆUCANDRA. = [unknown literary source]
-X206	MAṆITTHA.	Maṇittha.	MAṆITTHA. = [unknown literary source]
-X207	BHAR.NĀṬYAŚ.	Bhar.Nāṭyaś.	BHAR.NĀṬYAŚ. = [unknown literary source]
-X208	KIELH.Rep.(1881)	Kielh.Rep.(1881)	KIELH.Rep.(1881). = [unknown literary source]
-X209	G.GORR.	G.Gorr.	G.GORR. = Gaspare Gorresio, translator of RĀMĀYAṆA [Cologne Addition]
-X210	PARIBHĀṢENDUŚEKHARA.	Paribhāṣenduśekhara.	PARIBHĀṢENDUŚEKHARA. = [unknown literary source]
-X211	GAṆIT.GRAHĀN.	Gaṇit.Grahān.	GAṆIT.GRAHĀN. = [unknown literary source]
-X212	PISCHEL.	Pischel.	PISCHEL. = [unknown literary source]
-X213	AV.PAR.	Av.Par.	AV.PAR. = AV.PARIŚ. [unknown literary source]
-X214	VALL.	Vall.	VALL. = [unknown literary source]
-X215	YĀSKA.	Yāska.	YĀSKA. = [unknown literary source]
-X216	UPAVANAVINODA	Upavanavinoda	UPAVANAVINODA = [unknown literary source]
-X217	HARṢAC.ed.Bomb.	Harṣac.ed.Bomb.	HARṢAC.ed.Bomb. = [unknown literary source]
-X217a	HARṢAC.(ed.Bomb.)	Harṣac.(ed.Bomb.)	HARṢAC.(ed.Bomb.) = HARṢAC.ed.Bomb. [unknown literary source]
-X217b	HARṢAC.(Bomb.)	Harṣac.(Bomb.)	HARṢAC.(Bomb.) = HARṢAC.ed.Bomb. [unknown literary source]
-X217c	HARṢAC.(B.)	Harṣac.(B.)	HARṢAC.(B.) = HARṢAC.ed.Bomb. [unknown literary source]
-X217d	HARṢAC.(ed.K.)	Harṣac.(ed.K.)	HARṢAC.(ed.K.) =  [unknown literary source]
-X217e	HARṢAC.[ed.Bomb.]	Harṣac.[ed.Bomb.]	HARṢAC.[ed.Bomb.] = HARṢAC.ed.Bomb. [unknown literary source]
-X218	ST.JULIEN	St.Julien	ST.JULIEN = [unknown literary source]
-X219	Verz.d.Pet.H.	Verz.D.Pet.H.	Verz.d.Pet.H. = [unknown literary source]
-X220	KAIYAṬA.	Kaiyaṭa.	KAIYAṬA. = [unknown literary source]
-X221	RĀGA.	Rāga.	RĀGA. = [unknown literary source]
-X222	NÖLDEKE.	Nöldeke.	NÖLDEKE. = [unknown literary source]
-X223	MBH.ed.Vardham.	Mbh.ed.Vardham.	MBH.ed.Vardham. = MBH.ed.Vardham. [unknown literary source]
-X223a	MBH.ed.Vardh.	Mbh.ed.Vardh.	MBH.ed.Vardh. = [unknown literary source]
-X223b	ed.Vardh.	ed.Vardh.	ed.Vardh. = [unknown literary source]
-X224	HĀRĪTA.	Hārīta.	HĀRĪTA. = [unknown literary source]
-X225	GRASSMANN.	Grassmann.	GRASSMANN. = [unknown literary source]
-X226	DHANURV.	Dhanurv.	DHANURV. = [unknown literary source]
-X227	PADMA-P.	Padma-P.	PADMA-P. = [unknown literary source]
-X228	ṢAḌGURUŚIṢYA.	Ṣaḍguruśiṣya.	ṢAḌGURUŚIṢYA. = [unknown literary source]
-X230	JOLLY,Tagore_Law_Lecture.	Jolly,Tagore_Law_Lecture.	JOLLY,Tagore_Law_Lecture. = [unknown literary source]
-X231	NIRGHAṆṬU.	Nirghaṇṭu.	NIRGHAṆṬU. = [unknown literary source]
-X232	CSOMA.	Csoma.	CSOMA. = [unknown literary source]
-X233	VARIṢṬHA.	Variṣṭha.	VARIṢṬHA. = [unknown literary source]
-X234	GILD.	Gild.	GILD. = [unknown literary source]
-X235	MĀHABH.	Māhabh.	MĀHABH. = [unknown literary source]
-X236	CANDRAGRAH.	Candragrah.	CANDRAGRAH. = [unknown literary source]
-X237	ŚĀK.ed.PREMAC.	Śāk.ed.Premac.	ŚĀK.ed.PREMAC. = [unknown literary source]
-X238	TRIVIKRAMA.	Trivikrama.	TRIVIKRAMA. = [unknown literary source]
-X239	BURNELL.	Burnell.	BURNELL. = [unknown literary source]
-X240	PAÑCĀŚIKĀ(ed.SOLF)	Pañcāśikā(Ed.Solf)	PAÑCĀŚIKĀ(ed.SOLF) = [unknown literary source]
-X241	GṚHYĀS.(ed.BLOOMFIELD)	Gṛhyās.(Ed.Bloomfield)	GṚHYĀS.(ed.BLOOMFIELD) = [unknown literary source]
-X242	BLOOMFIELD.	Bloomfield.	BLOOMFIELD. = [unknown literary source]
-X242a	Bl.	Bl.	Bl. =? Bloomfield [unknown literary source]
-X243	KAHĪRASV.	Kahīrasv.	KAHĪRASV. = [unknown literary source]
-X244	MĀDHAVĪYADHĀT.	Mādhavīyadhāt.	MĀDHAVĪYADHĀT. = [unknown literary source]
-X245	VIṬṬHALA.	Viṭṭhala.	VIṬṬHALA. = [unknown literary source]
-X246	SĀDHANAM.	Sādhanam.	SĀDHANAM. = [unknown literary source]
-X247	Verz.d.Cambr.H.	Verz.D.Cambr.H.	Verz.d.Cambr.H. = [unknown literary source]
-X248	VARĀH.	Varāh.	VARĀH. = [unknown literary source]
-X249	UTPALINĪ.	Utpalinī.	UTPALINĪ. = [unknown literary source]
-X250	EGGELING.	Eggeling.	EGGELING. = [unknown literary source]
-X251	WHITNEY,Gr.	Whitney,Gr.	WHITNEY,Gr. = [unknown literary source]
-X251a	WHITNEY, Roots	Whitney, Roots	WHITNEY, Roots = [unknown literary source]
-X252	ŚŪLAPĀṆĪ.	Śūlapāṇī.	ŚŪLAPĀṆĪ. = [unknown literary source]
-X253	PRĀYAŚCITTAVIVEKA.	Prāyaścittaviveka.	PRĀYAŚCITTAVIVEKA. = [unknown literary source]
-X254	MĀṆḌAVYA.	Māṇḍavya.	MĀṆḌAVYA. = [unknown literary source]
-X255	HIOUEN-THSANG.	Hiouen-Thsang.	HIOUEN-THSANG. = [unknown literary source]
-X256	WASSILYEW.	Wassilyew.	WASSILYEW. = [unknown literary source]
-X257	MADHUS.	Madhus.	MADHUS. = [unknown literary source]
-X258	JYOT.	Jyot.	JYOT. = [unknown literary source]
-X259	ANUPADA.	Anupada.	ANUPADA. = [unknown literary source]
-X260	VĀḌI.	Vāḍi.	VĀḌI. = [unknown literary source]
-X261	VIJAYAGAṆĪ.	Vijayagaṇī.	VIJAYAGAṆĪ. = [unknown literary source]
-X262	Sāg.	Sāg.	Sāg. = [unknown literary source]
-X263	TANTRASĀRA	Tantrasāra	TANTRASĀRA = [unknown literary source]
-X264	GAṆIT.PARVASAṂBH.	Gaṇit.Parvasaṃbh.	GAṆIT.PARVASAṂBH. = [unknown literary source]
-X265	LANMAN.	Lanman.	LANMAN. = [unknown literary source]
-X266	VARARUCI.	Vararuci.	VARARUCI. = [unknown literary source]
-X267	VĀGBHAṬA.	Vāgbhaṭa.	VĀGBHAṬA. = [unknown literary source]
-X268	MĀNAVA.	Mānava.	MĀNAVA. = [unknown literary source]
-X269	VIŚVAPR.	Viśvapr.	VIŚVAPR. = [unknown literary source]
-X270	P.W.	P.W.	P.W. = [unknown literary source]
-X271	YANTRĀDHY.	Yantrādhy.	YANTRĀDHY. = [unknown literary source]
-X272	RĀYAM.	Rāyam.	RĀYAM. = [unknown literary source]
-X273	PAIṬHĪNASI.	Paiṭhīnasi.	PAIṬHĪNASI. = [unknown literary source]
-X274	COWELL.	Cowell.	COWELL. = [unknown literary source]
-X275	PV.PRĀT.	Pv.Prāt.	PV.PRĀT. = [unknown literary source]
-X276	NṚS.UP.(Bibl.ind.)	Nṛs.Up.(Bibl.Ind.)	NṚS.UP.(Bibl.ind.) = [unknown literary source]
-X277	ARJ.	Arj.	ARJ. = [unknown literary source]
-X278	RUDRAṬA,KĀVYĀLAṂKĀRA.	Rudraṭa,Kāvyālaṃkāra.	RUDRAṬA,KĀVYĀLAṂKĀRA. = [unknown literary source]
-X279	PARĀŚARASMṚTI.	Parāśarasmṛti.	PARĀŚARASMṚTI. = [unknown literary source]
-X280	MAŚ.	Maś.	MAŚ. = [unknown literary source]
-X281	SĀMAVIDH.BR.	Sāmavidh.Br.	SĀMAVIDH.BR. = [unknown literary source]
-X282	BHĀG.ed.Bomb.	Bhāg.ed.Bomb.	BHĀG.ed.Bomb. = [unknown literary source]
-X283	BH.	Bh.	BH. = [unknown literary source]
-X284	CAKRADATTA.	Cakradatta.	CAKRADATTA. = [unknown literary source]
-X285	KLUGE.	Kluge.	KLUGE. = [unknown literary source]
-X286	Wiener.Ak.	Wiener.Ak.	Wiener.Ak. = [unknown literary source]
-X287	VĪRAMITRODAYA.	Vīramitrodaya.	VĪRAMITRODAYA. = [unknown literary source]
-X288	KOS.	Kos.	KOS. = KOSEGARTEN [unknown literary source]
-X289	Gött. Nachr. 1876	Gött. Nachr. 1876	Gött. Nachr. 1876 =  [unknown literary source] (jaJJa)
-X290	Sitzungsberichte d. K. Pr. Ak. d. Ww.	Sitzungsberichte d. K. Pr. Ak. d. Ww.	Sitzungsberichte d. K. Pr. Ak. d. Ww. =  [unknown literary source]
-X290a	Sitzungsberr. d. K. Pr. Ak. d. Ww.	Sitzungsberr. d. K. Pr. Ak. d. Ww.	Sitzungsberr. d. K. Pr. Ak. d. Ww. =  [unknown literary source]
-X291	NY.K.	Ny.K.	NY.K. = [unknown literary source]
-X292	Calc.Ausg.	Calc.Ausg.	Calc.Ausg. = Calcutta edition [unknown literary source] 
-X292a	Calc.	Calc.	Calc. = Calcutta edition [unknown literary source] 
-X293	Catal. of Skt. Mss.	Catal. of Skt. Mss.	Catal. of Skt. Mss. =? Catalog of Sanskrit Manuscripts [unknown literary source] 
-X294	KOSEG.Ausg.	KOSEG.Ausg.	KOSEG.Ausg. = KOSEGARTEN edition of PAÑCATANTRA  [unknown literary source]
-X295	Sitzungsberichte der Wiener Ak.	Sitzungsberichte der Wiener Ak.	Sitzungsberichte der Wiener Ak. =   [unknown literary source]
-X296	Bull. de l'Ac. des Soc. de St. P.	Bull. de l'Ac. des Soc. de St. P.	Bull. de l'Ac. des Soc. de St. P. =  ?[unknown literary source]
-X297	M. MÜLLER'S Ausg. des ṚV.	M. Müller's Ausg. des ṚV.	M. MÜLLER'S Ausg. des ṚV. =  [unknown literary source] 
-X298	Sitzungsberichte der Phil-hist. Kl. der Wiener Ak.	Sitzungsberichte der Phil-hist. Kl. der Wiener Ak.	Sitzungsberichte der Phil-hist. Kl. der Wiener Ak. =  ?[unknown literary source]
-X299	Sitzungsberichte der phil-hist. Kl. der Wiener Ak.	Sitzungsberichte der phil-hist. Kl. der Wiener Ak.	Sitzungsberichte der hil-hist. Kl. der Wiener Ak. =  ?[unknown literary source]
+1029	BENF. Chr.	Benf. Chr.	BENFEY'S Chrestomathie. 
+X059	BENFEY	Benfey	[unknown literary source]
+X283	BH.	Bh.	[unknown literary source]
+5009	BHADRAB.	Bhadrab.	BHADRABĀHUCARITRA, herausgegeben von H. Y. JACOBI in Z. d. d. m. G. 38, 19. fgg. (JACOBI). 
+1030	BHAG.	Bhag.	BHAGAVADGITĀ, Ausg. von SCHLEGEL. 
+X038	BHAR.	Bhar.	[unknown literary source]
+X207	BHAR. NĀṬYAŚ.	Bhar. Nāṭyaś.	[unknown literary source]
+X104	BHARATA	Bharata	[unknown literary source]
+5010	BHARAṬAKA.	Bharaṭaka.	BHARAṬAKADVĀTRIṂŚIKĀ, Hdschr. (AUFRECHT). 
+5011	BHAVIṢYAP.	Bhaviṣyap.	BHAVIṢYAPURĀṆA Hdschr. (AUFRECHT). 
+1036	BHAVIṢYOTT. P.	Bhaviṣyott. P.	BHAVIṢYOTTARAPURĀṆA nach Citaten in andern Werken. 
+1034	BHAṬṬ.	Bhaṭṭ.	BHAṬṬIKĀVYA, Calcutta 1828. 
+1037	BHOJA-CAR.	Bhoja-Car.	BHOJACARITRA, Madras 1862 (STENZLER). 
+1038	BHOJA-PR.	Bhoja-Pr.	BHOJAPRABANDHA, Benares 1925(KERN). 
+X109	BHĀG.	Bhāg.	[unknown literary source]
+1031	BHĀG. P.	Bhāg. P.	BHĀGAVATAPURĀṆA. Die 9 ersten Skandha nach BURNOUF's. Ausgabe, wenn nicht ausdrücklich. ed. Bomb. hinzugefügt wird; die letzten Skandha nach der ed. Bomb. In Klammern eingeschlossene Zahlen verweisen auf ed. Bomb. 
+X056	BHĀG. P. ed. BURN.	Bhāg. P. ed. Burn.	[unknown literary source]
+X026	BHĀG. P. ed. Bomb.	Bhāg. P. ed. Bomb.	[unknown literary source]
+X282	BHĀG. ed. Bomb.	Bhāg. ed. Bomb.	[unknown literary source]
+X142	BHĀGURI	Bhāguri	[unknown literary source]
+3002	BHĀM.	Bhām.	BHĀMATĪ in der Bibl. ind. (STENZLER). 
+3044	BHĀM. V.	Bhām. V.	BHĀMINĪVILĀSA, Ausg. von ABELBERGAIGNER(CAPELLER. ) 
+1032	BHĀR. NĀṬYAŚ.	Bhār. Nāṭyaś.	BHĀRATĪYANĀṬYAŚĀSTRA am Schluss von DAŚAR. in der Bibl. ind. 
+X085	BHĀRADVĀJA	Bhāradvāja	[unknown literary source]
+1035	BHĀVAPR.	Bhāvapr.	BHĀVAPRAKĀŚA, Calcutta 1875 und Hdschr. (ROTH). 
+1035a	BHĀVAPR. (Hdschr.)	Bhāvapr. (Hdschr.)	BHĀVAPRAKĀŚA,  Hdschr. (ROTH). 
+1035b	BHĀVAPR. Hdschr.	Bhāvapr. Hdschr.	BHĀVAPRAKĀŚA,  Hdschr. (ROTH). 
+1033	BHĀṢĀP.	Bhāṣāp.	BHĀṢĀPARICCHEDA in der Bibl. ind. 
+X242	BLOOMFIELD	Bloomfield	[unknown literary source]
+1042	BRAHMA-P.	Brahma-P.	BRAMAPURĀṆA nach Citaten in verschiedenen Werkes. 
+1041	BRAHMABINDŪP.	Brahmabindūp.	BRAHMABINDŪPANIṢAD in der Bibl. ind. (GELDER uns ROTH). 
+1043	BRAHMAS.	Brahmas.	BĀDAR. 
+2004	BRAHMAVAIV. P.	Brahmavaiv. P.	BRAHMAVAIVARTAPURĀṆA. 
+1044	BRAHMOP.	Brahmop.	BRAHMOPANIṢAD in der Bibl. ind. (GELDNER und ROTH). 
+X125	BRĀHMAṆ.	Brāhmaṇ.	[unknown literary source]
+X078	BRĀHMAṆA	Brāhmaṇa	[unknown literary source]
+1049	BURN. Intr.	Burn. Intr.	BURNOUF, Introdution a l'historie du Buddhisme Indien. 
+5013	BURNELL, T.	Burnell, T.	Classified Index to the Sanskrit Mss. in the Palace of Tanjore. By A. C. BURNELL. 
+X239	BURNELL, VAṂŚABR.	Burnell, Vaṃśabr.	[unknown literary source]
+X063	BURNOUF	Burnouf	Eugène Burnouf [unknown literary source]
+1028	Beitr. z. K. d. ig. Spr.	Beitr. z. K. d. ig. Spr.	Beiträge zur Kunde der indogermanischen Sprachen. 
+5008	Berl. Mon.	Berl. Mon.	Monatsbericht der Königlich Preussischen Akademie der Wissenschaften zu Berlin. 
+1039	Bibl. ind.	Bibl. ind.	Bibliotheca indica. 
+X242a	Bl.	Bl.	Bloomfield [unknown literary source]
+1295d	Bomb.	Bomb.	Bombay  [unknown literary source]
+1295c	Bomb. Ausg.	Bomb. Ausg.	Bombay edition [unknown literary source]
+1295a	Bomb. Ausgaben	Bomb. Ausgaben	Bombay editions [unknown literary source]
+1295b	Bomb. Ausgg.	Bomb. Ausgg.	Bombay editions [unknown literary source]
+X296	Bull. de l'Ac. des Soc. de St. P.	Bull. de l'Ac. des Soc. de St. P.	 ?[unknown literary source]
+1048	BÜHL. GUZ.	Bühl. Guz.	Catalogue of S. Mss. fromm Guzerat etc. by G. BÜHLER. Bombay 1871-1873 (ROTH). 
+X170	BÜHLER	Bühler	[unknown literary source]
+1047	BÜHLER, Rep.	Bühler, Rep.	Detailed Report of a Tour in search of Sanskrit Mss. made. in Kāsmir, Rajputana, and Central India. By G. BÜHLER, Bombay 1877. 
+1025	BĀDAR.	Bādar.	BĀDARĀYAṆA'S BRAHMASŪTRA in der Bibl. ind. 
+1027	BĀLAR.	Bālar.	BĀLARĀMĀYAṆA, Benares 1869 (KERN). 
+1040	BĪJAG.	Bījag.	BĪJAGAṆITA, Calcutta 1846(KERN). 
+1046	BṚH. ĀR. UP.	Bṛh. Ār. Up.	BṚHADĀRAṆYAKOPANIṢAD in der Bibl. ind. 
+1045	BṚHADD.	Bṛhadd.	BṚHADDEVATĀ. 
+3003	BṚHANM.	Bṛhanm.	BṚHANMANU, nach Citaten in verschiedenen juristischen Büchern(JOLLY). 
+3004	BṚHASP.	Bṛhasp.	BṚHASPATI, nach Citaten in verschiedenen jurischen Büchern (JOLLY). 
+X081	BṚHASPATI	Bṛhaspati	[unknown literary source]
+Y012	C. H. TAWNEY, Vol. I	C. H. Tawney, Vol. I	[unknown literary source]
+2035	CAITANY.	Caitany.	CAITANYACANDRODAYA in der Bibl. ind. (PISCHEL). 
+1131	CAKR.	Cakr.	CAKRADATTA, Commentator von CARAKA und SUŚRUTA, Hdschr. (ROTH). 
+X033	CAKR. zu SUŚR.	Cakr. zu Suśr.	[unknown literary source]
+X284	CAKRADATTA	Cakradatta	[unknown literary source]
+5026	CAMPAKA.	Campaka.	Ueber das CAMPAKAŚREṢṬHIKATHĀNAKAM, die Geschichte vom Kaufmann CAMPAKA. Herausgegeben von A. WEBER in Sitzungsberichte der Königlich Preussischen Akademie der Wissenschaften zu Berlin. Yahrgang 1883. S. 567. fgg. 885. fgg. Vgl. Mélanges asiatiques tirés du Bulletin de l'Académie Impériale des Sciences de St. Pétersbourg. Tome IX, S. 75. fgg. 
+X236	CANDRAGRAH.	Candragrah.	[unknown literary source]
+4002	CANTOR.	Cantor.	CANTOR, Geschichte der Mathematik (WINDISCH) . 
+1139	CARAKA.	Caraka.	CARAKASAṂHITĀ, Calcutta 1929 und 1877 und Hdschr. im Besitz von ROTH (KERN und ROTH). 
+X064a	CARAKA. (ed. Calc.)	Caraka. (ed. Calc.)	[unknown literary source]
+X064	CARAKA. ed. Calc.	Caraka. ed. Calc.	[unknown literary source]
+1147	CAURAP.	Caurap.	CAURAPAÑCĀŚIKĀ, Ausg. von BOHLEN. 
+X164	CAURAP. (A.)	Caurap. (A.)	[unknown literary source]
+X164a	CAURAP. (ed. SOLF)	Caurap. (ed. Solf)	[unknown literary source]
+1136	CAṆḌAK.	Caṇḍak.	KṢEMĪŚVARA'S CAṆḌAKAUŚIKA (PISCHEL). 
+X014	CAṆḌIDĀSA	Caṇḍidāsa	[unknown literary source]
+X126	CHANDOGAPARIŚ.	Chandogapariś.	[unknown literary source]
+X135	CHANDOGOPARIŚ.	Chandogopariś.	[unknown literary source]
+1153	CHANDOM.	Chandom.	CHANDOMAÑJARI, herusg. von BROCKHAUS in Berichte über die Verhadlungen der Kön. Sächsischen Gesellschaft der Wissenschaftten zu Leipzig Phil. -hist. Kl. Bd. VI, 1854. 
+1064	CHILDERS.	Childers.	CHILDERS' Pali-Wörterbuch. 
+1154	CHĀND. UP.	Chānd. Up.	CHĀNDOGYOPANIṢAD in der Bibl. ind. 
+1068	COLEBR. Alg.	Colebr. Alg.	COLEBROOKE, Algebra with Arithmetic and Mensuration u. s. w. London 1817. 
+1069	COLEBR. Misc. Ess.	Colebr. Misc. Ess.	Miscellaneous Essays by H. T. COLEBROOKE. London. 1837. 
+X274	COWELL	Cowell	[unknown literary source]
+X232	CSOMA	Csoma	[unknown literary source]
+2013	CUNNINGHAM, Arch. Surv.	Cunningham, Arch. Surv.	CUNNINGHAM, Archaeological Survey of India. 
+X292a	Calc.	Calc.	Calcutta edition [unknown literary source] 
+X292	Calc. Ausg.	Calc. Ausg.	Calcutta edition [unknown literary source] 
+3005	Cat. ALLAR.	Cat. Allar.	A Catalogue of Sanscrit Manuscripts in Oudh (ROTH). 
+1061a	Cat. C. PR.	Cat. C. Pr.	A Catalogue of S. Mss. existing in the central provinces. Ed. by F. KIELHORN. Nagpur 1874(ROTH). 
+1061	Cat. C. Pr.	Cat. C. Pr.	A Catalogue of S. Mss. existing in the central provinces. Ed. by F. KIELHORN. Nagpur 1874(ROTH). 
+2007	Cat. GUYAR.	Cat. Guyar.	A Catalogue of Sanskrit Manuscripts contained in the private libraries of GUYARĀT, KĀṬHIĀVĀD, KATCHCHH, SINDH and KHĀDE'S. Compeld unter the superintendence of G. BÜHLER (ROTH). 
+3006	Cat. KIELH.	Cat. Kielh.	Cat. C. PR. 
+1062	Cat. NW. PR.	Cat. Nw. Pr.	A Catalogue of S. Mss. in private libarties of the North-Western Provinves. I. Benares 1874 (ROTH). 
+2008	Cat. WILLMOT.	Cat. Willmot.	A Catalogue of Sanskrit Mss. existing in the central provinces, prepared by order of E. WILLMOT Esq. (ROTH). 
+X293	Catal. of Skt. Mss.	Catal. of Skt. Mss.	Catalog of Sanskrit Manuscripts [unknown literary source] 
+1065	Chr.	Chr.	BÖHTLINGK'S Sanskrit-Chresthomathie, 2te Aufl. 
+2037	CĀṆ.	Cāṇ.	CĀṆAKYA in HAEBERLIN'S Anthologie. 
+2044	CŪLIKOP.	Cūlikop.	CŪLIKOPANIṢAD in der Bibl. ind. (GELDNER). 
+1075	DAIV. BR.	Daiv. Br.	DAIVATABRĀHMAṆA, Calcutta 1875 und Ausg. von BURNELL. Mangalore 1873 (ROTH). 
+X001	DAMAYANTĪK.	Damayantīk.	[unknown literary source]
+5019	DARPAD.	Darpad.	DARPADALANA von KṢEMENDRA, Hdschr. (AUFRECHT). 
+5020	DATTAKAŚ.	Dattakaś.	DATTAKAŚIROMAṆI, Calcutta 1867 (JOLLY). 
+1073	DAŚAK.	Daśak.	DAŚAKUMĀRA, Ausg. von BÜHLER (CAPELLER). 
+2014a	DAŚAK. (1883)	Daśak. (1883)	DAŚAKUMĀRACARITA, Calcutta [unknown literary source]
+2014	DAŚAK. (1925)	Daśak. (1925)	DAŚAKUMĀRACARITA, Calcutta [unknown literary source]
+X072b	DAŚAK. (WILSON)	Daśak. (Wilson)	[unknown literary source]
+X072a	DAŚAK. (ed. W.)	Daśak. (ed. W.)	[unknown literary source]
+X072c	DAŚAK. (ed. WILSON)	Daśak. (ed. Wilson)	[unknown literary source]
+2014b	DAŚAK. [1925]	Daśak. [1925]	DAŚAKUMĀRACARITA , Calcutta [unknown literary source]
+1074	DAŚAR.	Daśar.	DAŚARŪPA in der Bibl. ind. 
+X096	DELBRÜCK	Delbrück	[unknown literary source]
+3009	DEVALA.	Devala.	DEVALA nach Citaten in verschiedenen juristischen Schriften (JOLLY). 
+1076	DEVATĀDHY. BRĀHM.	Devatādhy. Brāhm.	DAIV. BR. <NF> 
+2016	DEŚĪN.	Deśīn.	HEMACANDRA'S DEŚĪNĀMĀLĀ, Hdschr. (PISCHEL). 
+1083	DH. V.	Dh. V.	DHANAṂJAYAVIJAYA, Calcutta 1871 (CAPELLER). 
+1077	DHAMMAP.	Dhammap.	DHAMMAPADA, Ausg. von FAUṢÖLL. 
+X226	DHANURV.	Dhanurv.	[unknown literary source]
+1078	DHANV.	Dhanv.	DHANVANTARI'S Wörterbuch, Hdschr. (ROTH). 
+1080	DHYĀNAB. UP.	Dhyānab. Up.	DHYĀNABINDŪPANIṢAD in der Bibl. ind. (GELDNER und ROTH). 
+1079	DHĀTUP.	Dhātup.	DHĀTUPĀṬHA, Ausg. von WESTERGAARD. 
+1081	DHŪRTAN.	Dhūrtan.	DHŪRTANĀṬAKA, Hdschr. (CAPELLER). 
+1082	DHŪRTAS.	Dhūrtas.	DHŪRTASAMĀGAMA in LASSEN'S Anthologie. 
+X075a	DHŪRTAS. (ed. LASSEN)	Dhūrtas. (ed. Lassen)	[unknown literary source]
+X075	DHŪRTAS. ed. Calc.	Dhūrtas. ed. Calc.	[unknown literary source]
+1084	DIVYĀVAD.	Divyāvad.	DIVYĀVADĀNA, Hdschr. (SCHIEFNER). 
+3010	DONNER, PIṆḌ.	Donner, Piṇḍ.	PIṆḌAPITṚYAJÑA, von Dr. O. DONNER. Berlin. 1870. 
+X119	DRAUP.	Draup.	[unknown literary source]
+X020	DRAVYAV.	Dravyav.	[unknown literary source]
+X139	DURGA	Durga	[unknown literary source]
+X086	DURGA. zu NIR.	Durga. zu Nir.	[unknown literary source]
+X158	DURGĀDĀSA zu VOP.	Durgādāsa zu Vop.	[unknown literary source]
+X073	DĀRILA	Dārila	[unknown literary source]
+2015	DĀY.	Dāy.	DĀYABHĀGA, Calcutta 1829. 
+X250	EGGELING	Eggeling	Heinrich Julius Eggeling  [unknown literary source]
+3011	EITEL, Chin. B.	Eitel, Chin. B.	Hand-Book for the student of Chinese Buddhism, by Rev. E. l. EITEL. London, 1870. 
+X155	FOUCAUX	Foucaux	FOUCAUX Philippe Édouard Foucaux [unknown literary source]
+2018	FÜHRER, BṚH.	Führer, Bṛh.	Darstellung der Lehre von den Schriften in BṚHASPATI'S DHARMAŚĀSTRA. Inauguraldissertation von ALOIS ANTON FÜHRER. 
+X209	G. GORR.	G. Gorr.	Gaspare Gorresio, translator of RĀMĀYAṆA [Cologne Addition]
+1088	GAL.	Gal.	GALANO's Wörterbuch, Abschrift von WEBER;vgl. Monatsbericht der Kön. Pr. Akad. der Wissensch. 1876, S. 801. fgg. (CAPELLER). 
+X105	GARBE	Garbe	Richard Garbe [unknown literary source]
+1097	GARBHOP.	Garbhop.	GARBHOPANIṢAD in Bibl. ind. (GELDNER und ROTH). 
+X163	GARGA	Garga	[unknown literary source]
+1099	GAUT.	Gaut.	GAUTAMA'S DHARMAŚĀSTRA, Ausg. von STENZLER. 
+1099a	GAUT. BĀLAR.	Gaut. Bālar.	[unknown literary source]
+1098	GAUḌAP.	Gauḍap.	GAUḌAPĀDA, Commentator der SĀṂKHYAKĀRIKĀ. 
+X165	GAṆ. BHAGRAHAY.	Gaṇ. Bhagrahay.	[unknown literary source]
+1090	GAṆAR.	Gaṇar.	GAṆARATNAMAHODADHI, nach der im Druck befindlichen Ausg. von EGGELING. Nur ein paar Mal gelegentlich citirt. 
+1091	GAṆIT.	Gaṇit.	GAṆITĀDHĀYA in BHĀSKARA'S SIDDHĀNTA ŚIROMAṆI, Benares 1866(KERN). 
+1092	GAṆIT. ADHIM.	Gaṇit. Adhim.	GAṆITA, ADHIMĀSANIRṆAYA (KERN). 
+1093	GAṆIT. BHAGAṆ.	Gaṇit. Bhagaṇ.	GAṆITA, BHAGAṆĀDHYĀYA (KERN). 
+2019	GAṆIT. BHAGRAH.	Gaṇit. Bhagrah.	GAṆITA, BHAGRAHAYUTYADHIKĀRA (KERN). 
+1094	GAṆIT. GRAH.	Gaṇit. Grah.	GAṆITA, GRAHĀNAYADHĀYA (KERN). 
+1094a	GAṆIT. GRAHAY.	Gaṇit. Grahay.	[unknown literary source]
+X211	GAṆIT. GRAHĀN.	Gaṇit. Grahān.	[unknown literary source]
+2020	GAṆIT. KAKṢ.	Gaṇit. Kakṣ.	GAṆITA, KAKṢĀDHYĀYA (KERN). [unknown literary source]
+X177	GAṆIT. KAKṢĀDH.	Gaṇit. Kakṣādh.	[unknown literary source]
+X264	GAṆIT. PARVASAṂBH.	Gaṇit. Parvasaṃbh.	[unknown literary source]
+1095	GAṆIT. PRATYABD.	Gaṇit. Pratyabd.	GAṆITA, PRATYABDAŚUDDI (KERN). 
+2021	GAṆIT. SPAṢṬ.	Gaṇit. Spaṣṭ.	GAṆITA, SPAṢṬĀDHIKĀRA (KERN). 
+1096	GAṆIT. TRIPR.	Gaṇit. Tripr.	GAṆITA, TRIPRAŚANĀDHIKĀRA (KERN). 
+5023	GAṆITA, CANDRAGR.	Gaṇita, Candragr.	GAṆITA,CANDRAGRAHĀDHIKĀRA (KERN). 
+4003	GAṆITA, GRAHACCH.	Gaṇita, Grahacch.	GAṆITA,GRAHACCHĀYĀDHIKĀRA (KERN) . 
+4004	GAṆITA, SŪRYAGR.	Gaṇita, Sūryagr.	GAṆITA,SŪRYAGRAHAṆĀDHIKĀRA (KERN) . 
+X080	GELDNER	Geldner	Karl Friedrich Geldner [unknown literary source]
+X234	GILD, Bibl.	Gild, Bibl.	[unknown literary source]
+1101	GOBH.	Gobh.	GOBHILA'S GṚHYASŪTRA in der Bibl. ind. (ROTH). 
+3013a	GOBH. (KNAUER)	Gobh. (Knauer)	[unknown literary source]
+3013b	GOBH. (ed. KNAUER)	Gobh. (ed. Knauer)	[unknown literary source]
+3013	GOBH. ŚRĀDDHAK.	Gobh. Śrāddhak.	GOBHILA'S ŚRĀDDHAKALPA in der Bibl. ind. 
+1103	GOLD.	Gold.	GOLDSTÜCKER'S Wörterbuch 
+1102	GOLĀDHY.	Golādhy.	BHĀSKARA'S GOLĀDHYĀYA (KERN). 
+2024	GOLĀDHY. BHUV.	Golādhy. Bhuv.	GOLĀDHYĀYA, BHUVANAKOŚA (KERN). 
+1104	GOP. BR.	Gop. Br.	GOPATHABRĀHMAṆA in der Bibl. ind. (ROTH). 
+4005	GOVARDH.	Govardh.	Govardhana's SAPTAŚATĪ (WEBER) . 
+1105	GOVINDĀN.	Govindān.	GOVINDĀNANDA, Glossator zu ŚAṂKARĀCĀRYA'S Comm. zu BĀDAR. (KERN). 
+X225	GRASSMANN	Grassmann	[unknown literary source]
+X289	Gött. Nachr. 1876	Gött. Nachr. 1876	[unknown literary source] (jaJJa)
+Y004	Gött. Nachr. 1880	Gött. Nachr. 1880	[unknown literary source]
+2022	GĀR. UP.	Gār. Up.	GĀRUḌOPANIṢAD in der Bibl. ind. 
+1100	GĪT.	Gīt.	GĪTAGOVINDA, Ausg. von LASSEN. 
+2025	GṚHYĀS.	Gṛhyās.	GṚHYĀSAṂGRAHA in der Bibl. ind. 
+X241	GṚHYĀS. (ed. BLOOMFIELD)	Gṛhyās. (ed. Bloomfield)	[unknown literary source]
+1106	H.	H.	HEMACANDRA'S ABHIDHĀNACINTĀMAṆI, Ausg. von BÖHTLINGK und RIEU. 
+1108	H. an.	H. an.	HEMACANDRA'S ANEKĀRTHASAṂGRAHA. 
+1108a	H. ś.	H. ś.	[unknown literary source]
+3014	HAEB. Anth.	Haeb. Anth.	HAEBERLIN'S Anthology, Calcutta 1847. 
+X044	HALL	Hall	Fitzedward Hall [unknown literary source]
+1107	HALĀY.	Halāy.	HALĀYUDHA'S Wörterbuch, Ausg. von AUFRECHT. 
+2028	HANUM. UP.	Hanum. Up.	HANUMADUKTARĀMOPANIṢAD in der Bibl. ind. (GELDNER). 
+X118	HARADATTA	Haradatta	[unknown literary source]
+1111	HARIV.	Hariv.	HARIVAṂŚA. Mit einer Zahi die ältere Calc. Ausg. gemeint, drei Zahlen die neuere lithographirte. 
+2029	HARIV. LANGL.	Hariv. Langl.	LANGLOIS' Uebersetzung des Harivaṃśa. 
+1112	HARṢAC.	Harṣac.	HARṢACARITA, Calcutta 1876 (KERN). 
+X171b	HARṢAC. (1936)	Harṣac. (1936)	[unknown literary source]
+X217c	HARṢAC. (B.)	Harṣac. (B.)	[unknown literary source]
+X217b	HARṢAC. (Bomb.)	Harṣac. (Bomb.)	[unknown literary source]
+X217a	HARṢAC. (ed. Bomb.)	Harṣac. (ed. Bomb.)	[unknown literary source]
+X217d	HARṢAC. (ed. K.)	Harṣac. (ed. K.)	[unknown literary source]
+X171	HARṢAC. (Śaka 1936)	Harṣac. (Śaka 1936)	[unknown literary source]
+X217e	HARṢAC. [ed. Bomb.]	Harṣac. [ed. Bomb.]	[unknown literary source]
+X171a	HARṢAC. [Śaka 1936]	Harṣac. [Śaka 1936]	[unknown literary source]
+X217	HARṢAC. ed. Bomb.	Harṣac. ed. Bomb.	[unknown literary source]
+1114	HAUG, Acc.	Haug, Acc.	HAUG, Ueber das Wesen und den Werth des vedischen Accents. München 1874. 
+2027	HAṂSOP.	Haṃsop.	HAṂSOPANIṢAD in der Bibl. ind. (GELDNER). 
+X092	HEDRI	Hedri	[unknown literary source]
+2031	HEM. PAR.	Hem. Par.	HEMACANDRA'S PARIŚIṢṬAPARVAN, Hdschr. (JACOBI). 
+X046	HEM. Pr. Gr.	Hem. Pr. Gr.	[unknown literary source]
+X067	HEM. Pr. Gr. (ed. PISCHEL)	Hem. Pr. Gr. (ed. Pischel)	[unknown literary source]
+1117	HEM. Pr. Gr. ed. Bomb.	Hem. Pr. Gr. ed. Bomb.	HEMACANDRA's Prākrit-Grammatik, Bombay (STENZLER) 
+1116	HEM. YOG.	Hem. Yog.	HEMACANDRA'S YOGAŚĀSTRA in Z. d. d. m. G. 28. Aus einem hdschr. Comm. hat WINISCH manche Berichtigung und Erklärung mir bereitwilligst zukommen lassen. 
+X045	HEM. YOGAŚ.	Hem. Yogaś.	[unknown literary source]
+1115	HEMĀDRI	Hemādri	HEMĀDRI'S CATURVARGACINTĀMAṆI in der Bibl. ind. 
+3015	HILLEBR. N.	Hillebr. N.	[unknown literary source]
+X255	HIOUEN-THSANG	Hiouen-Thsang	[unknown literary source]
+X152	HIRAṆYAKEŚIN	Hiraṇyakeśin	[unknown literary source]
+1119	HIT.	Hit.	HITOPADEŚA, Ausg. von SCHLEGEL und LASSEN. 
+1120	HIT. ed. JOHNS.	Hit. ed. Johns.	HITOPADEŚA, Ausg. von JOHNSON, Lonon und Hertford 1847. 
+1118	HIḌ.	Hiḍ.	HIḌIMBAVADHA, Ausg. von Bopp. 
+X199	HODGSON, Ess.	Hodgson, Ess.	[unknown literary source]
+X200	HODGSON, Essays.	Hodgson, Essays.	[unknown literary source]
+X100	HULTZSCH	Hultzsch	Eugen Julius Theodor Hultzsch  [unknown literary source]
+2026	HĀLA.	Hāla.	HĀLA. Citirt nach der neuen noch im Druck befindlichen Ausgabe von WEBER (CAPELLER). 
+1109	HĀR.	Hār.	HĀRĀVALI. 
+X224	HĀRĪTA	Hārīta	[unknown literary source]
+1113	HĀSY.	Hāsy.	HĀSYĀRṆAVA, Bombay 1757 und Hdschr. (CAPELLER). 
+X204	Ind.	Ind.	[unknown literary source]
+1123	Ind. Antiq.	Ind. Antiq.	Indian Antiquary (ROTH). 
+1124	Ind. St.	Ind. St.	Indische Studien von WEBER. 
+1122	J. A. O. S.	J. A. O. S.	Journal of the American Oriental Society. 
+2033a	J. A. S.	J. A. S.	? Journal of the Asiatic Society of Bengal. Part I. (History, Antiquities, &c. ). [unknown literary source]
+2033	J. A. S. Beng.	J. A. S. Beng.	Journal of the Asiatic Society of Bengal. Part I. (History, Antiquities, &c. ). 
+1128	J. R. A. S.	J. R. A. S.	Journal of the Royal Asiatic Society (KERN). 
+X140	JACOBI	Jacobi	Hermann Jacobi [unknown literary source]
+X202	JACOBI, KALPAS. Intr.	Jacobi, Kalpas. Intr.	[unknown literary source]
+1086	JAIM.	Jaim.	JAIMINI'S Mimāṃsādarśana in der Bibl. ind. 
+1087	JAIM. BHĀR.	Jaim. Bhār.	JAIMINI'S BHĀRATA, nach Citaten in Ind. St. <NF> 
+X182	JAIMINI	Jaimini	[unknown literary source]
+2023	JAṬĀDH.	Jaṭādh.	JAṬĀDHARA im ŚKDR. 
+X150	JOLLY	Jolly	Julius Jolly [unknown literary source]
+1127	JOLLY, Schuld.	Jolly, Schuld.	JOLLY, ueber das indische Schuldrecht, in Müchener Philos. Philol. Abh. 1877, S. 287. fgg. 
+X230	JOLLY, Tagore Law Lectures	Jolly, Tagore Law Lectures	[unknown literary source]
+X258	JYOT.	Jyot.	[unknown literary source]
+1085	JĀBĀLOP.	Jābālop.	JĀBĀLOPANIṢAD in der Bibl. ind. (GELDNER und ROTH). 
+6005	JĀTAKAM.	Jātakam.	JĀTAKAMĀLĀ, Hdschr. (H. KERN). 
+X243	KAHĪRASV.	Kahīrasv.	[unknown literary source]
+3017	KAIVALYOP.	Kaivalyop.	KAIVALYOPANIṢAD in der Bibl. ind. 
+X102	KAIY.	Kaiy.	[unknown literary source]
+X220	KAIYAṬA	Kaiyaṭa	[unknown literary source]
+Y005	KAIYY.	Kaiyy.	[unknown literary source]
+2036	KALPAS.	Kalpas.	KALPASŪTRA, herausg. von H. JACOBI (JACOBI und KERN). 
+X018	KAMALĀKARA	Kamalākara	[unknown literary source]
+1137	KAP.	Kap.	KAPILA'S SĀṂKHYAPRAVACANA. Einen vollständigen Index hat WINDISCH ZU Verfügung gestellt. 
+X160	KAP. (BALL.)	Kap. (Ball.)	[unknown literary source]
+1137a	KAP. (ed. Allah. 1852)	Kap. (ed. Allah. 1852)	KAPILA'S SĀṂKHYAPRAVACANA. [unknown literary source]
+2043	KAP. S.	Kap. S.	KAPIṢṬHALAKAṬHASAṂHITA, Hdschr. (v. SCHRÖDER). 
+1140	KARMAPR.	Karmapr.	KARMAPRADĪPA (STENZLER). Steht unter dem falschen Titel KĀTYĀYANASMṚTI im DHARMAŚĀSTRASAṂGRAHA, Vol. I, S 603-644. 
+5027	KATHĀRṆAVA	Kathārṇava	KATHĀRṆAVA , Hdschr. (AUFRECHT). 
+1142	KATHĀS.	Kathās.	KATHĀSARITSĀGARA, Ausg. von BROCKHAUS. 
+1150	KAUTUKAR.	Kautukar.	KAUTUKARATNĀKARA, Hdschr. (CAPELLER). 
+X050	KAUTUKAS.	Kautukas.	[unknown literary source]
+1146	KAUŚ.	Kauś.	KAUŚIKA'S SŪTRA zum AV. , Hdschr. (ROTH und WEBER). 
+1149	KAUṢ. UP.	Kauṣ. Up.	KAUṢITAKIBRĀHMAṆOPANIṢAD in der Bibl. ind. 
+1148	KAUṢ. ĀR.	Kauṣ. Ār.	KAUṢITAKĀRAṆYAKA (WEBER). 
+1134	KAṆ.	Kaṇ.	KAṆĀDA'S VAIŚEṢIKADARŚANA in der Bibl. ind. 
+4006	KAṆṬHAŚR. UP.	Kaṇṭhaśr. Up.	KAṆṬHAŚRUTYUPANIṢAD in der Bibl. ind. 
+3018	KAṬHOP.	Kaṭhop.	KAṬHOP(ANIṢAD) in der Bibl. ind. 
+1152	KENOP.	Kenop.	KENOPANIṢAD in der Bibl. ind. 
+X039	KERN	Kern	Johan Hendrik Caspar Kern [unknown literary source]
+X162	KHILA.	Khila.	[unknown literary source]
+X208	KIELH. Rep. (1881)	Kielh. Rep. (1881)	[unknown literary source]
+X169	KIELHORN	Kielhorn	Lorenz Franz Kielhorn [unknown literary source]
+1155	KIR.	Kir.	KIRĀTĀRJUNIYA, Calcutta 1814. 
+X285	KLUGE	Kluge	Friedrich Kluge [unknown literary source]
+X133	KNAUER	Knauer	[unknown literary source]
+X288	KOS.	Kos.	KOSEGARTEN [unknown literary source]
+X294	KOSEG. Ausg.	Koseg. Ausg.	KOSEGARTEN edition of PAÑCATANTRA  [unknown literary source]
+3022a	KUHN	Kuhn	[unknown literary source]
+X054	KUHN'S Beitrr.	Kuhn'S Beitrr.	[unknown literary source]
+3022	KUHN'S Z.	Kuhn'S Z.	Zeitschrift für vergleichende Sprachforschung anf dem Gebiete der indogermanischen Sprachen. 
+1159	KULL.	Kull.	KULLŪKA, Commentator des MANU. 
+5033	KULĀRṆAVA	Kulārṇava	KULĀRṆAVA, Hdschr. (AUFRECHT). 
+1160	KUMĀRAS.	Kumāras.	KUMĀRASAṂBHAVA, Ausg. von STENZLER. 
+1160a	KUMĀRAS. (1868)	Kumāras. (1868)	[unknown literary source]
+1161	KUMĀRASV.	Kumārasv.	KUMĀRASVĀMIN, Commentator des PRATĀPAR. (PISCHEL). 
+X011	KUMĀRILA	Kumārila	[unknown literary source]
+1162	KUSUM.	Kusum.	KUSUMĀÑJALI, Ausg. von COWELL. 
+1163	KUVALAY.	Kuvalay.	KUVALAYĀNANDA. , nach zwei lithogr. Ausgg. 
+1130	KĀD.	Kād.	KĀDAMBARĪ, Calcutta Saṃvat 1919 (KERN). 
+X016b	KĀD. (1793)	Kād. (1793)	[unknown literary source]
+X016a	KĀD. (ed. Bomb.)	Kād. (ed. Bomb.)	[unknown literary source]
+X016c	KĀD. (Śaka 1793)	Kād. (Śaka 1793)	[unknown literary source]
+X016	KĀD. ed. Bomb.	Kād. ed. Bomb.	[unknown literary source]
+1132	KĀLAC.	Kālac.	KĀLACAKRA, Hdschr. (SCHIEFNER). 
+X069	KĀLIDĀSA	Kālidāsa	[unknown literary source]
+1133	KĀM. NĪTIS.	Kām. Nītis.	KĀMANDAKĪYANĪTISĀRA in der Bibl. ind. 
+2039	KĀRAṆḌ.	Kāraṇḍ.	KĀRAṆḌAVYŪHA, Calcutta 1873(KERN). 
+2040	KĀT.	Kāt.	KĀTANTRA, heraugsgegeben von EGGELING. 
+X124	KĀTANTRA.	Kātantra.	[unknown literary source]
+5029	KĀTY.	Kāty.	KĀTYĀYANA'S PARIBH (ĀṢĀS) IN 'Zwölf Hymnen des Rigveda, herausgegeben von ERNST WIDISCH'S. 169. fgg. 
+1144	KĀTY. DH.	Kāty. Dh.	KĀTYĀYANA'S DHARMAŚĀSTRA (STENZLER). 
+5028	KĀTY. KARM.	Kāty. Karm.	KĀTY(ĀYANA'S)KARMAPRADĪPA (STENZLER). 
+1145	KĀTY. SNĀNAS.	Kāty. Snānas.	KĀTYĀYANA'S SNĀNASŪTRA (STENZLER). 
+1143	KĀTY. ŚR.	Kāty. Śr.	KĀTYĀYANA'S ŚRAUTASŪTRA, nach WEBER'S Index. 
+X117	KĀTY. ŚR. PADDH.	Kāty. Śr. Paddh.	[unknown literary source]
+1151	KĀVYAPR.	Kāvyapr.	KĀVYAPRAKĀŚA, Calcutta 1866. Nach Ullāsa und Sūtra citirt, wenn nicht S. (Seite) und Z. (Zeile) hinzungefügt werden. 
+X049	KĀVYĀD.	Kāvyād.	[unknown literary source]
+5030	KĀVYĀL.	Kāvyāl.	KĀVYĀLOKALOCANA, Hdschr. (AUFRECHT). 
+1129	KĀŚ.	Kāś.	KĀŚIKĀ VṚTTI in der Zeitschrift The PANDIT VII. fgg. 
+X095	KĀŚYAPA	Kāśyapa	[unknown literary source]
+5025	KĀŚĪKH.	Kāśīkh.	KĀŚĪKHAṆḌA, HDSCHR. (AUFRECHT). 
+X088	KĀṆVA-REC.	Kāṇva-Rec.	[unknown literary source]
+1135	KĀṆḌ.	Kāṇḍ.	KĀṆḌŪPĀKHYĀNA in LA. 
+1141	KĀṬH.	Kāṭh.	KĀṬHAKA (WEBER). 
+2042	KĀṬH. GṚHY.	Kāṭh. Gṛhy.	KĀṬHAKAGṚHYASŪTRA, Hdschr. (JOLLY). 
+1156	KṚṢIS.	Kṛṣis.	PARĀŚARA'S KṚṢISAṂGRAHA, Calcutta 1862(ROTH). 
+6008	KṢEM.	Kṣem.	KṢEMENDRA'S KAVIKAṆṬĀBHARAṆA, herausgegeben von Y. SCHÖNBERG in den Sitzungsberichten der Phil-hist. Klasse der Kais. Ak. d. Ww. in Wien, Bd. 106 (C. CAPELLER). 
+1157	KṢITĪŚ.	Kṣitīś.	KṢITĪŚAVAṂŚĀVALĪCARITA, Ausg. von PERTSCH. 
+1158	KṢURIKOP.	Kṣurikop.	KṢURIKOPANIṢAD in der Bibl. ind. 
+1169	L. K.	L. K.	LAGHUK. 
+1164	LA.	La.	LASSEN'S Anthologie 3te Ausg. 
+1165	LAGHUK.	Laghuk.	LAGHUKAUMUDĪ, Ausg. von BALLANTYNE, Benares 1876(CAPELLER). 
+1166	LALIT.	Lalit.	LALITAVISTARAPURĀṆA in der Bibl. ind. (KERN). 
+X148	LALLA	Lalla	[unknown literary source]
+X265	LANMAN	Lanman	[unknown literary source]
+3024	LIA.	Lia.	LASSEN'S Indische Alterthunmskunde. 
+4008	LOKAPR.	Lokapr.	LOKAPRAKĀŚA (JOLLY) 
+1170	Lot. de la b. l.	Lot. de la b. l.	BURNOUF, Lotus de la bonne loi. 
+1167	LĀṬY.	Lāṭy.	LĀṬYĀYANA'S ŚRAUTASŪTRA in der Bibl. ind. 
+1168	LĪLĀV.	Līlāv.	BHĀSKARA'S LĪLĀVATĪ, Calcutta 1846 (KERN). 
+1171	M.	M.	MĀNAVADHARMAŚĀSTRA. 
+1171a	M. (ed. JOLLY)	M. (ed. JOLLY)	[unknown literary source]
+1194	M. K. S.	M. K. S.	[unknown literary source]
+X297	M. MÜLLER'S Ausg. des ṚV.	M. Müller's Ausg. des ṚV.	 [unknown literary source] 
+5036	M. MÜLLER, Ren.	M. Müller, Ren.	The Renaissance of Sanskrit Literature in M. MüLLER'S India what can it teach us? S. 281. fgg. Auch die vorangehenden Abschnitte werden so citirt. 
+X062	M. MÜLLER.	M. Müller.	[unknown literary source]
+X151	MAD.	Mad.	[unknown literary source]
+1172	MADANAV.	Madanav.	MADANAPĀLA'S MADANAVINODA, Benares 1869 und Hdschr. (ROTH). 
+X257	MADHUS.	Madhus.	[unknown literary source]
+Y006	MADHYAM.	Madhyam.	[unknown literary source]
+2046	MAGAVY.	Magavy.	Ueber zwei Parteischriften zu Gunsten der MAGA, resp. ŚĀKADVIPIYA BRĀHMAṆA. Von A. WEBER. 
+1174	MAHĀBH.	Mahābh.	MAHĀBHĀṢYA, lith. in Benares. 
+1175	MAHĀBH. (K.)	Mahābh. (K.)	KIELHORN'S Ausg. des MAHĀBHĀṢYA. 
+1175a	MAHĀBH. [K.]	Mahābh. [K.]	KIELHORN'S Ausg. des MAHĀBHĀṢYA. 
+X087	MAHĀN.	Mahān.	[unknown literary source]
+X186	MAHĀVASTU	Mahāvastu	[unknown literary source]
+X185	MAHĀVASTU (ed. SENART)	Mahāvastu (ed. SENART)	[unknown literary source]
+1176	MAHĀVĪRAC.	Mahāvīrac.	MAHĀVĪRACARITA, Ausg. von TRITHEN. 
+2047	MAHĀŚ.	Mahāś.	MAHĀŚĀNTI, Hdschr. (ROTH). 
+1177	MAHĪDH.	Mahīdh.	MAHĪDHARA, Commentator der VS. 
+1179	MAITR. S.	Maitr. S.	MAITRĀYAṆI SAṂHITĀ, zur Herausgabe vorbereitet von L. SCHRÖDER. Da die accentuirten Hdschr. nicht gleich zu Anfang zur Hand waren, konnten einige Accente erst in den Nachträgen angegeben werden (SCHRÖDER). 
+1178	MAITRYUP.	Maitryup.	MAITRYUPANIṢAD in der Bibl. ind. Die Accente, die wegen ihrer Fehlerhaftigkeit oft weggelassen oder durch (!) als verdächtig bezeichnet wurden, hat SCHRÖDER einer Hdschr. entnommen. 
+X121	MALLIKĀMĀRUTA	Mallikāmāruta	[unknown literary source]
+X008	MALLIN.	Mallin.	[unknown literary source]
+1185	MANTRABR.	Mantrabr.	MANTRABRĀHMAṆA, Calcutta 1872(ROTH). 
+X041	MANU	Manu	[unknown literary source]
+5035a	MATSYA-P.	Matsya-P.	MATSYAPURĀṆA, Poona-Ausg. (AUFRECHT). 
+5035	MATSYAP.	Matsyap.	MATSYAPURĀṆA, Poona-Ausg. (AUFRECHT). 
+5035b	MATSYOP.	Matsyop.	[unknown literary source]
+X280	MAŚ.	Maś.	[unknown literary source]
+X201	MAṆIMĀLĀ	Maṇimālā	[unknown literary source]
+X206	MAṆITTHA	Maṇittha	MAṆITTHA Name of an astronomer [unknown literary source]
+1189	MBH.	Mbh.	MAHĀBHĀRATA, citirt nach Parvan, Adhyāya und Śloka der Bomb. Ausg. Die ältere Calcuttaer Ausg. mit zwei Zahlen wird nur dann angeführt, wenn sie eine abweichende Lesart bietet. 
+X061	MBH. ed. Bomb.	Mbh. ed. Bomb.	[unknown literary source]
+X065	MBH. ed. Calc.	Mbh. ed. Calc.	[unknown literary source]
+3025	MBH. ed. Vardh.	Mbh. ed. Vardh.	MBH. ed. Vardh. ist die auf Kosten des Fürsten von Vardhamāna (Burdwan) gedruckte Ausg. des MAHĀBHĀRATA. Sie enthält nur die 12 ersten Parvan. 
+X223	MBH. ed. Vardham.	Mbh. ed. Vardham.	[unknown literary source]
+1190	MED.	Med.	MEDINIKOŚA. 
+1191	MED. avy.	Med. avy.	AVYAYĀNEKĀRTHAVARGA am Ende des MEDINIKOŚA. 
+X103d	MED. dh.	Med. dh.	[unknown literary source]
+X103g	MED. g.	Med. g.	[unknown literary source]
+X103j	MED. j.	Med. j.	[unknown literary source]
+X103k	MED. k.	Med. k.	[unknown literary source]
+X103m	MED. m.	Med. m.	[unknown literary source]
+X103n	MED. n.	Med. n.	[unknown literary source]
+X103p	MED. p.	Med. p.	[unknown literary source]
+X103r	MED. r.	Med. r.	[unknown literary source]
+X103s	MED. s.	Med. s.	[unknown literary source]
+X103t	MED. t.	Med. t.	[unknown literary source]
+X103th	MED. th.	Med. th.	[unknown literary source]
+X103v	MED. v.	Med. v.	[unknown literary source]
+X103y	MED. y.	Med. y.	[unknown literary source]
+X103ṣ	MED. ṣ.	Med. Ṣ.	[unknown literary source]
+3026	MEDHĀT.	Medhāt.	MEDHĀTITHI, ein Scholiast des MANU (JOLLY). 
+1192	MEGH.	Megh.	MEGHADŪTA, Ausg. von STENZLER. 
+1193	MIT.	Mit.	MITĀKṢARĀ. Bei zwei Zahlen ist der VYAVAHĀRĀDHYĀYA, Calcutta 1829, gemeint, bei zwei Zahlen mit folgendem {%a%} oder {%b%} nebst Angabe der Zeile -- das vollständige Werk in 4to. 
+2051	MOLESW.	Molesw.	A Dictionary, Marāṭhi and English, compiled by Y. T. MOLESWORTH, Bombay 1857. 
+1196	MUDRĀR.	Mudrār.	MUDRĀRĀKṢASA, nach zwei Ausgaben, Calcutta 1831 und 1926 (CAPELLER). 
+1196a	MUDRĀR. (1926)	Mudrār. (1926)	[unknown literary source]
+1196b	MUDRĀR. (a. A.)	Mudrār. (a. A.)	[unknown literary source]
+1196c	MUDRĀR. (n. A.)	Mudrār. (n. A.)	[unknown literary source]
+X091	MUIR. ST.	Muir. St.	[unknown literary source]
+3028	MUṆḌ. UP.	Muṇḍ. Up.	MUṆḌAKOPANIṢAD in der Bibl. ind. 
+1187	Mat. med.	Mat. med.	The Materia medica of the Hindus compiled from Sankr. medical works by UDOY CHAND DUTT Civil Medicinal officer. With a Glossary of Indian Plants by GE. KING. Superint. R. Bot. Garden Calc. and the author. Calcutta 1877. 
+X180	Mel. asiat.	Mel. asiat.	[unknown literary source]
+2052	Mon. d. B. A.	Mon. d. B. A.	Monatsberichte der Königlich Preussichen Akademie der Wissenschaften in Berlin. 
+2052a	Monatsberichte d. Kön. Pr. Ak. d. Ww.	Monatsberichte d. Kön. Pr. Ak. d. Ww.	Monatsberichte der Königlich Preussichen Akademie der Wissenschaften in Berlin. 
+3027	MÜLLER, SL.	Müller, Sl.	A History of Ancient Sanskrit Literature. By MAX MÜLLER. 1859. 
+1173	MĀDH. KĀLAN.	Mādh. Kālan.	MĀDHAVA'S KĀLANIRṆAYA (WEBER). 
+X244	MĀDHAVĪYADHĀT.	Mādhavīyadhāt.	[unknown literary source]
+X108	MĀDHAVĪYADHĀTUVṚTTI	Mādhavīyadhātuvṛtti	[unknown literary source]
+X235	MĀHABH.	Māhabh.	[unknown literary source]
+1180	MĀLATĪM.	Mālatīm.	MĀLATĪMĀDHAVA, nach zwei Ausgaben, Calcutta 1830 und Bombay 1876. 
+X157a	MĀLATĪM. (ed. Bomb.)	Mālatīm. (ed. Bomb.)	[unknown literary source]
+X157	MĀLATĪM. ed. Bomb.	Mālatīm. ed. Bomb.	[unknown literary source]
+1181	MĀLAV.	Mālav.	MĀLAVIKĀGNIMITRA, Ausg. von TULLIBERG. 
+X076a	MĀLAV. (ed. BOLL.)	Mālav. (ed. Boll.)	[unknown literary source]
+X076	MĀLAV. ed. BOLL.	Mālav. ed. Boll.	[unknown literary source]
+X076c	MĀLAV. ed. Bomb.	Mālav. ed. Bomb.	[unknown literary source]
+X076b	MĀLAV. ed. Calc.	Mālav. ed. Calc.	[unknown literary source]
+1183	MĀN. GṚHY.	Mān. Gṛhy.	MĀNAVAGṚHYASŪTRA, nach einer Hdschr. in der Universitätsbibliothek zu Bombay (SCHRÖDER). 
+1184	MĀN. K. S.	Mān. K. S.	MĀNAVAKALPASŪTRA, nach Citaten bei GOLD. 
+2049	MĀN. ŚR.	Mān. Śr.	MĀNAVAŚRAUTASŪTRA, Hdschr. (v. SCHRÖDER). 
+X268	MĀNAVA	Mānava	[unknown literary source]
+1186	MĀRK. P.	Mārk. P.	MĀRKAṆḌEYAPURĀṆA in der Bibl. ind. 
+2050	MĀṆḌ. UP.	Māṇḍ. Up.	MĀṆḌŪKYOPANIṢAD in der BIbl. ind. 
+1182	MĀṆḌ. ŚIKṢĀ.	Māṇḍ. Śikṣā.	MĀṆḌŪKI ŚIKṢĀ(WEBER). 
+X254	MĀṆḌAVYA	Māṇḍavya	[unknown literary source]
+1195	MṚCCH.	Mṛcch.	MṚCCHAKAṬIKA, Ausg. von STENZLER. Comm. zu MṚCCH. sind die Auszüge in den Anmerkungen zu meiner Uebersetzung dieses Schauspiels. 
+X051	NAIGH.	Naigh.	[unknown literary source]
+1198	NAIṢ.	Naiṣ.	NAIṢADHACARITA. 
+X184	NALOD.	Nalod.	[unknown literary source]
+X168	NERIOSENGH	Neriosengh	[unknown literary source]
+6009	NIDĀNAS.	Nidānas.	NIDĀNASŪTRA (A. WEBER). 
+2054	NIGH.	Nigh.	YĀSKA'S NIRUKTA sammt den NIGHAṆṬAVAS, herausgegeben und erläutert von RUDOLPH ROTH. 
+1200	NIGH. PR.	Nigh. Pr.	NIGHAṆṬUPRAKĀŚA (ROTH). 
+1200a	NIGH. PR. KAUŚ.	Nigh. Pr. Kauś.	NIGHAṆṬUPRAKĀŚA (ROTH). 
+1205	NIR.	Nir.	NIRUKTA, Ausg. von ROTH (ROTH). 
+X231	NIRGHAṆṬU	Nirghaṇṭu	[unknown literary source]
+2055	NIRṆAYAS.	Nirṇayas.	NIRṆAYASINDHU. 
+1208	NY. K.	Ny. K.	NYĀYAKOŚA or Dictionary of the technical Terms of the NYĀYA Philosophy, by BHIMĀCHĀRYA JHALAKIKAR. Bombay 1875. 
+1206	NYĀYAM.	Nyāyam.	JAIMINIYANYĀYAMĀLĀVISTARA, Ausg. von GOLDSTÜCKER UND Cowell (KERN). 
+1207	NYĀYAS.	Nyāyas.	GOTAMA'S NYĀYADARŚANA in der Bibl. ind. Die Ausg. Calcutta 1828 wird durch Beifügung von (1828) bezeichnet. (KERN). 
+1207a	NYĀYAS. (1828)	Nyāyas.(1828)	GOTAMA'S NYĀYADARŚANA in der Bibl. ind. Die Ausg. Calcutta 1828 wird durch Beifügung von (1828) bezeichnet. (KERN). 
+1207b	NYĀYAS. (1829)	Nyāyas. (1829)	[unknown literary source]
+X222	NÖLDEKE	Nöldeke	Theodor Nöldeke [unknown literary source]
+2053	NĀDAB. UP.	Nādab. Up.	NĀDABINŪPANIṢAD in der Bibl. ind. (GELDNER). 
+1197	NĀGĀN.	Nāgān.	NĀGĀNANDA nach zwei Calcuttaer Ausgaben (CAPELLER) 
+1199	NĀR.	Nār.	NĀRADA'S DHARMAŚĀSTRA (JOLLY). 
+5037	NĀRADA	Nārada	NĀRADA (a.) bezeichnet die ausführlichere Recension NĀRADA'S (JOLLY). 
+5037a	NĀRADA (a.)	Nārada (a.)	bezeichnet die ausführlichere Recension NĀRADA'S (JOLLY). 
+5037b	NĀRADA [a.]	Nārada [a.]	bezeichnet die ausführlichere Recension NĀRADA'S (JOLLY). 
+1201	NĪL.	Nīl.	A rational Refutation of the Hindu Phisosphical Systems, by NEHEMIAH NĪLAKAṆṬHA ŚĀSTRĪ GORE. Translated etc. by RITZ-EDWARD HALL. Calcutta 1862. 
+1203	NĪLAK.	Nīlak.	NĪLAKAṆṬHA, Commentator des MBH. 
+1204	NĪLAR. UP.	Nīlar. Up.	NĪLARUDROPANIṢAD in der Bibl. ind. (GELDNER und ROTH). 
+X004	NṚS. TĀP. UP.	Nṛs. Tāp. Up.	[unknown literary source]
+1209	NṚS. UP.	Nṛs. Up.	NṚSIṂHATĀPANĪYOPANIṢAD, herausg. von WEBER in Ind. St. 9 und in der Bibl. ind. 
+X276	NṚS. UP. (Bibl. ind.)	Nṛs. Up. (Bibl. ind.)	[unknown literary source]
+3029	OLD. Buddha.	Old. Buddha.	Buddha. Sein Leben, seine Lehre, seine Gemeinde. Von HERMANN OLDENBERG. Berlin 1881. 
+X132a	OPP.	Opp.	[unknown literary source]
+2056	OPP. CAT.	Opp. Cat.	List of Sanskrit Manuscripts in Private libraries of southern India. Compiled, arranged and indexed by GUSTAV OPPERT. 
+X132	OPPERT	Oppert	Gustav Solomon Oppert [unknown literary source]
+1210	P.	P.	PĀṆINI. 
+X270	P. W.	P. W.	[unknown literary source]
+5038	PADDH.	Paddh.	PADDHATI zu MĀN (AVA) GṚHY (ASŪTRA), Hdschr. (v. BRADKE). 
+X227	PADMA-P.	Padma-P.	[unknown literary source]
+X093	PADMAP.	Padmap.	[unknown literary source]
+5039	PADYĀVALĪ	Padyāvalī	PADYĀVALĪ, Hdschr. (AUFRECHT). 
+X273	PAIṬHĪNASI	Paiṭhīnasi	[unknown literary source]
+X019	PANDIT	Pandit	[unknown literary source]
+X130	PARAMAHAṂSOP.	Paramahaṃsop.	[unknown literary source]
+6010	PARAMĀRTHAS.	Paramārthas.	PARAMĀRTHASĀRA (TH. AUFRECHT). 
+1216	PARIBH.	Paribh.	PARIBHĀṢĀ in PARIBHĀṢENDUŚEKHARA, Ausg. von KIELHORN. 
+X210	PARIBHĀṢENDUŚEKHARA	Paribhāṣenduśekhara	[unknown literary source]
+1214	PARĀŚ.	Parāś.	PARĀŚARA'S DHARMAŚĀSTRA (STENZLER). 
+X196	PARĀŚARA	Parāśara	[unknown literary source]
+X279	PARĀŚARASMṚTI	Parāśarasmṛti	[unknown literary source]
+X052	PAT.	Pat.	Patañjali [unknown literary source]
+1217	PAT. zu P.	Pat. zu P.	PATAÑJALI ZU PĀṆINI. 
+X094	PATAÑJALI	Patañjali	[unknown literary source]
+1211	PAÑCAD.	Pañcad.	PAÑCADAṆḌACCHATTRABANDHA, herausg. von WEBER. 
+1212	PAÑCAR.	Pañcar.	NĀRADA'S PAÑCARĀTRA in der Bibl. ind. 
+1213	PAÑCAT.	Pañcat.	 ohne nähere Angabe PAÑCATANTRA, vollständige Ausg. von KOSEGARTEN. Mit Beifügung von ed. Bomb. --die Ausg. von BÜHLER und KIELHORN. 
+X021	PAÑCAT. ed. Bomb.	Pañcat. ed. Bomb.	[unknown literary source]
+X183	PAÑCAT. ed. KOSEG.	Pañcat. ed. Koseg.	[unknown literary source]
+2057	PAÑCAT. ed. orn.	Pañcat. ed. orn.	KOSEGARTEN, PAÑCATANTRA sive quinque partitum de moribus exponens. Pars secunda, textum sanscritum, ornatiorem tenens. 
+X240	PAÑCĀŚIKĀ (ed. SOLF)	Pañcāśikā (ed. Solf)	[unknown literary source]
+X156	PETERSON	Peterson	Peter Peterson [unknown literary source]
+X212	PISCHEL	Pischel	Richard Pischel [unknown literary source]
+1219	PISCHEL, de Gr. pr.	Pischel, de Gr. pr.	PISCHEL, de Grammaticis prācriticis. Vratislaviae 1874. 
+1218	PIṆḌOP.	Piṇḍop.	PIṆḌOPANIṢAD in der Bibl. ind. (GELDNER und ROTH). 
+3031	PR. P.	Pr. P.	PRACAṆḌAPĀṆḌAVA, EIN SCHAUSPIEL. HDSCHR. (CAPELLER). 
+1220	PRAB.	Prab.	PRABODHACANDRODAYA, Ausg. von BROCKHAUS. 
+5042	PRAKRIYĀK.	Prakriyāk.	PRAKRIYĀKAUMUDĪ, Hdschr. (Aufrecht).
+1224	PRASANNAR.	Prasannar.	JAYADEVA'S PRASANNARĀGHAVA (KERN). 
+4009	PRATIJÑĀS.	Pratijñās.	PRATIJÑĀS(ŪTRA) berausg. von A. WEBER. 
+1225	PRATĀPAR.	Pratāpar.	PRATĀPARUDRIYA. 
+1223	PRAYOGAR.	Prayogar.	NĀRĀYAṆABHAṬṬA'S PRAYOGARATNA (STENZLER). 
+1221	PRAŚNOP.	Praśnop.	PRAŚNOPANIṢAD in der Bibl. ind. 
+1226	PRIY.	Priy.	PRIYADARŚIKĀ, Calcutta 18?? (CAPELLER). 
+1222	PRĀYAŚCITTAT.	Prāyaścittat.	PRĀYAŚCITTATATTVA (ROTH). 
+X253	PRĀYAŚCITTAVIVEKA	Prāyaścittaviveka	PRĀYAŚCITTAVIVEKA, Hdschr. (AUFRECHT). [unknown literary source]
+X176	PULASTYA	Pulastya	[unknown literary source]
+X129	PUṢPADANTA	Puṣpadanta	[unknown literary source]
+1228	PUṢPAS.	Puṣpas.	PUṢPASŪTRA (WEBER). 
+1227	Procc. A. S. B.	Procc. A. S. B.	Proceedings of the Asiatic Society of Bengal. 
+1215	PĀR. GṚHY.	Pār. Gṛhy.	PĀRASKARA'S GṚHYASŪTRA, Ausg. von STENZLER. 
+5040	PĀRŚVAN.	Pārśvan.	PĀRŚVANĀTHAKĀVYA, Hdschr. (AUFRECHT). 
+X191	PĀṆINI	Pāṇini	[unknown literary source]
+1229	R.	R.	RĀMĀYAṆA. Das 1ste und 2te Kāṇḍa nach der Ausg. von SCHLEGEL, das 3--6te nach der von GORRESIO, das 7te nach der Bomb. Ausg., wenn nicht ausdrücklich eine andere Ausgabe genannt ist. Eine eingeklammerte Zahl bezieht ist sich auf ed. Bomb. 
+X022	R. GORR.	R. Gorr.	 RĀMĀYAṆA, translation by Gaspare Gorresio. [Cologne Addition]
+X024b	R. SCHL.	R. Schl.	[unknown literary source]
+X024	R. ed. Bomb.	R. ed. Bomb.	[unknown literary source]
+X023	R. ed. GORR.	R. ed. Gorr.	 RĀMĀYAṆA, translation by Gaspare Gorresio. [Cologne Addition]
+X024a	R. ed. SCHL.	R. ed. Schl.	[unknown literary source]
+1232	RAGH.	Ragh.	RAGHUVAṂŚA, Ausg. von STENZLER, wenn nicht ed. Calc. hinzuge- fügt wird. 
+X074	RAGH. ed. Calc.	Ragh. ed. Calc.	[unknown literary source]
+3033	RASAR.	Rasar.	RASAR. RASARATNĀKARA, Calcutta 1878 (ROTH). 
+3034	RASENDRAC.	Rasendrac.	RASENDRACINTĀMAṆI Calcutta 1878 (ROTH). 
+1233	RATNAM.	Ratnam.	RATNAMĀLĀ. (ROTH). 
+X181	RICE, Bangalore	Rice Bangalore	[unknown literary source]
+X116	ROTH	Roth	Heinrich Roth [unknown literary source]
+X116a	ROTH, Zur Lit.	Roth, Zur Lit.	[unknown literary source]
+1234	ROXB.	Roxb.	Flora indica or description of Indian Plants. By the late WILLIAM ROXBURGH. Serampore 1832 (ROTH). 
+1234a	ROXBURGH, Flora ind.	Roxburgh, Flora ind.	Flora indica or description of Indian Plants. By the late WILLIAM ROXBURGH. Serampore 1832 (ROTH). 
+X159	RUDOLF MEYER	Rudolf Meyer	[unknown literary source]
+X113	RUDRAYĀMALA	Rudrayāmala	[unknown literary source]
+X278	RUDRAṬA, KĀVYĀLAṂKĀRA	Rudraṭa, Kāvyālaṃkāra	[unknown literary source]
+6011	RUDRAṬĀLAṂKĀRAṬ.	Rudraṭālaṃkāraṭ.	RUDRAṬĀLAṂKĀRAṬIPPAṆAKA, auch RUDRAṬAKĀVYĀLAṂKĀRAṬ. genannt (R. PISCHEL. ) 
+1230	RĀJAN.	Rājan.	RĀJANIGHAṆṬU, Hdschr. (ROTH). 
+1230a	RĀJAN. (Hdschr.)	Rājan. (Hdschr.)	RĀJANIGHAṆṬU, Hdschr. (ROTH). 
+1231	RĀJAT.	Rājat.	RĀJATARAṂGIṆĪ. Die 6 ersten Bücher nach der Ausg. von TROYER. Die Beträge aus dem 7ten und 8ten Buche von KERN. 
+X066	RĀJAT. ed. Calc.	Rājat. ed. Calc.	[unknown literary source]
+2058	RĀJAV.	Rājav.	RĀJAVALLABHA, nach Citaten ŚKDR. 
+5042.1	RĀJENDR. Not.	Rājendr. Not.	Notices of Sanskrit Mss. by RĀJENDRALĀLA MITRA.
+X128	RĀM. RĀS.	Rām. Rās.	[unknown literary source]
+X195	RĀMADĀSA	Rāmadāsa	[unknown literary source]
+3032	RĀMAPŪRVAT. UP.	Rāmapūrvat. Up.	RĀMAPŪRVATĀPANĪYOPANIṢAD in der Bibl. ind. 
+X272	RĀYAM.	Rāyam.	[unknown literary source]
+1254	S. S. S.	S. S. S.	SAṂGITASĀRASAṂGRAHA, Calcutta 1932 (CAPELLER). 
+4011	SADDH. P.	Saddh. P.	SADDHARMAPUṆḌARĪKA (KERN) . 
+5044	SADUKTIK.	Saduktik.	SADUKTIKARṆĀMṚTA von ŚRĪDHARADĀSA, Hdschr. (AUFRECHT). 
+5046	SARASVATĪK.	Sarasvatīk.	SARASVATĪKAṆṬHĀBHARAṆA, Hdschr. (AUFRECHT). 
+1248	SARVAD.	Sarvad.	SARVADARŚANASAṂGRAHA in der Bibl. ind. (KERN). 
+1249	SARVOPAN.	Sarvopan.	SARVOPANIṢATSĀRA in der Bibl. ind. (GELDNER und ROTH). 
+X036	SATYA	Satya	[unknown literary source]
+1242	SAṂHITOPAN.	Saṃhitopan.	SAṂHITOPANIṢAD, Ausg. von BURNELL. 
+1244	SAṂNY. UP.	Saṃny. Up.	SAṂNYĀSOPANIṢAD in der Bibl. ind. (GELDNER und ROTH). 
+1245	SAṂSK. K.	Saṃsk. K.	ANANTADEVA'S SAṂSKĀRAKAUSTUBHA, obl. fol. 
+5047	SCHIEFNER, TĀRAN.	Schiefner, Tāran.	TĀRĀNĀTHA'S Geschichte des Buddhismus in Indien, aus den Tibetschen übersetzt von ANTON SCHIEFNER. 
+Y007	SCHLEGEL	Schlegel	Friedrich Schlegel [unknown literary source]
+X010	SCHRÖDER	Schröder	[unknown literary source]
+X175	SCHÖNBERG, KṢ.	Schönberg, Kṣ.	[unknown literary source]
+X174	SCHÖNBERG, KṢEM.	Schönberg, Kṣem.	[unknown literary source]
+2059	SETUB.	Setub.	SETUBANDHA, herausgegeben von SIEGFRIED GOLDSCHMIDT. 
+X035	SIDDH. K.	Siddh. K.	[unknown literary source]
+X144a	SIDDH. K. (neue Ausg.)	Siddh. K. (neue Ausg.)	[unknown literary source]
+X012	SIDDH. K. ed. TĀR.	Siddh. K. ed. Tār.	[unknown literary source]
+X144	SIDDH. K. ed. TĀRĀN.	Siddh. K. ed. Tārān.	[unknown literary source]
+1252	SIDDH. ŚIR.	Siddh. Śir.	SIDDHĀNTAŚIROMAṆI (KERN). 
+X083	SMṚTIM.	Smṛtim.	[unknown literary source]
+3035	SOMAKARMAPR.	Somakarmapr.	SOMAKARMAPRADĪPA des RĀMA, Hdschr. (ROTH). 
+X179	SPEYER	Speyer	Jacob Samuel Speyer [unknown literary source]
+X218	ST. JULIEN	St. Julien	[unknown literary source]
+X057	STENZLER	Stenzler	Adolf Friedrich Stenzler [unknown literary source]
+1255	SUBHĀṢITAR.	Subhāṣitar.	SUBHĀṢITARATNĀKARA, Bombay 1872. 
+6014	SUBHĀṢITARATNABH.	Subhāṣitaratnabh.	SUBHĀṢITARATNABHĀṆḌĀGĀRA (TH. AUFRECHT). 
+X143	SUBHĀṢITARATNABH. PRAK.	Subhāṣitaratnabh. Prak.	[unknown literary source]
+5048	SUBHĀṢITĀV.	Subhāṣitāv.	SUBHĀṢITĀVALI von VALLABHADEVA, Hdschr. (AUFRECHT). 
+X123	SUD.	Sud.	[unknown literary source]
+3036	SUKHĀV.	Sukhāv.	SUKHĀVATĪVYŪHA nach der nocht nich erschienenen Ausg. von F. MAX MÜLLER.
+1257	SUPARṆ.	Suparṇ.	SUPARṆĀDHYA, herausg. von ELIMAR GRUBE in Ind. St. 14. 
+1256	SUŚR.	Suśr.	SUŚRUTA (ROTRH). 
+1260	SV.	Sv.	SĀMAVEDA (ROTH). 
+1260a	SV. (Calc. Ausg.)	Sv. (Calc. Ausg.)	SĀMAVEDA [unknown literary source)
+1261	SV. ĀR.	Sv. Ār.	ĀRAṆYAKA zum SV. (ROTH). 
+X290	Sitzungsberichte d. K. Pr. Ak. d. Ww.	Sitzungsberichte d. K. Pr. Ak. d. Ww.	 [unknown literary source]
+X298	Sitzungsberichte der Phil-hist. Kl. der Wiener Ak.	Sitzungsberichte der Phil-hist. Kl. der Wiener Ak.	 ?[unknown literary source]
+X295	Sitzungsberichte der Wiener Ak.	Sitzungsberichte der Wiener Ak.	  [unknown literary source]
+X299	Sitzungsberichte der phil-hist. Kl. der Wiener Ak.	Sitzungsberichte der phil-hist. Kl. der Wiener Ak.	 ?[unknown literary source]
+X290a	Sitzungsberr. d. K. Pr. Ak. d. Ww.	Sitzungsberr. d. K. Pr. Ak. d. Ww.	 [unknown literary source]
+1253	Spr.	Spr.	Indische Sprüche, herausg. von O. BÖHTLINGK. 2te Aufl. Von 7614 an in Melanges asiatiques, T. VIII, S. 217. fgg. Ebendaselbst S. 203. fgg. stehen die durch "zu Spr. " bezeichneten Varianten. 
+Y014	Str.	Str.	[unknown literary source]
+X246	SĀDHANAM.	Sādhanam.	[unknown literary source]
+1239	SĀH. D.	Sāh. D.	SĀHITYADARPAṆA in der Bibl. ind. 
+1239a	SĀH. D. (1828)	Sāh. D. (1828)	[unknown literary source]
+1241	SĀMAV. BR.	Sāmav. Br.	SĀMAVIDHĀNABRĀHMAṆA, Ausg. von BURNELL. 
+X281	SĀMAVIDH. BR.	Sāmavidh. Br.	[unknown literary source]
+X178	SĀMĀNYAN.	Sāmānyan.	[unknown literary source]
+1246	SĀRAS.	Sāras.	SĀRASUNDARĪ, ein Commentar zu AK. 
+1247	SĀRĀV.	Sārāv.	SĀRĀVALI, citirt bei UTPALA ZU VARĀH. BṚH. 
+1250	SĀV.	Sāv.	SĀVITRĪ, herausg. von Bopp. 
+1240	SĀY.	Sāy.	SĀYAṆA. 
+1243	SĀṂKHYAK.	Sāṃkhyak.	SĀṂKHYAKĀRIKĀ, Ausg. von WILSON. 
+1243a	SĀṂKHYAPR.	Sāṃkhyapr.	[unknown literary source]
+X262	Sāg.	Sāg.	[unknown literary source]
+1258	SŪRYAD.	Sūryad.	SŪRYADEVAYAJVAN (KERN). 
+1259	SŪRYAS.	Sūryas.	SŪRYASIDDHĀNTA in der Bibl. ind. 
+X077	TAITT. PRĀT.	Taitt. Prāt.	[unknown literary source]
+1263	TAITT. UP.	Taitt. Up.	TAITTIRĪYOPANIṢAD in der Bibl. ind. 
+1262	TAITT. ĀR.	Taitt. Ār.	TAITTIRĪYĀRAṆYAKA in der Bibl. ind. 
+2060	TAL. BR.	Tal. Br.	A legend from the TALAVAKĀRA or JAIMINĪYA BRĀHMAṆA of the SĀMAVEDA by A. C. BURNELL, Mangalore 1878. 
+X040	TANTRAS.	Tantras.	? TANTRASĀRA [unknown literary source]
+X263	TANTRASĀRA	Tantrasāra	[unknown literary source]
+1265	TARKAS.	Tarkas.	TARKASAṂGRAHA, Allahabad 1849(ROTH). 
+6015	TATTVAK.	Tattvak.	TATTVAKAUMUDĪ (H. Kern). 
+1266	TATTVAS.	Tattvas.	TATTVASAMĀSA, Mirzapore 1850(ROTH). 
+X097	TAWNEY	Tawney	Charles Henry Tawney [unknown literary source]
+1267	TBR.	Tbr.	TAITTIRĪYA BRĀHMAṆA (ROTH). 
+2061	TEJOB. UP.	Tejob. Up.	TEJOBINDŪPANIṢAD in der Bibl. ind. (GELDNER). 
+1268	TRIK.	Trik.	TRIKĀṆḌAŚEṢA. 
+X238	TRIVIKRAMA	Trivikrama	[unknown literary source]
+1269	TS.	Ts.	TAITTIRĪYASAṂHITĀ (ROTH und WEBER). 
+1269a	TS. (ed. WEBER)	Ts. (ed. Weber)	TAITTIRĪYASAṂHITĀ (WEBER). 
+1270	TS. PRĀT.	Ts. Prāt.	PRĀTIŚĀKHYA zur TS. , Ausg. von WHITNEY. 
+1264	TĀṆḌYA-BR.	Tāṇḍya-Br.	TĀṆḌYABRĀHMAṆA in der Bibl. Im grossen Wörterbuch als PAÑCAV. BR. citirt. 
+1264a	TĀṆḌYA-BR. Hdschrr.	Tāṇḍya-Br. Hdschrr.	[unknown literary source]
+1271	UJJVAL.	Ujjval.	UJJVALADATTA, Commentator der UṆĀDISŪTRA. 
+X079	UPALEKHA	Upalekha	[unknown literary source]
+X216	UPAVANAVINODA	Upavanavinoda	[unknown literary source]
+X002	UTPALA	Utpala	a lexicographer [unknown literary source]
+X249	UTPALINĪ	Utpalinī	[unknown literary source]
+5049	UTTAMAC.	Uttamac.	Ueber das UTTAMACARITRAKATHĀNAKAM, die Geschichte vom prinzen Trefflichst in Sitzungsserichte der Kön der Kön. Pr. Akademie der Ww- zu Berlin 1884, No. XVII. 
+1273	UTTARAR.	Uttarar.	UTTARARĀMACARITRA, nach zwei Ausgaben, Calcutta 1831 und 1862. 
+1273a	UTTARAR. (1862)	Uttarar. (1862)	[unknown literary source]
+1273b	UTTARARĀMAC.	Uttararāmac.	UTTARARĀMACARITRA, nach zwei Ausgaben, Calcutta 1831 und 1862. 
+X154	UVAṬA	Uvaṭa	Name of a commentator on the Ṛgveda-prātiśākhya [unknown literary source]
+1272	UṆĀDIS.	Uṇādis.	UṆĀDISŪTRA, herausg. von AUFRECHT. 
+1276	VAIDYABH.	Vaidyabh.	VAIDYABHĀṢYA (ROTH). 
+X034	VAIDYAKA	Vaidyaka	a physician [unknown literary source]
+1277	VAITĀN.	Vaitān.	VAITĀNASŪTRA, Ausg, von GARBE. 
+3037	VAJRACCH.	Vajracch.	VAJRACCHEDIKĀ, herausgegeben von (F. MAX MÜLLER). 
+1275	VAJRAS.	Vajras.	VAJRASŪCI, Ausg. von WEBER. 
+X214	VALL.	Vall.	[unknown literary source]
+X266	VARARUCI	Vararuci	[unknown literary source]
+X031	VARDHAMĀNAC.	Vardhamānac.	[unknown literary source]
+X233	VARIṢṬHA	Variṣṭha	[unknown literary source]
+X248	VARĀH.	Varāh.	[unknown literary source]
+1282	VARĀH. BṚH.	Varāh. Bṛh.	VARĀHAMIHIRA'S BṚHAJJĀTAKA (KERN). 
+1283	VARĀH. BṚH. S.	Varāh. Bṛh. S.	VARĀHAMIHIRA'S BṚHATSAṂHITĀ (KERN). 
+1285	VARĀH. LAGH.	Varāh. Lagh.	VARĀHAMIHIRA'S LAGHUJĀTAKA. Die zwei ersten Adhjaja herausgegeben von WEBER in Ind. St. 2. 
+2045	VARĀH. LAGHUJ.	Varāh. Laghuj.	VARĀHAMIHIRA'S LAGHUJĀTAKA. 
+1284	VARĀH. YOGAY.	Varāh. Yogay.	VARĀHAMIHIRA'S YOGAYĀTRĀ, herausg. von KERN in Ind. St. 10. 14 und 15. 
+3038	VASIṢṬHA	Vasiṣṭha	VASIṢṬHA, nach der Ausg. von Benares (JOLLY). 
+1281	VAṂŚABR.	Vaṃśabr.	VAṂŚABRĀHMAṆA, Ausg. von BURNELL (ROTH). 
+X161	VEDĀNTASĀRA (1829)	Vedāntasāra (1829)	[unknown literary source]
+1292	VET.	Vet.	VETĀLAPAÑCAVIṂŚATI in LA. 
+3039	VET. (U.)	Vet. (U.)	VETĀLAPAÑCA VIṂŚATIKĀ, herausgegeben von HEINRICH UHLE. 
+1289	VEṆĪS.	Veṇīs.	VEṆĪSAṂHĀRA, Ausg. von GRILL (CAPELLER). 
+1293	VIDDH.	Viddh.	VIDDHAŚĀLABHAÑJIKĀKHYANĀṬIKĀ in der Zeitschrift PRATNAKAMRANANDINI(CAPELLER). 
+X261	VIJAYAGAṆĪ	Vijayagaṇī	(? MW short 'i') [unknown literary source]
+X198	VIJÑ.	Vijñ.	[unknown literary source]
+X122	VIJÑĀNEŚVARA	Vijñāneśvara	[unknown literary source]
+1294	VIKR.	Vikr.	VIKRAMORVAŚĪ, Ausg. von BOLLENSEN. 
+5053	VIKR. drāv.	Vikr. drāv.	KĀLIDĀSA'S VIKRAMORVAŚĪYAM nach drāvidischen Handschriften, herausgegeben von RICHARD PISCHEL in. , Monatsbericht der Königlich Preussischen Akademie der Wissenschaften zu Berlin 1875, S. 609. fgg. 
+X188	VIKR. ed. BOLL.	Vikr. ed. Boll.	[unknown literary source]
+X187	VIKR. ed. PISCH.	Vikr. ed. Pisch.	[unknown literary source]
+5053a	VIKR. ed. PISCHEL	Vikr. ed. Pischel	VIKR.drāv. [unknown literary source]
+1295	VIKRAMĀṄKAC.	Vikramāṅkac.	VIKRAMĀṄKADEVACARITA, Ausg. von BÜHLER. 
+X149	VIVEK.	Vivek.	[unknown literary source]
+2065	VIVEKAV.	Vivekav.	VIVEKAVILĀSA im Journal PRATNAKAMRANANDINI. 
+2064	VIVĀDAC.	Vivādac.	VIVĀDACINTĀMAṆI, Calcutta {#saMvat#} {#1234#} {#zAkE#} {#5678#} {#vaizakhE. #} 
+2063	VIŚVA.	Viśva.	VIŚVAKOŚA (PISCHEL). 
+X269	VIŚVAPR.	Viśvapr.	[unknown literary source]
+X055	VIṢṆU	Viṣṇu	[unknown literary source]
+X205	VIṢṆUCANDRA	Viṣṇucandra	[unknown literary source]
+1296	VIṢṆUS.	Viṣṇus.	VIṢṆUSŪTRA, zur Herausgabe vorbereitet von Y. JOLLY (JOLLY) 
+X245	VIṬṬHALA	Viṭṭhala	[unknown literary source]
+2066	VOP.	Vop.	VOPADEVA'S MUGDHABODHA, herausgegeben und erklärt von O. BÖHTLINGK. 
+1297	VP.	Vp.	VIṢṆUPURĀṆA ed. Bomb. 
+1298	VP.²	Vp.²	2te Auflage von WILSON's Uebersetzung des VIṢṆUPURĀṆA, herausgegeben von HALL. 
+X107	VRATARĀJA	Vratarāja	[unknown literary source]
+1299	VS.	Vs.	VĀJASANEYISAṂHITĀ (ROTH und WEBER). 
+1300	VS. PRĀT.	Vs. Prāt.	PRĀTIŚĀKHYA zu VS in Ind. St. 4. 
+3040	VYUTP.	Vyutp.	VYUTPATTI, ein Sanskrit-Tibetisches Wörterbuch aus dem TAÑJUR (SCHIEFNER). 
+X037	VYĀSA	Vyāsa	[unknown literary source]
+X007b	Vardh.	Vardh.	[unknown literary source]
+1290	Verz. d. B. H.	Verz. d. B. H.	WEBER, Verzeichniss der Berliner Handschriften. 
+X247	Verz. d. Cambr. H.	Verz. d. Cambr. H.	[unknown literary source]
+1291	Verz. d. Oxf. H.	Verz. d. Oxf. H.	AUFRECHT, Verzeichniss der Oxforder Handschriften. 
+X219	Verz. d. Pet. H.	Verz. d. Pet. H.	[unknown literary source]
+1274	VĀGBH.	Vāgbh.	VĀGBHAṬA'S ĀYURVEDADARŚANA (ROTH). 
+X267	VĀGBHAṬA	Vāgbhaṭa	[unknown literary source]
+1279	VĀLAKH.	Vālakh.	VĀLAKHILYA, die zwischen ṚV. 8, 84 und 49 eingeschobenen Lieder (ROTH). 
+1280	VĀMANA	Vāmana	VĀMANA'S KĀVYĀLAṂKĀRAVṚTTI, Ausg. von CAPELLER. 
+1287	VĀS.	Vās.	VĀSANTIKĀ, Hdschr. (CAPELLER). 
+1288	VĀSAV.	Vāsav.	VĀSAVADATTĀ in der Bibl. ind. 
+X194	VĀSIṢṬHA	Vāsiṣṭha	[unknown literary source]
+2062	VĀSTUV.	Vāstuv.	VIŚVAKARMA'S VĀSTUVIDYĀ, Hdschr (KERN). 
+1278	VĀYU-P.	Vāyu-P.	VĀYUPURĀṆA, nach Citaten in andern Werken. 
+X260	VĀḌI.	Vāḍi.	[unknown literary source]
+1286	Vārtt.	Vārtt.	Vārttika. 
+4013	VĪRAM.	Vīram.	VĪRAMITRODAYA, Khadirapura 1815(STENZLER) . 
+X190	VĪRAMITROD.	Vīramitrod.	[unknown literary source]
+X287	VĪRAMITRODAYA	Vīramitrodaya	[unknown literary source]
+X101	VṚTTARATNĀKARA	Vṛttaratnākara	[unknown literary source]
+3041	VṚṢABH.	Vṛṣabh.	VṚṢABHĀNUJA im 3ten und 4ten Bande des Pandit (CAPELLER). 
+X256	WASSILYEW	Wassilyew	[unknown literary source]
+X203	WASSILYEW, Der Buddh.	Wassilyew, Der Buddh.	[unknown literary source]
+6017	WEBER	Weber	Albrecht Weber
+1301	WEBER, JYOT.	Weber, Jyot.	WEBER, Ueber den Vedakalender, Namens JYOTIṢAM. 
+1302	WEBER, KṚṢṆAJ.	Weber, Kṛṣṇaj.	WEBER, Ueber die KṚṢṆAJANMĀṢṬAMĪ. Berlin 1868. 
+2067	WEBER, Lit.	Weber, Lit.	Akademische Vorlesung über Indische Literaturgeschichte. Von ALBRECHT WEBER. Zweite vermehrte Auflage. 
+1303	WEBER, Nax.	Weber, Nax.	WEBER, Die vedischen Nachrichten von den naxatra. Berlin 1860. 
+3042	WEBER, RĀMAT.	Weber, Rāmat.	WEBER'S Ausg. RĀMATĀPANĪYOPANIṢAD. 
+X042	WEBER, RĀMAT. UP.	Weber, Rāmat. Up.	[unknown literary source]
+X013	WHITNEY	Whitney	William Dwight Whitney [unknown literary source]
+X251	WHITNEY, Gr.	Whitney, Gr.	[unknown literary source]
+X082	WHITNEY, Ind.	Whitney, Ind.	[unknown literary source]
+X251a	WHITNEY, Roots	Whitney, Roots	[unknown literary source]
+X071	WILSON	Wilson	Horace Hayman Wilson [unknown literary source]
+2068	WILSON, Sel. Spec.	Wilson, Sel. Spec.	WILSON, Select Specimens of the Theatre of the Hindus. 
+1304	WILSON, Sel. W.	Wilson, Sel. W.	Select Works of H. H. WILSON. 
+X070	WILSON, SĀṂKHYAK.	Wilson, Sāṃkhyak.	[unknown literary source]
+3043	WIND. SANC.	Wind. Sanc.	FRIDERICI HENR. HUG. WINDISHMANNI SANCARA sive de theologumenis Vedanticorum. 
+1305	WISE	Wise	Commentary on the Hindu System of Medicine, by T. A. WISE. Calcutta 1845. 
+X090	WRIGHT, Hist. of. Nep.	Wright, Hist. of. Nep.	[unknown literary source]
+X271	YANTRĀDHY.	Yantrādhy.	[unknown literary source]
+X099	YAVANEŚVARA	Yavaneśvara	[unknown literary source]
+X138	YAŚNA.	Yaśna.	[unknown literary source]
+1125	YOGAS.	Yogas.	YOGASŪTRA. 
+1126	YOGAT. UP.	Yogat. Up.	YOGATATTVOPANIṢAD in der Bibl. ind. (GELDNER und ROTH) 
+X048	YOGAY.	Yogay.	[unknown literary source]
+2034	YOGAŚ. UP.	Yogaś. Up.	YOGAŚIKHOPANIṢAD in der Bibl. ind. (GELDNER). 
+1121	YĀJÑ.	Yājñ.	YĀJÑAVALKYA's Gesetzbuch, Ausg. von STENZLER. 
+X215	YĀSKA	Yāska	[unknown literary source]
+1306	Z. d. d. m. G.	Z. d. d. m. G.	Zeitschrift der deutschen morgenlandischen Gesellschaft 
+5055	Z. f. d. K. d. M.	Z. f. d. K. d. M.	Zeitschrift für die Kunde des Morgenlandes. 
+X030	ZACH.	Zach.	[unknown literary source]
+5054	ZACH. Beitr.	Zach. Beitr.	Beiträge zur indischen Lexicographie von THEODOR ZACHARIAE. 
+X030a	ZACHARIAE	Zachariae	Theodore Zachariae [unknown literary source]
+X029	ZIMMER	Zimmer	 Heinrich Zimmer [unknown literary source]
+X043	ZIMMER, Altind. Leben	Zimmer, Altind. Leben	[unknown literary source]
+X007c	ed. Boll.	ed. Boll.	Bollensen edition [unknown literary source]
+X007	ed. Bomb.	ed. Bomb.	Bombay edition [unknown literary source]
+X007a	ed. Calc.	ed. Calc.	Calcutta edition [unknown literary source]
+1237b	ed. M.	ed. M.	PRĀTIŚĀKHYA zum ṚGVEDA. [unknown literary source]
+3025a	ed. Vardh.	ed. Vardh.	MBH. ed. Vardh. ist die auf Kosten des Fürsten von Vardhamāna (Burdwan) gedruckte Ausg. des MAHĀBHĀRATA. Sie enthält nur die 12 ersten Parvan. 
+1009	ĀCĀRĀDARŚA	Ācārādarśa	[unknown literary source]
+Y008	ĀJAN.	Ājan.	[unknown literary source]
+1011	ĀNANDAG.	Ānandag.	ĀNANDAGIRI, Glossator zu ŚAṂKARĀCĀRYA'S Comm. zu BṚH. ĀR. UP. in der Bibl. ind. (KERN). 
+X146	ĀNANDAGIRI	Ānandagiri	[unknown literary source]
+2002	ĀNANDAL.	Ānandal.	ĀNANDALAHARĪ in HAEBELIN's Anthologie. 
+1013	ĀPAST.	Āpast.	ĀPASTAMBA'S DHARMASŪTRA, Ausg. von BÜHLER. 
+X027	ĀPAST. GAUT.	Āpast. Gaut.	[unknown literary source]
+X028	ĀPAST. GṚHY.	Āpast. Gṛhy.	[unknown literary source]
+1014	ĀPAST. ŚR.	Āpast. Śr.	ĀPASTAMBA'S ŚRAUTASŪTRA, Hdschr. (GARME und ROTH). 
+1018	ĀRUṆ. UP.	Āruṇ. Up.	ĀRUṆEYOPANIṢAD in der Bibl. ind. (GELDNER und ROTH). 
+1015	ĀRYABH.	Āryabh.	ĀRYABHAṬA Ausg. von KERN (KERN). 
+1016	ĀRYAV.	Āryav.	ĀRYAVIDYĀSUDHĀKARA, Bombay 1868 (KERN). 
+1017	ĀRṢ. BR.	Ārṣ. Br.	ĀRṢEYABRĀHMAṆA, Ausg. von BURNELL. 
+1019	ĀTMOPAN.	Ātmopan.	ĀTMOPANIṢAD in der Bibl. ind. (GELDER und ROTH). 
+1002	ĀŚV. GṚHY.	Āśv. Gṛhy.	ĀŚVALĀYANA'S GṚHYASŪTRA; Ausg. von STENZLER. 
+1002a	ĀŚV. GṚHY. (Bibl. ind.)	Āśv. Gṛhy. (Bibl. ind.)	[unknown literary source]
+1003	ĀŚV. GṚHY. PARIŚ.	Āśv. Gṛhy. Pariś.	PARIŚIṢṬA ZU ĀŚV. GṚHY. in der Bibl. ind. 
+1001	ĀŚV. ŚR.	Āśv. Śr.	ĀŚVALĀYANA's ŚRAUTASŪTRA in der Bibl. ind. 
+X106	ĪŚOP.	Īśop.	[unknown literary source]
+1050	ŚABDAC.	Śabdac.	ŚABDACANDRIKĀ, nach GOLDSTÜCKER. 
+1060	ŚAT. BR.	Śat. Br.	ŚATAPATHABRĀHMAṆA, nach WEBER'S Index. 
+1060a	ŚAT. BR. (KĀṆVA-Rec.)	Śat. Br. (Kāṇva-Rec.)	ŚATAPATHABRĀHMAṆA ?
+1063	ŚATR.	Śatr.	ŚATRUṂJAYAMĀHĀTMYA, Ausg. von WEBER. 
+1052	ŚAṂK.	Śaṃk.	ŚAṂKARĀCĀRYA als Commentator verchiedener UPANIṢAD. 
+4001	ŚAṂK. VIJ.	Śaṃk. Vij.	ŚAṂKARAVIJAYA in der Bibl. ind. 
+X032	ŚAṂK. zu BĀDAR.	Śaṃk. zu Bādar.	[unknown literary source]
+X147	ŚAṂKARA	Śaṃkara	[unknown literary source]
+X127	ŚIKṢĀ	Śikṣā	[unknown literary source]
+1067	ŚIRA-UP.	Śira-Up.	ŚIRAUPANIṢAD in der Bibl. ind. (GELDNER und ROTH). 
+5017	ŚIVA-P.	Śiva-P.	ŚIVA-PURĀṆA (SK. , dschr. No. 126 in verzeichnis der Oxforder Handschriften (AUFRECHT). 
+1066	ŚIŚ.	Śiś.	ŚIŚUPĀLAVADHA, Calcutta 1815. 
+2010	ŚKDR.	Śkdr.	ŚABDAKALPADRUMA. 
+2010a	ŚKDR. Hdschr.	Śkdr. Hdschr.	ŚABDAKALPADRUMA manuscript [unknown literary source]
+Y009	ŚR.	Śr.	[unknown literary source]
+3007	ŚRUT.	Śrut.	ŚRUTABODHA in der Zeitschrift für die Kunde des Morgenlandes, Bd. IV. 
+2012	ŚRUT. (BR.)	Śrut. (Br.)	ŚRUTABODHA, Ausg. von BROCKHAUS. 
+2012a	ŚRUT. (ed. EWALD)	Śrut. (ed. Ewald)	Heinrich Ewald [unknown literary source]
+1070	ŚRĪP.	Śrīp.	ŚRĪPATI. 
+Y010	ŚRĪPATI	Śrīpati	[unknown literary source]
+6004	ŚUKAS.	Śukas.	ŚUKASAṂDEŚA in Journal of the Royal Asiatic Society of Great Britain & Ireland, Bd. XVI. 
+3008	ŚUKRAN.	Śukran.	ŚUKRANĪTI in OPPERT, On the army organization of the Ancient Hindus S. 107 (WEBER). 
+1071	ŚULBAS.	Śulbas.	ŚULBASŪTRA in der Zeitschirft The Pandit IX. X und New Series I (CAPELLER). 
+1072	ŚVETĀŚV. UP.	Śvetāśv. Up.	ŚVETĀŚVATAROPANIṢAD in der Bibl. ind. 
+1051	ŚĀK.	Śāk.	ŚĀKUNTALA, Ausg. von BÖHTLINGK, wenn nicht ausdrücklich PISCH. (PISCHEL) oder PRAMAC. (PREMACANDRA) hinzugefügt wird. 
+X111a	ŚĀK. (CH.)	Śāk. (Ch.)	[unknown literary source]
+X089a	ŚĀK. (PISCH.)	Śāk. (Pisch.)	[unknown literary source]
+X111	ŚĀK. CH.	Śāk. Ch.	[unknown literary source]
+X089	ŚĀK. PISCH.	Śāk. Pisch.	[unknown literary source]
+X189	ŚĀK. ed. PISCH.	Śāk. ed. Pisch.	[unknown literary source]
+X237	ŚĀK. ed. PREMAC.	Śāk. ed. Premac.	[unknown literary source]
+5015	ŚĀKTĀN.	Śāktān.	ŚĀKTĀNANDATARAṂGIṆI Hdschr. (AUFRECHT). 
+1057	ŚĀNT.	Śānt.	ŚĀNTANAVA'S PHIṬSŪTRA, AUSG. VON KIELHORN. 
+2006	ŚĀNTIŚ.	Śāntiś.	ŚĀNTIŚATAKA in HAEBERLIN'S Anthologie. 
+1058	ŚĀRṄG. PADDH.	Śārṅg. Paddh.	ŚĀRṄGADHARA'S PADDHATI, Hdschr. im Asiatischen Museum der Kais. Ak. d. Ww. in St. petersbug. 
+1059a	ŚĀRṄG. S.	Śārṅg. S.	[unknown literary source]
+1059	ŚĀRṄG. SAṂH.	Śārṅg. Saṃh.	ŚĀRṄGADHARA'S SAṂHITĀ, Bombay 1853 (ROTH). 
+Y011	ŚĀŚVATA	Śāśvata	[unknown literary source]
+X006	ŚĀṄKH.	Śāṅkh.	[unknown literary source]
+1054	ŚĀṄKH. BR.	Śāṅkh. Br.	ŚĀṄKHĀYANA'S BRĀHMAṆA (WEBER). 
+1056	ŚĀṄKH. GṚHY.	Śāṅkh. Gṛhy.	ŚĀṄKHĀYANA'S GṚHYASŪTRA, herausg. von OLDENBERG in Ind. St. 15. 
+X003	ŚĀṄKH. ĀR.	Śāṅkh. Ār.	[unknown literary source]
+1055	ŚĀṄKH. ŚR.	Śāṅkh. Śr.	ŚĀṄKHĀYANA'S ŚRAUTASŪTRA (WEBER). 
+1053	ŚĀṆḌ.	Śāṇḍ.	The Aphorisms of SĀṆḌILYA in der Bibl. ind. 
+2009	ŚĪLĀṄKA	Śīlāṅka	ŚĪLĀṄKA'S Commentar zum ĀCĀRĀṄGASŪTRA, Calcutta 1878 (JACOBI). 
+X017	ŚŪDRADH.	Śūdradh.	[unknown literary source]
+X252	ŚŪLAPĀṆĪ	Śūlapāṇī	[unknown literary source]
+X141	ṚGVIDHĀNA	Ṛgvidhāna	[unknown literary source]
+5043	ṚKT.	Ṛkt.	ṚKTANTRA, herausgegeben von BURNELL (STENZLER). 
+1235	ṚTUS.	Ṛtus.	RṬUSAṂHĀRA, Ausg. von BOHLEN. 
+1236	ṚV.	Ṛv.	ṚGVEDA (ROTH). 
+1237	ṚV. PRĀT.	Ṛv. Prāt.	PRĀTIŚĀKHYA zum ṚGVEDA. 
+1237a	ṚV. PRĀT. (ed. M.)	Ṛv. Prāt. (ed. M.)	PRĀTIŚĀKHYA zum ṚGVEDA. 
+X145	ṚV. ed. M.	Ṛv. ed. M.	[unknown literary source]
+X005	ṚṢIMAṆḌALASTOTRA	Ṛṣimaṇḍalastotra	[unknown literary source]
+X228	ṢAḌGURUŚIṢYA	Ṣaḍguruśiṣya	N. of a Commentator on Kātyāyana's Ṛg-veda-sarvânukramaṇī (who lived in the 12th century, A.D.) [unknown literary source]
+1251	ṢAḌV. BR.	Ṣaḍv. Br.	ṢAḌVIṂŚABRĀHMAṆA (WEBER). 
