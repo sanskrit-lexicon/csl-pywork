@@ -12,12 +12,6 @@ xmlroot = HW.dictcode
 %if dictlo in ['skd','vcp','armh']:
 def adjust_slp1(x):
  # in skd, all text is Devanagari.  But, the text is skd.txt does not use
-%endif
-%if dictlo not in ['skd','vcp','sch','md','shs','wil','ap90','bur','acc','yat','armh']:
-def unused_adjust_slp1(x):
- # in vcp, all text is Devanagari.  But, the text is vcp.txt does not use
-%endif
-%if dictlo not in ['sch','md','shs','wil','ap90','bur','acc','yat']:
  #  the {#..#} markup to denote Devanagari.
  # We want to add <s>..</s> markup.
  # This requires that we separate out other markup  (always in form
@@ -33,7 +27,6 @@ def unused_adjust_slp1(x):
    outarr.append(part)
   elif part.startswith('[Page') and part.endswith(']'):
    outarr.append(part)
- # elif part.startswith('&') and part.endswith(';'):
   elif part[0] not in string.printable:
    outarr.append(part)
   else: # assume text slp1
