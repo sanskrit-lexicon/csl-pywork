@@ -564,14 +564,28 @@ def body_alt(bodylines,hwrec):
 %if dictlo == 'inm':
 def body_inm(lines):
  ans0 = []
+ # phase 0: 12-13-2021 insert <div n="lb"> into most lines
+ nodivstarts = ('<div n="P">', '<div n="HI">', '[Page', '<F>',
+                #'<C n="4"/>(4) Jahnu','<C n="6"/>(6) Ṛcīka'  # why these 2?
+               )
+ newlines = []
+ for idx,line in enumerate(lines):
+  if idx == 0:
+   # first of 'datalines'
+   newline = line
+  elif line.startswith(nodivstarts):
+   newline = line
+  else:
+   newline = '<div n="lb">' + line
+  newlines.append(newline)
  # phase 1: append <sup> lines to previous line
  nsup=0
- for idx,line in enumerate(lines):
+ for idx,line in enumerate(newlines):
   if line.startswith('<sup>'): # footnote marker
    idx0 = len(ans0) - 1
    ans0[idx0] = ans0[idx0] + line
   else:
-   ans0.append(line)
+   ans0.append(line) 
  # phase 2: close each line beginning with <div
  for idx,line in enumerate(ans0):
   if line.startswith('<div'):
