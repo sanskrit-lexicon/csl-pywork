@@ -647,6 +647,13 @@ def construct_xmlstring(datalines,hwrec):
   datalines1.append(x)
  datalines = datalines1
 %endif
+%if dictlo in ['acc']:
+ for i,x in enumerate(datalines):
+  if (i != 0) and not x.startswith('<'):
+   x = '<br/>' + x
+  datalines1.append(x)
+ datalines = datalines1
+%endif
  bodylines = [dig_to_xml(x) for x in datalines]
  if hwrec.type != None:
   bodylines = body_alt(bodylines,hwrec)
