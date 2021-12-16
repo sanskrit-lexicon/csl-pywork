@@ -679,7 +679,7 @@ def construct_xmlstring(datalines,hwrec):
    pass
   elif x.startswith('<C '):
    # pe has about a dozen entries, such as aTarva, Bfgu
-   # none in pgn
+   # not relevant for others
    x = '<div n="lb"/>' + x
   elif x.startswith(('<','[Page')):
    pass
@@ -688,6 +688,22 @@ def construct_xmlstring(datalines,hwrec):
   datalines1.append(x)
  datalines = datalines1
 %endif
+%if dictlo in ['snp']:
+ for i,x in enumerate(datalines):
+  if i == 0:
+   pass
+  elif x.strip() == '':
+   pass
+  elif x.startswith('<bot>'):
+   x = '<div n="lb"/>' + x
+  elif x.startswith(('<','[Page')):
+   pass
+  else:
+   x = '<div n="lb"/>' + x
+  datalines1.append(x)
+ datalines = datalines1
+%endif
+
 %if dictlo in ['mw72']:
  for i,x in enumerate(datalines):
   if i == 0:
