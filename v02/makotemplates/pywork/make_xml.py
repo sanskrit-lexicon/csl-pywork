@@ -248,10 +248,11 @@ def dig_to_xml_specific(x):
  # and retain line-breaks.
  divflag = False
  # for experimenting.  When divflag is True, remove '<>' and introduce <div>
- if divflag:
-  x =  re.sub(r'<>','',x)  # main
- else:
-  x =  re.sub(r'<>','<lb/>',x)  # main
+ # Remove 12-15-2021. See later for introduction of <lb/>
+ #if divflag:
+ # x =  re.sub(r'<>','',x)  # main
+ #else:
+ # x =  re.sub(r'<>','<lb/>',x)  # main
  # change -- to mdash
  x = re.sub(r'--',u'—',x)
  # change ‡ to _  (two vowels that will be combined via sandhi)
@@ -651,6 +652,19 @@ def construct_xmlstring(datalines,hwrec):
  for i,x in enumerate(datalines):
   if (i != 0) and not x.startswith('<'):
    x = '<br/>' + x
+  datalines1.append(x)
+ datalines = datalines1
+%endif
+%if dictlo in ['md']:
+ for i,x in enumerate(datalines):
+  if i == 0:
+   pass
+  elif x.strip() == '':
+   pass
+  elif x.startswith(('<','[Page')):
+   pass
+  else:
+   x = '<lb/>' + x
   datalines1.append(x)
  datalines = datalines1
 %endif
