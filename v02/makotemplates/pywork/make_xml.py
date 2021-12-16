@@ -668,13 +668,15 @@ def construct_xmlstring(datalines,hwrec):
   datalines1.append(x)
  datalines = datalines1
 %endif
-%if dictlo in ['pe']:
+%if dictlo in ['pe','pgn']:
  for i,x in enumerate(datalines):
   if i == 0:
    pass
   elif x.strip() == '':
    pass
-  elif x.startswith('<C '): # about a dozen entries, such as aTarva, Bfgu
+  elif x.startswith('<C '):
+   # pe has about a dozen entries, such as aTarva, Bfgu
+   # none in pgn
    x = '<div n="lb"/>' + x
   elif x.startswith(('<','[Page')):
    pass
