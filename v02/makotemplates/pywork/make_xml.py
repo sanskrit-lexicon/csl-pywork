@@ -716,6 +716,19 @@ def construct_xmlstring(datalines,hwrec):
   datalines1.append(x)
  datalines = datalines1
 %endif
+%if dictlo in ['yat']:
+ for i,x in enumerate(datalines):
+  if i == 0:
+   pass
+  elif x.strip() == '':
+   pass
+  elif x.startswith(('[Page')):
+   pass
+  else:
+   x = '<br/>' + x
+  datalines1.append(x)
+ datalines = datalines1
+%endif
  bodylines = [dig_to_xml(x) for x in datalines]
  if hwrec.type != None:
   bodylines = body_alt(bodylines,hwrec)
