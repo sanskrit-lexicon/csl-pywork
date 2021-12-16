@@ -668,6 +668,21 @@ def construct_xmlstring(datalines,hwrec):
   datalines1.append(x)
  datalines = datalines1
 %endif
+%if dictlo in ['pe']:
+ for i,x in enumerate(datalines):
+  if i == 0:
+   pass
+  elif x.strip() == '':
+   pass
+  elif x.startswith('<C '): # about a dozen entries, such as aTarva, Bfgu
+   x = '<div n="lb"/>' + x
+  elif x.startswith(('<','[Page')):
+   pass
+  else:
+   x = '<div n="lb"/>' + x
+  datalines1.append(x)
+ datalines = datalines1
+%endif
  bodylines = [dig_to_xml(x) for x in datalines]
  if hwrec.type != None:
   bodylines = body_alt(bodylines,hwrec)
