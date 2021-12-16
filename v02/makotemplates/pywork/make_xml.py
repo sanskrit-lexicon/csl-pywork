@@ -655,14 +655,14 @@ def construct_xmlstring(datalines,hwrec):
   datalines1.append(x)
  datalines = datalines1
 %endif
-%if dictlo in ['md','shs','skd']:
+%if dictlo in ['md','shs','skd','vcp']:
  for i,x in enumerate(datalines):
   if i == 0:
    pass
   elif x.strip() == '':
    pass
   elif x.startswith('<Picture>'):
-   # skd only
+   # skd,vcp only
    x = '<lb/>' + x
   elif x.startswith(('<','[Page')):
    pass
