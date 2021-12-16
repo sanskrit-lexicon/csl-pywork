@@ -327,7 +327,7 @@ def dig_to_xml_specific(x):
  # 05-24-2021. commented out
  ##x = re.sub(r'^<>--([0-9])',r'<div n="1"/>— \1',x)
  ##x = x.replace('<>','<lb/>')
- x = x.replace('<>','') # 05-24-2021
+ # x = x.replace('<>','') # 05-24-2021.  not needed as of 12-15-2021
  ##x = re.sub(r' --([0-9][.])',r' <div n="1"/>— \1',x)
  x = x.replace('<P>','<P/>')
  if '<H>' in x:  # this has been removed (20170701)
