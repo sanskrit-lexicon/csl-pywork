@@ -789,7 +789,7 @@ def construct_xmlstring(datalines,hwrec):
   datalines1.append(x)
  datalines = datalines1
 %endif
-%if dictlo in ['ae']: 
+%if dictlo in ['ae','bor']: 
  for i,x in enumerate(datalines):
   if i == 0:
    pass
