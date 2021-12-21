@@ -24,7 +24,7 @@ err.	<id>err.</id> <disp>de façon erronée</disp>
 exclam.	<id>exclam.</id> <disp>exclamation/exclamatif</disp>
 ép.	<id>ép.</id> <disp>épithète</disp>
 f.	<id>f.</id> <disp>féminin</disp>
-fig.	<id>fig.</id> <disp>figuré</disp>
+fig.	<id>fig.</id> <disp>au figuré</disp>
 fut.	<id>fut.</id> <disp>futur.</disp>>
 fut. périphr.	<id>fut. périphr.</id> <disp>futur périphrastique</disp>
 gén.	<id>gén.</id> <disp>génitif</disp>
