@@ -62,6 +62,7 @@ oft.	<id>oft.</id> <disp>Often times.</disp>
 opp.	<id>opp.</id> <disp>Opposite of.</disp>
 P.	<id>P.</id> <disp>Parasmaipada.</disp>
 pass.	<id>pass.</id> <disp>Passive.</disp>
+Pass.	<id>Pass.</id> <disp>Passive.</disp>
 pers.	<id>pers.</id> <disp>Persian.</disp>
 phil.	<id>phil.</id> <disp>Philosophy.</disp>
 pl.	<id>pl.</id> <disp>Plural.</disp>
