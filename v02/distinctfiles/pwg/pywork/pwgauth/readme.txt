@@ -4,6 +4,9 @@ pwgauth/readme.txt
 06-01-2020
 To make changes, modify file pwgbib_input.txt.
 
+Note 2:  '&#13;&#10;' is used in long tooltips. 
+   the tooltip is displayed with line breaks at these points
+   This is same as '\r\n' in Python.
 Note 1:
 There is some confusion regarding pwgbib_input.txt and pwgbib.txt.
 pwgbib.txt is NOT used in remaking the pwbib.sqlite
