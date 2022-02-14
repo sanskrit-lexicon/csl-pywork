@@ -4,6 +4,12 @@ pwgauth/readme.txt
 06-01-2020
 To make changes, modify file pwgbib_input.txt.
 
+Note: pwbib_input.txt has 4 tab-delimited fields.
+For consistency with the sqlite construction (pwbib.sql), the
+first field must be a unique identifier.
+check_pwbib.py checks that pwbib_input.txt conforms to these constraints.
+python check_pwbib.py pwbib_input.txt
+
 Note 2:  '&#13;&#10;' is used in long tooltips. 
    the tooltip is displayed with line breaks at these points
    This is same as '\r\n' in Python.
