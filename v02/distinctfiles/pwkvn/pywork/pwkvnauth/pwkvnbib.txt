@@ -1,0 +1,791 @@
+1001 <HI iast="ĀŚV.ŚR.">ĀŚV.ŚR. = ĀŚVALĀYANA's ŚRAUTASŪTRA in der Bibl. ind. 
+1002 <HI iast="ĀŚV.GṚHY.">ĀŚV.GṚHY. = ĀŚVALĀYANA'S GṚHYASŪTRA; Ausg. von STENZLER. 
+1003 <HI iast="ĀŚV.GṚHY.PARIŚ.">ĀŚV.GṚHY.PARIŚ. = PARIŚIṢṬA ZU ĀŚV. GṚHY. in der Bibl. ind. 
+1004 <HI iast="AGNI-P.">AGNI-P. = AGNIPURĀṆA in der Bibl. ind. 
+1005 <HI iast="AIT.ĀR.">AIT.ĀR. = AITAREYĀRAṆYAKA in der Bibl. ind. In der Regel citirt nach Seite und Zeile (KERN und ROTH). 
+1006 <HI iast="AIT.BR.">AIT.BR. = AITAREYABRĀHMAṆA, Ausg. von HAUG. 
+1007 <HI iast="AIT.UP.">AIT.UP. = AITAREYOPANIṢAD in der Bibl. ind. 
+1008 <HI iast="AK.">AK. = AMARAKOŚA, Ausg. von LOISELEUR DESLONGCHAMPS. 
+1009 <HI iast="ĀCĀRĀDARŚA.">ĀCĀRĀDARŚA. = , Benares 1921 (STENZLER). 
+1010 <HI iast="AMṚT.UP.">AMṚT.UP. = AMṚTABINDŪPANIṢAD in der Bibl. ind. (GELDNER und ROTH). 
+1011 <HI iast="ĀNANDAG.">ĀNANDAG. = ĀNANDAGIRI, Glossator zu ŚAṂKARĀCĀRYA'S Comm. zu BṚH. ĀR Up. in der Bibi. ind. (KERN). 
+1012 <HI iast="ANUKR.zuṚV.">ANUKR.zuṚV. = ANUKRAMAṆIKĀ zu ṚV. im Comm. SĀYAṆA'S. 
+1013 <HI iast="ĀPAST.">ĀPAST. = ĀPASTAMBA'S DHARMASŪTRA, Ausg. von BÜHLER. 
+1014 <HI iast="ĀPAST.ŚR.">ĀPAST.ŚR. = ĀPASTAMBA'S ŚRAUTASŪTRA, Hdschr. (GARME und ROTH). 
+1015 <HI iast="ĀRYABH.">ĀRYABH. = ĀRYABHAṬA Ausg. von KERN (KERN). 
+1016 <HI iast="ĀRYAV.">ĀRYAV. = ĀRYAVIDYĀSUDHĀKARA, Bombay 1868 (KERN). 
+1017 <HI iast="ĀRṢ.BR.">ĀRṢ.BR. = ĀRṢEYABRĀHMAṆA, Ausg. von BURNELL. 
+1018 <HI iast="ĀRUṆ.UP.">ĀRUṆ.UP. = ĀRUṆEYOPANIṢAD in der Bibl. ind. (GELDNER und ROTH). 
+1019 <HI iast="ĀTMOPAN.">ĀTMOPAN. = ĀTMOPANIṢAD in der Bibl. ind. (GELDER und ROTH). 
+1020 <HI iast="AV.">AV. = ATHARVAVEDA, Ausg. von ROTH und WHITNEY (ROTH). 
+1021 <HI iast="AV.JYOT.">AV.JYOT. = JYOTIṢA zum AV. , Hdschr. (ROTH). 
+1022 <HI iast="AV.PAIPP.">AV.PAIPP. = AV. der PAIPPALĀDA-Schule, Hdschr. (ROTH). 
+1023 <HI iast="AV.PARIŚ.">AV.PARIŚ. = PARIŚIṢṬA zum AV. , Hdschr. (ROTH). 
+1024 <HI iast="AV.PRĀYAŚC.">AV.PRĀYAŚC. = PRĀYAŚCITTA zum AV. , Hdschr. (ROTH). 
+1025 <HI iast="BĀDAR.">BĀDAR. = BĀDARĀYAṆA'S BRAHMASŪTRA in der Bibl. ind. 
+1026 <HI iast="B.A.J.">B.A.J. = Bombay Asiatic Journal (GELDNER). 
+1027 <HI iast="BĀLAR.">BĀLAR. = BĀLARĀMĀYAṆA, Benares 1869 (KERN). 
+1028 <HI iast="Beitr.z.K.d.ig.Spr.">Beitr.z.K.d.ig.Spr. = Beiträge zur Kunde der indogermanischen Sprachen. 
+1029 <HI iast="BENF.Chr.">BENF.Chr. = BENFEY'S Chrestomathie. 
+1030 <HI iast="BHAG.">BHAG. = BHAGAVADGITĀ, Ausg. von SCHLEGEL. 
+1031 <HI iast="BHĀG.P.">BHĀG.P. = BHĀGAVATAPURĀṆA. Die 9 ersten Skandha nach BURNOUF's. Ausgabe, wenn nicht ausdrücklich. ed. Bomb. hinzugefügt wird; die letzten Skandha nach der ed. Bomb. In Klammern eingeschlossene Zahlen verweisen auf ed. Bomb. 
+1032 <HI iast="BHĀR.NĀṬYAŚ.">BHĀR.NĀṬYAŚ. = BHĀRATĪYANĀṬYAŚĀSTRA am Schluss von DAŚAR. In der Bi?? in. 
+1033 <HI iast="BHĀṢĀP.">BHĀṢĀP. = BHĀṢĀPARICCHEDA in der Bibl. ind. 
+1034 <HI iast="BHAṬṬ.">BHAṬṬ. = BHAṬṬIKĀVYA, Calcutta 1828. 
+1035 <HI iast="BHĀVAPR.">BHĀVAPR. = BHĀVAPRAKĀŚA, Calcutta 1875 und Hdschr. (ROTH). 
+1036 <HI iast="BHAVIṢYOTT.P.">BHAVIṢYOTT.P. = BHAVIṢYOTTARAPURĀṆA nach Citaten in andern Werken. 
+1037 <HI iast="BHOJA-CAR.">BHOJA-CAR. = BHOJACARITRA, Madras 1862 (STENZLER). 
+1038 <HI iast="BHOJA-PR.">BHOJA-PR. = BHOJAPRABANDHA, Benares 1925(KERN). 
+1039 <HI iast="Bibl.ind.">Bibl.ind. = Bibliotheca indica. 
+1040 <HI iast="BĪJAG.">BĪJAG. = BĪJAGAṆITA, Calcutta 1846(KERN). 
+1041 <HI iast="BRAHMABINDŪP.">BRAHMABINDŪP. = BRAHMABINDŪPANIṢAD in der Bibl. ind. (GELDER uns ROTH). 
+1042 <HI iast="BRAHMA-P.">BRAHMA-P. = BRAMAPURĀṆA nach Citaten in verschiedenen Werkes. 
+1043 <HI iast="BRAHMAS.">BRAHMAS. = BĀDAR. 
+1044 <HI iast="BRAHMOP.">BRAHMOP. = BRAHMOPANIṢAD in der Bibl. ind. (GELDNER und ROTH). 
+1045 <HI iast="BṚHADD.">BṚHADD. = BṚHADDEVATĀ. 
+1046 <HI iast="BṚH.ĀR.UP.">BṚH.ĀR.UP. = BṚHADĀRAṆYAKOPANIṢAD in der Bibl. ind. 
+1047 <HI iast="BÜHLER,Rep.">BÜHLER,Rep. = Detailed Report of a Tour in search of Sanskrit Mss. made. in Kāsmir, Rajputana, and Central India. By G. BÜHLER, Bombay 1877. 
+1048 <HI iast="BÜHL.GUZ.">BÜHL.GUZ. = Catalogue of S. Mss. fromm Guzerat etc. by G. BÜHLER. Bombay 1871-1873 (ROTH). 
+1049 <HI iast="BURN.Intr.">BURN.Intr. = BURNOUF, Introdution a l'historie du Buddhisme Indien. 
+1050 <HI iast="ŚABDAC.">ŚABDAC. = ŚABDACANDRIKĀ, nach GOLDSTÜCKER. 
+1051 <HI iast="ŚĀK.">ŚĀK. = ŚĀKUNTALA, Ausg. von BÖHTLINGK, wenn nicht ausdrücklich PISCH. (PISCHEL) oder PRAMAC. (PREMACANDRA) hinzugefügt wird. 
+1052 <HI iast="ŚAṂK.">ŚAṂK. = ŚAṂKARĀCĀRYA als Commentator verchiedener UPANIṢAD. 
+1053 <HI iast="ŚĀṆḌ.">ŚĀṆḌ. = The Aphorisms of SĀṆḌILYA in der Bibl. ind. 
+1054 <HI iast="ŚĀṄKH.BR.">ŚĀṄKH.BR. = ŚĀṄKHĀYANA'S BRĀHMAṆA (WEBER). 
+1055 <HI iast="ŚĀṄKH.ŚR.">ŚĀṄKH.ŚR. = ŚĀṄKHĀYANA'S ŚRAUTASŪTRA (WEBER). 
+1056 <HI iast="ŚĀṄKH.GṚHY.">ŚĀṄKH.GṚHY. = ŚĀṄKHĀYANA'S GṚHYASŪTRA, herausg. von OLDENBERG in Ind. St. 15. 
+1057 <HI iast="ŚĀNT.">ŚĀNT. = ŚĀNTANAVA'S PHIṬSŪTRA, AUSG. VON KIELHORN. 
+1058 <HI iast="ŚĀRṄG.PADDH.">ŚĀRṄG.PADDH. = ŚĀRṄGADHARA'S PADDHATI, Hdschr. im Asiatischen Museum der Kais. Ak. d. Ww. in St. petersbug. 
+1059 <HI iast="ŚĀRṄG.SAṂH.">ŚĀRṄG.SAṂH. = ŚĀRṄGADHARA'S SAṂHITĀ, Bombay 1853 (ROTH). 
+1060 <HI iast="ŚAT.BR.">ŚAT.BR. = ŚATAPATHABRĀHMAṆA, nach WEBER'S Index. 
+1061 <HI iast="Cat.C.PR.">Cat.C.PR. = A Catalogue of S. Mss. existing in the central provinces. Ed. by F. KIELHORN. Nagpur 1874(ROTH). 
+1062 <HI iast="Cat.NW.PR.">Cat.NW.PR. = A Catalogue of S. Mss. in private libarties of the North-Western Provinves. I. Benares 1874 (ROTH). 
+1063 <HI iast="ŚATR.">ŚATR. = ŚATRUṂJAYAMĀHĀTMYA, Ausg. von WEBER. 
+1064 <HI iast="CHILDERS.">CHILDERS. = CHILDERS' Pali-Wörterbuch. 
+1065 <HI iast="Chr.">Chr. = BÖHTLINGK'S Sanskrit-Chresthomathie, 2te Aufl. 
+1066 <HI iast="ŚIŚ.">ŚIŚ. = ŚIŚUPĀLAVADHA, Calcutta 1815. 
+1067 <HI iast="ŚIRA-UP.">ŚIRA-UP. = ŚIRAUPANIṢAD in der Bibl. ind. (GELDNER und ROTH). 
+1068 <HI iast="COLEBR.Alg.">COLEBR.Alg. = COLEBROOKE, Algebra with Arithmetic and Mensuration u. s. w. London 1817. 
+1069 <HI iast="COLEBR.Misc.Ess.">COLEBR.Misc.Ess. = Miscellaneous Essays by H. T. COLEBROOKE. London. 1837. 
+1070 <HI iast="ŚRĪP.">ŚRĪP. = ŚRĪPATI. 
+1071 <HI iast="ŚULBAS.">ŚULBAS. = ŚULBASŪTRA in der Zeitschirft The Pandit IX. X und New Series I (CAPELLER). 
+1072 <HI iast="ŚVETĀŚV.UP.">ŚVETĀŚV.UP. = ŚVETĀŚVATAROPANIṢAD in der Bibl. ind. 
+1073 <HI iast="DAŚAK.">DAŚAK. = DAŚAKUMĀRA, Ausg. von BÜHLER (CAPELLER). 
+1074 <HI iast="DAŚAR.">DAŚAR. = DAŚARŪPA in der Bibl. ind. 
+1075 <HI iast="DAIV.BR.">DAIV.BR. = DAIVATABRĀHMAṆA, Calcutta 1875 und Ausg. von BURNELL. Mangalore 1873 (ROTH). 
+1076 <HI iast="DEVATĀDHY.BRĀHM.">DEVATĀDHY.BRĀHM. = DAIV. BR. <NF> 
+1077 <HI iast="DHAMMAP.">DHAMMAP. = DHAMMAPADA, Ausg. von FAUṢÖLL. 
+1078 <HI iast="DHANV.">DHANV. = DHANVANTARI'S Wörterbuch, Hdschr. (ROTH). 
+1079 <HI iast="DHĀTUP.">DHĀTUP. = DHĀTUPĀṬHA, Ausg. von WESTERGAARD. 
+1080 <HI iast="DHYĀNAB.UP.">DHYĀNAB.UP. = DHYĀNABINDŪPANIṢAD in der Bibl. ind. (GELDNER und ROTH). 
+1081 <HI iast="DHŪRTAN.">DHŪRTAN. = DHŪRTANĀṬAKA, Hdschr. (CAPELLER). 
+1082 <HI iast="DHŪRTAS.">DHŪRTAS. = DHŪRTASAMĀGAMA in LASSEN'S Anthologie. 
+1083 <HI iast="DH.V.">DH.V. = DHANAṂJAYAVIJAYA, Calcutta 1871 (CAPELLER). 
+1084 <HI iast="DIVYĀVAD.">DIVYĀVAD. = DIVYĀVADĀNA, Hdschr. (SCHIEFNER). 
+1085 <HI iast="JĀBĀLOP.">JĀBĀLOP. = JĀBĀLOPANIṢAD in der Bibl. ind. (GELDNER und ROTH). 
+1086 <HI iast="JAIM.">JAIM. = JAIMINI'S Mimāṃsādarśana in der Bibl. ind. 
+1087 <HI iast="JAIM.BHĀR.">JAIM.BHĀR. = JAIMINI'S BHĀRATA, nach Citaten in Ind. St. <NF> 
+1088 <HI iast="GAL.">GAL. = GALANO's Wörterbuch, Abschrift von WEBER;vgl. Monatsbericht der Kön. Pr. Akad. der Wissensch. 1876, S. 801. fgg. (CAPELLER). 
+1089 <HI iast="gaṇa.">gaṇa. = gaṇa im Gaṇapātha zu P. 
+1090 <HI iast="GAṆAR.">GAṆAR. = GAṆARATNAMAHODADHI, nach der im Druck befindlichen Ausg. von EGGELING. Nur ein paar Mal gelegentlich citirt. 
+1091 <HI iast="GAṆIT.">GAṆIT. = GAṆITĀDHĀYA in BHĀSKARA'S SIDDHĀNTA ŚIROMAṆI, Benares 1866(KERN). 
+1092 <HI iast="GAṆIT.ADHIM.">GAṆIT.ADHIM. = GAṆITA, ADHIMĀSANIRṆAYA (KERN). 
+1093 <HI iast="GAṆIT.BHAGAṆ.">GAṆIT.BHAGAṆ. = GAṆITA, BHAGAṆĀDHYĀYA (KERN). 
+1094 <HI iast="GAṆIT.GRAH.">GAṆIT.GRAH. = GAṆITA, GRAHĀNAYADHĀYA (KERN). 
+1095 <HI iast="GAṆIT.PRATYABD.">GAṆIT.PRATYABD. = GAṆITA, PRATYABDAŚUDDI (KERN). 
+1096 <HI iast="GAṆIT.TRIPR.">GAṆIT.TRIPR. = GAṆITA, TRIPRAŚANĀDHIKĀRA (KERN). 
+1097 <HI iast="GARBHOP.">GARBHOP. = GARBHOPANIṢAD in Bibl. ind. (GELDNER und ROTH). 
+1098 <HI iast="GAUḌAP.">GAUḌAP. = GAUḌAPĀDA, Commentator der SĀṂKHYAKĀRIKĀ. 
+1099 <HI iast="GAUT.">GAUT. = GAUTAMA'S DHARMAŚĀSTRA, Ausg. von STENZLER. 
+1100 <HI iast="GĪT.">GĪT. = GĪTAGOVINDA, Ausg. von LASSEN. 
+1101 <HI iast="GOBH.">GOBH. = GOBHILA'S GṚYASŪTRA in der Bibl. ind. (ROTH). 
+1102 <HI iast="GOLĀDHY.">GOLĀDHY. = BHĀSKARA'S GOLĀDHYĀYA (KERN). 
+1103 <HI iast="GOLD.">GOLD. = GOLDSTÜCKER'S Wörterbuch 
+1104 <HI iast="GOP.BR.">GOP.BR. = GOPATHABRĀHMAṆA in der Bibl. ind. (ROTH). 
+1105 <HI iast="GOVINDĀN.">GOVINDĀN. = GOVINDĀNANDA, Glossator zu ŚAṂKARĀCĀRYA'S Comm. zu BĀDAR. (KERN). 
+1106 <HI iast="H.">H. = HEMACANDRA'S ABHIDHĀNACINTĀMAṆI, Ausg. von BÖHTLINGK und RIEU. 
+1107 <HI iast="HALĀY.">HALĀY. = HALĀYUDHA'S Wörterbuch, Ausg. von AUFRECHT. 
+1108 <HI iast="H.an.">H.an. = HEMACANDRA'S ANEKĀRTHASAṂGRAHA. 
+1109 <HI iast="HĀR.">HĀR. = HĀRĀVALI. 
+1110 <HI iast="HARISV.">HARISV. = HARISVĀMIN. 
+1111 <HI iast="HARIV.">HARIV. = HARIVAṂŚA. Mit einer Zahi die ältere Calc. Ausg. gemeint, drei Zahlen die neuere lithographirte. 
+1112 <HI iast="HARṢAC.">HARṢAC. = HARṢACARITA, Calcutta 1876 (KERN). 
+1113 <HI iast="HĀSY.">HĀSY. = HĀSYĀRṆAVA, Bombay 1757 und Hdschr. (CAPELLER). 
+1114 <HI iast="HAUG,Acc.">HAUG,Acc. = HAUG, Ueber das Wesen und den Werth des vedischen Accents. München 1874. 
+1115 <HI iast="HEMĀDRI.">HEMĀDRI. = HEMĀDRI'S CATURVARGACINTĀMAṆI in der Bibl. ind. 
+1116 <HI iast="HEM.YOG.">HEM.YOG. = HEMACANDRA'S YOGAŚĀSTRA in Z. d. d. m. G/. 28. Aus einem hdschr. Comm. hat WINISCH manche Berichtigung und Erklärung mir bereitwilligst zukommen lassen. 
+1117 <HI iast="HEM.Pr.Gr.ed.Bomb.">HEM.Pr.Gr.ed.Bomb. = HEMACANDRA's Prākrit-Grammatik, Bombay (STENZLER) 
+1118 <HI iast="HIḌ.">HIḌ. = HIḌIMBAVADHA, Ausg. von Bopp. 
+1119 <HI iast="HIT.">HIT. = HITOPADEŚA, Ausg. von SCHLEGEL und LASSEN. 
+1120 <HI iast="HIT.ed.JOHNS.">HIT.ed.JOHNS. = HITOPADEŚA, Ausg. von JOHNSON, Lonon und Hertford 1847. 
+1121 <HI iast="YĀJÑ.">YĀJÑ. = YĀJÑAVALKYA's Gesetzbuch, Ausg. von STENZLER. 
+1122 <HI iast="J.A.O.S.">J.A.O.S. = Journal of the American Oriental Society. 
+1123 <HI iast="Ind.Antiq.">Ind.Antiq. = Indian Antiquary (ROTH). 
+1124 <HI iast="Ind.St.">Ind.St. = Indische Studien von WEBER. 
+1125 <HI iast="YOGAS.">YOGAS. = YOGASŪTRA. 
+1126 <HI iast="YOGAT.UP.">YOGAT.UP. = YOGATATTVOPANIṢAD in der Bibl. ind. (GELDNER und ROTH) 
+1127 <HI iast="JOLLY,Schuld.">JOLLY,Schuld. = JOLLY, ueber das indische Schuldrecht, in Müchener Philos. Philol. Abh. 1877, S. 287. fgg. 
+1128 <HI iast="J.R.A.S.">J.R.A.S. = Journal of the Royal Asiatic Society (KERN). 
+1129 <HI iast="KĀŚ.">KĀŚ. = KĀŚIKĀ VṚTTI in der Zeitschrift The PANDIT VII. fgg. 
+1130 <HI iast="KĀD.">KĀD. = KĀDAMBARĪ, Calcutta Saṃvat 1919 (KERN). 
+1131 <HI iast="CAKR.">CAKR. = CAKRADATTA, Commentator von CARAKA und SUŚRUTA, Hdschr. (ROTH). 
+1132 <HI iast="KĀLAC.">KĀLAC. = KĀLACAKRA, Hdschr. (SCHIEFNER). 
+1133 <HI iast="KĀM.NĪTIS.">KĀM.NĪTIS. = KĀMANDAKĪYANĪTISĀRA in der Bibl. ind. 
+1134 <HI iast="KAṆ.">KAṆ. = KAṆĀDA'S VAIŚEṢIKADARŚANA in der Bibl. ind. 
+1135 <HI iast="KĀṆḌ.">KĀṆḌ. = KĀṆḌŪPĀKHYĀNA in LA. 
+1136 <HI iast="CAṆḌAK.">CAṆḌAK. = KṢEMĪŚVARA'S CAṆḌAKAUŚIKA (PISCHEL). 
+1137 <HI iast="KAP.">KAP. = KAPILA'S SĀṂKHYAPRAVACANA. Einen vollständigen Index hat WINDISCH ZU Verfügung gestellt. 
+1138 <HI iast="KĀRIKĀ.">KĀRIKĀ. = Kārikā. 
+1139 <HI iast="CARAKA.">CARAKA. = CARAKASAṂHITĀ, Calcutta 1929 und 1877 und Hdschr. im Besitz von ROTH (KERN und ROTH). 
+1140 <HI iast="KARMAPR.">KARMAPR. = KARMAPRADĪPA (STENZLER). Steht unter dem falschen Titel KĀTYĀYANASMṚTI im DHARMAŚĀSTRASAṂGRAHA, Vol. I, S 603-644. 
+1141 <HI iast="KĀṬH.">KĀṬH. = KĀṬHAKA (WEBER). 
+1142 <HI iast="KATHĀS.">KATHĀS. = KATHĀSARITSĀGARA, Ausg. von BROCKHAUS. 
+1143 <HI iast="KĀTY.ŚR.">KĀTY.ŚR. = KĀTYĀYANA'S ŚRAUTASŪTRA, nach WEBER'S Index. 
+1144 <HI iast="KĀTY.DH.">KĀTY.DH. = KĀTYĀYANA'S DHARMAŚĀSTRA (STENZLER). 
+1145 <HI iast="KĀTY.SNĀNAS.">KĀTY.SNĀNAS. = KĀTYĀYANA'S SNĀNASŪTRA (STENZLER). 
+1146 <HI iast="KAUŚ.">KAUŚ. = KAUŚIKA'S SŪTRA zum AV. , Hdschr. (ROTH und WEBER). 
+1147 <HI iast="CAURAP.">CAURAP. = CAURAPAÑCĀŚIKĀ, Ausg. von BOHLEN. 
+1148 <HI iast="KAUṢ.ĀR.">KAUṢ.ĀR. = KAUṢITAKĀRAṆYAKA (WEBER). 
+1149 <HI iast="KAUṢ.UP.">KAUṢ.UP. = KAUṢITAKIBRĀHMAṆOPANIṢAD in der Bibl. ind. 
+1150 <HI iast="KAUTUKAR.">KAUTUKAR. = KAUTUKARATNĀKARA, Hdschr. (CAPELLER). 
+1151 <HI iast="KĀVYAPR.">KĀVYAPR. = KĀVYAPRAKĀŚA, Calcutta 1866. Nach Ullāsa und Sūtra citirt, wenn nicht S. (Seite) und Z. (Zeile) hinzungefügt werden. 
+1152 <HI iast="KENOP.">KENOP. = KENOPANIṢAD in der Bibl. ind. 
+1153 <HI iast="CHANDOM.">CHANDOM. = CHANDOMAÑJARI, herusg. von BROCKHAUS in Berichte über die Verhadlungen der Kön. Sächsischen Gesellschaft der Wissenschaftten zu Leipzig Phil. -hist. Kl. Bd. VI, 1854. 
+1154 <HI iast="CHĀND.UP.">CHĀND.UP. = CHĀNDOGYOPANIṢAD in der Bibl. ind. 
+1155 <HI iast="KIR.">KIR. = KIRĀTĀRJUNIYA, Calcutta 1814. 
+1156 <HI iast="KṚṢIS.">KṚṢIS. = PARĀŚARA'S KṚṢISAṂGRAHA, Calcutta 1862(ROTH). 
+1157 <HI iast="KṢITĪŚ.">KṢITĪŚ. = KṢITĪŚAVAṂŚĀVALĪCARITA, Ausg. von PERTSCH. 
+1158 <HI iast="KṢURIKOP.">KṢURIKOP. = KṢURIKOPANIṢAD in der Bibl. ind. 
+1159 <HI iast="KULL.">KULL. = KULLŪKA, Commentator des MANU. 
+1160 <HI iast="KUMĀRAS.">KUMĀRAS. = KUMĀRASAṂBHAVA, Ausg. von STENZLER. 
+1161 <HI iast="KUMĀRASV.">KUMĀRASV. = KUMĀRASVĀMIN, Commentator des PRATĀPAR. (PISCHEL). 
+1162 <HI iast="KUSUM.">KUSUM. = KUSUMĀÑJALI, Ausg. von COWELL. 
+1163 <HI iast="KUVALAY.">KUVALAY. = KUVALAYĀNANDA. , nach zwei lithogr. Ausgg. 
+1164 <HI iast="LA.">LA. = LASSEN'S Anthologie 3te Ausg. 
+1165 <HI iast="LAGHUK.">LAGHUK. = LAGHUKAUMUDĪ, Ausg. von BALLANTYNE, Benares 1876(CAPELLER). 
+1166 <HI iast="LALIT.">LALIT. = LALITAVISTARAPURĀṆA in der Bibl. ind. (KERN). 
+1167 <HI iast="LĀṬY.">LĀṬY. = LĀṬYĀYANA'S ŚRAUTASŪTRA in der Bibl. ind. 
+1168 <HI iast="LĪLĀV.">LĪLĀV. = BHĀSKARA'S LĪLĀVATĪ, Calcutta 1846(KERN). 
+1169 <HI iast="L.K.">L.K. = LAGHUK. 
+1170 <HI iast="Lot.delab.l.">Lot.delab.l. = BURNOUF, Lotus de la bonne loi. 
+1171 <HI iast="M.">M. = MĀNAVADHARMAŚĀSTRA. 
+1172 <HI iast="MADANAV.">MADANAV. = MADANAPĀLA'S MADANAVINODA, Benares 1869 und Hdschr. (ROTH). 
+1173 <HI iast="MĀDH.KĀLAN.">MĀDH.KĀLAN. = MĀDHAVA'S KĀLANIRṆAYA (WEBER). 
+1174 <HI iast="MAHĀBH.">MAHĀBH. = MAHĀBHĀṢYA, lith. in Benares. 
+1175 <HI iast="MAHĀBH.(K.).">MAHĀBH.(K.). = KIELHORN'S Ausg. des MAHĀBHĀṢYA. 
+1176 <HI iast="MAHĀVĪRAC.">MAHĀVĪRAC. = MAHĀVĪRACARITA, Ausg. von TRITHEN. 
+1177 <HI iast="MAHĪDH.">MAHĪDH. = MAHĪDHARA, Commentator der VS. 
+1178 <HI iast="MAITRYUP.">MAITRYUP. = MAITRYUPANIṢAD in der Bibl. ind. Die Accente, die wegen ihrer Fehlerhaftigkeit oft weggelassen oder durch (!) als verdächtig bezeichnet wurden, hat SCHRÖDER einer Hdschr. entnommen. 
+1179 <HI iast="MAITR.S.">MAITR.S. = MAITRĀYAṆI SAṂHITĀ, zur Herausgabe vorbereitet von L. SCHRÖDER. Da die accentuirten Hdschr. nicht gleich zu Anfang zur Hand waren, konnten einige Accente erst in den Nachträgen angegeben werden (SCHRÖDER). 
+1180 <HI iast="MĀLATĪM.">MĀLATĪM. = MĀLATĪMĀDHAVA, nach zwei Ausgaben, Calcutta 1830 und Bombay 1876. 
+1181 <HI iast="MĀLAV.">MĀLAV. = MĀLAVIKĀGNIMITRA, Ausg. von TULLIBERG. 
+1182 <HI iast="MĀṆḌ.ŚIKṢĀ.">MĀṆḌ.ŚIKṢĀ. = MĀṆḌŪKI ŚIKṢĀ(WEBER). 
+1183 <HI iast="MĀN.GṚHY.">MĀN.GṚHY. = MĀNAVAGṚHYASŪTRA, nach einer Hdschr. in der Universitätsbibliothek zu Bombay (SCHRÖDER). 
+1184 <HI iast="MĀN.K.S.">MĀN.K.S. = MĀNAVAKALPASŪTRA, nach Citaten bei GOLD. 
+1185 <HI iast="MANTRABR.">MANTRABR. = MANTRABRĀHMAṆA, Calcutta 1872(ROTH). 
+1186 <HI iast="MĀRK.P.">MĀRK.P. = MĀRKAṆḌEYAPURĀṆA in der Bibl. ind. 
+1187 <HI iast="Mat.med.">Mat.med. = The Materia medica of the Hindus compiled from Sankr. medical works by UDOY CHAND DUTT Civil Medicinal officer. With a Glossary of Indian Plants by GE. KING. Superint. R. Bot. Garden Calc. and the author. Calcutta 1877. 
+1188 <HI iast="MAYR,Ind.Erb.">MAYR,Ind.Erb. = Das indische Erbrecht von AUREL MAYR, Wien 1873. 
+1189 <HI iast="MBH.">MBH. = MAHĀBHĀRATA, citirt nach Parvan, Adhyāya und Śloka der Bomb. Ausg. Die ältere Calcuttaer Ausg. mit zwei Zahlen wird nur dann angeführt, wenn sie eine abweichende Lesart bietet. 
+1190 <HI iast="MED.">MED. = MEDINIKOŚA. 
+1191 <HI iast="MED.avy.">MED.avy. = AVYAYĀNEKĀRTHAVARGA am Ende des MEDINIKOŚA. 
+1192 <HI iast="MEGH.">MEGH. = MEGHADŪTA, Ausg. von STENZLER. 
+1193 <HI iast="MIT.">MIT. = MITĀKṢARĀ. Bei zwei Zahlen ist der VYAVAHĀRĀDHYĀYA, Calcutta 1829, gemeint, bei zwei Zahlen mit folgendem {%a%}oder{%b%} nebst Angabe der Zeile -- das vollständige Werk in 4to. 
+1194 <HI iast="M.K.S.">M.K.S. = MĀN. K. S. 
+1195 <HI iast="MṚCCH.">MṚCCH. = MṚCCHAKAṬIKA, Ausg. von STENZLER. Comm. zu MṚCCH. sind die Auszüge in den Anmerkungen zu meiner Uebersetzung dieses Schauspiels. 
+1196 <HI iast="MUDRĀR.">MUDRĀR. = MUDRĀRĀKṢASA, nach zwei Ausgaben, Calcutta 1831 und 1926 (CAPELLER). 
+1197 <HI iast="NĀGĀN.">NĀGĀN. = NĀGĀNANDA nach zwei Calcuttaer Ausgaben (CAPELLER) 
+1198 <HI iast="NAIṢ.">NAIṢ. = NAIṢADHACARITA. 
+1199 <HI iast="NĀR.">NĀR. = NĀRADA'S DHARMAŚĀSTRA (JOLLY). 
+1200 <HI iast="NIGH.PR.">NIGH.PR. = NIGHAṆṬUPRAKĀŚA (ROTH). 
+1201 <HI iast="NĪL.">NĪL. = A rational Refutation of the Hindu Phisosphical Systems, by NEHEMIAH NĪLAKAṆṬHA ŚĀSTRĪ GORE. Translated etc. by RITZ-EDWARD HALL. Calcutta 1862. 
+1202 <HI iast="NĪLAK.miteinerZahl.">NĪLAK.miteinerZahl. = NĪL. 
+1203 <HI iast="NĪLAK.">NĪLAK. = NĪLAKAṆṬHA, Commentator des MBH. 
+1204 <HI iast="NĪLAR.UP.">NĪLAR.UP. = NĪLARUDROPANIṢAD in der Bibl. ind. (GELDNER und ROTH). 
+1205 <HI iast="NIR.">NIR. = NIRUKTA, Ausg. von ROTH (ROTH). 
+1206 <HI iast="NYĀYAM.">NYĀYAM. = JAIMINIYANYĀYAMĀLĀVISTARA, Ausg. von GOLDSTÜCKER UND Cowell (KERN). 
+1207 <HI iast="NYĀYAS.">NYĀYAS. = GOTAMA'S NYĀYADARŚANA in der Bibl. ind. Die Ausg. Calcutta 1828 wird durch Beifügung von (1828) bezeichnet. (KERN). 
+1208 <HI iast="NY.K.">NY.K. = NYĀYAKOŚA or Dictionary of the technical Terms of the NYĀYA Philosophy, by BHIMĀCHĀRYA JHALAKIKAR. Bombay 1875. 
+1209 <HI iast="NṚS.UP.">NṚS.UP. = NṚSIṂHATĀPANĪYOPANIṢAD, herausg. von WEBER in Ind. St. 9 und in der Bibl. ind. 
+1210 <HI iast="P.">P. = PĀṆINI. 
+1211 <HI iast="PAÑCAD.">PAÑCAD. = PAÑCADAṆḌACCHATTRABANDHA, herausg. von WEBER. 
+1212 <HI iast="PAÑCAR.">PAÑCAR. = NĀRADA'S PAÑCARĀTRA in der Bibl. ind. 
+1213 <HI iast="PAÑCAT.">PAÑCAT. =  ohne nähere Angabe PAÑCATANTRA, vollständige Ausg. von KOSEGARTEN. Mit Beifügung von ed. Bomb. --die Ausg. von BÜHLER und KIELHORN. 
+1214 <HI iast="PARĀŚ.">PARĀŚ. = PARĀŚARA'S DHARMAŚĀSTRA (STENZLER). 
+1215 <HI iast="PĀR.GṚHY.">PĀR.GṚHY. = PĀRASKARA'S GṚHYASŪTRA, Ausg. von STENZLER. 
+1216 <HI iast="PARIBH.">PARIBH. = PARIBHĀṢĀ in PARIBHĀṢENDUŚEKHARA, Ausg. von KIELHORN. 
+1217 <HI iast="PAT.zuP.">PAT.zuP. = PATAÑJALI ZU PĀṆINI. 
+1218 <HI iast="PIṆḌOP.">PIṆḌOP. = PIṆḌOPANIṢAD in der Bibl. ind. (GELDNER und ROTH). 
+1219 <HI iast="PISCHEL,deGr.pr.">PISCHEL,deGr.pr. = PISCHEL, de Grammaticis prācriticis. Vratislaviae 1874. 
+1220 <HI iast="PRAB.">PRAB. = PRABODHACANDRODAYA, Ausg. von BROCKHAUS. 
+1221 <HI iast="PRAŚNOP.">PRAŚNOP. = PRAŚNOPANIṢAD in der Bibl. ind. 
+1222 <HI iast="PRĀYAŚCITTAT.">PRĀYAŚCITTAT. = PRĀYAŚCITTATATTVA (ROTH). 
+1223 <HI iast="PRAYOGAR.">PRAYOGAR. = NĀRĀYAṆABHAṬṬA'S PRAYOGARATNA (STENZLER). 
+1224 <HI iast="PRASANNAR.">PRASANNAR. = JAYADEVA'S PRASANNARĀGHAVA (KERN). 
+1225 <HI iast="PRATĀPAR.">PRATĀPAR. = PRATĀPARUDRIYA. 
+1226 <HI iast="PRIY.">PRIY. = PRIYADARŚIKĀ, Calcutta 18?? (CAPELLER). 
+1227 <HI iast="Procc.A.S.B.">Procc.A.S.B. = Proceedings of the Asiatic Society of Bengal. 
+1228 <HI iast="PUṢPAS.">PUṢPAS. = PUṢPASŪTRA (WEBER). 
+1229 <HI iast="R.">R. = RĀMĀYAṆA. Das 1ste und 2te Kāṇḍa nach der Ausg. von SCHLEGEL, das 3--6te nach der von GORRESIO, das 7te nach der Bomb. Ausg., wenn nicht ausdrücklich eine andere Ausgabe genannt ist. Eine eingeklammerte Zahl bezieht ist sich auf ed. Bomb. 
+1230 <HI iast="RĀJAN.">RĀJAN. = RĀJANIGHAṆṬU, Hdschr. (ROTH). 
+1231 <HI iast="RĀJAT.">RĀJAT. = RĀJATARAṂGIṆĪ. Die 6 ersten Bücher nach der Ausg. von TROYER. Die Beträge aus dem 7ten und 8ten Buche von KERN. 
+1232 <HI iast="RAGH.">RAGH. = RAGHUVAṂŚA, Ausg. von STENZLER, wenn nicht ed. Calc. hinzuge- fügt wird. 
+1233 <HI iast="RATNAM.">RATNAM. = RATNAMĀLĀ. (ROTH). 
+1234 <HI iast="ROXB.">ROXB. = Flora indica or description of Indian Plants. By the late WILLIAM ROXBURGH. Serampore 1832 (ROTH). 
+1235 <HI iast="ṚTUS.">ṚTUS. = RṬUSAṂHĀRA, Ausg. von BOHLEN. 
+1236 <HI iast="ṚV.">ṚV. = ṚGVEDA (ROTH). 
+1237 <HI iast="ṚV.PRĀT.">ṚV.PRĀT. = PRĀTIŚĀKHYA zum ṚGVEDA. 
+1238 <HI iast="SADDH.P.4.">SADDH.P.4. = das 4te Kapitel des SADDHARMAPUṆḌARĪKA, lithographirt in Parabole de l'Enfant egare. Par. PH. ED. FOUCAUX. Paris. 1854. 
+1239 <HI iast="SĀH.D.">SĀH.D. = SĀHITYADARPAṆA in der Bibl. ind. 
+1240 <HI iast="SĀY.">SĀY. = SĀYAṆA. 
+1241 <HI iast="SĀMAV.BR.">SĀMAV.BR. = SĀMAVIDHĀNABRĀHMAṆA, Ausg. von BURNELL. 
+1242 <HI iast="SAṂHITOPAN.">SAṂHITOPAN. = SAṂHITOPANIṢAD, Ausg. von BURNELL. 
+1243 <HI iast="SĀṂKHYAK.">SĀṂKHYAK. = SĀṂKHYAKĀRIKĀ, Ausg. von WILSON. 
+1244 <HI iast="SAṂNY.UP.">SAṂNY.UP. = SAṂNYĀSOPANIṢAD in der Bibl. ind. (GELDNER und ROTH). 
+1245 <HI iast="SAṂSK.K.">SAṂSK.K. = ANANTADEVA'S SAṂSKĀRAKAUSTUBHA, obl. fol. 
+1246 <HI iast="SĀRAS.">SĀRAS. = SĀRASUNDARĪ, ein Commentar zu AK. 
+1247 <HI iast="SĀRĀV.">SĀRĀV. = SĀRĀVALI, citirt bei UTPALA ZU VARĀH. BṚH. 
+1248 <HI iast="SARVAD.">SARVAD. = SARVADARŚANASAṂGRAHA in der Bibl. ind. (KERN). 
+1249 <HI iast="SARVOPAN.">SARVOPAN. = SARVOPANIṢATSĀRA in der Bibl. ind. (GELDNER und ROTH). 
+1250 <HI iast="SĀV.">SĀV. = SĀVITRĪ, herausg. von Bopp. 
+1251 <HI iast="ṢAḌV.BR.">ṢAḌV.BR. = ṢAḌVIṂŚABRĀHMAṆA (WEBER). 
+1252 <HI iast="SIDDH.ŚIR.">SIDDH.ŚIR. = SIDDHĀNTAŚIROMAṆI (KERN). 
+1253 <HI iast="Spr.">Spr. = Indische Sprüche, herausg. von O. BÖHTLINGK. 2te Aufl. Von 7614 an in Melanges asiatiques, T. VIII, S. 217. fgg. Ebendaselbst S. 203. fgg. stehen die durch "zu Spr. " bezeichneten Varianten. 
+1254 <HI iast="S.S.S.">S.S.S. = SAṂGITASĀRASAṂGRAHA, Calcutta 1932 (CAPELLER). 
+1255 <HI iast="SUBHĀṢITAR.">SUBHĀṢITAR. = SUBHĀṢITARATNĀKARA, Bombay 1872. 
+1256 <HI iast="SUŚR.">SUŚR. = SUŚRUTA (ROTRH). 
+1257 <HI iast="SUPARṆ.">SUPARṆ. = SUPARṆĀDHYA, herausg. von ELIMAR GRUBE in Ind. St. 14. 
+1258 <HI iast="SŪRYAD.">SŪRYAD. = SŪRYADEVAYAJVAN (KERN). 
+1259 <HI iast="SŪRYAS.">SŪRYAS. = SŪRYASIDDHĀNTA in der Bibl. ind. 
+1260 <HI iast="SV.">SV. = SĀMAVEDA (ROTH). 
+1261 <HI iast="SV.ĀR.">SV.ĀR. = ĀRAṆYAKA zum SV. (ROTH). 
+1262 <HI iast="TAITT.ĀR.">TAITT.ĀR. = TAITTIRĪYĀRAṆYAKA in der Bibl. ind. 
+1263 <HI iast="TAITT.UP.">TAITT.UP. = TAITTIRĪYOPANIṢAD in der Bibl. ind. 
+1264 <HI iast="TĀṆḌYA-BR.">TĀṆḌYA-BR. = TĀṆḌYABRĀHMAṆA in der Bibl. Im grossen Wörterbuch als PAÑCAV. BR. citirt. 
+1265 <HI iast="TARKAS.">TARKAS. = TARKASAṂGRAHA, Allahabad 1849(ROTH). 
+1266 <HI iast="TATTVAS.">TATTVAS. = TATTVASAMĀSA, Mirzapore 1850(ROTH). 
+1267 <HI iast="TBR.">TBR. = TAITTIRĪYA BRĀHMAṆA (ROTH). 
+1268 <HI iast="TRIK.">TRIK. = TRIKĀṆḌAŚEṢA. 
+1269 <HI iast="TS.">TS. = TAITTIRĪYASAṂHITĀ (ROTH und WEBER). 
+1270 <HI iast="TS.PRĀT.">TS.PRĀT. = PRĀTIŚĀKHYA zur TS. , Ausg. von WHITNEY. 
+1271 <HI iast="UJJVAL.">UJJVAL. = UJJVALADATTA, Commentator der UṆĀDISŪTRA. 
+1272 <HI iast="UṆĀDIS.">UṆĀDIS. = UṆĀDISŪTRA, herausg. von AUFRECHT. 
+1273 <HI iast="UTTARAR.">UTTARAR. = UTTARARĀMACARITRA, nach zwei Ausgaben, Calcutta 1831 und 1862. 
+1274 <HI iast="VĀGBH.">VĀGBH. = VĀGBHAṬA'S ĀYURVEDADARŚANA (ROTH). 
+1275 <HI iast="VAJRAS.">VAJRAS. = VAJRASŪCI, Ausg. von WEBER. 
+1276 <HI iast="VAIDYABH.">VAIDYABH. = VAIDYABHĀṢYA (ROTH). 
+1277 <HI iast="VAITĀN.">VAITĀN. = VAITĀNASŪTRA, Ausg, von GARBE. 
+1278 <HI iast="VĀYU-P.">VĀYU-P. = VĀYUPURĀṆA, nach Citaten in andern Werken. 
+1279 <HI iast="VĀLAKH.">VĀLAKH. = VĀLAKHILYA, die zwischen ṚV. 8, 84 und 49 eingeschobenen Lieder (ROTH). 
+1280 <HI iast="VĀMANA.">VĀMANA. = VĀMANA'S KĀVYĀLAṂKĀRAVṚTTI, Ausg. von CAPELLER. 
+1281 <HI iast="VAṂŚABR.">VAṂŚABR. = VAṂŚABRĀHMAṆA, Ausg. von BURNELL (ROTH). 
+1282 <HI iast="VARĀH.BṚH.">VARĀH.BṚH. = VARĀHAMIHIRA'S BṚHAJJĀTAKA (KERN). 
+1283 <HI iast="VARĀH.BṚH.S.">VARĀH.BṚH.S. = VARĀHAMIHIRA'S BṚHATSAṂHITĀ (KERN). 
+1284 <HI iast="VARĀH.YOGAY.">VARĀH.YOGAY. = VARĀHAMIHIRA'S YOGAYĀTRĀ, herausg. von KERN in Ind. St. 10. 14 und 15. 
+1285 <HI iast="VARĀH.LAGH.">VARĀH.LAGH. = VARĀHAMIHIRA'S LAGHUJĀTAKA. Die zwei ersten Adhjaja herausgegeben von WEBER in Ind. St. 2. 
+1286 <HI iast="Vārtt.">Vārtt. = Vārttika. 
+1287 <HI iast="VĀS.">VĀS. = VĀSANTIKĀ, Hdschr. (CAPELLER). 
+1288 <HI iast="VĀSAV.">VĀSAV. = VĀSAVADATTĀ in der Bibl. ind. 
+1289 <HI iast="VEṆĪS.">VEṆĪS. = VEṆĪSAṂHĀRA, Ausg. von GRILL (CAPELLER). 
+1290 <HI iast="Verz.d.B.H.">Verz.d.B.H. = WEBER, Verzeichniss der Berliner Handschriften. 
+1291 <HI iast="Verz.d.Oxf.H.">Verz.d.Oxf.H. = AUFRECHT, Verzeichniss der Oxforder Handschriften. 
+1292 <HI iast="VET.">VET. = VETĀLAPAÑCAVIṂŚATI in LA. 
+1293 <HI iast="VIDDH.">VIDDH. = VIDDHAŚĀLABHAÑJIKĀKHYANĀṬIKĀ in der Zeitschrift PRATNAKAMRANANDINI(CAPELLER). 
+1294 <HI iast="VIKR.">VIKR. = VIKRAMORVAŚĪ, Ausg. von BOLLENSEN. 
+1295 <HI iast="VIKRAMĀṄKAC.">VIKRAMĀṄKAC. = VIKRAMĀṄKADEVACARITA, Ausg. von BÜHLER. 
+1296 <HI iast="VIṢṆUS.">VIṢṆUS. = VIṢṆUSŪTRA, zur Herausgabe vorbereitet von Y. JOLLY (JOLLY) 
+1297 <HI iast="VP.">VP. = VIṢṆUPURĀṆA ed. Bomb. 
+1298 <HI iast="VP.².">VP.². = 2te Auflage von WILSON's Uebersetzung des VIṢṆUPURĀṆA, herausgegeben von HALL. 
+1299 <HI iast="VS.">VS. = VĀJASANEYISAṂHITĀ (ROTH und WEBER). 
+1300 <HI iast="VS.PRĀT.">VS.PRĀT. = PRĀTIŚĀKHYA zu VS in Ind. St. 4. 
+1301 <HI iast="WEBER,JYOT.">WEBER,JYOT. = WEBER, Ueber den Vedakalender, Namens JYOTIṢAM. 
+1302 <HI iast="WEBER,KṚṢṆAJ.">WEBER,KṚṢṆAJ. = WEBER, Ueber die KṚṢṆAJANMĀṢṬAMĪ. Berlin 1868. 
+1303 <HI iast="WEBER,Nax.">WEBER,Nax. = WEBER, Die vedischen Nachrichten von den naxatra. Berlin 1860. 
+1304 <HI iast="WILSON,Sel.W.">WILSON,Sel.W. = Select Works of H. H. WILSON. 
+1305 <HI iast="WISE.">WISE. = Commentary on the Hindu System of Medicine, by T. A. WISE. Calcutta 1845. 
+1306 <HI iast="Z.d.d.m.G.">Z.d.d.m.G. = Zeitschrift der deutschen morgenlandischen Gesellschaft 
+2001 <HI iast="AINSLIE.">AINSLIE. = AINSLIE, Materia indica. London 1826. 
+2002 <HI iast="ĀNANDAL.">ĀNANDAL. = ĀNANDALAHARĪ in HAEBELIN's Anthologie. 
+2003 <HI iast="BAUDH.">BAUDH. = BAUDHĀYANA, nach Citaten in andern Werken. 
+2004 <HI iast="BRAHMAVAIV.P.">BRAHMAVAIV.P. = BRAHMAVAIVARTAPURĀṆA. 
+2005 <HI iast="BÜHLER,Rep.1872-73.">BÜHLER,Rep.1872-73. = BÜHLER, Report on Sanskrit Mss. 1872--73. 
+2006 <HI iast="ŚĀNTIŚ.">ŚĀNTIŚ. = ŚĀNTIŚATAKA in HAEBERLIN'S Anthologie. 
+2007 <HI iast="Cat.GUYAR.">Cat.GUYAR. = A Catalogue of Sanskrit Manuscripts contained in the private libraries of GUYARĀT, KĀṬHIĀVĀD, KATCHCHH, SINDH and KHĀDE'S. Compeld unter the superintendence of G. BÜHLER (ROTH). 
+2008 <HI iast="Cat.WILLMOT.">Cat.WILLMOT. = A Catalogue of Sanskrit Mss. existing in the central provinces, prepared by order of E. WILLMOT Esq. (ROTH). 
+2009 <HI iast="ŚĪLĀṄKA.">ŚĪLĀṄKA. = ŚĪLĀṄKA'S Commentar zum ĀCĀRĀṄGASŪTRA, Calcutta 1878 (JACOBI). 
+2010 <HI iast="ŚKDR.">ŚKDR. = ŚABDAKALPADRUMA. 
+2011 <HI iast="ŚOBH.">ŚOBH. = ŚOBHANAMUNI'S ŚOBHANASTUTAYAS in Z. d. d. m. G. 32, 509. fgg. (JACOBI). 
+2012 <HI iast="ŚRUT.(BR.).">ŚRUT.(BR.). = ŚRUTABODHA, Ausg. von BROCKHAUS. 
+2013 <HI iast="CUNNINGHAM,Arch.Surv.">CUNNINGHAM,Arch.Surv. = CUNNINGHAM, Archaeological Survey of India. 
+2014 <HI iast="DAŚAK.(1925).">DAŚAK.(1925). = DAŚAKUMĀRACARITA, Calcutta 1234 {#saMvatsarE#} (CAPELLER). 
+2015 <HI iast="DĀY.">DĀY. = DĀYABHĀGA, Calcutta 1829. 
+2016 <HI iast="DEŚĪN.">DEŚĪN. = HEMACANDRA'S DEŚĪNĀMĀLĀ, Hdschr. (PISCHEL). 
+2017 <HI iast="DHŪRTAS.">DHŪRTAS. = DHŪRTAS. wird von nun an nach der lithographirten Ausgabe von CAPELLER citirt. 
+2018 <HI iast="FÜHRER,BṚH.">FÜHRER,BṚH. = Darstellung der Lehre von den Schriften in BṚHASPATI'S DHARMAŚĀSTRA. Inauguraldissertation von ALOIS ANTON FÜBER. 
+2019 <HI iast="GAṆIT.BHAGRAH.">GAṆIT.BHAGRAH. = GAṆITA, BHAGRAHAYUTYADHIKĀRA (KERN). 
+2020 <HI iast="GAṆIT.KAKṢ.">GAṆIT.KAKṢ. = GAṆITA, KAKṢĀDHYĀYA (KERN). 
+2021 <HI iast="GAṆIT.SPAṢṬ.">GAṆIT.SPAṢṬ. = GAṆITA, SPAṢṬĀDHIKĀRA (KERN). 
+2022 <HI iast="GĀR.UP.">GĀR.UP. = GĀRUḌOPANIṢAD in der Bibl. ind. 
+2023 <HI iast="JAṬĀDH.">JAṬĀDH. = JAṬĀDHARA im ŚKDR. 
+2024 <HI iast="GOLĀDHY.BHUV.">GOLĀDHY.BHUV. = GOLĀDHYĀYA, BHUVANAKOŚA (KERN). 
+2025 <HI iast="GṚHYĀS.">GṚHYĀS. = GṚHYĀSAṂGRAHA in der Bibl. ind. 
+2026 <HI iast="HĀLA.">HĀLA. = HĀLA. Citirt nach der neuen noch im Druck befindlichen Ausgabe von WEBER (CAPELLER). 
+2027 <HI iast="HAṂSOP.">HAṂSOP. = HAṂSOPANIṢAD in der Bibl. ind. (GELDNER). 
+2028 <HI iast="HANUM.UP.">HANUM.UP. = HANUMADUKTARĀMOPANIṢAD in der Bibl. ind. (GELDNER). 
+2029 <HI iast="HARIV.LANGL.">HARIV.LANGL. = LANGLOIS' Uebersetzung des Harivaṃśa. 
+2030 <HI iast="HĀSY.">HĀSY. = HĀSY. wird von nun an nach der lithograph. Ausgabe von CAPELLER citirt. 
+2031 <HI iast="HEM.PAR.">HEM.PAR. = HEMACANDRA'S PARIŚIṢṬAPARVAN, Hdschr. (JACOBI). 
+2032 <HI iast="Ind.Str.">Ind.Str. = WEBER, Indische Streifen. 
+2033 <HI iast="J.A.S.Beng.">J.A.S.Beng. = Journal of the Asiatic Society of Bengal. Part I. (History, Antiquities, &c. ). 
+2034 <HI iast="YOGAŚ.UP.">YOGAŚ.UP. = YOGAŚIKHOPANIṢAD in der Bibl. ind. (GELDNER). 
+2035 <HI iast="CAITANY.">CAITANY. = CAITANY. == CAITANYACANDRODAYA in der Bibl. ind. (PISCHEL). 
+2036 <HI iast="KALPAS.">KALPAS. = KALPASŪTRA, herausg. von H. JACOBI (JACOBI und KERN). 
+2037 <HI iast="CĀṆ.">CĀṆ. = CĀṆAKYA in HAEBERLIN'S Anthologie. 
+2038 <HI iast="KAP.">KAP. = The Aphorisms of the Sankhya Philosophy, of KAPILA, Allahabad 1852. 
+2039 <HI iast="KĀRAṆḌ.">KĀRAṆḌ. = KĀRAṆḌAVYŪHA, Calcutta 1873(KERN). 
+2040 <HI iast="KĀT.">KĀT. = KĀTANTRA, heraugsgegeben von EGGELING. 
+2041 <HI iast="KĀṬH.">KĀṬH. = KĀṬHAKA Hdschr. (v. SCHRÖDER und WEBER). 
+2042 <HI iast="KĀṬH.GṚHY.">KĀṬH.GṚHY. = KĀṬHAKAGṚHYASŪTRA, Hdschr. (JOLLY). 
+2043 <HI iast="KAP.S.">KAP.S. = KAPIṢṬHALAKAṬHASAṂHITA, Hdschr. (v. SCHRÖDER). 
+2044 <HI iast="CŪLIKOP.">CŪLIKOP. = CŪLIKOPANIṢAD in der Bibl. ind. (GELDNER). 
+2045 <HI iast="VARĀH.LAGHUJ.">VARĀH.LAGHUJ. = VARĀHAMIHIRA'S LAGHUJĀTAKA. 
+2046 <HI iast="MAGAVY.">MAGAVY. = Ueber zwei Parteischriften zu Gunsten der MAGA, resp. ŚĀKADVIPIYA BRĀHMAṆA. Von A. WEBER. 
+2047 <HI iast="MAHĀŚ.">MAHĀŚ. = MAHĀŚĀNTI, Hdschr. (ROTH). 
+2048 <HI iast="MAITR.PADDH.">MAITR.PADDH. = PADDHATI ZU MAITR. S. , Hdschr. (v. SCHRÖDER). 
+2049 <HI iast="MĀN.ŚR.">MĀN.ŚR. = MĀNAVAŚRAUTASŪTRA, Hdschr. (v. SCHRÖDER). 
+2050 <HI iast="MĀṆḌ.UP.">MĀṆḌ.UP. = MĀṆḌŪKYOPANIṢAD in der BIbl. ind. 
+2051 <HI iast="MOLESW.">MOLESW. = A Dictionary, Marāṭhi and English, compiled by Y. T. MOLESWORTH, Bombay 1857. 
+2052 <HI iast="Mon.d.B.A.">Mon.d.B.A. = Monatsberichte der Königlich Preussichen Akademie der Wissenschaften in Berlin. 
+2053 <HI iast="NĀDAB.UP.">NĀDAB.UP. = NĀDABINŪPANIṢAD in der Bibl. ind. (GELDNER). 
+2054 <HI iast="NIGH.">NIGH. = YĀSKA'S NIRUKTA sammt den NIGHAṆṬAVAS, herausgegeben und erläutert von RUDOLPH ROTH. 
+2055 <HI iast="NIRṆAYAS.">NIRṆAYAS. = NIRṆAYASINDHU. 
+2056 <HI iast="OPP.CAT.">OPP.CAT. = List of Sanskrit Manuscripts in Private libraries of southern India. Compiled, arranged and indexed by GUSTAV OPPERT. 
+2057 <HI iast="PAÑCAT.ed.orn.">PAÑCAT.ed.orn. = KOSEGARTEN, PANTSCHATANTRUM sive quinque partitum de moribus exponens. Pars secunda, textum sanscritum, ornatiorem tenens. 
+2058 <HI iast="RĀJAV.">RĀJAV. = RĀJAVALLABHA, nach Citaten ŚKDR. 
+2059 <HI iast="SETUB.">SETUB. = SETUBANDHA, herausgegeben von SIEGFRIED GOLDSCHMIDT. 
+2060 <HI iast="TAL.BR.">TAL.BR. = A legend from the TALAVAKĀRA or JAIMINĪYA BRĀHMAṆA of the SĀMAVEDA by A. C. BURNELL, Mangalore 1878. 
+2061 <HI iast="TEJOB.UP.">TEJOB.UP. = TEJOBINDŪPANIṢAD in der Bibl. ind. (GELDNER). 
+2062 <HI iast="VĀSTUV.">VĀSTUV. = VIŚVAKARMA'S VĀSTUVIDYĀ, Hdschr (KERN). 
+2063 <HI iast="VIŚVA.">VIŚVA. = VIŚVAKOŚA (PISCHEL). 
+2064 <HI iast="VIVĀDAC.">VIVĀDAC. = VIVĀDACINTĀMAṆI, Calcutta {#saMvat#} {#1234#} {#zAkE#} {#5678#} {#vaizakhE. #} 
+2065 <HI iast="VIVEKAV.">VIVEKAV. = VIVEKAVILĀSA im Journal PRATNAKAMRANANDINI. 
+2066 <HI iast="VOP.">VOP. = VOPADEVA'S MUGDHABODHA, herausgegeben und erklärt von O. BÖHTLINGK. 
+2067 <HI iast="WEBER,Lit.">WEBER,Lit. = Akademische Vorlesung über Indische Literaturgeschichte. Von ALBRECHT WEBER. Zweite vermehrte Auflage. 
+2068 <HI iast="WILSON,Sel.Spec.">WILSON,Sel.Spec. = WILSON, Select Specimens of the Theatre of the Hindus. 
+3001 <HI iast="APARĀRKA.">APARĀRKA. = APARĀRKA (JOLLY). 
+3002 <HI iast="BHĀM.">BHĀM. = BHĀMATĪ in der Bibl. ind. (STENZLER). 
+3003 <HI iast="BṚHANM.">BṚHANM. = BṚHANMANU, nach Citaten in verschiedenen juristischen Büchern(JOLLY). 
+3004 <HI iast="BṚHASP.">BṚHASP. = BṚHASPATI, nach Citaten in verschiedenen jurischen Büchern (JOLLY). 
+3005 <HI iast="Cat.ALLAR.">Cat.ALLAR. = A Catalogue of Sanscrit Manuscripts in Oudh (ROTH). 
+3006 <HI iast="Cat.KIELH.">Cat.KIELH. = Cat. C. PR. 
+3007 <HI iast="ŚRUT.">ŚRUT. = ŚRUTABODHA in der Zeitschrift für die Kunde des Morgenlandes, Bd. IV. 
+3008 <HI iast="ŚUKRAN.">ŚUKRAN. = ŚUKRANĪTI in OPPERT, On the army organization of the Ancient Hindus S. 107 (WEBER). 
+3009 <HI iast="DEVALA.">DEVALA. = DEVALA nach Citaten in verschiedenen juristischen Schriften (JOLLY). 
+3010 <HI iast="DONNER,PIṆḌ.">DONNER,PIṆḌ. = PIṆḌAPITṚYAJÑA, von Dr. O. DONNER. Berlin. 1870. 
+3011 <HI iast="EITEL,Chin.B.">EITEL,Chin.B. = Hand-Book for the student of Chinese Buddhism, by Rev. E. l. EITEL. London, 1870. 
+3012 <HI iast="GAṆITA,MADHYĀM(ĀDHYĀYA).">GAṆITA,MADHYĀM(ĀDHYĀYA). = GAṆITA,MADHYĀM(ĀDHYĀYA)KERN. 
+3013 <HI iast="GOBH.ŚRĀDDHAK.">GOBH.ŚRĀDDHAK. = GOBHILA'S ŚRĀDDHAKALPA in der Bibl. ind. 
+3014 <HI iast="HAEB.Anth.">HAEB.Anth. = HAEBERLIN'S Anthology, Calcutta 1847. 
+3015 <HI iast="HILLEBR.N.">HILLEBR.N. = HILLEBRANDT'S altindisches Neu- und Vollmondsopfer. 
+3016 <HI iast="KĀD.">KĀD. = KĀD. Die eingeklammerten Zahlen verweisen auf die Calc. Ausg. 1872. 
+3017 <HI iast="KAIVALYOP.">KAIVALYOP. = KAIVALYOPANIṢAD in der Bibl. ind. 
+3018 <HI iast="KAṬHOP.">KAṬHOP. = KAṬHOP(ANIṢAD) in der Bibl. ind. 
+3019 <HI iast="KĀTY(ĀYANA).">KĀTY(ĀYANA). = KĀTY(ĀYANA) nach Citaten in verschiedenen juristischen Werken(JOLLY). 
+3020 <HI iast="KĀTY.ŚRĀDDHAK.">KĀTY.ŚRĀDDHAK. = KĀTYĀYANA'S ŚRĀDDHAKALPASŪTRA (STENZLER). 
+3021 <HI iast="CAURAP.">CAURAP. = CAURAPAÑCĀŚAT, herausgegeben von M. ARIEL im Journal asiatique, 4me série, Bd. XI, S. 469. fgg. (CAPELLER). 
+3022 <HI iast="KUHN'S.Z.">KUHN'S.Z. = Zeitschrift für vergleichende Sprachforschung anf dem Gebiete der indogermanischen Sprachen. 
+3023 <HI iast="KUMĀRAS.">KUMĀRAS. = KUMĀRAS. 8. FGG. finde man im 1ten Bande Pandit und besonders herausgegeben von TĀRĀNĀTHA TARKAVĀCHASPATI, Calcutta 1868. 
+3024 <HI iast="LIA.">LIA. = LASSEN'S Indische Alterthunmskunde. 
+3025 <HI iast="MBH.ed.Vardh.">MBH.ed.Vardh. = MBH. ed. Vardh. ist die auf Kosten des Fürsten von Vardhamāna (Burdwan) gedruckte Ausg. des MAHĀBHĀRATA. Sie enthält nur die 12 ersten Parvan. 
+3026 <HI iast="MEDHĀT.">MEDHĀT. = MEDHĀTITHI, ein Scholiast des MANU (JOLLY). 
+3027 <HI iast="MÜLLER,SL.">MÜLLER,SL. = A History of Ancient Sanskrit Literature. By MAX MÜLLER. 1859. 
+3028 <HI iast="MUṆḌ.UP.">MUṆḌ.UP. = MUṆḌAKOPANIṢAD in der Bibl. ind. 
+3029 <HI iast="OLD.Buddha.">OLD.Buddha. = OLD.Buddha = Buddha. Sein Leben, seine Lehre, seine Gemeinde. Von HERMANN OLDENBERG. Berlin 1881. 
+3030 <HI iast="PRAJĀPATI.">PRAJĀPATI. = PRAJĀPATI , nach Citaten in verschiendenen juristischen Werken (JOLLY). 
+3031 <HI iast="PR.P.">PR.P. = PRACAṆḌAPĀṆḌAVA, EIN SCHAUSPIEL. HDSCHR. (CAPELLER). 
+3032 <HI iast="RĀMAPŪRVAT.UP.">RĀMAPŪRVAT.UP. = RĀMAPŪRVATĀPANĪYOPANIṢAD in der Bibl. ind. 
+3033 <HI iast="RASAR.">RASAR. = RASAR. RASARATNĀKARA, Calcutta 1878 (ROTH). 
+3034 <HI iast="RASENDRAC.">RASENDRAC. = RASENDRACINTĀMAṆI Calcutta 1878 (ROTH). 
+3035 <HI iast="SOMAKARMAPR.">SOMAKARMAPR. = SOMAKARMAPRADĪPA des RĀMA, Hdschr. (ROTH). 
+3036 <HI iast="SUKHĀV.">SUKHĀV. = SUKHĀVATĪVYŪHA nach der nocht nich erschienenen Ausg. von F. MAX MÜLLER.
+3036.1 <HI iast="SVAPNAC.">SVAPNAC. = SVAPNACINTĀMAṆI (PISCHEL).
+3037 <HI iast="VAJRACCH.">VAJRACCH. = VAJRACCHEDIKĀ, herausgegeben von (F. MAX MÜLLER). 
+3038 <HI iast="VASIṢṬHA.">VASIṢṬHA. = VASIṢṬHA, nach der Ausg. von Benares (JOLLY). 
+3039 <HI iast="VET.(U.).">VET.(U.). = VETĀLAPAÑCA VIṂŚATIKĀ, herausgegeben von HEINRICH UHLE. 
+3040 <HI iast="VYUTP.">VYUTP. = VYUTPATTI, ein Sanskrit-Tibetisches Wörterbuch aus dem TAÑJUR (SCHIEFNER). 
+3041 <HI iast="VṚṢABH.">VṚṢABH. = VṚṢABHĀNUJA im 3ten und 4ten Bande des Pandit (CAPELLER). 
+3042 <HI iast="WEBER,RĀMAT.">WEBER,RĀMAT. = WEBER'S Ausg. RĀMATĀPANĪYOPANIṢAD. 
+3043 <HI iast="WIND.SANC.">WIND.SANC. = FRIDERICI HENR. HUG. WINDISHMANNI SANCARA sive de theologumenis Vedanticorum. 
+3044 <HI iast="BHĀM.V.">BHĀM.V. = BHĀMINĪVILĀSA, Ausg. von ABELBERGAIGNER(CAPELLER. ) 
+4001 <HI iast="ŚAṂK.VIJ.">ŚAṂK.VIJ. = ŚAṂKARAVIJAYA in der Bibl. ind. 
+4002 <HI iast="CANTOR.">CANTOR. = CANTOR, Geschichte der Mathematik (WINDISCH) . 
+4003 <HI iast="GAṆITA,GRAHACCH.">GAṆITA,GRAHACCH. = GAṆITA,GRAHACCHĀYĀDHIKĀRA (KERN) . 
+4004 <HI iast="GAṆITA,SŪRYAGR.">GAṆITA,SŪRYAGR. = GAṆITA,SŪRYAGRAHAṆĀDHIKĀRA (KERN) . 
+4005 <HI iast="GOVARDH.">GOVARDH. = Govardhana's SAPTAŚATĪ (WEBER) . 
+4006 <HI iast="KAṆṬHAŚR.UP.">KAṆṬHAŚR.UP. = KAṆṬHAŚRUTYUPANIṢAD in der Bibl. ind. 
+4007 <HI iast="KIELHORN,Rep.">KIELHORN,Rep. = Report on the search for Sanskrit Mss. in the Bombay Presidency, during the year 1880-81. by F. KIELHORN(ROTH) . 
+4008 <HI iast="LOKAPR.">LOKAPR. = LOKAPRAKĀŚA (JOLLY) . 
+4009 <HI iast="PRATIJÑĀS.">PRATIJÑĀS. = PRATIJÑĀS(ŪTRA) berausg. von A. WEBER. 
+4010 <HI iast="RĀJAN.">RĀJAN. = RĀJAN. 13 nach der Ausg. von R. GARBE. 
+4011 <HI iast="SADDH.P.">SADDH.P. = SADDHARMAPUṆḌARĪKA (KERN) . 
+4013 <HI iast="VĪRAM.">VĪRAM. = VĪRAMITRODAYA, Khadirapura 1815(STENZLER) . 
+5001 <HI iast="ALAṂKĀRAR.">ALAṂKĀRAR. = ALAṂKĀRARATNĀKARA des ŚOBHĀKARA, Deccan. Coll. Hdschr. No. 227 (PISCHEL). 
+5002 <HI iast="ALAṂKĀRAS.">ALAṂKĀRAS. = ALAṂKĀRASARVASVA von RUYYAKA, Deccan Coll. Hdschr. No. 231 (PISCHEL). 
+5003 <HI iast="ALAṂKĀRAT.">ALAṂKĀRAT. = ALAṂKĀRATILAKA, Hdschr. (AUFRECHT). 
+5004 <HI iast="ALAṂKĀRAV.">ALAṂKĀRAV. = ALAṂKĀRAVIMARŚINĪ von JAYARATHA, Deccan Coll. Hdschr. No. 230 (PISCHEL). 
+5005 <HI iast="ANARGHAR.">ANARGHAR. = ANARGHARĀGHAVA, Calcutta Śaka 1782 (AUFRECHT). 
+5006 <HI iast="ASAHĀYA.">ASAHĀYA. = ASAHĀYA , ein Commentator des NĀRADA (JOLLY). 
+5007 <HI iast="BAUDH.">BAUDH. = BAUDH. (mit Angaben der Abschnitte) nach Mittheilungen von BÜHLER. 
+5008 <HI iast="Berl.Mon.">Berl.Mon. = Monatsbericht der Königlich Preussischen Akademie der Wissenschaften zu Berlin. 
+5009 <HI iast="BHADRAB.">BHADRAB. = BHADRABĀHUCARITRA, herausgegeben von H. Y. JACOBI in Z. d. d. m. G. 38, 19. fgg. (JACOBI). 
+5010 <HI iast="BHARAṬAKA.">BHARAṬAKA. = BHARAṬAKADVĀTRIṂŚIKĀ, Hdschr. (AUFRECHT). 
+5011 <HI iast="BHAVIṢYAP.">BHAVIṢYAP. = BHAVIṢYAPURĀṆA Hdschr. (AUFRECHT). 
+5012 <HI iast="BHAVIṢYOTT.P.">BHAVIṢYOTT.P. = BHAVIṢYOTT.P. , auch nach Mittheilungen von AUFRECHT. 
+5013 <HI iast="BURNELL,T.">BURNELL,T. = Classified Index to the Sanskrit Mss. in the Palace of Tanjore. By A. C. BURNELL. 
+5014 <HI iast="ŚĀŚVATA.">ŚĀŚVATA. = ŚĀŚVATA'S ANEKĀRTHASAMUCCAYA, herausgegeben von THEODOR ZACHARIAE. 
+5015 <HI iast="ŚĀKTĀN.">ŚĀKTĀN. = ŚĀKTĀNANDATARAṂGIṆI Hdschr. (AUFRECHT). 
+5016 <HI iast="ŚĀRṄG.">ŚĀRṄG. = ŚĀRṄG. PADDH. , auch nach Mittheilungen von AUFRECHT. 
+5017 <HI iast="ŚIVA-P.">ŚIVA-P. = ŚIVA-PURĀṆA (SK. , dschr. No. 126 in verzeichnis der Oxforder Handschriften (AUFRECHT). 
+5018 <HI iast="ŚRĪMĀLĀM.">ŚRĪMĀLĀM. = ŚRĪMĀLĀMĀHĀTMYA, Hdschr. (AUFRECHT). 
+5019 <HI iast="DARPAD.">DARPAD. = DARPADALANA von KṢEMENDRA, Hdschr. (AUFRECHT). 
+5020 <HI iast="DATTAKAŚ.">DATTAKAŚ. = DATTAKAŚIROMAṆI, Calcutta 1867 (JOLLY). 
+5021 <HI iast="DEVĪBHĀG.">DEVĪBHĀG. = DEVĪBHĀGAVATAPURĀṆA, Hdschr. (AUFRECHT). 
+5022 <HI iast="DRAVYAŚ.">DRAVYAŚ. = DRAVYAŚUDDHITATTVA, Hdschr. (AUFRECHT). 
+5023 <HI iast="GAṆITA,CANDRAGR.">GAṆITA,CANDRAGR. = GAṆITA,CANDRAGRAHĀDHIKĀRA (KERN). 
+5024 <HI iast="HARṢAC.">HARṢAC. = HARṢAC (1936), Bomb. Ausg. (KERN). 
+5025 <HI iast="KĀŚĪKH.">KĀŚĪKH. = KĀŚĪKHAṆḌA, HDSCHR. (AUFRECHT). 
+5026 <HI iast="CAMPAKA.">CAMPAKA. = Ueber das CAMPAKAŚREṢṬHIKATHĀNAKAM, die Geschichte vom Kaufmann CAMPAKA. Herausgegeben von A. WEBER in Sitzungsberichte der Königlich Preussischen Akademie der Wissenschaften zu Berlin. Yahrgang 1883. S. 567. fgg. 885. fgg. Vgl. Mélanges asiatiques tirés du Bulletin de l'Académie Impériale des Sciences de St. Pétersbourg. Tome IX, S. 75. fgg. 
+5027 <HI iast="KATHĀRṆAVA.">KATHĀRṆAVA. = KATHĀRṆAVA , Hdschr. (AUFRECHT). 
+5028 <HI iast="KĀTY.KARM.">KĀTY.KARM. = KĀTY(ĀYANA'S)KARMAPRADĪPA (STENZLER). 
+5029 <HI iast="KĀTY.">KĀTY. = KĀTYĀYANA'S PARIBH (ĀṢĀS) IN 'Zwölf Hymnen des Rigveda, herausgegeben von ERNST WIDISCH'S. 169. fgg. 
+5030 <HI iast="KĀVYĀL.">KĀVYĀL. = KĀVYĀLOKALOCANA, Hdschr. (AUFRECHT). 
+5031 <HI iast="KHAṆḌAPR.">KHAṆḌAPR. = KHAṆḌAPRAŚASTI im Pandit, Bed. 5 und 6 (AUFRECHT). 
+5032 <HI iast="CHĀNDOGYAP.">CHĀNDOGYAP. = CHĀNDOGYAPARIŚIṢṬA nach Citaten in andern Werken (AUFRECHT). 
+5033 <HI iast="KULĀRṆAVA.">KULĀRṆAVA. = KULĀRṆAVA , Hdschr. (AUFRECHT). 
+5034 <HI iast="LEUMANN,Aup.Gl.">LEUMANN,Aup.Gl. = Glossar in. , Das Aupapātika Sūtra, herausgegeben von Dr. ERNST LEUMANN. 
+5035 <HI iast="MATSYAP.">MATSYAP. = MATSYAPURĀṆA, Poona-Ausg. (AUFRECHT). 
+5036 <HI iast="M.MÜLLER,Ren.">M.MÜLLER,Ren. = The Renaissance of Sanskrit Literature in M. MüLLER'S India what can it teach us? S. 281. fgg. Auch die vorangehenden Abschnitte werden so citirt. 
+5037 <HI iast="NĀRADA.">NĀRADA. = NĀRADA (a. ) bezeichnet die ausführlichere Recension NĀRAD'S (JOLLY). 
+5038 <HI iast="PADDH.">PADDH. = PADDHATI zu MĀN (AVA) GṚHY (ASŪTRA), Hdschr. (v. BRADKE). 
+5039 <HI iast="PADYĀVALĪ.">PADYĀVALĪ. = PADYĀVALĪ , Hdschr. (AUFRECHT). 
+5040 <HI iast="PĀRŚVAN.">PĀRŚVAN. = PĀRŚVANĀTHAKĀVYA, Hdschr. (AUFRECHT). 
+5041 <HI iast="PRĀYAŚCITTAV.">PRĀYAŚCITTAV. = PRĀYAŚCITTAVIVEKA, Hdschr. (AUFRECHT). 
+5042 <HI iast="PRAKRIYĀK.">PRAKRIYĀK. = PRAKRIYĀKAUMUDĪ, Hdschr. (Aufrecht).
+5042.1 <HI iast="RĀJENDR.Not..">RĀJENDR.Not.. = Notices of Sanskrit Mss. by RĀJENDRALĀLA MITRA.
+5043 <HI iast="ṚKT.">ṚKT. = ṚKTANTRA, herausgegeben von BURNELL (STENZLER). 
+5044 <HI iast="SADUKTIK.">SADUKTIK. = SADUKTIKARṆĀMṚTA von ŚRĪDHARADĀSA, Hdschr. (AUFRECHT). 
+5045 <HI iast="SAṂKṢEPAŚ.">SAṂKṢEPAŚ. = SAṂKṢEPAŚAṂKARAJAYA von MĀDHAVA (AUFRECHT). 
+5046 <HI iast="SARASVATĪK.">SARASVATĪK. = SARASVATĪKAṆṬHĀBHARAṆA, Hdschr. (AUFRECHT). 
+5047 <HI iast="SCHIEFNER,TĀRAN.">SCHIEFNER,TĀRAN. = TĀRĀNĀTHA'S Geschichte des Buddhismus in Indien, aus den Tibetschen übersetzt von ANTON SCHIEFNER. 
+5048 <HI iast="SUBHĀṢITĀV.">SUBHĀṢITĀV. = SUBHĀṢITĀVALI von VALLABHADEVA, Hdschr. (AUFRECHT). 
+5049 <HI iast="UTTAMAC.">UTTAMAC. = Ueber das UTTAMACARITRAKATHĀNAKAM, die Geschichte vom prinzen Trefflichst in Sitzungsserichte der Kön der Kön. Pr. Akademie der Ww- zu Berlin 1884, No. XVII. 
+5050 <HI iast="VĀMANAP.">VĀMANAP. = VĀMANAPURĀṆA, Hdschr. (AUFRECHT). 
+5051 <HI iast="VĀRĀHAP.">VĀRĀHAP. = VĀRĀHAPURĀṆA , Hdschr. (JACOBI). 
+5052 <HI iast="VASIṢṬHA.">VASIṢṬHA. = VASIṢṬHA nach der Ausgabe von FÜHRER, Bombay 1883. 
+5053 <HI iast="VIKR.drāv.">VIKR.drāv. = KĀLIDĀSA'S VIKRAMORVAŚĪYAM nach drāvidischen Handschriften, herausgegeben von RICHARD PISCHEL in. , Monatsbericht der Königlich Preussischen Akademie der Wissenschaften zu Berlin"1875, S. 609. fgg. 
+5054 <HI iast="ZACH.Beitr.">ZACH.Beitr. = Beiträge zur indischen Lexicographie von THEODOR ZACHARIAE. 
+5055 <HI iast="Z.f.d.K.d.M.">Z.f.d.K.d.M. = Zeitschrift für die Kunde des Morgenlandes. 
+6001 <HI iast="ALAṂKĀRAŚ.">ALAṂKĀRAŚ. = ALAṂKĀRAŚEKHARA, lith. Ausg. Benares 1923 (TH. AUFRECHT und R. PISCHEL).
+6001.1 <HI iast="AUCITY.">AUCITY. = AUCITYĀLAṂKĀRA (R. PISCHEL).
+6002 <HI iast="Bydragen.">Bydragen. = Bydragen (tot de Taal-, Land-en Volkenkunde van Nederlandsch Indie) (H. KERN). 
+6003 <HI iast="ŚĀK.(Kāśm.).">ŚĀK.(Kāśm.). = ist die von K. BURKHARD in den Sitzungsberichten der phil-hist. Klasse der Kais. Ak. d. Ww. in Wien, Bd. 107, veröffentlichte Kaśmirer Śakuntalā-Handschrift (C. CAPELLER). 
+6004 <HI iast="ŚUKAS.">ŚUKAS. = ŚUKASAṂDEŚA in Journal of the Royal Asiatic Society of Great Britain & Ireland, Bd. XVI. 
+6005 <HI iast="JĀTAKAM.">JĀTAKAM. = JĀTAKAMĀLĀ, Hdschr. (H. KERN). 
+6006 <HI iast="CANDRĀLOKA.">CANDRĀLOKA. = CANDRĀLOKA (R. PISCHEL).
+6007 <HI iast="KĀVYĀL.">KĀVYĀL. = KĀVYĀLAṂKĀRA des RUDRAṬA (R. PISCHEL). 
+6008 <HI iast="KṢEM.">KṢEM. = KṢEMENDRA'S KAVIKAṆṬĀBHARAṆA, herausgegeben von Y. SCHÖNBERG in den Sitzungsberichten der Phil-hist. Klasse der Kais. Ak. d. Ww. in Wien, Bd. 106 (C. CAPELLER). 
+6009 <HI iast="NIDĀNAS.">NIDĀNAS. = NIDĀNASŪTRA (A. WEBER). 
+6010 <HI iast="PARAMĀRTHA.">PARAMĀRTHA. = PARAMĀRTHASĀRA (TH. AUFRECHT). 
+6011 <HI iast="RUDRAṬĀLAṂKĀRAṬ.">RUDRAṬĀLAṂKĀRAṬ. = RUDRAṬĀLAṂKĀRAṬIPPAṆAKA, auch RUDRAṬAKĀVYĀLAṂKĀRAṬ. genannt (R. PISCHEL. ) 
+6012 <HI iast="SAHṚDAYĀLOKA.">SAHṚDAYĀLOKA. = SAHṚDAYĀLOKA (R. PISCHEL).
+6013 <HI iast="SARASVATĪK.">SARASVATĪK. = SARASVATĪKAṆṬHĀBHARAṆA, Calcutta 1883 (CAPELLER). 
+6014 <HI iast="SUBHĀṢITARATNABH.">SUBHĀṢITARATNABH. = SUBHĀṢITARATNABHĀṆḌĀGĀRA (TH. AUFRECHT). 
+6015 <HI iast="TATTVAK.">TATTVAK. = TATTVAKAUMUDĪ (H. Kern). 
+6016 <HI iast="VĀGBH.">VĀGBH. = VĀGBH.AṬA'S ALAṂKĀRA, Calcutta 1883 (CAPELLER). 
+6017 <HI iast="WEBER.">WEBER. = WEBER , BHAGAVATĪ. 
+X001 <HI iast="DAMAYANTĪK.">DAMAYANTĪK. = [unknown literary source]
+X002 <HI iast="UTPALA.">UTPALA. = [unknown literary source]
+X003 <HI iast="ŚĀṄKH.ĀR.">ŚĀṄKH.ĀR. = [unknown literary source]
+X004 <HI iast="NṚS.TĀP.UP.">NṚS.TĀP.UP. = [unknown literary source]
+X005 <HI iast="ṚṢIMAṆḌALASTOTRA.">ṚṢIMAṆḌALASTOTRA. = [unknown literary source]
+X006 <HI iast="ŚĀṄKH.">ŚĀṄKH. = [unknown literary source]
+X007 <HI iast="ed.Bomb.">ed.Bomb. = [unknown literary source]
+X008 <HI iast="MALLIN.">MALLIN. = [unknown literary source]
+X009 <HI iast="Nachträge.">Nachträge. = [unknown literary source]
+X010 <HI iast="SCHRÖDER.">SCHRÖDER. = [unknown literary source]
+X011 <HI iast="KUMĀRILA.">KUMĀRILA. = [unknown literary source]
+X012 <HI iast="SIDDH.K.ed.TĀR.">SIDDH.K.ed.TĀR. = [unknown literary source]
+X013 <HI iast="WHITNEY.">WHITNEY. = [unknown literary source]
+X014 <HI iast="CAṆḌIDĀSA.">CAṆḌIDĀSA. = [unknown literary source]
+X015 <HI iast="AUFRECHT.">AUFRECHT. = [unknown literary source]
+X016 <HI iast="KĀD.ed.Bomb.">KĀD.ed.Bomb. = [unknown literary source]
+X017 <HI iast="ŚŪDRADH.">ŚŪDRADH. = [unknown literary source]
+X018 <HI iast="KAMALĀKARA.">KAMALĀKARA. = [unknown literary source]
+X019 <HI iast="PANDIT.">PANDIT. = [unknown literary source]
+X020 <HI iast="DRAVYAV.">DRAVYAV. = [unknown literary source]
+X021 <HI iast="PAÑCAT.ed.Bomb.">PAÑCAT.ed.Bomb. = [unknown literary source]
+X022 <HI iast="R.GORR.">R.GORR. = [unknown literary source]
+X023 <HI iast="R.ed.GORR.">R.ed.GORR. = [unknown literary source]
+X024 <HI iast="R.ed.Bomb.">R.ed.Bomb. = [unknown literary source]
+X025 <HI iast="R.Schl.">R.Schl. = [unknown literary source]
+X026 <HI iast="BHĀG.P.ed.Bomb.">BHĀG.P.ed.Bomb. = [unknown literary source]
+X027 <HI iast="ĀPAST.GAUT.">ĀPAST.GAUT. = [unknown literary source]
+X028 <HI iast="ĀPAST.GṚHY.">ĀPAST.GṚHY. = [unknown literary source]
+X029 <HI iast="ZIMMER.">ZIMMER. = [unknown literary source]
+X030 <HI iast="ZACH.">ZACH. = [unknown literary source]
+X031 <HI iast="VARDHAMĀNAC.">VARDHAMĀNAC. = [unknown literary source]
+X032 <HI iast="ŚAṂK.zu.BĀDAR.">ŚAṂK.zu.BĀDAR. = [unknown literary source]
+X033 <HI iast="CAKR.zu.SUŚR.">CAKR.zu.SUŚR. = [unknown literary source]
+X034 <HI iast="VAIDYAKA.">VAIDYAKA. = [unknown literary source]
+X035 <HI iast="SIDDH.K.">SIDDH.K. = [unknown literary source]
+X036 <HI iast="SATYA.">SATYA. = [unknown literary source]
+X037 <HI iast="VYĀSA.">VYĀSA. = [unknown literary source]
+X038 <HI iast="BHAR.">BHAR. = [unknown literary source]
+X039 <HI iast="KERN.">KERN. = [unknown literary source]
+X040 <HI iast="TANTRAS.">TANTRAS. = [unknown literary source]
+X041 <HI iast="MANU.">MANU. = [unknown literary source]
+X042 <HI iast="WEBER,RĀMAT.Up.">WEBER,RĀMAT.Up. = [unknown literary source]
+X043 <HI iast="ZIMMER,Altind.Leben.">ZIMMER,Altind.Leben. = [unknown literary source]
+X044 <HI iast="HALL.">HALL. = [unknown literary source]
+X045 <HI iast="HEM.YOGAŚ.">HEM.YOGAŚ. = [unknown literary source]
+X046 <HI iast="HEM.Pr.Gr.">HEM.Pr.Gr. = [unknown literary source]
+X047 <HI iast="ŚĀY(PISCH.).">ŚĀY(PISCH.). = [unknown literary source]
+X048 <HI iast="YOGAY.">YOGAY. = [unknown literary source]
+X049 <HI iast="KĀVYĀD.">KĀVYĀD. = [unknown literary source]
+X050 <HI iast="KAUTUKAS.">KAUTUKAS. = [unknown literary source]
+X051 <HI iast="NAIGH.">NAIGH. = [unknown literary source]
+X052 <HI iast="PAT.">PAT. = [unknown literary source]
+X053 <HI iast="KUHN.">KUHN. = [unknown literary source]
+X054 <HI iast="KUHN'S.Beitr.">KUHN'S.Beitr. = [unknown literary source]
+X055 <HI iast="VIṢṆU.">VIṢṆU. = [unknown literary source]
+X056 <HI iast="BHĀG.P.ed.BURN.">BHĀG.P.ed.BURN. = [unknown literary source]
+X057 <HI iast="STENZLER.">STENZLER. = [unknown literary source]
+X058 <HI iast="BAUDH.GṚHY.PARIŚ.">BAUDH.GṚHY.PARIŚ. = [unknown literary source]
+X059 <HI iast="BENFEY.">BENFEY. = [unknown literary source]
+X060 <HI iast="SATUA.">SATUA. = [unknown literary source]
+X061 <HI iast="MBH.ed.Bomb.">MBH.ed.Bomb. = [unknown literary source]
+X062 <HI iast="M.MÜLLER.">M.MÜLLER. = [unknown literary source]
+X063 <HI iast="BURNOUF.">BURNOUF. = [unknown literary source]
+X064 <HI iast="CARAKA.ed.Calc.">CARAKA.ed.Calc. = [unknown literary source]
+X065 <HI iast="MBH.ed.Calc.">MBH.ed.Calc. = [unknown literary source]
+X066 <HI iast="RĀJAT.ed.Calc.">RĀJAT.ed.Calc. = [unknown literary source]
+X067 <HI iast="HEM.Pr.Gr.ed.PISCHEL.">HEM.Pr.Gr.ed.PISCHEL. = [unknown literary source]
+X068 <HI iast="TBR.Comm.">TBR.Comm. = [unknown literary source]
+X069 <HI iast="KĀLIDĀSA.">KĀLIDĀSA. = [unknown literary source]
+X070 <HI iast="WILSON,SĀṂKHYAK.">WILSON,SĀṂKHYAK. = [unknown literary source]
+X071 <HI iast="WILSON.">WILSON. = [unknown literary source]
+X072 <HI iast="DAŚAK.ed.WILSON.">DAŚAK.ed.WILSON. = [unknown literary source]
+X073 <HI iast="DĀRILA.">DĀRILA. = [unknown literary source]
+X074 <HI iast="RAGH.ed.Calc.">RAGH.ed.Calc. = [unknown literary source]
+X075 <HI iast="DHŪRTAS.ed.Calc.">DHŪRTAS.ed.Calc. = [unknown literary source]
+X076 <HI iast="MĀLAV.ed.BOLL.">MĀLAV.ed.BOLL. = [unknown literary source]
+X077 <HI iast="TAITT.PRĀT.">TAITT.PRĀT. = [unknown literary source]
+X078 <HI iast="BRĀHMAṆA.">BRĀHMAṆA. = [unknown literary source]
+X079 <HI iast="UPALEKHA.">UPALEKHA. = [unknown literary source]
+X080 <HI iast="GELDNER.">GELDNER. = [unknown literary source]
+X081 <HI iast="BṚHASPATI.">BṚHASPATI. = [unknown literary source]
+X082 <HI iast="WHITNEY,Ind.">WHITNEY,Ind. = [unknown literary source]
+X083 <HI iast="SMṚTIM.">SMṚTIM. = [unknown literary source]
+X084 <HI iast="D.P.">D.P. = [unknown literary source]
+X085 <HI iast="BHĀRADVĀJA.">BHĀRADVĀJA. = [unknown literary source]
+X086 <HI iast="DURGA.zu.NIR.">DURGA.zu.NIR. = [unknown literary source]
+X087 <HI iast="MAHĀN.">MAHĀN. = [unknown literary source]
+X088 <HI iast="KĀṆVA-REC.">KĀṆVA-REC. = [unknown literary source]
+X089 <HI iast="ŚĀK.PISCH.">ŚĀK.PISCH. = [unknown literary source]
+X090 <HI iast="WRIGHT,Hist.of.Nep.">WRIGHT,Hist.of.Nep. = [unknown literary source]
+X091 <HI iast="MUIR.ST.">MUIR.ST. = [unknown literary source]
+X092 <HI iast="HEDRI.">HEDRI. = [unknown literary source]
+X093 <HI iast="PADMAP.">PADMAP. = [unknown literary source]
+X094 <HI iast="PATAÑJALI.">PATAÑJALI. = [unknown literary source]
+X095 <HI iast="KĀŚYAPA.">KĀŚYAPA. = [unknown literary source]
+X096 <HI iast="DELBRÜCK.">DELBRÜCK. = [unknown literary source]
+X097 <HI iast="TAWNEY.">TAWNEY. = [unknown literary source]
+X098 <HI iast="C.H.TAWNEY.">C.H.TAWNEY. = [unknown literary source]
+X099 <HI iast="YAVANEŚVARA.">YAVANEŚVARA. = [unknown literary source]
+X100 <HI iast="HULTZSCH.">HULTZSCH. = [unknown literary source]
+X101 <HI iast="VṚTTARATNĀKARA.">VṚTTARATNĀKARA. = [unknown literary source]
+X102 <HI iast="KAIY.">KAIY. = [unknown literary source]
+X103 <HI iast="MED.j.">MED.j. = [unknown literary source]
+X104 <HI iast="BHARATA.">BHARATA. = [unknown literary source]
+X105 <HI iast="GARBE.">GARBE. = [unknown literary source]
+X106 <HI iast="ĪŚOP.">ĪŚOP. = [unknown literary source]
+X107 <HI iast="VRATARĀJA.">VRATARĀJA. = [unknown literary source]
+X108 <HI iast="MĀDHAVĪYADHĀTUVṚTTI.">MĀDHAVĪYADHĀTUVṚTTI. = [unknown literary source]
+X109 <HI iast="BHĀG.">BHĀG. = [unknown literary source]
+X110 <HI iast="AŚVAV.">AŚVAV. = [unknown literary source]
+X111 <HI iast="ŚĀK.CH.">ŚĀK.CH. = [unknown literary source]
+X112 <HI iast="ANTYEṢṬIK.">ANTYEṢṬIK. = [unknown literary source]
+X113 <HI iast="RUDRAYĀMALA.">RUDRAYĀMALA. = [unknown literary source]
+X114 <HI iast="COLEBR.MISC.Ess.">COLEBR.MISC.Ess. = [unknown literary source]
+X115 <HI iast="RĀYENDR.Not.">RĀYENDR.Not. = [unknown literary source]
+X116 <HI iast="ROTH.">ROTH. = [unknown literary source]
+X117 <HI iast="KĀTY.ŚR.PADDH.">KĀTY.ŚR.PADDH. = [unknown literary source]
+X118 <HI iast="HARADATTA.">HARADATTA. = [unknown literary source]
+X119 <HI iast="DRAUP.">DRAUP. = [unknown literary source]
+X120 <HI iast="Sch.">Sch. = [unknown literary source]
+X121 <HI iast="MALLIKĀMĀRUTA.">MALLIKĀMĀRUTA. = [unknown literary source]
+X122 <HI iast="VIJÑĀNEŚVARA.">VIJÑĀNEŚVARA. = [unknown literary source]
+X123 <HI iast="SUD.">SUD. = [unknown literary source]
+X124 <HI iast="KĀTANTRA.">KĀTANTRA. = [unknown literary source]
+X125 <HI iast="BRĀHMAṆ.">BRĀHMAṆ. = [unknown literary source]
+X126 <HI iast="CHANDOGAPARIŚ.">CHANDOGAPARIŚ. = [unknown literary source]
+X127 <HI iast="ŚIKṢĀ.">ŚIKṢĀ. = [unknown literary source]
+X128 <HI iast="RĀM.RĀS.">RĀM.RĀS. = [unknown literary source]
+X129 <HI iast="PUṢPADANTA.">PUṢPADANTA. = [unknown literary source]
+X130 <HI iast="PARAMAHAṂSOP.">PARAMAHAṂSOP. = [unknown literary source]
+X131 <HI iast="AV.PADDH.">AV.PADDH. = [unknown literary source]
+X132 <HI iast="OPPERT.">OPPERT. = [unknown literary source]
+X133 <HI iast="KNAUER.">KNAUER. = [unknown literary source]
+X134 <HI iast="AV.PRĀT.">AV.PRĀT. = [unknown literary source]
+X135 <HI iast="CHANDOGOPARIŚ.">CHANDOGOPARIŚ. = [unknown literary source]
+X136 <HI iast="R.ed.SCHL.">R.ed.SCHL. = [unknown literary source]
+X137 <HI iast="AUPAMANYAVA.">AUPAMANYAVA. = [unknown literary source]
+X138 <HI iast="YAŚNA.">YAŚNA. = [unknown literary source]
+X139 <HI iast="DURGA.">DURGA. = [unknown literary source]
+X140 <HI iast="JACOBI.">JACOBI. = [unknown literary source]
+X141 <HI iast="ṚGVIDHĀNA.">ṚGVIDHĀNA. = [unknown literary source]
+X142 <HI iast="BHĀGURI.">BHĀGURI. = [unknown literary source]
+X143 <HI iast="SUBHĀṢITARATNABH.PRAK.">SUBHĀṢITARATNABH.PRAK. = [unknown literary source]
+X144 <HI iast="SIDDH.K.ed.TĀRĀN.">SIDDH.K.ed.TĀRĀN. = [unknown literary source]
+X145 <HI iast="ṚV.ed.M.">ṚV.ed.M. = [unknown literary source]
+X146 <HI iast="ĀNANDAGIRI.">ĀNANDAGIRI. = [unknown literary source]
+X147 <HI iast="ŚAṂKARA.">ŚAṂKARA. = [unknown literary source]
+X148 <HI iast="LALLA.">LALLA. = [unknown literary source]
+X149 <HI iast="VIVEK.">VIVEK. = [unknown literary source]
+X150 <HI iast="JOLLY.">JOLLY. = [unknown literary source]
+X151 <HI iast="MAD.">MAD. = [unknown literary source]
+X152 <HI iast="HIRAṆYAKEŚIN.">HIRAṆYAKEŚIN. = [unknown literary source]
+X153 <HI iast="ATHARVAŚIKHOP.">ATHARVAŚIKHOP. = [unknown literary source]
+X154 <HI iast="UVAṬA.">UVAṬA. = [unknown literary source]
+X155 <HI iast="FOUCAUX.">FOUCAUX. = [unknown literary source]
+X156 <HI iast="PETERSON.">PETERSON. = [unknown literary source]
+X157 <HI iast="MĀLATĪM.ed.Bomb.">MĀLATĪM.ed.Bomb. = [unknown literary source]
+X158 <HI iast="DURGĀDĀSA.zu.VOP.">DURGĀDĀSA.zu.VOP. = [unknown literary source]
+X159 <HI iast="RUDOLF_MEYER.">RUDOLF_MEYER. = [unknown literary source]
+X160 <HI iast="KAP.(BALL.).">KAP.(BALL.). = [unknown literary source]
+X161 <HI iast="VEDĀNTASĀRA.">VEDĀNTASĀRA. = [unknown literary source]
+X162 <HI iast="KHILA.">KHILA. = [unknown literary source]
+X163 <HI iast="GARGA.">GARGA. = [unknown literary source]
+X164 <HI iast="CAURAP.(A.).">CAURAP.(A.). = [unknown literary source]
+X165 <HI iast="GAṆ.BHAGRAHAY.">GAṆ.BHAGRAHAY. = [unknown literary source]
+X166 <HI iast="ANUPADAS.">ANUPADAS. = [unknown literary source]
+X167 <HI iast="ŚĀK.(PISCH).">ŚĀK.(PISCH). = [unknown literary source]
+X168 <HI iast="NERIOSENGH.">NERIOSENGH. = [unknown literary source]
+X169 <HI iast="KIELHORN.">KIELHORN. = [unknown literary source]
+X170 <HI iast="BÜHLER.">BÜHLER. = [unknown literary source]
+X171 <HI iast="HARṢAC.(Śaka_1936).">HARṢAC.(Śaka_1936). = [unknown literary source]
+X172 <HI iast="Kön.Pr.Ak.">Kön.Pr.Ak. = [unknown literary source]
+X173 <HI iast="CKRADATTA.">CKRADATTA. = [unknown literary source]
+X174 <HI iast="SCHÖNBERG,KṢEM.">SCHÖNBERG,KṢEM. = [unknown literary source]
+X175 <HI iast="SCHÖNBERG,KṢ.">SCHÖNBERG,KṢ. = [unknown literary source]
+X176 <HI iast="PULASTYA.">PULASTYA. = [unknown literary source]
+X177 <HI iast="GAṆIT.KAKṢĀDH.">GAṆIT.KAKṢĀDH. = [unknown literary source]
+X178 <HI iast="SĀMĀNYAN.">SĀMĀNYAN. = [unknown literary source]
+X179 <HI iast="SPEYER.">SPEYER. = [unknown literary source]
+X180 <HI iast="Mel.asiat.">Mel.asiat. = [unknown literary source]
+X181 <HI iast="RICE.">RICE. = [unknown literary source]
+X182 <HI iast="JAIMINI.">JAIMINI. = [unknown literary source]
+X183 <HI iast="PAÑCAT.ed.KOSEG.">PAÑCAT.ed.KOSEG. = [unknown literary source]
+X184 <HI iast="NALOD.">NALOD. = [unknown literary source]
+X185 <HI iast="MAHĀVASTU.ed.SENART.">MAHĀVASTU.ed.SENART. = [unknown literary source]
+X186 <HI iast="MAHĀVASTU.">MAHĀVASTU. = [unknown literary source]
+X187 <HI iast="VIKR.ed.PISCH.">VIKR.ed.PISCH. = [unknown literary source]
+X188 <HI iast="VIKR.ed.BOLL.">VIKR.ed.BOLL. = [unknown literary source]
+X189 <HI iast="ŚĀK.ed.PISCH.">ŚĀK.ed.PISCH. = [unknown literary source]
+X190 <HI iast="VĪRAMITROD.">VĪRAMITROD. = [unknown literary source]
+X191 <HI iast="PĀṆINI.">PĀṆINI. = [unknown literary source]
+X192 <HI iast="AV.JYOTIṢA.">AV.JYOTIṢA. = [unknown literary source]
+X193 <HI iast="AV.ANUKR.">AV.ANUKR. = [unknown literary source]
+X194 <HI iast="VĀSIṢṬHA.">VĀSIṢṬHA. = [unknown literary source]
+X195 <HI iast="RĀMADĀSA.">RĀMADĀSA. = [unknown literary source]
+X196 <HI iast="PARĀŚARA.">PARĀŚARA. = [unknown literary source]
+X197 <HI iast="ATHARVAPADDH.">ATHARVAPADDH. = [unknown literary source]
+X198 <HI iast="VIJÑ.">VIJÑ. = [unknown literary source]
+X199 <HI iast="HODGSON,Ess.">HODGSON,Ess. = [unknown literary source]
+X200 <HI iast="HODGSON,Essays.">HODGSON,Essays. = [unknown literary source]
+X201 <HI iast="MAṆIMĀLĀ.">MAṆIMĀLĀ. = [unknown literary source]
+X202 <HI iast="JACOBI,KALPAS.">JACOBI,KALPAS. = [unknown literary source]
+X203 <HI iast="WASSILIEW,der.Buddh.">WASSILIEW,der.Buddh. = [unknown literary source]
+X204 <HI iast="Ind.">Ind. = [unknown literary source]
+X205 <HI iast="VIṢṆUCANDRA.">VIṢṆUCANDRA. = [unknown literary source]
+X206 <HI iast="MAṆITTHA.">MAṆITTHA. = [unknown literary source]
+X207 <HI iast="BHAR.NĀṬYAŚ.">BHAR.NĀṬYAŚ. = [unknown literary source]
+X208 <HI iast="KIELH.Rep.(1881).">KIELH.Rep.(1881). = [unknown literary source]
+X209 <HI iast="G.GORR.">G.GORR. = [unknown literary source]
+X210 <HI iast="PARIBHĀṢENDUŚEKHARA.">PARIBHĀṢENDUŚEKHARA. = [unknown literary source]
+X211 <HI iast="GAṆIT.GRAHĀN.">GAṆIT.GRAHĀN. = [unknown literary source]
+X212 <HI iast="PISCHEL.">PISCHEL. = [unknown literary source]
+X213 <HI iast="AV.PAR.">AV.PAR. = [unknown literary source]
+X214 <HI iast="VALL.">VALL. = [unknown literary source]
+X215 <HI iast="YĀSKA.">YĀSKA. = [unknown literary source]
+X216 <HI iast="UPAVANAVINODA.">UPAVANAVINODA. = [unknown literary source]
+X217 <HI iast="HARṢAC.ed.Bomb.">HARṢAC.ed.Bomb. = [unknown literary source]
+X218 <HI iast="ST.YULIEN.">ST.YULIEN. = [unknown literary source]
+X219 <HI iast="Verz.d.Pet.H.">Verz.d.Pet.H. = [unknown literary source]
+X220 <HI iast="KAIYAṬA.">KAIYAṬA. = [unknown literary source]
+X221 <HI iast="RĀGA.">RĀGA. = [unknown literary source]
+X222 <HI iast="NÖLDEKE.">NÖLDEKE. = [unknown literary source]
+X223 <HI iast="MBH.ed.Vardham.">MBH.ed.Vardham. = [unknown literary source]
+X224 <HI iast="HĀRĪTA.">HĀRĪTA. = [unknown literary source]
+X225 <HI iast="GRASSMANN.">GRASSMANN. = [unknown literary source]
+X226 <HI iast="DHANURV.">DHANURV. = [unknown literary source]
+X227 <HI iast="PADMA-P.">PADMA-P. = [unknown literary source]
+X228 <HI iast="ṢAḌGURUŚIṢYA.">ṢAḌGURUŚIṢYA. = [unknown literary source]
+X230 <HI iast="JOLLY,Tagore_Law_Lecture.">JOLLY,Tagore_Law_Lecture. = [unknown literary source]
+X231 <HI iast="NIRGHAṆṬU.">NIRGHAṆṬU. = [unknown literary source]
+X232 <HI iast="CSOMA.">CSOMA. = [unknown literary source]
+X233 <HI iast="VARIṢṬHA.">VARIṢṬHA. = [unknown literary source]
+X234 <HI iast="GILD.">GILD. = [unknown literary source]
+X235 <HI iast="MĀHABH.">MĀHABH. = [unknown literary source]
+X236 <HI iast="CANDRAGRAH.">CANDRAGRAH. = [unknown literary source]
+X237 <HI iast="ŚĀK.ed.PREMAC.">ŚĀK.ed.PREMAC. = [unknown literary source]
+X238 <HI iast="TRIVIKRAMA.">TRIVIKRAMA. = [unknown literary source]
+X239 <HI iast="BURNELL.">BURNELL. = [unknown literary source]
+X240 <HI iast="PAÑCĀŚIKĀ(ed.SOLF).">PAÑCĀŚIKĀ(ed.SOLF). = [unknown literary source]
+X241 <HI iast="GṚHYĀS.(ed.BLOOMFIELD).">GṚHYĀS.(ed.BLOOMFIELD). = [unknown literary source]
+X242 <HI iast="BLOOMFIELD.">BLOOMFIELD. = [unknown literary source]
+X243 <HI iast="KAHĪRASV.">KAHĪRASV. = [unknown literary source]
+X244 <HI iast="MĀDHAVĪYADHĀT.">MĀDHAVĪYADHĀT. = [unknown literary source]
+X245 <HI iast="VIṬṬHALA.">VIṬṬHALA. = [unknown literary source]
+X246 <HI iast="SĀDHANAM.">SĀDHANAM. = [unknown literary source]
+X247 <HI iast="Verz.d.Cambr.H.">Verz.d.Cambr.H. = [unknown literary source]
+X248 <HI iast="VARĀH.">VARĀH. = [unknown literary source]
+X249 <HI iast="UTPALINĪ.">UTPALINĪ. = [unknown literary source]
+X250 <HI iast="EGGELING.">EGGELING. = [unknown literary source]
+X251 <HI iast="WHITNEY,Gr.">WHITNEY,Gr. = [unknown literary source]
+X252 <HI iast="ŚŪLAPĀṆĪ.">ŚŪLAPĀṆĪ. = [unknown literary source]
+X253 <HI iast="PRĀYAŚCITTAVIVEKA.">PRĀYAŚCITTAVIVEKA. = [unknown literary source]
+X254 <HI iast="MĀṆḌAVYA.">MĀṆḌAVYA. = [unknown literary source]
+X255 <HI iast="HIOUEN-THSANG.">HIOUEN-THSANG. = [unknown literary source]
+X256 <HI iast="WASSILYEW.">WASSILYEW. = [unknown literary source]
+X257 <HI iast="MADHUS.">MADHUS. = [unknown literary source]
+X258 <HI iast="JYOT.">JYOT. = [unknown literary source]
+X259 <HI iast="ANUPADA.">ANUPADA. = [unknown literary source]
+X260 <HI iast="VĀḌI.">VĀḌI. = [unknown literary source]
+X261 <HI iast="VIJAYAGAṆĪ.">VIJAYAGAṆĪ. = [unknown literary source]
+X262 <HI iast="Sāg.">Sāg. = [unknown literary source]
+X263 <HI iast="TANTRASĀRA.">TANTRASĀRA. = [unknown literary source]
+X264 <HI iast="GAṆIT.PARVASAṂBH.">GAṆIT.PARVASAṂBH. = [unknown literary source]
+X265 <HI iast="LANMAN.">LANMAN. = [unknown literary source]
+X266 <HI iast="VARARUCI.">VARARUCI. = [unknown literary source]
+X267 <HI iast="VĀGBHAṬA.">VĀGBHAṬA. = [unknown literary source]
+X268 <HI iast="MĀNAVA.">MĀNAVA. = [unknown literary source]
+X269 <HI iast="VIŚVAPR.">VIŚVAPR. = [unknown literary source]
+X270 <HI iast="P.W.">P.W. = [unknown literary source]
+X271 <HI iast="YANTRĀDHY.">YANTRĀDHY. = [unknown literary source]
+X272 <HI iast="RĀYAM.">RĀYAM. = [unknown literary source]
+X273 <HI iast="PAIṬHĪNASI.">PAIṬHĪNASI. = [unknown literary source]
+X274 <HI iast="COWELL.">COWELL. = [unknown literary source]
+X275 <HI iast="PV.PRĀT.">PV.PRĀT. = [unknown literary source]
+X276 <HI iast="NṚS.UP.(Bibl.ind.).">NṚS.UP.(Bibl.ind.). = [unknown literary source]
+X277 <HI iast="ARJ.">ARJ. = [unknown literary source]
+X278 <HI iast="RUDRAṬA,KĀVYĀLAṂKĀRA.">RUDRAṬA,KĀVYĀLAṂKĀRA. = [unknown literary source]
+X279 <HI iast="PARĀŚARASMṚTI.">PARĀŚARASMṚTI. = [unknown literary source]
+X280 <HI iast="MAŚ.">MAŚ. = [unknown literary source]
+X281 <HI iast="SĀMAVIDH.BR.">SĀMAVIDH.BR. = [unknown literary source]
+X282 <HI iast="BHĀG.ed.Bomb.">BHĀG.ed.Bomb. = [unknown literary source]
+X283 <HI iast="BH.">BH. = [unknown literary source]
+X284 <HI iast="CAKRADATTA.">CAKRADATTA. = [unknown literary source]
+X285 <HI iast="KLUGE.">KLUGE. = [unknown literary source]
+X286 <HI iast="Wiener.Ak.">Wiener.Ak. = [unknown literary source]
+X287 <HI iast="VĪRAMITRODAYA.">VĪRAMITRODAYA. = [unknown literary source]

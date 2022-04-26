@@ -1,4 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<!-- 04-25-2022. Add 'i' as child of 'ls'. For pwkvn -->
 %if dictlo != 'mw':
 <!ELEMENT  ${dictlo} (H1)*>
 <!ELEMENT H1 (h,body,tail) >
@@ -69,7 +70,7 @@ H1B | H2B | H3B | H4B | H1C | H2C | H3C | H4C | H1E | H2E | H3E | H4E)*>
 mw requires also ab|s1|ns
 pwg requires also is
   -->
-<!ELEMENT ls (#PCDATA |ab|s1|ns|is)*>
+<!ELEMENT ls (#PCDATA |ab|s1|ns|is|i)*>
 <!ELEMENT ab (#PCDATA)>
 <!ELEMENT lbinfo EMPTY>
 <!ELEMENT C EMPTY>

@@ -409,6 +409,16 @@ def dig_to_xml_specific(x):
  return x
 %endif
 
+%if dictlo == 'pwkvn':
+def dig_to_xml_specific(x):
+ """ changes particular to digitization"""
+ x = re.sub(r'<althws>.*?</althws>','',x)
+ x = re.sub(r'</?hw>','',x)
+ x = re.sub(r'-?<lb/>','',x)
+ x = re.sub(r'<as1>([^<]*?)</as1>',r'\1',x) # temporary markup
+ return x
+%endif
+
 def dig_to_xml_general(x):
  """ These changes likely apply to ALL digitizations"""
  # xml requires that an ampersand be represented by &amp; entity
