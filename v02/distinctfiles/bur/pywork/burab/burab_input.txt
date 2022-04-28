@@ -8,9 +8,10 @@ act.	<id>act.</id> <disp>actif</disp>
 a.	<id>a.</id> <disp>adjectif</disp>
 A.	<id>A.</id> <disp>Adjectif</disp>
 adv.	<id>adv.</id> <disp>adverbe</disp>
+advt.	<id>advt.</id> <disp>adverbialement</disp>
 anat.	<id>anat.</id> <disp>anatomie</disp>
-angl.	<id>angl.</id> <disp>Anglais</disp>
-Angl.	<id>Angl.</id> <disp>Anglais</disp>
+angl.	<id>angl.</id> <disp>anglais (English)</disp>
+Angl.	<id>Angl.</id> <disp>anglais (English)</disp>
 a1.	<id>a1.</id> <disp>aoriste 1er</disp>
 a2.	<id>a2.</id> <disp>aoriste 2nd</disp>
 astr.	<id>astr.</id> <disp>astronomie</disp>
@@ -127,6 +128,7 @@ s-ent.	<id>s-ent.</id> <disp>sous-entendu</disp>
 sg.	<id>sg.</id> <disp>singulier</disp>
 subj.	<id>subj.</id> <disp>subjonctif</disp>
 s.	<id>s.</id> <disp>substantif</disp>
+sax.	<id>sax.</id> <disp>saxon</disp>
 S.	<id>S.</id> <disp>substantif</disp>
 sfx.	<id>sfx.</id> <disp>suffixe</disp>
 sup.	<id>sup.</id> <disp>superlatif</disp>
