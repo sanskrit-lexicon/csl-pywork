@@ -61,10 +61,12 @@ onom.	<id>onom.</id> <disp>onomatopée</disp>
 onomat.	<id>onomat.</id> <disp>onomatopée</disp>
 ord.	<id>ord.</id> <disp>ordinairement</disp>
 partic.	<id>partic.</id> <disp>participe</disp>
+pass.	<id>pass.</id> <disp>passif</disp>
 patron.	<id>patron.</id> <disp>patronymique</disp>
 pft.	<id>pft.</id> <disp>parfait</disp>
 philos.	<id>philos.</id> <disp>philosophique (langue)</disp>
 pl.	<id>pl.</id> <disp>pluriel</disp>
+préf.	<id>préf.</id> <disp>préfixe</disp>
 prép.	<id>prép.</id> <disp>préposition</disp>
 prév.	<id>prév.</id> <disp>préverbe</disp>
 pronom.	<id>pronom.</id> <disp>pronom, pronominal</disp>
