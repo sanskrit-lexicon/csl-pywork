@@ -14,6 +14,7 @@ angl.	<id>angl.</id> <disp>anglais (English)</disp>
 Angl.	<id>Angl.</id> <disp>anglais (English)</disp>
 a1.	<id>a1.</id> <disp>aoriste 1er</disp>
 a2.	<id>a2.</id> <disp>aoriste 2nd</disp>
+A2	<id>A2</id> <disp>aoriste 2nd</disp>
 astr.	<id>astr.</id> <disp>astronomie</disp>
 aug.	<id>aug.</id> <disp>augmentatif</disp>
 bd.	<id>bd.</id> <disp>bouddhique</disp>
@@ -24,8 +25,11 @@ c.-à-d.	<id>c.-à-d.</id> <disp>c’est-à-dire</disp>
 c.	<id>c.</id> <disp>causatif</disp>
 cf.	<id>cf.</id> <disp>comparez; confer</disp>
 Cf.	<id>Cf.</id> <disp>Comparez; Confer</disp>
+Cl.	<id>Cl.</id> <disp>classe</disp>
+cl.	<id>cl.</id> <disp>classe</disp>
 comp.	<id>comp.</id> <disp>comparatif</disp>
 composit.	<id>composit.</id> <disp>composition</disp>
+compos.	<id>compos.</id> <disp>composition, composés</disp>
 cond.	<id>cond.</id> <disp>conditionnel</disp>
 conj.	<id>conj.</id> <disp>conjonction</disp>
 conjf.	<id>conjf.</id> <disp>conjonctif</disp>
@@ -36,7 +40,7 @@ dés.	<id>dés.</id> <disp>désidératif</disp>
 Dés.	<id>Dés.</id> <disp>désidératif</disp>
 du.	<id>du.</id> <disp>duel</disp>
 ép.	<id>ép.</id> <disp>épithète</disp>
-Ep.	<id>Ep.</id> <disp>épithète</disp>
+Ép.	<id>Ép.</id> <disp>épithète</disp>
 esp.	<id>esp.</id> <disp>espèce</disp>
 Esp.	<id>Esp.</id> <disp>Espèce</disp>
 ex.	<id>ex.</id> <disp>exemple</disp>
@@ -63,6 +67,7 @@ impf.	<id>impf.</id> <disp>imparfait</disp>
 imp.	<id>imp.</id> <disp>impératif</disp>
 ind.	<id>ind.</id> <disp>indicatif</disp>
 indéc.	<id>indéc.</id> <disp>indéclinable</disp>
+indécl.	<id>indécl.</id> <disp>indéclinable</disp>
 inf.	<id>inf.</id> <disp>infinitif</disp>
 interj.	<id>interj.</id> <disp>interjection</disp>
 i.	<id>i.</id> <disp>instrumental</disp>
@@ -76,6 +81,7 @@ lith.	<id>lith.</id> <disp>lithuanien</disp>
 Lith.	<id>Lith.</id> <disp>lithuanien</disp>
 l.	<id>l.</id> <disp>locatif</disp>
 L.	<id>L.</id> <disp>locatif</disp>
+logiq.	<id>logiq.</id> <disp>logique</disp>
 m.	<id>m.</id> <disp>masculin</disp>
 M.	<id>M.</id> <disp>Masculin</disp>
 mms.	<id>mms.</id> <disp>même signification</disp>
