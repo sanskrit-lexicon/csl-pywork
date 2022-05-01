@@ -5,6 +5,7 @@ Ac.	<id>Ac.</id> <disp>Accusatif</disp>
 Actt.	<id>Actt.</id> <disp>activement</disp>
 actt.	<id>actt.</id> <disp>activement</disp>
 act.	<id>act.</id> <disp>actif</disp>
+Act.	<id>Act.</id> <disp>actif</disp>
 a.	<id>a.</id> <disp>adjectif</disp>
 A.	<id>A.</id> <disp>Adjectif</disp>
 adv.	<id>adv.</id> <disp>adverbe</disp>
@@ -114,6 +115,7 @@ ppf.	<id>ppf.</id> <disp>participe parfait</disp>
 ppr.	<id>ppr.</id> <disp>participe présent</disp>
 pqp.	<id>pqp.</id> <disp>plus-que-parfait</disp>
 Pr.	<id>Pr.</id> <disp>Présent</disp>
+pr.	<id>pr.</id> <disp>Présent</disp>
 prép.	<id>prép.</id> <disp>préposition</disp>
 priv.	<id>priv.</id> <disp>privatif</disp>
 pron.	<id>pron.</id> <disp>pronom</disp>
