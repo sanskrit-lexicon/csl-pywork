@@ -94,7 +94,7 @@ pwg requires also is
 <!ATTLIST span class CDATA #IMPLIED>
 <!ATTLIST hwtype n (alt | sub | n) #REQUIRED>
 <!ATTLIST hwtype ref CDATA #REQUIRED>
-<!ATTLIST lang n (greek | arabic | meter |slavic|russian|oldhebrew|Old-Church-Slavonic|Arabic|Hindustani|Persian|Turkish|hebrew) #REQUIRED>
+<!ATTLIST lang n (greek | arabic | meter |slavic|russian|oldhebrew|Old-Church-Slavonic|Arabic|Hindustani|Persian|Turkish|hebrew|Avestan|Slavonic|Lettish) #REQUIRED>
 <!ATTLIST lang script (Arabic) #IMPLIED >
 
 <!ATTLIST pic name CDATA #REQUIRED>
