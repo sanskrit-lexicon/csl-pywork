@@ -16,6 +16,7 @@ Angl.	<id>Angl.</id> <disp>anglais (English)</disp>
 a1.	<id>a1.</id> <disp>aoriste 1er</disp>
 a2.	<id>a2.</id> <disp>aoriste 2nd</disp>
 A2	<id>A2</id> <disp>aoriste 2nd</disp>
+A2.	<id>A2.</id> <disp>aoriste 2nd</disp>
 astr.	<id>astr.</id> <disp>astronomie</disp>
 aug.	<id>aug.</id> <disp>augmentatif</disp>
 bd.	<id>bd.</id> <disp>bouddhique</disp>
