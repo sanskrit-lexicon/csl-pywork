@@ -140,7 +140,7 @@ X250	EGGELING	Eggeling	Hans Julius Eggeling (1842-1918), Professor of Sanskrit a
 v0071	EITEL	Eitel	Ernst Johann Eitel (1838 - 1908)m a German-born Protestant  missionary in China, Handbook of Chinese Buddhism, being a Sanskrit-Chinese Dictionary [CA]
 v0072	FLEET	Fleet	John Faithfull Fleet (1847 - 1917), English epigraphist and linguist [CA]
 v0073	FRITZE	Fritze	FRITZE, Ludwig Fritze. (1833 - 1922) German Schoolteacher and Translator of Sanskrit Literature[CA]
-1088	GAL.	Gal.	GALANO's Wörterbuch, Abschrift von WEBER;vgl. Monatsbericht der Kön. Pr. Akad. der Wissensch. 1876, S. 801. fgg. (CAPELLER). 
+1088	GAL.	Gal.	GALANOS's Wörterbuch, Abschrift von WEBER;vgl. Monatsbericht der Kön. Pr. Akad. der Wissensch. 1876, S. 801. fgg. (CAPELLER). 
 v0075	GAṆAP.	Gaṇap.	[UL]
 1090	GAṆAR.	Gaṇar.	GAṆARATNAMAHODADHI, nach der im Druck befindlichen Ausg. von EGGELING. Nur ein paar Mal gelegentlich citirt. 
 X105	GARBE	Garbe	Richard Karl Garbe, (1857 - 1927), a German Indologist who contributed to the study of Samkhya, Yoga and the Bhagavadgita. [CA]

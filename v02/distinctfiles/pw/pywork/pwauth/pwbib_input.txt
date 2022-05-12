@@ -177,7 +177,7 @@ X250	EGGELING	Eggeling	Heinrich Julius Eggeling  [unknown literary source]
 X155	FOUCAUX	Foucaux	FOUCAUX Philippe Édouard Foucaux [unknown literary source]
 2018	FÜHRER, BṚH.	Führer, Bṛh.	Darstellung der Lehre von den Schriften in BṚHASPATI'S DHARMAŚĀSTRA. Inauguraldissertation von ALOIS ANTON FÜHRER. 
 X209	G. GORR.	G. Gorr.	Gaspare Gorresio, translator of RĀMĀYAṆA [Cologne Addition]
-1088	GAL.	Gal.	GALANO's Wörterbuch, Abschrift von WEBER;vgl. Monatsbericht der Kön. Pr. Akad. der Wissensch. 1876, S. 801. fgg. (CAPELLER). 
+1088	GAL.	Gal.	GALANOS's Wörterbuch, Abschrift von WEBER;vgl. Monatsbericht der Kön. Pr. Akad. der Wissensch. 1876, S. 801. fgg. (CAPELLER). 
 X105	GARBE	Garbe	Richard Garbe [unknown literary source]
 1097	GARBHOP.	Garbhop.	GARBHOPANIṢAD in Bibl. ind. (GELDNER und ROTH). 
 X163	GARGA	Garga	[unknown literary source]
