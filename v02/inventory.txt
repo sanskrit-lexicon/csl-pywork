@@ -92,12 +92,12 @@ pw pwg pwkvn:pywork/${dictlo}auth/${dictlo}bib.sql:CD
 pw pwg:pywork/${dictlo}auth/bibrec.py:CD
 pw pwg:pywork/${dictlo}auth/${dictlo}bib.txt:CD
 ; --------------------------------------------------------------
-; -- literary sources: ap90, ben
+; -- literary sources: ap90, ben, sch
 ; --------------------------------------------------------------
-ben ap90:pywork/${dictlo}auth/redo.sh:CD
-ben ap90:pywork/${dictlo}auth/readme.org:CD
-ben ap90:pywork/${dictlo}auth/tooltip.txt:CD
-ben ap90:pywork/${dictlo}auth/tooltips.sql:CD
+ben ap90 sch:pywork/${dictlo}auth/redo.sh:CD
+ben ap90 sch:pywork/${dictlo}auth/readme.org:CD
+ben ap90 sch:pywork/${dictlo}auth/tooltip.txt:CD
+ben ap90 sch:pywork/${dictlo}auth/tooltips.sql:CD
 ; --------------------------------------------------------------
 ; ---- mwkeys: This is used with sanhw1.  Not sure if actually used in displays
 ; --------------------------------------------------------------
