@@ -372,7 +372,7 @@ def dig_to_xml_specific(x):
  x = x.replace('||','<div n="3">')
  # We want most mdashes to start a div. but not all.
  # Restricting to the desired group is tricky. Here is a try.
- x = re.sub(u'(-- *[A-Z])',r'<div n="2">\1',x)
+ x = re.sub(u'(-- *[A-ZÀ])',r'<div n="2">\1',x)
  x = re.sub(u'(-- *<ab>[SMFN][.])',r'<div n="2">\1',x)
  # additional abbreviations before ANY abbreviation (only about 100 cases left)
  x = re.sub(u'(-- *<ab>)',r'<div n="2">\1',x)
@@ -406,6 +406,16 @@ def dig_to_xml_specific(x):
  """ changes particular to digitization"""
  if re.search(r'^<>',x):
   x = re.sub(r'<>','<br/>',x)
+ return x
+%endif
+
+%if dictlo == 'pwkvn':
+def dig_to_xml_specific(x):
+ """ changes particular to digitization"""
+ x = re.sub(r'<althws>.*?</althws>','',x)
+ x = re.sub(r'</?hw>','',x)
+ x = re.sub(r'-?<lb/>','',x)
+ x = re.sub(r'<as1>([^<]*?)</as1>',r'\1',x) # temporary markup
  return x
 %endif
 

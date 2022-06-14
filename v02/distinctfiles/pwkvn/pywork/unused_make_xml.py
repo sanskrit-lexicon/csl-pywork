@@ -8,35 +8,51 @@ import sys, re,codecs
 from hwparse import init_hwrecs,HW
 xmlroot = HW.dictcode  
 
+def unused_adjust_slp1(x):
+ # in vcp, all text is Devanagari.  But, the text is vcp.txt does not use
+ #  the {#..#} markup to denote Devanagari.
+ # We want to add <s>..</s> markup.
+ # This requires that we separate out other markup  (always in form
+ # <...>)
+ outarr = []
+ import string
+ regex = r'(<[^>]+>)|(\[Page.*?\])|([^%s])' %string.printable
+ parts = re.split(regex,x) 
+ for part in parts: 
+  if not part: #why needed? 
+   pass 
+  elif part.startswith('<') and part.endswith('>'):
+   outarr.append(part)
+  elif part.startswith('[Page') and part.endswith(']'):
+   outarr.append(part)
+ # elif part.startswith('&') and part.endswith(';'):
+  elif part[0] not in string.printable:
+   outarr.append(part)
+  else: # assume text slp1
+   # put it into <s></s>
+   y = part
+   outarr.append("<s>%s</s>" % y)
+ ans = ''.join(outarr)
+ return ans
+
 def dig_to_xml_specific(x):
- """ changes particular to sch digitization"""
- # 04-24-2017.  Several changes
- # {!x!}  a pw homonym number
- x = re.sub(r'{!(.%?)!}',r'<hom n="pwk">\1</hom>',x)
- # {part=,seq=6766,type=,n=5}
- m = re.search(r'{part=(.*?),seq=(.*?),type=(.*?),n=(.*?)}',x)
- if m:
-  temp = m.group(0)
-  part = m.group(1)
-  seq = m.group(2)
-  t = m.group(3) # type
-  n = m.group(4)
-  if t != '':
-   telt = '<type>%s</type>'% t
-  else:
-   telt = ''
-  attribs=[]
-  attribs.append('seq="%s"'%seq)
-  attribs.append('n="%s"' %n)
-  if part != '':
-   attribs.append('part="%s"' % part)
-  attribstr = ' '.join(attribs)
-  infoelt = '<info %s/>' %attribstr
-  new = '%s%s' %(telt,infoelt)
-  #new = '<info part="%s" seq="%s" n="%s"/><type>%s</type>'%(part,seq,n,t)
-  x = x.replace(temp,new)
- # introduce '<div>' before each EM DASH
- x = x.replace(u'—',u'<div>—')
+ """ no changes particular to digitization"""
+ return x
+ # There are a couple entries with an <H> element.
+ # Just remove these lines
+ if x.startswith('<H>'):
+  print("REMOVING <H> LINE",x.encode('utf-8'))
+  return ''
+ x = re.sub(r'<P>','<div n="P">',x) # 2322 cases
+ #if '<g></g>' in x: # once only. Already converted in stc.txt
+ # x = x.replace('<g></g>','<lang n="greek"></lang>')
+ #x = re.sub(r'<Picture>','<div n="Picture">',x) # 71 cases
+ # markup like <C1>x1<C2>x2...  indicates tabular data in vcp.
+ #x = re.sub(r'<C([0-9]+)>',r'<C n="\1"/>',x)
+ # change '--' to mdash
+ x = x.replace('--',u'—')  #597 cases
+ #{^X^}  superscript
+ x = re.sub(r'{\^(.*?)\^}',r'<sup>\1</sup>',x)
  return x
 
 def dig_to_xml_general(x):
@@ -72,7 +88,7 @@ def close_divs(line):
  """ line is the full xml record, but the <div> elements have not been
   closed.  Don't close empty div tags.
  """
- divregex = r'<div>' # sch has '<div>' with no attributes.
+ divregex = r'<div[^>]*?[^/]>'
  if not re.search(divregex,line):
   # no divs to close
   return line
@@ -163,18 +179,6 @@ def construct_xmlstring(datalines,hwrec):
  tail = construct_xmltail(hwrec)
  dbgout(dbg,"tail: %s" % tail)  
  #3. construct body
- # To mimic current display of Sch, we remove the 'head' from first line:
- for i,x in enumerate(datalines):
-  if i == 0:
-   m = re.search(u'^(.*?¦)(.*)$' ,x)
-   if not m:
-    print("xml_string ERROR at =",x.encode('utf-8'))
-    exit(1)
-   head = m.group(1)
-   rest = m.group(2)
-   x = rest
-  datalines1.append(x)
- datalines = datalines1
  bodylines = [dig_to_xml(x) for x in datalines]
  if hwrec.type != None:
   bodylines = body_alt(bodylines,hwrec)
@@ -186,10 +190,6 @@ def construct_xmlstring(datalines,hwrec):
  #body = body.replace('<LEND>','') # Line ending mark needs to be removed.
  #4. construct result
  data = "<H1><h>%s</h><body>%s</body><tail>%s</tail></H1>" % (h,body,tail)
- #4a. For sch: Put the <info> element into the tail
- data = re.sub('(<info.*?>) *</body><tail>',r'</body><tail>\1',data)
- #4b. For comparison to previous version, remove a space after <body>
- data = re.sub(r'<body> ','<body>',data)
  #5. Close the <div> elements
  data = close_divs(data)
  return data
@@ -250,9 +250,18 @@ def make_xml(filedig,filehw,fileout):
   try:
    root = ET.fromstring(xmlstring.encode('utf-8'))
   except:
-   out = "xml error: n=%s,m line=\n%s\n" %(nout+1,xmlstring)
-   print(out.encode('utf-8'))
-   exit(1)
+   outarr = []
+   nerr = nerr + 1
+   out = "<!-- xml error #%s: L = %s, hw = %s-->" %(nerr,hwrec.L,hwrec.k1)
+   outarr.append(out)
+   outarr.append("datalines = ")
+   outarr = outarr + datalines
+   outarr.append("xmlstring=")
+   outarr.append(xmlstring)
+   outarr.append('')
+   for out in outarr:
+    print(out.encode('utf-8'))
+   #exit(1) continue
   # write output
   fout.write(xmlstring + '\n')
   nout = nout + 1

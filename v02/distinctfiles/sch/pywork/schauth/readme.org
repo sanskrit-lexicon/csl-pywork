@@ -1,0 +1,8 @@
+
+readme.org for schauth
+05-30-2022
+
+Modify tooltip.txt
+Rerun redo.sh
+
+

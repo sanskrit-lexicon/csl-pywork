@@ -11,13 +11,13 @@ sh redo.sh
 cd ../ # back to pywork
 # For applicable dictionaries, update other web/sqlite databases
 # abbreviations
-%if dictlo in ['ben','stc','bur','cae','mw','pw','pwg','lan','gra','ap90']:
+%if dictlo in ['ben','stc','bur','cae','mw','pw','pwg','lan','gra','ap90','pwkvn']:
  cd ${dictlo}ab
  sh redo.sh
  cd ../ # back to pywork
 %endif
 # literary source.
-%if dictlo in ['mw','pw','pwg','ap90','ben']:
+%if dictlo in ['mw','pw','pwg','ap90','ben','pwkvn','sch']:
  cd ${dictlo}auth
  sh redo.sh
  cd ../ # back to pywork

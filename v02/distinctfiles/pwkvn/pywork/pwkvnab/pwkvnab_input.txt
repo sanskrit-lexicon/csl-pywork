@@ -1,0 +1,74 @@
+Abl.	<id>Abl.</id> <disp>Ablativ - ablative (case)</disp>
+Absol.	<id>Absol.</id> <disp>Absolutiv - absolutive (case)</disp>
+Acc.	<id>Acc.</id> <disp>Accusativ - accusative (case)</disp>
+Act.	<id>Act.</id> <disp>Activ - active </disp>
+Adv.	<id>Adv.</id> <disp>Adverb - adverb</disp>
+adv.	<id>adv.</id> <disp>adverbial? - adverbial</disp>
+Aor.	<id>Aor.</id> <disp>Aorist - aorist</disp>
+Bein.	<id>Bein.</id> <disp>Beiname - epithet, by name</disp>
+Beinn.	<id>Beinn.</id> <disp>Beinamen - epithets, by names</disp>
+best.	<id>best.</id> <disp>bestimmte - a certain (kind of)</disp>
+ebend.	<id>ebend.</id> <disp>ebenda - ibid. (ibidem) - in the same source</disp>
+Caus.	<id>Caus.</id> <disp>Causativ - causative</disp>
+Comm.	<id>Comm.</id> <disp>Commentar? - commentary</disp>
+Conj.	<id>Conj.</id> <disp>Conjunctiv? - subjunctive (mood)</disp>
+dass.	<id>dass.</id> <disp>dasselbe - the same</disp>
+Dat.	<id>Dat.</id> <disp>Dativ - dative (case)</disp>
+Denom.	<id>Denom.</id> <disp>Denominativ? - denominative</disp>
+Desid.	<id>Desid.</id> <disp>Desiderativ - desiderative</disp>
+Du.	<id>Du.</id> <disp>Dual - dual </disp>
+Gen.	<id>Gen.</id> <disp>Genitiv - genitive (case)</disp>
+Inf.	<id>Inf.</id> <disp>Infinitiv - infinitive</disp>
+Hdschr.	<id>Hdschr.</id> <disp>Handschrift - manuscript</disp>
+Infin.	<id>Infin.</id> <disp>Infinitiv - infinitive</disp>
+Instr.	<id>Instr.</id> <disp>Instrumental - instrumental (case)</disp>
+Intens.	<id>Intens.</id> <disp>Intensiv - intensive</disp>
+Interj.	<id>Interj.</id> <disp>Interjection - interjection </disp>
+Loc.	<id>Loc.</id> <disp>Locativ - locative case</disp>
+; Med.	<id>Med.</id> <disp>Medizin - medicine</disp> changed 12/26/2019
+Med.	<id>Med.</id> <disp>Medium – ātmanepada</disp>
+Metron.	<id>Metron.</id> <disp>Metronym(Deu.)/Metronymicum(Lat.) - metronym</disp>
+Metronn.	<id>Metronn.</id> <disp>Metronyme(Deu.)/Metronymica(Lat.) - metronym</disp>
+N.	<id>N.</id> <disp>Namen? - name</disp>
+N.ag.	<id>N.ag.</id> <disp>? - ?</disp>
+N. ag.	<id>N. ag.</id> <disp>? - ?</disp>
+N.pr.	<id>N.pr.</id> <disp>Nomen proprium? - proper noun</disp>
+N. pr.	<id>N. pr.</id> <disp>Nomen proprium? - proper noun</disp>
+Nom.	<id>Nom.</id> <disp>Nomen? - noun</disp>
+Nom.abstr.	<id>Nom.abstr.</id> <disp>Nomen abstractum - abstract noun</disp>
+Nom. abstr.	<id>Nom. abstr.</id> <disp>Nomen abstractum - abstract noun</disp>
+Nom.ag.	<id>Nom.ag.</id> <disp>Nomen agentis - nomen agentis</disp>
+Nom. ag.	<id>Nom. ag.</id> <disp>Nomen agentis - nomen agentis</disp>
+Nomin.	<id>Nomin.</id> <disp>Nominativ - nominative (case)</disp>
+Partic.	<id>Partic.</id> <disp>Participium - participle</disp>
+Pass.	<id>Pass.</id> <disp>Passiv - passive</disp>
+Patron.	<id>Patron.</id> <disp>Patronym (Deu.)/Patronymicum(Lat.) - patronym</disp>
+Patronn.	<id>Patronn.</id> <disp>Patronyme(Deu.)/Patrnymica (Lat.) - patronyms</disp>
+Pl.	<id>Pl.</id> <disp>Plural - plural</disp>
+Potent.	<id>Potent.</id> <disp>Potentialis - potential mood</disp> 
+Präp.	<id>Präp.</id> <disp>Präposition - preposition</disp>
+s.u.	<id>s.u.</id> <disp>siehe unten?/unter? - see below/under</disp>
+s. u.	<id>s. u.</id> <disp>siehe unten?/unter? - see below/under</disp>
+Sg.	<id>Sg.</id> <disp>Singular - singular</disp>
+Subst.	<id>Subst.</id> <disp>Substantiv - noun</disp>
+Sch.	<id>Sch.</id> <disp>Scholiast or Commentator</disp>
+Schol.	<id>Schol.</id> <disp>Scholiast or Commentator</disp>
+v.l.	<id>v.l.</id> <disp>vide licet - that us to say, namely</disp>
+v. l.	<id>v. l.</id> <disp>vide licet - that us to say, namely</disp>
+v.u.	<id>v.u.</id> <disp>von unten - line number counted from below, from the last line up</disp>
+v. u.	<id>v. u.</id> <disp>von unten - line number counted from below, from the last line up</disp>
+v.a.	<id>v.a.</id> <disp>vor allem - above all, especially</disp>
+v. a.	<id>v. a.</id> <disp>vor allem - above all, especially</disp>
+gedr.	<id>gedr.</id> <disp>gedruckt - printed</disp>
+u.s.w.	<id>u.s.w.</id> <disp>und so weiter - and so on, and so forth = etc.</disp>
+u. s. w.	<id>u. s. w.</id> <disp>und so weiter - and so on, and so forth = etc.</disp>
+Vgl.	<id>Vgl.</id> <disp>Vergleiche - compare</disp>
+vgl.	<id>Vgl.</id> <disp>vergleiche - compare</disp>
+Voc.	<id>Voc.</id> <disp>Vocativ - vocative (case)</disp>
+Adj.	<id>Adj.</id> <disp>Adjectiv - adjective</disp>
+adj.	<id>adj.</id> <disp>adjectivisch - adjective</disp>
+f.	<id>f.</id> <disp>femininum - feminine</disp>
+Indecl.	<id>Indecl.</id> <disp>Indeclinabilum - indeclinable</disp>
+m.	<id>m.</id> <disp>masculinum - masculine</disp>
+n.	<id>n.</id> <disp>neutrum - neuter</disp>
+s.	<id>s.</id> <disp>siehe - see</disp>

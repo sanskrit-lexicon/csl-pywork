@@ -119,7 +119,7 @@ Gk.	<id>Gk.</id> <disp>Greek</disp>
 Got.	<id>Got.</id> <disp>Gothic</disp>  <INFER/>
 Goth.	<id>Goth.</id> <disp>Gothic</disp>
 Govind.	</id>Govind.</id> <disp>Govinda</disp> <INFER/> def? hw = jawADAriSEvamata, darSanAvaraRIya
-Gr.	<id>Gr.</id> <disp>grammar, esp. Whitney's Sanskrit Grammar</disp>
+Gr.	<id>Gr.</id> <disp>grammar, esp. Whitney’s Sanskrit Grammar</disp>
 Gram.	<id>Gram.</id> <disp>grammar</disp>  <INFER/>
 gram.	<id>gram.</id> <disp>grammar</disp>  <INFER/>
 Gramm.	<id>Gramm.</id> <disp>grammar</disp>  <INFER/>
@@ -179,6 +179,7 @@ m.	<id>m.</id> <disp>masculine gender</disp>  USED IN <lex>
 m.c.	<id>m.c.</id> <disp>metri causa, or ‘for the sake of the meter’ in poetry</disp>
 mc.	<id>mc.</id> <disp>metri causa, or ‘for the sake of the meter’ in poetry</disp> <INFER/>  177 cases. Maybe print is always m.c. ?
 math.	<id>math.</id> <disp>mathematics</disp>
+med.	<id>med.</id> <disp>medicine</disp>
 medic.	<id>medic.</id> <disp>medicine</disp>
 metron.	<id>metron.</id> <disp>metronymic</disp>
 mfn.	<id>mfn.</id> <disp>masculine, feminine and neuter; or = adjective</disp>

@@ -233,5 +233,11 @@ alldictparms = {
   "dictname":u"Abhidhānaratnamālā of Halāyudha",
   "dictversion":"02",
  },
+"pwkvn": {
+  "dictup":"PWKVN",
+  "dictlo":"pwkvn",
+  "dictname":u"Böhtlingk Sanskrit-Wörterbuch in kürzerer Fassung, Nachträge und Verbesserungen",
+  "dictversion":"02",
+ },
 
 }
