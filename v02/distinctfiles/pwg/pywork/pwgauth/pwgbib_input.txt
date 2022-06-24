@@ -136,7 +136,7 @@
 1.110	GĪT.	Gīt.	*GĪT. oder GĪTAG. = GĪTAGOVINDA, ed. LASSEN (GILD. Bibl. 168).
 1.110a	GĪTAG.	Gītag.	*GĪT. oder GĪTAG. = GĪTAGOVINDA, ed. LASSEN (GILD. Bibl. 168).
 1.111	JYOT.	Jyot.	JYOT. = JYOTIṢA.
-1.112	GORR.	Gorr.	GORR. = GORRESIO.
+1.112	GORR.	Gorr.	Rāmāyaṇa, Gorresio edition, 1843--1867 [Cologne addition]
 1.112a	GORRESIO	Gorresio	GORRESIO = Gaspare Gorresio, translator of RĀMĀYAṆA [Cologne Addition]
 1.113	GOT. S.	Got. S.	GOT. S. = GOTAMA'S SŪTRĀṆI, s. NYĀYA-S.
 1.114	GOVINDABH.	Govindabh.	GOVINDABH. = GOVINDABHAṬṬA.
@@ -223,6 +223,7 @@
 1.180b	VARĀH. LAGHUJ.	Varāh. Laghuj.	VARĀH. LAGHUJ. = VARĀHAMIHIRA'S LAGHUJĀTAKA. [Cologne Addition]
 1.181	LALIT.	Lalit.	LALIT. = RGYA TCH'ER ROL PA (LALITAVISTĀRA) ou Développement des&#13;&#10;yeux, traduit etc. par PH. ÉD. FOUCAUX. Deuxième partie--Traduc-&#13;&#10;tion franśaise. Paris 1848.
 1.182	LALIT. Calc	Lalit. Calc	*LALIT. Calc. = LALITAVISTARA in der Bibliotheca indica.
+1.182a	LALIT. ed. Calc.	Lalit. ed. Calc.	LALITAVISTARA in der Bibliotheca indica.
 1.183	LĀṬY.	Lāṭy.	LĀṬY. = LĀṬYĀYANA'S SŪTRA zum SV. Hdschr.
 1.184	Lebensb.	Lebensb.	Lebensb. (SCHIEFNER) = Eine tibetische Lebensbeschreibung Śākyamu- ni's, des Begründers des Buddhathums, im Auszuge mitgetheilt von A. SCHIEFNER, in Mémoires présentés à l'Académie Impériale des sciences de St.-Pétersbourg par divers savants. T. VI. Die in Klam- mern beigefügte Seitenzahl bezieht sich auf die Separatabdrücke.
 1.184a	Leb.	Leb.	Leb. (SCHIEFNER) = Eine tibetische Lebensbeschreibung Śākyamu- ni's, des Begründers des Buddhathums, im Auszuge mitgetheilt von A. SCHIEFNER, in Mémoires présentés à l'Académie Impériale des sciences de St.-Pétersbourg par divers savants. T. VI. Die in Klam- mern beigefügte Seitenzahl bezieht sich auf die Separatabdrücke. ? [Cologne Addition]
@@ -235,6 +236,7 @@
 1.188b	WEBER, Lit.	Weber, Lit.	WEBER, Lit. = Akademische Vorlesungen über Indische Literatur- geschichte. Gehalten von A. WEBER. Berlin 1852. [Cologne Addition]
 1.189	LOIS.	Lois.	LOIS. = LOISELEUR DESLONGCHAMPS.
 1.190	M.	M.	M. = MANU'S Gesetzbuch in der Ausg. von LOISELEUR DESLONGCHAMPS&#13;&#10;(GILD. Bibl. 289).
+1.190a	M. ed. Calc.	M. ed. Calc.	MANU'S Gesetzbuch, Calcutta edition [Cologne Addition]
 1.191	MAŚ.	Maś.	MAŚ. oder MAŚ. S. = MAŚAKA'S KALPASŪTRĀṆI.
 1.191a	MAŚ. S.	Maś. S.	MAŚ. oder MAŚ. S. = MAŚAKA'S KALPASŪTRĀṆI.
 1.192	MĀDHAVAK.	Mādhavak.	MĀDHAVAK. = MĀDHAVAKĀRA.
@@ -259,6 +261,7 @@
 1.208a	MĀTSYA-P. iast=	Mātsya-P. Iast=	MĀTSYA-P. = MĀTSYAPURĀṆA MATSYAPURĀṆA.
 1.209	MATSYOP.	Matsyop.	MATSYOP. = MATSYOPĀKHYĀNA, ed. BOPP (GILD. Bibl. 106).
 1.210	MBH.	Mbh.	MBH. = MAHĀBHĀRATA, ed. Calc. (GILD. Bibl. 93). Von S. 521 des Wörter-&#13;&#10;buchs sind die drei ersten Bücher, von S. 601 auch die fünf letzten,&#13;&#10;von ऊ an auch das 13te Buch ausgebeutet worden.
+1.210a	MBH. ed. Calc.	Mbh. ed. Calc.	MAHĀBHĀRATA, Calcutta edition [Cologne Addition]
 1.211	MED.	Med.	MED. = MEDINĪKOṢA, ed. Calc. (GILD. Bibl. 258). Die Wörter sind zu-&#13;&#10;nächst nach dem letzten Consonanten im Worte angeordnet: also&#13;&#10;कान्त (k), खान्त (kh), गान्त (g) u. s. w. Die Partikeln (avyaya) bilden&#13;&#10;einen besondern Abschnitt am Ende, den wir durch avy. bezeichnet&#13;&#10;haben.
 1.212	MEGH.	Megh.	MEGH. = MEGHADŪTA, ed. GILDEMEISTER (GILD. Bibl. 151).
 1.213	Mél. asiat.	Mél. Asiat.	Mél. asiat. = Mélanges asiatiques tirés du Bulletin historico-philologique de l'Académie Impériale des sciences de St.-Pétersbourg.
@@ -269,6 +272,7 @@
 1.214c	REINAUD, Mémoire sur l'Inde	Reinaud, Mémoire Sur L'Inde	REINAUD, Mémoire sur l'Inde = ? [Cologne Addition]
 1.215	MIT.	Mit.	*MIT. = MITĀKṢARĀ, ed. Calc. 1829 (GILD. Bibl. 314).
 1.216	MṚCCH.	Mṛcch.	MṚCCH. = MṚCCHAKAṬIKĀ, ed. STENZLER (GILD. Bibl. 186).
+1.216a	MṚCCH. ed. Calc.	Mṛcch. ed. Calc.	MṚCCHAKAṬIKĀ, Calcutta edition [Cologne addition]
 1.217	MUDRĀR.	Mudrār.	*MUDRĀR. = MUDRĀRĀKṢASA, ed. Calc. (GILD. Bibl. 213).
 1.218	MUṆḌ. UP.	Muṇḍ. Up.	MUṆḌ. UP. = MUṆḌAKOPANIṢAD in der Bibliotheca indica.
 1.219	N.	N.	N. = NALOPĀKHYĀNA in BÖHTLINGK'S Chrestomathie (GILD. Bibl. 49). Die&#13;&#10;BOPP'sche Ausgabe (GILD. Bibl. 99) ist durch N. (BOPP) bezeichnet.
@@ -306,14 +310,16 @@
 1.245	PURUṢ.	Puruṣ.	PURUṢ. = PURUṢOTTAMA, ein Lexicograph (unter Anderm auch Ver-&#13;&#10;fasser des TRIK. und der HĀR.); nach Anführungen im ŚKDR.
 1.246	PUṢPAS.	Puṣpas.	PUṢPAS. = PUṢPASŪTRA.
 1.247	R.	R.	R. = RĀMĀYAṆA. Ohne eine nähere Angabe ist bei den zwei ersten&#13;&#10;Büchern die Ausgabe von SCHLEGEL (GILD. Bibl. 84), bei den vier&#13;&#10;letzten die von GORRESIO (GILD. Bibl. 85) gemeint.
-1.247a	R. ed. Bomb.	R. ed. Bomb.	R. ed. Bomb. = RĀMĀYAṆA. ? [Cologne addition]
-1.247b	R. SCHL.	R. Schl.	R. SCHL. = RĀMĀYAṆA. ? [Cologne addition]
+1.247a	R. ed. Bomb.	R. ed. Bomb.	Bombay ed. of Rāmāyaṇa, 1859-1864 [Cologne addition]
+1.247b	R. SCHL.	R. Schl.	Rāmāyaṇa, Schlegel edition, 1829--1838 [Cologne addition]
 1.248	RĀJAN.	Rājan.	RĀJAN. = RĀJANIRGHAṆṬA, ein medicinisches Wörterbuch; nach An-&#13;&#10;führungen im ŚKDR.
 1.249	RĀJA-TAR.	Rāja-Tar.	*RĀJA-TAR. = RĀJATARAṄGIṆĪ, ed. TROYER (GILD. Bibl. 148) für die 6&#13;&#10;ersten Taram̃ga's; für die folgenden die Calc. Ausg. (GILD. Bibl. 147).
 1.249a	RĀJA-TARAṄGIṆĪ	Rāja-Taraṅgiṇī	RĀJA-TARAṄGIṆĪ = RĀJATARAṄGIṆĪ ? [Cologne Addition]
+1.249b	RĀJA-TAR. ed. Calc.	Rāja-Tar. ed. Calc.	RĀJATARAṄGIṆĪ,  Calc. Ausg. (GILD. Bibl. 147). [Cologne Addition]
 1.250	RĀJAV.	Rājav.	RĀJAV. = RĀJAVALLABHA, nach Anführungen im ŚKDR.
 1.251	RAGH.	Ragh.	RAGH. = RAGHUVAṂŚA, ed. STENZLER (GILD. Bibl. 134).
 1.252	RAGH. (ed. Calc)	Ragh. (Ed. Calc)	RAGH. (ed. Calc.) = RAGHUVAṂŚA, ed. Calc. (GILD. Bibl. 135).
+1.252a	RAGH. ed. Calc	Ragh. ed. Calc.	RAGHUVAṂŚA, ed. Calc. (GILD. Bibl. 135).
 1.253	RĀYAM.	Rāyam.	RĀYAM. = RĀYAMUKUṬA, ein Commentator des AMARAKOṢA; nach An-&#13;&#10;führungen im ŚKDR.
 1.254	RAMĀN.	Ramān.	RAMĀN. = RAMĀNĀTHA, ein Commentator des AMARAKOṢA; nach An-&#13;&#10;führungen im ŚKDR.
 1.255	RĀMATARKAV.	Rāmatarkav.	RĀMATARKAV. = RĀMATARKAVĀGĪŚA.
@@ -411,7 +417,8 @@
 1.325	v. l.	V. L.	v. l. = varia lectio.
 1.326	VOP.	Vop.	VOP. oder VOPAD. = VOPADEVA'S Grammatik, nach BÖHTLINGK'S Ausgabe&#13;&#10;(GILD. Bibl. 249, {%a.%} S. 170).
 1.326a	VOPAD.	Vopad.	VOP. oder VOPAD. = VOPADEVA'S Grammatik, nach BÖHTLINGK'S Ausgabe (GILD. Bibl. 249, {%a.%} S. 170).
-1.327	VP.	Vp.	VP. = VIṢṆUPURĀṆA. Es wird die WILSON'sche Uebersetzung (GILD.&#13;&#10;Bibl. 133) citirt.
+1.326b	VOP. (ed. Calc.)	Vop. (ed. Calc.)	VOPADEVA'S Grammatik, Calcutta edition [Cologne Addition]
+1.327	VP.	Vp.	VP. = VIṢṆUPURĀṆA. Es wird die WILSON'sche Uebersetzung
 1.328	VS.	Vs.	VS. = VĀJASANEYISAM̃HITĀ. The VĀYASANEYI-SANHITĀ in the MĀDHYANDINA&#13;&#10;-- and the KĀṆVA-ŚĀKHĀ with the commentary of MAHĪDHARA, edited&#13;&#10;by Dr. ALBRECHT WEBER. Berlin Ferd. Dümmler's Verlagṣandlung.&#13;&#10;London Williams and Norgate. 1852. 4º.
 1.329	VS. PRĀT.	Vs. Prāt.	VS. PRĀT. = PRĀTIŚĀKHYA zur VĀJASANEYISAM̃HITĀ, citirt nach Adhyāya&#13;&#10;und Sūtra. Hdschr. S. ROTH in der Einl. z. NIR. S. XLVI.
 1.330	WEST.	West.	WEST. = WESTERGAARD'S Radices (GILD. Bibl. 42).
@@ -638,7 +645,7 @@ c.073	KṚṢIS.	Kṛṣis.	KṚṢIS. = ? [Cologne Addition]
 c.074	GAṆITĀDHY.	Gaṇitādhy.	GAṆITĀDHY. = GAṆITĀDHYĀYA ? [Cologne Addition] 
 c.074a	GAṆIT.	Gaṇit.	GAṆIT. = GAṆITĀDHYĀYA? [Cologne Addition] 
 c.074b	GAṆITĀDHY. UDAY.	Gaṇitādhy. Uday.	GAṆITĀDHY. UDAY. =  ? [Cologne Addition] 
-c.075	SCHL.	Schl.	SCHL. = ? [Cologne Addition] 
+c.075	SCHL.	Schl.	SCHL. = Rāmāyaṇa, Schlegel edition, 1829--1838 [Cologne Addition] 
 c.076	MAD.	Mad.	MAD. = ? [Cologne Addition] 
 c.077	ŚIŚUP.	Śiśup.	ŚIŚUP. = ? [Cologne Addition] 
 c.078	NIDĀNAS.	Nidānas.	NIDĀNAS. = ? [Cologne Addition] 
@@ -760,6 +767,7 @@ c.183	SAM̃GĪTADĀM.	Sam̃Gītadām.	SAM̃GĪTADĀM. = ? [Cologne Addition]
 c.184	AJAYAPĀLA	Ajayapāla	AJAYAPĀLA = ? [Cologne Addition] 
 c.185	ŚABDĀRTHAKALPATARU	Śabdārthakalpataru	ŚABDĀRTHAKALPATARU = ? [Cologne Addition] 
 c.186	KĀD.	Kād.	KĀD. = ? [Cologne Addition] 
+c.186a	KĀD. (ed. Calc. 1862)	Kād. (ed. Calc. 1862)	KĀD.(?), Calcutta edition [Cologne Addition] 
 c.187	AJAYA	Ajaya	AJAYA = ? [Cologne Addition] 
 c.188	TANTRASĀRA	Tantrasāra	TANTRASĀRA = ? [Cologne Addition] 
 c.189	DHANAM̃JAYA	Dhanam̃Jaya	DHANAM̃JAYA = ? [Cologne Addition] 
@@ -1398,7 +1406,7 @@ c.775	MĀTSYA-P.	Mātsya-P.	MĀTSYA-P. = ? [Cologne Addition]
 c.776	MAHĀNĀH. UP.	Mahānāh. Up.	MAHĀNĀH. UP. = ? [Cologne Addition]
 c.777	NĀRAS. P.	Nāras. P.	 = ? [Cologne Addition]
 c.777a	NĀRASIṂHA-P.	Nārasiṃha-P.	NĀRASIṂHA-P. = ? [Cologne Addition]
-c.778	RĀM. ed. Bomb.	Rām. Ed. Bomb.	RĀM. ed. Bomb. = ? [Cologne Addition]
+c.778	RĀM. ed. Bomb.	Rām. Ed. Bomb.	Bombay ed. of Rāmāyaṇa, 1859-1864 [Cologne addition]
 c.790	ŚĀNTIKALPA	Śāntikalpa	ŚĀNTIKALPA = ? [Cologne Addition] 
 c.791	MERUTANTRA	Merutantra	MERUTANTRA = ? [Cologne Addition] 
 c.792	AVADĀNAKALPALATĀ	Avadānakalpalatā	AVADĀNAKALPALATĀ = ? [Cologne Addition] 
@@ -2095,7 +2103,6 @@ c.1483	JOHAENTGEN	Johaentgen	JOHAENTGEN = ? [Cologne Addition]
 c.1484	KLAPROTH	Klaproth	KLAPROTH = ? [Cologne Addition] 
 c.1485	CAKR.	Cakr.	CAKR. = ? [Cologne Addition] 
 c.1486	JAGADDH.	Jagaddh.	JAGADDH. = ? [Cologne Addition] 
-c.1487	VOP	Vop	VOP = ? [Cologne Addition] 
 c.1488	YOGIYĀJÑAVALKYA	Yogiyājñavalkya	YOGIYĀJÑAVALKYA = ? [Cologne Addition] 
 c.1489	GOVINDARĀJA	Govindarāja	GOVINDARĀJA = ? [Cologne Addition] 
 c.1490	KALĀPAVYĀKARAṆA.	Kalāpavyākaraṇa.	KALĀPAVYĀKARAṆA. = ? [Cologne Addition] 
@@ -2654,7 +2661,7 @@ c.2069	VĪJAGAṆITA	Vījagaṇita	VĪJAGAṆITA = ? [Cologne Addition]
 c.2070	ŚATAKĀV.	Śatakāv.	ŚATAKĀV. = ? [Cologne Addition] 
 c.2071	KRAMACANDRIKĀ	Kramacandrikā	KRAMACANDRIKĀ = ? [Cologne Addition] 
 c.2072	AUFRECHT, HALĀY.	Aufrecht, Halāy.	AUFRECHT, HALĀY. = ? [Cologne Addition]
-c.2073	R. GORR.	R. Gorr.	R. GORR. = RĀMĀYAṆA, translation by Gaspare Gorresio. [Cologne Addition]
+c.2073	R. GORR.	R. Gorr.	Rāmāyaṇa, Gorresio edition, 1843--1867 [Cologne Addition]
 c.2074	PRAKĪRṆĀKHY	Prakīrṇākhy	PRAKĪRṆĀKHY = ? [Cologne Addition]
 c.2075	PISCHEL, de Gramm. prācr.	Pischel, De Gramm. Prācr.	PISCHEL, de Gramm. prācr. = ? [Cologne Addition]
 c.2076	STENZLER, de Lexicogr. sanscr. principils	Stenzler, De Lexicogr. Sanscr. Principils	STENZLER, de Lexicogr. sanscr. principils = ? [Cologne Addition]
@@ -2699,3 +2706,5 @@ c.2114	Буслаева	Буслаева	 Буслаева = Ѳ. Буслаев�
 c.2115	Минаевъ	Минаевъ	Минаевъ = И. Минаевъ. Пратимокша-сутра, буддійскій служебникъ. Санктпетербургъ, 1869. (I. Minaev (also Minayev, Minayeff). Prātimokṣa-sūtra, a buddhist ritual book. Sankt-Peterburg, 1869.) [Cologne Addition]
 c.2116	Антарабида	Антарабида	Антарабида  = ? [Cologne Addition]
 c.2118	Jahresb. d. d. m. G.	Jahresb. d. d. m. G.	Jahresb. d. d. m. G.  = ? [Cologne Addition]
+c.2119	ed. Bomb.	ed. Bomb.	Bombay ed. of Rāmāyaṇa, 1859-1864 OR&#13;&#10;of Mahābhārata, 1863-1877 [Cologne addition]
+c.2120	ed. Calc.	ed. Calc.	Calcutta edition of various works [Cologne addition]
