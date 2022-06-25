@@ -312,6 +312,7 @@
 1.247	R.	R.	R. = RĀMĀYAṆA. Ohne eine nähere Angabe ist bei den zwei ersten&#13;&#10;Büchern die Ausgabe von SCHLEGEL (GILD. Bibl. 84), bei den vier&#13;&#10;letzten die von GORRESIO (GILD. Bibl. 85) gemeint.
 1.247a	R. ed. Bomb.	R. ed. Bomb.	Bombay ed. of Rāmāyaṇa, 1859-1864 [Cologne addition]
 1.247b	R. SCHL.	R. Schl.	Rāmāyaṇa, Schlegel edition, 1829--1838 [Cologne addition]
+1.247c	R. ed. Ser.	R. ed. Ser.	Serampore ed. of Rāmāyaṇa [Cologne addition]
 1.248	RĀJAN.	Rājan.	RĀJAN. = RĀJANIRGHAṆṬA, ein medicinisches Wörterbuch; nach An-&#13;&#10;führungen im ŚKDR.
 1.249	RĀJA-TAR.	Rāja-Tar.	*RĀJA-TAR. = RĀJATARAṄGIṆĪ, ed. TROYER (GILD. Bibl. 148) für die 6&#13;&#10;ersten Taram̃ga's; für die folgenden die Calc. Ausg. (GILD. Bibl. 147).
 1.249a	RĀJA-TARAṄGIṆĪ	Rāja-Taraṅgiṇī	RĀJA-TARAṄGIṆĪ = RĀJATARAṄGIṆĪ ? [Cologne Addition]
