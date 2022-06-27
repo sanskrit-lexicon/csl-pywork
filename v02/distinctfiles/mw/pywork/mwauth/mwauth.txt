@@ -733,11 +733,11 @@
 12:41	Pischel	Pischel	au	<expandNorm><au>Richard Pischel</au> [Cologne Addition]</expandNorm>
 12.42	Prav.	prav	ti	<expandNorm>Pravarādhyāya [Cologne Addition]</expandNorm>
 12:43	Wh.	Wh.	au	<expandNorm>Whitney, W. D. (1872). [Cologne Addition]</expandNorm>
-12:44	Ro.	Ro.	au	<expandNorm>Fridericus Rosen (Friedrich August Rosen)[Cologne Addition]</expandNorm>
 12:45	Schlegel	Schlegel	au	<expandNorm><au>Friedrich Schlegel</au> [Cologne Addition]</expandNorm>
-12:46	VRJ.	VRJ.	au	<expandNorm><au>?</au> [Cologne Addition]</expandNorm>
+12:46	VĀJ.	VAJ.	au	<expandNorm><au><slp cap="true">vAjasaneyi saMhitA</slp></au> [Cologne Addition]</expandNorm>
 12:47	Vaidyakaparibh.	vEdyakapariB	ti	<abbr><slp cap="true">vEdyakapariB</slp></abbr><expandNorm>NONE</expandNorm><expandNorm><ti><slp cap="true">vEdyakapariBAzA</slp></ti> [Cologne Addition]</expandNorm>
 12:48	Weber	Weber	au	<expandNorm><au>Albrecht Weber</au> [Cologne Addition]</expandNorm>
 12:49	Whitney's Gr.	Whitney's Gr.	ti	<expandNorm>Whitney Sanskrit Grammar [Cologne Addition]</expandNorm>
 12:50	Yog.	Yog.	ti	<expandNorm><ti>Yogasūtra</ti> [Cologne Addition]</expandNorm>
 12:51	Windisch	Windisch	au	<expandNorm><au>Ernst Wilhelm Oskar Windisch</au> [Cologne Addition]</expandNorm>
+12:52	Wh. and Ro.	Wh. and Ro.	ti	<expandNorm><ti>Atharva Veda Sanhita, Volume 1, by  R.Roth and W.D. Whitney, 1856</ti> [Cologne Addition]</expandNorm>
