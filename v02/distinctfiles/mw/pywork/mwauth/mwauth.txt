@@ -649,6 +649,7 @@
 11:16	Śiva.	Sivas	ti	<abbr><slp cap="true">Siva</slp></abbr><expandNorm><ti><slp cap="true">Siva</slp><slp cap="true">sUtra</slp></ti> [Cologne Addition]</expandNorm><expandNorm><ti><slp cap="true">Siva-sUtra</slp></ti> [Cologne Addition]</expandNorm>
 11:17	Var.	var	au	<abbr><slp cap="true">var</slp></abbr><expandNorm><ti><slp cap="true">varAha-mihira</slp></ti> [Cologne Addition]</expandNorm>
 11:18	Veṇīs.	veRIs	ti	<abbr><slp cap="true">veRIs</slp></abbr><expandNorm><ti><slp cap="true">veRI-saMhAra</slp></ti> [Cologne Addition]</expandNorm>
+11:18a	Veṇ.	veR	ti	<abbr><slp cap="true">veR</slp></abbr><expandNorm><ti><slp cap="true">veRI-saMhAra</slp></ti> [Cologne Addition]</expandNorm>
 11:19	Vratapr.	vratapr	ti	<abbr><slp cap="true">vratapr</slp></abbr><expandNorm><ti><slp cap="true">vrata-prakASa</slp></ti> [Cologne Addition]</expandNorm>
 11:20	Ār.	Ar	litcat	<abbr><slp cap="true">Ar</slp></abbr><expandNorm><litcat><slp cap="true">AraRyaka</slp></litcat> [Cologne Addition]</expandNorm><expandNorm><litcat><slp cap="true">AraRyaka</slp></litcat> [Cologne Addition]</expandNorm>
 11:21	Dāyakramas.	dAyakramas	ti	<abbr><slp cap="true">dAyakramas</slp></abbr><expandNorm><ti><slp cap="true">dAya-krama-saMgraha</slp></ti> [Cologne Addition]</expandNorm>
@@ -738,6 +739,8 @@
 12:47	Vaidyakaparibh.	vEdyakapariB	ti	<abbr><slp cap="true">vEdyakapariB</slp></abbr><expandNorm>NONE</expandNorm><expandNorm><ti><slp cap="true">vEdyakapariBAzA</slp></ti> [Cologne Addition]</expandNorm>
 12:48	Weber	Weber	au	<expandNorm><au>Albrecht Weber</au> [Cologne Addition]</expandNorm>
 12:49	Whitney's Gr.	Whitney's Gr.	ti	<expandNorm>Whitney Sanskrit Grammar [Cologne Addition]</expandNorm>
+12:49a	Gr.	 Gr.	ti	<expandNorm>Whitney Sanskrit Grammar [Cologne Addition]</expandNorm>
 12:50	Yog.	Yog.	ti	<expandNorm><ti>Yogasūtra</ti> [Cologne Addition]</expandNorm>
 12:51	Windisch	Windisch	au	<expandNorm><au>Ernst Wilhelm Oskar Windisch</au> [Cologne Addition]</expandNorm>
 12:52	Wh. and Ro.	Wh. and Ro.	ti	<expandNorm><ti>Atharva Veda Sanhita, Volume 1, by  R.Roth and W.D. Whitney, 1856</ti> [Cologne Addition]</expandNorm>
+99.99	?	?	ti	<expandNorm><ti>Unknown reference</ti> [Cologne Addition]</expandNorm>
