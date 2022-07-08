@@ -743,4 +743,4 @@
 12:50	Yog.	Yog.	ti	<expandNorm><ti>Yogasūtra</ti> [Cologne Addition]</expandNorm>
 12:51	Windisch	Windisch	au	<expandNorm><au>Ernst Wilhelm Oskar Windisch</au> [Cologne Addition]</expandNorm>
 12:52	Wh. and Ro.	Wh. and Ro.	ti	<expandNorm><ti>Atharva Veda Sanhita, Volume 1, by  R.Roth and W.D. Whitney, 1856</ti> [Cologne Addition]</expandNorm>
-99.99	?	?	ti	<expandNorm><ti>Unknown reference</ti> [Cologne Addition]</expandNorm>
+99.99	Unknown	Unknown	ti	<expandNorm><ti>Unknown reference</ti> [Cologne Addition]</expandNorm>
