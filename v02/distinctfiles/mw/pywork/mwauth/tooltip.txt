@@ -906,5 +906,6 @@
 93.20	AV., SBE.	Unknown reference [Cologne Addition]	Title
 93.21	Muir's Sanskrit Texts	Unknown reference [Cologne Addition]	Title
 93.22	ĀpGṛh.	Unknown reference [Cologne Addition]	Title
-99.98	ib.	int the same place [Cologne Addition]	Title
+93.23	Saṃgīta-darpaṇa	Unknown reference [Cologne Addition]	Title
+99.98	ib.	in the same place [Cologne Addition]	Title
 99.99	Unknown	Unknown reference [Cologne Addition]	Title
