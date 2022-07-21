@@ -743,5 +743,174 @@
 12:50	Yog.	Yog.	ti	<expandNorm><ti>Yogasūtra</ti> [Cologne Addition]</expandNorm>
 12:51	Windisch	Windisch	au	<expandNorm><au>Ernst Wilhelm Oskar Windisch</au> [Cologne Addition]</expandNorm>
 12:52	Wh. and Ro.	Wh. and Ro.	ti	<expandNorm><ti>Atharva Veda Sanhita, Volume 1, by  R.Roth and W.D. Whitney, 1856</ti> [Cologne Addition]</expandNorm>
-12.53	Maṇḍ.	Maṇḍ.	ti	<expandNorm><ti>Unknown reference</ti> [Cologne Addition]</expandNorm>
+12.53	Maṇḍ.	Maṇḍ.	ti	<expandNorm><ti>Maṇḍala of <slp cap="true">fg-veda</slp></ti> [Cologne Addition]</expandNorm>
+90.01	AAnukr.	AAnukr.	ti	<expandNorm><ti>Unknown reference</ti> [Cologne Addition]</expandNorm>
+90.02	AitrAnukr.	AitrAnukr.	ti	<expandNorm><ti>Unknown reference</ti> [Cologne Addition]</expandNorm>
+90.03	Aparāj.	Aparāj.	ti	<expandNorm><ti>Unknown reference</ti> [Cologne Addition]</expandNorm>
+90.04	Bc.	Bc.	ti	<expandNorm><ti>Unknown reference</ti> [Cologne Addition]</expandNorm>
+90.05	Bhart.	Bhart.	ti	<expandNorm><ti>Unknown reference</ti> [Cologne Addition]</expandNorm>
+90.06	Bhav.	Bhav.	ti	<expandNorm><ti>Unknown reference</ti> [Cologne Addition]</expandNorm>
+90.07	Bhavab.	Bhavab.	ti	<expandNorm><ti>Unknown reference</ti> [Cologne Addition]</expandNorm>
+90.08	Bhavabh.	Bhavabh.	ti	<expandNorm><ti>Unknown reference</ti> [Cologne Addition]</expandNorm>
+90.09	Bhavadev.	Bhavadev.	ti	<expandNorm><ti>Unknown reference</ti> [Cologne Addition]</expandNorm>
+90.10	Bhojac.	Bhojac.	ti	<expandNorm><ti>Unknown reference</ti> [Cologne Addition]</expandNorm>
+90.11	Bhāgav.	Bhāgav.	ti	<expandNorm><ti>Unknown reference</ti> [Cologne Addition]</expandNorm>
+90.12	Bhāradv.	Bhāradv.	ti	<expandNorm><ti>Unknown reference</ti> [Cologne Addition]</expandNorm>
+90.13	Bk.	Bk.	ti	<expandNorm><ti>Unknown reference</ti> [Cologne Addition]</expandNorm>
+90.14	Burnell.	Burnell.	ti	<expandNorm><ti>Unknown reference</ti> [Cologne Addition]</expandNorm>
+90.15	Bālabodh.	Bālabodh.	ti	<expandNorm><ti>Unknown reference</ti> [Cologne Addition]</expandNorm>
+90.16	Bṛ.	Bṛ.	ti	<expandNorm><ti>Unknown reference</ti> [Cologne Addition]</expandNorm>
+90.17	BṛhaddhP.	BṛhaddhP.	ti	<expandNorm><ti>Unknown reference</ti> [Cologne Addition]</expandNorm>
+90.18	Bṛhas.	Bṛhas.	ti	<expandNorm><ti>Unknown reference</ti> [Cologne Addition]</expandNorm>
+90.19	Bṛhasp.	Bṛhasp.	ti	<expandNorm><ti>Unknown reference</ti> [Cologne Addition]</expandNorm>
+90.20	BṛĀr.	BṛĀr.	ti	<expandNorm><ti>Unknown reference</ti> [Cologne Addition]</expandNorm>
+90.21	Caitany.	Caitany.	ti	<expandNorm><ti>Unknown reference</ti> [Cologne Addition]</expandNorm>
+90.22	Camp.	Camp.	ti	<expandNorm><ti>Unknown reference</ti> [Cologne Addition]</expandNorm>
+90.23	Caur.	Caur.	ti	<expandNorm><ti>Unknown reference</ti> [Cologne Addition]</expandNorm>
+90.24	Cār.	Cār.	ti	<expandNorm><ti>Unknown reference</ti> [Cologne Addition]</expandNorm>
+90.25	Damayantīk.	Damayantīk.	ti	<expandNorm><ti>Unknown reference</ti> [Cologne Addition]</expandNorm>
+90.26	DharmaP.	DharmaP.	ti	<expandNorm><ti>Unknown reference</ti> [Cologne Addition]</expandNorm>
+90.27	Dhāyabh.	Dhāyabh.	ti	<expandNorm><ti>Unknown reference</ti> [Cologne Addition]</expandNorm>
+90.28	Div.	Div.	ti	<expandNorm><ti>Unknown reference</ti> [Cologne Addition]</expandNorm>
+90.29	Divyâs.	Divyâs.	ti	<expandNorm><ti>Unknown reference</ti> [Cologne Addition]</expandNorm>
+90.30	Durgād.	Durgād.	ti	<expandNorm><ti>Unknown reference</ti> [Cologne Addition]</expandNorm>
+90.31	Dāy.	Dāy.	ti	<expandNorm><ti>Unknown reference</ti> [Cologne Addition]</expandNorm>
+90.32	Garg.	Garg.	ti	<expandNorm><ti>Unknown reference</ti> [Cologne Addition]</expandNorm>
+90.33	Gauḍap.	Gauḍap.	ti	<expandNorm><ti>Unknown reference</ti> [Cologne Addition]</expandNorm>
+90.34	Gaṅgêś.	Gaṅgêś.	ti	<expandNorm><ti>Unknown reference</ti> [Cologne Addition]</expandNorm>
+90.35	Gaṇ.	Gaṇ.	ti	<expandNorm><ti>Unknown reference</ti> [Cologne Addition]</expandNorm>
+90.36	Govardh.	Govardh.	ti	<expandNorm><ti>Unknown reference</ti> [Cologne Addition]</expandNorm>
+90.37	Halāy.	Halāy.	ti	<expandNorm><ti>Unknown reference</ti> [Cologne Addition]</expandNorm>
+90.38	HaṉsUp.	HaṉsUp.	ti	<expandNorm><ti>Unknown reference</ti> [Cologne Addition]</expandNorm>
+90.39	HPar.	HPar.	ti	<expandNorm><ti>Unknown reference</ti> [Cologne Addition]</expandNorm>
+90.40	HYogay.	HYogay.	ti	<expandNorm><ti>Unknown reference</ti> [Cologne Addition]</expandNorm>
+90.41	Jam.	Jam.	ti	<expandNorm><ti>Unknown reference</ti> [Cologne Addition]</expandNorm>
+90.42	Jīvad.	Jīvad.	ti	<expandNorm><ti>Unknown reference</ti> [Cologne Addition]</expandNorm>
+90.43	Karmavip.	Karmavip.	ti	<expandNorm><ti>Unknown reference</ti> [Cologne Addition]</expandNorm>
+90.44	Kautuk.	Kautuk.	ti	<expandNorm><ti>Unknown reference</ti> [Cologne Addition]</expandNorm>
+90.45	Kavikalpadr.	Kavikalpadr.	ti	<expandNorm><ti>Unknown reference</ti> [Cologne Addition]</expandNorm>
+90.46	Kop.	Kop.	ti	<expandNorm><ti>Unknown reference</ti> [Cologne Addition]</expandNorm>
+90.47	Kriṭṭanim.	Kriṭṭanim.	ti	<expandNorm><ti>Unknown reference</ti> [Cologne Addition]</expandNorm>
+90.48	Kulasadbh.	Kulasadbh.	ti	<expandNorm><ti>Unknown reference</ti> [Cologne Addition]</expandNorm>
+90.49	Kālam.	Kālam.	ti	<expandNorm><ti>Unknown reference</ti> [Cologne Addition]</expandNorm>
+90.50	KālikāP.	KālikāP.	ti	<expandNorm><ti>Unknown reference</ti> [Cologne Addition]</expandNorm>
+90.51	Kāp.	Kāp.	ti	<expandNorm><ti>Unknown reference</ti> [Cologne Addition]</expandNorm>
+90.52	KātyDh.	KātyDh.	ti	<expandNorm><ti>Unknown reference</ti> [Cologne Addition]</expandNorm>
+90.53	Kāvy.	Kāvy.	ti	<expandNorm><ti>Unknown reference</ti> [Cologne Addition]</expandNorm>
+90.54	Kṛṣṇaj.	Kṛṣṇaj.	ti	<expandNorm><ti>Unknown reference</ti> [Cologne Addition]</expandNorm>
+90.55	Kṛṣṇakarṇ.	Kṛṣṇakarṇ.	ti	<expandNorm><ti>Unknown reference</ti> [Cologne Addition]</expandNorm>
+90.56	Mahāv.	Mahāv.	ti	<expandNorm><ti>Unknown reference</ti> [Cologne Addition]</expandNorm>
+90.57	Medhāt.	Medhāt.	ti	<expandNorm><ti>Unknown reference</ti> [Cologne Addition]</expandNorm>
+90.58	MnGṛh.	MnGṛh.	ti	<expandNorm><ti>Unknown reference</ti> [Cologne Addition]</expandNorm>
+90.59	Muhūrtam.	Muhūrtam.	ti	<expandNorm><ti>Unknown reference</ti> [Cologne Addition]</expandNorm>
+90.60	Mādh.	Mādh.	ti	<expandNorm><ti>Unknown reference</ti> [Cologne Addition]</expandNorm>
+90.61	Naith.	Naith.	ti	<expandNorm><ti>Unknown reference</ti> [Cologne Addition]</expandNorm>
+90.62	Nastar.	Nastar.	ti	<expandNorm><ti>Unknown reference</ti> [Cologne Addition]</expandNorm>
+90.63	NādapUp.	NādapUp.	ti	<expandNorm><ti>Unknown reference</ti> [Cologne Addition]</expandNorm>
+90.64	Nītir.	Nītir.	ti	<expandNorm><ti>Unknown reference</ti> [Cologne Addition]</expandNorm>
+90.65	Paddh.	Paddh.	ti	<expandNorm><ti>Unknown reference</ti> [Cologne Addition]</expandNorm>
+90.66	Pallcat.	Pallcat.	ti	<expandNorm><ti>Unknown reference</ti> [Cologne Addition]</expandNorm>
+90.67	Par.	Par.	ti	<expandNorm><ti>Unknown reference</ti> [Cologne Addition]</expandNorm>
+90.68	Pariś.	Pariś.	ti	<expandNorm><ti>Unknown reference</ti> [Cologne Addition]</expandNorm>
+90.69	Parvad.	Parvad.	ti	<expandNorm><ti>Unknown reference</ti> [Cologne Addition]</expandNorm>
+90.70	Pañcav.	Pañcav.	ti	<expandNorm><ti>Unknown reference</ti> [Cologne Addition]</expandNorm>
+90.71	PhP.	PhP.	ti	<expandNorm><ti>Unknown reference</ti> [Cologne Addition]</expandNorm>
+90.72	Pras.	Pras.	ti	<expandNorm><ti>Unknown reference</ti> [Cologne Addition]</expandNorm>
+90.73	Prasamar.	Prasamar.	ti	<expandNorm><ti>Unknown reference</ti> [Cologne Addition]</expandNorm>
+90.74	Prauḍh.	Prauḍh.	ti	<expandNorm><ti>Unknown reference</ti> [Cologne Addition]</expandNorm>
+90.75	Praśnôt.	Praśnôt.	ti	<expandNorm><ti>Unknown reference</ti> [Cologne Addition]</expandNorm>
+90.76	PS.	PS.	ti	<expandNorm><ti>Unknown reference</ti> [Cologne Addition]</expandNorm>
+90.77	PurS.	PurS.	ti	<expandNorm><ti>Unknown reference</ti> [Cologne Addition]</expandNorm>
+90.78	Pālār.	Pālār.	ti	<expandNorm><ti>Unknown reference</ti> [Cologne Addition]</expandNorm>
+90.79	Pār.	Pār.	ti	<expandNorm><ti>Unknown reference</ti> [Cologne Addition]</expandNorm>
+90.80	Pārv.	Pārv.	ti	<expandNorm><ti>Unknown reference</ti> [Cologne Addition]</expandNorm>
+90.81	Rasav.	Rasav.	ti	<expandNorm><ti>Unknown reference</ti> [Cologne Addition]</expandNorm>
+90.82	Ratim.	Ratim.	ti	<expandNorm><ti>Unknown reference</ti> [Cologne Addition]</expandNorm>
+90.83	RLM.	RLM.	ti	<expandNorm><ti>Unknown reference</ti> [Cologne Addition]</expandNorm>
+90.84	Rudraj.	Rudraj.	ti	<expandNorm><ti>Unknown reference</ti> [Cologne Addition]</expandNorm>
+90.85	Rājan.	Rājan.	ti	<expandNorm><ti>Unknown reference</ti> [Cologne Addition]</expandNorm>
+90.86	Rājyat.	Rājyat.	ti	<expandNorm><ti>Unknown reference</ti> [Cologne Addition]</expandNorm>
+90.87	RāmRās.	RāmRās.	ti	<expandNorm><ti>Unknown reference</ti> [Cologne Addition]</expandNorm>
+90.88	Saddh.	Saddh.	ti	<expandNorm><ti>Unknown reference</ti> [Cologne Addition]</expandNorm>
+90.89	SaṃjUp.	SaṃjUp.	ti	<expandNorm><ti>Unknown reference</ti> [Cologne Addition]</expandNorm>
+90.90	Smṛtyarth.	Smṛtyarth.	ti	<expandNorm><ti>Unknown reference</ti> [Cologne Addition]</expandNorm>
+90.91	Sud.	Sud.	ti	<expandNorm><ti>Unknown reference</ti> [Cologne Addition]</expandNorm>
+90.92	SvayambhūP.	SvayambhūP.	ti	<expandNorm><ti>Unknown reference</ti> [Cologne Addition]</expandNorm>
+90.93	Sûktik.	Sûktik.	ti	<expandNorm><ti>Unknown reference</ti> [Cologne Addition]</expandNorm>
+90.94	SāmarBr.	SāmarBr.	ti	<expandNorm><ti>Unknown reference</ti> [Cologne Addition]</expandNorm>
+90.95	Sārasam.	Sārasam.	ti	<expandNorm><ti>Unknown reference</ti> [Cologne Addition]</expandNorm>
+90.96	Sāṃkhyas.	Sāṃkhyas.	ti	<expandNorm><ti>Unknown reference</ti> [Cologne Addition]</expandNorm>
+90.97	Tantr.	Tantr.	ti	<expandNorm><ti>Unknown reference</ti> [Cologne Addition]</expandNorm>
+90.98	Tattvak.	Tattvak.	ti	<expandNorm><ti>Unknown reference</ti> [Cologne Addition]</expandNorm>
+90.99	Utp.	Utp.	ti	<expandNorm><ti>Unknown reference</ti> [Cologne Addition]</expandNorm>
+91.00	Vaidyav.	Vaidyav.	ti	<expandNorm><ti>Unknown reference</ti> [Cologne Addition]</expandNorm>
+91.01	VaṛB-S.	VaṛB-S.	ti	<expandNorm><ti>Unknown reference</ti> [Cologne Addition]</expandNorm>
+91.02	VB.	VB.	ti	<expandNorm><ti>Unknown reference</ti> [Cologne Addition]</expandNorm>
+91.03	VBṛS.	VBṛS.	ti	<expandNorm><ti>Unknown reference</ti> [Cologne Addition]</expandNorm>
+91.04	VCāṇ.	VCāṇ.	ti	<expandNorm><ti>Unknown reference</ti> [Cologne Addition]</expandNorm>
+91.05	Vedântak.	Vedântak.	ti	<expandNorm><ti>Unknown reference</ti> [Cologne Addition]</expandNorm>
+91.06	Vivād.	Vivād.	ti	<expandNorm><ti>Unknown reference</ti> [Cologne Addition]</expandNorm>
+91.07	Viśv.	Viśv.	ti	<expandNorm><ti>Unknown reference</ti> [Cologne Addition]</expandNorm>
+91.08	Vratar.	Vratar.	ti	<expandNorm><ti>Unknown reference</ti> [Cologne Addition]</expandNorm>
+91.09	VYogay.	VYogay.	ti	<expandNorm><ti>Unknown reference</ti> [Cologne Addition]</expandNorm>
+91.10	Vṛttaratn.	Vṛttaratn.	ti	<expandNorm><ti>Unknown reference</ti> [Cologne Addition]</expandNorm>
+91.11	Yogaś.	Yogaś.	ti	<expandNorm><ti>Unknown reference</ti> [Cologne Addition]</expandNorm>
+91.12	ĀdityaP.	ĀdityaP.	ti	<expandNorm><ti>Unknown reference</ti> [Cologne Addition]</expandNorm>
+91.13	ŚB.	ŚB.	ti	<expandNorm><ti>Unknown reference</ti> [Cologne Addition]</expandNorm>
+91.14	Śivarātrivr.	Śivarātrivr.	ti	<expandNorm><ti>Unknown reference</ti> [Cologne Addition]</expandNorm>
+91.15	Śrāddhat.	Śrāddhat.	ti	<expandNorm><ti>Unknown reference</ti> [Cologne Addition]</expandNorm>
+91.16	Śāntaś.	Śāntaś.	ti	<expandNorm><ti>Unknown reference</ti> [Cologne Addition]</expandNorm>
+91.17	ŚāṅgS.	ŚāṅgS.	ti	<expandNorm><ti>Unknown reference</ti> [Cologne Addition]</expandNorm>
+91.18	Śāṅkh.	Śāṅkh.	ti	<expandNorm><ti>Unknown reference</ti> [Cologne Addition]</expandNorm>
+92.01	Wilson, Hindu Theatre	Wilson, Hindu Theatre	ti	<expandNorm><ti>Unknown reference</ti> [Cologne Addition]</expandNorm>
+92.02	Kāth.	Kāth.	ti	<expandNorm><ti>Unknown reference</ti> [Cologne Addition]</expandNorm>
+92.03	ŚāntiP.	ŚāntiP.	ti	<expandNorm><ti>Unknown reference</ti> [Cologne Addition]</expandNorm>
+92.04	Kielhorn, Mahābhāṣya	Kielhorn, Mahābhāṣya	ti	<expandNorm><ti>Unknown reference</ti> [Cologne Addition]</expandNorm>
+92.05	Lassen, IA.	Lassen, IA.	ti	<expandNorm><ti>Unknown reference</ti> [Cologne Addition]</expandNorm>
+92.06	ChandS.	ChandS.	ti	<expandNorm><ti>Unknown reference</ti> [Cologne Addition]</expandNorm>
+92.07	Jyotirv.	Jyotirv.	ti	<expandNorm><ti>Unknown reference</ti> [Cologne Addition]</expandNorm>
+92.08	Gop.	Gop.	ti	<expandNorm><ti>Unknown reference</ti> [Cologne Addition]</expandNorm>
+92.09	Śivak.	Śivak.	ti	<expandNorm><ti>Unknown reference</ti> [Cologne Addition]</expandNorm>
+92.10	Nidān.	Nidān.	ti	<expandNorm><ti>Unknown reference</ti> [Cologne Addition]</expandNorm>
+92.11	BP.	BP.	ti	<expandNorm><ti>Unknown reference</ti> [Cologne Addition]</expandNorm>
+92.12	Mantram	Mantram	ti	<expandNorm><ti>Unknown reference</ti> [Cologne Addition]</expandNorm>
+92.13	VāsiṣṭhalP.	VāsiṣṭhalP.	ti	<expandNorm><ti>Unknown reference</ti> [Cologne Addition]</expandNorm>
+92.14	Vardhamānac	Vardhamānac	ti	<expandNorm><ti>Unknown reference</ti> [Cologne Addition]</expandNorm>
+92.15	Sūtrakṛt.	Sūtrakṛt.	ti	<expandNorm><ti>Unknown reference</ti> [Cologne Addition]</expandNorm>
+92.16	GārUp.	GārUp.	ti	<expandNorm><ti>Unknown reference</ti> [Cologne Addition]</expandNorm>
+92.17	ŚulbPariś.	ŚulbPariś.	ti	<expandNorm><ti>Unknown reference</ti> [Cologne Addition]</expandNorm>
+92.18	Krauñca-dvīpa	Krauñca-dvīpa	ti	<expandNorm><ti>Unknown reference</ti> [Cologne Addition]</expandNorm>
+92.19	HanRāmUp.	HanRāmUp.	ti	<expandNorm><ti>Unknown reference</ti> [Cologne Addition]</expandNorm>
+92.20	Kath.	Kath.	ti	<expandNorm><ti>Unknown reference</ti> [Cologne Addition]</expandNorm>
+92.21	ĀpDh.	ĀpDh.	ti	<expandNorm><ti>Unknown reference</ti> [Cologne Addition]</expandNorm>
+92.22	Bañc.	Bañc.	ti	<expandNorm><ti>Unknown reference</ti> [Cologne Addition]</expandNorm>
+92.23	Manu	Manu	ti	<expandNorm><ti>Unknown reference</ti> [Cologne Addition]</expandNorm>
+92.24	Ind. Ant.	Ind. Ant.	ti	<expandNorm><ti>Unknown reference</ti> [Cologne Addition]</expandNorm>
+92.25	Pur.	Pur.	ti	<expandNorm><ti>Unknown reference</ti> [Cologne Addition]</expandNorm>
+92.26	MWB.	MWB.	ti	<expandNorm><ti>Unknown reference</ti> [Cologne Addition]</expandNorm>
+92.27	Śivas.	Śivas.	ti	<expandNorm><ti>Unknown reference</ti> [Cologne Addition]</expandNorm>
+92.28	Rām.	Rām.	ti	<expandNorm><ti>Unknown reference</ti> [Cologne Addition]</expandNorm>
+93.01	Śak. (Pi.)	Śak. (Pi.)	ti	<expandNorm><ti>Unknown reference</ti> [Cologne Addition]</expandNorm>
+93.02	Zachariae, Beiträge	Zachariae, Beiträge	ti	<expandNorm><ti>Unknown reference</ti> [Cologne Addition]</expandNorm>
+93.03	Kaegi, Der Ṛgveda	Kaegi, Der Ṛgveda	ti	<expandNorm><ti>Unknown reference</ti> [Cologne Addition]</expandNorm>
+93.04	Muir, S. T.	Muir, S. T.	ti	<expandNorm><ti>Unknown reference</ti> [Cologne Addition]</expandNorm>
+93.05	Kielhorn, Mahābhāṣya	Kielhorn, Mahābhāṣya	ti	<expandNorm><ti>Unknown reference</ti> [Cologne Addition]</expandNorm>
+93.06	Ludwig, RV.	Ludwig, RV.	ti	<expandNorm><ti>Unknown reference</ti> [Cologne Addition]</expandNorm>
+93.07	Pat. (K.)	Pat. (K.)	ti	<expandNorm><ti>Unknown reference</ti> [Cologne Addition]</expandNorm>
+93.08	RV. AnuvAnukr.	RV. AnuvAnukr.	ti	<expandNorm><ti>Unknown reference</ti> [Cologne Addition]</expandNorm>
+93.09	Uttamac.²	Uttamac.²	ti	<expandNorm><ti>Unknown reference</ti> [Cologne Addition]</expandNorm>
+93.10	R. (B.)	R. (B.)	ti	<expandNorm><ti>Unknown reference</ti> [Cologne Addition]</expandNorm>
+93.11	R. (B)	R. (B)	ti	<expandNorm><ti>Unknown reference</ti> [Cologne Addition]</expandNorm>
+93.12	R. [B.]	R. [B.]	ti	<expandNorm><ti>Unknown reference</ti> [Cologne Addition]</expandNorm>
+93.13	YajurV. Parīś.	YajurV. Parīś.	ti	<expandNorm><ti>Unknown reference</ti> [Cologne Addition]</expandNorm>
+93.14	R. G.	R. G.	ti	<expandNorm><ti>Unknown reference</ti> [Cologne Addition]</expandNorm>
+93.15	AV. Paipp.	AV. Paipp.	ti	<expandNorm><ti>Unknown reference</ti> [Cologne Addition]</expandNorm>
+93.16	Śak. (Chézy)	Śak. (Chézy)	ti	<expandNorm><ti>Unknown reference</ti> [Cologne Addition]</expandNorm>
+93.17	Pañc. B.	Pañc. B.	ti	<expandNorm><ti>Unknown reference</ti> [Cologne Addition]</expandNorm>
+93.18	SV.Anukr.	SV.Anukr.	ti	<expandNorm><ti>Unknown reference</ti> [Cologne Addition]</expandNorm>
+93.19	ĀpastPray.	ĀpastPray.	ti	<expandNorm><ti>Unknown reference</ti> [Cologne Addition]</expandNorm>
+93.20	AV., SBE.	AV., SBE.	ti	<expandNorm><ti>Unknown reference</ti> [Cologne Addition]</expandNorm>
+93.21	Muir's Sanskrit Texts	Muir's Sanskrit Texts	ti	<expandNorm><ti>Unknown reference</ti> [Cologne Addition]</expandNorm>
+93.22	ĀpGṛh.	Apgfh	ti	<expandNorm><ti>Unknown reference</ti> [Cologne Addition]</expandNorm>
+99.98	ib.	ib.	ti	<expandNorm><ti>int the same place</ti> [Cologne Addition]</expandNorm>
 99.99	Unknown	Unknown	ti	<expandNorm><ti>Unknown reference</ti> [Cologne Addition]</expandNorm>
