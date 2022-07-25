@@ -1,5 +1,5 @@
 echo "tooltip.txt ..."
-python tooltip.py roman mwauth.txt tooltip.txt
+#python tooltip.py roman mwauth.txt tooltip.txt
 #echo "temp_tooltip.txt ..."
 #python temp_tooltip.py roman mwauth.txt temp_tooltip.txt
 echo "mwauthtooltips.sqlite"

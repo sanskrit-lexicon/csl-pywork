@@ -1,5 +1,22 @@
 
 readme.org for mwauth
+07-25-2022
+  Stop maintenance of mwauth.txt.  
+   Reason: This has a rather complex xml structure. The tooltip.py program
+   converts to a simpler form (tooltip.txt) which is used for the
+   tooltip in displays (basicadjust.php). 
+   The additional potential functionality of mwauth.txt has found no
+   current use.
+   redo.sh is modified to NOT do 'python tooltip.py roman mwauth.txt tooltip.txt'
+  The procedure for updating is to modify tooltip.txt dirrectly. Then redo.sh.
+NOTE: tooltip.txt format has 4 fields:
+  1) identifier   Not used in displays
+  2) Abbreviation 
+  3) text
+  4) literary category (Title, Author, etc.)  could be merged into text.
+  Removing fields 1 and 4 might make the file format simpler to use.
+  But this simplification might be a future enhancement.
+  
 03-31-2018
 
 This work begun in conjunction with the meta/iast conversion of mw,
@@ -13,7 +30,7 @@ Note: 11-16-2020.
 * mwauth.txt
   created initially from work/mwauth1.txt
 * tooltip.txt
-python tooltip.py roman mwauth.txt tooltip.txt
+  python tooltip.py roman mwauth.txt tooltip.txt
 
 * redo.sh
  Recreates things as needed. Based on mwauth.txt
