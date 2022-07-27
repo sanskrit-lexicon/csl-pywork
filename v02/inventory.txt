@@ -69,16 +69,19 @@ ben stc bur cae mw pw pwkvn pwg lan gra ap90:pywork/${dictlo}ab/redo_${dictlo}ab
 ; MW is coded differently from PW, PWG.
 ; The files here are only those which are needed to do update.
 ; Also the readme.org, which should be greatly simplified.
+; 07-26-2022 mwauth.txt and tooltip.py are not used: CD -> D
+;  similarly for transcoder under mwauth
 mw:pywork/mwauth/readme.org:CD
-mw:pywork/mwauth/mwauth.txt:CD
+mw:pywork/mwauth/mwauthtooltips.sql:CD
 mw:pywork/mwauth/redo.sh:CD
+mw:pywork/mwauth/tooltip.txt:CD
 ; tooltip.py could be greatly simplified: lots of currently unused code
 ; tooltip.py not python3
-mw:pywork/mwauth/tooltip.py:CD
+mw:pywork/mwauth/mwauth.txt:D
+mw:pywork/mwauth/tooltip.py:D
 ; transcoder.py does NOT work with Python3
-mw:pywork/transcoder.py:CD
-mw:pywork/mwauth/transcoder/slp1_roman.xml:CD
-mw:pywork/mwauth/mwauthtooltips.sql:CD
+mw:pywork/transcoder.py:D
+mw:pywork/mwauth/transcoder/slp1_roman.xml:D
 ; --------------------------------------------------------------
 ; -- literary sources: pw pwg pwkvn
 ; --------------------------------------------------------------
