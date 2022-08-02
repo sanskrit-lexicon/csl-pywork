@@ -54,6 +54,7 @@
 01:47	Bādar.	Bādarāyaṇa's Brahma-sūtra	Title
 01:47x	Bād.	Bādarāyaṇa's Brahma-sūtra	Title
 01:48	Bādar. Gov.	Govindānanda's Bhāṣyaratnaprabhā on Bādarāyaṇa's Brahma-sūtras	Title
+01:49	Bādar., Sch.	Śaṃkara's Śārīraka-mīmāṃsā on Bādarāyaṇa's Brahma-sūtras	Title
 01:50	Bālar.	Bālarāmāyaṇa	Title
 01:50x	Bāl.	Bālarāmāyaṇa	Title
 01:51	Baudh.	Baudhāyana-dharma-śāstra	Title
@@ -88,6 +89,7 @@
 02:19	Brahmas.	Brahmasiddhānta	Title
 02:20	BrahmUp.	Brahma-upaniṣad	Title
 02:21	BrahmavP.	Brahmavaivarta-purāṇa	Title
+02:41	Damayantī-kathā	A poem, also called Nalacampū	Title
 02:23	BrahmôttKh.	Brahmottara-khaṇḍa, from the Skanda-purāṇa	subtitle
 02:24	BṛĀrUp.	Bṛhad-āraṇyaka-upaniṣad	Title
 02:25	Bṛh.	Bṛhad-devatā	Title
@@ -162,6 +164,7 @@
 03:20x	GS.	Gṛhya-sūtra	Literary category
 03:20	Gṛhyās.	Gṛhyāsaṃgraha	Title
 03:21	Hāl.	Hāla	Author
+03:22	HaṃsUp.	Haṃsa-upaniṣad	Title
 03:23	Harav.	Haravijaya	Title
 03:23x	Haravij.	Haravijaya	Title
 03:24	Hār.	Hārīta	Author
@@ -213,6 +216,7 @@
 03:63	KapS.	Kapila'sSāṃkhya-pravacana	Title
 04:01	Kapiṣṭh.	Kapiṣṭhala-saṃhitā	Title
 04:02	Kāraṇḍ.	Kāraṇḍa-vyūha	Title
+04:03	Kāraṇḍ.²	metrical recension of the text Kāraṇḍa-vyūha	Title
 04:04	Karmapr.	Karmapradīpa	Title
 04:05	Kāś.	Kāśikā-vṛtti	Title
 04:06	KāśīKh.	Kāśī khaṇḍa, from the Skanda-purāṇa	subtitle
@@ -269,8 +273,14 @@
 04:56x	ML.	Macdonell's dictionary, etc.	Title
 04:57	Madanav.	Madanavinoda	Title
 04:58	Madhus.	Madhusūdana	Author
+04:58a	MBh. (ed. Bomb.)	Mahābhārata, Bombay edition	Title
+04:58b	MBh. (B.)	Mahābhārata, Bombay edition	Title
+04:58c	MBh. ed. Bombay	Mahābhārata, Bombay edition	Title
+04:58d	MBh. (ed. Bombay)	Mahābhārata, Bombay edition	Title
+04:58e	MBh. (ed. Calc.)	Mahābhārata, Calcutta edition	Title
+04:58f	MBh. [ed. Bomb.]	Mahābhārata, Bombay edition	Title
+04:58g	MBh. [B.]	Mahābhārata, Bombay edition	Title
 04:60	MBh.	Mahābhārata	Title
-04:60x	Mbh.	Mahābhārata	Title
 04:62	Mahān.	Mahānāṭaka	Title
 04:63	Mcar.	Mahāvīra-caritra	Title
 05:01	Mahīdh.	Mahīdhara	Author
@@ -284,8 +294,8 @@
 05:08	Mall.	Mallinātha	Author
 05:08x	Mallin.	Mallinātha	Author
 05:09	MānGṛ.	Mānava-gṛhya-sūtra	Title
-05:09x	MānGṛS.	Mānava-gṛhya-sūtra	Title
-05:09y	MānGṛŚrS.	Mānava-gṛhya-sūtra	Title
+05:09x	MānGṛS.	Mānava-gṛhya-sūtra [Cologne Addition]	Title
+05:09y	MānGṛŚrS.	Mānava-gṛhya-sūtra [Cologne Addition]	Title
 05:10	MānŚr.	Mānava-śrauta-sūtra	Title
 05:12	MāṇḍŚ.	Māṇḍūkī-śikṣā	Title
 05:13	MāṇḍUp.	Māṇḍūkya-upaniṣad, 12 Mantras	Title
@@ -323,6 +333,7 @@
 05:45	Nāṭyaś.	Nāṭyaśāstra	Title
 05:46	NBD.	Böhtlingk's Sanskrit-Wörterbuch in kürzerer fassung	Title
 05:47	Nid.	Mādhava-nidāna	Title
+05:48	Nid., Sch.	Nidāna, Sch. i.e. Vācaspati's Comm.	Title
 05:49	Nidānas.	Nidāna-sūtra	Title
 05:50	Npr.	Nighaṇṭuprakāśa	Title
 05:50x	Nigh.	Nighaṇṭuprakāśa	Title
@@ -341,6 +352,7 @@
 06:02	PadmaP.	Padma-purāṇa	Title
 06:03	Padyas.	Padyasaṃgraha	Title
 06:04	Pañcad.	Pañcadaṇḍacchattra-prabandha	Title
+06:06	Pañcadaśī	see Bhāratītīrtha's Pañcadaśī	Title
 06:07	Pañcar.	Pañcarātra	Title
 06:08	Pañcat.	Pañcatantra	Title
 06:08x	Pañc.	Pañcatantra	Title
@@ -351,6 +363,7 @@
 06:13	Parāś.	Parāśara-smṛti	Title
 06:14	PārGṛ.	Pāraskara-gṛhya-sūtra	Title
 06:14x	PārGṛS.	Pāraskara-gṛhya-sūtra	Title
+06:15	Paraśurāma-prakāśa	Paraśurāma-prakāśa	Title
 06:16	Paribh.	Paribhāṣendu-śekhara	Title
 06:17	Pārśvan.	Pārśvanātha-caritra	Title
 06:18	Pārvat.	Pārvatī-pariṇaya	Title
@@ -361,6 +374,7 @@
 06:24	Prab.	Prabodha-candrodaya	Title
 06:24x	Prabh.	Prabodha-candrodaya	Title
 06:25	Pracaṇḍ.	Pracaṇḍa-pāṇḍava	Title
+06:26	Pradyumna-vijaya	Pradyumna-vijaya	Title
 06:30	Prasaṅg.	Prasaṅgābharaṇa	Title
 06:30x	Prasaṅgâbh.	Prasaṅgābharaṇa	Title
 06:31	Prasannar.	Prasannarāghava	Title
@@ -386,7 +400,9 @@
 07:01	Rāghav.	Rāghavapāṇḍavīya	Title
 07:01x	Rāgh.	Rāghavapāṇḍavīya	Title
 07:02	Ragh.	Raghuvaṃśa	Title
+07:02a	Ragh. (C)	Raghuvaṃśa, Calcutta edition [Cologne Addition]	Title
 07:03	Rājat.	Rājataraṃgiṇī	Title
+07:03a	Rājat. (C)	Rājataraṃgiṇī, Calcutta edition [Cologne Addition]	Title
 07:03x	Rāj.	Rājataraṃgiṇī	Title
 07:04	Rāmag.	Rāmagītā	Title
 07:05	Rāmapūjās.	Rāmapūjāsaraṇi	Title
@@ -464,7 +480,9 @@
 08:26	Śikṣ.	Śikṣā	Literary category
 08:27	Śikṣāp.	Śikṣāpattrī	Title
 08:28	Śīl.	Śīlāṅka	Author
-08:29	Siṉhâs.	Siṃhāsana-dvātriṃśikā or Vikramāditya-caritra, Jaina recension	Title
+08:29	Siṃhās.	Siṃhāsana-dvātriṃśikā or Vikramāditya-caritra, Jaina recension	Title
+08:30	Siṃhās.²	Siṃhāsana-dvātriṃśikā, metrical recension of the Ind. Off., E.I.H. 2897	Title
+08:31	Siṃhās.³	Siṃhāsana-dvātriṃśikā, recension of the Ind. Off., E.I.H. 2523	Title
 08:32	ŚiraUp.	Śira-upaniṣad	Title
 08:33	Śiś.	Śiśupāla-vadha	Title
 08:34	Śivag.	Śivagītā, ascribed to the Padma-purāṇa	subtitle
@@ -520,9 +538,11 @@
 09:32	Tithyād.	Tithyāditya	Title
 09:33	Ṭoḍar.	Ṭoḍarānanda	Title
 09:34	Uṇk.	Uṇādikalpa	Title
+09:35	Uṇ., Sch.	Uṇādi-sūtra, Scholiast, i.e. Ujjvaladatta	Author
 09:36	Uṇ.	Uṇādi-sūtra	Title
 09:37	Uṇvṛ.	Uṇādi-vṛtti	Title
 09:38	Up.	Upaniṣad	Literary category
+09:39	Upapurāṇa	a minor Purāṇa	Literary category
 09:40	UtkalaKh.	Utkala khaṇḍa	subtitle
 09:41	Uttamac.	Uttamacaritra-kathānaka, prose version	Title
 09:43	Uttarar.	Uttararāma-caritra	Title
@@ -571,11 +591,11 @@
 10:30	Viśvan.	ViśvanāthaDaivajña	Author
 10:31	Vop.	Vopadeva	Author
 10:32	Vṛṣabhān.	Vṛṣabhānujā-nāṭikā, by Mathurā-dāsa	Title
-10:32X	Vṛṣabhân.	Vṛṣabhānujā-nāṭikā, by Mathurā-dāsa	Title
 10:32x	Vṛṣabh.	Vṛṣabhānujā-nāṭikā, by Mathurā-dāsa	Title
 10:33	Vyavahārat.	Vyavahāratattva	Title
-10:34	W.	Horace H. Wilson	Author
+10:34	W.	Horace H. Wilson, author of first Sanskrit-English dictionary in 1819	Author
 10:35	Yājñ.	Yājñavalkya	Author
+10:36	Yājñ., Sch.	Vijñāneśvara's Mitākṣarā, commentary on Yājñavalkya's Dharma-śāstra	Title
 10:37	YogaśUp.	Yogaśikhā-upaniṣad	Title
 10:37x	ŚikhUp.	Yogaśikhā-upaniṣad	Title
 10:38	Yogas.	Yoga-sūtra	Title
@@ -615,24 +635,24 @@
 11:31	Mahāvy.	Mahā-vyutpatti [Cologne Addition]	Title
 11:32	SV.Pariś.	SomaVeda.Pariśiṣṭa [Cologne Addition]	Title
 11:33	Āśv.	Āśvalāyana [Cologne Addition]	Author
-11:34	DrāhyŚr.	NONE	Title
-11:35	Mit.	NONE	Title
-11:36	Ratnak.	NONE	Title
-11:37	Śaṃkaracetov.	NONE	Title
-11:38	Śrāddhac.	NONE	Title
-11:39	Śūdradh.	NONE	Title
-11:40	SaṃnyUp.	Saṃnyāsopaniṣad	Title
-11:41	TAnukr.	NONE	Title
+11:34	DrāhyŚr.	Drāhyāyana Śrautasūtra [Cologne Addition]	Title
+11:35	Mit.	Mitākṣarā [Cologne Addition]	Title
+11:36	Ratnak.	Ratnakoṣa [Cologne Addition]	Title
+11:37	Śaṃkaracetov.	Śaṅkaracetovilāsacampū [Cologne Addition]	Title
+11:38	Śrāddhac.	Śrāddhacintāmaṇi [Cologne Addition]	Title
+11:39	Śūdradh.	Śūdradharma [Cologne Addition]	Title
+11:40	SaṃnyUp.	Saṃnyāsopaniṣad [Cologne Addition]	Title
+11:41	TAnukr.	TaittirīyaAnukramaṇikā [Cologne Addition]	Title
 11:42	TaṇḍināmUp.	NONE	Title
 11:43	TśUp.	NONE	Title
-11:44	Udbh.	NONE	Author
+11:44	Udbh.	Udbhaṭa (Kāvyālaṅkārasārasaṅgraha) [Cologne Addition]	Author
 11:45	Upal.	Upalekha , name of a grammatical work connected with the prātiśākhyas [Cologne Addition]	Literary category
 11:46	V.	Vārāhas	Literary category
-11:47	Vākyap.	NONE	Title
-11:48	Vaidyajīv.	NONE	Title
-11:48x	Vaidyaj.	NONE	Title
+11:47	Vākyap.	 Vākyapadīya, a grammatical treatise (by Bhartṛhari) [Cologne Addition]	Title
+11:48	Vaidyajīv.	Vaidyajīvana (of Lolimbarāja) [Cologne Addition]	Title
+11:48x	Vaidyaj.	Vaidyajīvana (of Lolimbarāja) [Cologne Addition]	Title
 11:49	Vallabh.	NONE	Author
-11:50	Vidvanm.	NONE	Title
+11:50	Vidvanm.	Vidvanmodataraṅgiṇī [Cologne Addition]	Title
 11:51	YajurV.	Yajur-veda [Cologne Addition]	Literary category
 11:52	K.	Kielhorn [Cologne Addition]	Author
 11:53	Śāṇḍ.	Śāṇḍilya-bhaktisūtra [Cologne Addition]	Title
@@ -678,7 +698,7 @@
 12.42	Prav.	Pravarādhyāya [Cologne Addition]	Title
 12:45	Schlegel	Friedrich Schlegel [Cologne Addition]	Author
 12:46	VĀJ.	Vājasaneyi saṃhitā [Cologne Addition]	Author
-12:47	Vaidyakaparibh.	NONE	Title
+12:47	Vaidyakaparibh.	Vaidyakaparibhāṣā [Cologne Addition]	Title
 12:48	Weber	Albrecht Weber [Cologne Addition]	Author
 12:49	Whitney's Gr.	Whitney Sanskrit Grammar [Cologne Addition]	Title
 12:49a	Gr.	Whitney Sanskrit Grammar [Cologne Addition]	Title
@@ -721,7 +741,6 @@
 90.35	Gaṇ.	Gaṇaratnamahodadhi [Cologne Addition]	Title
 90.36	Govardh.	Govardhana Saptaśatī [Cologne Addition]	Title
 90.37	Halāy.	Halāyudha,  a commentator on Chandaḥsūtra (of Piṅgala) [Cologne Addition]	Author
-90.38	HaṉsUp.	Haṃsopaniṣad [Cologne Addition]	Title
 90.39	HPar.	Hemacandra's Pariśiṣṭaparvan [Cologne Addition]	Title
 90.40	HYogay.	Hemacandra’s Yogayātrā [Cologne Addition]	Title
 90.42	Jīvad.	Jīvadeva’s Gotrapravaranirṇaya [Cologne Addition]	Title
@@ -736,17 +755,16 @@
 90.52	KātyDh.	Kātyāyana Dharmasūtra [Cologne Addition]	Title
 90.54	Kṛṣṇaj.	Weber's Kṛṣṇajanma ?? [Cologne Addition]	Title
 90.56	Mahāv.	Mahāvīracaritam [Cologne Addition]	Title
-90.57	Medhāt.	Medhātithi, a commentator on Manusmṛti  [Cologne Addition]	Author
+90.57	Medhāt.	Medhātithi, a commentator on Manusmṛti [Cologne Addition]	Author
 90.58	MnGṛh.	Mānava Gṛhyasūtra [Cologne Addition]	Title
 90.59	Muhūrtam.	Muhūrtamārtāṇḍa [Cologne Addition]	Title
 90.60	Mādh.	Mādhavācārya (Gotrapravaranirṇaya) [Cologne Addition]	Title
 90.64	Nītir.	Nītiratna (Haeberlin’s Kāvyasaṃgraha) [Cologne Addition]	Title
-90.67	Par.	Unknown reference [Cologne Addition]	Title
 90.68	ĀśvGṛ.Pariś.	ĀśvalāyanaGṛhyasūtraPariśiṣṭa [Cologne Addition]	Title
 90.72	Pras.	Prasannarāghava [Cologne Addition]	Title
 90.74	Prauḍh.	Prauḍhamanorama [Cologne Addition]	Title
 90.75	Praśnôt.	Praśnottararatnamālā [Cologne Addition]	Title
-90.76	PS.	Unknown reference [Cologne Addition]	Title
+90.76	PS.	Paiṭhīnasi-Sūtra (in Paippalāda Saṃhitā) ? [Cologne Addition]	Title
 90.77	PurS.	Purāṇa-sarvasva [Cologne Addition]	Title
 90.79	Pār.	Pāraskara-gṛhya-sūtra [Cologne Addition]	Title
 90.80	Pārv.	Pārvatīpariṇayanāṭakam [Cologne Addition]	Title
@@ -754,7 +772,7 @@
 90.83	RLM.	Unknown reference [Cologne Addition]	Title
 90.85	Rājan.	Rājanighaṇṭu [Cologne Addition]	Title
 90.86	Rājyat.	Rājataraṃgiṇī ? [Cologne Addition]	Title
-90.87	RāmRās.	Unknown reference [Cologne Addition]	Title
+90.87	RāmRās.	RāmaRāsa(līlā) (in Bṛhatkośalakhaṇḍa) ? [Cologne Addition]	Title
 90.88	Saddh.	SaddharmaPuṇḍarīka [Cologne Addition]	Title
 90.90	Smṛtyarth.	Smṛtyarthasāgara [Cologne Addition]	Title
 90.91	Sud.	Sudarśanācārya, a commentator on Āpastamba Gṛhyasūtra [Cologne Addition]	Author
@@ -770,7 +788,7 @@
 91.04	VCāṇ.	Vṛddha Cāṇakya [Cologne Addition]	Title
 91.05	Vedântak.	Vedāntakārikā [Cologne Addition]	Title
 91.06	Vivād.	Vivādaratnākara [Cologne Addition]	Title
-91.07	Viśv.	Unknown reference [Cologne Addition]	Title
+91.07	Viśv.	Viśvāmitra gotra [Cologne Addition]	Title
 91.08	Vratar.	Vrataratnākara [Cologne Addition]	Title
 91.09	VYogay.	Varāhamihira's Yogayātrā [Cologne Addition]	Title
 91.10	Vṛttaratn.	Vṛttaratnākara [Cologne Addition]	Title
@@ -779,24 +797,23 @@
 91.13	ŚB.	Śatapatha-brāhmaṇa ? [Cologne Addition]	Title
 91.14	Śivarātrivr.	Śivarātrivratakathā [Cologne Addition]	Title
 91.15	Śrāddhat.	Śrāddhatattva (of Raghunandana) [Cologne Addition]	Title
-91.16	Śāntaś.	Unknown reference [Cologne Addition]	Title
 92.01	Wilson, Hindu Theatre	Select Specimens of the Theatre of the Hindus, H.H. Wilson [Cologne Addition]	Title
-92.03	ŚāntiP.	ŚāntiParva [Cologne Addition]	Title
+92.03	ŚāntiP.	ŚāntiParva (Mahābhārata, section xii) [Cologne Addition]	Title
 92.04	Kielhorn, Mahābhāṣya	Patañjali’s Mahābhāṣya (Kielhorn's ed.) [Cologne Addition]	Title
 92.05	Lassen, IA.	Lassen's Indische Alterthumskunde [Cologne Addition]	Title
 92.06	ChandS.	Chandaḥsūtra (of Piṅgala) [Cologne Addition]	Title
 92.07	Jyotirv.	Jyotirvidābharaṇa [Cologne Addition]	Title
 92.08	Gop.	Gopathabrāhmaṇa [Cologne Addition]	Title
 92.09	Śivak.	Śivakośa [Cologne Addition]	Title
-92.10	Nidān.	Nidānasthāna ? [Cologne Addition]	Title
+92.10	Nidān.	 Nidānasūtra, edition of Albrecht Weber (quoted in various issues of Indische Studien) [Cologne Addition]	Title
 92.11	BP.	BhāgavataPurāṇa [Cologne Addition]	Title
 92.13	VāsiṣṭhalP.	Vasishthalainga Upapurāṇa [Cologne Addition]	Title
 92.14	Vardhamānac	Vardhamānacaritam [Cologne Addition]	Title
-92.15	Sūtrakṛt.	Unknown reference [Cologne Addition]	Title
+92.15	Sūtrakṛt.	Sūtrakṛtāṅgavṛtti (of Śīlācārya) [Cologne Addition]	Title
 92.16	GārUp.	Gāruḍopaniṣad [Cologne Addition]	Title
 92.17	ŚulbPariś.	Śulbasūtra Pariśiṣṭa [Cologne Addition]	Title
 92.19	HanRāmUp.	Hanumadukta Ramopanishad [Cologne Addition]	Title
-92.20	Kath.	Kathāsartsāgara [Cologne Addition]	Title
+92.20	Kath.	Kathāsaritsāgara [Cologne Addition]	Title
 92.21	ĀpDh.	Āpastamba Dharmasūtra [Cologne Addition]	Title
 92.23	Manu.	Manusmṛti [Cologne Addition]	Title
 92.24	Ind. Ant.	Indian Antiquary [Cologne Addition]	Title
@@ -811,18 +828,43 @@
 93.07	Pat. (K.)	Patañjali’s Mahābhāṣya (Kielhorn's ed.) [Cologne Addition]	Title
 93.08	RV. AnuvAnukr.	RigVeda Anuvāka Anukāmaṇikā [Cologne Addition]	Title
 93.09	Uttamac.²	Uttamacaritra in about 700 verses [Cologne Addition]	Title
-93.10	R. (B.)	Rāmāyaṇa (Bombay ed.) [Cologne Addition]	Title
-93.12	R. [B.]	Rāmāyaṇa (Bombay ed.) [Cologne Addition]	Title
+93.10	R. (B.)	Rāmāyaṇa (Bombay edition) [Cologne Addition]	Title
+93.10a	R. (B)	Rāmāyaṇa (Bombay edition) [Cologne Addition]	Title
+93.11	R. (ed. Bomb.)	Rāmāyaṇa (Bombay edition) [Cologne Addition]	Title
+93.11a	R. ed. Bomb.	Rāmāyaṇa (Bombay edition) [Cologne Addition]	Title
+93.11b	R. B.	Rāmāyaṇa (Bombay edition) [Cologne Addition]	Title
+93.12	R. [B.]	Rāmāyaṇa (Bombay edition) [Cologne Addition]	Title
+93.12a	R. [B]	Rāmāyaṇa (Bombay edition) [Cologne Addition]	Title
 93.13	YajurV. Parīś.	YajurVeda Parīśiṣṭha [Cologne Addition]	Title
-93.14	R. G.	Rāmāyaṇa (Gorresio ed.) [Cologne Addition]	Title
+93.14	R. G.	Rāmāyaṇa (Gorresio edition) [Cologne Addition]	Title
+93.14a	R. ed. Gorresio	Rāmāyaṇa (Gorresio edition) [Cologne Addition]	Title
+93.14b	R. (G)	Rāmāyaṇa (Gorresio edition) [Cologne Addition]	Title
+93.14c	R. [G]	Rāmāyaṇa (Gorresio edition) [Cologne Addition]	Title
 93.15	AV. Paipp.	AtharvaVeda Saṃhitā Paippalāda-Recension [Cologne Addition]	Title
-93.16	Śak. (Chézy)	Śakuntalā (Chézy’s ed.) [Cologne Addition]	Title
-93.17	Pañc. B.	Pañcatantra, Bombay ed. [Cologne Addition]	Title
+93.16	Śak. (Chézy)	Śakuntalā (Chézy’s edition) [Cologne Addition]	Title
+93.17	Pañc. B.	Pañcatantra, Bombay edition [Cologne Addition]	Title
 93.18	SV.Anukr.	SāmaVeda Anukāmaṇikā [Cologne Addition]	Title
 93.19	ĀpastPray.	Āpastamba Prayoga [Cologne Addition]	Title
 93.20	AV., SBE.	AtharvaVeda, Sacred Books of the East series [Cologne Addition]	Title
 93.21	Muir's Sanskrit Texts	Muir's Original Sanskrit Texts (5 volumes) [Cologne Addition]	Title
 93.22	ĀpGṛh.	Āpastamba Gṛhyasūtra [Cologne Addition]	Title
-93.24	Anir.	Aniruddha, author of commentary on Sāṃkhyasūtra	Author
+93.24	Anir.	Aniruddha, author of commentary on Sāṃkhyasūtra [Cologne Addition]	Author
 93.23	Saṃgīta-darpaṇa	Saṃgītadarpaṇa, a treatise on Musicology [Cologne Addition]	Title
+93.30	Śukasaṃdeśa	Śukasaṃdeśa [Cologne Addition]	Title
+93.31	Boehtlingk's edition	Pāṇini's grammatik by Otto von Böhtlingk [Cologne Addition]	Title
+93.32	AgniP.	Agni-purāṇa [Cologne Addition]	Title
+93.33	Hariv. (Langlois' transl.)	Harivansa, ou Histoire de la Famille de Hari, by S. A. Langlois, 1834 [Cologne Addition]	Title
+93.34	R. ed. Bombay	Rāmāyaṇa (Bombay edition) [Cologne Addition]	Title
+93.35	BhP. (ed. Burnouf)	Bhāgavata-purāṇa, by Eugène Burnouf, 1844 [Cologne Addition]	Title
+93.36	Garga	Garga, the composer of Gargasaṃhitā [Cologne Addition]	Author
+93.37	Pañc. [B.]	Pañcatantra, Bombay edition [Cologne Addition]	Title
+93.37a	Pañc. (B)	Pañcatantra, Bombay edition [Cologne Addition]	Title
+93.38	BhP. (B.)	Bhāgavata-purāṇa, by Eugène Burnouf, 1844 [Cologne Addition]	Title
+93.38a	BhP. (B)	Bhāgavata-purāṇa, by Eugène Burnouf, 1844 [Cologne Addition]	Title
+93.39	Hunter's Gazetteer	The Imperial Gazetteer of India, by William Wilson Hunter, 1869-1881 [Cologne Addition]	Title
+93.40	Almagest	astronomical manual written about 150 CE by Ptolemy [Cologne Addition]	Title
+93.41	Khaṇḍa-praśasti	Khaṇḍapraśasti, name of a poem attributed to Hanūmat [Cologne Addition]	Title
+93.42	Māghamāhātmya	name of a chapter in the Padma-purāṇa [Cologne Addition]	subtitle
+93.43	Śivasūtra	ŚivaSūtra, the first 14 Sūtras of Pāṇini's grammar [Cologne Addition]	subtitle
+93.44	R. (ed. Gorr.)	Rāmāyaṇa (Gorresio edition) [Cologne Addition]	Title
 99.98	ib.	in the same place [Cologne Addition]	Title

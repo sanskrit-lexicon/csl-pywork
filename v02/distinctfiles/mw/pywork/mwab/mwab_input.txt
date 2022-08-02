@@ -7,7 +7,7 @@ above	<id>above</id> <disp>a reference to some preceeding word (not necessarily 
 abstr.	<id>abstr.</id> <disp>abstract</disp> <INFER/>
 acc.	<id>acc.</id> <disp>accusative case OR according</disp>
 Acc.	<id>Acc.</id> <disp>accusative case OR according</disp>  <INFER/>
-accord.	<id>accord.</id> <disp>according to</disp>
+accord.	<id>accord.</id> <disp>according (to)</disp>
 add.	<id>add.</id> <disp>additions</disp>
 adj.	<id>adj.</id> <disp>adjective (cf. mfn.)</disp>
 adv.	<id>adv.</id> <disp>adverb</disp>
@@ -188,6 +188,7 @@ mn.	<id>mn.</id> <disp>masculine or neuter</disp>   USED IN <lex>
 Mod.	<id>Mod.</id> <disp>modern</disp>
 MS.	<id>MS.</id> <disp>manuscript</disp>
 MSS.	<id>MSS.</id> <disp>manuscripts</disp>
+mystic.	<id>mystic.</id> <disp>mystical</disp>
 myth.	<id>myth.</id> <disp>mythology</disp>
 N.	<id>N.</id> <disp>Name (also = title or epithet)</disp>
 n.	<id>n.</id> <disp>neuter gender</disp>   USED IN <lex>
@@ -327,3 +328,59 @@ Theme	<id>Theme</id> <disp>Thema or base</disp>
 Thema	<id>Thema</id> <disp>Thema or base</disp>
 Transl.	<id>Transl.</id> <disp>translation</disp>
 Umbr.	<id>Umbr.</id> <disp>Umbrian</disp>
+N.W.	<id>N.W.</id> <disp>north-west</disp>
+S.E.	<id>S.E.</id> <disp>south-east</disp>
+S.W.	<id>S.W.</id> <disp>south-west</disp>
+N.E.	<id>N.E.</id> <disp>north-east</disp>
+S.	<id>S.</id> <disp>south</disp>
+Up.	<id>Up.</id> <disp>Upaniṣad</disp> <INFER/>
+pref.	<id>pref.</id> <disp>preface</disp>
+introd.	<id>introd.</id> <disp>Introduction</disp>
+imp.	<id>imp.</id> <disp>imperative</disp> <INFER/>
+Mr.	<id>Mr.</id> <disp>Mister</disp>
+St.	<id>St.</id> <disp>Saint</disp>
+absol.	<id>absol.</id> <disp>absolutive</disp>
+act.	<id>act.</id> <disp>active</disp>
+astr.	<id>astr.</id> <disp>astronomy</disp>
+caus.	<id>caus.</id> <disp>causal</disp>
+chs.	<id>chs.</id> <disp>chapters</disp>
+col.	<id>col.</id> <disp>column</disp>
+coll.	<id>coll.</id> <disp>collectively</disp>
+comps.	<id>comps.</id> <disp>compounds</disp>
+contr.	<id>contr.</id> <disp>contraction</disp>
+corr.	<id>corr.</id> <disp>corrected ?</disp>
+correl.	<id>correl.</id> <disp>correlative</disp>
+deriv.	<id>deriv.</id> <disp>derived</disp>
+etc.	<id>etc.</id> <disp>et cetera, and so on</disp>
+etymol.	<id>etymol.</id> <disp>etymology</disp>
+exc.	<id>exc.</id> <disp>except</disp>
+gr.	<id>gr.</id> <disp>grammar</disp>
+gramm.	<id>gramm.</id> <disp>grammar</disp>
+interrog.	<id>interrog.</id> <disp>interrogative</disp>
+lang.	<id>lang.</id> <disp>language</disp>
+latit.	<id>latit.</id> <disp>latitude</disp>
+lbs.	<id>lbs.</id> <disp>pounds</disp>
+metaph.	<id>metaph.</id> <disp>metaphorically</disp>
+metr.	<id>metr.</id> <disp>metronymic</disp>
+mus.	<id>mus.</id> <disp>music</disp>
+mythol.	<id>mythol.</id> <disp>mythology</disp>
+necess.	<id>necess.</id> <disp>necessitative</disp>
+neut.	<id>neut.</id> <disp>neuter</disp>
+nomin.	<id>nomin.</id> <disp>nominative</disp>
+num.	<id>num.</id> <disp>number</disp>
+obl.	<id>obl.</id> <disp>oblique</disp>
+onom.	<id>onom.</id> <disp>onomatopoetic</disp>
+onomatop.	<id>onomatop.</id> <disp>onomatopoetic</disp>
+ozs.	<id>ozs.</id> <disp>ounces</disp>
+patron.	<id>patron.</id> <disp>patronymic</disp>
+philos.	<id>philos.</id> <disp>philosophy</disp>
+plur.	<id>plur.</id> <disp>plural</disp>
+polit.	<id>polit.</id> <disp>politics</disp>
+prop.	<id>prop.</id> <disp>?</disp>
+pros.	<id>pros.</id> <disp>prosody</disp>
+rel.	<id>rel.</id> <disp>relative</disp>
+relat.	<id>relat.</id> <disp>relative</disp>
+relig.	<id>relig.</id> <disp>religion</disp>
+rhetor.	<id>rhetor.</id> <disp>rhetoric, rhetorical</disp>
+sacrif.	<id>sacrif.</id> <disp>sacrificial</disp>
+interr.	<id>interr.</id> <disp>interrogative</disp>
