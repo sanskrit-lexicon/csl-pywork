@@ -260,6 +260,7 @@ pronom.	<id>pronom.</id> <disp>pronominal</disp>
 propar.	<id>propar.</id> <disp>proparoxytone</disp>  <UNMARKED>
 proparox.	<id>proparox.</id> <disp>proparoxytone, or stress on third last syllable</disp>  <INFER/>
 Pruss.	<id>Pruss.</id> <disp>Prussian</disp>  <UNMARKED>
+quot.	<id>quot.</id> <disp>quotation</disp>
 q.v.	<id>q.v.</id> <disp>quod vide, which see</disp>
 qq.vv.	<id>qq.vv.</id> <disp>quod vide, which see</disp> <INFER/>
 qq.v.	<id>qq.v.</id> <disp>quod vide, which see</disp> <INFER/>
