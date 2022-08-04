@@ -643,15 +643,14 @@
 11:39	Śūdradh.	Śūdradharma [Cologne Addition]	Title
 11:40	SaṃnyUp.	Saṃnyāsopaniṣad [Cologne Addition]	Title
 11:41	TAnukr.	TaittirīyaAnukramaṇikā [Cologne Addition]	Title
-11:42	TaṇḍināmUp.	NONE	Title
-11:43	TśUp.	NONE	Title
+11:42	TāṇḍBr.	TāṇḍyaBrāhmaṇa [Cologne Addition]	Title
 11:44	Udbh.	Udbhaṭa (Kāvyālaṅkārasārasaṅgraha) [Cologne Addition]	Author
 11:45	Upal.	Upalekha , name of a grammatical work connected with the prātiśākhyas [Cologne Addition]	Literary category
 11:46	V.	Vārāhas	Literary category
 11:47	Vākyap.	 Vākyapadīya, a grammatical treatise (by Bhartṛhari) [Cologne Addition]	Title
 11:48	Vaidyajīv.	Vaidyajīvana (of Lolimbarāja) [Cologne Addition]	Title
 11:48x	Vaidyaj.	Vaidyajīvana (of Lolimbarāja) [Cologne Addition]	Title
-11:49	Vallabh.	NONE	Author
+11:49	Vallabh.	Vallabhadeva's Subhāshitāvali [Cologne Addition]	Title
 11:50	Vidvanm.	Vidvanmodataraṅgiṇī [Cologne Addition]	Title
 11:51	YajurV.	Yajur-veda [Cologne Addition]	Literary category
 11:52	K.	Kielhorn [Cologne Addition]	Author
@@ -678,8 +677,8 @@
 12:18	Aufrecht	Theodor Aufrecht [Cologne Addition]	Author
 12:19	Bühler	Georg Bühler [Cologne Addition]	Author
 12:20	Böhtl.	Otto von Böhtlingk [Cologne Addition]	Author
-12:21	Beames	? [Cologne Addition]	Author
-12:22	Hunter	? [Cologne Addition]	Author
+12:21	Beames	John Beames (1837-1902), English civil servant and linguistics scholar [Cologne Addition]	Author
+12:22	Hunter	William Wilson Hunter (1840-1900)  [Cologne Addition]	Author
 12:24	Bloomfield	Maurice Bloomfield [Cologne Addition]	Author
 12:27	Buddhac.	Buddhacarita [Cologne Addition]	Author
 12:28	Burnouf	Eugène Burnouf [Cologne Addition]	Author
@@ -753,7 +752,7 @@
 90.50	KālikāP.	KālikāPurāṇa [Cologne Addition]	Title
 90.51	Kāp.	Kapila’s Sāṅkhyasūtra [Cologne Addition]	Title
 90.52	KātyDh.	Kātyāyana Dharmasūtra [Cologne Addition]	Title
-90.54	Kṛṣṇaj.	Weber's Kṛṣṇajanma ?? [Cologne Addition]	Title
+90.54	Kṛṣṇaj.	Über die Kṛishṇajanmâshṭamî (Kṛishṇa's Geburtsfest), 1867, by Albrecht Weber (English translation: 1874) [Cologne Addition]	Title
 90.56	Mahāv.	Mahāvīracaritam [Cologne Addition]	Title
 90.57	Medhāt.	Medhātithi, a commentator on Manusmṛti [Cologne Addition]	Author
 90.58	MnGṛh.	Mānava Gṛhyasūtra [Cologne Addition]	Title
@@ -769,7 +768,7 @@
 90.79	Pār.	Pāraskara-gṛhya-sūtra [Cologne Addition]	Title
 90.80	Pārv.	Pārvatīpariṇayanāṭakam [Cologne Addition]	Title
 90.82	Ratim.	Ratimañjarī [Cologne Addition]	Title
-90.83	RLM.	Unknown reference [Cologne Addition]	Title
+90.83	RLM.	RājendraLālaMitra's Notices of Sanskrit MSS. ? [Cologne Addition]	Title
 90.85	Rājan.	Rājanighaṇṭu [Cologne Addition]	Title
 90.86	Rājyat.	Rājataraṃgiṇī ? [Cologne Addition]	Title
 90.87	RāmRās.	RāmaRāsa(līlā) (in Bṛhatkośalakhaṇḍa) ? [Cologne Addition]	Title
@@ -859,12 +858,13 @@
 93.36	Garga	Garga, the composer of Gargasaṃhitā [Cologne Addition]	Author
 93.37	Pañc. [B.]	Pañcatantra, Bombay edition [Cologne Addition]	Title
 93.37a	Pañc. (B)	Pañcatantra, Bombay edition [Cologne Addition]	Title
-93.38	BhP. (B.)	Bhāgavata-purāṇa, by Eugène Burnouf, 1844 [Cologne Addition]	Title
-93.38a	BhP. (B)	Bhāgavata-purāṇa, by Eugène Burnouf, 1844 [Cologne Addition]	Title
+93.38	BhP. (B.)	Bhāgavata-purāṇa, Bombay edition [Cologne Addition]	Title
+93.38a	BhP. (B)	Bhāgavata-purāṇa, Bombay edition [Cologne Addition]	Title
 93.39	Hunter's Gazetteer	The Imperial Gazetteer of India, by William Wilson Hunter, 1869-1881 [Cologne Addition]	Title
 93.40	Almagest	astronomical manual written about 150 CE by Ptolemy [Cologne Addition]	Title
 93.41	Khaṇḍa-praśasti	Khaṇḍapraśasti, name of a poem attributed to Hanūmat [Cologne Addition]	Title
 93.42	Māghamāhātmya	name of a chapter in the Padma-purāṇa [Cologne Addition]	subtitle
 93.43	Śivasūtra	ŚivaSūtra, the first 14 Sūtras of Pāṇini's grammar [Cologne Addition]	subtitle
 93.44	R. (ed. Gorr.)	Rāmāyaṇa (Gorresio edition) [Cologne Addition]	Title
+93.45	SkandaP. Rev.	SkandaPurāṇa Revākhaṇḍa [Cologne Addition]	Title
 99.98	ib.	in the same place [Cologne Addition]	Title
