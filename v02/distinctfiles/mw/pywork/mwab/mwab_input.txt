@@ -345,7 +345,6 @@ act.	<id>act.</id> <disp>active</disp>
 astr.	<id>astr.</id> <disp>astronomy</disp>
 caus.	<id>caus.</id> <disp>causal</disp>
 chs.	<id>chs.</id> <disp>chapters</disp>
-col.	<id>col.</id> <disp>column</disp>
 coll.	<id>coll.</id> <disp>collectively</disp>
 comps.	<id>comps.</id> <disp>compounds</disp>
 contr.	<id>contr.</id> <disp>contraction</disp>

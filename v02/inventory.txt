@@ -63,6 +63,7 @@ ben stc bur cae mw pw pwkvn pwg lan gra ap90:pywork/${dictlo}ab/${dictlo}ab_inpu
 ben stc bur cae mw pw pwkvn pwg lan gra ap90:pywork/${dictlo}ab/readme.txt:CD
 ben stc bur cae mw pw pwkvn pwg lan gra ap90:pywork/${dictlo}ab/redo.sh:CD
 ben stc bur cae mw pw pwkvn pwg lan gra ap90:pywork/${dictlo}ab/redo_${dictlo}ab.sh:CD
+mw:pywork/${dictlo}ab/check.py:CD
 ; --------------------------------------------------------------
 ; -- literary sources: MW
 ; --------------------------------------------------------------

@@ -5,7 +5,7 @@ ejf Nov 2, 2012
 Nov 6, 2017
 Modify mwab_input.txt manually.
 Then redo.sh  (remakes mwab.sqlite, and copies it to web/sqlite)
-
+Note (08-05-2022).  redo.sh runs check.py.
 
 Nov 6, 2017.
 in work directory:
