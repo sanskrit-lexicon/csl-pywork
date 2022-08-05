@@ -100,7 +100,7 @@
 02:30	Cāṇ.	Cāṇakya	Author
 02:31	Caṇḍ.	Caṇḍa-kauśika	Title
 02:31a	Caṇḍak.	Caṇḍa-kauśika	Title
-02:32	Car.	Caraka	Author
+02:32	Car.	Carakasaṃhitā 	Title
 02:33	Caraṇ.	Caraṇa-vyūha	Title
 02:33a	Caraṇavy.	Caraṇa-vyūha	Title
 02:34	Caurap.	Caurapañcāśikā	Title
@@ -718,7 +718,6 @@
 90.13	Bk.	Bhaṭṭikāvyam [Cologne Addition]	Title
 90.14	Burnell	Burnell's Catalogue ? [Cologne Addition]	Title
 90.15	Bālabodh.	Bālabodhanī] [Cologne Addition]	Title
-90.16	Bṛ.	Śatapatha-brāhmaṇa ? [Cologne Addition]	Title
 90.17	BṛhaddhP.	BṛhaddharmaPurāṇa [Cologne Addition]	Title
 90.18	Bṛhas.	Bṛhaspati (an ancient authority, often quoted in Dharmaśāstra treatises) [Cologne Addition]	Title
 90.19	Bṛhasp.	Bṛhaspati (an ancient authority, often quoted in Dharmaśāstra treatises) [Cologne Addition]	Title
@@ -726,7 +725,6 @@
 90.21	Caitany.	Caitanyacandrodaya ? [Cologne Addition]	Title
 90.22	Camp.	Campakaśreṣṭhikathānakam [Cologne Addition]	Title
 90.23	Caur.	Caurapañcāśikā [Cologne Addition]	Title
-90.24	Cār.	(possibly) Caraka [The context indicates that a work related to some herb, so some medical treatise is intended.] [Cologne Addition]	Title
 90.25	Damayantīk.	Damayantī-kathā, Nalacampū [Cologne Addition]	Title
 90.26	DharmaP.	DharmaPurāṇa [Cologne Addition]	Title
 90.27	Dhāyabh.	Dāyabhāga [Cologne Addition]	Title
