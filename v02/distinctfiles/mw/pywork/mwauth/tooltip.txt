@@ -643,7 +643,6 @@
 11:39	Śūdradh.	Śūdradharma [Cologne Addition]	Title
 11:40	SaṃnyUp.	Saṃnyāsopaniṣad [Cologne Addition]	Title
 11:41	TAnukr.	TaittirīyaAnukramaṇikā [Cologne Addition]	Title
-11:42	TāṇḍBr.	TāṇḍyaBrāhmaṇa [Cologne Addition]	Title
 11:44	Udbh.	Udbhaṭa (Kāvyālaṅkārasārasaṅgraha) [Cologne Addition]	Author
 11:45	Upal.	Upalekha , name of a grammatical work connected with the prātiśākhyas [Cologne Addition]	Literary category
 11:46	V.	Vārāhas	Literary category
@@ -858,7 +857,6 @@
 93.36	Garga	Garga, the composer of Gargasaṃhitā [Cologne Addition]	Author
 93.37	Pañc. [B.]	Pañcatantra, Bombay edition [Cologne Addition]	Title
 93.37a	Pañc. (B)	Pañcatantra, Bombay edition [Cologne Addition]	Title
-93.38	BhP. (B.)	Bhāgavata-purāṇa, Bombay edition [Cologne Addition]	Title
 93.38a	BhP. (B)	Bhāgavata-purāṇa, Bombay edition [Cologne Addition]	Title
 93.39	Hunter's Gazetteer	The Imperial Gazetteer of India, by William Wilson Hunter, 1869-1881 [Cologne Addition]	Title
 93.40	Almagest	astronomical manual written about 150 CE by Ptolemy [Cologne Addition]	Title
