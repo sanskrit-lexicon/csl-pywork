@@ -116,6 +116,7 @@ pwg requires also is
 <!ATTLIST info lexcat CDATA #IMPLIED >
 <!ATTLIST info or CDATA #IMPLIED >
 <!ATTLIST info orsl CDATA #IMPLIED >
+<!ATTLIST info orwr CDATA #IMPLIED >
 <!ATTLIST info phwchild CDATA #IMPLIED >
 <!ATTLIST info phwparent CDATA #IMPLIED >
 <!ATTLIST info verb (root|genuineroot|pre|gati|nom) #IMPLIED >
