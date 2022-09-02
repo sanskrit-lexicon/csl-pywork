@@ -765,7 +765,7 @@
 90.79	Pār.	Pāraskara-gṛhya-sūtra [Cologne Addition]	Title
 90.80	Pārv.	Pārvatīpariṇayanāṭakam [Cologne Addition]	Title
 90.82	Ratim.	Ratimañjarī [Cologne Addition]	Title
-90.83	RLM.	RājendraLālaMitra's Notices of Sanskrit MSS. ? [Cologne Addition]	Title
+90.83	RLM.	The Lalita-vistara: Memoirs of the Early Life of Sakya Sinha, 1877, by RājendraLālaMitra [Cologne Addition]	Title
 90.85	Rājan.	Rājanighaṇṭu [Cologne Addition]	Title
 90.86	Rājyat.	Rājataraṃgiṇī ? [Cologne Addition]	Title
 90.87	RāmRās.	RāmaRāsa(līlā) (in Bṛhatkośalakhaṇḍa) ? [Cologne Addition]	Title
