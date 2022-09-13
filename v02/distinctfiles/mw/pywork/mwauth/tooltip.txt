@@ -101,6 +101,7 @@
 02:31	Caṇḍ.	Caṇḍa-kauśika	Title
 02:31a	Caṇḍak.	Caṇḍa-kauśika	Title
 02:32	Car.	Carakasaṃhitā 	Title
+02:32a	Caraka	Carakasaṃhitā 	Title
 02:33	Caraṇ.	Caraṇa-vyūha	Title
 02:33a	Caraṇavy.	Caraṇa-vyūha	Title
 02:34	Caurap.	Caurapañcāśikā	Title
