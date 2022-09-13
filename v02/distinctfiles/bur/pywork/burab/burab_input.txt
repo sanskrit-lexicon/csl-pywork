@@ -27,6 +27,7 @@ c.-à-d.	<id>c.-à-d.</id> <disp>c’est-à-dire</disp>
 c.	<id>c.</id> <disp>causatif</disp>
 cf.	<id>cf.</id> <disp>comparez; confer</disp>
 Cf.	<id>Cf.</id> <disp>Comparez; Confer</disp>
+ch.	<id>ch.</id> <disp>chose</disp>
 Cl.	<id>Cl.</id> <disp>classe</disp>
 cl.	<id>cl.</id> <disp>classe</disp>
 comp.	<id>comp.</id> <disp>comparatif</disp>
@@ -96,6 +97,7 @@ M§	<id>M§</id> <disp>voir notre Méthode sanscrite, paragraphe</disp>
 M§§	<id>M§§</id> <disp>voir notre Méthode sanscrite, paragraphes</disp>
 n.	<id>n.</id> <disp>neutre</disp>
 N.	<id>N.</id> <disp>Neutre</disp>
+N.-O.	<id>N.-O.</id> <disp>Nord-Ouest</disp>
 neg.	<id>neg.</id> <disp>negatif</disp>
 np.	<id>np.</id> <disp>nom propre</disp>
 Np.	<id>Np.</id> <disp>Nom propre</disp>
