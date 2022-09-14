@@ -16,6 +16,7 @@ conj.	<id>conj.</id> <disp>conjonction</disp>
 dat.	<id>dat.</id> <disp>datif</disp>
 dén.	<id>dén.</id> <disp>dénominatif</disp>
 dés.	<id>dés.</id> <disp>désidératif</disp>
+désign.	<id>désign.</id> <disp>désignation</disp>
 dim.	<id>dim.</id> <disp>diminutif</disp>
 dimin.	<id>dimin.</id> <disp>diminutif</disp>
 du.	<id>du.</id> <disp>duel</disp>
