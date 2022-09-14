@@ -351,11 +351,19 @@ def dig_to_xml_specific(x):
  x = re.sub(r'{([0-9]+)}', r'<div n="1"/> \1',x)
  #remaining -- to mdash
  # x = x.replace('--',u'— ') remove 05-24-2021
- x = x.replace('--',u' ') # 05-24-2021
+ # x = x.replace('--',u' ') # 05-24-2021
+ # 09-14-2022. Ref https://github.com/sanskrit-lexicon/csl-orig/issues/892
+ #x = re.sub(r'<b>--([0-9])',r'<b>\1',x) # remove -- before numbers in bold
+ x = x.replace('<b>--','<b>')
+ #x = re.sub(r'<b>--',r'<b>',x) # remove -- before numbers in bold
+ x = x.replace('--',u'-') # replace remaining -- by -.
  # 05-24-2021. # remove double mdashes.  This is awkward.
  #x = x.replace('— —','— ')
  # 05-24-2021  Change way [Page] handled
- x = re.sub(r'\[Page(.*?)[+].*?\]',r'(<ab n="Page \1">pb</ab>) ',x)
+ #x = re.sub(r'\[Page(.*?)[+].*?\]',r'(<ab n="Page \1">pb</ab>) ',x)
+ # 09-14-2022  Here is another way to handle [Pagexx]: add '<br/>
+ x = re.sub(r'\[Page(.*?)[+].*?\]',r'<br/>(<ab n="Page \1">pb</ab>) ',x)
+ 
  return x
 %endif
 %if dictlo == 'bur':
