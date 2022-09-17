@@ -97,13 +97,16 @@ M§	<id>M§</id> <disp>voir notre Méthode sanscrite, paragraphe</disp>
 M§§	<id>M§§</id> <disp>voir notre Méthode sanscrite, paragraphes</disp>
 n.	<id>n.</id> <disp>neutre</disp>
 N.	<id>N.</id> <disp>Neutre</disp>
-N.-O.	<id>N.-O.</id> <disp>Nord-Ouest</disp>
+N.-O.	<id>N.-O.</id> <disp>nord-ouest</disp>
 neg.	<id>neg.</id> <disp>negatif</disp>
 np.	<id>np.</id> <disp>nom propre</disp>
 Np.	<id>Np.</id> <disp>Nom propre</disp>
 o.	<id>o.</id> <disp>optatif</disp>
 oppos.	<id>oppos.</id> <disp>opposition</disp>
 ordint.	<id>ordint.</id> <disp>ordinairement</disp>
+orth.	<id>orth.</id> <disp>orthographe</disp>
+orthog.	<id>orthog.</id> <disp>orthographe</disp>
+orthogr.	<id>orthogr.</id> <disp>orthographe</disp>
 p.	<id>p.</id> <disp>parfait</disp>
 part.	<id>part.</id> <disp>particule</disp>
 ps.	<id>ps.</id> <disp>passif</disp>
@@ -123,6 +126,7 @@ prép.	<id>prép.</id> <disp>préposition</disp>
 priv.	<id>priv.</id> <disp>privatif</disp>
 pron.	<id>pron.</id> <disp>pronom</disp>
 ppt.	<id>ppt.</id> <disp>proprement</disp>
+pers.	<id>pers.</id> <disp>personne</disp>
 1p.	<id>1p.</id> <disp>1er personne</disp>
 2p.	<id>2p.</id> <disp>2e personne, etc</disp>
 3p.	<id>3p.</id> <disp>3e personne, etc</disp>
