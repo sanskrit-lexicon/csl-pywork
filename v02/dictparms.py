@@ -239,5 +239,12 @@ alldictparms = {
   "dictname":u"Böhtlingk Sanskrit-Wörterbuch in kürzerer Fassung, Nachträge und Verbesserungen",
   "dictversion":"02",
  },
+"lrv": {
+  "dictup":"LRV",
+  "dictlo":"lrv",
+  "dictname":u"Vaidya Standard Sanskrit-English Dictionary",
+  "dictversion":"02",
+ },
+
 
 }
