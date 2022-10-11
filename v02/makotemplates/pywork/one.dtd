@@ -92,7 +92,7 @@ pwg requires also is
 <!ATTLIST div n (P | 2 | 3 | lb |pfx |1 | I | xe | xs |p|H|P1|HI|F|NI|m|o|4|v|E|Poem|Picture|lex|to|vp|Q) #IMPLIED>
 <!ATTLIST span style CDATA #IMPLIED>
 <!ATTLIST span class CDATA #IMPLIED>
-<!ATTLIST hwtype n (alt | sub | fem | n) #REQUIRED>
+<!ATTLIST hwtype n (alt | sub | fem | neu | n) #REQUIRED>
 <!ATTLIST hwtype ref CDATA #REQUIRED>
 <!ATTLIST lang n (greek | arabic | meter |slavic|russian|oldhebrew|Old-Church-Slavonic|Arabic|Hindustani|Persian|Turkish|hebrew|Avestan|Slavonic|Lettish) #REQUIRED>
 <!ATTLIST lang script (Arabic) #IMPLIED >

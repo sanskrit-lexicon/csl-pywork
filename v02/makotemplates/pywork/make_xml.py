@@ -562,7 +562,7 @@ def body_alt(bodylines,hwrec):
   insert an extra body line at the top.
  """
  hwtype = hwrec.type
- assert hwtype in ['alt','sub', 'fem'],"body_alt error: %s"%hwtype
+ assert hwtype in ['alt','sub', 'fem', 'neu'],"body_alt error: %s"%hwtype
  LP = hwrec.LP  # L-number of parent
  hwrecP = HW.Ldict[LP]
  key1P = hwrecP.k1
@@ -570,7 +570,8 @@ def body_alt(bodylines,hwrec):
  templates = {
   'alt':'<alt>%s is an alternate of %s.</alt>',
   'sub':'<alt>%s is a sub-headword of %s.</alt>',
-  'fem':'<alt>%s is feminine form of %s.</alt>'
+  'fem':'<alt>%s is feminine form of %s.</alt>',
+  'neu':'<alt>%s is neuter form of %s.</alt>',
  }
  if HW.Sanskrit:
   # prepare for conversion from slp1 to user choice
