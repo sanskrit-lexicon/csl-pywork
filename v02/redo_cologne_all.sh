@@ -37,3 +37,4 @@ sh generate_dict.sh yat  ../../YATScan/2020/
 sh generate_dict.sh lan  ../../LANScan/2020/
 sh generate_dict.sh armh  ../../ARMHScan/2020/
 sh generate_dict.sh pwkvn  ../../PWKVNScan/2020/
+sh generate_dict.sh lrv  ../../LRVScan/2022/
