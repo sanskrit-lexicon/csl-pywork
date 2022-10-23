@@ -1,6 +1,7 @@
 sh generate_dict.sh acc  ../../acc
 sh generate_dict.sh ae  ../../ae
 sh generate_dict.sh ap90  ../../ap90
+sh generate_dict.sh ap  ../../ap
 sh generate_dict.sh ben  ../../ben
 sh generate_dict.sh bhs  ../../bhs
 sh generate_dict.sh bop  ../../bop
@@ -18,6 +19,7 @@ sh generate_dict.sh md  ../../md
 sh generate_dict.sh mw  ../../mw
 sh generate_dict.sh mw72  ../../mw72
 sh generate_dict.sh mwe  ../../mwe
+sh generate_dict.sh pd  ../../pd
 sh generate_dict.sh pe  ../../pe
 sh generate_dict.sh pgn  ../../pgn
 sh generate_dict.sh pui  ../../pui
