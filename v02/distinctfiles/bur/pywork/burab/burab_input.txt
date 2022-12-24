@@ -11,8 +11,8 @@ A.	<id>A.</id> <disp>Adjectif</disp>
 adv.	<id>adv.</id> <disp>adverbe</disp>
 advt.	<id>advt.</id> <disp>adverbialement</disp>
 anat.	<id>anat.</id> <disp>anatomie</disp>
-angl.	<id>angl.</id> <disp>anglais (English)</disp>
-Angl.	<id>Angl.</id> <disp>anglais (English)</disp>
+angl.	<id>angl.</id> <disp>anglais</disp>
+Angl.	<id>Angl.</id> <disp>anglais</disp>
 a1.	<id>a1.</id> <disp>aoriste 1er</disp>
 a2.	<id>a2.</id> <disp>aoriste 2nd</disp>
 A2	<id>A2</id> <disp>aoriste 2nd</disp>
