@@ -159,4 +159,5 @@ Vd.	<id>Vd.</id> <disp>Véda, védique</disp>
 vd.	<id>vd.</id> <disp>védique</disp>
 v.	<id>v.</id> <disp>vocatif</disp>
 zd.	<id>zd.</id> <disp>zend</disp>
+Zd.	<id>Zd.</id> <disp>zend</disp>
 (?)	<id>(?)</id> <disp>douteux</disp> <info>no period</info>
