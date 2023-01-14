@@ -1,4 +1,4 @@
-1.001	ĀŚV. ŚR.	Āśv. Śr.	ĀŚV. ŚR. = ĀŚVALĀYANA'S ŚRAUTASŪTRĀṆI in 12 Adhyāya. Handschrift.
+R1.001	ĀŚV. ŚR.	Āśv. Śr.	ĀŚV. ŚR. = ĀŚVALĀYANA'S ŚRAUTASŪTRĀṆI in 12 Adhyāya. Handschrift.
 1.002	ĀŚV. GṚHY.	Āśv. Gṛhy.	ĀŚV. GṚHY. = ĀŚVALĀYANA'S GṚHYASŪTRĀṆI in 4 Adhyāya. Hdschr.
 1.002a	ĀŚV. GṚHY. PARIŚ.	Āśv. Gṛhy. Pariś.	ĀŚV. GṚHY. PARIŚ. = ? [Cologne addition]
 1.003	ADBH. BR.	Adbh. Br.	ADBH. BR. = ADBHUTABRĀHMAṆA.
@@ -12,7 +12,8 @@
 1.008	AIT. BR.	Ait. Br.	AIT. BR. = AITAREYABRĀHMAṆA. Citirt nach den 8 Pañcikā (einer&#13;&#10;äusseren Abtheilung, in welche die 40 nach sachlichen Rücksichten&#13;&#10;gebildeten Adhyāya zerlegt sind) und den innerhalb der Pañcikā&#13;&#10;durchlaufenden Kapitelzahlen. Hdschr. SĀYAṆA'S Commentar dazu.&#13;&#10;Hdschr.
 1.009	AIT. UP.	Ait. Up.	AIT. UP. = AITAREYOPANIṢAD, nach der Ausgabe von RÖER in der Bi-&#13;&#10;bliotheca indica.
 1.010	AK.	Ak.	AK. = AMARAKOṢA nach der Ausgabe von COLEBROOKE und LOISELEUR&#13;&#10;DESLONGCHAMPS (GILD. Bibl. 251. 253).
-1.010a	AK. ed. COLEBR.	Ak. ed. COLEBR.	AK. ed. COLEBR. = ? [Cologne Addition]
+1.010a	AK. ed. COLEBR.	Ak. ed. COLEBR.	AK. ed. COLEBR. = ? AMARAKOṢA nach der Ausgabe von COLEBROOKE [Cologne Addition]
+1.010b	COL.	Col. 	AMARAKOṢA nach der Ausgabe von COLEBROOKE [Cologne Addition]
 1.011	AMAR.	Amar.	AMAR. = AMARUŚATAKA nach der Calc. Ausg. (GILD. Bibl. 162).
 1.012	AMARAD.	Amarad.	AMARAD. = AMARADATTA.
 1.013	AMṚTAV. UP.	Amṛtav. Up.	AMṚTAV. UP. = AMṚTAVINDŪPANIṢAD.
@@ -22,6 +23,7 @@
 1.017	ANEKĀRTHADHV.	Anekārthadhv.	ANEKĀRTHADHV. = ANEKĀRTHADHVANIMAÑJARĪ, ein Wörterbuch; nach&#13;&#10;dem ŚKDR.
 1.019	ANNAṂBH.	Annaṃbh.	ANNAM̃BH. = ANNAM̃BHAṬṬA.
 1.020	ANUKR.	Anukr.	ANUKR. = ANUKRAMAṆIKĀ.
+1.020a	ANUKRAM.	Anukram.	ANUKRAMAṆIKĀ. [Cologne addition]
 1.021	ANUP. S.	Anup. S.	ANUP. S. = ANUPADASŪTRA.
 1.022	ĀPAST.	Āpast.	ĀPAST. = ĀPASTAMBA.
 1.023	ARJ.	Arj.	ARJ. = ARJUNASAMĀGAMA, ed. BOPP (GILD. Bibl. 106).
@@ -43,9 +45,12 @@
 1.032	BĀLAB.	Bālab.	BĀLAB. = BĀLABODHANĪ in WINDISCHMANN'S Sancara (GILD. Bibl. 275).
 1.033	BENF. Chr.	Benf. Chr.	BENF. Chr. = BENFEY' Chrestomathie aus Sanskritwerken. Leipzig. 1853.
 1.033a	BENFEY, Chr.	Benfey, Chr.	BENFEY, Chr. = BENFEY Chrestomathie aus Sanskritwerken. Leipzig. 1853.
-1.034	BENF. Gr.	Benf. Gr.	BENF. Gr. = BENFEY, Vollständige Grammatik der Sanskritsprache. Leip- zig 1852.
+1.034	BENF. Gr.	Benf. Gr.	BENF. Gr. = BENFEY, Vollständige Grammatik der Sanskritsprache. Leipzig 1852.
+1.034a	BENF. Vollst. Gr.	Benf. Vollst. Gr.	BENFEY, Vollständige Grammatik der Sanskritsprache. Leipzig 1852. [Cologne addition]
 1.035	BHAG.	Bhag.	BHAG. = BHAGAVADGĪTĀ, Ausg. von SCHLEGEL (GILD. Bibl. 116).
 1.036	BHĀG. P.	Bhāg. P.	BHĀG. P. = BHĀGAVATAPURĀṆA, nach Anführungen im VP. und ŚKDR.&#13;&#10;Von ऊ an sind die 9 von BURNOUF edirten Skandha (Gild. Bibl. 125)&#13;&#10;ausgebeutet worden.
+1.036a	BHĀG. P. ed. Bomb.	Bhāg. P. ed. Bomb.	BHĀG. P. ed. Bomb.= BHĀGAVATAPURĀṆA, Bombay edition ? [Cologne Addition]
+1.036b	BHĀG. P. ed. BURN.	Bhāg. P. ed. Burn.	BHĀG. P. ed. Bomb.= BHĀGAVATAPURĀṆA, Burnouf edition ? [Cologne Addition]
 1.037	BHĀNUD.	Bhānud.	BHĀNUD. = BHĀNUDĪKṢITA, ein Commentator des AMARAKOṢA; nach&#13;&#10;Anführungen im ŚKDR.
 1.038	BHAR.	Bhar.	BHAR. = BHARATA, ein Autor über Schauspielkunst, verschieden vom&#13;&#10;Scholiasten zum AK. (dieser nach Anführungen im ŚKDR.).
 1.039	BHARTṚ.	Bhartṛ.	BHARTṚ. = BHARTṚHARI, Ausg. von BOHLEN (GILD. Bibl. 156), mit Berück-&#13;&#10;sichtigung des Werkchens; Variae lectiones ad Bohlenii editionem&#13;&#10;Bhartriharis sententiarum pertinentes, e codicibus extractae per&#13;&#10;A. SCHIEFNER et A. WEBER. Berolini 1850.
@@ -58,7 +63,7 @@
 1.045	BRĀHMAṆ.	Brāhmaṇ.	BRĀHMAṆ. = BRĀHMAṆAVILĀPA in BOPP'S Ardschuna's Reise zu Indra's&#13;&#10;Himmel u. s. w. Berlin 1824.
 1.046	BRAHMĀṆḌA-P.	Brahmāṇḍa-P.	BRAHMĀṆḌA-P. = BRAHMĀṆḌAPURĀṆA.
 1.047	BRAHMA-P.	Brahma-P.	BRAHMA-P. = BRAHMAPURĀṆA in LASSEN'S Anthologie (GILD. Bibl. 48).
-1.047a	BRAHMA-P. in LA.	Brahma-P. in LA.	BRAHMA-P. in LA. = BRAHMAPURĀṆA in LASSEN'S Anthologie (GILD. Bibl. 48). [Cologne Addition]
+1.047a	BRAHMA-P. in LA.	Brahma-P. in LA.	BRAHMA-P. in LA. = BRAHMAPURĀṆA in LASSEN'S Anthologie (GILD. Bibl. 48). [dCologne Addition]
 1.048	BRAHMAV. P.	Brahmav. P.	BRAHMAV. P. = BRAHMAVAIVARTAPURĀṆA.
 1.049	BRAHMA-S.	Brahma-S.	*BRAHMA-S. = BRAHMASŪTRA, nach Anführungen in WIND. Sancara.
 1.050	BRAHMOP.	Brahmop.	BRAHMOP. = BRAHMOPANIṢAD.
@@ -68,8 +73,10 @@
 1.052	BṚH. ĀR. UP. (POL.)	Bṛh. Ār. Up. (Pol.)	BṚH, ĀR. UP. (POL.) = id., in der Ausgabe von POLEY (GILD. Bibl. 78).
 1.053	BṚHASP.	Bṛhasp.	BṚHASP. = BṚHASPATI, Verfasser eines Gesetzbuchs; nach Anführungen&#13;&#10;in MIT. und DĀY.
 1.054	BṚH. DEV.	Bṛh. Dev.	BṚH. DEV. = BṚHADDEVATĀ; S. R{%O%}TH, zur L. u. G. d. W. S. 49.
-1.055	Bull. hist.-phil.	Bull. Hist.-Phil.	Bull. hist.-phil. = Bulletin historico-philologique de l'Académie Im- périale des sciences de St.-Pétersbourg.
+1.055	Bull. hist.-phil.	Bull. Hist.-Phil.	 Bulletin historico-philologique de l'Académie Im- périale des sciences de St.-Pétersbourg.
+1.055a	Bullet. hist.-phil.	Bullet. Hist.-Phil.	Bulletin historico-philologique de l'Académie Im- périale des sciences de St.-Pétersbourg. [Cologne addition]
 1.056	BURN. Intr.	Burn. Intr.	BURN. Intr. = BURNOUF, Introduction à l'histoire du Buddhisme indien. Tome premier. Paris 1844.
+1.056a	BURNOUF Intr.	Burnouf. Intr.	BURNOUF, Introduction à l'histoire du Buddhisme indien. Tome premier. Paris 1844. [Cologne addition]
 1.057	BURN. Lot. de la b. l.	Burn. Lot. De La B. L.	BURN. Lot. de la b. l. = Le Lotus de la bonne loi, traduit du Sanscrit etc. par M. E. BURNOUF. Paris 1852.
 1.059	ŚABDAC.	Śabdac.	ŚABDAC. = ŚABDACANDRIKĀ, ein Wörterbuch; nach Anführungen im&#13;&#10;ŚKDR.
 1.060	ŚABDAM.	Śabdam.	ŚABDAM. = ŚABDAMĀLĀ, ein Wörterbuch; nach Anführungen im ŚKDR.
@@ -77,6 +84,8 @@
 1.062	ŚABDĀRṆ.	Śabdārṇ.	ŚABDĀRṆ. = ŚABDĀRṆAVA, ein Wörterbuch; nach Anführungen im ŚKDR.
 1.063	ŚĀK.	Śāk.	ŚĀK. = ŚĀKUNTALA, das Drama in der Ausgabe von BÖHTLINGK (GILD.&#13;&#10;Bibl. 191). Eine einfache Zahl bezeichnet den Śloka, eine doppelte&#13;&#10;-- Seite und Zeile.
 1.064	ŚĀK. CH.	Śāk. Ch.	ŚĀK. CH. = CHEZY'S Ausgabe des ŚĀKUNTALA (GILD. Bibl. 187).
+1.064a	ŚAKUNTALOPĀKHYĀNA (ed. CHEZY)	ŚAKUNTALOPĀKHYĀNA (ed. CHEZY)	ŚĀK. CH. = CHEZY'S Ausgabe des ŚĀKUNTALA (GILD. Bibl. 187). [Cologne addition]
+1.064b	ŚĀK. ed. CH.	Śāk. ed. Ch.	CHEZY'S Ausgabe des ŚĀKUNTALA (GILD. Bibl. 187).
 1.065	ŚAṂK.	Śaṃk.	ŚAṂK. oder ŚAṂKAR. = ŚAṂKARA (ein Scholiast des ŚĀKUNTALA) und ŚAM̃-&#13;&#10;KARĀCĀRYA.
 1.065a	ŚAṂKAR.	Śaṃkar.	ŚAṂK. oder ŚAṂKAR. = ŚAṂKARA (ein Scholiast des ŚĀKUNTALA) und ŚAM̃- KARĀCĀRYA.
 1.065b	ŚAṂKARA	Śaṃkara	ŚAṂKARA o= ŚAṂKARA (ein Scholiast des ŚĀKUNTALA) und ŚAM̃- KARĀCĀRYA.
@@ -130,7 +139,7 @@
 1.104	GARBHOP.	Garbhop.	GARBHOP. = GARBHOPANIṢAD.
 1.105	JAṬĀDH.	Jaṭādh.	JAṬĀDH. = JAṬĀDHARA, ein Lexicograph; nach Anführungen im CKDR.
 1.106	GAUḌAP.	Gauḍap.	*GAUḌAP. = GAUḌAPĀDA, ein Scholiast zu SĀM̃KHYAK.
-1.107	Gel. Anzz. d. k. b. Ak. d. Ww.	Gel. Anzz. D. K. B. Ak. D. Ww.	Gel. Anzz. d. k. b. Ak. d. Ww. = Gelehrte Anzeigen. Herausgegeben von Mitgliedern der k. bayer. Akademie der Wissenschaften. München.
+1.107	Gel. Anzz. d. k. b. Ak. d. Ww.	Gel. Anzz. D. K. B. Ak. D. Ww.	Gelehrte Anzeigen. Herausgegeben von Mitgliedern der k. bayer. Akademie der Wissenschaften. München.
 1.108	GHAṬ.	Ghaṭ.	GHAṬ. = GHAṬAKARPARA, ed. Calc. (GILD. Bibl. 162).
 1.109	GILD. Bibl.	Gild. Bibl.	GILD. Bibl. = Bibliothecae sanskritae sive recensus librorum sanskri- torum hucusque typis vel lapide exscriptorum critici specimen. Con- cinnavit YOANNES GILDEMEISTER. Bonnae ad Rhenum 1847.
 1.110	GĪT.	Gīt.	*GĪT. oder GĪTAG. = GĪTAGOVINDA, ed. LASSEN (GILD. Bibl. 168).
@@ -152,6 +161,9 @@
 1.124	HIḌ.	Hiḍ.	HIḌ. = HIḌIMBAVADHA in BOPP'S Ardschuna's Reise zu Indra's Himmel,&#13;&#10;nebst anderen Episoden des Maha-Bharata. Berlin 1824.
 1.125	Hindu Th. (WILSON)	Hindu Th. (Wilson)	Hindu Th. (WILSON) = Select specimens of the Theatre of the Hindus, translated from the original Sanscrit, by HORACE HAYMAN WILSON. Second edition. London 1835.
 1.125a	WILSON, Hindu Th.	Wilson, Hindu Th.	WILSON, Hindu Th. = Select specimens of the Theatre of the Hindus,&#13;&#10;translated from the original Sanscrit, by HORACE HAYMAN WILSON.&#13;&#10;Second edition. London 1835. [Cologne Addition]
+1.125b	WILSON Theatre of the Hindus	Wilson Theatre of the Hindus 	Select specimens of the Theatre of the Hindus,&#13;&#10;translated from the original Sanscrit, by HORACE HAYMAN WILSON.&#13;&#10;Second edition. London 1835. [Cologne Addition]
+1.125c	WILSON, Theatre of the Hindus	Wilson, Theatre of the Hindus 	Select specimens of the Theatre of the Hindus,&#13;&#10;translated from the original Sanscrit, by HORACE HAYMAN WILSON.&#13;&#10;Second edition. London 1835. [Cologne Addition]
+1.125d	WILSON, Sel. spec. of the Theatre of the Hindus	 Wilson, Sel. spec. of the Theatre of the Hindus	Select specimens of the Theatre of the Hindus,&#13;&#10;translated from the original Sanscrit, by HORACE HAYMAN WILSON.&#13;&#10;Second edition. London 1835. [Cologne Addition]
 1.126	HIOUEN-THSANG	Hiouen-Thsang	HIOUEN-THSANG = Histoire de la vie de HIOUEN-THSANG et de ses voya- ges dans l'Inde, traduite du Chinois par STANISLAS YULIEN. Paris 1853.
 1.127	HIT.	Hit.	HIT. = HITOPADEŚA, ed. SCHLEGEL und LASSEN (GILD. Bibl. 225). Eine&#13;&#10;darauf folgende römische Zahl bezeichnet das Buch, eine arabische&#13;&#10;--die Seite; die zweite Zahl bezeichnet dort den Śloka, hier die&#13;&#10;Zeile.
 1.128	HIT. Pr.	Hit. Pr.	HIT. Pr. = Prooemium im HIT.
@@ -159,9 +171,10 @@
 1.130	Hort. beng.	Hort. Beng.	Hort. beng. = Hortus bengalensis. Serampore 1814. 8vo, citirt nach HAUGHTON'S Wörterbuch.
 1.131	Hort. Calc	Hort. Calc	Hort. Calc. = Hortus suburbanus Calcuttensis. A Catalogue of the plants etc. By the late Y. O. VOIGT. Calcutta 1845. 8º.
 1.132	ĪŚOP.	Īśop.	ĪŚOP. = ĪŚOPANIṢAD in der Bibliotheca indica.
-1.133	Ind. des KANDYUR	Ind. Des Kandyur	*Ind. des KANDYUR = Index des KANDYUR. Herausgegeben von der Kai- serlichen Akademie der Wissenschaften und bevorwortet von I. Y. SCHMIDT. St. Petersburg 1845.
+1.133	Ind. des KANDYUR	Ind. Des Kandyur	Index des KANDYUR. Herausgegeben von der Kai- serlichen Akademie der Wissenschaften und bevorwortet von I. Y. SCHMIDT. St. Petersburg 1845.
 1.133a	Ind. des KANDYUR	Ind. Des Kandyur	Index des KANDYUR = ? [Cologne Addition]
 1.133b	KANDYUR	Kandyur	KANDYUR = ? [Cologne Addition]
+1.133c	Index des KANDYUR	Index Des Kandyur	Index des KANDYUR. Herausgegeben von der Kai- serlichen Akademie der Wissenschaften und bevorwortet von I. Y. SCHMIDT. St. Petersburg 1845.
 1.134	INDR.	Indr.	INDR. = INDRALOKĀGAMANA in BOPP'S Ardschuna's Reise zu Indra's Him-&#13;&#10;mel u. s. w.
 1.135	Ind. St.	Ind. St.	Ind. St. = WEBER'S Indische Studien.
 1.135a	WEBER, Ind. St.	Weber, Ind. St.	WEBER, Ind. St. = WEBER'S Indische Studien. [Cologne Addition]
@@ -218,18 +231,21 @@
 1.177	KŪRMA-P.	Kūrma-P.	KŪRMA-P. = KŪRMAPURĀṆA.
 1.178	KUVALAY.	Kuvalay.	KUVALAY. = KUVALAYĀNANDA (Rhetorik) von APYADĪKṢITA mit dem ALAM̃-&#13;&#10;KĀRACANDRIKĀ genannten Commentar des VAIDYANĀTHA. Pūna 1846.&#13;&#10;176 Bll. querfolio.
 1.179	LA.	La.	LA. = LASSEN'S Anthologie (GILD. Bibl. 48).
+1.179a	LA. (II.)	La. (II.)	LA. (II.) = ? LASSEN'S Anthologie (GILD. Bibl. 48).
 1.180	LAGHUJ.	Laghuj.	LAGHUJ. = VARĀHAMIHIRA'S LAGHUJĀTAKA.
 1.180a	LAGHUJĀT.	Laghujāt.	LAGHUJAT. = VARĀHAMIHIRA'S LAGHUJĀTAKA. [Cologne Addition]
 1.180b	VARĀH. LAGHUJ.	Varāh. Laghuj.	VARĀH. LAGHUJ. = VARĀHAMIHIRA'S LAGHUJĀTAKA. [Cologne Addition]
-1.181	LALIT.	Lalit.	LALIT. = RGYA TCH'ER ROL PA (LALITAVISTĀRA) ou Développement des&#13;&#10;yeux, traduit etc. par PH. ÉD. FOUCAUX. Deuxième partie--Traduc-&#13;&#10;tion franśaise. Paris 1848.
-1.182	LALIT. Calc	Lalit. Calc	*LALIT. Calc. = LALITAVISTARA in der Bibliotheca indica.
+1.181	LALIT.	Lalit.	LALIT. = RGYA TCH'ER ROL PA (LALITAVISTĀRA) ou Développement des&#13;&#10;yeux, traduit etc. par PH. ÉD. FOUCAUX. Deuxième partie--Traduc-&#13;&#10;tion franśaise. Paris 1848. ?
+1.182	LALIT. Calc	Lalit. Calc	LALIT. Calc. = LALITAVISTARA in der Bibliotheca indica.
 1.182a	LALIT. ed. Calc.	Lalit. ed. Calc.	LALITAVISTARA in der Bibliotheca indica.
+1.182b	LALIT. ed. FOUC.	Lalit. ed. FOUC.	LALITAVISTARA ?[Cologne Addition]
 1.183	LĀṬY.	Lāṭy.	LĀṬY. = LĀṬYĀYANA'S SŪTRA zum SV. Hdschr.
 1.184	Lebensb.	Lebensb.	Lebensb. (SCHIEFNER) = Eine tibetische Lebensbeschreibung Śākyamu- ni's, des Begründers des Buddhathums, im Auszuge mitgetheilt von A. SCHIEFNER, in Mémoires présentés à l'Académie Impériale des sciences de St.-Pétersbourg par divers savants. T. VI. Die in Klam- mern beigefügte Seitenzahl bezieht sich auf die Separatabdrücke.
 1.184a	Leb.	Leb.	Leb. (SCHIEFNER) = Eine tibetische Lebensbeschreibung Śākyamu- ni's, des Begründers des Buddhathums, im Auszuge mitgetheilt von A. SCHIEFNER, in Mémoires présentés à l'Académie Impériale des sciences de St.-Pétersbourg par divers savants. T. VI. Die in Klam- mern beigefügte Seitenzahl bezieht sich auf die Separatabdrücke. ? [Cologne Addition]
 1.184b	SCHIEFNER, Lebensb.	Schiefner, Lebensb.	SCHIEFNER, Lebensb. = ? [Cologne Addition]
 1.185	Lex. sanscr. tib.	Lex. Sanscr. Tib.	Lex. sanscr. tib. = VYUTP. (s. d.)
 1.186	LIA.	Lia.	LIA. = LASSEN'S Indische Alterthumskunde.
+1.186a	LIA.	Lia.	LIA. = LASSEN'S Indische Alterthumskunde.
 1.187	LIṄGA-P.	Liṅga-P.	LIṄGA-P. = LIṄGAPURĀṆA.
 1.188	Lit. (WEBER,)	Lit. (Weber,)	Lit. (WEBER,) = Akademische Vorlesungen über Indische Literatur- geschichte. Gehalten von A. WEBER. Berlin 1852.
 1.188a	WEBER. Lit.	Weber. Lit.	WEBER. Lit. = Akademische Vorlesungen über Indische Literatur- geschichte. Gehalten von A. WEBER. Berlin 1852. [Cologne Addition]
@@ -263,6 +279,7 @@
 1.210	MBH.	Mbh.	MBH. = MAHĀBHĀRATA, ed. Calc. (GILD. Bibl. 93). Von S. 521 des Wörter-&#13;&#10;buchs sind die drei ersten Bücher, von S. 601 auch die fünf letzten,&#13;&#10;von ऊ an auch das 13te Buch ausgebeutet worden.
 1.210a	MBH. ed. Calc.	Mbh. ed. Calc.	MAHĀBHĀRATA, Calcutta edition [Cologne Addition]
 1.211	MED.	Med.	MED. = MEDINĪKOṢA, ed. Calc. (GILD. Bibl. 258). Die Wörter sind zu-&#13;&#10;nächst nach dem letzten Consonanten im Worte angeordnet: also&#13;&#10;कान्त (k), खान्त (kh), गान्त (g) u. s. w. Die Partikeln (avyaya) bilden&#13;&#10;einen besondern Abschnitt am Ende, den wir durch avy. bezeichnet&#13;&#10;haben.
+1.211a	MED.	Med.	MED. = MEDINĪKOṢA, ed. Calc. (GILD. Bibl. 258). Die Wörter sind zu-&#13;&#10;nächst nach dem letzten Consonanten im Worte angeordnet: also&#13;&#10;कान्त (k), खान्त (kh), गान्त (g) u. s. w. Die Partikeln (avyaya) bilden&#13;&#10;einen besondern Abschnitt am Ende, den wir durch avy. bezeichnet&#13;&#10;haben.
 1.212	MEGH.	Megh.	MEGH. = MEGHADŪTA, ed. GILDEMEISTER (GILD. Bibl. 151).
 1.213	Mél. asiat.	Mél. Asiat.	Mél. asiat. = Mélanges asiatiques tirés du Bulletin historico-philologique de l'Académie Impériale des sciences de St.-Pétersbourg.
 1.213a	Mél. as.	Mél. As.	Mél. as. = Mél. asiat. ?
@@ -293,6 +310,7 @@
 1.233	PAÑCAV. BR.	Pañcav. Br.	PAÑCAV. BR. = PAÑCAVIṂŚABRĀHMAṆA.
 1.233a	PAÑCAV.	Pañcav.	PAÑCAV. = PAÑCAVIṂŚABRĀHMAṆA ? [Cologne addition]
 1.233b	PAÑCAT. BR.	Pañcat. Br.	PAÑCAT. BR. = ? [Cologne addition]
+1.233c	PAÑCAT. ed. Bomb.	Pañcat. ed. Bomb.	PAÑCAT. ed. Bomb. = ? [Cologne addition]
 1.234	PARĀŚ.	Parāś.	PARĀŚ. = PARĀŚARA, Verfasser eines Gesetzbuchs; nach Anführungen&#13;&#10;in MIT., DĀY. und ŚKDR.
 1.235	PĀR. GṚHY.	Pār. Gṛhy.	PĀR. GṚHY. = PĀRASKARA'S GṚHYASŪTRĀṆI.
 1.236	PAT.	Pat.	PAT. = PATAÑJALI, als Verfasser des MAHĀBHĀṢYA; nach Excerpten in&#13;&#10;BÖHTLINGK'S Ausgabe des PĀṆINI.
@@ -320,7 +338,9 @@
 1.250	RĀJAV.	Rājav.	RĀJAV. = RĀJAVALLABHA, nach Anführungen im ŚKDR.
 1.251	RAGH.	Ragh.	RAGH. = RAGHUVAṂŚA, ed. STENZLER (GILD. Bibl. 134).
 1.252	RAGH. (ed. Calc)	Ragh. (Ed. Calc)	RAGH. (ed. Calc.) = RAGHUVAṂŚA, ed. Calc. (GILD. Bibl. 135).
-1.252a	RAGH. ed. Calc	Ragh. ed. Calc.	RAGHUVAṂŚA, ed. Calc. (GILD. Bibl. 135).
+1.252a	RAGH. ed. Calc.	Ragh. ed. Calc.	RAGHUVAṂŚA, ed. Calc. (GILD. Bibl. 135).
+1.252b	RAGH. (Calc.)	Ragh. (Calc.)	RAGHUVAṂŚA, ed. Calc. (GILD. Bibl. 135).
+1.252c	RAGH. ed. ST.	Ragh. ed. ST.	RAGHUVAṂŚA, ed. ST. ? [Cologne Addition]
 1.253	RĀYAM.	Rāyam.	RĀYAM. = RĀYAMUKUṬA, ein Commentator des AMARAKOṢA; nach An-&#13;&#10;führungen im ŚKDR.
 1.254	RAMĀN.	Ramān.	RAMĀN. = RAMĀNĀTHA, ein Commentator des AMARAKOṢA; nach An-&#13;&#10;führungen im ŚKDR.
 1.255	RĀMATARKAV.	Rāmatarkav.	RĀMATARKAV. = RĀMATARKAVĀGĪŚA.
@@ -342,6 +362,7 @@
 1,267a	D.	D.	SĀH. D. = SĀHITYADARPAṆA, ? [Cologne Addition]
 1.268	SĀY.	Sāy.	SĀY. = SĀYAṆA.
 1.269	SAṂGĪTAD.	Saṃgītad.	SAM̃GĪTAD. = SAM̃GĪTADĀMODARA (über Musik), nach Anführungen im ŚKDR.
+1.269a	SAṂGĪTADĀM.	Saṃgītadām.	SAM̃GĪTADĀMODARA (über Musik), nach Anführungen im ŚKDR. [Cologne addition]
 1.270	SĀṂKHYAK.	Sāṃkhyak.	SĀṂKHYAK. = SĀṂKHYAKĀRIKĀ, ed. WILSON (GILD. Bibl. 271), mit Benutzung&#13;&#10;des Index in LASSEN'S Ausgabe (GILD. Bibl. 270).
 1.270a	WILSON, SĀṂKHYAK.	Wilson, Sāṃkhyak.	WILSON, SĀṂKHYAK. = SĀṂKHYAKĀRIKĀ, ed. WILSON (GILD. Bibl. 271), mit Benutzung des Index in LASSEN'S Ausgabe (GILD. Bibl. 270). [Cologne Addition]
 1.270b	WILSON'S SĀṂKHYAK.	Wilson'S Sāṃkhyak.	WILSON'S SĀṂKHYAK. = SĀṂKHYAKĀRIKĀ, ed. WILSON (GILD. Bibl. 271), mit Benutzung des Index in LASSEN'S Ausgabe (GILD. Bibl. 270). [Cologne Addition]
@@ -355,6 +376,7 @@
 1.276	ṢAḌV. BR.	Ṣaḍv. Br.	ṢAḌV. BR. = ṢAḌVIṂŚABRĀHMAṆA.
 1.277	SIDDHĀNTAŚIR.	Siddhāntaśir.	SIDDHĀNTAŚIR. = SIDDHĀNTAŚIROMAṆI, nach Anführungen im ŚKDR.
 1.277a	SIDDH. ŚIR.	Siddh. Śir.	SIDDH. ŚIR. = SIDDHĀNTAŚIROMAṆI, nach Anführungen im ŚKDR. ? [Cologne Addition]
+1.277b	SIDDHĀNTAŚIR. (GOLĀDHY)	Siddhāntaśir. (golādhy).	Golādhyāya part of Siddhānta Śiromaṇi, by  Bhāskara (1150 A.D.)  [Cologne Addition]
 1.278	SIDDHĀNTAM.	Siddhāntam.	SIDDHĀNTAM. = SIDDHĀNTAMUKTĀVALĪ, nach Anführungen im ŚKDR.
 1.279	SIDDH. K.	Siddh. K.	SIDDH. K. = SIDDHĀNTAKAUMUDĪ, die Calc. Ausg. in 4º (GILD. Bibl. 245).
 1.280	SKANDA-P.	Skanda-P.	SKANDA-P. = SKANDAPURĀṆA.
@@ -398,13 +420,14 @@
 1.313	VEDA-P.	Veda-P.	VEDA-P. = VEDAPURĀṆA.
 1.314	Verz. d. B. H.	Verz. D. B. H.	Verz. d. B. H. = WEBER'S Verzeichniss der Berliner Sanskrit-Hand- schriften. Bildet den ersten Band von: Die Handschriften-Verzeich- nisse der Königlichen Bibliothek, herausgegeben von dem König- lichen Oberbibliothekar, Geheimen Regierungsrath Dr. PERTZ. Berlin 1853. 8º.
 1.314a	Verz. d. B.	Verz. D. B.	Verz. d. B. = {1.314} ? [Cologne Addition]
-1.314b	Verz. B. H.	Verz. B. H.	Verz.  B. H. = WEBER'S Verzeichniss der Berliner Sanskrit-Hand- schriften.  = {1.314} ? [Cologne Addition]
-1.314c	B. H.	B. H.	 B. H. = WEBER'S Verzeichniss der Berliner Sanskrit-Hand- schriften.  = {1.314} ? [Cologne Addition]
+1.314b	Verz. B. H.	Verz. B. H.	Verz.  B. H. = WEBER'S Verzeichniss der Berliner Sanskrit-Handschriften.  = {1.314} ? [Cologne Addition]
+1.314c	B. H.	B. H.	  WEBER'S Verzeichniss der Berliner Sanskrit-Hand- schriften. ? [Cologne Addition]
 1.315	Verz. d. Kopenh. H.	Verz. D. Kopenh. H.	Verz. d. Kopenh. H. = WESTERGAARD'S Verzeichniss der Kopenhagener Sanskrit-Handschriften in: Codices orientales bibliothecae regiae Havniensis yussu et auspiciis regis Daniae augustissimi Christiani octavi enumerati et descripti. Pars prior, codices indicos continens. Havniae 1846. 4º.
+1.315a	Verz. d. KOP. H.	Verz. D. Kop. H.	WESTERGAARD'S Verzeichniss der Kopenhagener Sanskrit-Handschriften in: Codices orientales bibliothecae regiae Havniensis yussu et auspiciis regis Daniae augustissimi Christiani octavi enumerati et descripti. Pars prior, codices indicos continens. Havniae 1846. 4º.
 1.316	Verz. d. Pet. H.	Verz. D. Pet. H.	Verz. d. Pet. H. = BÖHTLINGK'S Verzeichniss der Petersburger Sanskrit- Handschriften in: DORN, das Asiatische Museum der Kais. Akad. der Wiss. St. Petersburg 1846. S. 720. fgg.
-1.316a	Verz. d. P. H.	Verz. D. P. H.	Verz. d. P. H. = ? [Cologne Addition]
-1.316b	Verz. d. PET. H.	Verz. D. Pet. H.	Verz. d. PET. H. = ? [Cologne Addition]
-1.316c	Verz. d. Pet. Hdschr.	Verz. D. Pet. Hdschr.	Verz. d. Pet. Hdschr. = ? [Cologne Addition]
+1.316a	Verz. d. P. H.	Verz. D. P. H.	? [Cologne Addition]
+1.316b	Verz. d. PET. H.	Verz. D. Pet. H.	? [Cologne Addition]
+1.316c	Verz. d. Pet. Hdschr.	Verz. D. Pet. Hdschr.	? [Cologne Addition]
 1.317	VET.	Vet.	VET. = VETĀLAPAÑCAVIṂŚATI in LASSEN'S Anthologie (LA).
 1.317a	VET. in LA.	Vet. in LA.	VET. in LA. = VETĀLAPAÑCAVIṂŚATI in LASSEN'S Anthologie (LA). [Cologne Addition]
 1.318	VIŚV.	Viśv.	VIŚV. = VIŚVĀMITRA'S Kampf in BÖHTLINGK'S Chrestomathie.
@@ -429,8 +452,8 @@
 1.332b	WINDISCHMANN, Sancara	Windischmann, Sancara	WINDISCHMANN Sancara = FRID. H. H. WINDISCHMANNI Sancara sive de theo- logumenis Vedanticorum. Bonnae 1833. [Cologne Addition]
 1.332c	WINDISCHMANN, Sanc.	Windischmann, Sanc.	WINDISCHMANN Sanc. = FRID. H. H. WINDISCHMANNI Sancara sive de theo- logumenis Vedanticorum. Bonnae 1833. [Cologne Addition]
 1.333	WISE	Wise	WISE = Commentary on the Hindu System of Medicine, by T. A. WISE, M. D. Calcutta 1845. 8º.
-1.334	Z. d. d. m. G.	Z. D. D. M. G.	Z. d. d. m. G. = Zeitschrift der Deutschen morgenländischen Gesell- schaft. Leipzig.
-1.334a	d. d. m. G.	D. D. M. G.	d. d. m. G. = Zeitschrift der Deutschen morgenländischen Gesell- schaft. Leipzig. [Cologne Addition]
+1.334	Z. d. d. m. G.	Z. D. D. M. G.	Zeitschrift der Deutschen morgenländischen Gesell- schaft. Leipzig.
+1.334a	d. d. m. G.	D. D. M. G.	Zeitschrift der Deutschen morgenländischen Gesell- schaft. Leipzig. [Cologne Addition]
 1.334b	Zeitschr. d. d. m. G.	Zeitschr. D. D. M. G.	Zeitschr. d. d. m. G. = Zeitschrift der Deutschen morgenländischen Gesell- schaft. Leipzig. [Cologne Addition]
 1.335	Z. f. d. K. d. M.	Z. F. D. K. D. M.	Z. f. d. K. d. M. = Zeitschrift für die Kunde des Morgenlandes. Göt- tingen (Bd. I--III) und Bonn (Bd. IV--VII).
 1.335a	Z. f. die K. d. M.	Z. F. Die K. D. M.	Z. f. die K. d. M. = Zeitschrift für die Kunde des Morgenlandes. Göt- tingen (Bd. I--III) und Bonn (Bd. IV--VII). [Cologne Addition]
@@ -502,6 +525,7 @@
 2.047	UP. und UPAK.	Up. Und Upak.	UP. und UPAK. = UPAKOŚĀ (Geschichte der; s. GILD. Bibl. 239).
 2.048	VĀR. P.	Vār. P.	VĀR. P. = VĀRĀHAPURĀṆA.
 2.049	VEDĀNTAS. (Allah.)	Vedāntas. (Allah.)	VEDĀNTAS. (Allah.) = A Lecture on the Vedánta, embracing the text of&#13;&#10;the Vedánta-Sára. Allahabad 1850.
+2.049a	VEDĀNTAS. [Allah.]	Vedāntas. [Allah.]	VEDĀNTAS. (Allah.) = A Lecture on the Vedánta, embracing the text of&#13;&#10;the Vedánta-Sára. Allahabad 1850.
 2.050	VEṆĪS.	Veṇīs.	VEṆĪS. = VEṆĪSAM̃HĀRA; nach Anführungen im ŚKDR.
 2.051	Verh. d. k. s. G. d. Ww.	Verh. D. K. S. G. D. Ww.	Verh. d. k. s. G. d. Ww. = Verhandlungen der königlich-sächsischen Gesellschaft der Wissenschaften zu Leipzig.
 2.015a	Verh. d. k. s. Ges. d. W.	Verh. D. K. S. Ges. D. W.	Verh. d. k. s. Ges. d. W. = Verhandlungen der königlich-sächsischen Gesellschaft der Wissenschaften zu Leipzig. [Cologne Addition]
@@ -514,7 +538,8 @@
 3.003a	GOLD. in der Einl. zu MĀN.	Gold. In Der Einl. Zu Mān.	GOLD. in der Einl. zu MĀN. = ? {3.003} [Cologne Addition]
 3.004	Journ. of the Am. Or. S.	Journ. Of The Am. Or. S.	Journ. of the Am. Or. S. = Journal of the American Oriental Society.
 3.004a	J. Am. Or. Soc.	J. Am. Or. Soc.	J. Am. Or. Soc.  = Journal of the American Oriental Society. ? [Cologne Addition]
-3.004b	Journ. of the Am. S.	Journ. Of The Am. S.	Journ. of the Am. S. = Journal of the American Oriental Society.
+3.004b	Journ. of the Am. S.	Journ. Of The Am. S.	Journ. of the Am. S. = Journal of the American Oriental Society. x a. a. O. S.
+3.004c	a. a. O. S.	a. a. O. S.	Journal of the American Oriental Society. ?
 3.005	KALPADRUMĀV.	Kalpadrumāv.	KALPADRUMĀV. = KALPADRUMĀVADĀNA, handschriftlich in der Pariser&#13;&#10;Bibliothek, nach Mittheilungen von A. SCHIEFNER.
 3.006	KĀPĪŚĀV.	Kāpīśāv.	KĀPĪŚĀV. = KĀPĪŚĀVADĀNA, handschriftlich in der Pariser Bibliothek,&#13;&#10;nach Mittheilungen von A. SCHIEFNER.
 3.007	KAṬHINĀV.	Kaṭhināv.	KAṬHINĀV. = KAṬHINĀVADĀNA, handschriftlich in der Pariser Bibliothek,&#13;&#10;nach Mittheilungen von SCHIEFNER.
@@ -548,6 +573,7 @@
 4.014	SAṂSK. K.	Saṃsk. K.	SAṂSK. K. = SAṂSKĀRAKAUSTUBHA von ANANTADEVA. Lith. Ausg. in folio&#13;&#10;ohne Angabe des Ortes und des Yahres.
 c.2117	Spr. (II)	SPR. (II)	Indische Sprüche. Sanskrit und Deutsch. Herausgegeben von Otto Böhtlingk. Zweite vermehrte und verbesserte Auflage. 1870-1873
 4.016	Spr.	Spr.	Spr. = Indische Sprüche. Sanskrit und deutsch herausgegeben von Otto BÖHTLINGK. St. Petersburg, 1863. 1864.
+4.016a	Spr. (I)	Spr. (I)	Indische Sprüche. Sanskrit und deutsch herausgegeben von Otto BÖHTLINGK. St. Petersburg, 1863. 1864.
 4.017	WEBER, JYOT.	Weber, Jyot.	WEBER, JYOT. = WEBER, Ueber den Vedakalender, Namens Jyoti- ṣam. Berlin, 1862.
 4.018	WEBER, Nakṣ.	Weber, Nakṣ.	WEBER, Nakṣ. = WEBER, Die vedischen Nachrichten von den Nakṣatra (Mondstationen). Berlin, 1860. 1862.
 4.018a	Nakṣ.	Nakṣ.	Nakṣ. = WEBER, Die vedischen Nachrichten von den Nakṣatra (Mondstationen). Berlin, 1860. 1862. ? [Cologne Addition]
@@ -555,10 +581,11 @@ c.2117	Spr. (II)	SPR. (II)	Indische Sprüche. Sanskrit und Deutsch. Herausgegebe
 c.001	Notices	Notices	Notices = Notices of Skt. Mss. [Cologne Addition]
 c.001a	Notices of Skt. Mss.	Notices Of Skt. Mss.	Notices of Skt. Mss. = Notices of Skt. Mss. [Cologne Addition]
 c.002	KĀM. NĪTIS.	Kām. Nītis.	KĀM. NĪTIS. = ? [Cologne Addition]
-c.003	UTTARAR.	Uttarar.	UTTARAR. = ? [Cologne Addition]
+c.003	UTTARAR.	Uttarar.	Uttararāmacarita, a play by Bhavabhuti [Cologne Addition]
 c.004	UTTARAR. ed. Cow.	Uttarar. Ed. Cow.	UTTARAR. ed. Cow. = ? [Cologne Addition]
 c.004a	UTTAR. ed. Cow.	Uttar. Ed. Cow.	UTTAR. ed. Cow. = ? [Cologne Addition]
 c.004b	UTTARARĀMAC. ed. Cow.	Uttararāmac. Ed. Cow.	UTTARARĀMAC. ed. Cow. = ? [Cologne Addition]
+c.004c	UTTARARĀMAC. (ed. COWELL)	Uttararāmac. (ed. Cowell)	? [Cologne Addition]
 c.005	UTTARARĀMAC.	Uttararāmac.	 = ? [Cologne Addition]
 c.006	Verz. d. Oxf. H.	Verz. D. Oxf. H.	Verz. d. Oxf. H. = ? [Cologne Addition]
 c.006a	Verz. der. Oxf. H.	Verz. Der. Oxf. H.	Verz. der. Oxf. H.= ? [Cologne Addition]
@@ -587,6 +614,7 @@ c.022	As. Soc. of B.	As. Soc. Of B.	As. Soc. of B. = ? [Cologne Addition]
 c.022a	As. Soc. of Beng.	As. Soc. Of Beng.	As. Soc. of Beng. = ? [Cologne Addition]
 c.022b	Journ. of the As. S. of B.	Journ. Of The As. S. Of B.	Journ. of the As. S. of B. = ? [Cologne Addition]
 c.022c	Journ. of the As. S. of Beng.	Journ. Of The As. S. Of Beng.	Journ. of the As. S. of Beng. = ? [Cologne Addition]
+c.022d	Journ. of the As. Soc. of Bombay	Journ. Of The As. Soc. Of Bombay	Journ. of the As. Soc. of Bombay [Cologne Addition]
 c.023	BĀDAR.	Bādar.	BĀDAR. = ? [Cologne Addition]
 c.024	BĀLAR.	Bālar.	BĀLAR. = ? [Cologne Addition]
 c.024a	BĀLARĀM.	Bālarām.	BĀLARĀM. = ? [Cologne Addition]
@@ -611,6 +639,7 @@ c.039	UṆĀDIS.	Uṇādis.	UṆĀDIS. = ? [Cologne Addition]
 c.040	MĀLATĪM.	Mālatīm.	MĀLATĪM. = ? [Cologne Addition] 
 c.041	MAITRYUP.	Maitryup.	MAITRYUP. = ? [Cologne Addition] 
 c.042	KĀVYĀD.	Kāvyād.	KĀVYĀD. = ? [Cologne Addition] 
+c.042a	KĀVYĀD. (ed. 1866)	Kāvyād. (ed. 1866)	KĀVYĀD. (ed. 1866) = ? [Cologne Addition] 
 c.043	BṚH.	Bṛh.	BṚH. = ? [Cologne Addition] 
 c.045	TĀRAN.	Tāran.	TĀRAN. = ? [Cologne Addition] 
 c.046	KUSUM.	Kusum.	KUSUM. = ? [Cologne Addition] 
@@ -621,8 +650,10 @@ c.050	GṚHY.	Gṛhy.	GṚHY. = ? [Cologne Addition]
 c.051	KAṆ.	Kaṇ.	KAṆ. = ? [Cologne Addition] 
 c.052	ŚR.	Śr.	ŚR. = ? [Cologne Addition] 
 c.053	KṢITĪŚ.	Kṣitīś.	KṢITĪŚ. = ? [Cologne Addition] 
+c.053a	KṢITĪS.	KṣitīS.	? [Cologne Addition] 
 c.054	GOLĀDHY.	Golādhy.	GOLĀDHY. = ? [Cologne Addition] 
-c.055	VĀSAVAD.	Vāsavad.	VĀSAVAD. = ? [Cologne Addition] 
+c.055	VĀSAVAD.	Vāsavad.	? [Cologne Addition] 
+c.055a	VASĀVAD.	Vasāvad.	? [Cologne Addition] 
 c.056	DHANV.	Dhanv.	DHANV. = ? [Cologne Addition] 
 c.057	NYĀYAS.	Nyāyas.	NYĀYAS. = ? [Cologne Addition] 
 c.058	GṚHYAS.	Gṛhyas.	GṚHYAS. = ? [Cologne Addition] 
@@ -667,7 +698,8 @@ c.091	ĀPASTAMBA	Āpastamba	ĀPASTAMBA = ? [Cologne Addition]
 c.092	ĀPIŚALI	Āpiśali	ĀPIŚALI = ? [Cologne Addition]
 c.093	ĀPIŚALA	Āpiśala	ĀPIŚALA = ? [Cologne Addition]
 c.094	CARAKA	Caraka	CARAKA = ? [Cologne Addition] 
-c.095	WASSILJEW	Wassiljew	WASSILJEW = В. Васильевъ. Буддизмъ, его догматы, исторія и литература. Часть 1. Общее обозрѣніе. Санктпетербургъ, 1857. ((V. Vasilyev. Buddhism, its dogmata, history and literature. Part 1. General overview. Sankt-Peterburg, 1857.) [Cologne Addition] 
+c.095	WASSILJEW	Wassiljew	В. Васильевъ. Буддизмъ, его догматы, исторія и литература. Часть 1. Общее обозрѣніе. Санктпетербургъ, 1857. ((V. Vasilyev. Buddhism, its dogmata, history and literature. Part 1. General overview. Sankt-Peterburg, 1857.) [Cologne Addition] 
+c.095a	WASSILYEW	Wassilyew	В. Васильевъ. Буддизмъ, его догматы, исторія и литература. Часть 1. Общее обозрѣніе. Санктпетербургъ, 1857. ((V. Vasilyev. Buddhism, its dogmata, history and literature. Part 1. General overview. Sankt-Peterburg, 1857.) [Cologne Addition] 
 c.096	VĀMANA	Vāmana	VĀMANA = ? [Cologne Addition] 
 c.097	ŚIKṢĀ	Śikṣā	ŚIKṢĀ = ? [Cologne Addition] 
 c.098	KĀLACAKRA	Kālacakra	KĀLACAKRA = ? [Cologne Addition] 
@@ -697,7 +729,8 @@ c.118	COLEBR.	Colebr.	COLEBR. = ? [Cologne Addition]
 c.119	VIŚVA	Viśva	VIŚVA = ? [Cologne Addition] 
 c.120	WESTERGAARD	Westergaard	WESTERGAARD = ? [Cologne Addition] 
 c.120a	WESTERG.	Westerg.	WESTERG. = ? [Cologne Addition] 
-c.121	LANGLOIS	Langlois	LANGLOIS = ? [Cologne Addition] 
+c.121	LANGLOIS	Langlois	 Alexandre Langlois (1788-1854), French indologist and translater[Cologne Addition] 
+c.121a	LANGL.	Langl.	 Alexandre Langlois (1788-1854), French indologist and translater[Cologne Addition] 
 c.122	BURNOUF.	Burnouf.	BURNOUF. = ? [Cologne Addition] 
 c.123	TROYER	Troyer	TROYER = ? [Cologne Addition] 
 c.123a	TROY.	Troy.	TROY. = TROYER ? [Cologne Addition] 
@@ -730,7 +763,8 @@ c.149	BROCKHAUS.	Brockhaus.	BROCKHAUS. = ? [Cologne Addition]
 c.150	TROYER.	Troyer.	TROYER. = ? [Cologne Addition] 
 c.151	PISCHEL	Pischel	PISCHEL = ? [Cologne Addition] 
 c.152	MAH.	Mah.	MAH. = ? [Cologne Addition] 
-c.154	MIKLOSICH	Miklosich	MIKLOSICH = ? [Cologne Addition] 
+c.154	MIKLOSICH	Miklosich	Franz Miklosich (1813-1891) a Slovene philologist[Cologne Addition] 
+c.154a	MIKLOS.	Miklos.	Franz Miklosich (1813-1891) a Slovene philologist[Cologne Addition] 
 c.155	MAHĀBH.	Mahābh.	MAHĀBH. = ? [Cologne Addition] 
 c.155a	MAHĀBH. lith. Ausg.	Mahābh. Lith. Ausg.	MAHĀBH. lith. Ausg. = ? [Cologne Addition] 
 c.156	HAEB.	Haeb.	HAEB. = ? [Cologne Addition] 
@@ -749,10 +783,12 @@ c.167	JYOTIṢA.	Jyotiṣa.	JYOTIṢA. = ? [Cologne Addition]
 c.168	TANTRA.	Tantra.	TANTRA. = ? [Cologne Addition] 
 c.169	YAJURVEDA	Yajurveda	YAJURVEDA = ? [Cologne Addition] 
 c.170	POLEY	Poley	POLEY = ? [Cologne Addition] 
-c.171	WINDISCHMANN	Windischmann	WINDISCHMANN = ? [Cologne Addition] 
+c.170a	POL.	Pol.	POLEY = ? [Cologne Addition] 
+c.171	WINDISCHMANN	Windischmann	Friedrich Heinrich Hugo Windischmann (1811-1861), philologist ?[Cologne Addition] 
 c.172	JOHNS.	Johns.	JOHNS. = ? [Cologne Addition] 
 c.172a	JOHNS. Sel.	Johns. Sel.	JOHNS. Sel. = ? [Cologne Addition] 
 c.172b	HIT. ed. JOHNS.	Hit. ed. Johns.	HIT. ed. JOHNS. = ? [Cologne Addition] 
+c.172c	HIT. ed. SCHL.	Hit. ed. Schl.	? [Cologne Addition] 
 c.173	MĀDHAVA.	Mādhava.	MĀDHAVA. = ? [Cologne Addition] 
 c.174	DEVAR.	Devar.	DEVAR. = ? [Cologne Addition] 
 c.175	RĀMĀYAṆA	Rāmāyaṇa	RĀMĀYAṆA = ? [Cologne Addition] 
@@ -865,6 +901,7 @@ c.276	MAŚAKA	Maśaka	MAŚAKA = ? [Cologne Addition]
 c.277	MĀDHAVAKARA	Mādhavakara	MĀDHAVAKARA = ? [Cologne Addition] 
 c.278	RUDRA	Rudra	RUDRA = ? [Cologne Addition] 
 c.278a	RUDRAYĀMALOTTARAKH.	Rudrayāmalottarakh.	RUDRAYĀMALOTTARAKH. = ? [Cologne Addition] 
+c.278b	RUDRAYĀMALAT.	Rudrayāmalat.	? [Cologne Addition] 
 c.279	RATNĀKARA	Ratnākara	RATNĀKARA = ? [Cologne Addition] 
 c.280	UṆADIVṚ.	Uṇadivṛ.	UṆADIVṚ. = ? [Cologne Addition] 
 c.281	MĀDH.	Mādh.	MĀDH. = ? [Cologne Addition] 
@@ -1013,8 +1050,9 @@ c.396	DHARMA-P.	Dharma-P.	DHARMA-P. = DHARMAPURĀṆA ? [Cologne Addition]
 c.397	G. WEBER,	G. Weber,	G. WEBER, = ? [Cologne Addition]
 c.398	G. BÜHLER	G. Bühler	G. BÜHLER = ? [Cologne Addition]
 c.399	GAṆEŚA-P.	Gaṇeśa-P.	GAṆEŚA-P. = GAṆEŚAPURĀṆA ? [Cologne Addition]
-c.401	J. GRIMM	J. Grimm	J. GRIMM = ? [Cologne Addition]
+c.401	J. GRIMM	J. Grimm	Jacob Grimm (1785-1863), German author, linguist, philologist, jurist, and folklorist [Cologne Addition]
 c.401a	GRIMM, Wört.	Grimm, Wört.	GRIMM, Wört. = ? [Cologne Addition]
+c.401b	GRIMM, Gesch. der deutschen Sprache.	Grimm, Gesch. der deutschen Sprache.	Geschichte der deutschen Sprache by Jacob Grimm, 1880 [Cologne Addition]
 c.402	J. MUIR	J. Muir	J. MUIR = ? [Cologne Addition]
 c.403	J. As. S. Lond. N.	J. As. S. Lond. N.	J. As. S. Lond. N. = ? [Cologne Addition]
 c.404	PADMA-P.	Padma-P.	PADMA-P. = PADMAPURĀṆA ? [Cologne Addition]
@@ -1023,7 +1061,7 @@ c.406	PERTSCH	Pertsch	PERTSCH = ? [Cologne Addition]
 c.407	No.	No.	No. = (A different Number of previous reference) ? [Cologne Addition]
 c.408	Or. und Occ.	Or. Und Occ.	Or. und Occ. = ? [Cologne Addition]
 c.408a	Or. u. Occ.	Or. U. Occ.	Or. u. Occ. = ? [Cologne Addition]
-c.409	PĀDMA-P.	Pādma-P.	PĀDMA-P. = ? (misspell of PADMA-P.?) [Cologne Addition]
+c.409	PĀDMA-P.	Pādma-P.	PADMAPURĀṆA (misspell of PADMA-P.?) [Cologne Addition]
 c.410	PTOLEMAEUS	Ptolemaeus	PTOLEMAEUS = ? [Cologne Addition]
 c.410a	PTOLEMAIOS	Ptolemaios	PTOLEMAIOS = ? [Cologne Addition]
 c.410b	PTOLEM.	Ptolem.	PTOLEM. = ? [Cologne Addition]
@@ -1033,7 +1071,7 @@ c.412	REGNIER	Regnier	REGNIER = ? [Cologne Addition]
 c.413	REINAUD	Reinaud	REINAUD = ? [Cologne Addition]
 c.413a	REINAUD, Mém. sur I'Inde	Reinaud, Mém. Sur I'Inde	REINAUD, Mém. sur I'Inde = ? [Cologne Addition]
 c.414	ROËR	Roër	ROËR = ? [Cologne Addition]
-c.414a	RÖER	Röer	RÖER = ? [Cologne Addition]
+c.414a	ROER	Roer	ROER = ? [Cologne Addition]
 c.415	ROEDIGER und POTT	Roediger Und Pott	ROEDIGER und POTT = ? [Cologne Addition]
 c.416	ROSEN	Rosen	ROSEN = ? [Cologne Addition]
 c.417	Randgl.	Randgl.	Randgl. = ? [Cologne Addition]
@@ -1118,7 +1156,7 @@ c.478	AVADĀNAŚ.	Avadānaś.	AVADĀNAŚ. = ? [Cologne Addition]
 c.479	ĀNANDALAH.	Ānandalah.	ĀNANDALAH. = ? [Cologne Addition] 
 c.480	KAURAP.	Kaurap.	KAURAP. = ? [Cologne Addition] 
 c.481	CAKRAD.	Cakrad.	CAKRAD. = ? [Cologne Addition] 
-c.482	YAJÑAD.	YajñAd.	YAJÑAD. = ? [Cologne Addition] 
+c.482	YAJÑAD.	YajñAd.	YAJÑAD. = ? [Cologne Addition] 
 c.483	VĪR.	Vīr.	VĪR. = ? [Cologne Addition] 
 c.484	BHAGAṆĀDH.	Bhagaṇādh.	BHAGAṆĀDH. = ? [Cologne Addition] 
 c.485	VṚDDHACĀṆ.	Vṛddhacāṇ.	VṚDDHACĀṆ. = ? [Cologne Addition] 
@@ -1157,7 +1195,7 @@ c.518	LALITAV.	Lalitav.	LALITAV. = ? [Cologne Addition]
 c.519	ŚAT.	Śat.	ŚAT. = ? [Cologne Addition] 
 c.520	ṚGVIDH.	Ṛgvidh.	ṚGVIDH. = ? [Cologne Addition] 
 c.521	ĀŚV.	Āśv.	ĀŚV. = ? [Cologne Addition] 
-c.522	YAJÑ.	Yajñ.	YAJÑ. = ? [Cologne Addition] 
+c.522	YAJÑ.	Yajñ.	YAJÑ. = ? [Cologne Addition] 
 c.523	MB.	Mb.	MB. = ? [Cologne Addition] 
 c.524	VIKRAMAC.	Vikramac.	VIKRAMAC. = ? [Cologne Addition] 
 c.525	DĀYAKRAMAS.	Dāyakramas.	DĀYAKRAMAS. = ? [Cologne Addition] 
@@ -1193,7 +1231,7 @@ c.556	GRAHĀNAY.	Grahānay.	GRAHĀNAY. = ? [Cologne Addition]
 c.557	INDRAL.	Indral.	INDRAL. = ? [Cologne Addition] 
 c.558	RĀGHAV.	Rāghav.	RĀGHAV. = ? [Cologne Addition] 
 c.559	BRAHMAS.	Brahmas.	BRAHMAS. = ? [Cologne Addition] 
-c.560	YAJÑADATTAV.	YajñAdattav.	YAJÑADATTAV. = ? [Cologne Addition] 
+c.560	YAJÑADATTAV.	YajñAdattav.	YAJÑADATTAV. = ? [Cologne Addition] 
 c.561	KĀPIŚĀV.	Kāpiśāv.	KĀPIŚĀV. = ? [Cologne Addition] 
 c.562	BHĀTUP.	Bhātup.	BHĀTUP. = ? [Cologne Addition] 
 c.563	ĀHN.	Āhn.	ĀHN. = ? [Cologne Addition] 
@@ -1313,8 +1351,8 @@ c.679	VYAVARĀRAT.	Vyavarārat.	VYAVARĀRAT. = ? [Cologne Addition]
 c.680	SPHUṬAGATIV.	Sphuṭagativ.	SPHUṬAGATIV. = ? [Cologne Addition] 
 c.681	MĀN.	Mān.	MĀN. = ? [Cologne Addition] 
 c.682	KĀVYĀS.	Kāvyās.	KĀVYĀS. = ? [Cologne Addition] 
-c.683	YĀJAÑ.	Yājañ.	YĀJAÑ. = ? [Cologne Addition] 
-c.684	YAJÑADATT.	YajñAdatt.	YAJÑADATT. = ? [Cologne Addition] 
+c.683	YĀJAÑ.	Yājañ.	YĀJAÑ. = ? [Cologne Addition] 
+c.684	YAJÑADATT.	YajñAdatt.	YAJÑADATT. = ? [Cologne Addition] 
 c.685	KĀP.	Kāp.	KĀP. = ? [Cologne Addition] 
 c.686	OD.	Od.	OD. = ? [Cologne Addition] 
 c.687	PHEṬK.	Pheṭk.	PHEṬK. = ? [Cologne Addition] 
@@ -1424,7 +1462,7 @@ c.802	VAJRASŪCI	Vajrasūci	VAJRASŪCI = ? [Cologne Addition]
 c.803	PRAYOGARATNA	Prayogaratna	PRAYOGARATNA = ? [Cologne Addition] 
 c.804	UTKALAKHAṆḌA	Utkalakhaṇḍa	UTKALAKHAṆḌA = ? [Cologne Addition] 
 c.805	YAṢT	Yaṣt	YAṢT = ? [Cologne Addition] 
-c.806	COWELL	Cowell	COWELL = ? [Cologne Addition] 
+c.806	COWELL	Cowell	Edward Byles Cowell (1826-1903), first professor of Sanskrit at Cambridge University. [Cologne Addition] 
 c.807	HARIBHAKTIVILĀSA	Haribhaktivilāsa	HARIBHAKTIVILĀSA = ? [Cologne Addition] 
 c.808	ABHIDHĀNOTTAROTTARA	Abhidhānottarottara	ABHIDHĀNOTTAROTTARA = ? [Cologne Addition] 
 c.809	YAŚNA	Yaśna	YAŚNA = ? [Cologne Addition] 
@@ -1577,6 +1615,7 @@ c.957	AMARAMĀLĀ	Amaramālā	AMARAMĀLĀ = ? [Cologne Addition]
 c.958	GAṆAPATIMUHŪRTA	Gaṇapatimuhūrta	GAṆAPATIMUHŪRTA = ? [Cologne Addition] 
 c.959	SARVASĀROP.	Sarvasārop.	SARVASĀROP. = ? [Cologne Addition] 
 c.960	VARṆAVIVEKA	Varṇaviveka	VARṆAVIVEKA = ? [Cologne Addition] 
+c.960a	VARṆAV.	Varṇav.	VARṆAV. = ? [Cologne Addition] 
 c.961	PĀKARĀJ.	Pākarāj.	PĀKARĀJ. = ? [Cologne Addition] 
 c.962	KŪRMACAKRA	Kūrmacakra	KŪRMACAKRA = ? [Cologne Addition] 
 c.963	ŚUBHAṂKARA	Śubhaṃkara	ŚUBHAṂKARA = ? [Cologne Addition] 
@@ -1870,6 +1909,7 @@ c.1247	ĀCĀRANIRṆAYAT.	Ācāranirṇayat.	ĀCĀRANIRṆAYAT. = ? [Cologne Add
 c.1248	PĀṂŚUPRAD.	Pāṃśuprad.	PĀṂŚUPRAD. = ? [Cologne Addition] 
 c.1249	RUCISTAVA	Rucistava	RUCISTAVA = ? [Cologne Addition] 
 c.1250	BHŪTAŚUDDHITANTRA	Bhūtaśuddhitantra	BHŪTAŚUDDHITANTRA = ? [Cologne Addition] 
+c.1250a	BHŪTAŚUDDHIPRAKARAṆA	Bhūtaśuddhiprakaraṇa	? [Cologne Addition] 
 c.1251	SVĀMAN	Svāman	SVĀMAN = ? [Cologne Addition] 
 c.1252	ARUṆADATTA	Aruṇadatta	ARUṆADATTA = ? [Cologne Addition] 
 c.1253	MALAMĀSATATTVA	Malamāsatattva	MALAMĀSATATTVA = ? [Cologne Addition] 
@@ -1975,7 +2015,7 @@ c.1353	MUIR, Sanscrit Texts	Muir, Sanscrit Texts	MUIR, Sanscrit Texts = ? [Colog
 c.1354	Mrs. MANNING, Anc. and Med. India	Mrs. Manning, Anc. And Med. India	Mrs. MANNING, Anc. and Med. India = ? [Cologne Addition]
 c.1355	Ṛt.	Ṛt.	Ṛt. = ? [Cologne Addition]
 c.1356	TĀṆḌYA-BR.	Tāṇḍya-Br.	TĀṆḌYA-BR. = TĀṆḌYABRĀHMAṆA  ? [Cologne Addition]
-c.1357	POTT'S Zigeuner	Pott'S Zigeuner	POTT'S Zigeuner = ? [Cologne Addition]
+c.1357	POTT'S Zigeuner	Pott's Zigeuner	POTT'S Zigeuner = ? [Cologne Addition]
 c.1357a	POTT, Zig.	Pott, Zig.	POTT, Zig. = ? [Cologne Addition]
 c.1358	BHAVA'S	Bhava'S	BHAVA'S = ? [Cologne Addition]
 c.1359	BOLLENSEN, Or. und Occ.	Bollensen, Or. Und Occ.	BOLLENSEN, Or. und Occ. = ? [Cologne Addition]
@@ -2121,6 +2161,7 @@ c.1501	HARADĀSA	Haradāsa	HARADĀSA = ? [Cologne Addition]
 c.1502	PADAP.	Padap.	PADAP. = ? [Cologne Addition] 
 c.1503	Monatsberr. d. K. Pr. Ak. d. Ww.	Monatsberr. D. K. Pr. Ak. D. Ww.	Monatsberr. d. K. Pr. Ak. d. Ww. = ? [Cologne Addition]
 c.1504	MONTGOMERY MARTIN	Montgomery Martin	MONTGOMERY MARTIN = ? [Cologne Addition]
+c.1504a	MONTGOMERY MARTIN, Eastern India	Montgomery Martin, Eastern India	MONTGOMERY MARTIN, Eastern India = ? [Cologne Addition]
 c.1505	MUGDHABODHA	Mugdhabodha	MUGDHABODHA = ? [Cologne Addition]
 c.1506	NĀDAPURĀṆA	Nādapurāṇa	NĀDAPURĀṆA = ? [Cologne Addition]
 c.1507	VAṂŚABR.	Vaṃśabr.	 = ? [Cologne Addition]
@@ -2136,7 +2177,7 @@ c.1518	ANANTA-BHAṬṬA-KAVI	Ananta-Bhaṭṭa-Kavi	ANANTA-BHAṬṬA-KAVI = ? 
 c.1519	ŚAṂKARA'S	Śaṃkara'S	ŚAṂKARA'S = ? [Cologne Addition] 
 c.1520	ANEKĀRTHA	Anekārtha	ANEKĀRTHA = ? [Cologne Addition] 
 c.1521	ADHIMĀS.	Adhimās.	ADHIMĀS. = ? [Cologne Addition] 
-c.1522	AUPAMANYAVA NIR.	Aupamanyava Nir.	AUPAMANYAVA NIR. = ? [Cologne Addition] 
+c.1522	AUPAMANYAVA NIR.	Aupamanyava Nir.	? [Cologne Addition] 
 c.1523	ŚĀBDAR.	Śābdar.	ŚĀBDAR. = ? [Cologne Addition] 
 c.1524	ATHARVAŚIR. UP.	Atharvaśir. Up.	ATHARVAŚIR. UP. = ? [Cologne Addition] 
 c.1525	ĀRYAVIDYĀSUDHĀKARA	Āryavidyāsudhākara	ĀRYAVIDYĀSUDHĀKARA = ? [Cologne Addition] 
@@ -2188,10 +2229,11 @@ c.1574	DEVĪPURĀṆA	Devīpurāṇa	DEVĪPURĀṆA = ? [Cologne Addition]
 c.1575	ĪŚVARAG.	Īśvarag.	ĪŚVARAG. = ? [Cologne Addition] 
 c.1576	LIṄGĀRCANATANTRA	Liṅgārcanatantra	LIṄGĀRCANATANTRA = ? [Cologne Addition] 
 c.1577	GOVARDH. ĀRYĀS.	Govardh. Āryās.	GOVARDH. ĀRYĀS. = ? [Cologne Addition] 
+c.1577a	ĀRYĀS.	Āryās.	 ? [Cologne Addition] 
 c.1578	BHAGAṆĀDHY.	Bhagaṇādhy.	BHAGAṆĀDHY. = ? [Cologne Addition] 
 c.1579	DHAMMAPADA	Dhammapada	DHAMMAPADA = ? [Cologne Addition] 
 c.1580	NAKṢ.	Nakṣ.	NAKṢ. = ? [Cologne Addition] 
-c.1581	Cow.	Cow.	Cow. = ? [Cologne Addition] 
+c.1581	Cow.	Cow.	Edward Byles Cowell (1826-1903), first professor of Sanskrit at Cambridge University. [Cologne Addition] 
 c.1582	JĀBĀLI	Jābāli	JĀBĀLI = ? [Cologne Addition] 
 c.1583	MAHĀBHĀRATA	Mahābhārata	MAHĀBHĀRATA = ? [Cologne Addition] 
 c.1584	PATAÑJALI'S	Patañjali'S	PATAÑJALI'S = ? [Cologne Addition] 
@@ -2235,6 +2277,7 @@ c.1621	GRAHAṆAV.	Grahaṇav.	GRAHAṆAV. = ? [Cologne Addition]
 c.1622	MĀNAVA	Mānava	MĀNAVA = ? [Cologne Addition] 
 c.1623	GAUDAPĀDA'S	Gaudapāda'S	GAUDAPĀDA'S = ? [Cologne Addition] 
 c.1624	MAHĀBHĀṢYA	Mahābhāṣya	MAHĀBHĀṢYA = ? [Cologne Addition] 
+c.1624a	BHĀṢYA	Bhāṣya	BHĀṢYA = ? [Cologne Addition] 
 c.1625	HANUMATSTOTRA	Hanumatstotra	HANUMATSTOTRA = ? [Cologne Addition] 
 c.1626	MAITRĀYAṆĪYAKA	Maitrāyaṇīyaka	MAITRĀYAṆĪYAKA = ? [Cologne Addition] 
 c.1627	YĀSKA NIR.	Yāska Nir.	YĀSKA NIR. = ? [Cologne Addition] 
@@ -2295,6 +2338,7 @@ c.1682	VYĀKARAṆA	Vyākaraṇa	VYĀKARAṆA = ? [Cologne Addition]
 c.1683	AR. UP.	Ar. Up.	AR. UP. = ? [Cologne Addition]
 c.1684	ŚṚṄGĀRARAS.	Śṛṅgāraras.	ŚṚṄGĀRARAS. = ? [Cologne Addition]
 c.1686	VARĀH. LAGH.	Varāh. Lagh.	VARĀH. LAGH. = ? [Cologne Addition]
+c.1686a	LAGH.	Lagh.	= ? VARĀH. LAGH. [Cologne Addition]
 c.1687	VIŚVALOCANA	Viśvalocana	VIŚVALOCANA= ? [Cologne Addition] 
 c.1688	Hindu Th.	Hindu Th.	Hindu Th. = ? [Cologne Addition]
 c.1689	Hist. de la vie de HIOUEN-THSANG	Hist. De La Vie De Hiouen-Thsang	Hist. de la vie de HIOUEN-THSANG = ? [Cologne Addition]
@@ -2434,7 +2478,8 @@ c.1827	DHANVANT.	Dhanvant.	DHANVANT. = ? [Cologne Addition]
 c.1828	WILSONE	Wilsone	WILSONE = ? [Cologne Addition] 
 c.1829	WILSON, Dict.	Wilson, Dict.	WILSON, Dict. = ? [Cologne Addition] 
 c.1829a	WILS. Lex.	Wils. Lex.	WILS. Lex. = ? [Cologne Addition] 
-c.1830	WEST. Dhātup.	West. Dhātup.	WEST. Dhātup. = ? [Cologne Addition] 
+c.1830	WEST. Dhātup.	West. Dhātup.	Radices Linguae Sanscrite by N. L. Westergaard, 1841  [Cologne Addition] 
+c.1830a	WEST. DHĀTUP.	West. Dhātup.	Radices Linguae Sanscrite by N. L. Westergaard, 1841 [Cologne Addition] 
 c.1831	RĀMAŚARMAN	Rāmaśarman	RĀMAŚARMAN = ? [Cologne Addition] 
 c.1832	VIṢṆUDHARM.	Viṣṇudharm.	VIṢṆUDHARM. = ? [Cologne Addition] 
 c.1833	RANTID.	Rantid.	RANTID. = ? [Cologne Addition] 
@@ -2497,17 +2542,18 @@ c.1899	WHITNEY, New Haven 1862.	Whitney, New Haven 1862.	WHITNEY, New Haven 1862
 c.1900	TANTRAPRAMODA	Tantrapramoda	TANTRAPRAMODA = ? [Cologne Addition] 
 c.1901	KĀTY. ŚR. S.	Kāty. Śr. S.	KĀTY. ŚR. S. = ? [Cologne Addition] 
 c.1902	RASAMANJARĪ	Rasamanjarī	RASAMANJARĪ = ? [Cologne Addition] 
-c.1903	KÖPPEN. Rel. d. Buddha	Köppen. Rel. D. Buddha	KÖPPEN. Rel. d. Buddha = ? [Cologne Addition] 
+c.1903	KÖPPEN. Rel. d. Buddha	Köppen. Rel. D. Buddha	? [Cologne Addition] 
+c.1903a	KÖPPEN. Rel. des. Buddha	Köppen. Rel. Des. Buddha	? [Cologne Addition] 
 c.1904	PRĀYAŚCITTAVIVEKASAṂGRAHA	Prāyaścittavivekasaṃgraha	PRĀYAŚCITTAVIVEKASAṂGRAHA = ? [Cologne Addition] 
 c.1905	VIŚVASĀRATANTRA	Viśvasāratantra	VIŚVASĀRATANTRA = ? [Cologne Addition] 
 c.1906	RĀTRILAGNANIRŪPAṆA	Rātrilagnanirūpaṇa	RĀTRILAGNANIRŪPAṆA = ? [Cologne Addition] 
-c.1907	WEST. Rad.	West. Rad.	WEST. Rad. = ? [Cologne Addition] 
+c.1907	WEST. Rad.	West. Rad.	Radices Linguae Sanscrite by N. L. Westergaard, 1841  [Cologne Addition] 
 c.1908	SAṂKṢIPTAS. ŚKDR.	Saṃkṣiptas. Śkdr.	SAṂKṢIPTAS. ŚKDR. = ? [Cologne Addition] 
 c.1909	SARVASĀRA	Sarvasāra	SARVASĀRA = ? [Cologne Addition] 
 c.1910	VIŚVASĀRAT.	Viśvasārat.	VIŚVASĀRAT. = ? [Cologne Addition] 
 c.1911	NAVAPR.	Navapr.	NAVAPR. = ? [Cologne Addition] 
-c.1912	WESTERGAARD, Radices	Westergaard, Radices	WESTERGAARD, Radices = ? [Cologne Addition] 
-c.1912a	WEST. Radices	West. Radices	WEST. Radices = ? [Cologne Addition] 
+c.1912	WESTERGAARD, Radices	Westergaard, Radices	Radices Linguae Sanscrite by N. L. Westergaard, 1841  [Cologne Addition] 
+c.1912a	WEST. Radices	West. Radices	Radices Linguae Sanscrite by N. L. Westergaard, 1841  [Cologne Addition] 
 c.1913	RĀJ.	Rāj.	RĀJ. = ? [Cologne Addition] 
 c.1914	SIDDHĀNTAŚ	Siddhāntaś	SIDDHĀNTAŚ = ? [Cologne Addition] 
 c.1915	SĀRĀVALĪ	Sārāvalī	SĀRĀVALĪ = ? [Cologne Addition] 
@@ -2683,6 +2729,7 @@ c.2089	ŚṚṄGĀR.	Śṛṅgār.	ŚṚṄGĀR. = ? [Cologne Addition]
 c.2090	KUHN, Herabk. d. F.	Kuhn, Herabk. D. F.	KUHN, Herabk. d. F. = ? [Cologne Addition] 
 c.2091	MĀNAV.	Mānav.	MĀNAV. = ? [Cologne Addition] 
 c.2092	WILSON, Th. of the Hindus	Wilson, Th. Of The Hindus	WILSON, Th. of the Hindus = ? [Cologne Addition] 
+c.2092a	WILSON, Hindu Th.	Wilson, Hindu Th.	WILSON, Th. of the Hindus = ? [Cologne Addition] 
 c.2093	YOGATATTVA	Yogatattva	YOGATATTVA = ? [Cologne Addition] 
 c.2094	ĀHNIKATATTVA	Āhnikatattva	ĀHNIKATATTVA = ? [Cologne Addition] 
 c.2095	Y. MUIR, Y. A. S.	Y. Muir, Y. A. S.	Y. MUIR, Y. A. S. = ? [Cologne Addition] 
@@ -2698,6 +2745,7 @@ c.2104	WILS. Lex. 1ste Ausg. Pref. XXIV.	Wils. Lex. 1Ste Ausg. Pref. Xxiv.	WILS.
 c.2105	VĀMANA-P.	Vāmana-P.	VĀMANA-P. = ? [Cologne Addition]
 c.2106	TATTVAK.	Tattvak.	TATTVAK. = ? [Cologne Addition]
 c.2107	ŚRĪR.	Śrīr.	ŚRĪR. = ? [Cologne Addition]
+c.2107a	R. (ed. ŚRĪR.)	(ed. R. Śrīr.)	RĀMĀYAṆA Śrīr. (?) edition[Cologne Addition]
 c.2108	VĀTSY. K.	Vātsy. K.	VĀTSY. K. = ? [Cologne Addition] 
 c.2110	HEMĀDRĪYAVRATAKHAṆḌA	Hemādrīyavratakhaṇḍa	HEMĀDRĪYAVRATAKHAṆḌA = ? [Cologne Addition]
 c.2111	WEBER, PRATIJÑĀS.	Weber, Pratijñās.	 = ? [Cologne Addition]
@@ -2709,3 +2757,46 @@ c.2116	Антарабида	Антарабида	Антарабида  = ? [Colo
 c.2118	Jahresb. d. d. m. G.	Jahresb. d. d. m. G.	Jahresb. d. d. m. G.  = ? [Cologne Addition]
 c.2119	ed. Bomb.	ed. Bomb.	Bombay ed. of Rāmāyaṇa, 1859-1864 OR&#13;&#10;of Mahābhārata, 1863-1877 [Cologne addition]
 c.2120	ed. Calc.	ed. Calc.	Calcutta edition of various works [Cologne addition]
+c.2121	VIJÑĀNEŚVARA	Vijñāneśvara	VIJÑĀNEŚVARA = ? [Cologne Addition]
+c.2122	CHAMB.	Chamb.	CHAMB. = ? [Cologne Addition]
+c.2123	Abh. d. Königl. Ak. d. W. zu Berlin, 	Abh. d. Königl. Ak. d. W. zu Berlin,	? [Cologne Addition]
+c.2124	KĀṆVa-Rec.	KĀṆVa-Rec.	? [Cologne Addition]
+c.2125	BÖHTLINGK, Ueber die Sprache der Jakuten	BÖHTLINGK, Ueber die Sprache der Jakuten	BÖHTLINGK, Ueber die Sprache der Jakuten [Cologne Addition]
+c.2126	VIKR. (LENZ)	Vikr. (Lenz)	? [Cologne Addition]
+c.2127	SV. Padap.	SV. Padap.	SĀMAVEDA padapĀṭha ? [Cologne Addition]
+c.2128	IL.	Il.	? [Cologne Addition]
+c.2129	R. (<ls>ed. ŚRIR.)	R. (<ls>ed. ŚRIR.)	 ? [Cologne Addition]
+c.2130	Bibl. ind.	Bibl. ind.	? [Cologne Addition]
+c.2131	BERLIC, Gramm. der illir. Sprache	BERLIC, Gramm. der illir. Sprache	Grammatik Der Illirischen Sprache by I.Al. Berlic, 1842 [Cologne Addition]
+c.2132	LACEPÉDE	LACEPÉDE	? Bernard Germain de Lacépède, contributor to Histoire Naturelle, générale et particulière  [Cologne Addition]
+c.2133	SCHLEICHER, Lit. Gr.	SCHLEICHER, Lit. Gr.	? Lithuanian Grammar, byAugust Schleicher (1821-1868) [Cologne Addition]
+c.2134	LANGLOIS t. I.	LANGLOIS t. I.	Chefs-d'oeuvre du théatre indien, 1828 French translation by Alexandre Langlois[Cologne Addition]
+c.2135	ŚĀK. (ed. WILL.)	Śāk. (ed. Will.)	Śākuntala, translated by Monier-Williams, 1853 [Cologne Addition]
+c.2135a	ŚĀK. (ed. MON. WILL.)	Śāk. (ed. Mon. Will.)	Śākuntala, translated by Monier-Williams, 1853 [Cologne Addition]
+c.2136	KĀŚĪN.	Kāśīn.	? [Cologne Addition]
+c.2137	z. B. MED. j.	z. B. MED. j.	? [Cologne Addition]
+c.2138	MĀLATĪM. (ed. LASS.)	MĀLATĪM. (ed. LASS.)	? [Cologne Addition]
+c.2139	ARIEL	ARIEL	? [Cologne Addition]
+c.2140	KAVIRAU.	Kavirau.	? [Cologne Addition]
+c.2141	ĀYODA MBH.	Āyoda Mbh.	? [Cologne Addition]
+c.2142	CURTIUS, Griech. Etym.	CURTIUS, Griech. Etym.	Grundzüge der griechischen etymologie (1879) by Georg Curtius (1820-1885) [Cologne Addition]
+c.2143	?	?	Unknown to us. Can you help? [Cologne Addition]
+c.2144	DURGĀSTAVA	DURGĀSTAVA	? [Cologne Addition]
+c.2145	BRAHMASIDDH.	BRAHMASIDDH.	? [Cologne Addition]
+c.2146	ALAṂK. K.	Alaṃk. K.	? [Cologne Addition]
+c.2147	DURGĀCĀRYA	Durgācārya	? [Cologne Addition]
+c.2148	H. v. RHEEDE, Hortus Indicus Malabaricus 	H. v. RHEEDE, Hortus Indicus Malabaricus 	? [Cologne Addition]
+c.2149	VEDĀNTAS. (Ausg. von 1829)	Vedāntas. (Ausg. von 1829)	? [Cologne Addition]
+c.2150	TS. Comm.	TS. Comm.	? [Cologne Addition]
+c.2151	lith. Ausg.	lith. Ausg.	? [Cologne Addition]
+c.2152	ŚĀKALYASAṂHITĀPARIŚIṢṬA	Śākalyasaṃhitāpariśiṣṭa	? [Cologne Addition]
+c.2153	YOGATATTVOP.	Yogatattvop.	? [Cologne Addition]
+c.2154	Journ. of the R. As. Soc.	Journ. of the R. As. Soc.	? [Cologne Addition]
+c.2154a	Journ. of the R. A. S.	Journ. of the R. A. S.	? [Cologne Addition]
+c.2155	KOPPEN	KOPPEN	? [Cologne Addition]
+c.2156	PACCAR.	PACCAR.	? [Cologne Addition]
+c.2157	AUṢ.	AUṢ.	? [Cologne Addition]
+c.2158	VIKRAMĀṄKADEVACARITA	Vikramāṅkadevacarita	? [Cologne Addition]
+c.2159	RÖER	RÖER	? [Cologne Addition]
+c.2160	X	X	? [Cologne Addition]
+c.2161	X	X	? [Cologne Addition]
