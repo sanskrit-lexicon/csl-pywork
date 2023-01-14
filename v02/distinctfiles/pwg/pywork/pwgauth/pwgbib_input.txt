@@ -311,6 +311,7 @@ R1.001	ĀŚV. ŚR.	Āśv. Śr.	ĀŚV. ŚR. = ĀŚVALĀYANA'S ŚRAUTASŪTRĀṆI 
 1.233a	PAÑCAV.	Pañcav.	PAÑCAV. = PAÑCAVIṂŚABRĀHMAṆA ? [Cologne addition]
 1.233b	PAÑCAT. BR.	Pañcat. Br.	PAÑCAT. BR. = ? [Cologne addition]
 1.233c	PAÑCAT. ed. Bomb.	Pañcat. ed. Bomb.	PAÑCAT. ed. Bomb. = ? [Cologne addition]
+1.233d	PAÑCAT. ed. orn.	Pañcat. ed. orn.	PAÑCAT. ed. orn. = ? [Cologne addition]
 1.234	PARĀŚ.	Parāś.	PARĀŚ. = PARĀŚARA, Verfasser eines Gesetzbuchs; nach Anführungen&#13;&#10;in MIT., DĀY. und ŚKDR.
 1.235	PĀR. GṚHY.	Pār. Gṛhy.	PĀR. GṚHY. = PĀRASKARA'S GṚHYASŪTRĀṆI.
 1.236	PAT.	Pat.	PAT. = PATAÑJALI, als Verfasser des MAHĀBHĀṢYA; nach Excerpten in&#13;&#10;BÖHTLINGK'S Ausgabe des PĀṆINI.
