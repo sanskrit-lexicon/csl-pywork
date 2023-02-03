@@ -116,6 +116,7 @@ R1.001	ĀŚV. ŚR.	Āśv. Śr.	ĀŚV. ŚR. = ĀŚVALĀYANA'S ŚRAUTASŪTRĀṆI 
 1.084	ŚRUT.	Śrut.	ŚRUT. = ŚRUTABODHA in der Zeitschrift für die Kunde des Morgenlan-&#13;&#10;des, IV, S. 60 fgg. Ein dabeistehendes BR. verweist auf die von BROCK-&#13;&#10;HAUS besorgte Ausgabe in seinem Werke: Ueber den Druck Sanskri-&#13;&#10;tischer Werke mit Lateinischen Buchstaben. Leipzig 1841.
 1.085	ŚUK.	Śuk.	ŚUK. oder ŚUKAS. = ŚUKASAPTATI in LASSEN'S Anthologie (GILD. Bibl. 48).
 1.085a	ŚUKAS.	Śukas.	ŚUK. oder ŚUKAS. = ŚUKASAPTATI in LASSEN'S Anthologie (GILD. Bibl. 48).
+1.085b	ŚUK. in LA.	Śuk. in LA.	ŚUK. in LA.  = ŚUKASAPTATI in LASSEN'S Anthologie (GILD. Bibl. 48).
 1.086	ŚVETĀŚV. UP.	Śvetāśv. Up.	ŚVETĀŚV. UP. = ŚVETĀŚVATAROPANIṢAD in der Bibliotheca indica.
 1.087	DAŚ.	Daś.	DAŚ. = DAŚARATHA'S Tod in BÖHTLINGK'S Chrestomathie (GILD. Bibl. 49).
 1.088	DAŚAK.	Daśak.	*DAŚAK. = DAŚAKUMĀRACARITA, ed. WILSON (GILD. Bibl. 236).
@@ -128,6 +129,7 @@ R1.001	ĀŚV. ŚR.	Āśv. Śr.	ĀŚV. ŚR. = ĀŚVALĀYANA'S ŚRAUTASŪTRĀṆI 
 1.093	DHĀTUP.	Dhātup.	DHĀTUP. = DHĀTUPĀṬHA in WESTERGAARD'S Radices (GILD. Bibl. 42).
 1.094	DHYĀNAV. UP.	Dhyānav. Up.	DHYĀNAV. UP. = DHYĀNAVINDŪPANIṢAD.
 1.095	DHŪRTAS.	Dhūrtas.	DHŪRTAS. = DHŪRTASAMĀGAMA in LASSEN'S Anthologie (GILD. Bibl. 48).
+1.095a	DHŪRTAS. in LA.	Dhūrtas. in LA.	DHŪRTASAMĀGAMA in LASSEN'S Anthologie (GILD. Bibl. 48). [Cologne Addition]
 1.096	DIVYA-AV.	Divya-Av.	DIVYA-AV. = DIVYĀVADĀNA, eine buddhistische Legendensammlung.
 1.097	DRAUP.	Draup.	DRAUP. = DRAUPADĪPRAMĀTHA, ed. BOPP (GILD. Bibl. 106).
 1.098	DURGAD.	Durgad.	DURGAD. = DURGĀDĀSA.
@@ -164,6 +166,7 @@ R1.001	ĀŚV. ŚR.	Āśv. Śr.	ĀŚV. ŚR. = ĀŚVALĀYANA'S ŚRAUTASŪTRĀṆI 
 1.125b	WILSON Theatre of the Hindus	Wilson Theatre of the Hindus 	Select specimens of the Theatre of the Hindus,&#13;&#10;translated from the original Sanscrit, by HORACE HAYMAN WILSON.&#13;&#10;Second edition. London 1835. [Cologne Addition]
 1.125c	WILSON, Theatre of the Hindus	Wilson, Theatre of the Hindus 	Select specimens of the Theatre of the Hindus,&#13;&#10;translated from the original Sanscrit, by HORACE HAYMAN WILSON.&#13;&#10;Second edition. London 1835. [Cologne Addition]
 1.125d	WILSON, Sel. spec. of the Theatre of the Hindus	 Wilson, Sel. spec. of the Theatre of the Hindus	Select specimens of the Theatre of the Hindus,&#13;&#10;translated from the original Sanscrit, by HORACE HAYMAN WILSON.&#13;&#10;Second edition. London 1835. [Cologne Addition]
+1.125e	WILSON, Sel. spec. of the th. of the Hindus	 Wilson, Sel. spec. of the th. of the Hindus	Select specimens of the Theatre of the Hindus,&#13;&#10;translated from the original Sanscrit, by HORACE HAYMAN WILSON.&#13;&#10;Second edition. London 1835. [Cologne Addition]
 1.126	HIOUEN-THSANG	Hiouen-Thsang	HIOUEN-THSANG = Histoire de la vie de HIOUEN-THSANG et de ses voya- ges dans l'Inde, traduite du Chinois par STANISLAS YULIEN. Paris 1853.
 1.127	HIT.	Hit.	HIT. = HITOPADEŚA, ed. SCHLEGEL und LASSEN (GILD. Bibl. 225). Eine&#13;&#10;darauf folgende römische Zahl bezeichnet das Buch, eine arabische&#13;&#10;--die Seite; die zweite Zahl bezeichnet dort den Śloka, hier die&#13;&#10;Zeile.
 1.128	HIT. Pr.	Hit. Pr.	HIT. Pr. = Prooemium im HIT.
@@ -236,6 +239,7 @@ R1.001	ĀŚV. ŚR.	Āśv. Śr.	ĀŚV. ŚR. = ĀŚVALĀYANA'S ŚRAUTASŪTRĀṆI 
 1.180a	LAGHUJĀT.	Laghujāt.	LAGHUJAT. = VARĀHAMIHIRA'S LAGHUJĀTAKA. [Cologne Addition]
 1.180b	VARĀH. LAGHUJ.	Varāh. Laghuj.	VARĀH. LAGHUJ. = VARĀHAMIHIRA'S LAGHUJĀTAKA. [Cologne Addition]
 1.181	LALIT.	Lalit.	LALIT. = RGYA TCH'ER ROL PA (LALITAVISTĀRA) ou Développement des&#13;&#10;yeux, traduit etc. par PH. ÉD. FOUCAUX. Deuxième partie--Traduc-&#13;&#10;tion franśaise. Paris 1848. ?
+1.181a	LALIT. Fouc.	Lalit. Fouc.	 RGYA TCH'ER ROL PA (LALITAVISTĀRA) ou Développement des&#13;&#10;yeux, traduit etc. par PH. ÉD. FOUCAUX. Deuxième partie--Traduc-&#13;&#10;tion franśaise. Paris 1848. [Cologne addition]
 1.182	LALIT. Calc	Lalit. Calc	LALIT. Calc. = LALITAVISTARA in der Bibliotheca indica.
 1.182a	LALIT. ed. Calc.	Lalit. ed. Calc.	LALITAVISTARA in der Bibliotheca indica.
 1.182b	LALIT. ed. FOUC.	Lalit. ed. FOUC.	LALITAVISTARA ?[Cologne Addition]
@@ -266,6 +270,7 @@ R1.001	ĀŚV. ŚR.	Āśv. Śr.	ĀŚV. ŚR. = ĀŚVALĀYANA'S ŚRAUTASŪTRĀṆI 
 1.200	MALAMĀSAT.	Malamāsat.	MALAMĀSAT. = MALAMĀSATATTVA (GILD. Bibl. 325), nach Anführungen&#13;&#10;im ŚKDR.
 1.201	MĀLAT.	Mālat.	*MĀLAT. = MĀLATĪMĀDHAVA, ed. Calc. (GILD. Bibl. 210).
 1.202	MĀLAV.	Mālav.	*MĀLAV. = MĀLAVIKĀGNIMITRA, ed. TULLBERG (GILD. Bibl. 209).
+1.202a	MĀLAV. ed. Bomb.	Mālav ed. Bomb.	 MĀLAVIKĀGNIMITRA, Bombay edition [Cologne Addition]
 1.203	MALLIN.	Mallin.	MALLIN. = MALLINĀTHA.
 1.204	MĀṆD. UP.	Māṇd. Up.	MĀṆḌ. UP. = MĀṆḌŪKYOPANIṢAD in der Bibliotheca indica.
 1.205	MĀṆḌ. UP. Kār.	Māṇḍ. Up. Kār.	MĀṆḌ. UP. Kār. = GAUḌAPĀDA'S Kārikā zur MĀṆḌ. UP. in der Biblio-&#13;&#10;theca indica.
@@ -332,6 +337,7 @@ R1.001	ĀŚV. ŚR.	Āśv. Śr.	ĀŚV. ŚR. = ĀŚVALĀYANA'S ŚRAUTASŪTRĀṆI 
 1.247a	R. ed. Bomb.	R. ed. Bomb.	Bombay ed. of Rāmāyaṇa, 1859-1864 [Cologne addition]
 1.247b	R. SCHL.	R. Schl.	Rāmāyaṇa, Schlegel edition, 1829--1838 [Cologne addition]
 1.247c	R. ed. Ser.	R. ed. Ser.	Serampore ed. of Rāmāyaṇa [Cologne addition]
+1.247d	R. ed. SCHL.	R. ed. Schl.	Rāmāyaṇa, Schlegel edition, 1829--1838 [Cologne addition]
 1.248	RĀJAN.	Rājan.	RĀJAN. = RĀJANIRGHAṆṬA, ein medicinisches Wörterbuch; nach An-&#13;&#10;führungen im ŚKDR.
 1.249	RĀJA-TAR.	Rāja-Tar.	*RĀJA-TAR. = RĀJATARAṄGIṆĪ, ed. TROYER (GILD. Bibl. 148) für die 6&#13;&#10;ersten Taram̃ga's; für die folgenden die Calc. Ausg. (GILD. Bibl. 147).
 1.249a	RĀJA-TARAṄGIṆĪ	Rāja-Taraṅgiṇī	RĀJA-TARAṄGIṆĪ = RĀJATARAṄGIṆĪ ? [Cologne Addition]
@@ -444,6 +450,7 @@ R1.001	ĀŚV. ŚR.	Āśv. Śr.	ĀŚV. ŚR. = ĀŚVALĀYANA'S ŚRAUTASŪTRĀṆI 
 1.326a	VOPAD.	Vopad.	VOP. oder VOPAD. = VOPADEVA'S Grammatik, nach BÖHTLINGK'S Ausgabe (GILD. Bibl. 249, {%a.%} S. 170).
 1.326b	VOP. (ed. Calc.)	Vop. (ed. Calc.)	VOPADEVA'S Grammatik, Calcutta edition [Cologne Addition]
 1.327	VP.	Vp.	VP. = VIṢṆUPURĀṆA. Es wird die WILSON'sche Uebersetzung
+1.327a	VP. (2te Aufl.)	Vp. (2te Aufl.)	VP. = ? [Cologne Addition]
 1.328	VS.	Vs.	VS. = VĀJASANEYISAM̃HITĀ. The VĀYASANEYI-SANHITĀ in the MĀDHYANDINA&#13;&#10;-- and the KĀṆVA-ŚĀKHĀ with the commentary of MAHĪDHARA, edited&#13;&#10;by Dr. ALBRECHT WEBER. Berlin Ferd. Dümmler's Verlagṣandlung.&#13;&#10;London Williams and Norgate. 1852. 4º.
 1.329	VS. PRĀT.	Vs. Prāt.	VS. PRĀT. = PRĀTIŚĀKHYA zur VĀJASANEYISAM̃HITĀ, citirt nach Adhyāya&#13;&#10;und Sūtra. Hdschr. S. ROTH in der Einl. z. NIR. S. XLVI.
 1.330	WEST.	West.	WEST. = WESTERGAARD'S Radices (GILD. Bibl. 42).
@@ -474,6 +481,7 @@ R1.001	ĀŚV. ŚR.	Āśv. Śr.	ĀŚV. ŚR. = ĀŚVALĀYANA'S ŚRAUTASŪTRĀṆI 
 1.339g	ROTH, Zur L. u. G. des W.	Roth, Zur L. U. G. Des W.	ROTH, Zur L. u. G. des W.  = Zur Literatur und Geschichte des Weda. Drei Abhandlungen von RUDOLPH ROTH. Stuttgart 1846. ? [Cologne Addition]
 1.339h	Z. L. u. G. d. W.	Z. L. U. G. D. W.	Z. L. u. G. d. W.  = Zur Literatur und Geschichte des Weda. Drei Abhandlungen von RUDOLPH ROTH. Stuttgart 1846. ? [Cologne Addition]
 1.339i	ROTH, Zur L. und G. d. W.	Roth, Zur L. Und G. D. W.	ROTH, Zur L. und G. d. W.  = Zur Literatur und Geschichte des Weda. Drei Abhandlungen von RUDOLPH ROTH. Stuttgart 1846. ? [Cologne Addition]
+1.339j	ROTH, Zur L. und G. d. Veda	Roth, Zur L. Und G. D. Veda	ROTH, Zur L. und G. d. W.  = Zur Literatur und Geschichte des Weda. Drei Abhandlungen von RUDOLPH ROTH. Stuttgart 1846. ? [Cologne Addition]
 2.001	AIT. ĀR.	Ait. Ār.	AIT. ĀR. = AITAREYĀRAṆYAKA; nach Mittheilungen von A. WEBER.
 2.002	BAUDH.	Baudh.	BAUDH. = BAUDHĀYANA.
 2.003	Berichte d. k. s. Ges. d. Ww.	Berichte D. K. S. Ges. D. Ww.	Berichte d. k. s. Ges. d. Ww. = Berichte der königlich-sächsischen Gesellschaft der Wissenschaften.
@@ -643,7 +651,7 @@ c.042	KĀVYĀD.	Kāvyād.	KĀVYĀD. = ? [Cologne Addition]
 c.042a	KĀVYĀD. (ed. 1866)	Kāvyād. (ed. 1866)	KĀVYĀD. (ed. 1866) = ? [Cologne Addition] 
 c.043	BṚH.	Bṛh.	BṚH. = ? [Cologne Addition] 
 c.045	TĀRAN.	Tāran.	TĀRAN. = ? [Cologne Addition] 
-c.046	KUSUM.	Kusum.	KUSUM. = ? [Cologne Addition] 
+c.046	KUSUM.	Kusum.	KUSUM. = ? Kusumanagara [Cologne Addition] 
 c.047	VĀGBH.	Vāgbh.	VĀGBH. = ? [Cologne Addition] 
 c.048	TARKAS.	Tarkas.	TARKAS. = ? [Cologne Addition] 
 c.049	NALOD.	Nalod.	NALOD. = ? [Cologne Addition] 
@@ -1062,6 +1070,7 @@ c.406	PERTSCH	Pertsch	PERTSCH = ? [Cologne Addition]
 c.407	No.	No.	No. = (A different Number of previous reference) ? [Cologne Addition]
 c.408	Or. und Occ.	Or. Und Occ.	Or. und Occ. = ? [Cologne Addition]
 c.408a	Or. u. Occ.	Or. U. Occ.	Or. u. Occ. = ? [Cologne Addition]
+c.408b	Orient und Occident	Orient und Occident	? [Cologne Addition]
 c.409	PĀDMA-P.	Pādma-P.	PADMAPURĀṆA (misspell of PADMA-P.?) [Cologne Addition]
 c.410	PTOLEMAEUS	Ptolemaeus	PTOLEMAEUS = ? [Cologne Addition]
 c.410a	PTOLEMAIOS	Ptolemaios	PTOLEMAIOS = ? [Cologne Addition]
@@ -1121,6 +1130,7 @@ c.447	VṚDDHA-KĀṆ.	Vṛddha-Kāṇ.	 =  ? [Cologne Addition]
 c.448	VṚDDHA-M.	Vṛddha-M.	VṚDDHA-M. =  ? [Cologne Addition]
 c.448a	VṚDDHA-MANU	Vṛddha-Manu	VṚDDHA-MANU =  ? [Cologne Addition]
 c.449	Vie de HIOUEN-THSANG	Vie De Hiouen-Thsang	Vie de HIOUEN-THSANG =  ? [Cologne Addition]
+c.449a	Vie de Hiouen-thsang	Vie De Hiouen-Thsang	Vie de HIOUEN-THSANG =  ? [Cologne Addition]
 c.450	W. PERTSCH	W. Pertsch	W. PERTSCH =  ? [Cologne Addition]
 c.451	WALKER	Walker	WALKER =  ? [Cologne Addition]
 c.452	WALLICH	Wallich	WALLICH =  ? [Cologne Addition]
@@ -1424,6 +1434,7 @@ c.752	VEDĀNTAPAR.	Vedāntapar.	VEDĀNTAPAR. = ? [Cologne Addition]
 c.753	ĀŚR. GṚHY.	Āśr. Gṛhy.	ĀŚR. GṚHY. = (print error for ĀŚV. GṚHY. ?) [Cologne Addition]
 c.754	BLAND	Bland	BLAND = ? [Cologne Addition]
 c.755	Bibl. Ind.	Bibl. Ind.	Bibl. Ind. = ? [Cologne Addition]
+c.755a	Bibl. Ind. new ser.	Bibl. Ind. new ser.	? [Cologne Addition]
 c.756	ŚĀŚVATA.	Śāśvata.	ŚĀŚVATA. = ? [Cologne Addition]
 c.756a	ŚĀŚVATA	Śāśvata	ŚĀŚVATA = ? [Cologne Addition]
 c.758	Berichte d. k. s. Ges. d. Ww. phil.-hist.	Berichte D. K. S. Ges. D. Ww. Phil.-Hist.	Berichte d. k. s. Ges. d. Ww. phil.-hist. = {2.003} ? [Cologne Addition]
@@ -2777,6 +2788,7 @@ c.2135a	ŚĀK. (ed. MON. WILL.)	Śāk. (ed. Mon. Will.)	Śākuntala, translated 
 c.2136	KĀŚĪN.	Kāśīn.	? [Cologne Addition]
 c.2137	z. B. MED. j.	z. B. MED. j.	? [Cologne Addition]
 c.2138	MĀLATĪM. (ed. LASS.)	MĀLATĪM. (ed. LASS.)	? [Cologne Addition]
+c.2138a	MĀLATĪM. ed. LASS.	Mālatīm. ed. Lass.	? [Cologne Addition]
 c.2139	ARIEL	ARIEL	? [Cologne Addition]
 c.2140	KAVIRAU.	Kavirau.	? [Cologne Addition]
 c.2141	ĀYODA MBH.	Āyoda Mbh.	? [Cologne Addition]
@@ -2799,5 +2811,24 @@ c.2156	PACCAR.	PACCAR.	? [Cologne Addition]
 c.2157	AUṢ.	AUṢ.	? [Cologne Addition]
 c.2158	VIKRAMĀṄKADEVACARITA	Vikramāṅkadevacarita	? [Cologne Addition]
 c.2159	RÖER	RÖER	? [Cologne Addition]
-c.2160	X	X	? [Cologne Addition]
-c.2161	X	X	? [Cologne Addition]
+c.2160	Mém. de l'Acad. Imp. dés sc. de St.-Pétersb.	Mém. de l'Acad. Imp. dés sc. de St.-Pétersb.	? [Cologne Addition]
+c.2161	Halle'sche Allg. Lit. Zeit.	Halle'sche Allg. Lit. Zeit.	? [Cologne Addition]
+c.2162	R. ed. ŚRĪR.	R. ed. ŚRĪR.	? [Cologne Addition]
+c.2163	SARVOPAN.	SARVOPAN.	? [Cologne Addition]
+c.2164	SPIEGEL, Gramm. der Pārsisprache	SPIEGEL, Gramm. der Pārsisprache	? [Cologne Addition]
+c.2165	VṚNDĀVANAŚ.	VṚNDĀVANAŚ.	? [Cologne Addition]
+c.2166	SPIEGEL, Liber de off. sacerd. buddh. 	SPIEGEL, Liber de off. sacerd. buddh. 	Liber De Offichs Sacerdotum Buddhicorum, 1841, by Fridericus Spiegel [Cologne Addition]
+c.2167	WIND. Die Philos. im Fortg. d. Weltg.	WIND. Die Philos. im Fortg. d. Weltg.	? [Cologne Addition]
+c.2168	CARR, Sanskrit Proverbs	CARR, Sanskrit Proverbs	? [Cologne Addition]
+c.2169	WEBER, Indische Skizzen	WEBER, Indische Skizzen	? WEBER, Indische Skizzen [Cologne Addition]
+c.2170	STENZLER, De lexicogr. sanscr. principiis	STENZLER, De lexicogr. sanscr. principiis	? [Cologne Addition]
+c.2171	ŚUK. (Pet. Hdschr.)	ŚUK. (Pet. Hdschr.) 	? [Cologne Addition]
+c.2172	WEBER, Ind. Streifen	WEBER, Ind. Streifen	? [Cologne Addition]
+c.2173	HOEFER, Sanskrit-Lesebuch	Hoefer, Sanskrit-Lesebuch	? [Cologne Addition]
+c.2174	GOLĀDHY. SPHUṬAGATIV.	Golādhy. Sphuṭagativ.	? [Cologne Addition]
+c.2175	GOLĀDHY. GRAHMAṆAV.	Golādhy. Grahmaṇav.	? [Cologne Addition]
+c.2176	WEBER, Indische Streifen	Weber, Indische Streifen	Indische streifen. Eine sammlung von bisher in zeitschriften zerstreuten kleineren abhandlungen, 1868 by Albrecht Weber  [Cologne Addition]
+c.2177	A Catal. of Skt Mss. in priv. libr. of the north-west prov.	A Catal. of Skt Mss. in priv. libr. of the north-west prov.	? [Cologne Addition]
+c.2177a	A Catal. of Skt Mss. in priv. libr. of the north-west provinces	A Catal. of Skt Mss. in priv. libr. of the north-west provinces	? [Cologne Addition]
+c.2178	X	X	? [Cologne Addition]
+c.2179	X	X	? [Cologne Addition]
