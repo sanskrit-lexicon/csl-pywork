@@ -119,7 +119,7 @@ Gk.	<id>Gk.</id> <disp>Greek</disp>
 Got.	<id>Got.</id> <disp>Gothic</disp>  <INFER/>
 Goth.	<id>Goth.</id> <disp>Gothic</disp>
 Govind.	</id>Govind.</id> <disp>Govinda</disp> <INFER/> def? hw = jawADAriSEvamata, darSanAvaraRIya
-Gr.	<id>Gr.</id> <disp>grammar, esp. Whitney’s Sanskrit Grammar</disp>
+Gr.	<id>Gr.</id> <disp>Grammar.</disp>
 Gram.	<id>Gram.</id> <disp>grammar</disp>  <INFER/>
 gram.	<id>gram.</id> <disp>grammar</disp>  <INFER/>
 Gramm.	<id>Gramm.</id> <disp>grammar</disp>  <INFER/>

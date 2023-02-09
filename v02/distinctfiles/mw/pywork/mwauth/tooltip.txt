@@ -700,7 +700,7 @@
 12:47	Vaidyakaparibh.	Vaidyakaparibhāṣā [Cologne Addition]	Title
 12:48	Weber	Albrecht Weber [Cologne Addition]	Author
 12:49	Whitney's Gr.	Whitney Sanskrit Grammar [Cologne Addition]	Title
-12:49a	Gr.	Whitney Sanskrit Grammar [Cologne Addition]	Title
+12:49a	Gr.	Practical Grammar Of The Sanskrit Language  Ed. 4, Monier-Williams, 1877 [Cologne Addition]	Title
 12:50	Yog.	Yogasūtra [Cologne Addition]	Title
 12:51	Windisch	Ernst Wilhelm Oskar Windisch [Cologne Addition]	Author
 12:52	Wh. and Ro.	Atharva Veda Sanhita, Volume 1, by  R.Roth and W.D. Whitney, 1856 [Cologne Addition]	Title
