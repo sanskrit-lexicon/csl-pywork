@@ -12,6 +12,7 @@ Caus.	<id>Caus.</id> <disp>Causativ - causative</disp>
 Comm.	<id>Comm.</id> <disp>Commentar? - commentary</disp>
 Conj.	<id>Conj.</id> <disp>Conjunctiv? - subjunctive (mood)</disp>
 dass.	<id>dass.</id> <disp>dasselbe - the same</disp>
+d. i.	<id>d. i.</id> <disp>das ist - i.e. id est - that is</disp>
 Dat.	<id>Dat.</id> <disp>Dativ - dative (case)</disp>
 Denom.	<id>Denom.</id> <disp>Denominativ? - denominative</disp>
 Desid.	<id>Desid.</id> <disp>Desiderativ - desiderative</disp>
