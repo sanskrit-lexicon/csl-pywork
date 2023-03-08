@@ -74,6 +74,7 @@ indécl.	<id>indécl.</id> <disp>indéclinable</disp>
 inf.	<id>inf.</id> <disp>infinitif</disp>
 interj.	<id>interj.</id> <disp>interjection</disp>
 i.	<id>i.</id> <disp>instrumental</disp>
+inus.	<id>inus.</id> <disp>inusité</disp>
 Irl.	<id>Irl.</id> <disp>irlandais</disp>
 irl.	<id>irl.</id> <disp>irlandais</disp>
 irland.	<id>irland.</id> <disp>irlandais</disp>
@@ -152,6 +153,7 @@ surn.	<id>surn.</id> <disp>surnom</disp>
 Surn.	<id>Surn.</id> <disp>Surnom</disp>
 sync.	<id>sync.</id> <disp>syncope</disp>
 t.	<id>t.</id> <disp>terme</disp>
+t. d'arithm.	<id>t. d'arithm.</id> <disp>terme d’arithmétique</disp>
 tg.	<id>tg.</id> <disp>terme grammatical</disp>
 th.	<id>th.</id> <disp>thème</disp>
 tr.	<id>tr.</id> <disp>très</disp>
