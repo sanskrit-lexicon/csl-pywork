@@ -86,7 +86,7 @@ rel.	<id>rel.</id> <disp>relatif</disp>
 relat.	<id>relat.</id> <disp>relatif</disp>
 sg.	<id>sg.</id> <disp>singulier</disp>
 skt	<id>skt</id> <disp>sanskrit</disp>
-suiv.	<id>suiv.</id> <disp>le mot ou l'entrée suivante</disp>
+suiv.	<id>suiv.</id> <disp>le mot ou l’entrée suivante</disp>
 sup.	<id>sup.</id> <disp>superlatif</disp>
 s. v.	<id>s. v.</id> <disp>sub vocabulo [voir/sous ce/le terme]</disp>
 Up.	<id>Up.</id> <disp>Upaniṣad</disp>
