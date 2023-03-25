@@ -69,8 +69,9 @@ H1B | H2B | H3B | H4B | H1C | H2C | H3C | H4C | H1E | H2E | H3E | H4E)*>
 <!ELEMENT ls (#PCDATA | %body_elts;)*>
 mw requires also ab|s1|ns
 pwg requires also is
+lan requires also sup
   -->
-<!ELEMENT ls (#PCDATA |ab|s1|ns|is|i)*>
+<!ELEMENT ls (#PCDATA |ab|s1|ns|is|i|sup)*>
 <!ELEMENT ab (#PCDATA)>
 <!ELEMENT lbinfo EMPTY>
 <!ELEMENT C EMPTY>
