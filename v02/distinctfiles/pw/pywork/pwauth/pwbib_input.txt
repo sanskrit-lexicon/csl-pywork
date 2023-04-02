@@ -229,6 +229,7 @@ X044	HALL	Hall	Fitzedward Hall [unknown literary source]
 1107	HALĀY.	Halāy.	HALĀYUDHA'S Wörterbuch, Ausg. von AUFRECHT. 
 2028	HANUM. UP.	Hanum. Up.	HANUMADUKTARĀMOPANIṢAD in der Bibl. ind. (GELDNER). 
 X118	HARADATTA	Haradatta	[unknown literary source]
+1110	HARISV.	Harisv.	HarisvAmin
 1111	HARIV.	Hariv.	HARIVAṂŚA. Mit einer Zahi die ältere Calc. Ausg. gemeint, drei Zahlen die neuere lithographirte. 
 2029	HARIV. LANGL.	Hariv. Langl.	LANGLOIS' Uebersetzung des Harivaṃśa. 
 1112	HARṢAC.	Harṣac.	HARṢACARITA, Calcutta 1876 (KERN). 
