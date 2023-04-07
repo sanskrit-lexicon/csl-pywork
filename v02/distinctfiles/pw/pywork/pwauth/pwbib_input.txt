@@ -408,20 +408,6 @@ X065	MBH. ed. Calc.	Mbh. ed. Calc.	[unknown literary source]
 X223	MBH. ed. Vardham.	Mbh. ed. Vardham.	[unknown literary source]
 1190	MED.	Med.	MEDINIKOŚA. 
 1191	MED. avy.	Med. avy.	AVYAYĀNEKĀRTHAVARGA am Ende des MEDINIKOŚA. 
-X103d	MED. dh.	Med. dh.	[unknown literary source]
-X103g	MED. g.	Med. g.	[unknown literary source]
-X103j	MED. j.	Med. j.	[unknown literary source]
-X103k	MED. k.	Med. k.	[unknown literary source]
-X103m	MED. m.	Med. m.	[unknown literary source]
-X103n	MED. n.	Med. n.	[unknown literary source]
-X103p	MED. p.	Med. p.	[unknown literary source]
-X103r	MED. r.	Med. r.	[unknown literary source]
-X103s	MED. s.	Med. s.	[unknown literary source]
-X103t	MED. t.	Med. t.	[unknown literary source]
-X103th	MED. th.	Med. th.	[unknown literary source]
-X103v	MED. v.	Med. v.	[unknown literary source]
-X103y	MED. y.	Med. y.	[unknown literary source]
-X103ṣ	MED. ṣ.	Med. Ṣ.	[unknown literary source]
 3026	MEDHĀT.	Medhāt.	MEDHĀTITHI, ein Scholiast des MANU (JOLLY). 
 1192	MEGH.	Megh.	MEGHADŪTA, Ausg. von STENZLER. 
 1193	MIT.	Mit.	MITĀKṢARĀ. Bei zwei Zahlen ist der VYAVAHĀRĀDHYĀYA, Calcutta 1829, gemeint, bei zwei Zahlen mit folgendem {%a%} oder {%b%} nebst Angabe der Zeile -- das vollständige Werk in 4to. 
