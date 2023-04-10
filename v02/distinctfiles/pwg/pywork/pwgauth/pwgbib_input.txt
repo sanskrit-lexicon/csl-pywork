@@ -284,7 +284,6 @@ R1.001	ĀŚV. ŚR.	Āśv. Śr.	ĀŚV. ŚR. = ĀŚVALĀYANA'S ŚRAUTASŪTRĀṆI 
 1.210	MBH.	Mbh.	MBH. = MAHĀBHĀRATA, ed. Calc. (GILD. Bibl. 93). Von S. 521 des Wörter-&#13;&#10;buchs sind die drei ersten Bücher, von S. 601 auch die fünf letzten,&#13;&#10;von ऊ an auch das 13te Buch ausgebeutet worden.
 1.210a	MBH. ed. Calc.	Mbh. ed. Calc.	MAHĀBHĀRATA, Calcutta edition [Cologne Addition]
 1.211	MED.	Med.	MED. = MEDINĪKOṢA, ed. Calc. (GILD. Bibl. 258). Die Wörter sind zu-&#13;&#10;nächst nach dem letzten Consonanten im Worte angeordnet: also&#13;&#10;कान्त (k), खान्त (kh), गान्त (g) u. s. w. Die Partikeln (avyaya) bilden&#13;&#10;einen besondern Abschnitt am Ende, den wir durch avy. bezeichnet&#13;&#10;haben.
-1.211a	MED.	Med.	MED. = MEDINĪKOṢA, ed. Calc. (GILD. Bibl. 258). Die Wörter sind zu-&#13;&#10;nächst nach dem letzten Consonanten im Worte angeordnet: also&#13;&#10;कान्त (k), खान्त (kh), गान्त (g) u. s. w. Die Partikeln (avyaya) bilden&#13;&#10;einen besondern Abschnitt am Ende, den wir durch avy. bezeichnet&#13;&#10;haben.
 1.212	MEGH.	Megh.	MEGH. = MEGHADŪTA, ed. GILDEMEISTER (GILD. Bibl. 151).
 1.213	Mél. asiat.	Mél. Asiat.	Mél. asiat. = Mélanges asiatiques tirés du Bulletin historico-philologique de l'Académie Impériale des sciences de St.-Pétersbourg.
 1.213a	Mél. as.	Mél. As.	Mél. as. = Mél. asiat. ?
