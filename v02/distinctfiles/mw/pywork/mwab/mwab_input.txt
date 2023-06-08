@@ -47,7 +47,7 @@ Buddh.	<id>Buddh.</id> <disp>Buddhist</disp>
 c.	<id>c.</id> <disp>case</disp>
 Cambro-Brit.	<id>Cambro-Brit.</id> <disp>Cambro-Briton, or Welsh</disp> <INFER/>
 Cat.	<id>Cat.</id> <disp>catalogue or catalogues</disp>  <UNMARKED> <ls>?
-Caus.	<id>Caus.</id> <disp>Causal</disp>
+Caus.	<id>Caus.</id> <disp>Causal, Causative</disp>
 cf.	<id>cf.</id> <disp>confer, compare</disp>
 Cf.	<id>Cf.</id> <disp>confer, compare</disp> <INFER/>
 ch.	<id>ch.</id> <disp>chapter</disp>

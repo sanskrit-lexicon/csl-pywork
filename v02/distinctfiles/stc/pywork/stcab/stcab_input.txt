@@ -23,6 +23,7 @@ dimin.	<id>dimin.</id> <disp>diminutif</disp>
 du.	<id>du.</id> <disp>duel</disp>
 encl.	<id>encl.</id> <disp>enclitique</disp>
 err.	<id>err.</id> <disp>de façon erronée</disp>
+euphém.	<id>euphém.</id> <disp>euphémisme</disp>
 exclam.	<id>exclam.</id> <disp>exclamation/exclamatif</disp>
 ép.	<id>ép.</id> <disp>épithète</disp>
 f.	<id>f.</id> <disp>féminin</disp>
@@ -30,6 +31,7 @@ fig.	<id>fig.</id> <disp>au figuré</disp>
 fut.	<id>fut.</id> <disp>futur.</disp>>
 fut. périphr.	<id>fut. périphr.</id> <disp>futur périphrastique</disp>
 gén.	<id>gén.</id> <disp>génitif</disp>
+génér.	<id>génér.</id> <disp>général/généralement</disp>
 gramm.	<id>gramm.</id> <disp>grammaire (vocabulaire des grammairiens indiens)</disp>
 ibid.	<id>ibid.</id> <disp>ibidem</disp>
 id.	<id>id.</id> <disp>idem</disp>
@@ -66,6 +68,7 @@ ord.	<id>ord.</id> <disp>ordinairement</disp>
 partic.	<id>partic.</id> <disp>participe</disp>
 pass.	<id>pass.</id> <disp>passif</disp>
 patron.	<id>patron.</id> <disp>patronymique</disp>
+personn.	<id>personn.</id> <disp>personnifié</disp>
 pft.	<id>pft.</id> <disp>parfait</disp>
 philos.	<id>philos.</id> <disp>philosophique (langue)</disp>
 pl.	<id>pl.</id> <disp>pluriel</disp>
@@ -86,6 +89,7 @@ rel.	<id>rel.</id> <disp>relatif</disp>
 relat.	<id>relat.</id> <disp>relatif</disp>
 sg.	<id>sg.</id> <disp>singulier</disp>
 skt	<id>skt</id> <disp>sanskrit</disp>
+souv.	<id>souv.</id> <disp>souvent</disp>
 suiv.	<id>suiv.</id> <disp>le mot ou l’entrée suivante</disp>
 sup.	<id>sup.</id> <disp>superlatif</disp>
 s. v.	<id>s. v.</id> <disp>sub vocabulo [voir/sous ce/le terme]</disp>

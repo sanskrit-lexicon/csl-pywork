@@ -100,7 +100,7 @@ M§§	<id>M§§</id> <disp>voir notre Méthode sanscrite, paragraphes</disp>
 n.	<id>n.</id> <disp>neutre</disp>
 N.	<id>N.</id> <disp>Neutre</disp>
 N.-O.	<id>N.-O.</id> <disp>nord-ouest</disp>
-neg.	<id>neg.</id> <disp>negatif</disp>
+nég.	<id>nég.</id> <disp>négatif</disp>
 np.	<id>np.</id> <disp>nom propre</disp>
 Np.	<id>Np.</id> <disp>Nom propre</disp>
 o.	<id>o.</id> <disp>optatif</disp>
@@ -156,6 +156,7 @@ sync.	<id>sync.</id> <disp>syncope</disp>
 t.	<id>t.</id> <disp>terme</disp>
 t. d'arithm.	<id>t. d'arithm.</id> <disp>terme d’arithmétique</disp>
 tg.	<id>tg.</id> <disp>terme grammatical</disp>
+Tg.	<id>Tg.</id> <disp>terme grammatical</disp>
 th.	<id>th.</id> <disp>thème</disp>
 tr.	<id>tr.</id> <disp>très</disp>
 Vd.	<id>Vd.</id> <disp>Véda, védique</disp>
