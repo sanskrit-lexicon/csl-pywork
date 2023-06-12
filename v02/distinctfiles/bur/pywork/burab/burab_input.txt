@@ -38,7 +38,8 @@ conj.	<id>conj.</id> <disp>conjonction</disp>
 conjf.	<id>conjf.</id> <disp>conjonctif</disp>
 d.	<id>d.</id> <disp>datif</disp>
 dém.	<id>dém.</id> <disp>démonstratif</disp>
-dén.	<id>dén.</id> <disp>dénominatif</disp>
+dén.	<id>dén.</id> <disp>(verbe) dénominatif/issu d'un nom</disp>
+dénom.	<id>dénom.</id> <disp>(verbe) dénominatif/issu d'un nom</disp>
 dés.	<id>dés.</id> <disp>désidératif</disp>
 Dés.	<id>Dés.</id> <disp>désidératif</disp>
 du.	<id>du.</id> <disp>duel</disp>
