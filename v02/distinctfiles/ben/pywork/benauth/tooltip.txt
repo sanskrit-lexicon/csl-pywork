@@ -1,5 +1,5 @@
 Amar.	Amaruśataka, ed. Calcutt.
-Ānandal.	Ānandalaharī, in Häberlin's Sanskrit Anthology.
+Ānandal.	Ānandalaharī, in Häberlin’s Sanskrit Anthology.
 Arj.	Arjunasamāgama, an episode of the MBh., ed. Bopp.
 Ujjvalad.	Ujjvaladatta, ed. Aufrecht.
 Bhag.	Bhagavadgītā, ed. Schlegel.
@@ -15,13 +15,13 @@ Brāhmaṇ.	Brāhmaṇavilāpa, an episode of the MBh., ed. Bopp.
 Brāhmaṇav.	Brāhmaṇavilāpa, an episode of the MBh., ed. Bopp.
 Brahmav. P.	Brahmavaivarta-Purāṇa, ed. Stenzler.
 Śāk.	Śākuntala, ed. Böhtlingk.
-Śāntiś.	Śāntiśataka, in Häberlin's Sanskrit Anthology.
+Śāntiś.	Śāntiśataka, in Häberlin’s Sanskrit Anthology.
 Śārṅg.	Śārṅgadhara-Paddhati (MSS. used by Böhtl.).
 Śatr.	Śatruṃjayamāhātmya, ed. A. Weber.
-Cāṇ.	Cāṇakya, published in Häberlin's Anthology, and by Weber in Berl. Monatsb. Hist. Phil. Cl., i. e. in ‘Monthly Reports of the Berlin Academy of Sciences, Class of History and Philology,’ 1864.
+Cāṇ.	Cāṇakya, published in Häberlin’s Anthology, and by Weber in Berl. Monatsb. Hist. Phil. Cl., i. e. in ‘Monthly Reports of the Berlin Academy of Sciences, Class of History and Philology,’ 1864.
 Cāt.	Cātaka, in Zeitschrift für die Kunde des Morgenlands, i. e. ‘Journal for the Knowledge of the Orient,’ vol. iv.
-Caur.	Caurapañcāśikā, in Bohlen's ed. of Bhartṛhari.
-Caurap.	Caurapañcāśikā, in Bohlen's ed. of Bhartṛhari.
+Caur.	Caurapañcāśikā, in Bohlen’s ed. of Bhartṛhari.
+Caurap.	Caurapañcāśikā, in Bohlen’s ed. of Bhartṛhari.
 Chr.	my Sanskrit Chrestomathy.
 Śiś.	Śiśupālavadha, 2. ed. Calc.; the ninth book in my Chr.
 ŚKD.	Śabdakalpadruma.
@@ -48,7 +48,7 @@ Hariv.	Harivaṃśa, ed. Calc.
 Hiḍ.	Hiḍimbavadha, an episode of the MBh., ed. Bopp.
 Hit.	Hitopadeśa, ed. of Lassen, and when followed by M.M.,that of Max Müller. When followed by two Arabian numerals, the first denotes the page, the second the line; when followed by a Roman and Arabian numeral, the first denotes the book, the second the distich.
 Indr.	Indralokāgamana, an episode of the MBh., ed. Bopp.
-Johns. Sel.	Johnson's Selections from the Mahābhārata.
+Johns. Sel.	Johnson’s Selections from the Mahābhārata.
 Kām. Nītis.	Kāmandakīya Nītisāra, in Bibliotheca Indica.
 Kāmand. Nītis.	Kāmandakīya Nītisāra, in Bibliotheca Indica.
 Kathās.	Kathāsaritsāgara, ed. Brockhaus.
@@ -76,7 +76,7 @@ Mit.	Mitākṣarā, ed. Calc., 1829.
 Mṛcch.	Mṛcchakaṭikā, ed. Stenzler.
 Mudrār.	Mudrārākṣasa, ed. Calc.
 Naiṣ.	Naiṣadhacarita, ed. Calc.
-Nal.	Nala, an episode of the MBh. ed. Bopp.; a numeral in brackets denotes Böhtlingk's ed. in his Chrestomathy.
+Nal.	Nala, an episode of the MBh. ed. Bopp.; a numeral in brackets denotes Böhtlingk’s ed. in his Chrestomathy.
 Nalod.	Nalodaya, ed. Benary.
 Nyāya S.	Nyāya-Sūtrāṇi of Gotama, ed. Calc.
 Padmap.	Padma-Purāṇa, ed. Wollheim.
@@ -86,7 +86,7 @@ Prab.	Prabodhacandrodaya, ed. Brockhaus.
 Ragh.	Raghuvaṃśa, ed. Stenzler.
 Rāgh.	Rāghavānanda, Sch. ad Man.
 Rājat.	Rājataraṅgiṇī, ed. Troyer, the fifth book in my Chrestomathy.
-Rām.	Rāmāyaṇa, the two first books after the ed. of Schlegel; when that of Gorresio is meant, there is added Gorr.; the remaining books after Gorresio's.
+Rām.	Rāmāyaṇa, the two first books after the ed. of Schlegel; when that of Gorresio is meant, there is added Gorr.; the remaining books after Gorresio’s.
 Ratnāv.	Ratnāvalī, 2. ed. Calc.
 Schl.	Friedrich Schlegel, German Romantic philosopher and linguist
 Gorr.	Gaspare Gorresio, Italian Orientalist and Indologist
@@ -94,7 +94,7 @@ Rigv.	Rigveda.
 Ṛt.	Ṛtusaṃhāra, ed. Bohlen, the first chapter also in Lass., the sixth in my Chrestomathy.
 Sāh. D.	Sāhitya Darpaṇa, in Bibliotheca Indica.
 Sāh. Darp.	Sāhitya Darpaṇa, in Bibliotheca Indica.
-Sāṅkhya Aph.	Sāṅkhya Sūtras, in Hall's ed. of Saṅkhya Pravacana Bhāṣya in Bibl. Ind.
+Sāṅkhya Aph.	Sāṅkhya Sūtras, in Hall’s ed. of Saṅkhya Pravacana Bhāṣya in Bibl. Ind.
 Sāv.	Sāvitryupākhyāna, an episode of the MBh., ed. Bopp.
 Siddh. K.	Siddhāntakaumudi, ed. Calc., 4to.
 Siddh. Mukt.	Siddhānta Muktāvali, ed. Roër in Bibl. Ind. 
@@ -103,8 +103,8 @@ Suśr.	Suśruta, ed. Calc.; the first numeral denotes the vol., the second the p
 Sund.	Sundopasundopākhyāna, an episode of the MBh., ed. Bopp.
 Upak.	Upakośa, an episode of the Kathās., ed. Brockhaus.
 Utt. Rāmac.	Uttara Rāmacarita, 2. ed. Calc., 1862.
-Varāh. Bṛh.	Varāhamihira's Bṛhajjātaka.
-Varāh. Bṛh. S.	Varāhamihira's Bṛhatsaṃhitā.
+Varāh. Bṛh.	Varāhamihira’s Bṛhajjātaka.
+Varāh. Bṛh. S.	Varāhamihira’s Bṛhatsaṃhitā.
 Vārt.	Vārtika.
 Vedāntas.	Vedāntasāra, in my Chrestomathy.
 Vikr.	Vikramorvaśī, ed. Bollensen. 

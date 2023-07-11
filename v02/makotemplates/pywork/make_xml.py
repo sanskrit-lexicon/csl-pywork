@@ -48,11 +48,18 @@ def close_divs_krm(newline):
 %endif
 %if dictlo not in ['ap','skd','sch','md','shs','cae','wil','ap90','bur','acc','yat']:  # These have their own code
 def dig_to_xml_specific(x):
-%if dictlo in ['pw','pwg','bhs','gra','ae','gst','ieg','mwe','pgn','pui','vei','mw72','snp','bor','mw','inm','bop']:
+%if dictlo in ['pw','pwg','bhs','ae','gst','ieg','mwe','pgn','pui','vei','mw72','snp','bor','mw','inm','bop']:
  """ no changes particular to digitization"""
  return x
 %else:
  """ changes particular to digitization"""
+%endif
+%if dictlo == 'gra':
+ # 06-29-2023
+ x = x.replace('_{','{')
+ x = x.replace('〔','')
+ x = x.replace('〕','')
+ x = x.replace('%%','')
 %endif
 %if dictlo == 'pd':
  x = re.sub(r' < ',' &lt; ',x)  # 6 cases
