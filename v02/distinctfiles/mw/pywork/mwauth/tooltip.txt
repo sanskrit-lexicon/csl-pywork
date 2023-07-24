@@ -685,7 +685,7 @@
 12:29	Colebrooke	Henry Thomas Colebrooke [Cologne Addition]	Author
 12:30	Cowell	Edward Byles Cowell [Cologne Addition]	Author
 12:32	Goldst.	Theodor Goldstücker Sanskrit-English Dictionary [Cologne Addition]	Author
-12:33	Gram.	A practical Grammar of the Sanskrit Language, Monier-Willilams [Cologne Addition]	Author
+12:33	Gram.	A Practical Grammar of the Sanskrit Language, Monier-Willilams [Cologne Addition]	Author
 12:34	Haughton	Dictionary of Bengali-Sanskrit-English, Graves C. Haughton [Cologne Addition]	Author
 12:35	Hpar.	Hemacandra's Pariśiṣṭaparvan	Title
 12:36	JBr.	Jaiminīya-brāhmaṇa	Title
