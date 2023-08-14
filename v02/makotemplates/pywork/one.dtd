@@ -61,7 +61,7 @@ H1B | H2B | H3B | H4B | H1C | H2C | H3C | H4C | H1E | H2E | H3E | H4E)*>
 <!ELEMENT gk (#PCDATA) > <!-- Greek text, GRA-->
 <!ELEMENT heb (#PCDATA) > <!-- Hebrew text, GRA-->
 <!ELEMENT tib (#PCDATA) > <!-- Tibetan text, bhs-->
-<!ELEMENT ger (#PCDATA) > <!-- German text, bhs-->
+<!ELEMENT ger (#PCDATA | i | ab)* > <!-- German text, bhs-->
 <!ELEMENT fr (#PCDATA | i | ab)* > <!-- French text, bhs-->
 <!ELEMENT ed (#PCDATA) > <!-- edition bhs-->
 <!ELEMENT ms (#PCDATA) > <!-- manuscript bhs-->
