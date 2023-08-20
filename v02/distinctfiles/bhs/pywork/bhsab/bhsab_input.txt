@@ -3,6 +3,7 @@
 2d ed.	<id>2d ed.</id> <disp>second edition</disp>
 2d. ed.	<id>2d. ed.</id> <disp>second edition</disp>
 A.D.	<id>A.D.</id> <disp>In the year of our Lord (Latin Anno Domini); CE.</disp>
+a fortiori	<id>a fortiori</id> <disp>Latin, from the stronger (argument)</disp>
 abl.	<id>abl.</id> <disp>ablative.</disp>
 abs.	<id>abs.</id> <disp>absolute.</disp>
 abstr.	<id>abstr.</id> <disp>abstract.</disp>
@@ -16,10 +17,12 @@ adj.	<id>adj.</id> <disp>adjective.</disp>
 adjs.	<id>adjs.</id> <disp>adjectives.</disp>
 adv.	<id>adv.</id> <disp>adverb.</disp>
 altho	<id>altho</id> <disp>although</disp>
+AL	<id>AL</id> <disp>?</disp>
 Altho	<id>Altho</id> <disp>Although</disp>
 AMg.	<id>AMg.</id> <disp>? (lang)</disp>
 analog.	<id>analog.</id> <disp>analogical(ly).</disp>
 AnSS.	<id>AnSS.</id> <disp>?</disp>
+aor	<id>aor</id> <disp>aorist.</disp>
 aor.	<id>aor.</id> <disp>aorist.</disp>
 Ap.	<id>Ap.</id> <disp>Apabhraṃśa; Apadāna (Pali text).</disp>
 app.	<id>app.</id> <disp>apparently.</disp>
@@ -29,13 +32,17 @@ B.	<id>B.</id> <disp>Buddha.</disp>
 BHS	<id>BHS</id> <disp>Buddhist Hybrid Sanskrit.</disp>
 Bhvr	<id>Bhvr</id> <disp>bahuvrīhi, a class of Sanskrit compounds.</disp>
 Bhvr.	<id>Bhvr.</id> <disp>Bahuvrīhi.</disp>
-Bodhicaryāv.	<id>Bodhicaryāv.</id> <disp>Bodhicaryāvatāra-ṭīkā, ed. LaVallée Poussin, Brussels, 1898. (?)</disp>
 Bodhis.	<id>Bodhis.</id> <disp>Bodhisattva</disp>
 Boehtlingkʼs ed.	<id>Boehtlingkʼs ed.</id> <disp>Boehtlingkʼs edition</disp>
 Bomb.	<id>Bomb.</id> <disp>Bombay edition</disp>
+Bomb. ed.	<id>Bomb. ed.</id> <disp>Bombay edition</disp>
+Bombay	<id>Bombay</id> <disp>Bombay edition</disp>
+Bombay ed. of 1889	<id>Bombay ed. of 1889</id> <disp>Bombay edition of 1889</disp>
 Br.	<id>Br.</id> <disp>Brāhmaṇas (language of).</disp>
+BSkt.	<id>BSkt.</id> <disp>?</disp>
 Bu.	<id>Bu.</id> <disp>Buddhist.</disp>
 Buddh.	<id>Buddh.</id> <disp>Buddhist; Buddhism.</disp>
+Buddhist Skt.	: <id>Buddhist Skt.</id> <disp>Buddhist Sanskrit</disp>
 Calc.	<id>Calc.</id> <disp>Calcutta edition</disp>
 caus.	<id>caus.</id> <disp>causative.</disp>
 Cf	<id>Cf</id> <disp>Compare.</disp>
@@ -61,6 +68,7 @@ correl.	<id>correl.</id> <disp>correlative</disp>
 corresp.	<id>corresp.</id> <disp>correspondent, corresponding, corresponds.</disp>
 Corresp.	<id>Corresp.</id> <disp>correspondent, corresponding, corresponds.</disp>
 Corrig.	<id>Corrig.</id> <disp>Corrigenda.</disp>
+cpd	<id>cpd</id> <disp>compound.</disp>
 cpd.	<id>cpd.</id> <disp>compound.</disp>
 cpds	<id>cpds</id> <disp>compounds.</disp>
 cpds.	<id>cpds.</id> <disp>compounds.</disp>
@@ -85,7 +93,6 @@ deriv.	<id>deriv.</id> <disp>derived, derivative.</disp>
 derivs.	<id>derivs.</id> <disp>derivatives.</disp>
 desid.	<id>desid.</id> <disp>desiderative</disp>
 Deśī	<id>Deśī</id> <disp>? (lang)</disp>
-Dh	<id>Dh</id> <disp>Dharma (?)</disp>
 dial.	<id>dial.</id> <disp>dialectic.</disp>
 dict.	<id>dict.</id> <disp>dictionary</disp>
 Dict.	<id>Dict.</id> <disp>Dictionary (Buddhist Hybrid Sanskrit dictionary).</disp>
@@ -98,7 +105,6 @@ E.g.	<id>E.g.</id> <disp>for example (Latin exempli gratia)</disp>
 e.g.	<id>e.g.</id> <disp>for example (Latin exempli gratia)</disp>
 ed.	<id>ed.</id> <disp>editor, edition.</disp>
 Ed.	<id>Ed.</id> <disp>editor, edition.</disp>
-ed. Stein	<id>ed. Stein</id> <disp>Stein edition.</disp>
 edd.	<id>edd.</id> <disp>edited (?)</disp>
 Edd.	<id>Edd.</id> <disp>edited (?)</disp>
 em.	<id>em.</id> <disp>emended, emendation.</disp>
@@ -106,6 +112,7 @@ Em.	<id>Em.</id> <disp>emended, emendation.</disp>
 ems.	<id>ems.</id> <disp>emendations.</disp>
 Eng.	<id>Eng.</id> <disp>English</disp>
 ep.	<id>ep.</id> <disp>epithet.</disp>
+epic	<id>epic</id> <disp>(Sanskrit) epic poetry. (?)</disp>
 Epic	<id>Epic</id> <disp>(Sanskrit) epic poetry. (?)</disp>
 Epic Skt.	<id>Epic Skt.</id> <disp>(Sanskrit) epic poetry. (?)</disp>
 eps.	<id>eps.</id> <disp>epithets.</disp>
@@ -113,9 +120,14 @@ equiv.	<id>equiv.</id> <disp>equivalent.</disp>
 erron.	<id>erron.</id> <disp>erroneously.</disp>
 esp.	<id>esp.</id> <disp>especially.</disp>
 et al.	<id>et al.</id> <disp>and others (Latin et alia)</disp>
+et alibi	<id>et alibi</id> <disp>Latin phrase - and elsewhere</disp>
+et passim	<id>et passim</id> <disp>and here and there, throughout (Latin)</disp>
 etc.	<id>etc.</id> <disp>and the rest (Latin et cetera)</disp>
+etc	<id>etc</id> <disp>and the rest (Latin et cetera)</disp>
+etym	<id>etym</id> <disp>etymology.</disp>
 etym.	<id>etym.</id> <disp>etymology.</disp>
 Etym.	<id>Etym.</id> <disp>etymology.</disp>
+etymolog.	<id>etymolog.</id> <disp>etymological</disp>
 ex.	<id>ex.</id> <disp>example. (?)</disp>
 exc.	<id>exc.</id> <disp>except.</disp>
 expl.	<id>expl.</id> <disp>explained, explanation.</disp>
@@ -150,6 +162,8 @@ Hindi	<id>Hindi</id> <disp>Hindi language</disp>
 i.e.	<id>i.e.</id> <disp>that is  (Latin id est)</disp>
 ib.	<id>ib.</id> <disp>in the same place (Latin ibidem)</disp>
 ibid.	<id>ibid.</id> <disp>in the same place (Latin ibidem)</disp>
+ibidem	<id>ibidem</id> <disp>Latin word - in the same place</disp>
+id	<id>id</id> <disp>the same (Latin idem)</disp>
 id.	<id>id.</id> <disp>the same (Latin idem)</disp>
 IE.	<id>IE.</id> <disp>Indo-European</disp>
 ifc.	<id>ifc.</id> <disp>at the end of compounds.</disp>
@@ -186,12 +200,12 @@ Kyoto	<id>Kyoto</id> <disp>Kyoto edition</disp>
 Kyoto ed.	<id>Kyoto ed.</id> <disp>Kyoto edition</disp>
 Kyōtō	<id>Kyōtō</id> <disp>Kyoto edition</disp>
 Kyōtō ed.	<id>Kyōtō ed.</id> <disp>Kyoto edition</disp>
-Ḱ	<id>Ḱ</id> <disp>Wogihara and Tsuchidaʼs Ḱ manuscript of Saddharmapuṇḍarīka</disp>
 l.	<id>l.</id> <disp>line. (?)</disp>
 l. c.	<id>l. c.</id> <disp>in the place cited.</disp>
 Lat.	<id>Lat.</id> <disp>Latin language.</disp>
 late Skt.	<id>late Skt.</id> <disp>late Sanskrit</disp>
 lect. fac.	<id>lect. fac.</id> <disp>lectio facilior.</disp>
+Lex	<id>Lex</id> <disp>lexicon, lexical; see also Bbh, in the preceding list of abbreviations.</disp>
 Lex.	<id>Lex.</id> <disp>lexicon, lexical; see also Bbh, in the preceding list of abbreviations.</disp>
 lex.	<id>lex.</id> <disp>lexicon, lexical; see also Bbh, in the preceding list of abbreviations.</disp>
 Lexx.	<id>Lexx.</id> <disp>lexicons. (?)</disp>
@@ -201,6 +215,7 @@ Lit.	<id>Lit.</id> <disp>literally.</disp>
 litt.	<id>litt.</id> <disp>literally.</disp>
 ll.cc.	<id>ll.cc.</id> <disp>in the places cited (Latin loco citato). (?)</disp>
 loc.	<id>loc.</id> <disp>locative.</disp>
+loc	<id>loc</id> <disp>locative.</disp>
 loc. cit.	<id>loc. cit.</id> <disp>in the place cited (Latin loco citato)</disp>
 locs.	<id>locs.</id> <disp>locatives.</disp>
 m.	<id>m.</id> <disp>masculine.</disp>
@@ -213,6 +228,7 @@ mascs.	<id>mascs.</id> <disp>masculines.</disp>
 math.	<id>math.</id> <disp>mathematics.</disp>
 metr.	<id>metr.</id> <disp>metrical(ly).</disp>
 mg.	<id>mg.</id> <disp>meaning.</disp>
+mg	<id>mg</id> <disp>meaning</disp>
 Mg.	<id>Mg.</id> <disp>meaning.</disp>
 mgs.	<id>mgs.</id> <disp>meanings.</disp>
 Mgs.	<id>Mgs.</id> <disp>Meanings.</disp>
@@ -222,6 +238,7 @@ MIndic	<id>MIndic</id> <disp>Middle Indic.</disp>
 misc.	<id>misc.</id> <disp>miscellaneous.</disp>
 Mongol	<id>Mongol</id> <disp>Mongolian language.</disp>
 Mongolian	<id>Mongolian</id> <disp>Mongolian language.</disp>
+ms	<id>ms</id> <disp>manuscript.</disp>
 ms.	<id>ms.</id> <disp>manuscript.</disp>
 mss	<id>mss</id> <disp>manuscripts.</disp>
 mss.	<id>mss.</id> <disp>manuscripts.</disp>
@@ -240,6 +257,7 @@ N.B.	<id>N.B.</id> <disp>note well (Latin nota bene).</disp>
 neg.	<id>neg.</id> <disp>negative.</disp>
 negs.	<id>negs.</id> <disp>negatives</disp>
 Nep.	<id>Nep.</id> <disp>Nepalese.</disp>
+Nepali	<id>Nepali</id> <disp>Nepalese.</disp>
 neut.	<id>neut.</id> <disp>neuter.</disp>
 Niya	<id>Niya</id> <disp>Niya Prakrit or Niya Gāndhārī, a Middle Indian language from the 3rd and 4th centuries CE.</disp>
 Niya Pkt.	<id>Niya Pkt.</id> <disp>Niya Prakrit or Niya Gāndhārī, a Middle Indian language from the 3rd and 4th centuries CE.</disp>
@@ -255,6 +273,7 @@ NW Niya Pkt.	<id>NW Niya Pkt.</id> <disp>Northwest Niya Prakrit or Niya Gāndhā
 obj.	<id>obj.</id> <disp>object.</disp>
 obl.	<id>obl.</id> <disp>oblique.</disp>
 Obv.	<id>Obv.</id> <disp>?</disp>
+older Skt.	<id>older Skt.</id> <disp>older Sanskrit</disp>
 om.	<id>om.</id> <disp>omits (?)</disp>
 onomat.	<id>onomat.</id> <disp>onomatopoetic.</disp>
 op. cit.	<id>op. cit.</id> <disp>in the work cited (Latin opere citato)</disp>
@@ -265,16 +284,17 @@ ord. num.	<id>ord. num.</id> <disp>ordinal number.</disp>
 orig.	<id>orig.</id> <disp>original(ly).</disp>
 Orig.	<id>Orig.</id> <disp>original(ly).</disp>
 p.	<id>p.</id> <disp>(?)</disp>
-P.K.	<id>P.K.</id> <disp>Pūraṇa Kāśyapa (?)</disp>
 Pali	<id>Pali</id> <disp>Pali language.</disp>
 para.	<id>para.</id> <disp>paragraph</disp>
 paren.	<id>paren.</id> <disp>parentheses</disp>
 pass.	<id>pass.</id> <disp>passive.</disp>
 pass. pple.	<id>pass. pple.</id> <disp>passive participle.</disp>
 pass. pres. pple.	<id>pass. pres. pple.</id> <disp>passive present participle.</disp>
-passim.	<id>passim.</id> <disp>here and there, throughout (Latin)</disp>
+passim	<id>passim</id> <disp>here and there, throughout (Latin)</disp>
 patron.	<id>patron.</id> <disp>patronymic</disp>
 pej.	<id>pej.</id> <disp>pejorative.</disp>
+pejor.	<id>pejor.</id> <disp>pejorative.</disp>
+penult	<id>penult</id> <disp>the penultimate syllable of a word</disp>
 perf.	<id>perf.</id> <disp>perfect.</disp>
 perf. act. pple.	<id>perf. act. pple.</id> <disp>perfect active participle.</disp>
 perh.	<id>perh.</id> <disp>perhaps.</disp>
@@ -282,8 +302,13 @@ Perh.	<id>Perh.</id> <disp>perhaps.</disp>
 pers.	<id>pers.</id> <disp>person.</disp>
 Pkt	<id>Pkt</id> <disp>Prakrit language.</disp>
 Pkt.	<id>Pkt.</id> <disp>Prakrit.</disp>
+Pktism	<id>Pktism</id> <disp>Prakritism.</disp>
+Pktic	<id>Pktic</id> <disp>Prakritic.</disp>
+Pktic.	<id>Pktic.</id> <disp>Prakritic.</disp>
 pl.	<id>pl.</id> <disp>plural.</disp>
+pl	<id>pl</id> <disp>plural.</disp>
 plur.	<id>plur.</id> <disp>plural</disp>
+pop.	<id>pop.</id> <disp>popular.</disp>
 postp.	<id>postp.</id> <disp>postposition.</disp>
 postpos.	<id>postpos.</id> <disp>postposition.</disp>
 pple.	<id>pple.</id> <disp>participle.</disp>
@@ -329,14 +354,18 @@ q.v.	<id>q.v.</id> <disp>which see (Latin quod vide)</disp>
 qq.v.	<id>qq.v.</id> <disp>which see (Latin quod vide)</disp>
 Qy	<id>Qy</id> <disp>Query.</disp>
 qy	<id>qy</id> <disp>query.</disp>
+quot.	<id>quot.</id> <disp>quoted.</disp>
 redupl.	<id>redupl.</id> <disp>reduplicative</disp>
 ref.	<id>ref.</id> <disp>reference(s).</disp>
 refs.	<id>refs.</id> <disp>references.</disp>
 rel.	<id>rel.</id> <disp>relative</disp>
 resp.	<id>resp.</id> <disp>respectively</disp>
 Rev.	<id>Rev.</id> <disp>Revision (?)</disp>
+S	<id>S</id> <disp>Senart</disp>
 s.v.	<id>s.v.</id> <disp>under the word (Latin sub verbo)</disp>
+s.vv	<id>s.vv</id> <disp>under the words (Latin sub verbo)</disp>
 s.vv.	<id>s.vv.</id> <disp>under the words (Latin sub verbo)</disp>
+sc	<id>sc</id> <disp>scilicet (namely).</disp>
 sc.	<id>sc.</id> <disp>scilicet (namely).</disp>
 scil.	<id>scil.</id> <disp>namely (Latin scilicet)</disp>
 sec.	<id>sec.</id> <disp>section (?)</disp>
@@ -352,12 +381,15 @@ Sktization	<id>Sktization</id> <disp>Sanskritization</disp>
 Sktized	<id>Sktized</id> <disp>Sanskritized</disp>
 subj.	<id>subj.</id> <disp>subject.</disp>
 subst.	<id>subst.</id> <disp>substantive.</disp>
+subst	<id>subst</id> <disp>substantive.</disp>
 superl.	<id>superl.</id> <disp>superlative.</disp>
 syn.	<id>syn.</id> <disp>synonym(ous).</disp>
+Tamil	<id>Tamil</id> <disp>Tamil language</disp>
 Tatp.	<id>Tatp.</id> <disp>tat-puruṣa (class of Sanskrit compounds).</disp>
 tatp.	<id>tatp.</id> <disp>tat-puruṣa (class of Sanskrit compounds).</disp>
 Tatpur.	<id>Tatpur.</id> <disp>tat-puruṣa (class of Sanskrit compounds).</disp>
 tatpur.	<id>tatpur.</id> <disp>tat-puruṣa (class of Sanskrit compounds).</disp>
+Telugu	<id>Telugu</id> <disp>Telugu language</disp>
 tho	<id>tho</id> <disp>though</disp>
 thru	<id>thru</id> <disp>through</disp>
 Tib.	<id>Tib.</id> <disp>Tibetan language.</disp>
@@ -371,14 +403,15 @@ unmetr.	<id>unmetr.</id> <disp>unmetrical(ly).</disp>
 unorig.	<id>unorig.</id> <disp>unoriginal</disp>
 Up.	<id>Up.</id> <disp>Upanishad.</disp>
 v.a.	<id>v.a.</id> <disp>for example (Latin ?)</disp>
+v.l	<id>v.l</id> <disp>variant reading.</disp>
 v.l.	<id>v.l.</id> <disp>variant reading.</disp>
 var.	<id>var.</id> <disp>variant</disp>
 varr.	<id>varr.</id> <disp>variants</disp>
 vb.	<id>vb.</id> <disp>verb.</disp>
 Ved.	<id>Ved.</id> <disp>Vedic.</disp>
 Vedic	<id>Vedic</id> <disp>Vedic Sanskrit. (?)</disp>
-viell.	<id>viell.</id> <disp>perhaps (German vielleicht).</disp>
 viz.	<id>viz.</id> <disp>literally (Latin videlicet)</disp>
+viz	<id>viz</id> <disp>literally (Latin videlicet)</disp>
 voc.	<id>voc.</id> <disp>vocative.</disp>
 vocs.	<id>vocs.</id> <disp>vocatives.</disp>
 vs	<id>vs</id> <disp>verse.</disp>
@@ -388,3 +421,4 @@ vss.	<id>vss.</id> <disp>verses.</disp>
 vv.ll.	<id>vv.ll.</id> <disp>variant readings.</disp>
 Vārt.	<id>Vārt.</id> <disp>vārttika, Kātyāyana critical annotations on the aphorisms of Pāṇini grammar</disp>
 w.r.	<id>w.r.</id> <disp>wrong reading.</disp>
+Ḱ	<id>Ḱ</id> <disp>Wogihara and Tsuchidaʼs Ḱ manuscript of Saddharmapuṇḍarīka</disp>

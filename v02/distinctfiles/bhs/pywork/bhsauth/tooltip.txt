@@ -17,7 +17,6 @@ AbhidhK. LaV-P. Index	Abhidharmakośa, transl. LaVallée Poussin, Paris and Louv
 AbhidhK. Vy.	Abhidharmakośa, transl. LaVallée Poussin, Paris and Louvain, 1923—31; many technical words cited from Index, transl., and notes. References, as in the Index, are to Book (of the original) and page of the translation.
 Abhidhānappadīpikā	?
 Abhisamayālaṃkārāloka (GOS 62)	?
-AbidhK. LaV-P.	Abhidharmakośa, transl. LaVallée Poussin, Paris and Louvain, 1923—31; many technical words cited from Index, transl., and notes. References, as in the Index, are to Book (of the original) and page of the translation.
 Acharya, Dict. Hind. Arch.	Dict(ionary of) Hindu Arch(itecture), Oxford Univ. Press, n.d. [1927?].
 Acharya, Dict. Hindu Arch.	Dict(ionary of) Hindu Arch(itecture), Oxford Univ. Press, n.d. [1927?].
 Acharya, Dict. Hindu Architecture	Dict(ionary of) Hindu Arch(itecture), Oxford Univ. Press, n.d. [1927?].
@@ -29,15 +28,19 @@ AdP, Konow MASI 69	Sten Konow, Central Asian Fragments of the Aṣṭādaśasāh
 AdP, Konow, MASI 69	Sten Konow, Central Asian Fragments of the Aṣṭādaśasāhasrikā, in Memoirs of the Archaeological Survey of India, No. 69, 1942. Only a few rare and important words.
 AGS	?
 Ait. Br.	Aitareya Brāhmaṇa.
+Amara	Amarakośa.
 Amarak.	Amarakośa.
+Amarakośa	Amarakośa.
 AN	Aṅguttaranikāya (Pali).
 AN comm.	?
+Andersenʼs Reader, Glossary	?
 Ap	Apabhraṃśa; Apadāna (Pali text).
 Apte	Apte, Studentʼs Sanskrit-English Dictionary (1922).
 ApŚ	Apastamba Śrauta Sūtra.
 Arthaśāstra	?
 AsP	Aṣṭasāhasrikā-prajñāpāramitā, ed. Rajendralala Mitra, Calcutta, 1888.
 Atthasālinī	?
+Aufrecht	?
 Aung and Rhys Davids, Compendium of Philos.	?
 AV	Atharvaveda.
 Av	Avadāna-śataka, ed. Speyer, 2 vols., St. Petersburg, 1902, 1906; transl. Feer, Annales du Musée Guimet 18 (1891).
@@ -48,6 +51,7 @@ AVPariś.	Atharvaveda Pariśiṣṭa.
 Aśoka, Rock Ed.	?
 Aśokan u(y)yāma, Rock Ed.	?
 Aśokaʼs 4th Rock Edict, Dhauli-Jaugada version	?
+Āṭānāṭika Sūtra	?
 B.	Saddharmapuṇḍarīka, ed. Kern and Nanjio, St. Petersburg, 1912, abbreviated KN; supplementary references to ed. of Wogihara and Tsuchida, Tokyo, 1934—35, abbreviated WT; fragments of ‘Kashgar’ or Central Asiatic recension, ed. Thomas and Lüders, ap. Hoernle, MR 133 ff., 144 ff.; others, ed. LaVallée Poussin, JRAS 1911, 1070 ff.; transl. Burnouf (Lotus de la Bonne Loi, Paris, 1852), and Kern (SBE 21, Oxford, 1884). Tibetan citations chiefly from block-print in my possession, partly from WT. When my work was practically ready for print, my colleague Professor Rahder received, and lent to me, the photostatic reproduction of the ms. referred to by WT as Ḱ. It has been cited a very few times. The quotations from it in WT seem to be very inaccurate.
 B. and R.	Böhtlingk and Roth Grosses Petersburger Wörterbuch
 B.Pr.S.	?
@@ -55,6 +59,7 @@ B.S.	?
 Bailey, BSOS	Bailey in Bulletin of the School of Oriental (and African) Studies, London.
 Bailey, JRAS	Bailey in Journal of the Royal Asiatic Society.
 Barua and Mitra	?
+Baruch, Beiträge zum Saddharmapuṇḍarīkasūtra	?
 Bbh	Bodhisattvabhūmi, ed. Wogihara, Tokyo, 1930—36. Includes the editorʼs dissertation, Lexikalisches aus der Bodhisattvabhūmi, which is referred to as Wogihara, Lex.
 Bbh.	Bodhisattvabhūmi, ed. Wogihara, Tokyo, 1930—36. Includes the editorʼs dissertation, Lexikalisches aus der Bodhisattvabhūmi, which is referred to as Wogihara, Lex.
 Bca.ṭ.	Bodhicaryāvatāra-ṭīkā, ed. LaVallée Poussin, Brussels, 1898. Technical terms cited from Index.
@@ -79,14 +84,18 @@ Bhad	Bhadracarī, ed. Watanabe, Leipzig, 1912. Identical with Gv 543.9—548.2. 
 Bhav.	Bhavisattakahā (Ap.), ed. Jacobi (1918).
 Bhav. (Jacobi)	Bhavisattakahā (Ap.), ed. Jacobi (1918).
 Bhaṭṭ.	?
+Bhattacharya, GOS	?
 BhG.	Bhagavad Gītā.
 BhP.	?
 Bhāg.P.	Bhāgavata Purāṇa.
 BhāgP.	Bhāgavata Purāṇa.
 Bhīk	Bhikṣunī-karmavācanā, ed. Ridding and LaVallée Poussin, BSOS 1, Part 3, 123—143. Cited by page and line of the manuscript as reproduced in ed.
+Bimbisārasūtra, Waldschmidt, Kl. Skt. Texte 4	?
 Bloomfield, Mūladeva, Proc. Am. Philos. Soc.	?
 Bodhicaryāv.	Bodhicdaryāvatāra-ṭīkā, ed. LaVallée Poussin, Brussels, 1898. Technical terms cited from Index.
 Bodhicaryāvatārapañjikā (Bibl. Ind.)	Bodhicdaryāvatāra-ṭīkā, ed. LaVallée Poussin, Brussels, 1898. Technical terms cited from Index.
+Bodhicaryāv. pañjikā	 ?
+Boehtlingk	?
 BR	Boehtlingk and Roth, Sanskrit Wörterbuch.
 Brahmadatta Jāt.	?
 BSOS 1	Bulletin of the School of Oriental (and African) Studies, London.
@@ -94,6 +103,7 @@ Bu.v.	Buddha-vaṃsa (Pali).
 Buddhac.	Buddhacarita, ed. Johnston, Calcutta, 1935. The language is standard Skt.; a few words, chiefly religious, are cited by chapter and verse.
 Buddhacarita	Buddhacarita, ed. Johnston, Calcutta, 1935. The language is standard Skt.; a few words, chiefly religious, are cited by chapter and verse.
 Buddhacarita (Johnston)	Buddhacarita, ed. Johnston, Calcutta, 1935. The language is standard Skt.; a few words, chiefly religious, are cited by chapter and verse.
+Burlingame	?
 Burlingame, HOS	?
 Burlingame, JRAS	Burlingame in Journal of the Royal Asiatic Society.
 Burnouf	Eugène Burnouf, 1801-1852, French indologist and orientalist.
@@ -113,12 +123,14 @@ BṛhU.	?
 Campeyya-Jāt.	?
 Cappeller, HOS 15, Glossar	?
 Car.	Caraka.
+Caraka	Caraka.
 Cath. Miss. Dict.	the Tibetan Dictionary of the French Catholic Mission.
 Catudvāra Jāt.	?
 Ch.U.	?
 Ch.Up.	?
 Chakravarti	Udānavarga; chap. 1—21, ed. Chakravarti (1930; except ch. 4, for which see Lévi, JAs. X. 20, 1912, 203 ff.); ch. 29, ed. Pischel, SBBA 1908, 968 ff.; ch. 30, 31, 32, ed. LaVallée Poussin, JRAS 1912, 369 ff. Cited by chapter and verse.
 Charpentier IA 57 (1928)	?
+Charpentier	?
 Childers	Dictionary of the Pali Language, R. C. Childers.
 Colebrooke, Essays	?
 Colebrooke, Misc. Essays	?
@@ -171,11 +183,12 @@ Dutreuil ‘Prakrit Dhammapada’	?
 Dutreuil, C fragm.	?
 Dutt	Mūla-Sarvāstivāda-Vinaya; Gilgit Manuscripts, ed. Nalinaksha Dutt, Vol. 3, Parts i (undated), ii (1942), iii (1943), Srinagar, Kashmir. Part iv (1950) arrived late, but its most important words have been included. Unfortunately this valuable series came to hand so late in the progress of my task that I felt it impossible to include Volumes 1 and 2, which seem somewhat less important.
 Dutt Introd.	Mūla-Sarvāstivāda-Vinaya; Gilgit Manuscripts, ed. Nalinaksha Dutt, Vol. 3, Parts i (undated), ii (1942), iii (1943), Srinagar, Kashmir. Part iv (1950) arrived late, but its most important words have been included. Unfortunately this valuable series came to hand so late in the progress of my task that I felt it impossible to include Volumes 1 and 2, which seem somewhat less important.
+Dhvajāgrasūtra, Waldschmidt, Kl. Skt. Texte 4	?
 Dvy	?
 Dāṭh.	?
 Dīp.	Dīpavaṃsa (Pali).
 Dīpav.	?
-E. Lamotte, ĽĀlayavijñāna [Le Réceptacle] dans le Mahāyāna-saṃgraha, Mél. chin. et boud., vol. 3, Brussels, 1935	?
+E. Lamotte, LʼĀlayavijñāna [Le Réceptacle] dans le Mahāyāna-saṃgraha, Mél. chin. et boud., vol. 3, Brussels, 1935	?
 Edgerton, Festschrift Winternitz	?
 Edgerton, Indian Studies in honor of C.R. Lanman	?
 Edgerton, JAOS	?
@@ -185,6 +198,7 @@ Etymolog. gloss Śikṣ	?
 EV	?
 F.	?
 F.W.K. Müller, Ethnologisches, Notizblatt	?
+F.ʼs ed.	?
 Fausböll	?
 Fausböll Dhp. comm.	?
 Feer	Avadāna-śataka, ed. Speyer, 2 vols., St. Petersburg, 1902, 1906; transl. Feer, Annales du Musée Guimet 18 (1891).
@@ -202,13 +216,17 @@ Foucaux, Notes	Lalitavistara, ed. Lefmann, Halle, 1902; Critical Apparatus, 1908
 Foucauxʼs note	Lalitavistara, ed. Lefmann, Halle, 1902; Critical Apparatus, 1908; abbreviated Lefm.; ‘Calc.’ = ed. of Rajendralala Mitra, Calcutta, 1877; transl. Foucaux, Annales du Musée Guimet 6, and Notes, 19; Tibetan version (partial), with transl., by Foucaux, Paris, 1847; Weller = F. Weller, Zum Lalita Vistara, I. Über die Prosa des Lal. Vist., Leipzig, 1915.
 Foucauxʼs transl.	Lalitavistara, ed. Lefmann, Halle, 1902; Critical Apparatus, 1908; abbreviated Lefm.; ‘Calc.’ = ed. of Rajendralala Mitra, Calcutta, 1877; transl. Foucaux, Annales du Musée Guimet 6, and Notes, 19; Tibetan version (partial), with transl., by Foucaux, Paris, 1847; Weller = F. Weller, Zum Lalita Vistara, I. Über die Prosa des Lal. Vist., Leipzig, 1915.
 Foucauxʼs Transl.	Lalitavistara, ed. Lefmann, Halle, 1902; Critical Apparatus, 1908; abbreviated Lefm.; ‘Calc.’ = ed. of Rajendralala Mitra, Calcutta, 1877; transl. Foucaux, Annales du Musée Guimet 6, and Notes, 19; Tibetan version (partial), with transl., by Foucaux, Paris, 1847; Weller = F. Weller, Zum Lalita Vistara, I. Über die Prosa des Lal. Vist., Leipzig, 1915.
+Foucauxʼs ed.	?
 fragm. 23 V 2	?
 fragment 36 V 3	?
 fragment 44 V 1	?
+Francis and Dutoit	?
 French Catholic Dict.	the Tibetan Dictionary of the French Catholic Mission.
 G.W. Brown, JAOS	?
+Galanos	?
 Garbe, Ind. Min.	?
 Gauthiot, MSL 19 (1915)	Mémoires de la Société de Linguistique (de Paris).
+Gaṇapati Sastri	?
 Gaṅgamāla Jāt.	?
 Gaṅgamāla-Jāt.	?
 Geiger	Pali, Strassburg, 1916. Cited by numbers of sections, without the symbol §.
@@ -323,7 +341,6 @@ Kauṭ. Arth.	Kauṭiliya (Arthaśāstra).
 Kauṭ. Arth. Sham.	Kauṭiliya (Arthaśāstra).
 Kauṭ. Arth. Sham.¹	Kauṭiliya (Arthaśāstra).
 Kauṭ. Arth., Sham.¹	Kauṭiliya (Arthaśāstra).
-Kauṭ. Arth., Shama S.¹	Kauṭiliya (Arthaśāstra).
 Kauṭ. Arth., Shama-S.¹	Kauṭiliya (Arthaśāstra).
 Kauṭ. Shama Sastri 1st ed.	Kauṭiliya (Arthaśāstra).
 KaṭhaU.	?
@@ -344,6 +361,7 @@ Kern, SP	?
 Kern, SP Preface	?
 Kern, Transl.	?
 Kern, Versl. K. Akad. Afd. Lett.	?
+Kernʼs ed.	?
 Kernʼs note in Transl. of SP, SBE 21	Saddharmapuṇḍarīka, ed. Kern and Nanjio, St. Petersburg, 1912, abbreviated KN; supplementary references to ed. of Wogihara and Tsuchida, Tokyo, 1934—35, abbreviated WT; fragments of ‘Kashgar’ or Central Asiatic recension, ed. Thomas and Lüders, ap. Hoernle, MR 133 ff., 144 ff.; others, ed. LaVallée Poussin, JRAS 1911, 1070 ff.; transl. Burnouf (Lotus de la Bonne Loi, Paris, 1852), and Kern (SBE 21, Oxford, 1884). Tibetan citations chiefly from block-print in my possession, partly from WT. When my work was practically ready for print, my colleague Professor Rahder received, and lent to me, the photostatic reproduction of the ms. referred to by WT as Ḱ. It has been cited a very few times. The quotations from it in WT seem to be very inaccurate.
 Kernʼs Preface	Saddharmapuṇḍarīka, ed. Kern and Nanjio, St. Petersburg, 1912, abbreviated KN; supplementary references to ed. of Wogihara and Tsuchida, Tokyo, 1934—35, abbreviated WT; fragments of ‘Kashgar’ or Central Asiatic recension, ed. Thomas and Lüders, ap. Hoernle, MR 133 ff., 144 ff.; others, ed. LaVallée Poussin, JRAS 1911, 1070 ff.; transl. Burnouf (Lotus de la Bonne Loi, Paris, 1852), and Kern (SBE 21, Oxford, 1884). Tibetan citations chiefly from block-print in my possession, partly from WT. When my work was practically ready for print, my colleague Professor Rahder received, and lent to me, the photostatic reproduction of the ms. referred to by WT as Ḱ. It has been cited a very few times. The quotations from it in WT seem to be very inaccurate.
 Kernʼs SP Preface	Saddharmapuṇḍarīka, ed. Kern and Nanjio, St. Petersburg, 1912, abbreviated KN; supplementary references to ed. of Wogihara and Tsuchida, Tokyo, 1934—35, abbreviated WT; fragments of ‘Kashgar’ or Central Asiatic recension, ed. Thomas and Lüders, ap. Hoernle, MR 133 ff., 144 ff.; others, ed. LaVallée Poussin, JRAS 1911, 1070 ff.; transl. Burnouf (Lotus de la Bonne Loi, Paris, 1852), and Kern (SBE 21, Oxford, 1884). Tibetan citations chiefly from block-print in my possession, partly from WT. When my work was practically ready for print, my colleague Professor Rahder received, and lent to me, the photostatic reproduction of the ms. referred to by WT as Ḱ. It has been cited a very few times. The quotations from it in WT seem to be very inaccurate.
@@ -364,14 +382,17 @@ Kirfel, Kosm., Index	Kosmographie der Inder.
 Kirfel, Kosmographie	Kosmographie der Inder.
 Kl. Skt. Texte 2	?
 Kleinere Skt. Texte II	?
+Knauer	?
 KN	(see SP) Saddharmapuṇḍarīka, ed. Kern and Nanjio, St. Petersburg, 1912
 KN Preface	?
 KN, Index	?
+Kondoʼs ed.	?
 Konow	?
 Konow MASI 69	?
 Konow, Avhandl. Norske Viden. Akad. 1941, II. Hist.-Fil. Kl.	?
 Konow, Saka versions of the Bhadrakalpikā-(sic)-sūtra, Oslo Akad. hist.-fil. kl. 1929	?
 Koṇḍañña Jāt.	?
+Kosegartenʼs Pañcatantra	?
 KP	Kāśyapa Parivarta, ed. Staël-Holstein, Shanghai, 1926. Cited by sections as numbered in edition, and lines.
 KSS	Kathāsaritsāgara.
 KSS.	?
@@ -385,6 +406,8 @@ Kvu. transl.	Kathā-vatthu (Pali).
 Kād.	?
 Kār.	?
 Kāty. Dharmaś.	?
+Kātyāyanāvavāda MPS	?
+KātyŚrS	?
 Kāś.	Kāśikā (comm. on Pāṇ.).
 Kāṇva	?
 KŚS	Kātyāyana Śrauta Sūtra.
@@ -405,10 +428,12 @@ LaV-P. JRAS	LaVallée Poussin in Journal of the Royal Asiatic Society.
 LaV-P., AbhidhK.	Abhidharmakośa, transl. LaVallée Poussin, Paris and Louvain, 1923—31; many technical words cited from Index, transl., and notes. References, as in the Index, are to Book (of the original) and page of the translation.
 LaV-P., Index	Abhidharmakośa, transl. LaVallée Poussin, Paris and Louvain, 1923—31; many technical words cited from Index, transl., and notes. References, as in the Index, are to Book (of the original) and page of the translation.
 LaV-P.ʼs note	Abhidharmakośa, transl. LaVallée Poussin, Paris and Louvain, 1923—31; many technical words cited from Index, transl., and notes. References, as in the Index, are to Book (of the original) and page of the translation.
+LaV-Pʼs Index	Abhidharmakośa, transl. LaVallée Poussin, Paris and Louvain, 1923—31; many technical words cited from Index, transl., and notes. References, as in the Index, are to Book (of the original) and page of the translation.
 LaVallée Poussin	?
 LaVallée Poussin JRAS	LaVallée Poussin in Journal of the Royal Asiatic Society.
 LaVallée Poussin JRAS 1911	LaVallée Poussin in Journal of the Royal Asiatic Society.
 LaVallée Poussin JRAS 1913	LaVallée Poussin in Journal of the Royal Asiatic Society.
+LaVallée Poussin JRAS 1913 (Stein fragments)	?
 LaVallée Poussin vol. 4	?
 LaVallée Poussin, AbhidhK	Abhidharmakośa, transl. LaVallée Poussin, Paris and Louvain, 1923—31; many technical words cited from Index, transl., and notes. References, as in the Index, are to Book (of the original) and page of the translation.
 LaVallée Poussin, AbhidhK.	Abhidharmakośa, transl. LaVallée Poussin, Paris and Louvain, 1923—31; many technical words cited from Index, transl., and notes. References, as in the Index, are to Book (of the original) and page of the translation.
@@ -432,14 +457,19 @@ LaVallée-Poussinʼs version, JRAS	LaVallée Poussin in Journal of the Royal Asi
 Laṅk	Laṅkāvatāra-sūtra, ed. Nanjio, Kyoto, 1923; transl. Suzuki, London, 1932; Index, by Suzuki, Kyoto, 1934; ‘Studies’ = Suzuki, Studies in the Lankavatara Sutra, London, 1930.
 Laṅk.	?
 Ledi Sadaw JPTS	Ledi Sadaw in Journal of the Pali Text Society.
+Lefm	?
 Lefm.	see LV. Lalitavistara, ed. Lefmann, Halle, 1902see LV.
 Lefm.ʼs Index	?
+Lefmann	?
+Lefmannʼs ed.	?
+Leumann	?
 Leumann, Album Kern	?
 Leumann, Aup.S.	?
 Leumann, Das nordarische Lehrgedicht des Buddhismus, AKM	?
 Leumannʼs etym., ap. Wogihara, Lex. aus der Bbh.	?
 Lib. of Congr. ed.	Library of Congress edition
 Lin Li-Kouang. Aide-Mémoire	?
+Loiseleur	?
 Lotus	Lotus de la Bonne Loi, Paris, 1852
 Ludwig RV	?
 LV	Lalitavistara, ed. Lefmann, Halle, 1902; Critical Apparatus, 1908; abbreviated Lefm.; ‘Calc.’ = ed. of Rajendralala Mitra, Calcutta, 1877; transl. Foucaux, Annales du Musée Guimet 6, and Notes, 19; Tibetan version (partial), with transl., by Foucaux, Paris, 1847; Weller = F. Weller, Zum Lalita Vistara, I. Über die Prosa des Lal. Vist., Leipzig, 1915.
@@ -488,11 +518,15 @@ M. Müller on Dharmas	?
 MadhK	Mūla-Madhyamaka-kārikās, with comm., ed. LaVallée Poussin, St. Petersburg, 1903—1910. Only partially excerpted.
 Madhy.	?
 Mahā-Dhammapāla Jāt.	?
+Mahāparinibbāna-sutta, DN sūtra	?
+Mahāsamāj, Waldschmidt, Kl. Skt. Texte 4	Mahāsamājasūtra, in Waldschmidt, Kl. Skt. Texte 4.
 Mahāsamaj., Waldschmidt, Kl. Skt. Texte 4	Mahāsamājasūtra, in Waldschmidt, Kl. Skt. Texte 4.
 Mahāsamāj.	Mahāsamājasūtra, in Waldschmidt, Kl. Skt. Texte 4.
 Mahāsamāj. Kl. Skt. Texte 4	Mahāsamājasūtra, in Waldschmidt, Kl. Skt. Texte 4.
 Mahāsamāj. Waldschmidt, Kl. Skt. Texte 4	Mahāsamājasūtra, in Waldschmidt, Kl. Skt. Texte 4.
 Mahāsamāj., Waldschmidt, Kl. Skt. Texte 4	Mahāsamājasūtra, in Waldschmidt, Kl. Skt. Texte 4.
+Mahāsamājasūtra, Waldschmidt, Kl. Skt. Texte 4	?
+Mahāsamayasutta, DN	?
 Mahāummagga-j.	?
 Mahāv.	Mahāvaṃsa (Pali).
 Mahāvaṃsa	?
@@ -509,17 +543,20 @@ Meyerʼs Index	J. J. Meyerʼs translation of Kauṭ., Leipzig, 1926.
 Meyerʼs transl.	J. J. Meyerʼs translation of Kauṭ., Leipzig, 1926.
 Miln.	Milindapañha (Pali).
 Milp.	Milindapañha (Pali).
+Minayeff	?
 Minayeffʼs Prātimokṣa S.	?
 Minayev	?
 Mir.	?
 Mironov	see Mvy. Mahāvyutpatti. Cited by numbered entries in ed. of Sakaki, Kyoto, 1916, with Sanskrit and Tibetan Indexes, 1925 and 1936; some variants are cited from Mironov (2d ed. of Minaeff, which is cited in BR and pw), St. Petersburg, 1910—11. Tibetan version cited from Sakaki; also translations of many Chinese and Japanese renderings ibidem.
 Mironov, JRAS	Mironov in Journal of the Royal Asiatic Society.
+Mironovʼs ed.	?
 Mmk	(Ārya-)Mañjuśrīmūlakalpa, ed. Gaṇapati Śāstri, 3 vols., Trivandrum, 1920, 1922, 1925. See Lalou, in the following list of abbreviations.
 Mmk ap. Lalou, Iconographic	?
 Mmk; final colophon	?
 MN	Majjhimanikāya (Pali).
 MN comm.	Majjhimanikāya (Pali).
 MN.	Majjhimanikāya (Pali).
+Monier Williams	Monier Williams, Sanskrit-English Dictionary (2d ed., 1899).
 Monier Williams, Skt. Dict.	Monier Williams, Sanskrit-English Dictionary (2d ed., 1899).
 Monier-Williams	Monier Williams, Sanskrit-English Dictionary (2d ed., 1899).
 Morris JPTS 1885	Morris in Journal of the Pali Text Society.
@@ -569,29 +606,35 @@ N. Duttʼs interpretation	?
 N. Duttʼs note	?
 Nalinaksha Dutt in IHQ 7 (1931)	?
 Naḷinikā-jātaka	?
+Nanjio	?
 Neisser, Z. Wbch.d. RV.	?
 Nett.	Nettipakaraṇa (Pali).
 NIA.	?
 Nimi Jāt.	?
 Nir.	Yāskaʼs Nirukta.
+Nirukta	Yāskaʼs Nirukta.
 Nobel	Suvarṇabhāsottamasūtra, ed. Nobel, Leipzig, 1937; Tibetan version, ed. same, Leiden and Stuttgart, 1944.
 Nobel, Introd.	Suvarṇabhāsottamasūtra, ed. Nobel, Leipzig, 1937; Tibetan version, ed. same, Leiden and Stuttgart, 1944.
 Nobel, JAOS Supplement 11 to Vol. 71 No. 3, 1951	?
+Nobelʼs ed.	?
 Nobelʼs note	Suvarṇabhāsottamasūtra, ed. Nobel, Leipzig, 1937; Tibetan version, ed. same, Leiden and Stuttgart, 1944.
 Nobelʼs text	Suvarṇabhāsottamasūtra, ed. Nobel, Leipzig, 1937; Tibetan version, ed. same, Leiden and Stuttgart, 1944.
 Nyagrodhamṛga Jāt.	?
 Nīl.	?
 Nīlak.	?
 Oldenberg	?
+Oldenburg	?
 P. Mus	?
 P. Mus, Barabudur	?
 P. Mus, La Lumière des six voies	?
 P.C. Roy	?
 P.K. Acharya, Dict. Hindu Arch.	?
+Pali Dictt.	?
 Pargiter	?
 Pargiter ap. Hoernle MR	?
 Pat.	Patañjali.
-Paul Mus (oral communication, May, 1949)	?
+Patañjali	Patañjali.
+Professor Paul Mus (oral communication, May, 1949)	?
 Pañc. Rec.	Edgerton, Pañchatantra Reconstructed.
 Pañcat. Koseg.	?
 PB	?
@@ -611,7 +654,6 @@ Prof. Rahder	?
 Professor W.N. Brown	?
 Przyluski, Açoka	?
 Prāt	Prātimokṣasūtra des Sarvāstivādins, ed. Finot (with translation of Chinese version by Huber), JAs. XI.2 (1913), 473 ff.
-Prāt.	?
 PTS ed. (of Geiger)	?
 PTSD	Pali Text Societyʼs Pali-English Dictionary.
 Pug.	Puggala Paññatti (Pali).
@@ -650,6 +692,7 @@ Rh.D.	?
 Rhys Davids	?
 Rhys Davids, Dialogues 1 (1899)	?
 Ridding	?
+Rockhill	?
 Rowell	?
 RP	Rāṣṭrapālaparipṛcchā, ed. Finot, St. Petersburg, 1901.
 RV	Rig Veda.
@@ -659,19 +702,22 @@ Régamey, Samādh.	Samādhirājasūtra, (1) chapters 8, 19, 22, ed. Régamey, Wa
 Régameyʼs note	Samādhirājasūtra, (1) chapters 8, 19, 22, ed. Régamey, Warsaw, 1938, cited by chapters and numbered sections or verses; (2) ed. Das and Vidyābhūshan (Calcutta, 1896); references (only a few; text incredibly corrupt) cited by page and lien, thus: ‘p. —, line —’.
 Régameyʼs transl.	Samādhirājasūtra, (1) chapters 8, 19, 22, ed. Régamey, Warsaw, 1938, cited by chapters and numbered sections or verses; (2) ed. Das and Vidyābhūshan (Calcutta, 1896); references (only a few; text incredibly corrupt) cited by page and lien, thus: ‘p. —, line —’.
 Rājat.	Rājataraṃgiṇī (ed. Stein).
-Rājataraṅginī	Rājataraṃgiṇī (ed. Stein).
+Rājataraṅginī, ed. Stein	?
 Rām.	Rāmāyaṇa (NWRām. = Northwestern Rām.)
 Rām. comm.	Rāmāyaṇa (NWRām. = Northwestern Rām.)
 Rām. Gorr.	Rāmāyaṇa, Gorresio edition
+Rāmatīrtha on Sadānanda	?
 Rʼs note	?
 S. Lévi, JA. Nov.—Dec. 1912	?
 S. Lévi, LaVallée-Poussin	?
 S.K. De, NIA	?
+Sakkapañhasutta	?
 Samarāiccakahā	?
 Samy Ag	?
 Samy Āg	?
 Samādh	Samādhirājasūtra, (1) chapters 8, 19, 22, ed. Régamey, Warsaw, 1938, cited by chapters and numbered sections or verses; (2) ed. Das and Vidyābhūshan (Calcutta, 1896); references (only a few; text incredibly corrupt) cited by page and lien, thus: ‘p. —, line —’.
-Saptaśatakam, <ab>ed.</ab> Weber	?
+Saptaśatakam, ed. Weber	?
+Sarup	?
 Saundaran.	?
 Saṃy.	?
 Saṃy. Āg.	Saṃyuktāgama; fragments from Stein mss. ed. LaVallée Poussin, JRAS 1913, 569 ff.; a few references to numbers of fragments (1—15), followed by r(ecto) or v(erso) when necessary, and line of mss.
@@ -689,8 +735,10 @@ Schmidt, Nachtr.	R. Schmidt, Nachträge zum Sanskrit Wörterbuch…von Otto Boeh
 Schmidt, Nachträge	R. Schmidt, Nachträge zum Sanskrit Wörterbuch…von Otto Boehtlingk.
 Schmidtʼs Nachträge	R. Schmidt, Nachträge zum Sanskrit Wörterbuch…von Otto Boehtlingk.
 Schmīdt, Nachträge	R. Schmidt, Nachträge zum Sanskrit Wörterbuch…von Otto Boehtlingk.
+Seidenstücker	?
 Sen.	Mahāvastu, ed. Senart, Paris, 1882, 1890, 1897. The first volume of Jonesʼs translation (London, 1949) appeared, to my regret, too late to be much used (I received it in 1950).
 Senart	Mahāvastu, ed. Senart, Paris, 1882, 1890, 1897. The first volume of Jonesʼs translation (London, 1949) appeared, to my regret, too late to be much used (I received it in 1950).
+Senarts	Mahāvastu, ed. Senart, Paris, 1882, 1890, 1897. The first volume of Jonesʼs translation (London, 1949) appeared, to my regret, too late to be much used (I received it in 1950).
 Senart Introd.	Mahāvastu, ed. Senart, Paris, 1882, 1890, 1897. The first volume of Jonesʼs translation (London, 1949) appeared, to my regret, too late to be much used (I received it in 1950).
 Senart, Index	Mahāvastu, ed. Senart, Paris, 1882, 1890, 1897. The first volume of Jonesʼs translation (London, 1949) appeared, to my regret, too late to be much used (I received it in 1950).
 Senart, Introd.	Mahāvastu, ed. Senart, Paris, 1882, 1890, 1897. The first volume of Jonesʼs translation (London, 1949) appeared, to my regret, too late to be much used (I received it in 1950).
@@ -704,8 +752,10 @@ Senartʼs text	Mahāvastu, ed. Senart, Paris, 1882, 1890, 1897. The first volume
 Sham.¹	?
 Shama Sastri 1st ed.	?
 Sheth	H.D.T. Sheth, Paia-sadda-mahaṇṇavo (Pkt.-Hindi Dict.), Calcutta, 1923—1928.
+Schiefner	?
 Shāh.	?
 Sieg and Siegling, Toch. Sprachreste	?
+Sikṣ	?
 Siri-j.	?
 Smith	?
 SN	SaMyuttanikāya (Pali).
@@ -739,6 +789,7 @@ Speyerʼs note	?
 Speyerʼs transl.	?
 St. Julien	?
 Stael-Holstein, Intr.	?
+Stael-Holstein, KP	?
 Stcherbatskoy, Abhisamayālaṃkāra (Bibl. Bu. 23)	?
 Stein	?
 Stein <ab>ms.</ab> fragm.	?
@@ -756,6 +807,7 @@ Supatta Jāt.	?
 Supatta-Jāt.	?
 Suv	Suvarṇabhāsottamasūtra, ed. Nobel, Leipzig, 1937; Tibetan version, ed. same, Leiden and Stuttgart, 1944.
 Suzuki	Laṅkāvatāra-sūtra, ed. Nanjio, Kyoto, 1923; transl. Suzuki, London, 1932; Index, by Suzuki, Kyoto, 1934; ‘Studies’ = Suzuki, Studies in the Lankavatara Sutra, London, 1930.
+Susa	?
 Suzuki Transl.	?
 Suzuki transl.	?
 Suzuki Transl. and Index	?
@@ -787,8 +839,10 @@ Taisho <lang>Chin.</lang> canon text 1300	?
 Takakusu, JPTS 1904—5	Takakusu in Journal of the Pali Text Society.
 TB.	Taittirīya Brāhmaṇa.
 Tedesco, JAOS	?
+Teresina Rowell, ‘The background and early use of the Buddhakṣetra concept,’ The Eastern Buddhist	?
 Therag.	Theragāthā (Pali).
 Therīg.	Therīgāthā (Pali).
+Thomas	?
 Thomas ap. Hoernle MR	Saddharmapuṇḍarīka, ed. Kern and Nanjio, St. Petersburg, 1912, abbreviated KN; supplementary references to ed. of Wogihara and Tsuchida, Tokyo, 1934—35, abbreviated WT; fragments of ‘Kashgar’ or Central Asiatic recension, ed. Thomas and Lüders, ap. Hoernle, MR 133 ff., 144 ff.; others, ed. LaVallée Poussin, JRAS 1911, 1070 ff.; transl. Burnouf (Lotus de la Bonne Loi, Paris, 1852), and Kern (SBE 21, Oxford, 1884). Tibetan citations chiefly from block-print in my possession, partly from WT. When my work was practically ready for print, my colleague Professor Rahder received, and lent to me, the photostatic reproduction of the ms. referred to by WT as Ḱ. It has been cited a very few times. The quotations from it in WT seem to be very inaccurate.
 Thomas ap. Hoernle, MR	Saddharmapuṇḍarīka, ed. Kern and Nanjio, St. Petersburg, 1912, abbreviated KN; supplementary references to ed. of Wogihara and Tsuchida, Tokyo, 1934—35, abbreviated WT; fragments of ‘Kashgar’ or Central Asiatic recension, ed. Thomas and Lüders, ap. Hoernle, MR 133 ff., 144 ff.; others, ed. LaVallée Poussin, JRAS 1911, 1070 ff.; transl. Burnouf (Lotus de la Bonne Loi, Paris, 1852), and Kern (SBE 21, Oxford, 1884). Tibetan citations chiefly from block-print in my possession, partly from WT. When my work was practically ready for print, my colleague Professor Rahder received, and lent to me, the photostatic reproduction of the ms. referred to by WT as Ḱ. It has been cited a very few times. The quotations from it in WT seem to be very inaccurate.
 Thomas JRAS	Thomas in Journal of the Royal Asiatic Society.
@@ -802,12 +856,16 @@ transl. Bendall and Rouse	Śikṣāsamuccaya, ed. Bendall, St. Petersburg, 1897�
 transl. of Bendall and Rouse	Śikṣāsamuccaya, ed. Bendall, St. Petersburg, 1897—1902; transl. Bendall and Rouse, London, 1922.
 Transl. of Bendall and Rouse	Śikṣāsamuccaya, ed. Bendall, St. Petersburg, 1897—1902; transl. Bendall and Rouse, London, 1922.
 transl. of Kalpa Sūtra	?
+Trenckner	?
 Trik.	Trikāṇḍaśeṣa (a Skt. lexicographer cited in BR; contains many BHS words).
+Trikāṇḍaśeṣa	a Skt. lexicographer cited in BR; contains many BHS words.
 TS	Taittirīya Saṃhitā.
 Turner, Nep. Dict.	Dictionary of the Nepali Language, London, 1931.
 Turner, Nepali Dict.	Dictionary of the Nepali Language, London, 1931.
+Turnour	?
 Turnourʼs Mahāv.	?
 Tārā	?
+Tāranātha	?
 Ud	Udānavarga; chap. 1—21, ed. Chakravarti (1930; except ch. 4, for which see Lévi, JAs. X. 20, 1912, 203 ff.); ch. 29, ed. Pischel, SBBA 1908, 968 ff.; ch. 30, 31, 32, ed. LaVallée Poussin, JRAS 1912, 369 ff. Cited by chapter and verse.
 Ud.	?
 Uhlenbeck	?
@@ -848,7 +906,10 @@ Waldschmidt, NGGW, ph.-h. Kl., Fachgr. III, NF II Nr. 3 (1939)	?
 Waldschmidtʼs note	?
 Ware, JAOS	?
 Warren, B. in Tr.	?
+Wassiljew	?
+Wassiliew	?
 Watanabe	?
+Weber	?
 Weber I.St.	?
 Weber ISt.	?
 Weber ZDMG	Weber in Zeitschrift der deutschen morgenländischen Gesellschaft.
@@ -882,20 +943,25 @@ Wogiharaʼs Index to Bbh	?
 Wogiharaʼs note	?
 Wogihāra, ZDMG	Wogihāra in Zeitschrift der deutschen morgenländischen Gesellschaft.
 WT	see SP. Saddharmapuṇḍarīka, ed. Kern and Nanjio, St. Petersburg, 1912, abbreviated KN; supplementary references to ed. of Wogihara and Tsuchida, Tokyo, 1934—35, abbreviated WT; fragments of ‘Kashgar’ or Central Asiatic recension, ed. Thomas and Lüders, ap. Hoernle, MR 133 ff., 144 ff.; others, ed. LaVallée Poussin, JRAS 1911, 1070 ff.; transl. Burnouf (Lotus de la Bonne Loi, Paris, 1852), and Kern (SBE 21, Oxford, 1884). Tibetan citations chiefly from block-print in my possession, partly from WT. When my work was practically ready for print, my colleague Professor Rahder received, and lent to me, the photostatic reproduction of the ms. referred to by WT as Ḱ. It has been cited a very few times. The quotations from it in WT seem to be very inaccurate.
+Woolnerʼs Introduction to Prakrit, Vocabulary	?
 Yogayātrā	?
 Yogācāras	?
-Yogācāras in ‘le commentaire de ĽAbhidharma’	?
 Yājñ.	Yājñavalkya (Dharmaśāstra).
+Zachariae	?
 Zam. ap. Das	?
 Ācār. (Schubring)	?
 ĀpŚ.	?
 Śak.	?
+Shama Sastri, Kauṭ. Arth., Shama S.¹	?
+Śaṃkara	?
+Śakrapraśnasūtra, Waldschmidt, Kl. Skt. Texte 4	?
 Śaur.	?
 ŚB	Śatapatha Brāhmaṇa (Mādhy. — Mādhyaṃdina, K. = Kāṇva recension).
 ŚB K.	Śatapatha Brāhmaṇa (Mādhy. — Mādhyaṃdina, K. = Kāṇva recension).
 ŚB Mādhy.	Śatapatha Brāhmaṇa (Mādhy. — Mādhyaṃdina, K. = Kāṇva recension).
 ŚB.	Śatapatha Brāhmaṇa (Mādhy. — Mādhyaṃdina, K. = Kāṇva recension).
 Śiks	Śikṣāsamuccaya, ed. Bendall, St. Petersburg, 1897—1902; transl. Bendall and Rouse, London, 1922.
+ŚGS	Śāṅkhāyana Gṛhya Sūtra.
 Śikṣ	Śikṣāsamuccaya, ed. Bendall, St. Petersburg, 1897—1902; transl. Bendall and Rouse, London, 1922.
 Śikṣ.	Śikṣāsamuccaya, ed. Bendall, St. Petersburg, 1897—1902; transl. Bendall and Rouse, London, 1922.
 ŚKD	śabda—kalpa-druma
