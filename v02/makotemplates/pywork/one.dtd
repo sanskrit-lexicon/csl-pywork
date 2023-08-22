@@ -65,7 +65,7 @@ H1B | H2B | H3B | H4B | H1C | H2C | H3C | H4C | H1E | H2E | H3E | H4E)*>
 <!ELEMENT fr (#PCDATA | i | ab)* > <!-- French text, bhs-->
 <!ELEMENT ed (#PCDATA) > <!-- edition bhs-->
 <!ELEMENT ms (#PCDATA) > <!-- manuscript bhs-->
-<!ELEMENT lat (#PCDATA) > <!-- latin text bhs-->
+<!ELEMENT lat (#PCDATA | i | ab)* > <!-- latin text, bhs-->
 <!ELEMENT toch (#PCDATA) > <!-- Tocharian text bhs-->
 <!ELEMENT pic EMPTY >
 <!ELEMENT s1 (#PCDATA)*>

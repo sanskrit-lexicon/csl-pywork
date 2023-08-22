@@ -97,6 +97,7 @@ Bodhicaryāvatārapañjikā (Bibl. Ind.)	Bodhicdaryāvatāra-ṭīkā, ed. LaVal
 Bodhicaryāv. pañjikā	 ?
 Boehtlingk	?
 BR	Boehtlingk and Roth, Sanskrit Wörterbuch.
+BR.	Boehtlingk and Roth, Sanskrit Wörterbuch.
 Brahmadatta Jāt.	?
 BSOS 1	Bulletin of the School of Oriental (and African) Studies, London.
 Bu.v.	Buddha-vaṃsa (Pali).
@@ -522,6 +523,7 @@ Mahāparinibbāna-sutta, DN sūtra	?
 Mahāsamāj, Waldschmidt, Kl. Skt. Texte 4	Mahāsamājasūtra, in Waldschmidt, Kl. Skt. Texte 4.
 Mahāsamaj., Waldschmidt, Kl. Skt. Texte 4	Mahāsamājasūtra, in Waldschmidt, Kl. Skt. Texte 4.
 Mahāsamāj.	Mahāsamājasūtra, in Waldschmidt, Kl. Skt. Texte 4.
+Mahāsamāj	Mahāsamājasūtra, in Waldschmidt, Kl. Skt. Texte 4.
 Mahāsamāj. Kl. Skt. Texte 4	Mahāsamājasūtra, in Waldschmidt, Kl. Skt. Texte 4.
 Mahāsamāj. Waldschmidt, Kl. Skt. Texte 4	Mahāsamājasūtra, in Waldschmidt, Kl. Skt. Texte 4.
 Mahāsamāj., Waldschmidt, Kl. Skt. Texte 4	Mahāsamājasūtra, in Waldschmidt, Kl. Skt. Texte 4.
