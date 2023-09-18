@@ -1,0 +1,185 @@
+&	<id>&</id> <disp>and.</disp>
+&amp;	<id>&amp;</id> <disp>and.</disp>
+&amp;c.	<id>&amp;c.</id> <disp>et cetera, and so forth.</disp>
+&c.	<id>&c.</id> <disp>et cetera, and so forth.</disp>
++	<id>+</id> <disp>with; also.</disp>
+=	<id>=</id> <disp>equals, is the equivalent of.</disp>
+a.	<id>a.</id> <disp>adjective.</disp>
+A. D.	<id>A. D.</id> <disp>Anno Domini</disp>
+ab.	<id>ab.</id> <disp>ablative.</disp>
+abs.	<id>abs.</id> <disp>absolute.</disp>
+abst.	<id>abst.</id> <disp>abstract.</disp>
+abst. N.	<id>abst. N.</id> <disp>abstract noun.</disp>
+ac.	<id>ac.</id> <disp>accusative.</disp>
+act.	<id>act.</id> <disp>active.</disp>
+ad.	<id>ad.</id> <disp>adverb, -ial, -ially.</disp>
+aor.	<id>aor.</id> <disp>aorist.</disp>
+app.	<id>app.</id> <disp>apposition.</disp>
+ass.	<id>ass.</id> <disp>asseverative.</disp>
+athg.	<id>athg.</id> <disp>anything.</disp>
+AV.	<id>AV.</id> <disp>Atharva-veda.</disp>
+B.	<id>B.</id> <disp>Buddhistic term.</disp>
+beg.	<id>beg.</id> <disp>beginning.</disp>
+bg.	<id>bg.</id> <disp>beginning.</disp>
+Br.	<id>Br.</id> <disp>Brāhmaṇa.</disp>
+C.	<id>C.</id> <disp>Classical (post-Vedic) Sanskrit.</disp>
+cj.	<id>cj.</id> <disp>conjunction.</disp>
+col.	<id>col.</id> <disp>collective, -ly.</disp>
+coll.	<id>coll.</id> <disp>collective, -ly.</disp>
+comm.	<id>comm.</id> <disp>commentator.</disp>
+conj.	<id>conj.</id> <disp>conjecture.</disp>
+cor.	<id>cor.</id> <disp>correlative.</disp>
+cp.	<id>cp.</id> <disp>compare.</disp>
+cpd.	<id>cpd.</id> <disp>compound.</disp>
+cpv.	<id>cpv.</id> <disp>comparative.</disp>
+crt.	<id>crt.</id> <disp>certain.</disp>
+cs.	<id>cs.</id> <disp>causal.</disp>
+d.	<id>d.</id> <disp>dative.</disp>
+dbl.	<id>dbl.</id> <disp>double.</disp>
+den.	<id>den.</id> <disp>denominative.</disp>
+der.	<id>der.</id> <disp>derivative.</disp>
+des.	<id>des.</id> <disp>desiderative.</disp>
+dim.	<id>dim.</id> <disp>diminutive.</disp>
+dr.	<id>dr.</id> <disp>dramatic term.</disp>
+du.	<id>du.</id> <disp>dual.</disp>
+E.	<id>E.</id> <disp>Epic.</disp>
+e. g.	<id>e. g.</id> <disp>for example.</disp>
+emp.	<id>emp.</id> <disp>emphatic.</disp>
+enc.	<id>enc.</id> <disp>enclitic.</disp>
+encl.	<id>encl.</id> <disp>enclitic.</disp>
+Eng.	<id>Eng.</id> <disp>English.</disp>
+ep.	<id>ep.</id> <disp>epithet.</disp>
+eq.	<id>eq.</id> <disp>equivalent.</disp>
+esp.	<id>esp.</id> <disp>especially.</disp>
+etc.	<id>etc.</id> <disp>et cetera, and so forth.</disp>
+exc.	<id>exc.</id> <disp>except, exceptionally.</disp>
+excl.	<id>excl.</id> <disp>exclamation.</disp>
+exp.	<id>exp.</id> <disp>explanation.</disp>
+f.	<id>f.</id> <disp>feminine; also = for.</disp>
+ff.	<id>ff.</id> <disp>and the following.</disp>
+fig.	<id>fig.</id> <disp>figurative, -ly.</disp>
+fp.	<id>fp.</id> <disp>future participle passive.</disp>
+fr.	<id>fr.</id> <disp>from.</disp>
+ft.	<id>ft.</id> <disp>future.</disp>
+g.	<id>g.</id> <disp>genitive.</disp>
+gd.	<id>gd.</id> <disp>gerund (indeclinable participle).</disp>
+Gk.	<id>Gk.</id> <disp>Greek.</disp>
+gnly.	<id>gnly.</id> <disp>generally.</disp>
+gr.	<id>gr.</id> <disp>grammatical term.</disp>
+hvg.	<id>hvg.</id> <disp>having.</disp>
+i. e.	<id>i. e.</id> <disp>that is.</disp>
+id.	<id>id.</id> <disp>the same.</disp>
+ij.	<id>ij.</id> <disp>interjection.</disp>
+imps.	<id>imps.</id> <disp>impersonal.</disp>
+impv.	<id>impv.</id> <disp>imperative.</disp>
+in.	<id>in.</id> <disp>instrumental.</disp>
+incor.	<id>incor.</id> <disp>incorrect.</disp>
+incorr.	<id>incorr.</id> <disp>incorrect.</disp>
+ind.	<id>ind.</id> <disp>indicative.</disp>
+indc.	<id>indc.</id> <disp>indeclinable.</disp>
+indec.	<id>indec.</id> <disp>indeclinable.</disp>
+indf.	<id>indf.</id> <disp>indefinite.</disp>
+inf.	<id>inf.</id> <disp>infinitive.</disp>
+int.	<id>int.</id> <disp>intransitive.</disp>
+intr.	<id>intr.</id> <disp>interrogative.</disp>
+intv.	<id>intv.</id> <disp>intensive (frequentative).</disp>
+ir.	<id>ir.</id> <disp>irregular.</disp>
+K.	<id>K.</id> <disp>king.</disp>
+Lat.	<id>Lat.</id> <disp>Latin.</disp>
+lc.	<id>lc.</id> <disp>locative.</disp>
+leg.	<id>leg.</id> <disp>legal term.</disp>
+lit.	<id>lit.</id> <disp>literally.</disp>
+m.	<id>m.</id> <disp>masculine.</disp>
+met.	<id>met.</id> <disp>metronymic.</disp>
+metr.	<id>metr.</id> <disp>metrical (due to exigencies of metre).</disp>
+mg.	<id>mg.</id> <disp>meaning.</disp>
+mtn.	<id>mtn.</id> <disp>mountain.</disp>
+N.	<id>N.</id> <disp>name; when alone = name of a man or of a woman.</disp>
+n.	<id>n.</id> <disp>neuter.</disp>
+N.E.	<id>N.E.</id> <disp>Northeast.</disp>
+N.W.	<id>N.W.</id> <disp>Northwest.</disp>
+neg.	<id>neg.</id> <disp>negative.</disp>
+nm.	<id>nm.</id> <disp>nominative.</disp>
+nr.	<id>nr.</id> <disp>numeral.</disp>
+num.	<id>num.</id> <disp>numeral.</disp>
+obj.	<id>obj.</id> <disp>object.</disp>
+onom.	<id>onom.</id> <disp>onomatopœic.</disp>
+opp.	<id>opp.</id> <disp>opposite.</disp>
+opt.	<id>opt.</id> <disp>optative.</disp>
+or.	<id>or.</id> <disp>originally.</disp>
+ord.	<id>ord.</id> <disp>ordinary.</disp>
+orig.	<id>orig.</id> <disp>originally.</disp>
+P.	<id>P.</id> <disp>Parasmaipada.</disp>
+pat.	<id>pat.</id> <disp>patronymic.</disp>
+pcl.	<id>pcl.</id> <disp>particle.</disp>
+perh.	<id>perh.</id> <disp>perhaps.</disp>
+pf.	<id>pf.</id> <disp>perfect.</disp>
+ph.	<id>ph.</id> <disp>philosophical term.</disp>
+phil.	<id>phil.</id> <disp>philosophical term.</disp>
+pl.	<id>pl.</id> <disp>plural.</disp>
+pn.	<id>pn.</id> <disp>pronoun, pronominal.</disp>
+pos.	<id>pos.</id> <disp>possessive.</disp>
+poss.	<id>poss.</id> <disp>possessive.</disp>
+pot.	<id>pot.</id> <disp>potential.</disp>
+pp.	<id>pp.</id> <disp>perfect passive participle.</disp>
+Pr.	<id>Pr.</id> <disp>Prākrit (Sanskrit equivalent of Prākrit word), Prākritic.</disp>
+pr.	<id>pr.</id> <disp>present.</disp>
+pred.	<id>pred.</id> <disp>predicate, predicative, -ly.</disp>
+prn.	<id>prn.</id> <disp>pronoun, pronominal.</disp>
+prob.	<id>prob.</id> <disp>probably.</disp>
+prop.	<id>prop.</id> <disp>properly.</disp>
+prp.	<id>prp.</id> <disp>preposition.</disp>
+prs.	<id>prs.</id> <disp>person.</disp>
+ps.	<id>ps.</id> <disp>passive.</disp>
+pt.	<id>pt.</id> <disp>participle.</disp>
+px.	<id>px.</id> <disp>prefix.</disp>
+q. v.	<id>q. v.</id> <disp>which see.</disp>
+R.	<id>R.</id> <disp>river.</disp>
+red.	<id>red.</id> <disp>reduplicated, reduplication. </disp>
+rel.	<id>rel.</id> <disp>relative.</disp>
+rep.	<id>rep.</id> <disp>repeated.</disp>
+rf.	<id>rf.</id> <disp>reflexive.</disp>
+rh.	<id>rh.</id> <disp>rhetorical term.</disp>
+rit.	<id>rit.</id> <disp>ritual term.</disp>
+rl.	<id>rl.</id> <disp>relative.</disp>
+rp.	<id>rp.</id> <disp>repeated.</disp>
+RV.	<id>RV.</id> <disp>Rig-veda.</disp>
+RV.²	<id>RV.²</id> <disp>Rig-veda (² = ?)</disp>
+RV.¹	<id>RV.¹</id> <disp>Rig-veda (¹ = ?)</disp>
+S.	<id>S.</id> <disp>Sūtra.</disp>
+s.	<id>s.</id> <disp>singular.</disp>
+s. v.	<id>s. v.</id> <disp>sub voce.</disp>
+sb.	<id>sb.</id> <disp>substantive.</disp>
+sc.	<id>sc.</id> <disp>scilicet, that is to say, supply.</disp>
+sg.	<id>sg.</id> <disp>singular.</disp>
+sp.	<id>sp.</id> <disp>specifically.</disp>
+spv.	<id>spv.</id> <disp>superlative.</disp>
+st.	<id>st.</id> <disp>stem.</disp>
+sthg.	<id>sthg.</id> <disp>something.</disp>
+str.	<id>str.</id> <disp>strong.</disp>
+subj.	<id>subj.</id> <disp>subjunctive.</disp>
+SV.	<id>SV.</id> <disp>Sāma-veda.</disp>
+sx.	<id>sx.</id> <disp>suffix.</disp>
+T.	<id>T.</id> <disp>title.</disp>
+t.	<id>t.</id> <disp>term.</disp>
+TBr.	<id>TBr.</id> <disp>Taittirīya-Brāhmaṇa.</disp>
+tr.	<id>tr.</id> <disp>transitive.</disp>
+TS.	<id>TS.</id> <disp>Taittirīya-Saṃhitā.</disp>
+U.	<id>U.</id> <disp>Upaniṣad.</disp>
+V.	<id>V.</id> <disp>Veda, Vedic.</disp>
+v.	<id>v.</id> <disp>vide, see.</disp>
+v. r.	<id>v. r.</id> <disp>various reading.</disp>
+vb.	<id>vb.</id> <disp>verb.</disp>
+vbl.	<id>vbl.</id> <disp>verbal.</disp>
+vbl. N.	<id>vbl. N.</id> <disp>verbal noun.</disp>
+vc.	<id>vc.</id> <disp>vocative.</disp>
+VS.	<id>VS.</id> <disp>Vājasaneyi-Saṃhitā.</disp>
+w.	<id>w.</id> <disp>with.</disp>
+wk.	<id>wk.</id> <disp>weak.</disp>
+YV.	<id>YV.</id> <disp>Yajur-veda.</disp>
+±	<id>±</id> <disp>with or without.</disp>
+Ā.	<id>Ā.</id> <disp>Ātmanepada.</disp>
+ŚB.	<id>ŚB.</id> <disp>Śatapatha-Brāhmaṇa.</disp>
+ɴ.	<id>ɴ.</id> <disp>noun.</disp>
+√	<id>√</id> <disp>root.</disp>
+𝑃.	<id>𝑃.</id> <disp>Purāṇa.</disp>

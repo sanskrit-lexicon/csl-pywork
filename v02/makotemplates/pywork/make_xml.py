@@ -268,12 +268,13 @@ def dig_to_xml_specific(x):
  # change -- to mdash
  x = re.sub(r'--',u'—',x)
  # change ‡ to _  (two vowels that will be combined via sandhi)
- x = re.sub(u'‡','_',x)
+ # x = re.sub(u'‡','_',x)
+ x = re.sub(u'‡','‿',x) # 09-13-2023.  u+203f Undertie
  # remove the ¤ symbol. It brackets some numbers (e.g. ¤2¤) but there
  # is no obvious typographical feature.
  x = re.sub(u'¤','',x)
- # change <g>X</g> to <lang n="greek">x</lang>
- x = re.sub(r'<g>(.*?)</g>',r'<lang n="greek">\1</lang>',x)
+ # change <g>X</g> to <lang n="greek">x</lang> # 09-14-2023 comment out
+ # x = re.sub(r'<g>(.*?)</g>',r'<lang n="greek">\1</lang>',x)
  if divflag:
   # add divs for <b>-
   x = re.sub(r'<b>-','<div n="1" ><b>-',x)
@@ -687,7 +688,7 @@ def construct_xmlstring(datalines,hwrec):
   datalines1.append(x)
  datalines = datalines1
 %endif
-%if dictlo in ['md','shs','skd','vcp']:
+%if dictlo in ['shs','skd','vcp']:
  for i,x in enumerate(datalines):
   if i == 0:
    pass
@@ -697,6 +698,19 @@ def construct_xmlstring(datalines,hwrec):
    # skd,vcp only
    x = '<lb/>' + x
   elif x.startswith(('<','[Page')):
+   pass
+  else:
+   x = '<lb/>' + x
+  datalines1.append(x)
+ datalines = datalines1
+%endif
+%if dictlo in ['md']:
+ for i,x in enumerate(datalines):
+  if i == 0:
+   pass
+  elif x.strip() == '':
+   pass
+  elif x.startswith('[Page'):
    pass
   else:
    x = '<lb/>' + x
