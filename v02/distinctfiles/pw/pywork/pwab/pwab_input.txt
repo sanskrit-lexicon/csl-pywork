@@ -1,65 +1,305 @@
+1.	<id>1.</id> <disp>1ten - first </disp>
+2.	<id>2.</id> <disp>2ten - second</disp>
+3.	<id>3.</id> <disp>3ten - third</disp>
+; Med.	<id>Med.</id> <disp>Medizin - medicine</disp> changed 12/26/2019
 Abl.	<id>Abl.</id> <disp>Ablativ - ablative (case)</disp>
+absol.	<id>absol.</id> <disp>Absolutiv - absolutive (case)</disp>
 Absol.	<id>Absol.</id> <disp>Absolutiv - absolutive (case)</disp>
+Abstr.	<id>Abstr.</id> <disp>?- abstract</disp>
+abstr.	<id>abstr.</id> <disp>? - abstract</disp>
 Acc.	<id>Acc.</id> <disp>Accusativ - accusative (case)</disp>
+act.	<id>act.</id> <disp>Activ - active</disp>
 Act.	<id>Act.</id> <disp>Activ - active </disp>
+Adj.	<id>Adj.</id> <disp>Adjectiv - adjective</disp>
+adj.	<id>adj.</id> <disp>adjectivisch - adjective</disp>
+Adj. Comp.	<id>Adj. Comp.</id> <disp>Adjektivverbindung - adjective compound</disp>
+adj. Comp.	<id>adj. Comp.</id> <disp>Adjektivverbindung - adjective compound</disp>
+Adjj.	<id>Adjj.</id> <disp>Adjektive - adjectives</disp>
 Adv.	<id>Adv.</id> <disp>Adverb - adverb</disp>
-adv.	<id>adv.</id> <disp>adverbial? - adverbial</disp>
+adv.	<id>adv.</id> <disp>? - adverbial</disp>
+adv. Comp.	<id>adv. Comp.</id> <disp>Adverbverbindung - adverb compound</disp>
+Advv.	<id>Advv.</id> <disp>Adverbien - adverbs</disp>
+anat.	<id>anat.</id> <disp>Anatomie - anatomy</disp>
+Anf.	<id>Anf.</id> <disp>Anfang - beginning</disp>
+Anm.	<id>Anm.</id> <disp>Anmerkung - annotation, note</disp>
+Anmm.	<id>Anmm.</id> <disp>Anmerkungen - annotations, notes</disp>
 Aor.	<id>Aor.</id> <disp>Aorist - aorist</disp>
+Arithm.	<id>Arithm.</id> <disp>Arithmetik - arithmetic</disp>
+Astr.	<id>Astr.</id> <disp>Astronomie - astronomy</disp>
+astr.	<id>astr.</id> <disp>Astronomie - astronomy</disp>
+Astrol.	<id>Astrol.</id> <disp>Astrologie - astrology</disp>
+astrol.	<id>astrol.</id> <disp>Astrologie - astrology</disp>
+Astron.	<id>Astron.</id> <disp>Astronomie - astronomy</disp>
+astron.	<id>astron.</id> <disp>Astronomie - astronomy</disp>
+Ausg.	<id>Ausg.</id> <disp>Ausgabe - edition</disp>
+Ausgg.	<id>Ausgg.</id> <disp>Ausgaben - editions</disp>
+Aut.	<id>Aut.</id> <disp>? - ?</disp>
+Autt.	<id>Autt.</id> <disp>? - ?</disp>
+Bed.	<id>Bed.</id> <disp>Bedeutung - meaning</disp>
 Bein.	<id>Bein.</id> <disp>Beiname - epithet, by name</disp>
 Beinn.	<id>Beinn.</id> <disp>Beinamen - epithets, by names</disp>
+Beiw.	<id>Beiw.</id> <disp>? beiwohnen - attendant</disp>
+Beiww.	<id>Beiww.</id> <disp>? - ?</disp>
+Bes.	<id>Bes.</id> <disp>Besonders  - special, particular</disp>
+bes.	<id>bes.</id> <disp>Besonders  - special, particular</disp>
 best.	<id>best.</id> <disp>bestimmte - a certain (kind of)</disp>
-ebend.	<id>ebend.</id> <disp>ebenda - ibid. (ibidem) - in the same source</disp>
+Bez.	<id>Bez.</id> <disp>Bezugnahme - Reference</disp>
+Buddh.	<id>Buddh.</id> <disp>Buddhism - Buddhism</disp>
+buddh.	<id>buddh.</id> <disp>Buddhism - Buddhism</disp>
 Caus.	<id>Caus.</id> <disp>Causativ - causative</disp>
-Comm.	<id>Comm.</id> <disp>Commentar? - commentary</disp>
-Conj.	<id>Conj.</id> <disp>Conjunctiv? - subjunctive (mood)</disp>
+Chrest.	<id>Chrest.</id> <disp>Chrestomathie - Chrestomathy</disp>
+Cit.	<id>Cit.</id> <disp>Citation - citation</disp>
+Coll.	<id>Coll.</id> <disp>Collectiv - collective, collectively</disp>
+coll.	<id>coll.</id> <disp>Collectiv - collective, collectively</disp>
+Collect.	<id>Collect.</id> <disp>Collectiv - collective, collectively</disp>
+collect.	<id>collect.</id> <disp>? - ?</disp>
+Comm.	<id>Comm.</id> <disp>Commentar - commentary</disp>
+Comp.	<id>Comp.</id> <disp>? - compound</disp>
+Compar.	<id>Compar.</id> <disp>Comparativ - comparative</disp>
+compon.	<id>compon.</id> <disp>? - ?</disp>
+Compp.	<id>Compp.</id> <disp>? - compounds</disp>
+concr.	<id>concr.</id> <disp>? - ?</disp>
+Condit.	<id>Condit.</id> <disp>? Konditional - conditional</disp>
+Conj.	<id>Conj.</id> <disp>Conjunctiv - subjunctive (mood)</disp>
+copul.	<id>copul.</id> <disp>Copulativ - copulative</disp>
+copul. Comp.	<id>copul. Comp.</id> <disp>? - copulative compound</disp>
+Correl.	<id>Correl.</id> <disp>Correlativ - correlative</disp>
+d. h.	<id>d. h.</id> <disp>das heisst - that means</disp>
+d. i.	<id>d. i.</id> <disp>das ist - i.e. id est - that is</disp>
 dass.	<id>dass.</id> <disp>dasselbe - the same</disp>
 Dat.	<id>Dat.</id> <disp>Dativ - dative (case)</disp>
-Denom.	<id>Denom.</id> <disp>Denominativ? - denominative</disp>
+Demin.	<id>Demin.</id> <disp>Deminutiv - Diminutive</disp>
+Demonstr.	<id>Demonstr.</id> <disp>Demonstrativ - demonstrative</disp>
+demonstr.	<id>demonstr.</id> <disp>Demonstrativ - demonstrative</disp>
+Den.	<id>Den.</id> <disp>Denominativ - denominative</disp>
+Denom.	<id>Denom.</id> <disp>Denominativ - denominative</disp>
+Denomin.	<id>Denomin.</id> <disp>Denominativ - denominative</disp>
+dergl.	<id>dergl.</id> <disp>dergleichen - the like, similar</disp>
+ders.	<id>ders.</id> <disp>derselben - the same</disp>
+Desgl.	<id>Desgl.</id> <disp>desgleichen - likewise</disp>
+desgl.	<id>desgl.</id> <disp>desgleichen - likewise</disp>
 Desid.	<id>Desid.</id> <disp>Desiderativ - desiderative</disp>
+dgl.	<id>dgl.</id> <disp>desgleichen - likewise</disp>
+dopp.	<id>dopp.</id> <disp>doppelt - double</disp>
+Dram.	<id>Dram.</id> <disp>Drama - drama</disp>
 Du.	<id>Du.</id> <disp>Dual - dual </disp>
+ebd.	<id>ebd.</id> <disp>ebenda - ibid. (ibidem) - in the same source</disp>
+ebend.	<id>ebend.</id> <disp>ebenda - ibid. (ibidem) - in the same source</disp>
+ed.	<id>ed.</id> <disp>- edition</disp>
+eig.	<id>eig.</id> <disp>? - ?</disp>
+enklit.	<id>enklit.</id> <disp>? - ?</disp>
+ep.	<id>ep.</id> <disp>?Epos - epic literature</disp>
+Erkl.	<id>Erkl.</id> <disp>? erklären  - ? explain</disp>
+etc.	<id>etc.</id> <disp>et cetera - and so forth</disp>
+Etym.	<id>Etym.</id> <disp>Etymologie - etymology</disp>
+etym.	<id>etym.</id> <disp>Etymologie - etymology</disp>
+euphem.	<id>euphem.</id> <disp>Euphemismus - euphemism</disp>
+excl.	<id>excl.</id> <disp>? - ?</disp>
+f.	<id>f.</id> <disp>femininum - feminine</disp>
+Fem.	<id>Fem.</id> <disp>femininum - feminine</disp>
+Femin.	<id>Femin.</id> <disp>femininum - feminine</disp>
+fg.	<id>fg.</id> <disp> - and following</disp>
+fgg.	<id>fgg.</id> <disp> - and following</disp>
+fig.	<id>fig.</id> <disp>figürlich - figurative</disp>
+fin.	<id>fin.</id> <disp>Finite - finite</disp>
+Fut.	<id>Fut.</id> <disp>Futurum - Future (tense)</disp>
+fut.	<id>fut.</id> <disp>Futurum - Future (tense)</disp>
+Gedr.	<id>Gedr.</id> <disp>gedruckte - printed</disp>
+gedr.	<id>gedr.</id> <disp>gedruckte - printed</disp>
+Gegens.	<id>Gegens.</id> <disp>Gegensatz - contrast</disp>
+gen.	<id>gen.</id> <disp>Genitiv - genitive (case)</disp>
 Gen.	<id>Gen.</id> <disp>Genitiv - genitive (case)</disp>
-Inf.	<id>Inf.</id> <disp>Infinitiv - infinitive</disp>
+Geom.	<id>Geom.</id> <disp>Geometrie - geometry</disp>
+geom.	<id>geom.</id> <disp>Geometrie - geometry</disp>
+geometr.	<id>geometr.</id> <disp>Geometrie - geometry</disp>
+geschr.	<id>geschr.</id> <disp>geschrieben - written</disp>
+Gramm.	<id>Gramm.</id> <disp>Grammatik - grammar</disp>
+gramm.	<id>gramm.</id> <disp>Grammatik - grammar</disp>
+Handschrr.	<id>Handschrr.</id> <disp>Handschrift - manuscript</disp>
 Hdschr.	<id>Hdschr.</id> <disp>Handschrift - manuscript</disp>
+Hdschrr.	<id>Hdschrr.</id> <disp>Handschrifte - manuscripts</disp>
+hdschrr.	<id>hdschrr.</id> <disp>Handschrifte - manuscripts</disp>
+Imper.	<id>Imper.</id> <disp>Imperativ - imperative</disp>
+imper.	<id>imper.</id> <disp>Imperativ - imperative</disp>
+Imperat.	<id>Imperat.</id> <disp>Imperativ - imperative</disp>
+imperat.	<id>imperat.</id> <disp>Imperativ - imperative</disp>
+Imperf.	<id>Imperf.</id> <disp>Imperfektum - imperfect tense</disp>
+Impers.	<id>Impers.</id> <disp>? - ?</disp>
+impers.	<id>impers.</id> <disp>? - ?</disp>
+Ind.	<id>Ind.</id> <disp>Indeclinabilum - indeclinable</disp>
+Indecl.	<id>Indecl.</id> <disp>Indeclinabilum - indeclinable</disp>
+indef.	<id>indef.</id> <disp>Indefiniter - indefinite</disp>
+Indefin.	<id>Indefin.</id> <disp>Indefiniter - indefinite</disp>
+Indic.	<id>Indic.</id> <disp>indikativ - indicative</disp>
+Inf.	<id>Inf.</id> <disp>Infinitiv - infinitive</disp>
+infin.	<id>infin.</id> <disp>Infinitiv - infinitive</disp>
 Infin.	<id>Infin.</id> <disp>Infinitiv - infinitive</disp>
+Insbes.	<id>Insbes.</id> <disp>insbesondere - in particular</disp>
+insbes.	<id>insbes.</id> <disp>insbesondere - in particular</disp>
+Inschr.	<id>Inschr.</id> <disp>inschrifte - inscription</disp>
+instebs.	<id>instebs.</id> <disp>? - ?</disp>
+instr.	<id>instr.</id> <disp>Instrumental - instrumental (case)</disp>
 Instr.	<id>Instr.</id> <disp>Instrumental - instrumental (case)</disp>
+intens.	<id>intens.</id> <disp>Intensiv - intensive</disp>
 Intens.	<id>Intens.</id> <disp>Intensiv - intensive</disp>
+inter.	<id>inter.</id> <disp>Interrogativ - interrogative</disp>
 Interj.	<id>Interj.</id> <disp>Interjection - interjection </disp>
+Interr.	<id>Interr.</id> <disp>Interrogativ - interrogative</disp>
+interr.	<id>interr.</id> <disp>Interrogativ - interrogative</disp>
+interrog.	<id>interrog.</id> <disp>Interrogativ - interrogative</disp>
+Intr.	<id>Intr.</id> <disp> - introduction</disp>
+intr.	<id>intr.</id> <disp> - introduction</disp>
+Intrans.	<id>Intrans.</id> <disp>intransitiv - intransitive</disp>
+intrans.	<id>intrans.</id> <disp>intransitiv - intransitive</disp>
+intransit.	<id>intransit.</id> <disp>intransitiv - intransitive</disp>
+Jahrh.	<id>Jahrh.</id> <disp>jahrhundert - century</disp>
+Jmd.	<id>Jmd.</id> <disp>Jmden - someone</disp>
+Kalb.	<id>Kalb.</id> <disp>? - ?</disp>
+klass.	<id>klass.</id> <disp>klassisch - classical</disp>
+liturg.	<id>liturg.</id> <disp>liturgisch - liturgical</disp>
 Loc.	<id>Loc.</id> <disp>Locativ - locative case</disp>
-; Med.	<id>Med.</id> <disp>Medizin - medicine</disp> changed 12/26/2019
+m.	<id>m.</id> <disp>masculinum - masculine</disp>
+Masc.	<id>Masc.</id> <disp>masculinum - masculine</disp>
+masc.	<id>masc.</id> <disp>masculinum - masculine</disp>
+Math.	<id>Math.</id> <disp>Mathematik - mathematics</disp>
+math.	<id>math.</id> <disp>Mathematik - mathematics</disp>
+Mathem.	<id>Mathem.</id> <disp>Mathematik - mathematics</disp>
+mathem.	<id>mathem.</id> <disp>Mathematik - mathematics</disp>
 Med.	<id>Med.</id> <disp>Medium – ātmanepada</disp>
+medic.	<id>medic.</id> <disp>medizin - medicine</disp>
 Metron.	<id>Metron.</id> <disp>Metronym(Deu.)/Metronymicum(Lat.) - metronym</disp>
-Metronn.	<id>Metronn.</id> <disp>Metronyme(Deu.)/Metronymica(Lat.) - metronym</disp>
-N.	<id>N.</id> <disp>Namen? - name</disp>
-N.ag.	<id>N.ag.</id> <disp>? - ?</disp>
-N.pr.	<id>N.pr.</id> <disp>Nomen proprium? - proper noun</disp>
-Nom.	<id>Nom.</id> <disp>Nomen? - noun</disp>
-Nom.abstr.	<id>Nom.abstr.</id> <disp>Nomen abstractum - abstract noun</disp>
-Nom.ag.	<id>Nom.ag.</id> <disp>Nomen agentis - nomen agentis</disp>
+Metronn.	<id>Metronn.</id> <disp>Metronyme(Deu.)/Metronymica(Lat.) - metronyms</disp>
+Mss.	<id>Mss.</id> <disp>manuskripte - manuscripts</disp>
+musik.	<id>musik.</id> <disp>Musikalität, musikalisch  - music, musicla</disp>
+N.	<id>N.</id> <disp>Namen - name</disp>
+n.	<id>n.</id> <disp>neutrum - neuter</disp>
+N. ag.	<id>N. ag.</id> <disp>Nomen agentis - nomen agentis</disp>
+n. Chr.	<id>n. Chr.</id> <disp>nach Christus - after Christ</disp>
+N. N.	<id>N. N.</id> <disp>Nomen Nescio (Latin) - "I do not know the name", someone</disp>
+N. Pr.	<id>N. Pr.</id> <disp>Nomen proprium - proper noun</disp>
+N. pr.	<id>N. pr.</id> <disp>Nomen proprium - proper noun</disp>
+Neg.	<id>Neg.</id> <disp>Negativ - negative</disp>
+Negat.	<id>Negat.</id> <disp>Negativ - negative</disp>
+neutr.	<id>neutr.</id> <disp>Neutrum - neuter</disp>
+Nom.	<id>Nom.</id> <disp>Nomen - noun</disp>
+Nom. Abstr.	<id>Nom. Abstr.</id> <disp>Nomen abstractum - abstract noun</disp>
+Nom. abstr.	<id>Nom. abstr.</id> <disp>Nomen abstractum - abstract noun</disp>
+Nom. Ag.	<id>Nom. Ag.</id> <disp>Nomen agentis - agentive noun</disp>
+Nom. ag.	<id>Nom. ag.</id> <disp>Nomen agentis - agentive noun</disp>
+Nom. pr.	<id>Nom. pr.</id> <disp>Nomen proprium - proper noun</disp>
 Nomin.	<id>Nomin.</id> <disp>Nominativ - nominative (case)</disp>
+Obj.	<id>Obj.</id> <disp>Objekt - object</disp>
+obj.	<id>obj.</id> <disp>Objekt - object</disp>
+onomat.	<id>onomat.</id> <disp>Onomatopöie - onomatopoeia</disp>
+Onomatop.	<id>Onomatop.</id> <disp>Onomatopöie - onomatopoeia</disp>
+onomatop.	<id>onomatop.</id> <disp>Onomatopöie - onomatopoeia</disp>
+Opt.	<id>Opt.</id> <disp>Optativ - optative</disp>
+Optat.	<id>Optat.</id> <disp>Optativ - optative</disp>
+optat.	<id>optat.</id> <disp>Optativ - optative</disp>
+ord.	<id>ord.</id> <disp>Ordinálzahl - ordinal (number)</disp>
+Ortsadv.	<id>Ortsadv.</id> <disp>? - ?</disp>
+Oxyt.	<id>Oxyt.</id> <disp>Oxyton - oxytone</disp>
+oxyt.	<id>oxyt.</id> <disp>Oxyton - oxytone</disp>
+P.	<id>P.</id> <disp>Person</disp>
+Parox.	<id>Parox.</id> <disp>Paroxyton - paroxytone</disp>
+parox.	<id>parox.</id> <disp>Paroxyton - paroxytone</disp>
+paroxyt.	<id>paroxyt.</id> <disp>Paroxyton - paroxytone</disp>
+Part.	<id>Part.</id> <disp>Participium - participle</disp>
 Partic.	<id>Partic.</id> <disp>Participium - participle</disp>
+pass.	<id>pass.</id> <disp>Passiv - passive</disp>
 Pass.	<id>Pass.</id> <disp>Passiv - passive</disp>
 Patron.	<id>Patron.</id> <disp>Patronym (Deu.)/Patronymicum(Lat.) - patronym</disp>
 Patronn.	<id>Patronn.</id> <disp>Patronyme(Deu.)/Patrnymica (Lat.) - patronyms</disp>
+Perf.	<id>Perf.</id> <disp>Perfektum - perfect tense</disp>
+perf.	<id>perf.</id> <disp>Perfektum - perfect tense</disp>
+Pers.	<id>Pers.</id> <disp>Person - person</disp>
+Personif.	<id>Personif.</id> <disp>Personifikation - personification</disp>
+personif.	<id>personif.</id> <disp>Personifikation - personification</disp>
+Phil.	<id>Phil.</id> <disp>Philosophie - philosophy</disp>
+philos.	<id>philos.</id> <disp>Philosophie - philosophy</disp>
 Pl.	<id>Pl.</id> <disp>Plural - plural</disp>
+poss.	<id>poss.</id> <disp>Possessiv - possessive</disp>
+Pot.	<id>Pot.</id> <disp>Potentialis - potential mood</disp>
+Poten.	<id>Poten.</id> <disp>Potentialis - potential mood</disp>
 Potent.	<id>Potent.</id> <disp>Potentialis - potential mood</disp> 
+Praep.	<id>Praep.</id> <disp>Praeposition - preposition</disp>
+Praes.	<id>Praes.</id> <disp>Praesens - present</disp>
+praes.	<id>praes.</id> <disp>Praesens - present</disp>
+Praet.	<id>Praet.</id> <disp>Präteritum - preterite</disp>
+praet.	<id>praet.</id> <disp>Präteritum - preterite</disp>
+Prec.	<id>Prec.</id> <disp>Precativ - precative</disp>
+priv.	<id>priv.</id> <disp>privativ - privative</disp>
+Prol.	<id>Prol.</id> <disp>Prolog - prologue</disp>
+Pron.	<id>Pron.</id> <disp>Pronomen - pronoun</disp>
+pron.	<id>pron.</id> <disp>Pronomen - pronoun</disp>
+Pronom.	<id>Pronom.</id> <disp>Pronomen - pronoun</disp>
+Pronomm.	<id>Pronomm.</id> <disp>Pronome - pronouns</disp>
+proparox.	<id>proparox.</id> <disp>Proparoxyton - proparoxytone</disp>
+proparoxyt.	<id>proparoxyt.</id> <disp>Proparoxyton - proparoxytone</disp>
+präd.	<id>präd.</id> <disp>prädikativ - predicative</disp>
 Präp.	<id>Präp.</id> <disp>Präposition - preposition</disp>
-s.u.	<id>s.u.</id> <disp>siehe unten?/unter? - see below/under</disp>
+Präpp.	<id>Präpp.</id> <disp>Präpositionen - prepositions</disp>
+Präs.	<id>Präs.</id> <disp>Präsentisch - present</disp>
+Pt.	<id>Pt.</id> <disp>? - ?</disp>
+Rec.	<id>Rec.</id> <disp>? - recension</disp>
+Red.	<id>Red.</id> <disp>? - ?</disp>
+redupl.	<id>redupl.</id> <disp>Reduplicativ - reduplicative</disp>
+refl.	<id>refl.</id> <disp>reflexiv - reflexive</disp>
+reflex.	<id>reflex.</id> <disp>reflexiv - reflexive</disp>
+Rel.	<id>Rel.</id> <disp>Relativ - relative</disp>
+Relat.	<id>Relat.</id> <disp>Relativ - relative</disp>
+relat.	<id>relat.</id> <disp>Relativ - relative</disp>
+resp.	<id>resp.</id> <disp>respektive - respectively</disp>
+Rhet.	<id>Rhet.</id> <disp>Rhetorik - rhetoric</disp>
+rhet.	<id>rhet.</id> <disp>Rhetorik - rhetoric</disp>
+rit.	<id>rit.</id> <disp>Ritual - ritual</disp>
+Roxb.	<id>Roxb.</id> <disp> - Roxburgh</disp>
+S.	<id>S.</id> <disp>siehe - please refer, see</disp>
+s.	<id>s.</id> <disp>siehe - please refer, see</disp>
+s. d.	<id>s. d.</id> <disp>siehe dort - look there</disp>
+s. u.	<id>s. u.</id> <disp>siehe unter - see under</disp>
+s. u. d.	<id>s. u. d.</id> <disp>siehe unter die - see under die</disp>
+s. v.	<id>s. v.</id> <disp>sub verbo (Latin) - see under the word</disp>
+sc.	<id>sc.</id> <disp>scilicet (Latin) - that is to say, namely</disp>
+Sch.	<id>Sch.</id> <disp>- Scholiast or Commentator</disp>
+Schol.	<id>Schol.</id> <disp>- Scholiast or Commentator</disp>
 Sg.	<id>Sg.</id> <disp>Singular - singular</disp>
+Simpl.	<id>Simpl.</id> <disp>Simpel - simple</disp>
+sog.	<id>sog.</id> <disp>sogenannt - so-called</disp>
+St.	<id>St.</id> <disp>substituiert - substituted</disp>
+st.	<id>st.</id> <disp>substituiert - substituted</disp>
+Subj.	<id>Subj.</id> <disp>Subjekt - subject</disp>
+subj.	<id>subj.</id> <disp>Subjekt - subject</disp>
+subst.	<id>subst.</id> <disp>Substantiv - noun</disp>
 Subst.	<id>Subst.</id> <disp>Substantiv - noun</disp>
-Sch.	<id>Sch.</id> <disp>Scholiast or Commentator</disp>
-Schol.	<id>Schol.</id> <disp>Scholiast or Commentator</disp>
-v.l.	<id>v.l.</id> <disp>vide licet - that us to say, namely</disp>
-v.u.	<id>v.u.</id> <disp>von unten - line number counted from below, from the last line up</disp>
-v.a.	<id>v.a.</id> <disp>vor allem - above all, especially</disp>
-gedr.	<id>gedr.</id> <disp>gedruckt - printed</disp>
-u.s.w.	<id>u.s.w.</id> <disp>und so weiter - and so on, and so forth = etc.</disp>
+Substr.	<id>Substr.</id> <disp>? - ?</disp>
+Suff.	<id>Suff.</id> <disp>Suffix - suffix</disp>
+Superl.	<id>Superl.</id> <disp>Superlativ - superlative</disp>
+term. techn.	<id>term. techn.</id> <disp> - technical term</disp>
+Trans.	<id>Trans.</id> <disp>transitiv - transitive</disp>
+trans.	<id>trans.</id> <disp>transitiv - transitive</disp>
+transit.	<id>transit.</id> <disp>transitiv - transitive</disp>
+u. s. w.	<id>u. s. w.</id> <disp>und so weiter - and so on, and so forth = etc.</disp>
+Ueberh.	<id>Ueberh.</id> <disp>? - ?</disp>
+überh.	<id>überh.</id> <disp>? - ?</disp>
+Uebers.	<id>Uebers.</id> <disp>uebersetzung - translation</disp>
+Uebertr.	<id>Uebertr.</id> <disp>? - ?</disp>
+übertr.	<id>übertr.</id> <disp>? - ?</disp>
+unbest.	<id>unbest.</id> <disp>unbestimmt - indefinite, uncertain</disp>
+Uneig.	<id>Uneig.</id> <disp>uneigentlich - unreal</disp>
+uneig.	<id>uneig.</id> <disp>uneigentlich - unreal</disp>
+ungedr.	<id>ungedr.</id> <disp>ungedrukte - unprinted</disp>
+Unterschr.	<id>Unterschr.</id> <disp>unterschrift  - caption, signature</disp>
+urspr.	<id>urspr.</id> <disp>ursprünglich - originally</disp>
+v. a.	<id>v. a.</id> <disp>vor allem - above all, especially</disp>
+v. l.	<id>v. l.</id> <disp>vide licet - that us to say, namely</disp>
+v. u.	<id>v. u.</id> <disp>von unten - line number counted from below, from the last line up</disp>
+Ved.	<id>Ved.</id> <disp> - Vedic</disp>
+Verb.	<id>Verb.</id> <disp>Verbum - verb</disp>
+Vergl.	<id>Vergl.</id> <disp>Vergleiche - compare</disp>
 Vgl.	<id>Vgl.</id> <disp>Vergleiche - compare</disp>
-vgl.	<id>Vgl.</id> <disp>vergleiche - compare</disp>
+vgl.	<id>vgl.</id> <disp>vergleiche - compare</disp>
+viell.	<id>viell.</id> <disp>vielleicht - perhaps</disp>
 Voc.	<id>Voc.</id> <disp>Vocativ - vocative (case)</disp>
-Adj.	<id>Adj.</id> <disp>Adjectiv - adjective</disp>
-adj.	<id>adj.</id> <disp>adjectivisch - adjective</disp>
-f.	<id>f.</id> <disp>femininum - feminine</disp>
-Indecl.	<id>Indecl.</id> <disp>Indeclinabilum - indeclinable</disp>
-m.	<id>m.</id> <disp>masculinum - masculine</disp>
-n.	<id>n.</id> <disp>neutrum - neuter</disp>
-s.	<id>s.</id> <disp>siehe - see</disp>
+z. B.	<id>z. B.</id> <disp>zum Beispiel - for example</disp>
+Zahladv.	<id>Zahladv.</id> <disp>Zahlenadverb - number adverb</disp>
