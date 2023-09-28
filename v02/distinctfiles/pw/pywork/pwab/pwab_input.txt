@@ -137,7 +137,6 @@ Infin.	<id>Infin.</id> <disp>Infinitiv - infinitive</disp>
 Insbes.	<id>Insbes.</id> <disp>insbesondere - in particular</disp>
 insbes.	<id>insbes.</id> <disp>insbesondere - in particular</disp>
 Inschr.	<id>Inschr.</id> <disp>inschrifte - inscription</disp>
-instebs.	<id>instebs.</id> <disp>? - ?</disp>
 instr.	<id>instr.</id> <disp>Instrumental - instrumental (case)</disp>
 Instr.	<id>Instr.</id> <disp>Instrumental - instrumental (case)</disp>
 intens.	<id>intens.</id> <disp>Intensiv - intensive</disp>
@@ -154,7 +153,6 @@ intrans.	<id>intrans.</id> <disp>intransitiv - intransitive</disp>
 intransit.	<id>intransit.</id> <disp>intransitiv - intransitive</disp>
 Jahrh.	<id>Jahrh.</id> <disp>jahrhundert - century</disp>
 Jmd.	<id>Jmd.</id> <disp>Jmden - someone</disp>
-Kalb.	<id>Kalb.</id> <disp>? - ?</disp>
 klass.	<id>klass.</id> <disp>klassisch - classical</disp>
 liturg.	<id>liturg.</id> <disp>liturgisch - liturgical</disp>
 Loc.	<id>Loc.</id> <disp>Locativ - locative case</disp>
@@ -240,9 +238,7 @@ präd.	<id>präd.</id> <disp>prädikativ - predicative</disp>
 Präp.	<id>Präp.</id> <disp>Präposition - preposition</disp>
 Präpp.	<id>Präpp.</id> <disp>Präpositionen - prepositions</disp>
 Präs.	<id>Präs.</id> <disp>Präsentisch - present</disp>
-Pt.	<id>Pt.</id> <disp>? - ?</disp>
 Rec.	<id>Rec.</id> <disp>? - recension</disp>
-Red.	<id>Red.</id> <disp>? - ?</disp>
 redupl.	<id>redupl.</id> <disp>Reduplicativ - reduplicative</disp>
 refl.	<id>refl.</id> <disp>reflexiv - reflexive</disp>
 reflex.	<id>reflex.</id> <disp>reflexiv - reflexive</disp>
