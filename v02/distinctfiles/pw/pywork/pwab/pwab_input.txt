@@ -66,6 +66,8 @@ copul. Comp.	<id>copul. Comp.</id> <disp>? - copulative compound</disp>
 Correl.	<id>Correl.</id> <disp>Correlativ - correlative</disp>
 d. h.	<id>d. h.</id> <disp>das heisst - that means</disp>
 d. i.	<id>d. i.</id> <disp>das ist - i.e. id est - that is</disp>
+das.	<id>das.</id> <disp>dasselbe - the same</disp>
+Das.	<id>Das.</id> <disp>dasselbe - the same</disp>
 dass.	<id>dass.</id> <disp>dasselbe - the same</disp>
 Dat.	<id>Dat.</id> <disp>Dativ - dative (case)</disp>
 Demin.	<id>Demin.</id> <disp>Deminutiv - Diminutive</disp>

@@ -114,7 +114,7 @@ bhs requires also lang
 <!ATTLIST chg src CDATA #IMPLIED>
 <!ATTLIST hwtype n (alt | sub | fem | neu | n) #REQUIRED>
 <!ATTLIST hwtype ref CDATA #REQUIRED>
-<!ATTLIST lang n (greek | arabic | meter |slavic|russian|oldhebrew|Old-Church-Slavonic|Arabic|Hindustani|Persian|Turkish|hebrew|Avestan|Slavonic|Lettish|German|UNK) #IMPLIED>
+<!ATTLIST lang n (greek | arabic | meter |slavic|russian|oldhebrew|Old-Church-Slavonic|Arabic|Hindustani|Persian|Turkish|hebrew|Avestan|Slavonic|Lettish|German|mongolian|UNK) #IMPLIED>
 <!ATTLIST lang script (Arabic) #IMPLIED >
 
 <!ATTLIST pic name CDATA #REQUIRED>
