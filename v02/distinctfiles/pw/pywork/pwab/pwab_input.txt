@@ -69,6 +69,7 @@ d. i.	<id>d. i.</id> <disp>das ist - i.e. id est - that is</disp>
 das.	<id>das.</id> <disp>daselbst - at that same place</disp>
 Das.	<id>Das.</id> <disp>daselbst - at that same place</disp>
 dass.	<id>dass.</id> <disp>dasselbe - the same</disp>
+Dass.	<id>Dass.</id> <disp>dasselbe - the same</disp>
 Dat.	<id>Dat.</id> <disp>Dativ - dative (case)</disp>
 Demin.	<id>Demin.</id> <disp>Deminutiv - Diminutive</disp>
 Demonstr.	<id>Demonstr.</id> <disp>Demonstrativ - demonstrative</disp>
