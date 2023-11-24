@@ -1,9 +1,9 @@
 echo "BEGIN redo_xml.sh"
-%if cologne_flag:
+
 echo "construct ${dictlo}.xml..."
+%if cologne_flag:
 python3 make_xml.py ../orig/${dictlo}.txt ${dictlo}hw.txt ${dictlo}.xml # > redoxml_log.txt
 %else:
-echo "construct ${dictlo}.xml..."
 python3 make_xml.py ../orig/${dictlo}.txt ${dictlo}hw.txt ${dictlo}.xml # > redoxml_log.txt
 %endif
 echo "xmllint on ${dictlo}.xml..."

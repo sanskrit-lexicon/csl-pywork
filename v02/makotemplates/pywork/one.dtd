@@ -32,7 +32,17 @@ H1B | H2B | H3B | H4B | H1C | H2C | H3C | H4C | H1E | H2E | H3E | H4E)*>
 <!ELEMENT key1 (#PCDATA) >
 <!ELEMENT key2 (#PCDATA )>
 <!ELEMENT hom (#PCDATA)>
+%if dictlo in ['abch']:
+<!ELEMENT body (div,hwdetails,entrydetails)>
+<!ELEMENT hwdetails (hwdetail)*>
+<!ELEMENT hwdetail (eid,syns)>
+<!ELEMENT eid (#PCDATA) >
+<!ELEMENT syns (s)>
+<!ELEMENT entrydetails (entrydetail)*>
+<!ELEMENT entrydetail (s) >
+%else:
 <!ELEMENT body (#PCDATA  | %body_elts;)*>
+%endif
 <!ELEMENT br EMPTY >
 <!ELEMENT lb EMPTY>
 ## <!ELEMENT F (#PCDATA | br | symbol |i|div)*>
@@ -50,7 +60,11 @@ H1B | H2B | H3B | H4B | H1C | H2C | H3C | H4C | H1E | H2E | H3E | H4E)*>
 <!ELEMENT old (#PCDATA  | %body_elts;)*>
 <!ELEMENT new (#PCDATA  | %body_elts;)*>
 <!ELEMENT span (#PCDATA  | %body_elts;)*>
+%if dictlo in ['abch']:
+<!ELEMENT tail (L,pc)>
+%else:
 <!ELEMENT tail (#PCDATA | L | pc |hwtype|info)*>
+%endif
 <!ELEMENT L (#PCDATA) >
 <!ELEMENT pc (#PCDATA) >
 <!ELEMENT iw (#PCDATA) >

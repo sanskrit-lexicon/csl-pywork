@@ -24,6 +24,15 @@ def get_dict_code(fileout):
  return code
 
 def create_table(c,conn,dictlo):
+%if dictlo in ['abch']:
+ template = '''
+CREATE TABLE %s (
+ key VARCHAR(100)  NOT NULL,
+ lnum DECIMAL(10,2) NOT NULL,
+ data TEXT NOT NULL
+);
+  ''' % dictlo
+%else:
  template = '''
 CREATE TABLE %s (
  key VARCHAR(100)  NOT NULL,
@@ -31,6 +40,7 @@ CREATE TABLE %s (
  data TEXT NOT NULL
 );
   ''' % dictlo
+%endif
  if False:  #dbg
   print('DBG: table template=')
   print(template)
@@ -62,6 +72,43 @@ def insert_batch(c,conn,tabname,rows):
  c.executemany(sql,rows)
  conn.commit()
 
+%if dictlo in ['abch']:
+def sort_lines(lines):
+ slp_from = "aAiIuUfFxXeEoOMHkKgGNcCjJYwWqQRtTdDnpPbBmyrlvSzsh"
+ slp_to =   "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvw"
+ slp_from_to = str.maketrans(slp_from,slp_to)
+ # filter, and generate sortkey
+ rows = []
+ for line in lines:
+  if not line.startswith('<H'):
+   # skip othere xml lines
+   continue
+  m = re.search(r'<key1>(.*?)</key1>.*<L>(.*?)</L>',line)
+  if not m:
+   print('ERROR: Could not find key1,lnum from line: %s' %line)
+   exit(1)
+  key1 = m.group(1)
+  lnum = m.group(2)
+  keysort = key1.translate(slp_from_to)  
+  row = (keysort,key1,lnum,line)
+  rows.append(row)
+ # sort the rows
+ rows1 = sorted(rows,key = lambda row: row[0])
+ if False: # dbg print the sorted records
+  fileout = 'temp_sqlite.txt'
+  print('debug written to',fileout)
+  with codecs.open(fileout,"w","utf-8") as f:
+   for irow,row in enumerate(rows1):
+    if (irow in [0,1]):
+     f.write('%s %s %s %s\n' % row)
+    else:
+     f.write('%s %s %s\n' %(irow,row[0],row[1]))
+            
+ # remove the keysort field
+ rows2 = [row[1:] for row in rows1]
+ return rows2
+%endif
+
 if __name__ == "__main__":
  time0 = time.time() # a real number
 
@@ -84,12 +131,33 @@ if __name__ == "__main__":
  # create the 'dictlo' table in db
  create_table(c,conn,dictlo)
  
- f = codecs.open(filein,"r","utf-8")
- nlines = 0
- nrow = 0
+ with codecs.open(filein,"r","utf-8") as f:
+  lines = [line.rstrip('\r\n') for line in f]
+  print(len(lines),'lines read from',filein)
+
+%if dictlo in ['abch']:
+ rows = sort_lines(lines)
+ nrow = len(rows)
  batch = []
- for line0 in f:
-  nlines = nlines + 1
+ for irow,rowin in enumerate(rows):
+  (key1,lnum,line) = rowin
+  # replace lnum with sequence number, and make it a string
+  newlnum = str(irow + 1)
+  row = (key1,newlnum,line)
+  if len(batch) < mbatch:
+   # add row to batch
+   batch.append(row)
+  else:
+   # insert records of (full) batch, and commit?
+   insert_batch(c,conn,dictlo,batch)
+   # reinit batch
+   batch = []
+   # add this row to batch
+   batch.append(row)
+%else:
+ nrow = len(lines)
+ batch = []
+ for line0 in lines:
   line = line0.rstrip('\r\n')
   if not line.startswith('<H'):
    continue
@@ -103,7 +171,6 @@ if __name__ == "__main__":
   if len(batch) < mbatch:
    # add row to batch
    batch.append(row)
-   nrow = nrow + 1
   else:
    # insert records of (full) batch, and commit?
    insert_batch(c,conn,dictlo,batch)
@@ -111,15 +178,14 @@ if __name__ == "__main__":
    batch = []
    # add this row to batch
    batch.append(row)
-   nrow = nrow + 1
- f.close()
+%endif
+
  # insert last batch
  insert_batch(c,conn,dictlo,batch)
  # create index
  create_index(c,conn,dictlo)
  conn.close()  # close the connection to xxx.sqlite
  time1 = time.time()  # ending time
- print(nlines,'lines read from',filein)
  print(nrow,'rows written to',fileout)
  timediff = time1 - time0 # seconds
  print('%0.2f seconds for batch size %s' %(timediff,mbatch))

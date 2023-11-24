@@ -38,5 +38,7 @@ sh generate_dict.sh lan  ../../lan
 sh generate_dict.sh armh  ../../armh
 sh generate_dict.sh pwkvn  ../../pwkvn
 sh generate_dict.sh lrv  ../../lrv
+sh generate_dict.sh abch  ../../abch
+
 
 

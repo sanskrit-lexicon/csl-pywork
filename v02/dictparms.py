@@ -1,9 +1,8 @@
 # coding=utf-8
 # the version  is value
 # of contextvariable dictversion.
-# It is suffixed with this 'microversion', which should be
-#  changed often.
-microversion = '.001'
+# It is suffixed with this 'microversion', which should be #  changed often.
+microversion = '.002'  # abch 11-19-2023
 alldictparms = {
  "gra": {
   "dictup":"GRA",
@@ -246,5 +245,11 @@ alldictparms = {
   "dictversion":"02",
  },
 
+ "abch": {
+  "dictup":"ABCH",
+  "dictlo":"abch",
+  "dictname":u"Abhidhānacintāmaṇi of Hemacandrācārya",
+  "dictversion":"03",
+ },
 
 }

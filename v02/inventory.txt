@@ -16,7 +16,7 @@
 ;  Use Python sqlite rather than sqlite3
 ; --------------------------------------------------------------
 *:pywork/sqlite/redo.sh:T
-*:pywork/sqlite/sqlite.py:C
+*:pywork/sqlite/sqlite.py:T
 ; --------------------------------------------------------------
 ; files for updating web/sqlite.  OLD - changed 12-16-2020
 ; All but redo.sh now Deleted (formerly T (template))

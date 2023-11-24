@@ -1,4 +1,5 @@
 """hw.py  ejf 2014-06-10
+   11-19-2023 kosh
    Major revision 2017-05-18
    inputs:
      orig/xxx.txt
@@ -21,6 +22,8 @@ class Hwmeta(object):
  # <key>val
 %if dictlo == 'mw':
  keysall_list = ['L','pc','k1','k2','h','e']  # standard order
+%elif dictlo in ['abch']:
+ keysall_list = ['L','pc']
 %else:
  keysall_list = ['L','pc','k1','k2','h']  # standard order
 %endif
@@ -43,11 +46,13 @@ class Hwmeta(object):
   # convert dictionary to object attributes (except for 'e' = extra)
   self.pc = d['pc']
   self.L = d['L']
+%if dictlo not in ['abch']:
   self.key1 = d['k1']
   self.key2 = d['k2']
   self.h = None
   if 'h' in d:
    self.h = d['h']
+%endif
 %if dictlo == 'mw':
   self.e = d['e']
 %endif
@@ -86,6 +91,12 @@ def init_hwextra(filein):
   recs = [Hwextra(line) for line in f if not line.startswith(';')]
  return recs
 
+def get_k1(s):
+ parts = s.split('-')
+ if len(parts) > 2:
+  print('WARNING: more than one gender',s)
+ return parts[0]
+
 class Entry(object):
  Ldict = {}
  def __init__(self,lines,linenum1,linenum2):
@@ -96,11 +107,38 @@ class Entry(object):
   self.meta = Hwmeta(self.metaline)
   self.linenum1 = linenum1
   self.linenum2 = linenum2
+%if dictlo in ['abch']:
+  self.L = self.meta.L
+  self.pc = self.meta.pc  
+  self.keys = self.init_keys()  # array of headwords
+%endif
   L = self.meta.L
   if L in self.Ldict:
    print("Entry init error: duplicate L",L,linenum1)
    exit(1)
   self.Ldict[L] = self
+%if dictlo in ['abch']:
+ def init_keys(self):
+  a = []
+  d = {}  # used to check duplicates
+  for line0 in self.datalines:
+   line = re.sub(r'</?s>','',line0)  # 10-22-2023
+   m = re.search(r'^<eid>(.*?)<syns>(.*)$',line)
+   if m == None:
+    continue
+   syns_str = m.group(2)
+   syn_items = syns_str.split(',')
+   syns_k1 = [get_k1(item) for item in syn_items]
+   for k1m in syns_k1:
+    if k1m not in d:
+     a.append(k1m)
+     d[k1m] = True
+  return a
+%else:
+ def init_keys(self):
+  print('hw.py ERROR init_keys')
+  exit(1)
+%endif
 
 def init_entries(filein):
  # slurp lines
@@ -214,6 +252,76 @@ def hwextra_to_hwrec(recx):
  d['pc'] = metaP.pc
  return d
 
+def write_entries_kosha(entries,fileout):
+ """ write different format for koshas (abch)
+ """
+ outarr = []
+ for entry in entries:
+  L = entry.L
+  pc = entry.pc
+  ln1 = entry.linenum1
+  ln2 = entry.linenum2
+  for key in entry.keys:
+   k1 = key
+   k2 = k1
+   out = '<L>%s<pc>%s<k1>%s<k2>%s<ln1>%s<ln2>%s' % (L,pc,k1,k2,ln1,ln2)
+   outarr.append(out)
+ with codecs.open(fileout,"w","utf-8") as f:
+  for out in outarr:
+   f.write(out + '\n')
+
+def init_entries_kosha(filein):
+ # slurp lines
+ with codecs.open(filein,encoding='utf-8',mode='r') as f:
+  lines = [line.rstrip('\r\n') for line in f]
+ recs=[]  # list of Entry objects
+ inentry = False  
+ idx1 = None
+ idx2 = None
+ for idx,line in enumerate(lines):
+  if inentry:
+   if line.startswith('<LEND>'):
+    idx2 = idx
+    entrylines = lines[idx1:idx2+1]
+    linenum1 = idx1 + 1
+    linenum2 = idx2 + 1
+    entry = Entry(entrylines,linenum1,linenum2)
+    recs.append(entry)
+    # prepare for next entry
+    idx1 = None
+    idx2 = None
+    inentry = False
+   elif line.startswith('<L>'):  # error
+    print('init_entries Error 1. Not expecting <L>')
+    print("line # ",idx+1)
+    print(line.encode('utf-8'))
+    exit(1)
+   else: 
+    # keep looking for <LEND>
+    continue
+  else:
+   # inentry = False. Looking for '<L>'
+   if line.startswith('<L>'):
+    idx1 = idx
+    inentry = True
+   elif line.startswith('<LEND>'): # error
+    print('init_entries Error 2. Not expecting <LEND>')
+    print("line # ",idx+1)
+    print(line.encode('utf-8'))
+    exit(1)
+   else: 
+    # keep looking for <L>
+    continue
+ # when all lines are read, we should have inentry = False
+ if inentry:
+  print('init_entries Error 3. Last entry not closed')
+  print('Open entry starts at line',idx1+1)
+  exit(1)
+
+ print(len(lines),"lines read from",filein)
+ print(len(recs),"entries found")
+ return recs
+  
 if __name__ == "__main__":
  filedig = sys.argv[1]
  fileextra = sys.argv[2]
@@ -221,8 +329,17 @@ if __name__ == "__main__":
 
  recsextra = init_hwextra(fileextra)
  print(len(recsextra),"extra headwords from",fileextra)
- entries = init_entries(filedig)
 
+% if dictlo in ['abch']:
+ # abch is kosha. No 'extra headwords
+ print ("BEGIN init_entries_kosha")
+ entries = init_entries_kosha(filedig)
+ write_entries_kosha(entries,fileout)
+ print("END write_entries")
+% else:
+ print("BEGIN hw.py init_entries")
+ entries = init_entries(filedig)
+ print("END hw.py init_entries")
  # generate list of key-value dictionaries for normal entries
  hwrecs_normal = [entry_to_hwrec(entry) for entry in entries]
  # generate similar list for extra headwords
@@ -233,4 +350,5 @@ if __name__ == "__main__":
  hwrecs = sorted(hwrecs_all,key=lambda x: float(x['L']))
  # print the sorted list
  write_hwrecs(hwrecs,fileout)
- 
+%endif
+

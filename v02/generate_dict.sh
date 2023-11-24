@@ -15,23 +15,36 @@ fi
 
 curdir=`pwd`  # so we can get back here
 # generate_orig.sh must be executed with 'bash'
+echo "BEGIN generate_orig.sh $dict $outdir"
 bash generate_orig.sh "$dict" "$outdir"
+echo "END generate_orig.sh $dict $outdir"
+echo ""
 
+echo "BEGIN generate_pywork.sh $dict $outdir"
 sh generate_pywork.sh "$dict" "$outdir"
+echo "END generate_pywork.sh $dict $outdir"
+echo ""
 
 # resolve $outdir to full path 
 fullpath=`readlink -f $outdir`
 
 cd ../../csl-websanlexicon/v02
 
+echo "BEGIN generate_web.sh $dict $outdir"
 sh generate_web.sh "$dict" "$fullpath"
+echo "END generate_web.sh $dict $outdir"
+echo ""
 
 cd $curdir # back here
 # ---------------------------------------------------------
 # Recompute derived files
+echo 
+echo "*****************************************************"
+echo "BEGIN execution of pywork code at $outdir/pywork"
 cd $outdir/pywork
 echo "regenerate $dict headwords"
 sh redo_hw.sh
+
 echo "regenerate $dict.xml and postxml files"
 sh redo_xml.sh
 cd $curdir  # back to v02

@@ -185,7 +185,12 @@ if __name__=="__main__":
    # just copy distinct file from olddir1
    filename1 = "%s/%s" %(olddir1,filename_old)
    newfile = "%s/%s" %(newdir,filename_new)
-   copyfile(filename1,newfile)
+   try:
+    copyfile(filename1,newfile)
+   except:
+    print('generate.py. ERROR CD copyfile. filename1=%s, newfile=%s' %
+          (filename1,newfile))
+    exit(1)
   elif category == 'T':
    # process as a template
    filename1 = "%s/%s" %(olddir,filename_old)
