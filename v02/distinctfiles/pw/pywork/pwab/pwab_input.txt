@@ -302,3 +302,6 @@ viell.	<id>viell.</id> <disp>vielleicht - perhaps</disp>
 Voc.	<id>Voc.</id> <disp>Vocativ - vocative (case)</disp>
 z. B.	<id>z. B.</id> <disp>zum Beispiel - for example</disp>
 Zahladv.	<id>Zahladv.</id> <disp>Zahlenadverb - number adverb</disp>
+ved.	<id>ved.</id> <disp>Vedic</disp>  lang tag
+Prākrit	<id>Prākrit</id> <disp>Prākrit language</disp>  lang tag
+ep.	<id>ep.</id> <disp>epic</disp>  lang tag

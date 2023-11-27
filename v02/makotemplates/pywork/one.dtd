@@ -27,7 +27,7 @@ H1B | H2B | H3B | H4B | H1C | H2C | H3C | H4C | H1E | H2E | H3E | H4E)*>
 <!ELEMENT H3E (h,body,tail) >
 <!ELEMENT H4E (h,body,tail) >
 %endif
-<!ENTITY % body_elts "b | i | s |div | alt | symbol | F |  br | H | root |lb | P | lang | sup | pic | ls |ab|lbinfo|s1|lex|vlex|C|Poem|note|nsi |sic|is|bot|VN|type|hom|mark|edit|bio|etym|pb|pc|pcol|shortlong|srs|info|ns|span|pe|chg|old|new|gk|heb|iw|zoo|tib|ger|fr|ed|ms|lat|toch" >
+<!ENTITY % body_elts "b | i | s |div | alt | symbol | F |  br | H | root |lb | P | lang | sup | pic | ls |ab|lbinfo|s1|lex|vlex|C|Poem|note|nsi |sic|is|bot|VN|type|hom|mark|edit|bio|etym|pb|pc|pcol|shortlong|srs|info|ns|span|pe|chg|old|new|gk|heb|iw|zoo|tib|ger|fr|ed|ms|lat|toch|arab|rus|mong" >
 <!ELEMENT h  (key1,key2,hom?)>
 <!ELEMENT key1 (#PCDATA) >
 <!ELEMENT key2 (#PCDATA )>
@@ -77,6 +77,9 @@ H1B | H2B | H3B | H4B | H1C | H2C | H3C | H4C | H1E | H2E | H3E | H4E)*>
 <!ELEMENT tib (#PCDATA) > <!-- Tibetan text, bhs-->
 <!ELEMENT ger (#PCDATA | i | ab)* > <!-- German text, bhs-->
 <!ELEMENT fr (#PCDATA | i | ab)* > <!-- French text, bhs-->
+<!ELEMENT arab (#PCDATA) > <!-- Arabic text, PW-->
+<!ELEMENT rus (#PCDATA) >  <!-- Russian text, PW-->
+<!ELEMENT mong (#PCDATA) >  <!-- Mongolian text, PW-->
 <!ELEMENT ed (#PCDATA) > <!-- edition bhs-->
 <!ELEMENT ms (#PCDATA) > <!-- manuscript bhs-->
 <!ELEMENT lat (#PCDATA | i | ab)* > <!-- latin text, bhs-->
