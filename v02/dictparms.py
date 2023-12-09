@@ -244,11 +244,22 @@ alldictparms = {
   "dictname":u"Vaidya Standard Sanskrit-English Dictionary",
   "dictversion":"02",
  },
-
  "abch": {
   "dictup":"ABCH",
   "dictlo":"abch",
   "dictname":u"Abhidhānacintāmaṇi of Hemacandrācārya",
+  "dictversion":"03",
+ },
+ "acph": {
+  "dictup":"ACPH",
+  "dictlo":"acph",
+  "dictname":u"Abhidhānacintāmaṇipariśiṣṭa of Hemacandrācārya",
+  "dictversion":"03",
+ },
+ "acsj": {
+  "dictup":"ACSJ",
+  "dictlo":"acsj",
+  "dictname":u"Abhidhānacintāmaṇiśiloñcha of Jinadeva",
   "dictversion":"03",
  },
 

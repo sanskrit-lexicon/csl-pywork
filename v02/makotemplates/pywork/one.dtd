@@ -32,7 +32,7 @@ H1B | H2B | H3B | H4B | H1C | H2C | H3C | H4C | H1E | H2E | H3E | H4E)*>
 <!ELEMENT key1 (#PCDATA) >
 <!ELEMENT key2 (#PCDATA )>
 <!ELEMENT hom (#PCDATA)>
-%if dictlo in ['abch']:
+%if dictlo in ['abch', 'acph', 'acsj']:
 <!ELEMENT body (div,hwdetails,entrydetails)>
 <!ELEMENT hwdetails (hwdetail)*>
 <!ELEMENT hwdetail (eid,syns)>
@@ -60,7 +60,7 @@ H1B | H2B | H3B | H4B | H1C | H2C | H3C | H4C | H1E | H2E | H3E | H4E)*>
 <!ELEMENT old (#PCDATA  | %body_elts;)*>
 <!ELEMENT new (#PCDATA  | %body_elts;)*>
 <!ELEMENT span (#PCDATA  | %body_elts;)*>
-%if dictlo in ['abch']:
+%if dictlo in ['abch', 'acph', 'acsj']:
 <!ELEMENT tail (L,pc)>
 %else:
 <!ELEMENT tail (#PCDATA | L | pc |hwtype|info)*>

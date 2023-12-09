@@ -22,7 +22,7 @@ class Hwmeta(object):
  # <key>val
 %if dictlo == 'mw':
  keysall_list = ['L','pc','k1','k2','h','e']  # standard order
-%elif dictlo in ['abch']:
+%elif dictlo in ['abch', 'acph', 'acsj']:
  keysall_list = ['L','pc']
 %else:
  keysall_list = ['L','pc','k1','k2','h']  # standard order
@@ -46,7 +46,7 @@ class Hwmeta(object):
   # convert dictionary to object attributes (except for 'e' = extra)
   self.pc = d['pc']
   self.L = d['L']
-%if dictlo not in ['abch']:
+%if dictlo not in ['abch', 'acph', 'acsj']:
   self.key1 = d['k1']
   self.key2 = d['k2']
   self.h = None
@@ -107,7 +107,7 @@ class Entry(object):
   self.meta = Hwmeta(self.metaline)
   self.linenum1 = linenum1
   self.linenum2 = linenum2
-%if dictlo in ['abch']:
+%if dictlo in ['abch', 'acph', 'acsj']:
   self.L = self.meta.L
   self.pc = self.meta.pc  
   self.keys = self.init_keys()  # array of headwords
@@ -117,7 +117,7 @@ class Entry(object):
    print("Entry init error: duplicate L",L,linenum1)
    exit(1)
   self.Ldict[L] = self
-%if dictlo in ['abch']:
+%if dictlo in ['abch', 'acph', 'acsj']:
  def init_keys(self):
   a = []
   d = {}  # used to check duplicates
@@ -330,7 +330,7 @@ if __name__ == "__main__":
  recsextra = init_hwextra(fileextra)
  print(len(recsextra),"extra headwords from",fileextra)
 
-% if dictlo in ['abch']:
+% if dictlo in ['abch', 'acph', 'acsj']:
  # abch is kosha. No 'extra headwords
  print ("BEGIN init_entries_kosha")
  entries = init_entries_kosha(filedig)

@@ -41,7 +41,7 @@ class HW(object):
   # for simplicity, use the attribute names as key names.
   for k in d:
    setattr(self,k,d[k])
-%if dictlo not in ['abch']:
+%if dictlo not in ['abch', 'acph', 'acsj']:
   # update Ldict
   if self.L in self.Ldict:
    print("HW_init ERROR: duplicate L-code=",self.L)

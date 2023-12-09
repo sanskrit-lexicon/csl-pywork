@@ -48,7 +48,7 @@ def close_divs_krm(newline):
 %endif
 %if dictlo not in ['ap','skd','sch','md','shs','cae','wil','ap90','bur','acc','yat']:  # These have their own code
 def dig_to_xml_specific(x):
-%if dictlo in ['pw','pwg','ae','gst','ieg','mwe','pgn','pui','vei','mw72','snp','bor','mw','inm','bop','abch']:
+%if dictlo in ['pw','pwg','ae','gst','ieg','mwe','pgn','pui','vei','mw72','snp','bor','mw','inm','bop','abch','acph','acsj']:
  """ no changes particular to digitization"""
  return x
 %else:
@@ -441,7 +441,7 @@ def dig_to_xml_specific(x):
 %endif
 
 def dig_to_xml_general(x):
-%if dictlo in ['abch']:
+%if dictlo in ['abch', 'acph', 'acsj']:
  return x
 %endif
  """ These changes likely apply to ALL digitizations"""
@@ -726,7 +726,7 @@ kaRwakaM romaharze syAt sUcyagre kzudravEriRi .. 3 ..
  #5. Close the <div> elements
  # data = close_divs(data)
  return data
-%elif dictlo in ['abch']:
+%elif dictlo in ['abch', 'acph', 'acsj']:
 def construct_xmlstring_2_helper(syns):
  # syns = a,b,c ...
  # each syn is either k1 or k1-gender
@@ -1071,7 +1071,7 @@ def xml_header(xmlroot):
  lines = [x.strip() for x in lines if x.strip()!='']
  return lines
 
-%if dictlo in ['abch']:
+%if dictlo in ['abch', 'acph', 'acsj']:
 def get_datalines1(hw,datalines):
  # used for abch
  ans= []
@@ -1106,7 +1106,7 @@ def get_datalines(hwrec,inlines):
  idx1 = n1 - 1
  idx2 = n2 - 1
  datalines = inlines[idx1:idx2+1]
-%if dictlo in ['abch']:
+%if dictlo in ['abch', 'acph', 'acsj']:
  # restrict further to the hwdetails that mention this hw
  hw = hwrec.k1
  datalines = get_datalines1(hw,datalines)
@@ -1137,7 +1137,7 @@ def make_xml(filedig,filehw,fileout):
   # construct output
 %if dictlo in ['anhk']:
   xmlstring = construct_xmlstring_1(datalines,hwrec)
-%elif dictlo in ['abch']:
+%elif dictlo in ['abch', 'acph', 'acsj']:
   # using abch form
   xmlstring = construct_xmlstring_2(datalines,hwrec)
 %else:
