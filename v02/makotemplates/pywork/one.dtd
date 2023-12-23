@@ -67,7 +67,6 @@ H1B | H2B | H3B | H4B | H1C | H2C | H3C | H4C | H1E | H2E | H3E | H4E)*>
 %endif
 <!ELEMENT L (#PCDATA) >
 <!ELEMENT pc (#PCDATA) >
-<!ELEMENT pe (#PCDATA) > <!-- 12-20-2023. md. <pe>2</pe> 2nd person -->
 <!ELEMENT cl (#PCDATA) > <!-- 12-20-2023. md. <cl>III</cl> 3rd class verb -->
 <!ELEMENT iw (#PCDATA) >
 <!ELEMENT hwtype EMPTY>
