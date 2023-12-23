@@ -2,6 +2,7 @@
 """ make_xml.py
  Reads/Writes utf-8
  11-14-2020. remove .encode('utf-8') .  For python3 coding
+ 12-21-2023. md: (a) 🞄 for line break, (b) <ab>X</ab> -> <i><ab>X</ab></i>
 """
 from __future__ import print_function
 import xml.etree.ElementTree as ET
@@ -282,6 +283,12 @@ def dig_to_xml_specific(x):
  # add divs for other bold
  x = re.sub(r'<b>([^-])',r'<div n="2" ><b>\1',x)
  """
+ # Add italic markup to '<ab>', lex, bot, zoo
+ # There are both local and global <ab> instances (local: <ab n="T">X</ab>
+ x = re.sub(r'(<ab.*?</ab>)',  r'<i>\1</i>',x)
+ # Add italic markup to '<lex>'  currently only global
+ x = re.sub(r'(<lex.*?</lex>)',  r'<i>\1</i>',x)
+ # for bot and zoo : this is done at another spot for 'md'
  return x
 %endif
 %if dictlo == 'shs':
@@ -877,7 +884,9 @@ def construct_xmlstring(datalines,hwrec):
   datalines1.append(x)
  datalines = datalines1
 %endif
-%if dictlo in ['md']:
+%if dictlo in ['mdxxx']:
+ # Since dictlo never is mdxxx, this coded not executed.
+ # code retained in this file for information out 12-21-2023
  for i,x in enumerate(datalines):
   if i == 0:
    pass
@@ -888,6 +897,23 @@ def construct_xmlstring(datalines,hwrec):
   else:
    x = '<lb/>' + x
   datalines1.append(x)
+ datalines = datalines1
+%endif
+%if dictlo in ['md']:
+ # revision of 12-21-2023.
+ # 🞄 01F784  (Black Slightly Small Circle) gets turned into new lines
+ circle = '🞄'
+ for i,x in enumerate(datalines):
+  # add italic markup for bot, zoo
+  x = re.sub(r'(<bot.*?</bot>)',  r'<i>\1</i>',x)
+  x = re.sub(r'(<zoo.*?</zoo>)',  r'<i>\1</i>',x)
+  parts = x.split(circle)
+  for ipart,part in enumerate(parts):
+   if (ipart == 0) and (i == 0):
+    newpart = part
+   else:
+    newpart = '<lb/>' + part #
+   datalines1.append(newpart)
  datalines = datalines1
 %endif
 %if dictlo in ['pe','pgn','pui','vei']:
