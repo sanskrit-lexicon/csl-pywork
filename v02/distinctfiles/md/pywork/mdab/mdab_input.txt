@@ -15,7 +15,7 @@ a. cpd.	<id>a. cpd.</id> <disp>adjective compound</disp>
 a. cpds.	<id>a. cpds.</id> <disp>adjective compounds</disp>
 A. D.	<id>A. D.</id> <disp>Anno Domini</disp>
 a. m.	<id>a. m.</id> <disp>ante meridiem, before noon</disp>
-a.¹	<id>a.¹</id> <disp>adjective (¹ = ?<)/disp> <count>1</count> <tag>lex</tag>
+a.¹	<id>a.¹</id> <disp>adjective, one instance</disp> <count>1</count> <tag>lex</tag>
 ab.	<id>ab.</id> <disp>ablative.</disp>
 abl.	<id>abl.</id> <disp>ablative</disp>
 abs.	<id>abs.</id> <disp>absolute.</disp>
@@ -24,7 +24,7 @@ abst.	<id>abst.</id> <disp>abstract.</disp>
 abst. N.	<id>abst. N.</id> <disp>abstract noun.</disp>
 abst. ɴ.	<id>abst. ɴ.</id> <disp>abstract noun.</disp>
 ac.	<id>ac.</id> <disp>accusative.</disp>
-ac.¹	<id>ac.¹</id> <disp>accusative (¹ = ?)</disp>
+ac.¹	<id>ac.¹</id> <disp>accusative, one instance</disp>
 act.	<id>act.</id> <disp>active.</disp>
 ad.	<id>ad.</id> <disp>adverb, -ial, -ially.</disp>
 ads.	<id>ads.</id> <disp>adverbs</disp>
@@ -36,15 +36,15 @@ ass.	<id>ass.</id> <disp>asseverative.</disp>
 astrol.	<id>astrol.</id> <disp>astrology</disp>
 athg.	<id>athg.</id> <disp>anything.</disp>
 AV.	<id>AV.</id> <disp>Atharva-veda.</disp>
-AV.¹	<id>AV.¹</id> <disp>Atharva-veda. (¹ = ?)</disp>
+AV.¹	<id>AV.¹</id> <disp>Atharva-veda, one instance</disp>
 B.	<id>B.</id> <disp>Buddhistic term.</disp>
 B. C.	<id>B. C.</id> <disp>Before Christ, number of years before birth of Jesus</disp>
 beg.	<id>beg.</id> <disp>beginning.</disp>
 bg.	<id>bg.</id> <disp>beginning.</disp>
 Br.	<id>Br.</id> <disp>Brāhmaṇa.</disp>
-Br.¹	<id>Br.¹</id> <disp>Brāhmaṇa. (¹ = ?<)/disp> <count>3</count>
+Br.¹	<id>Br.¹</id> <disp>Brāhmaṇa, one instance</disp> <count>3</count>
 C.	<id>C.</id> <disp>Classical (post-Vedic) Sanskrit.</disp>
-C.¹	<id>C.¹</id> <disp>Classical (post-Vedic) Sanskrit. (¹ = ?)</disp>
+C.¹	<id>C.¹</id> <disp>Classical (post-Vedic) Sanskrit, one instance</disp>
 cj.	<id>cj.</id> <disp>conjunction.</disp>
 cjs.	<id>cjs.</id> <disp>conjunctions.</disp>
 col.	<id>col.</id> <disp>collective, -ly.</disp>
@@ -75,7 +75,7 @@ dr.	<id>dr.</id> <disp>dramatic term.</disp>
 du.	<id>du.</id> <disp>dual.</disp>
 E.	<id>E.</id> <disp>Epic.</disp>
 e. g.	<id>e. g.</id> <disp>for example.</disp>
-E.¹	<id>E.¹</id> <disp>Epic. (¹ = ?)</disp>
+E.¹	<id>E.¹</id> <disp>Epic, one instance</disp>
 emp.	<id>emp.</id> <disp>emphatic.</disp>
 emph. inter.	<id>emph. inter.</id> <disp>emphatic interrogative</disp>
 enc.	<id>enc.</id> <disp>enclitic.</disp>
@@ -101,7 +101,7 @@ French	<id>French</id> <disp>French language</disp>
 ft.	<id>ft.</id> <disp>future.</disp>
 fut.	<id>fut.</id> <disp>future.</disp>
 g.	<id>g.</id> <disp>genitive.</disp>
-g.¹	<id>g.¹</id> <disp>genitive. (¹ = ?)</disp>
+g.¹	<id>g.¹</id> <disp>genitive, one instance</disp>
 gd.	<id>gd.</id> <disp>gerund (indeclinable participle).</disp>
 gen.	<id>gen.</id> <disp>genitive.</disp>
 Gk.	<id>Gk.</id> <disp>Greek.</disp>
@@ -143,13 +143,13 @@ K.	<id>K.</id> <disp>king.</disp>
 Lat.	<id>Lat.</id> <disp>Latin.</disp>
 Latin	<id>Latin</id> <disp>Latin language</disp>
 lc.	<id>lc.</id> <disp>locative.</disp>
-lc.¹	<id>lc.¹</id> <disp>locative (¹ = ?)</disp>
+lc.¹	<id>lc.¹</id> <disp>locative, one instance</disp>
 leg.	<id>leg.</id> <disp>legal term.</disp>
 lex.	<id>lex.</id> <disp>??</disp>
 lit.	<id>lit.</id> <disp>literally.</disp>
 m.	<id>m.</id> <disp>masculine.</disp>
-m.²	<id>m.²</id> <disp>masculine. (² = ?)</disp>
-m.¹	<id>m.¹</id> <disp>masculine. (¹ = ?)</disp>
+m.²	<id>m.²</id> <disp>masculine, two instances</disp>
+m.¹	<id>m.¹</id> <disp>masculine, one instance</disp>
 med.	<id>med.</id> <disp>medical term</disp>
 met.	<id>met.</id> <disp>metronymic.</disp>
 metr.	<id>metr.</id> <disp>metrical (due to exigencies of metre).</disp>
@@ -161,7 +161,7 @@ N.	<id>N.</id> <disp>name; when alone = name of a man or of a woman.</disp>
 n.	<id>n.</id> <disp>neuter.</disp>
 N.E.	<id>N.E.</id> <disp>Northeast.</disp>
 N.W.	<id>N.W.</id> <disp>Northwest.</disp>
-n.¹	<id>n.¹</id> <disp>neuter. (¹ = ?)</disp>
+n.¹	<id>n.¹</id> <disp>neuter, one instance</disp>
 neg.	<id>neg.</id> <disp>negative.</disp>
 nl.	<id>nl.</id> <disp>??</disp>
 nm.	<id>nm.</id> <disp>nominative.</disp>
@@ -181,7 +181,7 @@ ord. num.	<id>ord. num.</id> <disp>ordinal number</disp>
 orig.	<id>orig.</id> <disp>originally.</disp>
 P.	<id>P.</id> <disp>Parasmaipada.</disp>
 p. m.	<id>p. m.</id> <disp>post meridiem, after noon</disp>
-P.¹	<id>P.¹</id> <disp>Parasmaipada. (¹ = ?)</disp>
+P.¹	<id>P.¹</id> <disp>Parasmaipada, one instance</disp>
 pat.	<id>pat.</id> <disp>patronymic.</disp>
 pcl.	<id>pcl.</id> <disp>particle.</disp>
 pcls.	<id>pcls.</id> <disp>particles.</disp>
@@ -192,7 +192,7 @@ pf.	<id>pf.</id> <disp>perfect.</disp>
 ph.	<id>ph.</id> <disp>philosophical term.</disp>
 phil.	<id>phil.</id> <disp>philosophical term.</disp>
 pl.	<id>pl.</id> <disp>plural.</disp>
-pl.¹	<id>pl.¹</id> <disp>plural (¹ = ?)</disp>
+pl.¹	<id>pl.¹</id> <disp>plural, one instance</disp>
 pn.	<id>pn.</id> <disp>pronoun, pronominal.</disp>
 pns.	<id>pns.</id> <disp>pronouns.</disp>
 pos.	<id>pos.</id> <disp>possessive.</disp>
@@ -232,12 +232,12 @@ rit.	<id>rit.</id> <disp>ritual term.</disp>
 rl.	<id>rl.</id> <disp>relative.</disp>
 rp.	<id>rp.</id> <disp>repeated.</disp>
 RV.	<id>RV.</id> <disp>Rig-veda.</disp>
-RV.²	<id>RV.²</id> <disp>Rig-veda (² = ?)</disp>
-RV.¹	<id>RV.¹</id> <disp>Rig-veda (¹ = ?)</disp>
+RV.²	<id>RV.²</id> <disp>Rig-veda, two instances</disp>
+RV.¹	<id>RV.¹</id> <disp>Rig-veda, one instance</disp>
 S.	<id>S.</id> <disp>Sūtra.</disp>
 s.	<id>s.</id> <disp>singular.</disp>
 s. v.	<id>s. v.</id> <disp>sub voce.</disp>
-S.¹	<id>S.¹</id> <disp>S.¹ (¹ = ?)</disp>
+S.¹	<id>S.¹</id> <disp>S.¹, one instance</disp>
 Sanskrit	<id>Sanskrit</id> <disp>Sanskrit language</disp>
 sb.	<id>sb.</id> <disp>substantive.</disp>
 sbj.	<id>sbj.</id> <disp>subjunctive</disp>
@@ -263,14 +263,14 @@ TBr.	<id>TBr.</id> <disp>Taittirīya-Brāhmaṇa.</disp>
 tr.	<id>tr.</id> <disp>transitive.</disp>
 TS.	<id>TS.</id> <disp>Taittirīya-Saṃhitā.</disp>
 Ts.	<id>Ts.</id> <disp>Titles/</disp>
-TS.¹	<id>TS.¹</id> <disp>Taittirīya-Saṃhitā. (¹ = ?)</disp>
+TS.¹	<id>TS.¹</id> <disp>Taittirīya-Saṃhitā, one instance</disp>
 U.	<id>U.</id> <disp>Upaniṣad.</disp>
 V.	<id>V.</id> <disp>Veda, Vedic.</disp>
 v.	<id>v.</id> <disp>vide, see.</disp>
 v. l.	<id>v. l.</id> <disp>varia lectio, variant reading</disp>
 v. r.	<id>v. r.</id> <disp>various reading.</disp>
-V.²	<id>V.²</id> <disp>Vedic (² = ?)</disp>
-V.¹	<id>V.¹</id> <disp>Vedic (¹ = ?)</disp>
+V.²	<id>V.²</id> <disp>Vedic, two instances</disp>
+V.¹	<id>V.¹</id> <disp>Vedic, one instance</disp>
 vb.	<id>vb.</id> <disp>verb.</disp>
 vbl.	<id>vbl.</id> <disp>verbal.</disp>
 vbl. N.	<id>vbl. N.</id> <disp>verbal noun.</disp>
@@ -280,7 +280,7 @@ vc.	<id>vc.</id> <disp>vocative.</disp>
 viz.	<id>viz.</id> <disp>videlicet, that is to say</disp>
 voc.	<id>voc.</id> <disp>vocative</disp>
 VS.	<id>VS.</id> <disp>Vājasaneyi-Saṃhitā.</disp>
-VS.¹	<id>VS.¹</id> <disp>Vājasaneyi-Saṃhitā (¹ = ?)</disp>
+VS.¹	<id>VS.¹</id> <disp>Vājasaneyi-Saṃhitā, one instance</disp>
 w.	<id>w.</id> <disp>with.</disp>
 wk.	<id>wk.</id> <disp>weak.</disp>
 YV.	<id>YV.</id> <disp>Yajur-veda.</disp>
@@ -288,9 +288,9 @@ YV.¹	<id>YV.¹</id> <disp>Yajur-veda Yajur-veda</disp>
 °—	<id>°—</id> <disp>at the beginning of a compound (ibc.)</disp>
 ±	<id>±</id> <disp>with or without.</disp>
 Ā.	<id>Ā.</id> <disp>Ātmanepada.</disp>
-Ā.¹	<id>Ā.¹</id> <disp>Ātmanepada (¹ = ?)</disp>
+Ā.¹	<id>Ā.¹</id> <disp>Ātmanepada, one instance</disp>
 ŚB.	<id>ŚB.</id> <disp>Śatapatha-Brāhmaṇa.</disp>
-ŚB.¹	<id>ŚB.¹</id> <disp>Śatapatha-Brāhmaṇa (¹ = ?)</disp>
+ŚB.¹	<id>ŚB.¹</id> <disp>Śatapatha-Brāhmaṇa, one instance</disp>
 ɴ.	<id>ɴ.</id> <disp>noun.</disp>
 —°	<id>—°</id> <disp>at the end of a compound (ifc.)</disp>
 √	<id>√</id> <disp>root.</disp>
