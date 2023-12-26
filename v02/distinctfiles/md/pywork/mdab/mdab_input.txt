@@ -109,11 +109,8 @@ gnly.	<id>gnly.</id> <disp>generally.</disp>
 gr.	<id>gr.</id> <disp>grammatical term.</disp>
 Gr.	<id>Gr.</id> <disp>Greek</disp>
 hvg.	<id>hvg.</id> <disp>having.</disp>
-I.	<id>I.</id> <disp>First conjugation.</disp>
 i. e.	<id>i. e.</id> <disp>that is.</disp>
 id.	<id>id.</id> <disp>the same.</disp>
-II.	<id>II.</id> <disp>Second conjugation.</disp>
-III.	<id>III.</id> <disp>Third conjugation.</disp>
 ij.	<id>ij.</id> <disp>interjection.</disp>
 imp.	<id>imp.</id> <disp>imperative</disp>
 impf.	<id>impf.</id> <disp>imperfect.</disp>
@@ -141,8 +138,6 @@ intv.	<id>intv.</id> <disp>intensive (frequentative).</disp>
 ir.	<id>ir.</id> <disp>irregular.</disp>
 irr.	<id>irr.</id> <disp>irregular.</disp>
 irreg.	<id>irreg.</id> <disp>irregular.</disp>
-IV.	<id>IV.</id> <disp>Fourth conjugation.</disp>
-IX.	<id>IX.</id> <disp>Ninth conjugation.</disp>
 Jan.	<id>Jan.</id> <disp>January</disp>
 K.	<id>K.</id> <disp>king.</disp>
 Lat.	<id>Lat.</id> <disp>Latin.</disp>
@@ -282,16 +277,12 @@ vbl. N.	<id>vbl. N.</id> <disp>verbal noun.</disp>
 vbl. ɴ.	<id>vbl. ɴ.</id> <disp>verbal noun</disp>
 vbs.	<id>vbs.</id> <disp>verbs.</disp>
 vc.	<id>vc.</id> <disp>vocative.</disp>
-VI.	<id>VI.</id> <disp>Sixth conjugation.</disp>
-VII.	<id>VII.</id> <disp>Seventh conjugation.</disp>
-VIII.	<id>VIII.</id> <disp>Eighth conjugation</disp>
 viz.	<id>viz.</id> <disp>videlicet, that is to say</disp>
 voc.	<id>voc.</id> <disp>vocative</disp>
 VS.	<id>VS.</id> <disp>Vājasaneyi-Saṃhitā.</disp>
 VS.¹	<id>VS.¹</id> <disp>Vājasaneyi-Saṃhitā (¹ = ?)</disp>
 w.	<id>w.</id> <disp>with.</disp>
 wk.	<id>wk.</id> <disp>weak.</disp>
-X.	<id>X.</id> <disp>Tenth conjugation</disp>
 YV.	<id>YV.</id> <disp>Yajur-veda.</disp>
 YV.¹	<id>YV.¹</id> <disp>Yajur-veda Yajur-veda</disp>
 °—	<id>°—</id> <disp>at the beginning of a compound (ibc.)</disp>
@@ -301,7 +292,16 @@ YV.¹	<id>YV.¹</id> <disp>Yajur-veda Yajur-veda</disp>
 ŚB.	<id>ŚB.</id> <disp>Śatapatha-Brāhmaṇa.</disp>
 ŚB.¹	<id>ŚB.¹</id> <disp>Śatapatha-Brāhmaṇa (¹ = ?)</disp>
 ɴ.	<id>ɴ.</id> <disp>noun.</disp>
-ᴠ.	<id>ᴠ.</id> <disp>Fifth conjugation</disp>
 —°	<id>—°</id> <disp>at the end of a compound (ifc.)</disp>
 √	<id>√</id> <disp>root.</disp>
 𝑃.	<id>𝑃.</id> <disp>Purāṇa.</disp>
+Ⅰ.	<id>Ⅰ.</id> <disp>First conjugation.</disp>
+Ⅱ.	<id>Ⅱ.</id> <disp>Second conjugation.</disp>
+Ⅲ.	<id>Ⅲ.</id> <disp>Third conjugation.</disp>
+Ⅳ.	<id>Ⅳ.</id> <disp>Fourth conjugation.</disp>
+Ⅴ.	<id>Ⅴ.</id> <disp>Fifth conjugation</disp>
+Ⅵ.	<id>Ⅵ.</id> <disp>Sixth conjugation.</disp>
+Ⅶ.	<id>Ⅶ.</id> <disp>Seventh conjugation.</disp>
+Ⅷ.	<id>Ⅷ.</id> <disp>Eighth conjugation</disp>
+Ⅸ.	<id>Ⅸ.</id> <disp>Ninth conjugation.</disp>
+Ⅹ.	<id>Ⅹ.</id> <disp>Tenth conjugation</disp>
