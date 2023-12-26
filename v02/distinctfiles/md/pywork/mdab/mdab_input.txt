@@ -11,14 +11,14 @@
 3.	<id>3.</id> <disp>3rd person</disp>
 =	<id>=</id> <disp>equals, is the equivalent of.</disp>
 a.	<id>a.</id> <disp>adjective.</disp>
-a. cpd.	<id>a. cpd.</id> <disp>adjective compound</disp>
-a. cpds.	<id>a. cpds.</id> <disp>adjective compounds</disp>
+a. cpd.	<id>a. cpd.</id> <disp>adjectival compound</disp>
+a. cpds.	<id>a. cpds.</id> <disp>adjectival compounds</disp>
 A. D.	<id>A. D.</id> <disp>Anno Domini</disp>
 a. m.	<id>a. m.</id> <disp>ante meridiem, before noon</disp>
-a.¹	<id>a.¹</id> <disp>adjective, one instance</disp> <count>1</count> <tag>lex</tag>
+a.¹	<id>a.¹</id> <disp>adjective, one instance</disp>
 ab.	<id>ab.</id> <disp>ablative.</disp>
 abl.	<id>abl.</id> <disp>ablative</disp>
-abs.	<id>abs.</id> <disp>absolute.</disp>
+abs.	<id>abs.</id> <disp>absolute, absolutive</disp>
 abs. ɴ.	<id>abs. ɴ.</id> <disp>abstract noun.</disp>
 abst.	<id>abst.</id> <disp>abstract.</disp>
 abst. N.	<id>abst. N.</id> <disp>abstract noun.</disp>
@@ -42,7 +42,7 @@ B. C.	<id>B. C.</id> <disp>Before Christ, number of years before birth of Jesus<
 beg.	<id>beg.</id> <disp>beginning.</disp>
 bg.	<id>bg.</id> <disp>beginning.</disp>
 Br.	<id>Br.</id> <disp>Brāhmaṇa.</disp>
-Br.¹	<id>Br.¹</id> <disp>Brāhmaṇa, one instance</disp> <count>3</count>
+Br.¹	<id>Br.¹</id> <disp>Brāhmaṇa, one instance</disp>
 C.	<id>C.</id> <disp>Classical (post-Vedic) Sanskrit.</disp>
 C.¹	<id>C.¹</id> <disp>Classical (post-Vedic) Sanskrit, one instance</disp>
 cj.	<id>cj.</id> <disp>conjunction.</disp>
@@ -114,7 +114,7 @@ id.	<id>id.</id> <disp>the same.</disp>
 ij.	<id>ij.</id> <disp>interjection.</disp>
 imp.	<id>imp.</id> <disp>imperative</disp>
 impf.	<id>impf.</id> <disp>imperfect.</disp>
-impl.	<id>impl.</id> <disp>??</disp>
+impl.	<id>impl.</id> <disp>impersonal.</disp>
 impr.	<id>impr.</id> <disp>imperative.</disp>
 imps.	<id>imps.</id> <disp>impersonal.</disp>
 impv.	<id>impv.</id> <disp>imperative.</disp>
@@ -145,7 +145,7 @@ Latin	<id>Latin</id> <disp>Latin language</disp>
 lc.	<id>lc.</id> <disp>locative.</disp>
 lc.¹	<id>lc.¹</id> <disp>locative, one instance</disp>
 leg.	<id>leg.</id> <disp>legal term.</disp>
-lex.	<id>lex.</id> <disp>??</disp>
+lex.	<id>lex.</id> <disp>lexical term ?</disp>
 lit.	<id>lit.</id> <disp>literally.</disp>
 m.	<id>m.</id> <disp>masculine.</disp>
 m.²	<id>m.²</id> <disp>masculine, two instances</disp>
@@ -159,11 +159,11 @@ mid.	<id>mid.</id> <disp>middle (stem)</disp>
 mtn.	<id>mtn.</id> <disp>mountain.</disp>
 N.	<id>N.</id> <disp>name; when alone = name of a man or of a woman.</disp>
 n.	<id>n.</id> <disp>neuter.</disp>
-N.E.	<id>N.E.</id> <disp>Northeast.</disp>
-N.W.	<id>N.W.</id> <disp>Northwest.</disp>
+N.E.	<id>N.E.</id> <disp>North-east.</disp>
+N.W.	<id>N.W.</id> <disp>North-west.</disp>
 n.¹	<id>n.¹</id> <disp>neuter, one instance</disp>
 neg.	<id>neg.</id> <disp>negative.</disp>
-nl.	<id>nl.</id> <disp>??</disp>
+nl.	<id>nl.</id> <disp>nominal.</disp>
 nm.	<id>nm.</id> <disp>nominative.</disp>
 nom.	<id>nom.</id> <disp>nominative</disp>
 Nov.	<id>Nov.</id> <disp>November.</disp>
@@ -237,7 +237,7 @@ RV.¹	<id>RV.¹</id> <disp>Rig-veda, one instance</disp>
 S.	<id>S.</id> <disp>Sūtra.</disp>
 s.	<id>s.</id> <disp>singular.</disp>
 s. v.	<id>s. v.</id> <disp>sub voce.</disp>
-S.¹	<id>S.¹</id> <disp>S.¹, one instance</disp>
+S.¹	<id>S.¹</id> <disp>Sūtra, one instance</disp>
 Sanskrit	<id>Sanskrit</id> <disp>Sanskrit language</disp>
 sb.	<id>sb.</id> <disp>substantive.</disp>
 sbj.	<id>sbj.</id> <disp>subjunctive</disp>
@@ -252,8 +252,8 @@ stg.	<id>stg.</id> <disp>strong</disp>
 sthg.	<id>sthg.</id> <disp>something.</disp>
 str.	<id>str.</id> <disp>strong.</disp>
 strg.	<id>strg.</id> <disp>strong.</disp>
-sts.	<id>sts.</id> <disp>statements. ?</disp>
-Sts.	<id>Sts.</id> <disp>statements. ?</disp>
+sts.	<id>sts.</id> <disp>sometimes.</disp>
+Sts.	<id>Sts.</id> <disp>Sometimes.</disp>
 subj.	<id>subj.</id> <disp>subjunctive.</disp>
 SV.	<id>SV.</id> <disp>Sāma-veda.</disp>
 sx.	<id>sx.</id> <disp>suffix.</disp>
@@ -284,7 +284,7 @@ VS.¹	<id>VS.¹</id> <disp>Vājasaneyi-Saṃhitā, one instance</disp>
 w.	<id>w.</id> <disp>with.</disp>
 wk.	<id>wk.</id> <disp>weak.</disp>
 YV.	<id>YV.</id> <disp>Yajur-veda.</disp>
-YV.¹	<id>YV.¹</id> <disp>Yajur-veda Yajur-veda</disp>
+YV.¹	<id>YV.¹</id> <disp>Yajur-veda, one instance</disp>
 °—	<id>°—</id> <disp>at the beginning of a compound (ibc.)</disp>
 ±	<id>±</id> <disp>with or without.</disp>
 Ā.	<id>Ā.</id> <disp>Ātmanepada.</disp>
