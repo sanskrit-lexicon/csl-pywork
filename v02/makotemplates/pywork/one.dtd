@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!-- 04-25-2022. Add 'i' as child of 'ls'. For pwkvn -->
+<!-- 01-22-2024. For dictlo = pe, Exclude the further 'pe' tag.-->
 %if dictlo != 'mw':
 <!ELEMENT  ${dictlo} (H1)*>
 <!ELEMENT H1 (h,body,tail) >
@@ -105,7 +106,9 @@ bhs requires also lang
   -->
 <!ELEMENT ls (#PCDATA |ab|s1|ns|is|i|sup|lang|lb)*>
 <!ELEMENT ab (#PCDATA)> <!-- general abbreviation -->
+%if dictlo != 'pe':
 <!ELEMENT pe (#PCDATA)> <!-- person 'abbreviation' (1., etc) -->
+%endif
 <!ELEMENT lbinfo EMPTY>
 <!ELEMENT C EMPTY>
 <!ELEMENT VN (#PCDATA | %body_elts; )* >
@@ -137,7 +140,9 @@ bhs requires also lang
 
 <!ATTLIST pic name CDATA #REQUIRED>
 <!ATTLIST ab n CDATA #IMPLIED>
+%if dictlo != 'pe':
 <!ATTLIST pe n CDATA #IMPLIED>
+%endif
 <!ATTLIST lbinfo n CDATA #REQUIRED>
 <!ATTLIST s1 slp1 CDATA #IMPLIED>
 <!ATTLIST vlex type (root) #REQUIRED>
