@@ -93,6 +93,7 @@ f.	<id>f.</id> <disp>feminine</disp> NOTE: NORMALLY in <lex>
 fem.	<id>fem.</id> <disp>feminine</disp> <INFER/>
 fig.	<id>fig.</id> <disp>figuratively</disp>
 Feb.	<id>Feb.</id> <disp>February</disp>
+fn.	<id>fn.</id> <disp>feminine or neuter</disp>   USED IN <lex>
 fr.	<id>fr.</id> <disp>from</disp>
 Fr.	<id>Fr.</id> <disp>From or French</disp>
 Fut.	<id>Fut.</id> <disp>future</disp>
@@ -160,6 +161,7 @@ interpol.	<id>interpol.</id> <disp>interpolation</disp>
 intrans.	<id>intrans.</id> <disp>intransitive</disp>
 intr.	<id>intr.</id> <disp>intransitive</disp>
 Introd.	<id>Introd.</id> <disp>Introduction</disp>
+introd.	<id>introd.</id> <disp>Introduction</disp>
 Ion.	<id>Ion.</id> <disp>Ionic</disp> <UNMARKED>
 irr.	<id>irr.</id> <disp>irregular</disp>
 irreg.	<id>irreg.</id> <disp>irregular</disp>   <INFER/>
@@ -170,6 +172,7 @@ Lett.	<id>Lett.</id> <disp>Lettish</disp>
 lit.	<id>lit.</id> <disp>literally</disp>
 Lith.	<id>Lith.</id> <disp>Lithuanian</disp>
 Lit.	<id>Lit.</id> <disp>Lithuanian</disp>  <INFER/> ? hw= Dfz
+liturg.	<id>liturg.</id> <disp>liturgical</disp>
 Lin.	<id>Lin.</id> <disp>Carl Linnaeus</disp>  <INFER/>
 Loc.	<id>loc.</id> <disp>locative case</disp> <INFER/>
 loc.	<id>Loc.</id> <disp>locative case</disp>
@@ -179,6 +182,7 @@ m.	<id>m.</id> <disp>masculine gender</disp>  USED IN <lex>
 m.c.	<id>m.c.</id> <disp>metri causa, or ‘for the sake of the meter’ in poetry</disp>
 mc.	<id>mc.</id> <disp>metri causa, or ‘for the sake of the meter’ in poetry</disp> <INFER/>  177 cases. Maybe print is always m.c. ?
 math.	<id>math.</id> <disp>mathematics</disp>
+mathem.	<id>mathem.</id> <disp>mathematics</disp>
 med.	<id>med.</id> <disp>medicine</disp>
 medic.	<id>medic.</id> <disp>medicine</disp>
 metron.	<id>metron.</id> <disp>metronymic</disp>
@@ -189,10 +193,12 @@ Mod.	<id>Mod.</id> <disp>modern</disp>
 MS.	<id>MS.</id> <disp>manuscript</disp>
 MSS.	<id>MSS.</id> <disp>manuscripts</disp>
 mystic.	<id>mystic.</id> <disp>mystical</disp>
+myst.	<id>myst.</id> <disp>mystical</disp>
 myth.	<id>myth.</id> <disp>mythology</disp>
 N.	<id>N.</id> <disp>Name (also = title or epithet)</disp>
 n.	<id>n.</id> <disp>neuter gender</disp>   USED IN <lex>
 neg.	<id>neg.</id> <disp>negative</disp>
+necess.	<id>necess.</id> <disp>necessary</disp>
 negat.	<id>negat.</id> <disp>negative</disp>
 Nom.	<id>Nom.</id> <disp>Nominal verb</disp>
 nom.	<id>nom.</id> <disp>nominative case</disp>
@@ -235,6 +241,7 @@ pf.	<id>pf.</id> <disp>perfect tense</disp>
 phil.	<id>phil.</id> <disp>philosophy</disp>
 Phil.	<id>Phil.</id> <disp>philosophy</disp> <INFER/>
 pl.	<id>pl.</id> <disp>plural number</disp>
+plusq.	<id>plusq.</id> <disp>plusquamperfect, pluperfect</disp>
 poet.	<id>poet.</id> <disp>poetry or poetic</disp>
 possess.	<id>possess.</id> <disp>possessive</disp> <INFER/>
 Pot.	<id>Pot.</id> <disp>Potential</disp>
@@ -311,6 +318,7 @@ v.l.	<id>v.l.</id> <disp>varia lectio, or ‘variant reading or readings’</dis
 vv.ll.	<id>vv.ll.</id> <disp>varia lectio, or ‘variant reading or readings’</disp>
 viz.	<id>viz.</id> <disp>namely, in other words. From Latin videlicet</disp> <INFER/>
 voc.	<id>voc.</id> <disp>vocative case</disp>
+vocat.	<id>vocat.</id> <disp>vocative</disp>
 vow.	<id>vow.</id> <disp>vowel</disp>
 v.r.	<id>v.r.</id> <disp>variant reading</disp> <INFER/>
 w.r.	<id>w.r.</id> <disp>wrong reading</disp>
@@ -355,7 +363,7 @@ etc.	<id>etc.</id> <disp>et cetera, and so on</disp>
 etymol.	<id>etymol.</id> <disp>etymology</disp>
 exc.	<id>exc.</id> <disp>except</disp>
 gr.	<id>gr.</id> <disp>grammar</disp>
-gramm.	<id>gramm.</id> <disp>grammar</disp>
+gramm.	<id>gramm.</id> <disp>grammar or grammatical</disp>
 interrog.	<id>interrog.</id> <disp>interrogative</disp>
 lang.	<id>lang.</id> <disp>language</disp>
 latit.	<id>latit.</id> <disp>latitude</disp>
@@ -378,6 +386,7 @@ plur.	<id>plur.</id> <disp>plural</disp>
 polit.	<id>polit.</id> <disp>politics</disp>
 prop.	<id>prop.</id> <disp>?</disp>
 pros.	<id>pros.</id> <disp>prosody</disp>
+prosod.	<id>prosod.</id> <disp>prosody, prosodical</disp>
 rel.	<id>rel.</id> <disp>relative</disp>
 relat.	<id>relat.</id> <disp>relative</disp>
 relig.	<id>relig.</id> <disp>religion</disp>
