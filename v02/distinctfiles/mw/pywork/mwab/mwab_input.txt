@@ -198,7 +198,6 @@ myth.	<id>myth.</id> <disp>mythology</disp>
 N.	<id>N.</id> <disp>Name (also = title or epithet)</disp>
 n.	<id>n.</id> <disp>neuter gender</disp>   USED IN <lex>
 neg.	<id>neg.</id> <disp>negative</disp>
-necess.	<id>necess.</id> <disp>necessary</disp>
 negat.	<id>negat.</id> <disp>negative</disp>
 Nom.	<id>Nom.</id> <disp>Nominal verb</disp>
 nom.	<id>nom.</id> <disp>nominative case</disp>
@@ -344,7 +343,6 @@ N.E.	<id>N.E.</id> <disp>north-east</disp>
 S.	<id>S.</id> <disp>south</disp>
 Up.	<id>Up.</id> <disp>Upaniṣad</disp> <INFER/>
 pref.	<id>pref.</id> <disp>preface</disp>
-introd.	<id>introd.</id> <disp>Introduction</disp>
 imp.	<id>imp.</id> <disp>imperative</disp> <INFER/>
 Mr.	<id>Mr.</id> <disp>Mister</disp>
 St.	<id>St.</id> <disp>Saint</disp>
@@ -372,7 +370,7 @@ metaph.	<id>metaph.</id> <disp>metaphorically</disp>
 metr.	<id>metr.</id> <disp>metronymic</disp>
 mus.	<id>mus.</id> <disp>music</disp>
 mythol.	<id>mythol.</id> <disp>mythology</disp>
-necess.	<id>necess.</id> <disp>necessitative</disp>
+necess.	<id>necess.</id> <disp>necessitative ?</disp>
 neut.	<id>neut.</id> <disp>neuter</disp>
 nomin.	<id>nomin.</id> <disp>nominative</disp>
 num.	<id>num.</id> <disp>number</disp>
