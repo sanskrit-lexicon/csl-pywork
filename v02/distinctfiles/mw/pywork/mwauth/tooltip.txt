@@ -128,8 +128,8 @@
 02:53	Dharmaśarm.	Dharmaśarmābhyudaya	Title
 02:53x	Dharmaś.	Dharmaśarmābhyudaya	Title
 02:54	Dharmav.	Dharmaviveka	Title
-02:55	Dhātup.	Dhātupāṭha	Title
-02:55x	Dhāt.	Dhātupāṭha	Title
+02:55	Dhātup.	Westergaard Dhātupāṭha	Title
+02:55x	Dhāt.	Westergaard Dhātupāṭha	Title
 02:56	Dhūrtan.	Dhūrtanartaka	Title
 02:57	Dhūrtas.	Dhūrtasamāgama	Title
 02:58	DhyānabUp.	Dhyānabindu-upaniṣad	Title
