@@ -103,6 +103,7 @@ Dharmaś.	(CSL) Dharmaśarmābhyudaya, name of work
 Dharmaśarm.	(CSL) Dharmaśarmābhyudaya, name of work
 Dharmaśarmābhy.	(CSL) Dharmaśarmābhyudaya, name of work
 Dhātup.	(PW) DHĀTUPĀṬHA, Ausg. von WESTERGAARD. 
+DhātupB.	(CSL) DHĀTUPĀṬHA, Ausg. von Böhtlingk 
 Dhātupārāyaṇa	(CSL) name of work on verbal roots
 Dhvanyāloka	(CSL) name of work
 Dināl.	[unknown]
