@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!-- 04-25-2022. Add 'i' as child of 'ls'. For pwkvn -->
 <!-- 01-22-2024. For dictlo = pe, Exclude the further 'pe' tag.-->
+<!-- 02-05-2024. Change pe tag to per, and remove logic re dictlo = pe -->
 %if dictlo != 'mw':
 <!ELEMENT  ${dictlo} (H1)*>
 <!ELEMENT H1 (h,body,tail) >
@@ -28,7 +29,7 @@ H1B | H2B | H3B | H4B | H1C | H2C | H3C | H4C | H1E | H2E | H3E | H4E)*>
 <!ELEMENT H3E (h,body,tail) >
 <!ELEMENT H4E (h,body,tail) >
 %endif
-<!ENTITY % body_elts "b | i | s |div | alt | symbol | F |  br | H | root |lb | P | lang | sup | pic | ls |ab|lbinfo|s1|lex|vlex|C|Poem|note|nsi |sic|is|bot|VN|type|hom|mark|edit|bio|etym|pb|pc|pcol|shortlong|srs|info|ns|span|pe|chg|old|new|gk|heb|iw|zoo|tib|ger|fr|ed|ms|lat|toch|arab|rus|mong|cl" >
+<!ENTITY % body_elts "b | i | s |div | alt | symbol | F |  br | H | root |lb | P | lang | sup | pic | ls |ab|lbinfo|s1|lex|vlex|C|Poem|note|nsi |sic|is|bot|VN|type|hom|mark|edit|bio|etym|pb|pc|pcol|shortlong|srs|info|ns|span|per|chg|old|new|gk|heb|iw|zoo|tib|ger|fr|ed|ms|lat|toch|arab|rus|mong|cl" >
 <!ELEMENT h  (key1,key2,hom?)>
 <!ELEMENT key1 (#PCDATA) >
 <!ELEMENT key2 (#PCDATA )>
@@ -106,9 +107,7 @@ bhs requires also lang
   -->
 <!ELEMENT ls (#PCDATA |ab|s1|ns|is|i|sup|lang|lb)*>
 <!ELEMENT ab (#PCDATA)> <!-- general abbreviation -->
-%if dictlo != 'pe':
-<!ELEMENT pe (#PCDATA)> <!-- person 'abbreviation' (1., etc) -->
-%endif
+<!ELEMENT per (#PCDATA)> <!-- person 'abbreviation' (1., etc) -->
 <!ELEMENT lbinfo EMPTY>
 <!ELEMENT C EMPTY>
 <!ELEMENT VN (#PCDATA | %body_elts; )* >
@@ -140,9 +139,7 @@ bhs requires also lang
 
 <!ATTLIST pic name CDATA #REQUIRED>
 <!ATTLIST ab n CDATA #IMPLIED>
-%if dictlo != 'pe':
-<!ATTLIST pe n CDATA #IMPLIED>
-%endif
+<!ATTLIST per n CDATA #IMPLIED>
 <!ATTLIST lbinfo n CDATA #REQUIRED>
 <!ATTLIST s1 slp1 CDATA #IMPLIED>
 <!ATTLIST vlex type (root) #REQUIRED>
