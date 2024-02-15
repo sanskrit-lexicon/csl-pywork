@@ -91,7 +91,7 @@ ebend.	<id>ebend.</id> <disp>ebenda - ibid. (ibidem) - in the same source</disp>
 ed.	<id>ed.</id> <disp>- edition</disp>
 eig.	<id>eig.</id> <disp>? - ?</disp>
 enklit.	<id>enklit.</id> <disp>? - ?</disp>
-ep.	<id>ep.</id> <disp>?Epos - epic literature</disp>
+ep.	<id>ep.</id> <disp>?Epos - epic literature</disp> also lang tag
 Erkl.	<id>Erkl.</id> <disp>? erklären  - ? explain</disp>
 etc.	<id>etc.</id> <disp>et cetera - and so forth</disp>
 Etym.	<id>Etym.</id> <disp>Etymologie - etymology</disp>
@@ -304,4 +304,3 @@ z. B.	<id>z. B.</id> <disp>zum Beispiel - for example</disp>
 Zahladv.	<id>Zahladv.</id> <disp>Zahlenadverb - number adverb</disp>
 ved.	<id>ved.</id> <disp>Vedic</disp>  lang tag
 Prākrit	<id>Prākrit</id> <disp>Prākrit language</disp>  lang tag
-ep.	<id>ep.</id> <disp>epic</disp>  lang tag
