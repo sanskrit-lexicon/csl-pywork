@@ -1,168 +1,285 @@
-ab.	<id>ab.</id> <disp>ablatif</disp>
-Ab.	<id>Ab.</id> <disp>Ablatif</disp>
-ac.	<id>ac.</id> <disp>accusatif</disp>
-Ac.	<id>Ac.</id> <disp>Accusatif</disp>
-Actt.	<id>Actt.</id> <disp>activement</disp>
-actt.	<id>actt.</id> <disp>activement</disp>
-act.	<id>act.</id> <disp>actif</disp>
-Act.	<id>Act.</id> <disp>actif</disp>
-a.	<id>a.</id> <disp>adjectif</disp>
-A.	<id>A.</id> <disp>Adjectif</disp>
-adv.	<id>adv.</id> <disp>adverbe</disp>
-advt.	<id>advt.</id> <disp>adverbialement</disp>
-anat.	<id>anat.</id> <disp>anatomie</disp>
-angl.	<id>angl.</id> <disp>anglais</disp>
-Angl.	<id>Angl.</id> <disp>anglais</disp>
-a1.	<id>a1.</id> <disp>aoriste 1er</disp>
-a2.	<id>a2.</id> <disp>aoriste 2nd</disp>
-A2	<id>A2</id> <disp>aoriste 2nd</disp>
-A2.	<id>A2.</id> <disp>aoriste 2nd</disp>
-astr.	<id>astr.</id> <disp>astronomie</disp>
-aug.	<id>aug.</id> <disp>augmentatif</disp>
-bd.	<id>bd.</id> <disp>bouddhique</disp>
-Bd.	<id>bd.</id> <disp>bouddhique</disp>
-bot.	<id>bot.</id> <disp>botanique</disp>
-c-à-d.	<id>c-à-d.</id> <disp>c’est-à-dire</disp>
-c.-à-d.	<id>c.-à-d.</id> <disp>c’est-à-dire</disp>
-c.	<id>c.</id> <disp>causatif</disp>
-cf.	<id>cf.</id> <disp>comparez; confer</disp>
-Cf.	<id>Cf.</id> <disp>Comparez; Confer</disp>
-ch.	<id>ch.</id> <disp>chose</disp>
-Cl.	<id>Cl.</id> <disp>classe</disp>
-cl.	<id>cl.</id> <disp>classe</disp>
-comp.	<id>comp.</id> <disp>comparatif</disp>
-composit.	<id>composit.</id> <disp>composition</disp>
-compos.	<id>compos.</id> <disp>composition, composés</disp>
-cond.	<id>cond.</id> <disp>conditionnel</disp>
-conj.	<id>conj.</id> <disp>conjonction</disp>
-conjf.	<id>conjf.</id> <disp>conjonctif</disp>
-d.	<id>d.</id> <disp>datif</disp>
-dém.	<id>dém.</id> <disp>démonstratif</disp>
-dén.	<id>dén.</id> <disp>(verbe) dénominatif/issu d’un nom</disp>
-dénom.	<id>dénom.</id> <disp>(verbe) dénominatif/issu d’un nom</disp>
-dés.	<id>dés.</id> <disp>désidératif</disp>
-Dés.	<id>Dés.</id> <disp>désidératif</disp>
-du.	<id>du.</id> <disp>duel</disp>
-ép.	<id>ép.</id> <disp>épithète</disp>
-Ép.	<id>Ép.</id> <disp>épithète</disp>
-esp.	<id>esp.</id> <disp>espèce</disp>
-Esp.	<id>Esp.</id> <disp>Espèce</disp>
-etc.	<id>etc.</id> <disp>et cetera : « et le reste »</disp>
-ex.	<id>ex.</id> <disp>exemple</disp>
-ext.	<id>ext.</id> <disp>extension</disp>
-f.	<id>f.</id> <disp>féminin</disp>
-F.	<id>F.</id> <disp>Féminin</disp>
-fig.	<id>fig.</id> <disp>figuré</disp>
-fr.	<id>fr.</id> <disp>français</disp>
-f1.	<id>f1.</id> <disp>futur 1er</disp>
-f2.	<id>f2.</id> <disp>futur 2d</disp>
-gal.	<id>gal.</id> <disp>gaëlique</disp>
-g.	<id>g.</id> <disp>génitif</disp>
-G.	<id>G.</id> <disp>Génitif</disp>
-gén.	<id>gén.</id> <disp>général</disp>
-gér.	<id>gér.</id> <disp>gérondif</disp>
-germ.	<id>germ.</id> <disp>germanique</disp>
-Germ.	<id>Germ.</id> <disp>germanique</disp>
-got.	<id>got.</id> <disp>gothique</disp>
-goth.	<id>goth.</id> <disp>gothique</disp>
-Goth.	<id>Goth.</id> <disp>gothique</disp>
-gr.	<id>gr.</id> <disp>grec</disp>
-Gr.	<id>Gr.</id> <disp>Grec</disp>
-impf.	<id>impf.</id> <disp>imparfait</disp>
-imp.	<id>imp.</id> <disp>impératif</disp>
-ind.	<id>ind.</id> <disp>indicatif</disp>
-indéc.	<id>indéc.</id> <disp>indéclinable</disp>
-indécl.	<id>indécl.</id> <disp>indéclinable</disp>
-inf.	<id>inf.</id> <disp>infinitif</disp>
-interj.	<id>interj.</id> <disp>interjection</disp>
-i.	<id>i.</id> <disp>instrumental</disp>
-inus.	<id>inus.</id> <disp>inusité</disp>
-Irl.	<id>Irl.</id> <disp>irlandais</disp>
-irl.	<id>irl.</id> <disp>irlandais</disp>
-irland.	<id>irland.</id> <disp>irlandais</disp>
-Irland.	<id>Irland.</id> <disp>Irlandais</disp>
-lat.	<id>lat.</id> <disp>latin</disp>
-Lat.	<id>Lat.</id> <disp>latin</disp>
-lith.	<id>lith.</id> <disp>lithuanien</disp>
-Lith.	<id>Lith.</id> <disp>lithuanien</disp>
-l.	<id>l.</id> <disp>locatif</disp>
-L.	<id>L.</id> <disp>locatif</disp>
-logiq.	<id>logiq.</id> <disp>logique</disp>
-m.	<id>m.</id> <disp>masculin</disp>
-M.	<id>M.</id> <disp>Masculin</disp>
-mms.	<id>mms.</id> <disp>même signification</disp>
-Mms.	<id>Mms.</id> <disp>Même signification</disp>
-m. à m.	<id>m. à m.</id> <disp>mot à mot</disp>
-m à m.	<id>m à m.</id> <disp>mot à mot</disp>
-moy.	<id>moy.</id> <disp>moyen</disp>
-Moy.	<id>Moy.</id> <disp>Moyen</disp>
-M§	<id>M§</id> <disp>voir notre Méthode sanscrite, paragraphe</disp>
-M§§	<id>M§§</id> <disp>voir notre Méthode sanscrite, paragraphes</disp>
-n.	<id>n.</id> <disp>neutre</disp>
-N.	<id>N.</id> <disp>Neutre</disp>
-N.-O.	<id>N.-O.</id> <disp>nord-ouest</disp>
-nég.	<id>nég.</id> <disp>négatif</disp>
-np.	<id>np.</id> <disp>nom propre</disp>
-Np.	<id>Np.</id> <disp>Nom propre</disp>
-o.	<id>o.</id> <disp>optatif</disp>
-oppos.	<id>oppos.</id> <disp>opposition</disp>
-ordint.	<id>ordint.</id> <disp>ordinairement</disp>
-orth.	<id>orth.</id> <disp>orthographe</disp>
-orthog.	<id>orthog.</id> <disp>orthographe</disp>
-orthogr.	<id>orthogr.</id> <disp>orthographe</disp>
-p.	<id>p.</id> <disp>parfait</disp>
-part.	<id>part.</id> <disp>particule</disp>
-ps.	<id>ps.</id> <disp>passif</disp>
-Ps.	<id>Ps.</id> <disp>passif</disp>
-pf.	<id>pf.</id> <disp>participe futur</disp>
-pfx.	<id>pfx.</id> <disp>préfixe</disp>
-pl.	<id>pl.</id> <disp>pluriel</disp>
-polon.	<id>polon.</id> <disp>polonais</disp>
-pp.	<id>pp.</id> <disp>participe passé</disp>
-Pp.	<id>Pp.</id> <disp>Participe passé</disp>
-ppf.	<id>ppf.</id> <disp>participe parfait</disp>
-ppr.	<id>ppr.</id> <disp>participe présent</disp>
-pqp.	<id>pqp.</id> <disp>plus-que-parfait</disp>
-Pr.	<id>Pr.</id> <disp>Présent</disp>
-pr.	<id>pr.</id> <disp>Présent</disp>
-prép.	<id>prép.</id> <disp>préposition</disp>
-priv.	<id>priv.</id> <disp>privatif</disp>
-pron.	<id>pron.</id> <disp>pronom</disp>
-ppt.	<id>ppt.</id> <disp>proprement</disp>
-pers.	<id>pers.</id> <disp>personne</disp>
-1p.	<id>1p.</id> <disp>1er personne</disp>
-2p.	<id>2p.</id> <disp>2e personne, etc</disp>
-3p.	<id>3p.</id> <disp>3e personne, etc</disp>
-qconque.	<id>qconque.</id> <disp>quelconque</disp>
-qconque	<id>qconque</id> <disp>quelconque</disp>
-qconques	<id>qconques</id> <disp>quelconques</disp>
-qq.	<id>qq.</id> <disp>quelques</disp>
-qqc.	<id>qqc.</id> <disp>quelque chose</disp>
-qqf.	<id>qqf.</id> <disp>quelquefois</disp>
-Qqf.	<id>Qqf.</id> <disp>quelquefois</disp>
-qqn.	<id>qqn.</id> <disp>quelqu’un</disp>
-red.	<id>red.</id> <disp>redoublement</disp>
-s-ent.	<id>s-ent.</id> <disp>sous-entendu</disp>
-sg.	<id>sg.</id> <disp>singulier</disp>
-subj.	<id>subj.</id> <disp>subjonctif</disp>
-s.	<id>s.</id> <disp>substantif</disp>
-sax.	<id>sax.</id> <disp>saxon</disp>
-S.	<id>S.</id> <disp>substantif</disp>
-sfx.	<id>sfx.</id> <disp>suffixe</disp>
-sup.	<id>sup.</id> <disp>superlatif</disp>
-slav.	<id>slav.</id> <disp>slave</disp>
-surn.	<id>surn.</id> <disp>surnom</disp>
-Surn.	<id>Surn.</id> <disp>Surnom</disp>
-sync.	<id>sync.</id> <disp>syncope</disp>
-t.	<id>t.</id> <disp>terme</disp>
-t. d'arithm.	<id>t. d'arithm.</id> <disp>terme d’arithmétique</disp>
-tg.	<id>tg.</id> <disp>terme grammatical</disp>
-Tg.	<id>Tg.</id> <disp>terme grammatical</disp>
-th.	<id>th.</id> <disp>thème</disp>
-tr.	<id>tr.</id> <disp>très</disp>
-Vd.	<id>Vd.</id> <disp>Véda, védique</disp>
-vd.	<id>vd.</id> <disp>védique</disp>
-v.	<id>v.</id> <disp>vocatif</disp>
-zd.	<id>zd.</id> <disp>zend</disp>
-Zd.	<id>Zd.</id> <disp>zend</disp>
-(?)	<id>(?)</id> <disp>douteux</disp> <info>no period</info>
+(?)	<id>(?)</id> <disp>douteux</disp> <count>349</count>
+1p.	<id>1p.</id> <disp>1re personne</disp> <count>50</count>
+2p.	<id>2p.</id> <disp>2e personne</disp> <count>132</count>
+3p.	<id>3p.</id> <disp>3e personne</disp> <count>255</count>
+a.	<id>a.</id> <disp>adjectif</disp> <count>5163</count>
+A.	<id>A.</id> <disp>Adjectif</disp> <count>37</count>
+a1.	<id>a1.</id> <disp>aoriste 1er</disp> <count>402</count>
+a2.	<id>a2.</id> <disp>aoriste 2nd</disp> <count>132</count>
+A2.	<id>A2.</id> <disp>aoriste 2nd</disp> <count>7</count>
+ab.	<id>ab.</id> <disp>ablatif</disp> <count>89</count>
+Ab.	<id>Ab.</id> <disp>Ablatif</disp> <count>1</count>
+abs.	<id>abs.</id> <disp>absolutif</disp> <count>1</count>
+abslt.	<id>abslt.</id> <disp>absolutif</disp> <count>1</count>
+Absolt.	<id>Absolt.</id> <disp>absolutif</disp> <count>5</count>
+absolt.	<id>absolt.</id> <disp>absolutif</disp> <count>1</count>
+Abst.	<id>Abst.</id> <disp>abstrait</disp> <count>2</count>
+abst.	<id>abst.</id> <disp>abstrait</disp> <count>1</count>
+ac.	<id>ac.</id> <disp>accusatif</disp> <count>669</count>
+Ac.	<id>Ac.</id> <disp>Accusatif</disp> <count>25</count>
+acc.	<id>acc.</id> <disp>accusatif</disp> <count>1</count>
+act.	<id>act.</id> <disp>actif</disp> <count>28</count>
+Act.	<id>Act.</id> <disp>actif</disp> <count>17</count>
+Actt.	<id>Actt.</id> <disp>activement</disp> <count>24</count>
+actt.	<id>actt.</id> <disp>activement</disp> <count>5</count>
+adj.	<id>adj.</id> <disp>adjectif</disp> <count>1</count>
+Adjectt.	<id>Adjectt.</id> <disp>adjectivement</disp> <count>1</count>
+adjt.	<id>adjt.</id> <disp>adjectivement</disp> <count>1</count>
+Adjt.	<id>Adjt.</id> <disp>adjectivement</disp> <count>6</count>
+adv.	<id>adv.</id> <disp>adverbe</disp> <count>426</count>
+Adv.	<id>Adv.</id> <disp>adverbe</disp> <count>25</count>
+advt.	<id>advt.</id> <disp>adverbialement</disp> <count>6</count>
+Advt.	<id>Advt.</id> <disp>adverbialement</disp> <count>1</count>
+afghan.	<id>afghan.</id> <disp>langue afghane</disp> <count>1</count>
+anat.	<id>anat.</id> <disp>anatomie</disp> <count>3</count>
+anc. germ.	<id>anc. germ.</id> <disp>ancien langue allemande</disp> <count>3</count>
+ancien germ.	<id>ancien germ.</id> <disp>ancien langue allemande</disp> <count>5</count>
+Ancien germ.	<id>Ancien germ.</id> <disp>Ancien langue allemande</disp> <count>1</count>
+ang.	<id>ang.</id> <disp>langue anglaise</disp> <count>22</count>
+Ang.	<id>Ang.</id> <disp>langue anglaise</disp> <count>9</count>
+angl.	<id>angl.</id> <disp>anglais</disp> <count>63</count>
+Angl.	<id>Angl.</id> <disp>anglais</disp> <count>12</count>
+Angl. sax.	<id>Angl. sax.</id> <disp>anglo-saxon</disp> <count>1</count>
+anglo sax.	<id>anglo sax.</id> <disp>anglo-saxon</disp> <count>1</count>
+Anglosaxon	<id>Anglosaxon</id> <disp>anglo-saxon</disp> <count>1</count>
+aor.	<id>aor.</id> <disp>aoriste</disp> <count>2</count>
+Aor.	<id>Aor.</id> <disp>aoriste</disp> <count>2</count>
+arab.	<id>arab.</id> <disp>langue arabe</disp> <count>1</count>
+arith.	<id>arith.</id> <disp>arithmétique</disp> <count>5</count>
+astr.	<id>astr.</id> <disp>astronomie</disp> <count>10</count>
+astron.	<id>astron.</id> <disp>astronomie</disp> <count>4</count>
+aug.	<id>aug.</id> <disp>augmentatif</disp> <count>418</count>
+Aug.	<id>Aug.</id> <disp>augmentatif</disp> <count>1</count>
+auj.	<id>auj.</id> <disp>aujourd'hui</disp> <count>29</count>
+bd.	<id>bd.</id> <disp>bouddhique</disp> <count>1</count>
+Bd.	<id>Bd.</id> <disp>bouddhique</disp> <count>281</count>
+bot.	<id>bot.</id> <disp>botanique</disp> <count>2166</count>
+bret.	<id>bret.</id> <disp>langue bretonne</disp> <count>3</count>
+Breton	<id>Breton</id> <disp>Langue bretonne</disp> <count>1</count>
+breton.	<id>breton.</id> <disp>langue bretonne</disp> <count>1</count>
+c-à-d.	<id>c-à-d.</id> <disp>c’est-à-dire</disp> <count>246</count>
+c.	<id>c.</id> <disp>causatif</disp> <count>1067</count>
+C.	<id>C.</id> <disp>causatif</disp> <count>6</count>
+cf.	<id>cf.</id> <disp>comparez; confer</disp> <count>2220</count>
+Cf.	<id>Cf.</id> <disp>Comparez; Confer</disp> <count>766</count>
+ch.	<id>ch.</id> <disp>chose</disp> <count>45</count>
+Cl.	<id>Cl.</id> <disp>classe</disp> <count>4</count>
+cl.	<id>cl.</id> <disp>classe</disp> <count>2</count>
+comm.	<id>comm.</id> <disp>commencement</disp> <count>1</count>
+comp.	<id>comp.</id> <disp>comparatif</disp> <count>46</count>
+Comp.	<id>Comp.</id> <disp>comparatif</disp> <count>7</count>
+compar.	<id>compar.</id> <disp>comparatif</disp> <count>1</count>
+compos.	<id>compos.</id> <disp>composition, composés</disp> <count>89</count>
+composit.	<id>composit.</id> <disp>composition</disp> <count>2</count>
+conj.	<id>conj.</id> <disp>conjonction</disp> <count>11</count>
+conjf.	<id>conjf.</id> <disp>conjonctif</disp> <count>2</count>
+conjug.	<id>conjug.</id> <disp>conjugaison</disp> <count>1</count>
+Crét.	<id>Crét.</id> <disp>langue de Crète</disp> <count>1</count>
+d.	<id>d.</id> <disp>datif</disp> <count>94</count>
+dan.	<id>dan.</id> <disp>langue du Danemark</disp> <count>1</count>
+dat.	<id>dat.</id> <disp>datif</disp> <count>2</count>
+distr.	<id>distr.</id> <disp>district</disp> <count>1</count>
+dor.	<id>dor.</id> <disp>langue dorienne</disp> <count>1</count>
+du.	<id>du.</id> <disp>duel</disp> <count>77</count>
+Du.	<id>Du.</id> <disp>duel</disp> <count>1</count>
+dém.	<id>dém.</id> <disp>démonstratif</disp> <count>4</count>
+dén.	<id>dén.</id> <disp>(verbe) dénominatif/issu d’un nom</disp> <count>101</count>
+dénom.	<id>dénom.</id> <disp>(verbe) dénominatif/issu d’un nom</disp> <count>107</count>
+dénomin.	<id>dénomin.</id> <disp>(verbe) dénominatif/issu d’un nom</disp> <count>8</count>
+dériv.	<id>dériv.</id> <disp>dérivé</disp> <count>1</count>
+dés.	<id>dés.</id> <disp>désidératif</disp> <count>464</count>
+Dés.	<id>Dés.</id> <disp>désidératif</disp> <count>1</count>
+E.	<id>E.</id> <disp>Est</disp> <count>2</count>
+esp.	<id>esp.</id> <disp>espèce</disp> <count>845</count>
+Esp.	<id>Esp.</id> <disp>Espèce</disp> <count>232</count>
+etc.	<id>etc.</id> <disp>et cetera : « et le reste »</disp> <count>1161</count>
+ex.	<id>ex.</id> <disp>exemple</disp> <count>82</count>
+ext.	<id>ext.</id> <disp>extension</disp> <count>104</count>
+f.	<id>f.</id> <disp>féminin</disp> <count>5678</count>
+F.	<id>F.</id> <disp>Féminin</disp> <count>947</count>
+f1.	<id>f1.</id> <disp>futur 1er</disp> <count>162</count>
+F1.	<id>F1.</id> <disp>futur 1er</disp> <count>1</count>
+f2.	<id>f2.</id> <disp>futur 2d</disp> <count>403</count>
+F2.	<id>F2.</id> <disp>futur 2d</disp> <count>2</count>
+fig.	<id>fig.</id> <disp>figuré</disp> <count>776</count>
+fr.	<id>fr.</id> <disp>français</disp> <count>32</count>
+Fr.	<id>Fr.</id> <disp>français</disp> <count>6</count>
+franç.	<id>franç.</id> <disp>français </disp> <count>4</count>
+g.	<id>g.</id> <disp>génitif</disp> <count>103</count>
+G.	<id>G.</id> <disp>Génitif</disp> <count>3</count>
+gaël.	<id>gaël.</id> <disp>gaëlique</disp> <count>1</count>
+ger.	<id>ger.</id> <disp>gérondif</disp> <count>5</count>
+germ.	<id>germ.</id> <disp>germanique</disp> <count>80</count>
+Germ.	<id>Germ.</id> <disp>germanique</disp> <count>27</count>
+Germ. anc.	<id>Germ. anc.</id> <disp>ancien langue allemande</disp> <count>2</count>
+germ. anc.	<id>germ. anc.</id> <disp>ancien langue allemande</disp> <count>1</count>
+Germ. ancien	<id>Germ. ancien</id> <disp>ancien langue allemande</disp> <count>1</count>
+germ. ancien	<id>germ. ancien</id> <disp>ancien langue allemande</disp> <count>2</count>
+got.	<id>got.</id> <disp>gothique</disp> <count>10</count>
+goth.	<id>goth.</id> <disp>gothique</disp> <count>55</count>
+Goth.	<id>Goth.</id> <disp>gothique</disp> <count>9</count>
+gr.	<id>gr.</id> <disp>grec</disp> <count>210</count>
+Gr.	<id>Gr.</id> <disp>Grec</disp> <count>369</count>
+gram.	<id>gram.</id> <disp>grammaire</disp> <count>2</count>
+gramm.	<id>gramm.</id> <disp>grammaire (vocabulaire des grammairiens indiens)</disp> <count>2</count>
+gén.	<id>gén.</id> <disp>général</disp> <count>345</count>
+géom.	<id>géom.</id> <disp>géométrie</disp> <count>3</count>
+gér.	<id>gér.</id> <disp>gérondif</disp> <count>99</count>
+Gér.	<id>Gér.</id> <disp>gérondif</disp> <count>9</count>
+i	<id>i</id> <disp>géométrie</disp> <count>2</count>
+i.	<id>i.</id> <disp>instrumental</disp> <count>100</count>
+I.	<id>I.</id> <disp>instrumental</disp> <count>2</count>
+imp.	<id>imp.</id> <disp>impératif</disp> <count>89</count>
+Imp.	<id>Imp.</id> <disp>impératif</disp> <count>6</count>
+impers.	<id>impers.</id> <disp>impersonnel</disp> <count>6</count>
+impf.	<id>impf.</id> <disp>imparfait</disp> <count>50</count>
+Impf.	<id>Impf.</id> <disp>imparfait</disp> <count>5</count>
+ind.	<id>ind.</id> <disp>indicatif</disp> <count>4</count>
+Ind.	<id>Ind.</id> <disp>indicatif</disp> <count>1</count>
+indéc.	<id>indéc.</id> <disp>indéclinable</disp> <count>47</count>
+Indéc.	<id>Indéc.</id> <disp>indéclinable</disp> <count>1</count>
+indécl.	<id>indécl.</id> <disp>indéclinable</disp> <count>3</count>
+inf.	<id>inf.</id> <disp>infinitif</disp> <count>52</count>
+Inf.	<id>Inf.</id> <disp>infinitif</disp> <count>4</count>
+interj.	<id>interj.</id> <disp>interjection</disp> <count>34</count>
+Interj.	<id>Interj.</id> <disp>interjection</disp> <count>3</count>
+interrog.	<id>interrog.</id> <disp>interrogatif</disp> <count>6</count>
+Interrog.	<id>Interrog.</id> <disp>interrogatif</disp> <count>1</count>
+inus.	<id>inus.</id> <disp>inusité</disp> <count>8</count>
+Irl.	<id>Irl.</id> <disp>irlandais</disp> <count>7</count>
+irl.	<id>irl.</id> <disp>irlandais</disp> <count>25</count>
+irland.	<id>irland.</id> <disp>irlandais</disp> <count>17</count>
+Irland.	<id>Irland.</id> <disp>Irlandais</disp> <count>7</count>
+irrég.	<id>irrég.</id> <disp>irrégulier</disp> <count>3</count>
+isl.	<id>isl.</id> <disp>langue islandaise</disp> <count>1</count>
+island.	<id>island.</id> <disp>langue islandaise</disp> <count>3</count>
+jurisp.	<id>jurisp.</id> <disp>jurisprudence</disp> <count>1</count>
+jurispr.	<id>jurispr.</id> <disp>jurisprudence</disp> <count>1</count>
+kilog.	<id>kilog.</id> <disp>kilogramme</disp> <count>1</count>
+l.	<id>l.</id> <disp>locatif</disp> <count>85</count>
+L.	<id>L.</id> <disp>locatif</disp> <count>1</count>
+lat.	<id>lat.</id> <disp>latin</disp> <count>305</count>
+Lat.	<id>Lat.</id> <disp>latin</disp> <count>245</count>
+lith.	<id>lith.</id> <disp>lithuanien</disp> <count>89</count>
+Lith.	<id>Lith.</id> <disp>lithuanien</disp> <count>29</count>
+logiq.	<id>logiq.</id> <disp>logique</disp> <count>3</count>
+m à m.	<id>m à m.</id> <disp>mot à mot</disp> <count>216</count>
+m.	<id>m.</id> <disp>masculin</disp> <count>13883</count>
+M.	<id>M.</id> <disp>Masculin</disp> <count>315</count>
+mms.	<id>mms.</id> <disp>même signification</disp> <count>873</count>
+Mms.	<id>Mms.</id> <disp>Même signification</disp> <count>8</count>
+mold.	<id>mold.</id> <disp>langue moldave</disp> <count>1</count>
+moy	<id>moy</id> <disp>moyen</disp> <count>1</count>
+moy.	<id>moy.</id> <disp>moyen</disp> <count>175</count>
+Moy.	<id>Moy.</id> <disp>Moyen</disp> <count>19</count>
+M§	<id>M§</id> <disp>voir notre Méthode sanscrite, paragraphe</disp> <count>120</count>
+M§§	<id>M§§</id> <disp>voir notre Méthode sanscrite, paragraphes</disp> <count>4</count>
+méd.	<id>méd.</id> <disp>médecine</disp> <count>18</count>
+n.	<id>n.</id> <disp>neutre</disp> <count>5522</count>
+N.	<id>N.</id> <disp>Neutre</disp> <count>386</count>
+N. E.	<id>N. E.</id> <disp>nord-est</disp> <count>1</count>
+N. O.	<id>N. O.</id> <disp>nord-ouest</disp> <count>6</count>
+N.-E.	<id>N.-E.</id> <disp>nord-est</disp> <count>2</count>
+N.-O.	<id>N.-O.</id> <disp>nord-ouest</disp> <count>1</count>
+n.-o.	<id>n.-o.</id> <disp>nord-ouest</disp> <count>2</count>
+nom.	<id>nom.</id> <disp>nominatif.</disp> <count>20</count>
+np.	<id>np.</id> <disp>nom propre</disp> <count>581</count>
+Np.	<id>Np.</id> <disp>Nom propre</disp> <count>351</count>
+nég.	<id>nég.</id> <disp>négatif</disp> <count>31</count>
+o.	<id>o.</id> <disp>optatif</disp> <count>121</count>
+O.	<id>O.</id> <disp>optatif</disp> <count>4</count>
+onomat.	<id>onomat.</id> <disp>onomatopée</disp> <count>2</count>
+opp.	<id>opp.</id> <disp>opposé</disp> <count>3</count>
+oppos.	<id>oppos.</id> <disp>opposition</disp> <count>30</count>
+ord.	<id>ord.</id> <disp>ordinairement</disp> <count>1</count>
+ordint.	<id>ordint.</id> <disp>ordinairement</disp> <count>14</count>
+ordt.	<id>ordt.</id> <disp>ordinairement</disp> <count>10</count>
+orth.	<id>orth.</id> <disp>orthographe</disp> <count>8</count>
+orthog.	<id>orthog.</id> <disp>orthographe</disp> <count>3</count>
+orthogr.	<id>orthogr.</id> <disp>orthographe</disp> <count>6</count>
+osq.	<id>osq.</id> <disp>langue osque</disp> <count>1</count>
+p.	<id>p.</id> <disp>parfait</disp> <count>1106</count>
+P.	<id>P.</id> <disp>Parfait</disp> <count>6</count>
+partic.	<id>partic.</id> <disp>participe</disp> <count>5</count>
+Passivt.	<id>Passivt.</id> <disp>passivement</disp> <count>2</count>
+Passt.	<id>Passt.</id> <disp>passivement</disp> <count>1</count>
+pers.	<id>pers.</id> <disp>personne</disp> <count>17</count>
+Pers.	<id>Pers.</id> <disp>personne</disp> <count>1</count>
+pf.	<id>pf.</id> <disp>participe futur</disp> <count>123</count>
+Pf.	<id>Pf.</id> <disp>participe futur</disp> <count>2</count>
+pfx.	<id>pfx.</id> <disp>préfixe</disp> <count>29</count>
+pl.	<id>pl.</id> <disp>pluriel</disp> <count>324</count>
+Pl.	<id>Pl.</id> <disp>pluriel</disp> <count>3</count>
+polon.	<id>polon.</id> <disp>polonais</disp> <count>3</count>
+pp.	<id>pp.</id> <disp>participe passé</disp> <count>1231</count>
+Pp.	<id>Pp.</id> <disp>Participe passé</disp> <count>282</count>
+PP.	<id>PP.</id> <disp>participe passé</disp> <count>2</count>
+ppf.	<id>ppf.</id> <disp>participe parfait</disp> <count>39</count>
+Ppf.	<id>Ppf.</id> <disp>participe parfait</disp> <count>1</count>
+ppr.	<id>ppr.</id> <disp>participe présent</disp> <count>120</count>
+Ppr.	<id>Ppr.</id> <disp>participe présent</disp> <count>8</count>
+pps.	<id>pps.</id> <disp>participe parfait</disp> <count>1</count>
+pqp.	<id>pqp.</id> <disp>plus-que-parfait</disp> <count>203</count>
+Pqp.	<id>Pqp.</id> <disp>plus-que-parfait</disp> <count>1</count>
+Pr.	<id>Pr.</id> <disp>Présent</disp> <count>9</count>
+pr.	<id>pr.</id> <disp>présent</disp> <count>165</count>
+priv.	<id>priv.</id> <disp>privatif</disp> <count>64</count>
+prâkrit	<id>prâkrit</id> <disp>langue prakrit</disp> <count>2</count>
+prép.	<id>prép.</id> <disp>préposition</disp> <count>10</count>
+prépos.	<id>prépos.</id> <disp>préposition</disp> <count>1</count>
+ps.	<id>ps.</id> <disp>passif</disp> <count>261</count>
+Ps.	<id>Ps.</id> <disp>passif</disp> <count>106</count>
+qconque	<id>qconque</id> <disp>quelconque</disp> <count>14</count>
+qconque.	<id>qconque.</id> <disp>quelconque</disp> <count>13</count>
+qconques	<id>qconques</id> <disp>quelconques</disp> <count>2</count>
+Qpf.	<id>Qpf.</id> <disp>quelquefois</disp> <count>1</count>
+qq.	<id>qq.</id> <disp>quelques(s)</disp> <count>17</count>
+qqc.	<id>qqc.</id> <disp>quelque chose</disp> <count>283</count>
+qqf.	<id>qqf.</id> <disp>quelquefois</disp> <count>169</count>
+Qqf.	<id>Qqf.</id> <disp>quelquefois</disp> <count>267</count>
+qqn	<id>qqn</id> <disp>quelqu’un</disp> <count>11</count>
+qqn.	<id>qqn.</id> <disp>quelqu’un</disp> <count>450</count>
+qqs	<id>qqs</id> <disp>quelques</disp> <count>1</count>
+qqs.	<id>qqs.</id> <disp>quelques</disp> <count>1</count>
+rac.	<id>rac.</id> <disp>racine</disp> <count>9</count>
+red.	<id>red.</id> <disp>redoublement</disp> <count>50</count>
+rhét.	<id>rhét.</id> <disp>rhétorique</disp> <count>4</count>
+rhétor.	<id>rhétor.</id> <disp>rhétorique</disp> <count>2</count>
+s.	<id>s.</id> <disp>substantif</disp> <count>15</count>
+S.	<id>S.</id> <disp>substantif</disp> <count>2730</count>
+S. E.	<id>S. E.</id> <disp>sud-est</disp> <count>1</count>
+S. O.	<id>S. O.</id> <disp>sud-ouest</disp> <count>2</count>
+sax.	<id>sax.</id> <disp>saxon</disp> <count>1</count>
+scandin.	<id>scandin.</id> <disp>langue scandinave</disp> <count>1</count>
+sf.	<id>sf.</id> <disp>suffixe</disp> <count>5</count>
+Sf.	<id>Sf.</id> <disp>suffixe</disp> <count>1</count>
+sfx.	<id>sfx.</id> <disp>suffixe</disp> <count>2763</count>
+sg.	<id>sg.</id> <disp>singulier</disp> <count>173</count>
+Signif.	<id>Signif.</id> <disp>significations</disp> <count>1</count>
+slav.	<id>slav.</id> <disp>slave</disp> <count>9</count>
+Slav.	<id>Slav.</id> <disp>slave</disp> <count>5</count>
+slav. anc.	<id>slav. anc.</id> <disp>slave ancien</disp> <count>1</count>
+sup.	<id>sup.</id> <disp>superlatif</disp> <count>55</count>
+Sup.	<id>Sup.</id> <disp>superlatif</disp> <count>3</count>
+Sur.	<id>Sur.</id> <disp>Surnom</disp> <count>1</count>
+surn.	<id>surn.</id> <disp>surnom</disp> <count>153</count>
+Surn.	<id>Surn.</id> <disp>Surnom</disp> <count>92</count>
+suéd.	<id>suéd.</id> <disp>suédoise</disp> <count>2</count>
+sync.	<id>sync.</id> <disp>syncope</disp> <count>5</count>
+synon.	<id>synon.</id> <disp>synonyme </disp> <count>2</count>
+t.	<id>t.</id> <disp>terme</disp> <count>83</count>
+t. d'arithm.	<id>t. d'arithm.</id> <disp>terme d’arithmétique</disp> <count>4</count>
+tg.	<id>tg.</id> <disp>terme grammatical</disp> <count>274</count>
+Tg.	<id>Tg.</id> <disp>terme grammatical</disp> <count>3</count>
+th.	<id>th.</id> <disp>thème</disp> <count>16</count>
+tr.	<id>tr.</id> <disp>très</disp> <count>5</count>
+v.	<id>v.</id> <disp>vocatif</disp> <count>1</count>
+Vd.	<id>Vd.</id> <disp>Véda, védique</disp> <count>1129</count>
+vd.	<id>vd.</id> <disp>védique</disp> <count>251</count>
+VÊD.	<id>VÊD.</id> <disp>védique</disp> <count>1</count>
+vêdiq.	<id>vêdiq.</id> <disp>védique</disp> <count>1</count>
+Z.	<id>Z.</id> <disp>Zend</disp> <count>1</count>
+zd.	<id>zd.</id> <disp>zend</disp> <count>17</count>
+Zd.	<id>Zd.</id> <disp>zend</disp> <count>28</count>
+ép.	<id>ép.</id> <disp>épithète</disp> <count>93</count>
+Ép.	<id>Ép.</id> <disp>épithète</disp> <count>16</count>

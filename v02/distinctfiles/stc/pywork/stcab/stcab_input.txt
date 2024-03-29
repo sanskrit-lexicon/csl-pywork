@@ -42,7 +42,7 @@ impers.	<id>impers.</id> <disp>impersonnel</disp>
 impf.	<id>impf.</id> <disp>imparfait</disp>
 indécl.	<id>indécl.</id> <disp>indéclinable</disp>
 ind.	<id>ind.</id> <disp>indéclinable</disp>
-indéf.	<id>ind.</id> <disp>indéfini</disp>
+indéf.	<id>indéf.</id> <disp>indéfini</disp>
 inf.	<id>inf.</id> <disp>infinitif</disp>
 instr.	<id>instr.</id> <disp>instrumental</disp>
 int.	<id>int.</id> <disp>intensif</disp>
