@@ -185,7 +185,7 @@ np.	<id>np.</id> <disp>nom propre</disp> <count>581</count>
 Np.	<id>Np.</id> <disp>nom propre</disp> <count>351</count>
 nég.	<id>nég.</id> <disp>négatif</disp> <count>31</count>
 o.	<id>o.</id> <disp>optatif</disp> <count>121</count>
-O.	<id>O.</id> <disp>optatif</disp> <count>4</count>
+O.	<id>O.</id> <disp>ouest</disp> <count>4</count>
 onomat.	<id>onomat.</id> <disp>onomatopée</disp> <count>2</count>
 opp.	<id>opp.</id> <disp>opposé</disp> <count>3</count>
 oppos.	<id>oppos.</id> <disp>opposition</disp> <count>30</count>
@@ -273,7 +273,7 @@ Tg.	<id>Tg.</id> <disp>terme grammatical</disp> <count>3</count>
 th.	<id>th.</id> <disp>thème</disp> <count>16</count>
 tr.	<id>tr.</id> <disp>très</disp> <count>5</count>
 v.	<id>v.</id> <disp>vocatif</disp> <count>1</count>
-Vd.	<id>Vd.</id> <disp>véda, védique</disp> <count>1129</count>
+Vd.	<id>Vd.</id> <disp>Véda, védique</disp> <count>1129</count>
 vd.	<id>vd.</id> <disp>védique</disp> <count>251</count>
 VÊD.	<id>VÊD.</id> <disp>védique</disp> <count>1</count>
 vêdiq.	<id>vêdiq.</id> <disp>védique</disp> <count>1</count>
