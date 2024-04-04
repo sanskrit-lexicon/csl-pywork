@@ -206,7 +206,7 @@ O.E.	<id>O.E.</id> <disp>Old English</disp> <INFER/>
 O.H.G.	<id>O.H.G.</id> <disp>Old High German</disp> <INFER/>
 O.N.	<id>O.N.</id> <disp>Old Norse</disp> <INFER/>
 O.Pr.	<id>O.Pr.</id> <disp>Old Prussian</disp> <INFER/>
-O.S.	<id>O.S.</id> <disp>?</disp> <INFER/>
+O.S.	<id>O.S.</id> <disp>Old Slavonic</disp> <INFER/>
 obs.	<id>obs.</id> <disp>obsolete</disp>
 onomat.	<id>onomat.</id> <disp>onomatopoetic (i.e. formed from imitation of sounds)</disp>
 opp.	<id>opp.</id> <disp>opposed</disp> <INFER/> 446 cases. Maybe all opp. to ?
@@ -272,7 +272,6 @@ qq.vv.	<id>qq.vv.</id> <disp>quod vide, which see</disp> <INFER/>
 qq.v.	<id>qq.v.</id> <disp>quod vide, which see</disp> <INFER/>
 redupl.	<id>redupl.</id> <disp>reduplicated</disp>
 Rec.	<id>Rec.</id> <disp>Recension </disp> <INFER/> 
-Rev.	<id>Rev.</id> <disp> ?? </disp> <INFER/> Def? hw=arjuneSvaratIrTa, etc.
 Reflex.	<id>Reflex.</id> <disp>Reflexive or used reflexively</disp>   <UNMARKED>
 reflex.	<id>reflex.</id> <disp>Reflexive or used reflexively</disp>   <UNMARKED>
 rhet.	<id>rhet.</id> <disp>rhetoric</disp>
@@ -354,7 +353,7 @@ chs.	<id>chs.</id> <disp>chapters</disp>
 coll.	<id>coll.</id> <disp>collectively</disp>
 comps.	<id>comps.</id> <disp>compounds</disp>
 contr.	<id>contr.</id> <disp>contraction</disp>
-corr.	<id>corr.</id> <disp>corrected ?</disp>
+corr.	<id>corr.</id> <disp>correct(ly)</disp>
 correl.	<id>correl.</id> <disp>correlative</disp>
 deriv.	<id>deriv.</id> <disp>derived</disp>
 etc.	<id>etc.</id> <disp>et cetera, and so on</disp>
@@ -370,7 +369,7 @@ metaph.	<id>metaph.</id> <disp>metaphorically</disp>
 metr.	<id>metr.</id> <disp>metronymic</disp>
 mus.	<id>mus.</id> <disp>music</disp>
 mythol.	<id>mythol.</id> <disp>mythology</disp>
-necess.	<id>necess.</id> <disp>necessitative ?</disp>
+necess.	<id>necess.</id> <disp>necessitative</disp>
 neut.	<id>neut.</id> <disp>neuter</disp>
 nomin.	<id>nomin.</id> <disp>nominative</disp>
 num.	<id>num.</id> <disp>number</disp>
@@ -382,7 +381,7 @@ patron.	<id>patron.</id> <disp>patronymic</disp>
 philos.	<id>philos.</id> <disp>philosophy</disp>
 plur.	<id>plur.</id> <disp>plural</disp>
 polit.	<id>polit.</id> <disp>politics</disp>
-prop.	<id>prop.</id> <disp>?</disp>
+prop.	<id>prop.</id> <disp>proparoxytone, or stress on third last syllable</disp>
 pros.	<id>pros.</id> <disp>prosody</disp>
 prosod.	<id>prosod.</id> <disp>prosody, prosodical</disp>
 rel.	<id>rel.</id> <disp>relative</disp>
