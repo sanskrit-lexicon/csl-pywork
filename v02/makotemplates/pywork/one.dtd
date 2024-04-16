@@ -75,12 +75,12 @@ H1B | H2B | H3B | H4B | H1C | H2C | H3C | H4C | H1E | H2E | H3E | H4E)*>
 <!ELEMENT alt (#PCDATA | s)*>
 <!ELEMENT sup (#PCDATA |s)*>
 <!ELEMENT lang (#PCDATA | %body_elts; )* >
-<!ELEMENT gk (#PCDATA) > <!-- Greek text, GRA-->
+<!ELEMENT gk (#PCDATA) > <!-- Greek text, GRA, mw-->
 <!ELEMENT heb (#PCDATA) > <!-- Hebrew text, GRA-->
 <!ELEMENT tib (#PCDATA) > <!-- Tibetan text, bhs-->
 <!ELEMENT ger (#PCDATA | i | ab)* > <!-- German text, bhs-->
 <!ELEMENT fr (#PCDATA | i | ab)* > <!-- French text, bhs-->
-<!ELEMENT arab (#PCDATA) > <!-- Arabic text, PW-->
+<!ELEMENT arab (#PCDATA) > <!-- Arabic text, PW, mw-->
 <!ELEMENT rus (#PCDATA) >  <!-- Russian text, PW-->
 <!ELEMENT mong (#PCDATA) >  <!-- Mongolian text, PW-->
 <!ELEMENT ed (#PCDATA) > <!-- edition bhs-->
@@ -134,9 +134,13 @@ bhs requires also lang
 <!ATTLIST chg src CDATA #IMPLIED>
 <!ATTLIST hwtype n (alt | sub | fem | neu | n) #REQUIRED>
 <!ATTLIST hwtype ref CDATA #REQUIRED>
+<!-- 04-15-2024
 <!ATTLIST lang n (greek | arabic | meter |slavic|russian|oldhebrew|Old-Church-Slavonic|Arabic|Hindustani|Persian|Turkish|hebrew|Avestan|Slavonic|Lettish|German|mongolian|UNK) #IMPLIED>
 <!ATTLIST lang script (Arabic) #IMPLIED >
-
+-->
+<!ATTLIST lang n CDATA #IMPLIED>
+<!ATTLIST lang script CDATA #IMPLIED>
+<!ATTLIST arab lang CDATA #IMPLIED> <!-- 04-16-2024 -->
 <!ATTLIST pic name CDATA #REQUIRED>
 <!ATTLIST ab n CDATA #IMPLIED>
 <!ATTLIST per n CDATA #IMPLIED>
