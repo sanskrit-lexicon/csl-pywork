@@ -1,103 +1,104 @@
-a.	<id>a.</id> <disp>adjectif</disp>
-a. v.	<id>a. v.</id> <disp>adjectif verbal</disp>
-abs.	<id>abs.</id> <disp>absolutif</disp>
-abl.	<id>abl.</id> <disp>ablatif</disp>
-acc.	<id>acc.</id> <disp>accusatif</disp>
-act.	<id>act.</id> <disp>actif (voix active)</disp>
-adv.	<id>adv.</id> <disp>adverbe</disp>
-ag.	<id>ag.</id> <disp>nom d’agent </disp>
-aor.	<id>aor.</id> <disp>aoriste</disp>
-bouddh.	<id>bouddh.</id> <disp>bouddhique</disp>
-caus.	<id>caus.</id> <disp>causatif</disp>
-cf.	<id>cf.</id> <disp>confer</disp>
-coll.	<id>coll.</id> <disp>collectif</disp>
-comp.	<id>comp.</id> <disp>composé, composition (ne s’emploie que dans un composé)</disp>
-compar.	<id>compar.</id> <disp>comparatif</disp>
-conj.	<id>conj.</id> <disp>conjonction</disp>
-dat.	<id>dat.</id> <disp>datif</disp>
-dén.	<id>dén.</id> <disp>dénominatif</disp>
-dés.	<id>dés.</id> <disp>désidératif</disp>
-désign.	<id>désign.</id> <disp>désignation</disp>
-dim.	<id>dim.</id> <disp>diminutif</disp>
-dimin.	<id>dimin.</id> <disp>diminutif</disp>
-du.	<id>du.</id> <disp>duel</disp>
-encl.	<id>encl.</id> <disp>enclitique</disp>
-err.	<id>err.</id> <disp>de façon erronée</disp>
-euphém.	<id>euphém.</id> <disp>euphémisme</disp>
-exclam.	<id>exclam.</id> <disp>exclamation/exclamatif</disp>
-ép.	<id>ép.</id> <disp>épithète</disp>
-f.	<id>f.</id> <disp>féminin</disp>
-fig.	<id>fig.</id> <disp>au figuré</disp>
-fut.	<id>fut.</id> <disp>futur.</disp>>
-fut. périphr.	<id>fut. périphr.</id> <disp>futur périphrastique</disp>
-gén.	<id>gén.</id> <disp>génitif</disp>
-génér.	<id>génér.</id> <disp>général/généralement</disp>
-gramm.	<id>gramm.</id> <disp>grammaire (vocabulaire des grammairiens indiens)</disp>
-ibid.	<id>ibid.</id> <disp>ibidem</disp>
-id.	<id>id.</id> <disp>idem</disp>
-ifc.	<id>ifc.</id> <disp>in fine compositi : s’emploie aussi ou uniquement comme dernier membre d’un composé</disp>
-iic.	<id>iic.</id> <disp>in initio compositi : s’emploie aussi ou uniquement comme premier membre d’un composé</disp>
-impér.	<id>impér.</id> <disp>impératif</disp>
-impers.	<id>impers.</id> <disp>impersonnel</disp>
-impf.	<id>impf.</id> <disp>imparfait</disp>
-indécl.	<id>indécl.</id> <disp>indéclinable</disp>
-ind.	<id>ind.</id> <disp>indéclinable</disp>
-indéf.	<id>indéf.</id> <disp>indéfini</disp>
-inf.	<id>inf.</id> <disp>infinitif</disp>
-instr.	<id>instr.</id> <disp>instrumental</disp>
-int.	<id>int.</id> <disp>intensif</disp>
-interj.	<id>interj.</id> <disp>interjection</disp>
-interr.	<id>interr.</id> <disp>interrogatif</disp>
-KSS.	<id>KSS.</id> <disp>Kathāsaritsāgara</disp>
-loc.	<id>loc.</id> <disp>locatif</disp>
-m.	<id>m.</id> <disp>masculin</disp>
-mauv.	<id>mauv.</id> <disp>[mauvaise]</disp>
-métron.	<id>métron.</id> <disp>métronyme</disp>
-MhBh.	<id>MhBh.</id> <disp>Mahābhārata</disp>
-moy.	<id>moy.</id> <disp>moyen (voix moyenne)</disp>
-n.	<id>n.</id> <disp>nom</disp>
-nég.	<id>nég.</id> <disp>négation/négatif</disp>
-not.	<id>not.</id> <disp>notamment</disp>
-nomin.	<id>nomin.</id> <disp>nominatif.</disp>>
-nom.	<id>nom.</id> <disp>nominatif.</disp>>
-num.	<id>num.</id> <disp>numéral</disp>
-nt.	<id>nt.</id> <disp>neutre</disp>
-onom.	<id>onom.</id> <disp>onomatopée</disp>
-onomat.	<id>onomat.</id> <disp>onomatopée</disp>
-ord.	<id>ord.</id> <disp>ordinairement</disp>
-partic.	<id>partic.</id> <disp>participe</disp>
-pass.	<id>pass.</id> <disp>passif</disp>
-patron.	<id>patron.</id> <disp>patronymique</disp>
-personn.	<id>personn.</id> <disp>personnifié</disp>
-pft.	<id>pft.</id> <disp>parfait</disp>
-philos.	<id>philos.</id> <disp>philosophique (langue)</disp>
-pl.	<id>pl.</id> <disp>pluriel</disp>
-préf.	<id>préf.</id> <disp>préfixe</disp>
-prép.	<id>prép.</id> <disp>préposition</disp>
-prév.	<id>prév.</id> <disp>préverbe</disp>
-pronom.	<id>pronom.</id> <disp>pronom, pronominal</disp>
-pron.	<id>pron.</id> <disp>pronom, pronominal</disp>
-propr.	<id>propr.</id> <disp>proprement</disp>
-qq.	<id>qq.</id> <disp>quelque</disp>
-qqch.	<id>qqch.</id> <disp>quelque chose</disp>
-qqf.	<id>qqf.</id> <disp>quelquefois</disp>
-qq'un	<id>qq'un</id> <disp>quelqu’un</disp>
-rar.	<id>rar.</id> <disp>rarement</disp>
-Rām.	<id>Rām.</id> <disp>Rāmāyana</disp>
-rhét.	<id>rhét.</id> <disp>rhétorique</disp>
-rel.	<id>rel.</id> <disp>relatif</disp>
-relat.	<id>relat.</id> <disp>relatif</disp>
-sg.	<id>sg.</id> <disp>singulier</disp>
-skt	<id>skt</id> <disp>sanskrit</disp>
-souv.	<id>souv.</id> <disp>souvent</disp>
-suiv.	<id>suiv.</id> <disp>le mot ou l’entrée suivante</disp>
-sup.	<id>sup.</id> <disp>superlatif</disp>
-s. v.	<id>s. v.</id> <disp>sub vocabulo [voir/sous ce/le terme]</disp>
-Up.	<id>Up.</id> <disp>Upaniṣad</disp>
-v.	<id>v.</id> <disp>voir</disp>
-v. s.	<id>v. s.</id> <disp>voir sous</disp>
-v. s. v.	<id>v. s. v.</id> <disp>voir sous ce(s)/voir sous le(s) terme(s)</disp>  <olddisp>[« voir sous ce(s) terme(s) » ou « voir sous le(s) terme(s)… »]</olddisp>
-var.	<id>var.</id> <disp>variante</disp>
-v. l.	<id>v. l.</id> <disp>[varia lectio] variante</disp>
-véd.	<id>véd.</id> <disp>védique</disp>
-voc.	<id>voc.</id> <disp>vocatif</disp>
+a.	<disp>adjectif</disp>
+a. v.	<disp>adjectif verbal</disp>
+abs.	<disp>absolutif</disp>
+abl.	<disp>ablatif</disp>
+acc.	<disp>accusatif</disp>
+act.	<disp>actif (voix active)</disp>
+adv.	<disp>adverbe</disp>
+ag.	<disp>nom d’agent </disp>
+aor.	<disp>aoriste</disp>
+bouddh.	<disp>bouddhique</disp>
+caus.	<disp>causatif</disp>
+cf.	<disp>confer</disp>
+coll.	<disp>collectif</disp>
+comp.	<disp>composé, composition (ne s’emploie que dans un composé)</disp>
+compar.	<disp>comparatif</disp>
+conj.	<disp>conjonction</disp>
+dat.	<disp>datif</disp>
+dén.	<disp>dénominatif</disp>
+dés.	<disp>désidératif</disp>
+désign.	<disp>désignation</disp>
+dim.	<disp>diminutif</disp>
+dimin.	<disp>diminutif</disp>
+du.	<disp>duel</disp>
+encl.	<disp>enclitique</disp>
+err.	<disp>de façon erronée</disp>
+euphém.	<disp>euphémisme</disp>
+exclam.	<disp>exclamation/exclamatif</disp>
+ép.	<disp>épithète</disp>
+f.	<disp>féminin</disp>
+fig.	<disp>au figuré</disp>
+flex.	<disp>flexion</disp>
+fut.	<disp>futur.</disp>>
+fut. périphr.	<disp>futur périphrastique</disp>
+gén.	<disp>génitif</disp>
+génér.	<disp>général/généralement</disp>
+gramm.	<disp>grammaire (vocabulaire des grammairiens indiens)</disp>
+ibid.	<disp>ibidem</disp>
+id.	<disp>idem</disp>
+ifc.	<disp>in fine compositi : s’emploie aussi ou uniquement comme dernier membre d’un composé</disp>
+iic.	<disp>in initio compositi : s’emploie aussi ou uniquement comme premier membre d’un composé</disp>
+impér.	<disp>impératif</disp>
+impers.	<disp>impersonnel</disp>
+impf.	<disp>imparfait</disp>
+indécl.	<disp>indéclinable</disp>
+ind.	<disp>indéclinable</disp>
+indéf.	<disp>indéfini</disp>
+inf.	<disp>infinitif</disp>
+instr.	<disp>instrumental</disp>
+int.	<disp>intensif</disp>
+interj.	<disp>interjection</disp>
+interr.	<disp>interrogatif</disp>
+KSS.	<disp>Kathāsaritsāgara</disp>
+loc.	<disp>locatif</disp>
+m.	<disp>masculin</disp>
+mauv.	<disp>[mauvaise]</disp>
+métron.	<disp>métronyme</disp>
+MhBh.	<disp>Mahābhārata</disp>
+moy.	<disp>moyen (voix moyenne)</disp>
+n.	<disp>nom</disp>
+nég.	<disp>négation/négatif</disp>
+not.	<disp>notamment</disp>
+nomin.	<disp>nominatif.</disp>>
+nom.	<disp>nominatif.</disp>>
+num.	<disp>numéral</disp>
+nt.	<disp>neutre</disp>
+onom.	<disp>onomatopée</disp>
+onomat.	<disp>onomatopée</disp>
+ord.	<disp>ordinairement</disp>
+partic.	<disp>participe</disp>
+pass.	<disp>passif</disp>
+patron.	<disp>patronymique</disp>
+personn.	<disp>personnifié</disp>
+pft.	<disp>parfait</disp>
+philos.	<disp>philosophique (langue)</disp>
+pl.	<disp>pluriel</disp>
+préf.	<disp>préfixe</disp>
+prép.	<disp>préposition</disp>
+prév.	<disp>préverbe</disp>
+pronom.	<disp>pronom, pronominal</disp>
+pron.	<disp>pronom, pronominal</disp>
+propr.	<disp>proprement</disp>
+qq.	<disp>quelque</disp>
+qqch.	<disp>quelque chose</disp>
+qqf.	<disp>quelquefois</disp>
+qq'un	<disp>quelqu’un</disp>
+rar.	<disp>rarement</disp>
+Rām.	<disp>Rāmāyana</disp>
+rhét.	<disp>rhétorique</disp>
+rel.	<disp>relatif</disp>
+relat.	<disp>relatif</disp>
+sg.	<disp>singulier</disp>
+skt	<disp>sanskrit</disp>
+souv.	<disp>souvent</disp>
+suiv.	<disp>le mot ou l’entrée suivante</disp>
+sup.	<disp>superlatif</disp>
+s. v.	<disp>sub vocabulo [voir/sous ce/le terme]</disp>
+Up.	<disp>Upaniṣad</disp>
+v.	<disp>voir</disp>
+v. s.	<disp>voir sous</disp>
+v. s. v.	<disp>voir sous ce(s)/voir sous le(s) terme(s)</disp>  <olddisp>[« voir sous ce(s) terme(s) » ou « voir sous le(s) terme(s)… »]</olddisp>
+var.	<disp>variante</disp>
+v. l.	<disp>[varia lectio] variante</disp>
+véd.	<disp>védique</disp>
+voc.	<disp>vocatif</disp>
