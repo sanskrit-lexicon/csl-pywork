@@ -162,7 +162,7 @@ coll.	<disp>collectively</disp> <count>ab,4</count>
 cols.	<disp>columns</disp> <count>ab,62</count>
 Comm.	<disp>commentator or commentary</disp> <count>ab,1802</count>
 Comms.	<disp>commentators or commentaries</disp> <count>ab,39</count>
-comp.	<disp>compound</disp> <count>ab,3470</count>
+comp.	<disp>compound or Comparative degree</disp> <count>ab,3470</count>
 compar.	<disp>Comparative degree</disp> <count>ab,185</count>
 Compar.	<disp>Comparative degree</disp> <count>ab,13</count>
 comps.	<disp>compounds</disp> <count>ab,2</count>
@@ -267,7 +267,7 @@ mathem.	<disp>mathematics</disp> <count>ab,3</count>
 mc.	<disp>metri causa, or ‘for the sake of the meter’ in poetry</disp> <count>ab,180</count>
 med.	<disp>medicine</disp> <count>ab,91</count>
 medic.	<disp>medicine</disp> <count>ab,47</count>
-met.	<disp>?</disp> <count>ab,30</count>
+met.	<disp>metaphorically</disp> <count>ab,30</count>
 metaph.	<disp>metaphorically</disp> <count>ab,3</count>
 metr.	<disp>metronymic</disp> <count>ab,9</count>
 metron.	<disp>metronymic</disp> <count>ab,205</count>
@@ -307,7 +307,7 @@ ozs.	<disp>ounces</disp> <count>ab,1</count>
 P.	<disp>Parasmai-pada</disp> <count>ab,6216</count>
 p.	<disp>page or participle (cf. p.p.)</disp> <count>ab,1552</count>
 p.p.	<disp>past participle</disp> <count>ab,57</count>
-p.p.p.	<disp>past participle</disp> <count>ab,1</count>
+p.p.p.	<disp>perfect passive participle</disp> <count>ab,1</count>
 Paddh.	<disp>Paddhati, guide book or manual</disp> <count>ab,24</count>
 parox.	<disp>paroxytone, having an acute accent on penultimate syllable</disp> <count>ab,6</count>
 part.	<disp>participle</disp> <count>ab,17</count>
@@ -355,8 +355,8 @@ pros.	<disp>prosody</disp> <count>ab,1</count>
 prosod.	<disp>prosody, prosodical</disp> <count>ab,1</count>
 Prākr.	<disp>Prākṛit</disp> <count>ab,1</count>
 q.v.	<disp>quod vide, which see</disp> <count>ab,3648</count>
-qq.v.	<disp>quod vide, which see</disp> <count>ab,15</count>
-qq.vv.	<disp>quod vide, which see</disp> <count>ab,88</count>
+qq.v.	<disp>quae vide, which see</disp> <count>ab,15</count>
+qq.vv.	<disp>quae vide, which see</disp> <count>ab,88</count>
 quot.	<disp>quotation</disp> <count>ab,3</count>
 Rec.	<disp>Recension </disp> <count>ab,1</count>
 redupl.	<disp>reduplicated</disp> <count>ab,14</count>
@@ -385,7 +385,7 @@ sg.	<disp>singular number</disp> <count>ab,1516</count>
 sing.	<disp>singular number</disp> <count>ab,15</count>
 sq.	<disp>sequentia (the following one)</disp> <count>ab,2</count>
 sqq.	<disp>sequentiae (the following ones)</disp> <count>ab,1</count>
-ss.vv.	<disp>sub voce, i.e. the word in the Sanskrit order</disp> <count>ab,16</count>
+ss.vv.	<disp>sub vocibus, i.e. the word(s) in the Sanskrit order</disp> <count>ab,16</count>
 st.	<disp>Stadt (German); instead of</disp> <count>ab,1</count>
 St.	<disp>Saint</disp> <count>ab,1</count>
 Subj.	<disp>subjunctive</disp> <count>ab,471</count>
