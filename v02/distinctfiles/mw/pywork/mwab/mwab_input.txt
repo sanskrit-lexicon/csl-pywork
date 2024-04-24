@@ -106,7 +106,7 @@ Russ.	<disp>Russian</disp> <count>lang,11</count>
 Sanskṛt	<disp>Sanskṛt</disp> <count>lang,51</count>
 Sinhalese	<disp>Sinhalese</disp> <count>lang,1</count>
 Sk.	<disp>Sanskrit</disp> <count>lang,2</count>
-Sl.	<disp>Slavonic or Slavonian.</disp> <count>lang,3</count>
+Sl.	<disp>Slavonic or Slavonian</disp> <count>lang,3</count>
 Slav.	<disp>Slavonic or Slavonian</disp> <count>lang,113</count>
 Tamil	<disp>a South Indian laguage, used in Tamil region</disp> <count>lang,4</count>
 Telugu	<disp>a South Indian laguage, used in Andhra region</disp> <count>lang,3</count>
