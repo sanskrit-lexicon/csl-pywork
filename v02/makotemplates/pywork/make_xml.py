@@ -998,7 +998,9 @@ def construct_xmlstring(datalines,hwrec):
   elif x.startswith(('<F>','<div n="pfx">')):
    pass
   else:
-   x = '<div n="lb">' + x
+   #x = '<div n="lb">' + x # 05-06-2024
+   x = '<br/>' + x # 05-06-2024
+   pass
   datalines1.append(x)
  datalines = datalines1
 %endif
@@ -1055,7 +1057,8 @@ def construct_xmlstring(datalines,hwrec):
 %endif
 %if dictlo == 'bop':
  # bop closing divs is awkward in presence of <F>X</F>
- bodylines = body_bop(bodylines)
+ # bodylines = body_bop(bodylines) # 05-06-2024
+ pass # 05-06-2024
 %endif
  body0 = ' '.join(bodylines)
  dbgout(dbg,"chk4: %s" % body0)
@@ -1080,7 +1083,8 @@ def construct_xmlstring(datalines,hwrec):
  data = re.sub(r'<body> ','<body>',data)
 %endif
  #5. Close the <div> elements
-%if dictlo not in ['inm','skd','bop']:
+#%if dictlo not in ['inm','skd','bop']:
+%if dictlo not in ['inm','skd']:  # 05-06-2024
  data = close_divs(data)
 %endif
  return data
