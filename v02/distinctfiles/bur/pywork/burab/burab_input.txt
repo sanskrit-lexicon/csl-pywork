@@ -91,6 +91,7 @@ E.	<id>E.</id> <disp>est</disp> <count>2</count>
 esp.	<id>esp.</id> <disp>espèce</disp> <count>845</count>
 Esp.	<id>Esp.</id> <disp>espèce</disp> <count>232</count>
 etc.	<id>etc.</id> <disp>et cetera : « et le reste »</disp> <count>1161</count>
+euph.	<id>euph.</id> <disp>euphonique, euphonie (sandhi)</disp> <count>18</count>
 ex.	<id>ex.</id> <disp>exemple</disp> <count>82</count>
 ext.	<id>ext.</id> <disp>extension</disp> <count>104</count>
 f.	<id>f.</id> <disp>féminin</disp> <count>5678</count>
