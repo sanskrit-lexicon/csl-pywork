@@ -2,6 +2,7 @@ f.	<disp>feminine</disp> <count>lex,32943 ab,37</count>
 fn.	<disp>feminine or neuter</disp> <count>lex,35</count>
 ind.	<disp>indeclinable</disp> <count>lex,5629 ab,14</count>
 m.	<disp>masculine gender</disp> <count>lex,66735 ab,83</count>
+masc.	<disp>masculine gender</disp> <count>lex,66735 ab,6</count>
 mf.	<disp>masculine, feminine </disp> <count>lex,262</count>
 mfn.	<disp>masculine, feminine and neuter; or = adjective</disp> <count>lex,58205 ab,16</count>
 mn.	<disp>masculine or neuter</disp> <count>lex,598</count>
@@ -161,6 +162,7 @@ col.	<disp>column</disp> <count>ab,681</count>
 coll.	<disp>collectively</disp> <count>ab,4</count>
 cols.	<disp>columns</disp> <count>ab,62</count>
 Comm.	<disp>commentator or commentary</disp> <count>ab,1802</count>
+comm.	<disp>commentary</disp> <count>ab,6</count>
 Comms.	<disp>commentators or commentaries</disp> <count>ab,39</count>
 comp.	<disp>compound or Comparative degree</disp> <count>ab,3470</count>
 compar.	<disp>Comparative degree</disp> <count>ab,185</count>
@@ -265,6 +267,7 @@ masc.	<disp>masculine</disp> <count>ab,1</count>
 math.	<disp>mathematics</disp> <count>ab,34</count>
 mathem.	<disp>mathematics</disp> <count>ab,3</count>
 mc.	<disp>metri causa, or ‘for the sake of the meter’ in poetry</disp> <count>ab,180</count>
+metric.	<disp>metri causa, or ‘for the sake of the meter’ in poetry</disp> <count>ab,7</count>
 med.	<disp>medicine</disp> <count>ab,91</count>
 medic.	<disp>medicine</disp> <count>ab,47</count>
 met.	<disp>metaphorically</disp> <count>ab,30</count>
