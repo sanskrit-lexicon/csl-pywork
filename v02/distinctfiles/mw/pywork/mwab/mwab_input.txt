@@ -263,7 +263,6 @@ loc.	<disp>locative case</disp> <count>ab,2070</count>
 log.	<disp>logic</disp> <count>ab,15</count>
 long.	<disp>longitude</disp> <count>ab,6</count>
 m.c.	<disp>metri causa, or ‘for the sake of the meter’ in poetry</disp> <count>ab,50</count>
-masc.	<disp>masculine</disp> <count>ab,1</count>
 math.	<disp>mathematics</disp> <count>ab,34</count>
 mathem.	<disp>mathematics</disp> <count>ab,3</count>
 mc.	<disp>metri causa, or ‘for the sake of the meter’ in poetry</disp> <count>ab,180</count>
