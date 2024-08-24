@@ -6,6 +6,7 @@
      hwextra/xxx_hwextra.txt
    output: xxxhw.txt
    "hom" -> h
+   08-15-2024  Lbody (for alternate/extra headwords)
 """
 from __future__ import print_function
 import re
@@ -252,6 +253,34 @@ def hwextra_to_hwrec(recx):
  d['pc'] = metaP.pc
  return d
 
+def entry_to_hwrec_Lbody(entry):
+ """ entry is an Entry object. return a dictionary 
+  Handle 'extra' (alternate) headwords.
+  The body in xxx.txt contains {{Lbody=X}} text.
+  Another entry with L=X is used for data lines (ln1,ln2)
+ """
+ d = {}
+ meta = entry.meta # an Hwmeta object.
+ # copy keys of meta.d into d
+ for k in meta.d:
+  d[k] = meta.d[k]
+ # add ln1 and ln2 keys
+ # default values
+ d['ln1'] = entry.linenum1
+ d['ln2'] = entry.linenum2
+ text = entry.datalines[0] # first data line
+ m = re.search('{{Lbody=(.*?)}}',text)
+ if m == None:
+  return d
+ LP = m.group(1)  # parent L id
+ if LP not in Entry.Ldict:
+  print('hw.py WARNING: Lbody not found:',text)
+  return d
+ entryP= Entry.Ldict[LP] # parent
+ d['ln1'] = entryP.linenum1
+ d['ln2'] = entryP.linenum2
+ return d
+
 def write_entries_kosha(entries,fileout):
  """ write different format for koshas (abch)
  """
@@ -321,7 +350,7 @@ def init_entries_kosha(filein):
  print(len(lines),"lines read from",filein)
  print(len(recs),"entries found")
  return recs
-  
+
 if __name__ == "__main__":
  filedig = sys.argv[1]
  fileextra = sys.argv[2]
@@ -336,6 +365,10 @@ if __name__ == "__main__":
  entries = init_entries_kosha(filedig)
  write_entries_kosha(entries,fileout)
  print("END write_entries")
+% elif dictlo in ['mw','gra']:
+ entries = init_entries(filedig)
+ hwrecs = [entry_to_hwrec_Lbody(entry) for entry in entries]
+ write_hwrecs(hwrecs,fileout)
 % else:
  print("BEGIN hw.py init_entries")
  entries = init_entries(filedig)

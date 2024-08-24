@@ -55,6 +55,11 @@ def dig_to_xml_specific(x):
 %else:
  """ changes particular to digitization"""
 %endif
+%if dictlo == 'mw':
+ # 08-21-2024 <s1 n="X">Y</s1> -> <ab n="X">Y</ab>
+ # For tooltip generation
+ #x = re.sub('<s1 n="(.*?)">(.*?)</s1>', '<ab n="\1">\2</ab>',x) # do in basicadjust.php in csl-websanlexicon
+%endif
 %if dictlo == 'gra':
  # 06-29-2023
  x = x.replace('_{','{')
@@ -841,7 +846,15 @@ def construct_xmlstring(datalines,hwrec):
  tail = construct_xmltail(hwrec)
  dbgout(dbg,"tail: %s" % tail)
  #3. construct body
-#%if dictlo in ['sch','ap90']:
+%if dictlo in ['mw']:
+ # if hwrec has a homonym value hval, append <info hui="hval"/> to
+ # last line of datalines
+ hom = hwrec.h
+ if hom != None:
+  hui = '<info hui="%s"/>' % hom
+  lastdataline = datalines[-1] + hui
+  datalines[-1] = lastdataline
+%endif 
 %if dictlo in ['sch']:
  # To mimic current display of Sch, we remove the 'head' from first line:
  # Sept. 2021.  Head has two parts {#X#} N? {%Y%} : (N optional).
@@ -1143,7 +1156,7 @@ def get_datalines(hwrec,inlines):
 %endif
  return datalines
 
-def make_xml(filedig,filehw,fileout):
+def make_xml(filein,filehw,fileout):
  # slurp txt file into list of lines
  with codecs.open(filein,encoding='utf-8',mode='r') as f:
     inlines = [line.rstrip('\r\n') for line in f]

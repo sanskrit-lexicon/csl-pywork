@@ -145,7 +145,8 @@ bhs requires also lang
 <!ATTLIST ab n CDATA #IMPLIED>
 <!ATTLIST per n CDATA #IMPLIED>
 <!ATTLIST lbinfo n CDATA #REQUIRED>
-<!ATTLIST s1 slp1 CDATA #IMPLIED>
+<!ATTLIST s1 slp1 CDATA #IMPLIED> <!-- 08-21-2024 probably can delete -->
+<!ATTLIST s1 n CDATA #IMPLIED>  <!-- 08-21-2024 -->
 <!ATTLIST vlex type (root) #REQUIRED>
 <!ATTLIST C n (1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 | 10 | 11 | 12) #REQUIRED>
 <!ATTLIST note  n (1) #REQUIRED>
@@ -170,6 +171,7 @@ bhs requires also lang
 <!ATTLIST info whitneyroots CDATA #IMPLIED >
 <!ATTLIST info pc CDATA #IMPLIED >
 <!ATTLIST info vn CDATA #IMPLIED > <!-- GRA -->
+<!ATTLIST info hui CDATA #IMPLIED > <!-- MW list display -->
 
 <!ATTLIST mark n (P | H | Picture) #REQUIRED>
 <!ATTLIST edit type (hw) #REQUIRED>
