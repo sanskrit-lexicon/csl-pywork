@@ -365,7 +365,8 @@ if __name__ == "__main__":
  entries = init_entries_kosha(filedig)
  write_entries_kosha(entries,fileout)
  print("END write_entries")
-% elif dictlo in ['mw','gra']:
+% elif dictlo in ['mw','gra','ben']:
+ # 08-27-2024 Lbody. Does not use recsextra
  entries = init_entries(filedig)
  hwrecs = [entry_to_hwrec_Lbody(entry) for entry in entries]
  write_hwrecs(hwrecs,fileout)
