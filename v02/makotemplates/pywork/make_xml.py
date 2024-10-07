@@ -846,7 +846,7 @@ def construct_xmlstring(datalines,hwrec):
  tail = construct_xmltail(hwrec)
  dbgout(dbg,"tail: %s" % tail)
  #3. construct body
-%if dictlo in ['mw']:
+%if dictlo in ['mw','pwg','pw','pwkvn','sch']:
  # if hwrec has a homonym value hval, append <info hui="hval"/> to
  # last line of datalines
  hom = hwrec.h
