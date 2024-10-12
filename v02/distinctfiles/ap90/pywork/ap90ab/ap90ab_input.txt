@@ -72,6 +72,7 @@ Pres.	<id>Pres.</id> <disp>Present tense.</disp>
 pres. p.	<id>pres. p.</id> <disp>Present participle.</disp>
 pron. a.	<id>pron. a.</id> <disp>Pronominal adjective.</disp>
 q. v.	<id>q. v.</id> <disp>quod vide, which see.</disp>
+q.q. v.v.	<id>q.q. v.v.</id> <disp>quod vide, which see (multiple).</disp>
 Rhet.	<id>Rhet.</id> <disp>Rhetoric.</disp>
 sing.	<id>sing.</id> <disp>Singular.</disp>
 Sing.	<id>Sing.</id> <disp>Singular.</disp>
