@@ -29,7 +29,7 @@ H1B | H2B | H3B | H4B | H1C | H2C | H3C | H4C | H1E | H2E | H3E | H4E)*>
 <!ELEMENT H3E (h,body,tail) >
 <!ELEMENT H4E (h,body,tail) >
 %endif
-<!ENTITY % body_elts "b | i | s |div | alt | symbol | F |  br | H | root |lb | P | lang | sup | pic | ls |ab|lbinfo|s1|lex|vlex|C|Poem|note|nsi |sic|is|bot|VN|type|hom|mark|edit|bio|etym|pb|pc|pcol|shortlong|srs|info|ns|span|per|chg|old|new|gk|heb|iw|zoo|tib|ger|fr|ed|ms|lat|toch|arab|rus|mong|cl" >
+<!ENTITY % body_elts "b | i | s |div | alt | symbol | F |  br | H | root |lb | P | lang | sup | pic | ls |ab|lbinfo|s1|lex|vlex|C|Poem|note|nsi |sic|is|bot|VN|type|hom|mark|edit|bio|etym|pb|pc|pcol|shortlong|srs|info|ns|span|per|chg|old|new|gk|heb|iw|zoo|tib|ger|fr|ed|ms|lat|toch|arab|rus|mong|cl|listinfo" >
 <!ELEMENT h  (key1,key2,hom?)>
 <!ELEMENT key1 (#PCDATA) >
 <!ELEMENT key2 (#PCDATA )>
@@ -65,7 +65,7 @@ H1B | H2B | H3B | H4B | H1C | H2C | H3C | H4C | H1E | H2E | H3E | H4E)*>
 %if dictlo in ['abch', 'acph', 'acsj']:
 <!ELEMENT tail (L,pc)>
 %else:
-<!ELEMENT tail (#PCDATA | L | pc |hwtype|info)*>
+<!ELEMENT tail (#PCDATA | L | pc |hwtype|info|listinfo)*>
 %endif
 <!ELEMENT L (#PCDATA) >
 <!ELEMENT pc (#PCDATA) >
@@ -113,6 +113,7 @@ bhs requires also lang
 <!ELEMENT VN (#PCDATA | %body_elts; )* >
 <!ELEMENT type (#PCDATA)>
 <!ELEMENT info (#PCDATA)>
+<!ELEMENT listinfo (#PCDATA)>
 <!ELEMENT mark EMPTY >
 <!ELEMENT edit EMPTY >
 <!ELEMENT etym (#PCDATA | %body_elts; )* >
@@ -156,6 +157,7 @@ bhs requires also lang
 <!ATTLIST hom n (pwk) #IMPLIED>
 <!ATTLIST info seq CDATA #IMPLIED>
 <!ATTLIST info n CDATA #IMPLIED>
+<!ATTLIST listinfo n CDATA #IMPLIED>
 <!ATTLIST info part CDATA #IMPLIED>
 
 <!ATTLIST info and CDATA #IMPLIED >
