@@ -262,5 +262,11 @@ alldictparms = {
   "dictname":u"Abhidhānacintāmaṇiśiloñcha of Jinadeva",
   "dictversion":"03",
  },
+ "fri": {
+  "dictup":"FRI",
+  "dictlo":"fri",
+  "dictname":u"Frisch Sanskrit Reader Vocabulary, 1956",
+  "dictversion":"02",
+ },
 
 }

@@ -41,5 +41,6 @@ sh generate_dict.sh lrv  ../../lrv
 sh generate_dict.sh abch  ../../abch
 sh generate_dict.sh acph  ../../acph
 sh generate_dict.sh acsj  ../../acsj
+sh generate_dict.sh fri  ../../fri
 
 
