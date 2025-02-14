@@ -469,6 +469,7 @@ R1.001	ĀŚV. ŚR.	Āśv. Śr.	ĀŚV. ŚR. = ĀŚVALĀYANA'S ŚRAUTASŪTRĀṆI 
 1.336b	Z. f. d. W. d. S.	Z. F. D. W. D. S.	Z. f. d. W. d. S. = ? Zeitschrift für die Wissenschaft der Sprache. Herausgegeben von Dr. A. HOEFER. [Cologne addition]
 1.337	Z. f. vgl. Spr.	Z. F. Vgl. Spr.	Z. f. vgl. Spr. = Zeitschrift für vergleichende Sprachforschung auf dem Gebiete des Deutschen, Griechischen und Lateinischen herausgege- ben von Dr. THEODOR AUFRECHT und Dr. ADALBERT KUHN. Berlin.
 1.337a	Z. f. vergl. Spr.	Z. F. Vergl. Spr.	Z. f. vergl. Spr. = Zeitschrift für vergleichende Sprachforschung auf dem Gebiete des Deutschen, Griechischen und Lateinischen herausgege- ben von Dr. THEODOR AUFRECHT und Dr. ADALBERT KUHN. Berlin. [Cologne Addition]
+1.337b	Zeitschr. f. vgl. Spr.	Zeitschr. f. vgl. Spr.	Zeitschrift für vergleichende Sprachforschung auf dem Gebiete des Deutschen, Griechischen und Lateinischen herausgege- ben von Dr. THEODOR AUFRECHT und Dr. ADALBERT KUHN. Berlin. [Cologne Addition]
 1.338	Zur Geschichte u. s. w. (LASSEN,)	Zur Geschichte U. S. W. (Lassen,)	Zur Geschichte u. s. w. (LASSEN,) = Zur Geschichte der Griechischen und Indoskythischen Könige in Baktrien, Kabul und Indien durch Entzifferung. der Altkabulischen Legenden auf ihren Münzen, von CHRISTIAN LASSEN. Bonn 1838. 8º.
 1.339	Zur L. u. G. d. w. (ROTH)	Zur L. U. G. D. W. (Roth)	Zur L. u. G. d. w. (ROTH) = Zur Literatur und Geschichte des Weda. Drei Abhandlungen von RUDOLPH ROTH. Stuttgart 1846.
 1.339a	Zur L. u. G. d. W.	Zur L. U. G. D. W.	Zur L. u. G. d. W.  = Zur Literatur und Geschichte des Weda. Drei Abhandlungen von RUDOLPH ROTH. Stuttgart 1846. ? [Cologne Addition]
@@ -2207,6 +2208,7 @@ c.1537	ŚAIVATANTRA	Śaivatantra	ŚAIVATANTRA = ? [Cologne Addition]
 c.1540	BERGHAUS	Berghaus	BERGHAUS = ? [Cologne Addition] 
 c.1541	BÜLLER	Büller	BÜLLER = ? [Cologne Addition] 
 c.1542	Beitr. z. Kenntn. d. russ. Reiches	Beitr. Z. Kenntn. D. Russ. Reiches	Beitr. z. Kenntn. d. russ. Reiches = ? [Cologne Addition] 
+c.1542a	Beitr. z. vgl. Spr.	Beitr. z. vgl. Spr.	Beitr. z. vgl. Spr. = ? [Cologne Addition]
 c.1543	BUCHANAN'S Handschrr.	Buchanan'S Handschrr.	BUCHANAN'S Handschrr. = ? [Cologne Addition] 
 c.1544	BUCHANAN'S Hdschrr.	Buchanan'S Hdschrr.	BUCHANAN'S Hdschrr. = ? [Cologne Addition] 
 c.1545	Berichte der phil.-hist. Cl. d. K. S. G. d. Ww	Berichte Der Phil.-Hist. Cl. D. K. S. G. D. Ww	Berichte der phil.-hist. Cl. d. K. S. G. d. Ww = ? [Cologne Addition] 
