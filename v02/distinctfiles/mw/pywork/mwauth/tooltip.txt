@@ -291,6 +291,7 @@
 05:04	Malamāsat.	Malamāsatattva	Title
 05:05	Mālatīm.	Mālatīmādhava	Title
 05:06	Mālav.	Mālavikāgnimitra	Title
+05:06x	Mālav. (ed. Boll.)	Mālavikāgnimitra, Bollensen edition	Title
 05:07	Mallapr.	Mallaprakāśa	Title
 05:08	Mall.	Mallinātha	Author
 05:08x	Mallin.	Mallinātha	Author
