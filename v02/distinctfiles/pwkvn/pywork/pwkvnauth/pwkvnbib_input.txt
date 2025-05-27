@@ -102,6 +102,7 @@ v0048	CAPPELLER'S	Cappeller's	Carl Johann Wilhelm Cappeller (1840 - 1925), Germa
 v0049	CARAKA	Caraka	CARAKASAṂHITĀ, Calcutta 1929 und 1877 und Hdschr. im Besitz von ROTH (KERN und ROTH) [CA]
 v0050	CATURVIṂŚATIMATA	Caturviṃśatimata	Caturviṃśatitama the 24th chapter of Rāmāyaṇa ?[CA]
 1147	CAURAP.	Caurap.	CAURAPAÑCĀŚIKĀ, Ausg. von BOHLEN. 
+1147x	CAURAP. (A.)	Caurap. (A.)	CAURAPAÑCĀŚIKĀ, ed. Ariel [Cologne Addition]
 1154	CHĀND. UP.	Chānd. Up.	CHĀNDOGYOPANIṢAD in der Bibl. ind. 
 v0052	CHĀNDOGYAP.	Chāndogyap.	[UL]
 v0053	CHILDERS	Childers	Robert Caesar Childers (1838 - 1876), British Orientalist scholar, compiler of the first Pāli-English dictionary [CA]

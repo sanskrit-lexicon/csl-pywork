@@ -110,7 +110,7 @@ X236	CANDRAGRAH.	Candragrah.	[unknown literary source]
 X064a	CARAKA. (ed. Calc.)	Caraka. (ed. Calc.)	[unknown literary source]
 X064	CARAKA. ed. Calc.	Caraka. ed. Calc.	[unknown literary source]
 1147	CAURAP.	Caurap.	CAURAPAÑCĀŚIKĀ, Ausg. von BOHLEN. 
-X164	CAURAP. (A.)	Caurap. (A.)	[unknown literary source]
+X164	CAURAP. (A.)	Caurap. (A.)	CAURAPAÑCĀŚIKĀ, ed. Ariel [Cologne Addition]
 X164a	CAURAP. (ed. SOLF)	Caurap. (ed. Solf)	[unknown literary source]
 1136	CAṆḌAK.	Caṇḍak.	KṢEMĪŚVARA'S CAṆḌAKAUŚIKA (PISCHEL). 
 X014	CAṆḌIDĀSA	Caṇḍidāsa	[unknown literary source]
