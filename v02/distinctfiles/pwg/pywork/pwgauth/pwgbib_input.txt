@@ -160,6 +160,7 @@ R1.001	ĀŚV. ŚR.	Āśv. Śr.	ĀŚV. ŚR. = ĀŚVALĀYANA'S ŚRAUTASŪTRĀṆI 
 1.121	HARISV.	Harisv.	HARISV. = HARISVĀMIN, ein Scholiast des ŚAT. BR.
 1.122	HARIV.	Hariv.	*HARIV. = HARIVAṂŚA im 4ten Bande des MBH.&#13;&#10; Aus diesem Werke habenwir die Nomina propria &#13;&#10;mit Benutzung des Index in der LANGLOIS'-&#13;&#10;schen Uebersetzung (GILD. Bibl. 122) aufgenommen.
 1.123	H. ś.	H. ś.	H. ś. = die Śeṣa's zu HEMACANDRA'S ABHIDHĀNACINTĀMAṆI (s. unter H.),&#13;&#10;S. 421--443.
+1.123a	ś.	ś.	ś. = die Śeṣa's zu HEMACANDRA'S ABHIDHĀNACINTĀMAṆI (s. unter H.),&#13;&#10;S. 421--443.
 1.124	HIḌ.	Hiḍ.	HIḌ. = HIḌIMBAVADHA in BOPP'S Ardschuna's Reise zu Indra's Himmel,&#13;&#10;nebst anderen Episoden des Maha-Bharata. Berlin 1824.
 1.125	Hindu Th. (WILSON)	Hindu Th. (Wilson)	Hindu Th. (WILSON) = Select specimens of the Theatre of the Hindus, translated from the original Sanscrit, by HORACE HAYMAN WILSON. Second edition. London 1835.
 1.125a	WILSON, Hindu Th.	Wilson, Hindu Th.	WILSON, Hindu Th. = Select specimens of the Theatre of the Hindus,&#13;&#10;translated from the original Sanscrit, by HORACE HAYMAN WILSON.&#13;&#10;Second edition. London 1835. [Cologne Addition]
