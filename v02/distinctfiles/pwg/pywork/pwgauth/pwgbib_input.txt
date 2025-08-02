@@ -49,7 +49,7 @@ R1.001	ĀŚV. ŚR.	Āśv. Śr.	ĀŚV. ŚR. = ĀŚVALĀYANA'S ŚRAUTASŪTRĀṆI 
 1.034a	BENF. Vollst. Gr.	Benf. Vollst. Gr.	BENFEY, Vollständige Grammatik der Sanskritsprache. Leipzig 1852. [Cologne addition]
 1.035	BHAG.	Bhag.	BHAG. = BHAGAVADGĪTĀ, Ausg. von SCHLEGEL (GILD. Bibl. 116).
 1.036	BHĀG. P.	Bhāg. P.	BHĀG. P. = BHĀGAVATAPURĀṆA, nach Anführungen im VP. und ŚKDR.&#13;&#10;Von ऊ an sind die 9 von BURNOUF edirten Skandha (Gild. Bibl. 125)&#13;&#10;ausgebeutet worden.
-1.036a	BHĀG. P. ed. Bomb.	Bhāg. P. ed. Bomb.	BHĀG. P. ed. Bomb.= BHĀGAVATAPURĀṆA, Bombay edition ? [Cologne Addition]
+1.036a	BHĀG. P. ed. Bomb.	Bhāg. P. ed. Bomb.	BHĀG. P. ed. Bomb.= BHĀGAVATAPURĀṆA, Bombay edition [Cologne Addition]
 1.036b	BHĀG. P. ed. BURN.	Bhāg. P. ed. Burn.	BHĀG. P. ed. Bomb.= BHĀGAVATAPURĀṆA, Burnouf edition ? [Cologne Addition]
 1.037	BHĀNUD.	Bhānud.	BHĀNUD. = BHĀNUDĪKṢITA, ein Commentator des AMARAKOṢA; nach&#13;&#10;Anführungen im ŚKDR.
 1.038	BHAR.	Bhar.	BHAR. = BHARATA, ein Autor über Schauspielkunst, verschieden vom&#13;&#10;Scholiasten zum AK. (dieser nach Anführungen im ŚKDR.).
