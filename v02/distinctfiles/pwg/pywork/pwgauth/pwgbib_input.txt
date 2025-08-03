@@ -54,7 +54,7 @@ R1.001	ĀŚV. ŚR.	Āśv. Śr.	ĀŚV. ŚR. = ĀŚVALĀYANA'S ŚRAUTASŪTRĀṆI 
 1.037	BHĀNUD.	Bhānud.	BHĀNUD. = BHĀNUDĪKṢITA, ein Commentator des AMARAKOṢA; nach&#13;&#10;Anführungen im ŚKDR.
 1.038	BHAR.	Bhar.	BHAR. = BHARATA, ein Autor über Schauspielkunst, verschieden vom&#13;&#10;Scholiasten zum AK. (dieser nach Anführungen im ŚKDR.).
 1.039	BHARTṚ.	Bhartṛ.	BHARTṚ. = BHARTṚHARI, Ausg. von BOHLEN (GILD. Bibl. 156), mit Berück-&#13;&#10;sichtigung des Werkchens; Variae lectiones ad Bohlenii editionem&#13;&#10;Bhartriharis sententiarum pertinentes, e codicibus extractae per&#13;&#10;A. SCHIEFNER et A. WEBER. Berolini 1850.
-1.039a	BHARTṚ Suppl..	Bhartṛ Suppl..	BHARTṚ Suppl.. = ? [Cologne Addition]
+1.039a	BHARTṚ. Suppl.	Bhartṛ Suppl.	BHARTṚHARI, Ausg. von BOHLEN, Supplementum..  [Cologne Addition]
 1.040	BHĀṢĀP.	Bhāṣāp.	*BHĀṢĀP. = BHĀṢĀPARICCHEDA nach der Ausgabe von RÖER in der&#13;&#10;Bibliotheca indica.
 1.041	BHAṬṬ.	Bhaṭṭ.	*BHAṬṬ. = BHAṬṬIKĀVYA, ed. Calc. (GILD. Bibl. 137).
 1.042	BHĀVAPR.	Bhāvapr.	BHĀVAPR. = BHĀVAPRAKĀŚA, ein medic. Wörterbuch; nach Anführungen&#13;&#10;im ŚKDR.
