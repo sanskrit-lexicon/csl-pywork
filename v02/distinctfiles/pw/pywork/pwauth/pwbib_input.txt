@@ -2,6 +2,7 @@
 2001	AINSLIE.	Ainslie.	AINSLIE, Materia indica. London 1826. 
 Y001	AIT.	Ait.	[unknown literary source]
 1006	AIT. BR.	Ait. Br.	AITAREYABRĀHMAṆA, Ausg. von HAUG. 
+1006a	SĀY. zu AIT. BR.	Sāy. zu Ait. Br.	Aitareyabrāhmaṇa, ed. Aufrecht, 1879, Sāyaṇa commentary [Cologne]
 1007	AIT. UP.	Ait. Up.	AITAREYOPANIṢAD in der Bibl. ind. 
 1005	AIT. ĀR.	Ait. Ār.	AITAREYĀRAṆYAKA in der Bibl. ind. In der Regel citirt nach Seite und Zeile (KERN und ROTH). 
 1008	AK.	Ak.	AMARAKOŚA, Ausg. von LOISELEUR DESLONGCHAMPS. 

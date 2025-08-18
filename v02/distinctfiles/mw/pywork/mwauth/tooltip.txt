@@ -6,9 +6,10 @@
 01:06	AgP.	Agni-purāṇa	Title
 01:07	AitĀr.	Aitareya-āraṇyaka	Title
 01:08	AitBr.	Aitareya-brāhmaṇa	Title
+01:08x	Sāy. on AitBr.	Aitareyabrāhmaṇa, ed. Aufrecht, 1879, Sāyaṇa commentary	Title
 01:09	AitUp.	Aitareya-upaniṣad	Title
 01:10	Alaṃkārak.	Alaṃkārakaustubha	Title
-01:11	Alaṃkāras.	1 Alaṃkārasarvasva, by Ruyyaka	Title
+01:11	Alaṃkāras.	Alaṃkārasarvasva, by Ruyyaka	Title
 01:13	Alaṃkāraś.	Alaṃkāraśekhara, by Keśava-miśra	Title
 01:14	Alaṃkārat.	Alaṃkāratilaka	Title
 01:15	Alaṃkārav.	Alaṃkāravimarśinī, by Jayaratha	Title
