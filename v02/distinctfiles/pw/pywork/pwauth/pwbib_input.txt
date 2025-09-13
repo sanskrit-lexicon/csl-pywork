@@ -432,10 +432,10 @@ X235	MĀHABH.	Māhabh.	[unknown literary source]
 X157a	MĀLATĪM. (ed. Bomb.)	Mālatīm. (ed. Bomb.)	[unknown literary source]
 X157	MĀLATĪM. ed. Bomb.	Mālatīm. ed. Bomb.	[unknown literary source]
 1181	MĀLAV.	Mālav.	MĀLAVIKĀGNIMITRA, Ausg. von TULLIBERG. 
-X076a	MĀLAV. (ed. BOLL.)	Mālav. (ed. Boll.)	[unknown literary source]
-X076	MĀLAV. ed. BOLL.	Mālav. ed. Boll.	[unknown literary source]
-X076c	MĀLAV. ed. Bomb.	Mālav. ed. Bomb.	[unknown literary source]
-X076b	MĀLAV. ed. Calc.	Mālav. ed. Calc.	[unknown literary source]
+X076a	MĀLAV. (ed. BOLL.)	MĀLAV. (ed. BOLL.)	MĀLAVIKĀGNIMITRA, ed. Bollensen [Cologne]
+X076	MĀLAV. ed. BOLL.	MĀLAV. ed. BOLL.	MĀLAVIKĀGNIMITRA, ed. Bollensen [Cologne]
+X076c	MĀLAV. ed. Bomb.	MĀLAV. ed. Bomb.	MĀLAVIKĀGNIMITRA, Bombay edition [Cologne ?]
+X076b	MĀLAV. ed. Calc.	MĀLAV. ed. Calc.	MĀLAVIKĀGNIMITRA, Calcutta edition [Cologne ?]
 1183	MĀN. GṚHY.	Mān. Gṛhy.	MĀNAVAGṚHYASŪTRA, nach einer Hdschr. in der Universitätsbibliothek zu Bombay (SCHRÖDER). 
 1184	MĀN. K. S.	Mān. K. S.	MĀNAVAKALPASŪTRA, nach Citaten bei GOLD. 
 2049	MĀN. ŚR.	Mān. Śr.	MĀNAVAŚRAUTASŪTRA, Hdschr. (v. SCHRÖDER). 
