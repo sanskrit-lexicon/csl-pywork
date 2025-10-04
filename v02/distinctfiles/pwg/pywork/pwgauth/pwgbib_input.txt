@@ -348,7 +348,7 @@ R1.001	ĀŚV. ŚR.	Āśv. Śr.	ĀŚV. ŚR. = ĀŚVALĀYANA'S ŚRAUTASŪTRĀṆI 
 1.252	RAGH. (ed. Calc)	Ragh. (Ed. Calc)	RAGH. (ed. Calc.) = RAGHUVAṂŚA, ed. Calc. (GILD. Bibl. 135).
 1.252a	RAGH. ed. Calc.	Ragh. ed. Calc.	RAGHUVAṂŚA, ed. Calc. (GILD. Bibl. 135).
 1.252b	RAGH. (Calc.)	Ragh. (Calc.)	RAGHUVAṂŚA, ed. Calc. (GILD. Bibl. 135).
-1.252c	RAGH. ed. ST.	Ragh. ed. ST.	RAGHUVAṂŚA, ed. ST. ? [Cologne Addition]
+1.252c	RAGH. ed. ST.	Ragh. ed. ST.	RAGHUVAṂŚA, ed. STENZLER (GILD. Bibl. 134). [Cologne Addition]
 1.253	RĀYAM.	Rāyam.	RĀYAM. = RĀYAMUKUṬA, ein Commentator des AMARAKOṢA; nach An-&#13;&#10;führungen im ŚKDR.
 1.254	RAMĀN.	Ramān.	RAMĀN. = RAMĀNĀTHA, ein Commentator des AMARAKOṢA; nach An-&#13;&#10;führungen im ŚKDR.
 1.255	RĀMATARKAV.	Rāmatarkav.	RĀMATARKAV. = RĀMATARKAVĀGĪŚA.
