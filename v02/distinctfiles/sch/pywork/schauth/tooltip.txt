@@ -343,7 +343,8 @@ R.	(PW) RĀMĀYAṆA. Das 1ste und 2te Kāṇḍa nach der Ausg. von SCHLEGEL, d
 R. ed. Bomb.	(CSL PW) RĀMĀYAṆA, Bombay edition
 R. Gorr.	(PW)  RĀMĀYAṆA, translation by Gaspare Gorresio. [Cologne Addition]
 Ragh.	(PW) RAGHUVAṂŚA, Ausg. von STENZLER, wenn nicht ed. Calc. hinzuge- fügt wird. 
-Raghuv.	(CSL PW) RAGHUVAṂŚA, Ausg. von STENZLER, wenn nicht ed. Calc. hinzuge- fügt wird. 
+Raghuv.	(CSL) RAGHUVAṂŚA, ed. Calcutta
+Ragh. ed. Calc.	(CSL) RAGHUVAṂŚA, ed. Calcutta
 Rājan.	(PW) RĀJANIGHAṆṬU, Hdschr. (ROTH). 
 Rājat.	(PW) RĀJATARAṂGIṆĪ. Die 6 ersten Bücher nach der Ausg. von TROYER. Die Beträge aus dem 7ten und 8ten Buche von KERN. 
 Rāmat.	(CSL?) Rāmatāpanī, name of an Upaniṣad belonging to the Atharvaveda
