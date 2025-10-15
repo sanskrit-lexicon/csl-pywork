@@ -527,8 +527,8 @@ X129	PUṢPADANTA	Puṣpadanta	[unknown literary source]
 X191	PĀṆINI	Pāṇini	[unknown literary source]
 1229	R.	R.	RĀMĀYAṆA. Das 1ste und 2te Kāṇḍa nach der Ausg. von SCHLEGEL, das 3--6te nach der von GORRESIO, das 7te nach der Bomb. Ausg., wenn nicht ausdrücklich eine andere Ausgabe genannt ist. Eine eingeklammerte Zahl bezieht ist sich auf ed. Bomb. 
 X022	R. GORR.	R. Gorr.	 RĀMĀYAṆA, translation by Gaspare Gorresio. [Cologne Addition]
-X024b	R. SCHL.	R. Schl.	[unknown literary source]
-X024	R. ed. Bomb.	R. ed. Bomb.	[unknown literary source]
+X024b	R. SCHL.	R. Schl.	Rāmāyaṇa, Schlegel edition, 1829--1838 [Cologne addition]
+X024	R. ed. Bomb.	R. ed. Bomb.	Bombay ed. of Rāmāyaṇa, 1859-1864 [Cologne addition]
 X023	R. ed. GORR.	R. ed. Gorr.	 RĀMĀYAṆA, translation by Gaspare Gorresio. [Cologne Addition]
 X024a	R. ed. SCHL.	R. ed. Schl.	[unknown literary source]
 1232	RAGH.	Ragh.	RAGHUVAṂŚA, Ausg. von STENZLER, wenn nicht ed. Calc. hinzuge- fügt wird. 
