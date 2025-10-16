@@ -530,6 +530,7 @@ X022	R. GORR.	R. Gorr.	 RĀMĀYAṆA, translation by Gaspare Gorresio. [Cologne 
 X024b	R. SCHL.	R. Schl.	Rāmāyaṇa, Schlegel edition, 1829--1838 [Cologne addition]
 X024	R. ed. Bomb.	R. ed. Bomb.	Bombay ed. of Rāmāyaṇa, 1859-1864 [Cologne addition]
 X023	R. ed. GORR.	R. ed. Gorr.	 RĀMĀYAṆA, translation by Gaspare Gorresio. [Cologne Addition]
+X023a	GORR.	Gorr.	 RĀMĀYAṆA, translation by Gaspare Gorresio. [Cologne Addition]
 X024a	R. ed. SCHL.	R. ed. Schl.	[unknown literary source]
 1232	RAGH.	Ragh.	RAGHUVAṂŚA, Ausg. von STENZLER, wenn nicht ed. Calc. hinzuge- fügt wird. 
 X074	RAGH. ed. Calc.	Ragh. ed. Calc.	[unknown literary source]
