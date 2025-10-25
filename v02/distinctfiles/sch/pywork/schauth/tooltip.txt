@@ -373,6 +373,8 @@ Sāhityadarpaṇa	(CSL) name of a treatise on literary or rhetorical composition
 Śāk. (Ch.)	(CSL PW) Śākuntala
 Śāk. (Kāśm.)	(CSL) Śākuntala
 Śāk. Ch.	(CSL PW) Śākuntala
+Śāk. (Pischel)	(CSL) Śākuntala
+Śāk. ed. Pischel)	(CSL) Śākuntala
 Śāktān. Kap.	(CSL) Śāktānandataraṃgiṇī, name of work compiled for the use of the Śāktas from the Tantras and Purāṇas
 Sam.	[unknown]
 Sāmav. Br.	(PW) SĀMAVIDHĀNABRĀHMAṆA, Ausg. von BURNELL. 

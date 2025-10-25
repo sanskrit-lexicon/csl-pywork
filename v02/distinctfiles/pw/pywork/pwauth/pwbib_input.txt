@@ -799,12 +799,14 @@ Y010	ŚRĪPATI	Śrīpati	[unknown literary source]
 1071	ŚULBAS.	Śulbas.	ŚULBASŪTRA in der Zeitschirft The Pandit IX. X und New Series I (CAPELLER). 
 1072	ŚVETĀŚV. UP.	Śvetāśv. Up.	ŚVETĀŚVATAROPANIṢAD in der Bibl. ind. 
 1051	ŚĀK.	Śāk.	ŚĀKUNTALA, Ausg. von BÖHTLINGK, wenn nicht ausdrücklich PISCH. (PISCHEL) oder PRAMAC. (PREMACANDRA) hinzugefügt wird. 
-X111a	ŚĀK. (CH.)	Śāk. (Ch.)	[unknown literary source]
+X111a	ŚĀK. (CH.)	Śāk. (Ch.)	CHEZY'S Ausgabe des ŚĀKUNTALA (GILD. Bibl. 187) [Cologne Addition]
 X089a	ŚĀK. (PISCH.)	Śāk. (Pisch.)	[unknown literary source]
-X111	ŚĀK. CH.	Śāk. Ch.	[unknown literary source]
+X111	ŚĀK. CH.	Śāk. Ch.	CHEZY'S Ausgabe des ŚĀKUNTALA (GILD. Bibl. 187) [Cologne Addition]
 X089	ŚĀK. PISCH.	Śāk. Pisch.	[unknown literary source]
 X189	ŚĀK. ed. PISCH.	Śāk. ed. Pisch.	[unknown literary source]
 X237	ŚĀK. ed. PREMAC.	Śāk. ed. Premac.	[unknown literary source]
+X237a	ŚĀK. zu BĀDAR.	Śāk. zu Bādar.	[unknown literary source]
+X237b	ŚĀK. (Kāśm.)	Śāk. (Kāśm.)	[unknown literary source]
 5015	ŚĀKTĀN.	Śāktān.	ŚĀKTĀNANDATARAṂGIṆI Hdschr. (AUFRECHT). 
 1057	ŚĀNT.	Śānt.	ŚĀNTANAVA'S PHIṬSŪTRA, AUSG. VON KIELHORN. 
 2006	ŚĀNTIŚ.	Śāntiś.	ŚĀNTIŚATAKA in HAEBERLIN'S Anthologie. 
