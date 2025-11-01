@@ -530,6 +530,7 @@ R1.001	ĀŚV. ŚR.	Āśv. Śr.	ĀŚV. ŚR. = ĀŚVALĀYANA'S ŚRAUTASŪTRĀṆI 
 2.041	SUKHAB.	Sukhab.	SUKHAB. = SUKHABODHA; nach Anführungen im ŚKDR.
 2.042	TATTVAS.	Tattvas.	TATTVAS. = A Lecture on the Sánkhya Philosophy, embracing the text&#13;&#10;of the Tattwa Samása. Mirzapore 1850.
 2.043	TBR.	Tbr.	TBR. = TAITTIRĪYABRĀHMAṆA.
+2.043a  TBR. Comm.	TBr. Comm.	TAITTIRĪYABRĀHMAṆA Commentary ? [Cologne Addition]
 2.044	TITHYĀDIT.	Tithyādit.	TITHYĀDIT. = TITHYĀDITATTVA; nach Anführungen im ŚKDR.
 2.045	Trans. R. A. S.	Trans. R. A. S.	Trans. R. A. S. = The Transactions of the Royal Asiatic Society of Great Britain and Ireland; nach Anführungen bei HAUGHTON.
 2.046	UDVĀHAT.	Udvāhat.	UDVĀHAT. = UDVĀHATATTVA; nach Anführungen im ŚKDR.
