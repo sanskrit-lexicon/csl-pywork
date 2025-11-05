@@ -530,7 +530,7 @@ R1.001	ĀŚV. ŚR.	Āśv. Śr.	ĀŚV. ŚR. = ĀŚVALĀYANA'S ŚRAUTASŪTRĀṆI 
 2.041	SUKHAB.	Sukhab.	SUKHAB. = SUKHABODHA; nach Anführungen im ŚKDR.
 2.042	TATTVAS.	Tattvas.	TATTVAS. = A Lecture on the Sánkhya Philosophy, embracing the text&#13;&#10;of the Tattwa Samása. Mirzapore 1850.
 2.043	TBR.	Tbr.	TBR. = TAITTIRĪYABRĀHMAṆA.
-2.043a  TBR. Comm.	TBr. Comm.	TAITTIRĪYABRĀHMAṆA Commentary ? [Cologne Addition]
+2.043a	TBR. Comm.	TBr. Comm.	TAITTIRĪYABRĀHMAṆA Commentary ? [Cologne Addition]
 2.044	TITHYĀDIT.	Tithyādit.	TITHYĀDIT. = TITHYĀDITATTVA; nach Anführungen im ŚKDR.
 2.045	Trans. R. A. S.	Trans. R. A. S.	Trans. R. A. S. = The Transactions of the Royal Asiatic Society of Great Britain and Ireland; nach Anführungen bei HAUGHTON.
 2.046	UDVĀHAT.	Udvāhat.	UDVĀHAT. = UDVĀHATATTVA; nach Anführungen im ŚKDR.
@@ -2179,7 +2179,7 @@ c.1500	EURNOUF.	Eurnouf.	EURNOUF. = ? [Cologne Addition]
 c.1501	HARADĀSA	Haradāsa	HARADĀSA = ? [Cologne Addition] 
 c.1502	PADAP.	Padap.	PADAP. = ? [Cologne Addition] 
 c.1503	Monatsberr. d. K. Pr. Ak. d. Ww.	Monatsberr. D. K. Pr. Ak. D. Ww.	Monatsberr. d. K. Pr. Ak. d. Ww. = ? [Cologne Addition]
-c.1503a	Monatsberr. d. kön. pr. Ak. d. Wiss. 1868	    Monatsberr. d. kön. pr. Ak. d. Wiss. 1868  Monatsberr. d. kön. pr. Ak. d. Wiss. 1868 [Cologne Addition]
+c.1503a	Monatsberr. d. kön. pr. Ak. d. Wiss. 1868	Monatsberr. d. kön. pr. Ak. d. Wiss. 1868	Monatsberr. d. kön. pr. Ak. d. Wiss. 1868 [Cologne Addition]
 c.1504	MONTGOMERY MARTIN	Montgomery Martin	MONTGOMERY MARTIN = ? [Cologne Addition]
 c.1504a	MONTGOMERY MARTIN, Eastern India	Montgomery Martin, Eastern India	MONTGOMERY MARTIN, Eastern India = ? [Cologne Addition]
 c.1505	MUGDHABODHA	Mugdhabodha	MUGDHABODHA = ? [Cologne Addition]
