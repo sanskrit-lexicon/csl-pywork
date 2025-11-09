@@ -446,7 +446,6 @@ R1.001	ĀŚV. ŚR.	Āśv. Śr.	ĀŚV. ŚR. = ĀŚVALĀYANA'S ŚRAUTASŪTRĀṆI 
 1.322	VIVĀDAC.	Vivādac.	*VIVĀDAC. = VIVĀDACINTĀMAṆI, ed. Calc. (GILD. Bibl. 351).
 1.323	VYAVAHĀRAT.	Vyavahārat.	*VYAVAHĀRAT. = VYAVAHĀRATATTVA, ed. Calc. (GILD. Bibl. 342).
 1.324	VYUTP.	Vyutp.	VYUTP. = VYUTPATTI oder MAHĀVYUTPATTI (s. Mél. asiat. II, 382), ein&#13;&#10;sanskrit-tibetisches Wörterbuch aus dem TAÑJUR (Bd. 123 der Sūtra,&#13;&#10;S. 223--377). Die Mittheilungen aus diesem Werke nebst andern&#13;&#10;auf den Budhismus bezüglichen Notizen verdanken wir A. SCHIEFNER. 
-1.325	v. l.	V. L.	v. l. = varia lectio.
 1.326	VOP.	Vop.	VOP. oder VOPAD. = VOPADEVA'S Grammatik, nach BÖHTLINGK'S Ausgabe&#13;&#10;(GILD. Bibl. 249, {%a.%} S. 170).
 1.326a	VOPAD.	Vopad.	VOP. oder VOPAD. = VOPADEVA'S Grammatik, nach BÖHTLINGK'S Ausgabe (GILD. Bibl. 249, {%a.%} S. 170).
 1.326b	VOP. (ed. Calc.)	Vop. (ed. Calc.)	VOPADEVA'S Grammatik, Calcutta edition [Cologne Addition]
