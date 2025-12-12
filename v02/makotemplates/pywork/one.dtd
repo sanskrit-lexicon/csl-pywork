@@ -117,7 +117,7 @@ bhs requires also lang
 <!ELEMENT mark EMPTY >
 <!ELEMENT edit EMPTY >
 <!ELEMENT etym (#PCDATA | %body_elts; )* >
-<!ELEMENT ns (#PCDATA )* >
+<!ELEMENT ns (#PCDATA | %body_elts; )* >
 <!ELEMENT bio (#PCDATA )* >
 <!ELEMENT zoo (#PCDATA | %body_elts; )* >
 <!ELEMENT pb (#PCDATA) >
