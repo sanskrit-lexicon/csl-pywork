@@ -304,6 +304,7 @@ def dig_to_xml_specific(x):
  x = re.sub(r' ([mfn]+[.] *\(<s>.*?</s>\))',r' <div n="1">\1',x)
  x = re.sub(r' ([mfn]+[.] *)$',r' <div n="1">\1',x)
  x = re.sub(r' ([0-9]+[.])',r' <div n="2"> \1',x)
+ x = re.sub(r'^([0-9]+[.])',r'<div n="2"> \1',x) # 12-19-2025
  x = re.sub(r'<Poem>','<div n="Poem">',x)
  x = re.sub(r'</Poem>','',x)  # the 'Poem' div will be closed in closed_divs
  # divs for roots
@@ -881,7 +882,7 @@ def construct_xmlstring(datalines,hwrec):
   datalines1.append(x)
  datalines = datalines1
 %endif
-%if dictlo in ['shs','skd','vcp']:
+%if dictlo in ['skd','vcp']: # 'shs', removed 12-19-2025
  for i,x in enumerate(datalines):
   if i == 0:
    pass
