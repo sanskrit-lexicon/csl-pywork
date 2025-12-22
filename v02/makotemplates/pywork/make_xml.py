@@ -310,6 +310,8 @@ def dig_to_xml_specific(x):
  # divs for roots
  x = re.sub(r' (r[.] [1-9])',r'<div n="1">\1',x)
  x = re.sub(r' ([wW]ith *<s>.*?</s>)',r'<div n="1">\1',x)
+ # 12-19-2025, continue
+ x = '<lb/>' + x # this works, but may be too 
  return x
 %endif
 %if dictlo == 'cae':
@@ -1074,7 +1076,7 @@ def construct_xmlstring(datalines,hwrec):
  # bodylines = body_bop(bodylines) # 05-06-2024
  pass # 05-06-2024
 %endif
- body0 = ' '.join(bodylines)
+ body0 = ' '.join(bodylines)  # 12-19-2025 this adds a space at end of each body line
  dbgout(dbg,"chk4: %s" % body0)
  body = body0
  dbgout(dbg,"body0: %s" % body0)
