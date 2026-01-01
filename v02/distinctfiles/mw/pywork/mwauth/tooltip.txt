@@ -867,4 +867,5 @@
 93.43	Śivasūtra	ŚivaSūtra, the first 14 Sūtras of Pāṇini's grammar [Cologne Addition]	subtitle
 93.44	R. (ed. Gorr.)	Rāmāyaṇa (Gorresio edition) [Cologne Addition]	Title
 93.45	SkandaP. Rev.	SkandaPurāṇa Revākhaṇḍa [Cologne Addition]	Title
+94.01	Hāla	 Gāthāsaptaśatī [Cologne Addition]	Title
 99.98	ib.	in the same place [Cologne Addition]	Title
