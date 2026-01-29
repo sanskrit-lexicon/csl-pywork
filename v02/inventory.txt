@@ -58,11 +58,11 @@ pw pwg:pywork/make_xml_ls.py:CD
 ;   Later, try to get all abbreviations to be the same,
 ;   so templates can be used.
 ;   also xxx to redo_postxml.sh for abbreviations
-ben stc bur cae mw pw pwkvn pwg lan gra ap90 bhs md:pywork/${dictlo}ab/${dictlo}ab.sql:CD
-ben stc bur cae mw pw pwkvn pwg lan gra ap90 bhs md:pywork/${dictlo}ab/${dictlo}ab_input.txt:CD
-ben stc bur cae mw pw pwkvn pwg lan gra ap90 bhs md:pywork/${dictlo}ab/readme.txt:CD
-ben stc bur cae mw pw pwkvn pwg lan gra ap90 bhs md:pywork/${dictlo}ab/redo.sh:CD
-ben stc bur cae mw pw pwkvn pwg lan gra ap90 bhs md:pywork/${dictlo}ab/redo_${dictlo}ab.sh:CD
+ben stc bur cae mw pw pwkvn pwg lan gra ap90 bhs md ap:pywork/${dictlo}ab/${dictlo}ab.sql:CD
+ben stc bur cae mw pw pwkvn pwg lan gra ap90 bhs md ap:pywork/${dictlo}ab/${dictlo}ab_input.txt:CD
+ben stc bur cae mw pw pwkvn pwg lan gra ap90 bhs md ap:pywork/${dictlo}ab/readme.txt:CD
+ben stc bur cae mw pw pwkvn pwg lan gra ap90 bhs md ap:pywork/${dictlo}ab/redo.sh:CD
+ben stc bur cae mw pw pwkvn pwg lan gra ap90 bhs md ap:pywork/${dictlo}ab/redo_${dictlo}ab.sh:CD
 mw:pywork/${dictlo}ab/check.py:CD
 ; --------------------------------------------------------------
 ; -- literary sources: MW

@@ -1,0 +1,85 @@
+Ā.	<id>Ā.</id> <disp>Ātmanepada.</disp>
+Ātm.	<id>Ātm.</id> <disp>Ātmanepada.</disp>
+a.	<id>a.</id> <disp>Adjective.</disp>
+abl.	<id>abl.</id> <disp>Ablative.</disp>
+acc.	<id>acc.</id> <disp>Accusative.</disp>
+adv.	<id>adv.</id> <disp>Adverb.</disp>
+alg.	<id>alg.</id> <disp>Algebra.</disp>
+Arith.	<id>Arith.</id> <disp>Arithmetic.</disp>
+A. S.	<id>A. S.</id> <disp>Anglo-Saxon.</disp>
+astr.	<id>astr.</id> <disp>Astronomy.</disp>
+astrol.	<id>astrol.</id> <disp>Astrology.</disp>
+Avyayi.	<id>Avyayi.</id> <disp>Avyayībhāva.</disp>
+Bah.	<id>Bah.</id> <disp>Bahuvrīhi.</disp>
+Caus.	<id>Caus.</id> <disp>Causal.</disp>
+cf.	<id>cf.</id> <disp>Compare.</disp>
+Com.	<id>Com.</id> <disp>Commentary.</disp>
+Comp.	<id>Comp.</id> <disp>Compound.</disp>
+dat.	<id>dat.</id> <disp>Dative.</disp>
+Den.	<id>Den.</id> <disp>Denominative.</disp>
+desid.	<id>desid.</id> <disp>Desiderative.</disp>
+du.	<id>du.</id> <disp>Dual.</disp>
+e. g.	<id>e. g.</id> <disp>Exempli gratia, for example.</disp>
+Eng.	<id>Eng.</id> <disp>English.</disp>
+Etym.	<id>Etym.</id> <disp>Etymology.</disp>
+Ety.	<id>Ety.</id> <disp>Etymology.</disp>
+f.	<id>f.</id> <disp>Feminine.</disp>
+fem.	<id>fem.</id> <disp>Feminine.</disp>
+fig.	<id>fig.</id> <disp>Figurative.</disp>
+fr.	<id>fr.</id> <disp>From.</disp>
+freq.	<id>freq.</id> <disp>Frequentative.</disp>
+gen.	<id>gen.</id> <disp>Genitive.</disp>
+Germ.	<id>Germ.</id> <disp>German.</disp>
+Goth.	<id>Goth.</id> <disp>Gothic.</disp>
+Gr.	<id>Gr.</id> <disp>Greek.</disp>
+gram.	<id>gram.</id> <disp>Grammar.</disp>
+ibid.	<id>ibid.</id> <disp>The same.</disp>
+i. e.	<id>i. e.</id> <disp>id est, that is.</disp>
+ind.	<id>ind.</id> <disp>Indeclinable.</disp>
+inf.	<id>inf.</id> <disp>Infinitive.</disp>
+instr.	<id>instr.</id> <disp>Instrumental.</disp>
+L.	<id>L.</id> <disp>Latin.</disp>
+lit.	<id>lit.</id> <disp>Literal.</disp>
+loc.	<id>loc.</id> <disp>Locative.</disp>
+m.	<id>m.</id> <disp>Masculine.</disp>
+mas.	<id>mas.</id> <disp>Masculine.</disp>
+Mar.	<id>Mar.</id> <disp>Marathi.</disp>
+Math.	<id>Math.</id> <disp>Mathematics.</disp>
+Medic.	<id>Medic.</id> <disp>Medicine.</disp>
+n.	<id>n.</id> <disp>Neuter.</disp>
+N.	<id>N.</id> <disp>Name.</disp>
+Nom.	<id>Nom.</id> <disp>Nominative.</disp>
+num. a.	<id>num. a.</id> <disp>Numeral adjective.</disp>
+oft.	<id>oft.</id> <disp>Often times.</disp>
+opp.	<id>opp.</id> <disp>Opposite of.</disp>
+P.	<id>P.</id> <disp>Parasmaipada.</disp>
+pass.	<id>pass.</id> <disp>Passive.</disp>
+Pers.	<id>Pers.</id> <disp>Persian.</disp>
+phil.	<id>phil.</id> <disp>Philosophy.</disp>
+pl.	<id>pl.</id> <disp>Plural.</disp>
+pot. p.	<id>pot. p.</id> <disp>Potential passive participle.</disp>
+p. p.	<id>p. p.</id> <disp>Past passive participle.</disp>
+Pres.	<id>Pres.</id> <disp>Present tense.</disp>
+pres. p.	<id>pres. p.</id> <disp>Present participle.</disp>
+pron. a.	<id>pron. a.</id> <disp>Pronominal adjective.</disp>
+q. v.	<id>q. v.</id> <disp>quod vide, which see.</disp>
+Rhet.	<id>Rhet.</id> <disp>Rhetoric.</disp>
+sing.	<id>sing.</id> <disp>Singular.</disp>
+Subst.	<id>Subst.</id> <disp>Substantive.</disp>
+s. v.	<id>s. v.</id> <disp>sub voce, see under the word.</disp>
+Tat.	<id>Tat.</id> <disp>Tatpurusha.</disp>
+U.	<id>U.</id> <disp>Ubhayapada (Parasmai and Atmane).</disp>
+Vārt.	<id>Vārt.</id> <disp>Vārtika.</disp>
+Ved.	<id>Ved.</id> <disp>Vedic.</disp>
+v. l.	<id>v. l.</id> <disp>Various reading.</disp>
+Voc.	<id>Voc.</id> <disp>Vocative.</disp>
+=	<id>=</id> <disp>Equal or equivalent to, same as.</disp>
++	<id>+</id> <disp>Plus.</disp>
+&amp;c.	<id>&amp;c.</id> <disp>Et cetera. denotes that the rest of the word &#13;&#10;under consideration is to be supplied;&#13;&#10; e. g. रत्नप्रभवस्य यस्य under अनन्त means अनन्तरत्न &c.</disp>
+Circ.	<id>Circ.</id> <disp>Circa, about (with dates).</disp>
+Com.	<id>Com.</id> <disp>Commentary.</disp>
+com.	<id>com.</id> <disp>Commentary.</disp>
+Geom.	<id>Geom.</id> <disp>Geometry.</disp>
+cl.	<id>cl.</id> <disp>Class.</disp>
+Ref.	<id>Ref.</id> <disp>Refer, Reference.</disp>
+Scil.	<id>Scil.</id> <disp>Scilicet, that is to say.</disp>
