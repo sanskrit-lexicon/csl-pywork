@@ -102,3 +102,4 @@ var.	<disp>variante</disp>
 v. l.	<disp>[varia lectio] variante</disp>
 véd.	<disp>védique</disp>
 voc.	<disp>vocatif</disp>
+opt.	<disp>optatif</disp>
