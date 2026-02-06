@@ -283,3 +283,4 @@ zd.	<id>zd.</id> <disp>zend</disp> <count>17</count>
 Zd.	<id>Zd.</id> <disp>zend</disp> <count>28</count>
 ép.	<id>ép.</id> <disp>épithète</disp> <count>93</count>
 Ép.	<id>Ép.</id> <disp>épithète</disp> <count>16</count>
+primitivt.	<id>primitivt.</id> <disp>primitivement</disp> <count>3</count>
