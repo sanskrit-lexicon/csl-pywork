@@ -199,7 +199,7 @@ orthogr.	<id>orthogr.</id> <disp>orthographe</disp> <count>6</count>
 osq.	<id>osq.</id> <disp>osque</disp> <count>1</count>
 p.	<id>p.</id> <disp>parfait</disp> <count>1106</count>
 P.	<id>P.</id> <disp>parfait</disp> <count>6</count>
-partic.	<id>partic.</id> <disp>participe</disp> <count>5</count>
+partic.	<id>partic.</id> <disp>particule</disp> <count>5</count>
 Passivt.	<id>Passivt.</id> <disp>passivement</disp> <count>2</count>
 Passt.	<id>Passt.</id> <disp>passivement</disp> <count>1</count>
 pers.	<id>pers.</id> <disp>personne</disp> <count>17</count>
