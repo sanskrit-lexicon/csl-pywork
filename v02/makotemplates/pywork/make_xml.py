@@ -69,8 +69,8 @@ def dig_to_xml_specific(x):
 %endif
 %if dictlo == 'bhs':
  # 07-27-2023
- x = x.replace('〔',"<span class='ls'>")
- x = x.replace('〕','</span>')
+ x = x.replace('〔',  "<span class='ls'>")
+ x = x.replace('〕',  '</span>')
 %endif
 %if dictlo == 'pd':
  x = re.sub(r' < ',' &lt; ',x)  # 6 cases
@@ -142,7 +142,8 @@ def dig_to_xml_specific(x):
  #   ... </Poem>
  # change this to <div n="Poem">...</div>
  if re.search('Poem>',x):
-  x = x.replace('<Poem>','<div n="Poem">')
+  # x = x.replace('<Poem>','<div n="Poem">')
+  x = x.replace('<Poem>','<div n="Poem"/>') # 02-22-2026
   # Because of the the 'close_div' logic, we just remove </Poem>.
   # The close-div logic will add the </div>
   #x = x.replace('</Poem>','</div>')
@@ -156,7 +157,8 @@ def dig_to_xml_specific(x):
  # correspondent in the printed text. About 3000+ instances.
  # For now, replace it with an empty '<root/>' element, and do not display
  # it in 'disp.php'
- x = x.replace(u'€','<root/>')
+ # x = x.replace(u'€','<root/>') # remove 02-22-2026
+ x = x.replace('€','') # 02-22-2026
  # Divisions are indicated by lines starting with a period.
  # Three types are seen:
  # .{#-BaH#}
@@ -164,24 +166,24 @@ def dig_to_xml_specific(x):
  # .³({%a%})
  # 07-03-2021.  Drop restriction that the line STARTS with .² or .³
  #if re.search(u'^[.][²]',x):
- if re.search(u'[.][²]',x):
+ if re.search(u'[.∙][²]',x):
  # there may be nothing else on the line (300+ cases), in particular no space
  # do same thing anyway, not requiring the trailing space.
-  x = re.sub(u'[.][²]([^ ]*) ',r'<div n="2" name="\1">\1 ',x)
-  x = re.sub(u'[.][²]([^ ]*)',r'<div n="2" name="\1">\1 ',x)
+  x = re.sub(u'[.∙][²]([^ ]*) ',r'<div n="2" name="\1">\1 ',x)
+  x = re.sub(u'[.∙][²]([^ ]*)',r'<div n="2" name="\1">\1 ',x)
  #elif re.search(u'^[.][³]',x):
- elif re.search(u'[.][³]',x):
-  m = re.search('[.][³]([^ ]*) ',x)
+ elif re.search(u'[.∙][³]',x):
+  m = re.search('[.∙][³]([^ ]*) ',x)
   if not m:
-   m = re.search('[.][³]([^ ]*)',x)
+   m = re.search('[.∙][³]([^ ]*)',x)
   assert m ,"adjust_xml. PROBLEM 1:x=\n%s"%x
   data = m.group(1)
   # data = ({%x%})
   m = re.search(r'\(<i>(.)</i>\)',data)
   assert m ,"adjust_xml. PROBLEM 2:x=\n%s"%x
   name=m.group(1)
-  x = re.sub(u'[.][³]([^ ]*) ',r'<div n="3" name="%s">\1 '%name,x)
-  x = re.sub(u'[.][³]([^ ]*)',r'<div n="3" name="%s">\1 '%name,x)
+  x = re.sub(u'[.∙][³]([^ ]*) ',r'<div n="3" name="%s">\1 '%name,x)
+  x = re.sub(u'[.∙][³]([^ ]*)',r'<div n="3" name="%s">\1 '%name,x)
 
  # introduce line-break (call it a plain div) at any line starting with
  # a period.  This was the convention used by Thomas to designate
@@ -189,6 +191,10 @@ def dig_to_xml_specific(x):
  if x.startswith('.'):
   #print("extra div:",x)
   x = re.sub(r'^[.]','<div n="Q">',x)
+ # 02-22-2026
+ # x = x.replace('--','—') # em dash —  &#8212; U+2014  02-22-2026
+ # x = x.replace('--','━') # U+2501 Box Drawings Heavy Horizontal U+2014  02-22-2026
+ x = x.replace('▪', '')  #provisional line-break. 02-22-2026
  return x
 %endif # ap dictionary
 %if dictlo == 'skd':
