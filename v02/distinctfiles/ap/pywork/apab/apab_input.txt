@@ -77,7 +77,6 @@ Voc.	<id>Voc.</id> <disp>Vocative.</disp>
 +	<id>+</id> <disp>Plus.</disp>
 &amp;c.	<id>&amp;c.</id> <disp>Et cetera. denotes that the rest of the word &#13;&#10;under consideration is to be supplied;&#13;&#10; e. g. रत्नप्रभवस्य यस्य under अनन्त means अनन्तरत्न &c.</disp>
 Circ.	<id>Circ.</id> <disp>Circa, about (with dates).</disp>
-Com.	<id>Com.</id> <disp>Commentary.</disp>
 com.	<id>com.</id> <disp>Commentary.</disp>
 Geom.	<id>Geom.</id> <disp>Geometry.</disp>
 cl.	<id>cl.</id> <disp>Class.</disp>
