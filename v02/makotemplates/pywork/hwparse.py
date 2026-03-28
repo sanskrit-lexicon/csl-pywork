@@ -13,8 +13,8 @@ class HW(object):
  dictcode = '${dictlo}' 
  # all keys that COULD occur  
  # hom -> h, 09-16-2017
- if dictcode == 'mw':
-  hwrec_keys = ['L','pc','k1','k2','h'] +\
+ if dictcode in ('mw','ap'):
+  hwrec_keys = ['L','pc','k1','k2','h','e'] +\
                ['type','LP','k1P'] +\
                ['ln1','ln2','e']
  else:

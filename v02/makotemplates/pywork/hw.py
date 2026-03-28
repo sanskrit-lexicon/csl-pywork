@@ -21,7 +21,7 @@ class Hwmeta(object):
  # Assume meta line within xxx.txt is a sequence of key-value pairs
  # coded as
  # <key>val
-%if dictlo == 'mw':
+%if dictlo in ('mw','ap'):
  keysall_list = ['L','pc','k1','k2','h','e']  # standard order
 %elif dictlo in ['abch', 'acph', 'acsj']:
  keysall_list = ['L','pc']
@@ -53,6 +53,10 @@ class Hwmeta(object):
   self.h = None
   if 'h' in d:
    self.h = d['h']
+  if 'e' in d:
+   self.e = d['e']
+  else:
+   self.e = None
 %endif
 %if dictlo == 'mw':
   self.e = d['e']
@@ -199,7 +203,7 @@ def write_hwrecs(hwrecs,fileout):
  """
  with codecs.open(fileout,"w","utf-8") as f:
   nout = 0
-%if dictlo == 'mw':
+%if dictlo in ('mw','ap'):
   hwrec_keys = ['L','pc','k1','k2','h','e'] +\
                ['type','LP','k1P'] +\
                ['ln1','ln2']
@@ -365,7 +369,7 @@ if __name__ == "__main__":
  entries = init_entries_kosha(filedig)
  write_entries_kosha(entries,fileout)
  print("END write_entries")
-% elif dictlo in ['mw','gra','ben','acc','ap90','bur','cae','lrv','pw','pwkvn','shs','skd','vcp','pwg']:
+% elif dictlo in ['mw','gra','ben','acc','ap90','bur','cae','lrv','pw','pwkvn','shs','skd','vcp','pwg', 'ap']:
  # 08-27-2024 Lbody. Does not use recsextra
  entries = init_entries(filedig)
  hwrecs = [entry_to_hwrec_Lbody(entry) for entry in entries]

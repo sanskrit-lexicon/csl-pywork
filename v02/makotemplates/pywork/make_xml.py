@@ -1089,10 +1089,10 @@ def construct_xmlstring(datalines,hwrec):
  ##3a. Remove <LEND>. datalines does not include <LEND>. See get_datalines
  #body = body.replace('<LEND>','') # Line ending mark needs to be removed.
  #4. construct result
-%if dictlo != 'mw':
+%if dictlo not in ('mw','ap'):
  data = "<H1><h>%s</h><body>%s</body><tail>%s</tail></H1>" % (h,body,tail)
 %endif
-%if dictlo == 'mw':
+%if dictlo in ('mw','ap'):
  #data = "<H1><h>%s</h><body>%s</body><tail>%s</tail></H1>" % (h,body,tail)
  data = "<h>%s</h><body>%s</body><tail>%s</tail>" % (h,body,tail)
  tag = 'H%s' %hwrec.e

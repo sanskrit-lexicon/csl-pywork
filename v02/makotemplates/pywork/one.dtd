@@ -3,7 +3,7 @@
 <!-- 01-22-2024. For dictlo = pe, Exclude the further 'pe' tag.-->
 <!-- 02-05-2024. Change pe tag to per, and remove logic re dictlo = pe -->
 <!-- 01-14-2026. sab element added for ap -->
-%if dictlo != 'mw':
+%if dictlo not in ('mw','ap'):
 <!ELEMENT  ${dictlo} (H1)*>
 <!ELEMENT H1 (h,body,tail) >
 %else:
