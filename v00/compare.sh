@@ -5,7 +5,7 @@ do
 	echo $dict
 	for script in ${scripts[*]}
 	do
-		diff ../../../Cologne_localcopy/"${dict,,}"/pywork/"$script" ../../"$dict"Scan/2020/pywork/"$script"
+		diff ../../../Cologne_localcopy/"$(echo "$dict" | tr '[:upper:]' '[:lower:]')"/pywork/"$script" ../../"$dict"Scan/2020/pywork/"$script"
 	done
 done
 

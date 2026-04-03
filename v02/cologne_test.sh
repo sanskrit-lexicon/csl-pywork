@@ -6,7 +6,7 @@ pwd
 
 dictsthirteen=(BUR INM MWE PWG SKD STC VCP)
 dictsfourteen=(ACC AE AP90 AP BEN BHS BOP BOR CAE CCS GRA GST IEG KRM MCI MD MW72 MW PD PE PGN PUI PW SCH SHS SNP VEI WIL YAT)
-dictup="${dictlo^^}"
+dictup=$(echo "$dictlo" | tr '[:lower:]' '[:upper:]')
 
 # inefficient, but who cares?
 dictyear="0"
@@ -30,7 +30,7 @@ do
  fi
 done
 ## now we have dictyear
-dictup="${dictlo^^}"
+dictup=$(echo "$dictlo" | tr '[:lower:]' '[:upper:]')
 olddir="../../${dictup}Scan/$dictyear"
 oldxml="$olddir/pywork/$dictlo.xml"
 newdir="$outdir"

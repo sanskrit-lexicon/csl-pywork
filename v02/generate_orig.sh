@@ -10,12 +10,12 @@ if [ -z "$1" ] || [ -z "$2" ]
    echo "Example: sh generate_orig.sh acc ../../ACCScan/2020"
    exit 1
   else
-    dict=${1^^} # Uppercase
+    dict=$(echo "$1" | tr '[:lower:]' '[:upper:]') # Uppercase
     outdir=$2
 fi
 
-dictlo=${dict,,} # Lowercase
-dictup=${dict^^} # Uppercase
+dictlo=$(echo "$dict" | tr '[:upper:]' '[:lower:]') # Lowercase
+dictup=$dict
 
 #python generate.py "$dict" inventory_orig.txt _ '../../csl-orig/v00/csl-data/${dictup}Scan/2020' $outdir
 

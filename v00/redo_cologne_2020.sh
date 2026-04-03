@@ -6,7 +6,7 @@ if [ -z "$1" ]
   then
 	dicts=(BUR INM MWE PWG SKD STC VCP ACC AE AP90 AP BEN BHS BOP BOR CAE CCS GRA GST IEG KRM MCI MD MW72 MW PD PE PGN PUI PW SCH SHS SNP VEI WIL YAT)
   else
-    dicts=(${1^^}) # Uppercase
+    dicts=($(echo "$1" | tr '[:lower:]' '[:upper:]')) # Uppercase
 fi
 
 echo "Generating the pywork code from templates for the dictionaries."
@@ -19,6 +19,6 @@ if [ -z "$1" ]
   then
   cp -r distinctscripts/* ../..
   else
-  cp -r distinctscripts/${1^^}Scan/* ../../${1^^}Scan
+  cp -r distinctscripts/$(echo "$1" | tr '[:lower:]' '[:upper:]')Scan/* ../../$(echo "$1" | tr '[:lower:]' '[:upper:]')Scan
 fi
 
