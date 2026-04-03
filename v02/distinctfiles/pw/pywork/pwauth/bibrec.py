@@ -58,7 +58,7 @@ class Bibrec(object):
   self.entryflag=True
 
 def init_bibrecs(filein):
- with codecs.open(filein,"r","utf-8") as f:
+ with open(filein, 'r', encoding='utf-8') as f:
   recs=[]
   for x in f:
    if x.startswith(';'):
@@ -110,7 +110,7 @@ if __name__ == "__main__":
  bibrecs = init_bibrecs(filebib)
  print(len(bibrecs),"records from",filebib)
  dcodes = prepare_bibrec_codes(bibrecs)
- with codecs.open(filetest,"r","utf-8") as f:
+ with open(filetest, 'r', encoding='utf-8') as f:
   txts = [x.rstrip('\r\n') for x in f]
  for txt in txts:
   ans = match_best_prefix(txt,dcodes)

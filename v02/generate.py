@@ -86,7 +86,7 @@ def init_inventory_distinct(filein,dictcode):
      space-delimited. e.g. *:${dictlo}.txt orig/${dictlo}.txt:CD
  """
  ans = []
- with codecs.open(filein,"r","utf-8") as f:
+ with open(filein, 'r', encoding='utf-8') as f:
   for ix,x in enumerate(f):
    if x.startswith(';'): # comment
     continue 
@@ -145,7 +145,7 @@ def mako_postprocess(text):
  return text1
 
 def mako_special_handling(filein,dictparms):
- with codecs.open(filein,"r","utf-8") as f:
+ with open(filein, 'r', encoding='utf-8') as f:
   text = f.read()
  text1 = mako_preprocess(text)
  template = Template(text1)
@@ -201,7 +201,7 @@ if __name__=="__main__":
    else:
     renderedtext = mako_special_handling(filename1,dictparms)
 
-   with codecs.open(newfile,"w","utf-8") as f:
+   with open(newfile, 'w', encoding='utf-8') as f:
     f.write(renderedtext)
   elif category == 'D':
    filename1 = "%s/%s" %(olddir,filename_old)

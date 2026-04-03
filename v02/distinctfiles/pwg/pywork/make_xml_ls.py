@@ -51,8 +51,8 @@ def adjust_ls(line,dcodes):
 def make_xmlfun(filein,dcodes,fileout):
  # slurp txt file into list of lines
  nadj = 0
- with codecs.open(filein,encoding='utf-8',mode='r') as f:
-  with codecs.open(fileout,encoding='utf-8',mode='w') as fout:
+ with open(filein, 'r', encoding='utf-8') as f:
+  with open(fileout, 'w', encoding='utf-8') as fout:
    for line in f:
     line1 = adjust_ls(line,dcodes)
     if line1 != line:

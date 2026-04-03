@@ -51,7 +51,7 @@ class HW(object):
 
 def init_hwrecs(filein):
  recs=[]
- with codecs.open(filein,encoding='utf-8',mode='r') as f:
+ with open(filein, 'r', encoding='utf-8') as f:
   n = 0
   for line in f:
    n = n + 1

@@ -7,7 +7,7 @@ import sys,codecs
 from hwparse import init_hwrecs
 
 def write(hw0recs,fileout):
- with codecs.open(fileout,"w","utf-8") as f:
+ with open(fileout, 'w', encoding='utf-8') as f:
   for rec in hw0recs:  # rec is a string
    f.write(rec + '\n')
 

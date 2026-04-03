@@ -90,7 +90,7 @@ def dbgout(dbg,s):
  if not dbg:
   return
  filedbg = "make_xml_dbg.txt"
- fout = codecs.open(filedbhg,"a","utf-8")
+ fout = open(filedbhg, 'a', encoding='utf-8')
  fout.write(s + '\n')
  fout.close()
 
@@ -235,12 +235,12 @@ def get_datalines(hwrec,inlines):
 
 def make_xml(filedig,filehw,fileout):
  # slurp txt file into list of lines
- with codecs.open(filein,encoding='utf-8',mode='r') as f:
+ with open(filein, 'r', encoding='utf-8') as f:
     inlines = [line.rstrip('\r\n') for line in f]
  # parse xxxhw.txt 
  hwrecs = init_hwrecs(filehw)
  # open output xml file
- fout = codecs.open(fileout,'w','utf-8')
+ fout = open(fileout, 'w', encoding='utf-8')
  nout = 0  # count of lines written to fout
  # generate xml header lines
  lines = xml_header(xmlroot)

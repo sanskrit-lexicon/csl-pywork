@@ -119,7 +119,7 @@ class Auth(object):
   return type1
 
 def create_authrecs(filein):
- with codecs.open(filein,"r","utf-8") as f:
+ with open(filein, 'r', encoding='utf-8') as f:
   recs = [Auth(x) for x in f if x.rstrip()!= '' and not x.startswith(';')]
  return recs
 def capitalize(x,tranout):
@@ -154,7 +154,7 @@ if __name__=="__main__":
   out = '\t'.join(outarr)
   outlines.append(out)
  # print result
- with codecs.open(fileout,"w","utf-8") as f:
+ with open(fileout, 'w', encoding='utf-8') as f:
   for out in outlines:
    f.write(out + '\n')
  print(len(outlines),"lines written to",fileout)

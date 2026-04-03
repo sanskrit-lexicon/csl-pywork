@@ -37,8 +37,8 @@ def slp_cmp(a,b):
  return cmp(a1,b1)
 
 def extract_keys_b(filein,fileout):
- fout = codecs.open(fileout,"w",'utf-8')
- f = codecs.open(filein,"r",'utf-8')
+ fout = open(fileout, 'w', encoding='utf-8')
+ f = open(filein, 'r', encoding='utf-8')
  n = 0 # number of lines read
  # state variables
  keyhash = {}

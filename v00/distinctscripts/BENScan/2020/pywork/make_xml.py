@@ -78,7 +78,7 @@ def construct_data(datalines,key1,lnum,page,col,n1,fout=None):
  line = line.strip()
  line0 = line
  dbgout(fout,"chk1: %s\n" % line)
- m = re.search(r'^(.*?�)(.*)$' ,line)  # may need vertical-bar
+ m = re.search(r'^(.*?¦)(.*)$' ,line)  # may need vertical-bar
  if not m:
   print "CONSTRUCT_DATA ERROR at n1=",n1
   exit(1)
@@ -90,14 +90,14 @@ def construct_data(datalines,key1,lnum,page,col,n1,fout=None):
  elif len(parts) > 2: # occasional miscoding
   head = parts[0]
   xparts = [p.encode('utf-8') for p in parts]
-  rest = r'�'.join(xparts[1:])
+  rest = r'¦'.join(xparts[1:])
   out = "WARNING: too many parts. line %s=\n%s" % (n1,line)
   print out.encode('utf-8')
   #exit(1)
- else:  # 1 part (no ¦)
+ else:  # 1 part (no Â¦)
   print "ERROR: no head. line = \n%s\n" % line
   exit(1)
- #head = u"�".join([head,''])
+ #head = u"¦".join([head,''])
  m = re.search(reHeadworda,head)  
  if  m:
   hkey1a = m.group(1) # unused
@@ -166,10 +166,10 @@ def construct_data(datalines,key1,lnum,page,col,n1,fout=None):
 
 def make_xmlfun(filein,filein1,fileout):
  # slurp txt file into list of lines
- with codecs.open(filein,encoding='utf-8',mode='r') as f:
+ with open(filein, 'r', encoding='utf-8') as f:
     inlines = f.readlines()
  # open output xml file, and write header
- fout = codecs.open(fileout,'w','utf-8')
+ fout = open(fileout, 'w', encoding='utf-8')
   
  # write header lines
 # write the preface pages

@@ -9,8 +9,8 @@ import sys, re,codecs
 sys.path.append('../')  # pywork
 import hwparse
 def old_extract_keys(filein,fileout):
- fout = codecs.open(fileout,"w",'utf-8')
- f = codecs.open(filein,"r",'utf-8')
+ fout = open(fileout, 'w', encoding='utf-8')
+ f = open(filein, 'r', encoding='utf-8')
  n = 0 # number of lines read
  nout = 0 # Number of lines written
  for line in f:
@@ -29,9 +29,9 @@ def old_extract_keys(filein,fileout):
  print(n,"records in,",nout,"records written")
 
 def extract_keys(filein,fileout):
- fout = codecs.open(fileout,"w",'utf-8')
+ fout = open(fileout, 'w', encoding='utf-8')
  hwrecs = hwparse.init_hwrecs(filein)
- #f = codecs.open(filein,"r",'utf-8')
+ #f = open(filein, 'r', encoding='utf-8')
  n = 0 # number of lines read
  nout = 0 # Number of lines written
  for r in hwrecs:

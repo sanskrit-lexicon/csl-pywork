@@ -85,7 +85,7 @@ class Hwextra(object):
    self.hom = d['h']
  
 def init_hwextra(filein):
- with codecs.open(filein,encoding='utf-8',mode='r') as f:
+ with open(filein, 'r', encoding='utf-8') as f:
   recs = [Hwextra(line) for line in f if not line.startswith(';')]
  return recs
 
@@ -107,7 +107,7 @@ class Entry(object):
 
 def init_entries(filein):
  # slurp lines
- with codecs.open(filein,encoding='utf-8',mode='r') as f:
+ with open(filein, 'r', encoding='utf-8') as f:
   lines = [line.rstrip('\r\n') for line in f]
  recs=[]  # list of Entry objects
  inentry = False  
@@ -161,7 +161,7 @@ def write_hwrecs(hwrecs,fileout):
  """ hwrecs is a list of dictionaries
    whose keys are a subset of the keys appearing in HWextra records
  """
- with codecs.open(fileout,"w","utf-8") as f:
+ with open(fileout, 'w', encoding='utf-8') as f:
   nout = 0
   %if dictlo != 'mw':
   hwrec_keys = ['L','pc','k1','k2','h','type','LP','k1P','ln1','ln2']

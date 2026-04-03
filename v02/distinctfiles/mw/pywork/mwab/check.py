@@ -10,7 +10,7 @@ if __name__ == "__main__":
  filein = sys.argv[2]
  n = 0
  d = {}
- with codecs.open(filein,"r","utf-8") as f:
+ with open(filein, 'r', encoding='utf-8') as f:
   for i,line in enumerate(f):
    line = line.rstrip('\r\n')
    lnum = i+1

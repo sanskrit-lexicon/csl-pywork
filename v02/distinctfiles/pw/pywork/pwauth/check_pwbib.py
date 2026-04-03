@@ -9,7 +9,7 @@ if __name__ == "__main__":
  filebib = sys.argv[1]
  n = 0
  d = {}
- with codecs.open(filebib,"r","utf-8") as f:
+ with open(filebib, 'r', encoding='utf-8') as f:
   for i,line in enumerate(f):
    line = line.rstrip('\r\n')
    lnum = i+1

@@ -40,7 +40,7 @@ def copyfiles(filenames,olddir,newdir):
 def init_inventory(filein):
  # read inventory. all paths assumed relative
  ans = []
- with codecs.open(filein,"r","utf-8") as f:
+ with open(filein, 'r', encoding='utf-8') as f:
   for x in f:
    if x.startswith(';'): # comment
     continue 
@@ -74,7 +74,7 @@ if __name__=="__main__":
    # process as a template
    template = Template(filename=filename1,input_encoding='utf-8',)
    renderedtext = template.render_unicode(**dictparms)
-   with codecs.open(newfile,"w","utf-8") as f:
+   with open(newfile, 'w', encoding='utf-8') as f:
     f.write(renderedtext)
   else:
    print("unexpected inventory category:",category,filename)

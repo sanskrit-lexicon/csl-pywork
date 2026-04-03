@@ -10,7 +10,7 @@ class Abbrev(object):
   self.tooltip = tooltip.strip()
 
 def init_recs(filein):
- with codecs.open(filein,"r","utf-8") as f:
+ with open(filein, 'r', encoding='utf-8') as f:
   recs = [Abbrev(line) for line in f if not line.startswith(';')]
  print(len(recs),"records read from",filein)
  return recs
@@ -27,7 +27,7 @@ if __name__ == "__main__":
  recs = init_recs(filein)
  for rec in recs:
   reformat_tip(rec)
- with codecs.open(fileout,"w","utf-8") as f:
+ with open(fileout, 'w', encoding='utf-8') as f:
   for rec in recs:
    out = '%s\t%s' %(rec.abbrev,rec.newtip)
    f.write(out + '\n')

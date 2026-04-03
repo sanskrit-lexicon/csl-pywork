@@ -109,7 +109,7 @@ def sort_lines(lines):
  if False: # dbg print the sorted records
   fileout = 'temp_sqlite.txt'
   print('debug written to',fileout)
-  with codecs.open(fileout,"w","utf-8") as f:
+  with open(fileout, 'w', encoding='utf-8') as f:
    for irow,row in enumerate(rows1):
     if (irow in [0,1]):
      f.write('%s %s %s %s\n' % row)
@@ -143,7 +143,7 @@ if __name__ == "__main__":
  # create the 'dictlo' table in db
  create_table(c,conn,dictlo)
  
- with codecs.open(filein,"r","utf-8") as f:
+ with open(filein, 'r', encoding='utf-8') as f:
   lines = [line.rstrip('\r\n') for line in f]
   print(len(lines),'lines read from',filein)
 

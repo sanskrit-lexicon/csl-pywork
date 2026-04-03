@@ -19,7 +19,7 @@ def write_tags(d,fileout):
  outarr = []
  for key in keys:
   outarr.append('%06d %s' %(d[key],key))
- with codecs.open(fileout,'w','utf-8') as f:
+ with open(fileout, 'w', encoding='utf-8') as f:
   for out in outarr:
    f.write(out + '\n')
  print(len(keys),"lines written to",fileout)
@@ -28,7 +28,7 @@ def write_tags(d,fileout):
 if __name__=="__main__":
  filein = sys.argv[1]
  fileout = sys.argv[2]
- with codecs.open(filein,"r","utf-8") as f:
+ with open(filein, 'r', encoding='utf-8') as f:
   lines = [x.rstrip('\r\n') for x in f]
  d = tagfreqs(lines)
  write_tags(d,fileout)
