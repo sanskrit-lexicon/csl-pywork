@@ -76,7 +76,7 @@ def query_line(x):
  
 
  # (d) Remove punctuation
- x = re.sub('\[Page.*?\]','',x)
+ x = re.sub(r'\[Page.*?\]','',x)
  # x = re.sub('[~_;., ?()\[\]]+',' ',x)
  x = x.replace('[',' ')
  x = x.replace(']',' ')
