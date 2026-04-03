@@ -28,7 +28,7 @@ def create_table(c,conn,dictlo):
  template = '''
 CREATE TABLE %s (
  key VARCHAR(100)  NOT NULL,
- lnum DECIMAL(10,2) NOT NULL,
+ lnum TEXT NOT NULL,
  data TEXT NOT NULL
 );
   ''' % dictlo
@@ -36,7 +36,7 @@ CREATE TABLE %s (
  template = '''
 CREATE TABLE %s (
  key VARCHAR(100)  NOT NULL,
- lnum DECIMAL(10,2) UNIQUE,
+ lnum TEXT UNIQUE,
  data TEXT NOT NULL
 );
   ''' % dictlo
@@ -63,14 +63,26 @@ def create_index(c,conn,tabname):
  print('create_index takes %0.2f seconds' %timediff)
 
 def insert_batch(c,conn,tabname,rows):
- # rows is a list.
- # if rows is empty, nothing to do
- if len(rows) == 0:
-  return
- # 3 columns -> three placeholders (?)
- sql = 'INSERT INTO %s VALUES (?,?,?)' % tabname
- c.executemany(sql,rows)
- conn.commit()
+  # rows is a list.
+  # if rows is empty, nothing to do
+  if len(rows) == 0:
+   return
+  # 3 columns -> three placeholders (?)
+  sql = 'INSERT INTO %s VALUES (?,?,?)' % tabname
+  try:
+   c.executemany(sql,rows)
+  except sqlite3.IntegrityError as e:
+   seen = set()
+   for i,row in enumerate(rows):
+    if row[1] in seen:
+     print('Duplicate in batch: lnum=%s, key=%s, row_index=%d' % (row[1],row[0],i))
+    seen.add(row[1])
+    try:
+     c.execute(sql,row)
+    except sqlite3.IntegrityError as e2:
+     print('UNIQUE constraint failed for lnum=%s, key=%s, row_index=%d' % (row[1],row[0],i))
+     raise e2
+  conn.commit()
 
 %if dictlo in ['abch', 'acph', 'acsj']:
 def sort_lines(lines):
