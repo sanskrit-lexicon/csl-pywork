@@ -28,7 +28,7 @@ def create_table(c,conn,dictlo):
  template = '''
 CREATE TABLE %s (
  key VARCHAR(100)  NOT NULL,
- lnum TEXT NOT NULL,
+ lnum DECIMAL(10,2) NOT NULL,
  data TEXT NOT NULL
 );
   ''' % dictlo
@@ -36,7 +36,7 @@ CREATE TABLE %s (
  template = '''
 CREATE TABLE %s (
  key VARCHAR(100)  NOT NULL,
- lnum TEXT UNIQUE,
+ lnum DECIMAL(10,2) UNIQUE,
  data TEXT NOT NULL
 );
   ''' % dictlo
