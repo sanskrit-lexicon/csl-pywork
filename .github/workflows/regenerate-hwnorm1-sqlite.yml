@@ -73,7 +73,8 @@ jobs:
           cd sanskrit-lexicon/pd/orig
           curl -L -o pdtxt.zip https://www.sanskrit-lexicon.uni-koeln.de/scans/PDScan/2020/downloads/pdtxt.zip
           unzip -o pdtxt.zip
-          rm pdtxt.zip
+          mv txt/* . 2>/dev/null || true
+          rm -rf txt pdtxt.zip
 
       - name: Create blank hwextra file
         run: |
