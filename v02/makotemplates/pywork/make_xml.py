@@ -128,7 +128,7 @@ def dig_to_xml_specific(x):
  x = adjust_slp1(x) # add <s> markup to text
 %endif
 %if dictlo in ['armh']:
- x = re.sub(r'(.)$', '\g<1><br/>', x)
+ x = re.sub(r'(.)$', r'\g<1><br/>', x)
  x = adjust_slp1(x) # add <s> markup to text
 %endif
  return x
