@@ -84,31 +84,6 @@ jobs:
           cd sanskrit-lexicon/csl-pywork/v02
           sh redo_xampp_all.sh
 
-      - name: Run hwnorm2 redo scripts
-        run: |
-          cd sanskrit-lexicon/hwnorm2/keydoc/distincthws
-          sh redo.sh
-          cd ../..
-          sh redo.sh xampp
-
-      - name: Configure git for hwnorm2
-        run: |
-          cd sanskrit-lexicon/hwnorm2
-          git config user.name "HWNORM1 BOT"
-          git config user.email "actions@github.com"
-
-      - name: Commit and push hwnorm2 changes
-        run: |
-          cd sanskrit-lexicon/hwnorm2
-          TIMESTAMP=$(date +%Y%m%d-%H%M%S)
-          if git diff --quiet; then
-            echo "No changes to commit in hwnorm2"
-          else
-            git add -A
-            git commit -m "Regenerated hwnorm2 repo as on $TIMESTAMP"
-            git push
-          fi
-
       - name: Run hwnorm1 sanhw1 redo.sh
         run: |
           cd sanskrit-lexicon/hwnorm1/sanhw1
@@ -134,6 +109,31 @@ jobs:
           else
             git add -A
             git commit -m "Regenerated hwnorm1.sqlite as on $TIMESTAMP"
+            git push
+          fi
+
+      - name: Run hwnorm2 redo scripts
+        run: |
+          cd sanskrit-lexicon/hwnorm2/keydoc/distincthws
+          sh redo.sh
+          cd ../..
+          sh redo.sh xampp
+
+      - name: Configure git for hwnorm2
+        run: |
+          cd sanskrit-lexicon/hwnorm2
+          git config user.name "HWNORM1 BOT"
+          git config user.email "actions@github.com"
+
+      - name: Commit and push hwnorm2 changes
+        run: |
+          cd sanskrit-lexicon/hwnorm2
+          TIMESTAMP=$(date +%Y%m%d-%H%M%S)
+          if git diff --quiet; then
+            echo "No changes to commit in hwnorm2"
+          else
+            git add -A
+            git commit -m "Regenerated hwnorm2 repo as on $TIMESTAMP"
             git push
           fi
 
