@@ -50,7 +50,10 @@ Chāt.	Cātakāṣṭaka (In two parts.)
 Chola-Champū.	Edited by Dr. Raghavan.
 CP.	Copper-plates.
 D. Bhāg.	Devībhāgavata.
+D. Purāṇa.	देवीपुराणम्  [Cologne]
+Devī. P.	देवीपुराणम्  [Cologne]
 D. R.	Daśarūpa (Hallʼs edition).
+Dakṣa.	दक्षस्मृतिः, an ancient treatise in Dharmaśāstra. [Cologne]
 Dāy.	Dāyabhāga.
 Dāy. B.	Dāyabhāga.
 Dhan. V.	Dhanañjayavijaya.
@@ -66,8 +69,12 @@ Enm.	Ekārthanāmamālā of Saubhari.
 Ep. Ind.	Epigraphia Indica.
 G. L.	Gaṅgālaharī.
 G. M.	Gaṇaratnamahodadhi of Vardhamāna.
+G. O. S.	Gaekwad Oriental Series, Baroda. The famous works, Critical edition of Ramayana and the Dictionary of Sanskrit Grammar were published under this series. [cologne]
+Gaṅgāṣṭaka	A generic work under Stotra category, praising the River Gaṅgā. [Cologne]
+Gaṇeśa S.	(संकटनाशन)गणेश(द्वादशनाम)स्तोत्रम् from नारदपुराणम्. [Cologne]
 Gaut. S.	Gautamasūtra.
 Gaut. Sūt.	Gautamasūtra.
+Gāyatryāvāhanamantra	Invocation of Gayatri as a Goddess, occurs in Sāmabēda sandhyāpāṭha. [Cologne]
 Ghaṭ.	Ghaṭakarparakāvya.
 GI.	Gupta Inscriptions by Fleet.
 Gīrvāṇa.	गीर्वाण लघुकोश.
@@ -76,20 +83,30 @@ Golādh.	Golādhyāya.
 H.	Hitopadeśa, (आर्यभूषण प्रेस, पुणें, १९३३).
 H. D.	Haṃsadūta.
 H. Pr.	हितोपदेश-प्रस्ताविका.
+Haima.	The citation seems to be taken from PWG. Is it the Abhidhānacintāmaṇi of Hemacandra? [Cologne]
 Halāy.	Halāyudha.
+Hārīta	हारीत स्मृति, an ancient treatise in Dharmaśāstra. [Cologne]
 Hariv.	Harivaṃśa, (चित्रशाळा, पुणें, १९३६).
+Hastāmalaka Stotra	A generic work under Stotra category, by Hastāmalaka Ācārya, a disciple of Sankarācārya. [Cologne]
 Hch.	Harṣacarita.
 Hem.	Hemacandra.
 I B.	Inscriptions of Bengal, Vol. III by N. G. Mujumdar.
+Ind. Ant.	Indian Antiquary, a series published by As. Soc. of Bombay [Cologne]
 Inscr.	Inscriptions.
 Īśop.	Īśopaniṣad, (सार्थ उपनिषत्संग्रह, ह. र. भागवत, १९१४).
 J. N. V.	Jaiminīyanyāyamālāvistara, (Goldstückerʼs Edition.)
 Jag.	Jagannātha Pandit.
+Jābāla Up.	Jābāla Upanishad (जाबालोपनिषत्), one of the Minor Upanishads in Atharvaveda. [Cologne]
+Jātak.	Jātakamālā. [Cologne]
+Jyotiṣa.	Raghunandana's Jyotiṣatattva. [Cologne]
 K.	Kādambarī, (Bombay).
 K. P.	Kāvyaprakāśa.
 K. R.	Kavi-Rahasya.
+Kālikā P.	कालिकापुराणम् [Cologne]
+Kālī. P.	कालिकापुराणम् ?[Cologne]
 Kām.	Kāmandakinītisāra.
 Karpūr.	Karpūramañjarī (Published in Kāvyamālā.)
+Karṇabhāra	A play by the celebrated Bhāsa (who is recognised at par with Kalidāsa in Skt. Lit. History), whose works (13 plays, called भासनाटकचक्रम् as a whole) were unearthed only around 1910 in Trivandrum, Kerala. These are all printed under Trivandrum Sanskrit Series in those days. [Cologne]
 Kāśi.	Kāśikāvṛtti, (Benares).
 Kaṭh.	Kaṭhopaniṣad, (सार्थ उपनिषत्संग्रह, ह. र. भागवत १९१४).
 Kāty.	Kātyāyana.
@@ -98,7 +115,9 @@ Kauś.	Kauśikasūtra.
 Kauṣ. Br.	Kauṣītaki Brāhmaṇa.
 Kauṣ. Up.	Kauṣītakyupaniṣad.
 Kāv.	Kāvyādarśa.
+Kavirāja	A 12th century poet, who authored Rāghavapāṇḍavīyam, the full śloka goes thus - यः पूतनमारणलब्धवर्णः काकोदरो येन विनीतादर्पः । यशोदयालङ्कृतमूर्तिरव्यात् नाथो यदूनामथवा रघूणाम् ॥ This is a dual meaning text throughout, each verse interpretable in ref. to Rāghava (Rāmāyaṇā) and Pāṇḍava(s) (Mahābhārata). There is a spl. category of such works by name "dvarthikāvya". This ślōka is otherwise used in praising both Rāma & Kṛṣṇa (known as रामकृष्नयुगलस्तुति). [Cologne]
 Kāvyāl.	Kāvyālaṅkāra (Published in Kāvyamālā).
+Kāvyamālā	A series of books, incl. both popular and forgotten works, published mostly as collections/compilations by the famous Nirnayasagara Press, Bombay in the first half of 20th century. [Cologne]
 Ken.	Kenopaniṣad, (सार्थ उपनिषत्संग्रह, ह. र. भागवत, १९१४).
 Ki.	Kirātārjunīya, (Nirṇaya Sāgara, 1922).
 Kīr. K.	Kīrtikaumudī, (Bombay).
@@ -109,8 +128,10 @@ Kusum.	Kusumāñjali.
 Kuval.	Kuvalayānanda.
 L. D. B.	List of Prof. Dineshchandra Bhattacharya.
 L. V.	Lalitavistara.
+Lakṣmīdhyānam.	Invocating Lakṣmī, during Sarasvatīpūjā on Vasantapañcamī; also used in Saṁyuktayantrapūjā of Gaṇapati, Lakṣmī and Sarasvatī (combined) [Cologne]
 Līlā.	Līlāvatī.
 Lm.	Laghu-mañjūṣā.
+Lok. Tilak.	Lokmānya Bal Gaṅgādhar Ṭiḷak, quotes this in his commentary on Bhagavadgītā (actual source unknown). [Cologne]
 M.	Mālavikāgnimitra, (Prin. R. D. Karmarkar, 1933).
 MW.	Monier Williams.
 Mādh. N.	Mādhavanidāna.
@@ -268,3 +289,64 @@ Y.	Yājñavalkya Smṛti, (Nirṇaya Sāgara, 1926).
 Yaj.	Yajurveda (Pandit Satawalekar ed.)
 Yoga S.	Yogasūtras.
 Yv.	Yajurveda (Pandit Satawalekar ed.)
+Līlāvatī-ṭīkā.	Līlāvatī ṭīkā by Mahīdāsa, on Bhaskarācārya's Līlāvatī. [Cologne]
+MS.	Mīmānsā Sūtras. [Cologne]
+Madhyamavyāyoga	A play by the celebrated Bhāsa (who is recognised at par with Kalidāsa in Skt. Lit. History), whose works (13 plays, called भासनाटकचक्रम् as a whole) were unearthed only around 1910 in Trivandrum, Kerala. These are all printed under Trivandrum Sanskrit Series in those days. [Cologne]
+Mahānār. Dīpikā.	Nārāyaṇa’s Dīpikā commentary on Mahānārāyaṇa Upaniṣad, published by by GA Jacob. [Cologne]
+Mahār.	Mahārtha Mañjarī (with Parimalā commentary, both) by Maheśvarānanda. ? [Cologne]
+Mallaśāstram.	An ancient treatise dealing with duels (without weapons), mainly incl. wrestling and boxing. [Cologne]
+Murārināṭakam.	The alt. name for Anargha Rāghava, by Murāri. [Cologne]
+Māhiṣaśataka	A sarcastic (vyangya) śataka by Vāñcheśvara, belonging to Tanjore region in Tamilnadu (early 18th century). [Cologne]
+Pāśupata. Up.	Pāśupata Brāhmaṇopaniṣad. [Cologne]
+Pratimā	It is one of the plays by the celebrated Bhāsa (who is recognised at par with Kalidāsa in Skt. Lit. History), whose works (13 plays, called भासनाटकचक्रम् as a whole) were unearthed only around 1910 in Trivandrum, Kerala. These are all printed under Trivandrum Sanskrit Series in those days. [Cologne]
+Pravara	Pravarādhyāya ? [Cologne]
+Prācetasa.	Prācetasa, as quoted by Raghunandana in his श्राद्धतत्त्वम्. [Cologne]
+Pātañjala Yogadarśana	Pātañjali’s Yogasūtra, counted as one of the 6 philosophies (Ṣaḍ-darśana), hence referred as Yogadarśana also. [Cologne]
+Pūjāmantra.	A generic invocation used as भूतशुद्धि before taking up any work- esp. the Pūjā during festivals or other such sacred works, for eliminating any hurdles that would be imposed by भूतपिशाचाः. [Cologne]
+Pūjāmantram.	A generic invocation used as भूतशुद्धि before taking up any work- esp. the Pūjā during festivals or other such sacred works, for eliminating any hurdles that would be imposed by भूतपिशाचाः. [Cologne]
+RT.	Kalhaṇa's Rājataraṅgiṇī. [Cologne]
+Rakṣābandhanamantra.	An invocation during Rakṣābandhana celebrated on श्रावणापौर्णिमा, as quoted by Raghunandana in his तिथितत्त्वम् and by Anantadeva in his स्मृतिकौस्तुभ. [Cologne]
+Sandhyā.	(Trikāla) Sandhyāvandana, a series of hymns in Ṛgveda. [Cologne]
+Sulhā.	(Subhāṣitaratnākara or Subhāṣitaratnabhāṇḍāgāra). ? [Cologne]
+Suprabhedāgama	One of the twenty-eight Siddhāntāgama: a classification of the Śaiva division of Śaivāgamas. This deals with the construction details of sacred items in temples etc. [Cologne]
+Sāyaṇa Bhāṣya	Sāyaṇa Bhāṣya on Ṛgveda 1.1.1. [Cologne]
+Tattvamasi Stotra	The citation is the phala-stotra (concluding verse) of Tattvamasi Stotram, belonging to the misc. compositions (unknown authorship) of Stotra category in praise of various deities and other "personified objects". [Cologne]
+Tithyādi.	Tithyāditattva, by the Bengali scholar रघुनन्दन भट्टाचार्य, who is widely referred in SKD and VCP. [Cologne]
+Ujjvalamaṇi	Ujjvalanīlamaṇi, a treatise on Skt. Poetics, by Rūpagosvāmī. [Cologne]
+Ulkādānamantra	The mantra recited during the fall of Meteors (ulkā), for pacification, orginally quoted in तिथितत्त्वम् (as at VCP). [Cologne]
+Uśanāh Dharmaśāstra	One of the ancient texts in Dharmaśāstra, by Uśanāh. [Cologne]
+Veda-Vyāsāṣṭaka	A generic work under Stotra category, praising the the sage Vyāsa; this seems to have been composed by Brahmānanda Āchārya. [Cologne]
+Vedānta	 Vedāntasāra, a work by Sadānanda, published by GA Jacob. [Cologne]
+Vedānta S.	Vedānta Sūtra, the popular name being Brahmasūtra. [Cologne]
+Vedāntasāra	Vedāntasāra, a work by Sadānanda, published by GA Jacob. [Cologne]
+Viśva.	The famous lexical work Viśvakośa, by Maheśvara. [Cologne]
+Viśvakośa.	The famous lexical work Viśvakośa, by Maheśvara. [Cologne]
+Viṣṇu.	One of the ancient texts in Dharmaśāstra, विष्णुस्मृतिः. [Cologne]
+Viṣṇustotra.	A generic work under Stotra category, praising the Lord Viṣṇu. [Cologne]
+Vyāsa.	One of the ancient texts in Dharmaśāstra, व्यासस्मृतिः. [Cologne]
+Yaśastilaka	Somadevasūri’s Yaśastilaka. [Cologne]
+Yogadarśana.	Pātañjali’s Yogasūtra, counted as one of the 6 philosophies (Ṣaḍ-darśana), hence referred as Yogadarśana also. [Cologne]
+Āgama Pr.	यामुनाचार्यस्वामिना प्रणीतम् आगमप्रामाण्यम्, a treatise in the मीमांसा philosophy.
+Āgama.	The full citation goes thus - बहिष्प्रज्ञो विभुर्विश्वो ह्यन्तः प्रज्ञस्तु तैजसः । घनप्रज्ञस्तथा प्राञ्ज एक एव त्रिधा स्मृतः ॥ and occurs at Gaudapāda's Karikā first section Āgama Prakaraṇa (1st verse), on Māṇḍūkyopaniṣad. [Cologne]
+Āyurvedaśāstra	The term is a generic one indicating the Ayurveda Science. This citation is from चरक संहिता. [Cologne]
+Śab. Kau.	Śabda Kaustubha, a commentary on अष्टाध्यायी by भट्टोजी दीक्षित. [Cologne]
+Śabdaratnāvalī	Śabdaratnāvalī, a lexical work by Mathureśa. [Cologne]
+Śārṅg. P.	Śārṅgadhara Paddhati, an ancient compilation (anthology) treating many misc. topics. [Cologne]
+Śrāddha Mantra	The mantra recited during one of the pāka-yajña-saṃsthās, as mentioned in Gautama-dharma-sūtra. These are Aṣṭakā, Pārvaṇa, Śrāddha, Śrāvaṇī, Āgrahāyaṇī, Caitrī, and Āśvayujī. [Cologne]
+Śrāvaṇī Mantra	The mantra recited during one of the pāka-yajña-saṃsthās, as mentioned in Gautama-dharma-sūtra. These are Aṣṭakā, Pārvaṇa, Śrāddha, Śrāvaṇī, Āgrahāyaṇī, Caitrī, and Āśvayujī. [Cologne]
+Śyāmāstava	A stava (stuti) mentioned in the Tantric text Śyāmārahasyatantra. The full verse goes thus- त्रिपञ्चारे पीठे शवशिवहृदि स्मेरवदनां महाकालेनोच्चैर्मदनरसलावण्यनिरताम्‌ । समासक्तो नक्तं स्वयमपि रतानन्दनिरतो नरो यो ध्यायेत्‌ त्वां भवजननि! स स्यात्‌ स्मरहरः ॥ [Cologne]
+Śāntilakṣaṇa	A some Buddhist work. VCP under the same HW आभोग gives this as- ४ सम्यक्सुखाद्यनुभवे “विषयाभोगेषु नैवादरः” शान्तिलक्ष्म. (The words लक्ष्म & लक्षण are synonyms!) [Cologne]
+Śāṅkarabhāṣya.	Brahmasūtrabhāṣya by Śaṅkarācārya, which is alternately (popularly) known as Śāṅkarabhāṣya in short. [Cologne]
+Adhikaraṇamālā	Adhikaraṇaratnamālā, 1913, a treatise in the मीमांसा philosophy. [Cologne]
+Avimārakam	One of the plays by the celebrated Bhāsa (who is recognised at par with Kalidāsa in Skt. Lit. History), whose works (13 plays, called भासनाटकचक्रम् as a whole) were unearthed only around 1910 in Trivandrum, Kerala. These are all printed under Trivandrum Sanskrit Series in those days. [Cologne]
+Avimāraka	One of the plays by the celebrated Bhāsa (who is recognised at par with Kalidāsa in Skt. Lit. History), whose works (13 plays, called भासनाटकचक्रम् as a whole) were unearthed only around 1910 in Trivandrum, Kerala. These are all printed under Trivandrum Sanskrit Series in those days. [Cologne]
+Baudhāyana	Here it is the person name, not a work. I had listed many such in my AP90 ls work posted at Github, many of which are missing in this list. Seems it went unnoticed, for all practical purposes. [Cologne]
+Bhagavaccharaṇa S.	मौक्तिकरामोदासीनशिष्य ब्रह्मानन्दविरचितं भगवच्छरणस्तोत्रं, a generic work under Stotra category. [Cologne]
+Bharata	Bharatamuni, the author of नाट्यशास्त्रम्. In many of the Bharata citations, this work is intended. [Cologne]
+Bharata.	Bharatamuni, the author of नाट्यशास्त्रम्. In many of the Bharata citations, this work is intended. [Cologne]
+Bhartṛ. Mbh. Dīpikā	Bhartṛhari commentary महाभाष्यदीपिका. [Cologne]
+Bhūṣaṇā	A commentary by Śivarāma on दशकुमारचरितम्. This is used by Buhler in his ed. of दशकुमारचरितम्. Another commentary पदचन्द्रिका by Kavindra Sarasvati was also used by Buhler. [Cologne]
+Charaka-sūtrasthāna	Sūtrasthāna, the first of the 8 books in the चरक संहिता. [Cologne]
+Cholachampūkāvya	Cholachampū, edited by Dr. V. Raghavan, [Cologne]
+Cholachampū	Cholachampū, edited by Dr. V. Raghavan [Cologne]
+Chārudatta	It is one of the plays by the celebrated Bhāsa (who is recognised at par with Kalidāsa in Skt. Lit. History), whose works (13 plays, called भासनाटकचक्रम् as a whole) were unearthed only around 1910 in Trivandrum, Kerala. These are all printed under Trivandrum Sanskrit Series in those days. [Cologne]
