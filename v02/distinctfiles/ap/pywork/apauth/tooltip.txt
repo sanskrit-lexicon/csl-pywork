@@ -1,7 +1,7 @@
 Ā. L.	Ānandalaharī.
 A. R.	Anargharāghava (Published in the Kāvyamālā).
 A. Rām.	Adhyātma Rāmāyaṇa.
-Abh. Chin.	Abhidhāna Cintāmaṇi Kośa.
+Abh. Cin.	Abhidhāna Cintāmaṇi Kośa.
 Ait. Ār.	Aitareya Āraṇyaka.
 Ait. Br.	Aitareya Brāhmaṇa, (Bombay).
 Ait. Up.	Aitareya Upaniṣad.
@@ -22,12 +22,12 @@ Baudhāy.	Baudhāyana.
 Bg.	Bhagavadgītā (Tilak Edition).
 Bh.	Bhartṛhariʼs three śatakas (the figures 1. 2. 3. after Bh. denoting Śṛṅgāra˚, Nīti˚, and Vairāgya˚). Nīti and Vairāgya—Oriental Publishing Company (Bombay). Śṛṅgāra— Nirṇaya Sāgara, 1925.
 Bhāg.	Bhāgavata, (V. Ramaswamy Sastrulu & Sons, Madras).
-Bhār. Ch.	Bhāratacampū, (Bombay).
+Bhār. C.	Bhāratacampū, (Bombay).
 Bhāṣā P.	Bhāṣāpariccheda.
 Bhav. P.	Bhaviṣyottara Purāṇa.
 Bhāva P.	Bhāvaprakāśa.
 Bīj.	Bījagaṇita.
-Bil. Ch.	Bilhaṇacaritam.
+Bil. C.	Bilhaṇacaritam.
 Bk.	Bhaṭṭikāvya, (Nirṇaya Sāgara, 1928).
 Bm.	Bhāratamañjarī.
 Bop.	Vopadeva.
@@ -37,17 +37,17 @@ Bṛ. S.	Varāhamihiraʼs Bṛhatsamhitā, (लक्ष्मीवेङ्क
 Br. Sūt.	Brahmasūtras.
 Bṛ. Up.	Bṛhadāraṇyakopaniṣad, (सार्थ उपनिषत्संग्रह, ह. र. भागवत, १९१४).
 Brav. P.	Brahmavaivarta Purāṇa.
-Bu. Ch.	Buddhacaritam, (A.C. Bhat & Co. 1911).
+Bu. C.	Buddhacaritam, (A.C. Bhat & Co. 1911).
 Buddh.	Buddhist literature.
 Bv.	Bhāminīvilāsa, (D. V. Sadhale & Co. Bombay).
-Ch. P.	Caurapañcāśikā.
+C. P.	Caurapañcāśikā.
 Ch. Up.	Chāndogyopaniṣad, (सार्थ उपनिषत्संग्रह, ह. र. भागवत, १९१४).
-Chāṇ.	Cāṇakyaśataka.
-Chaṇḍ. K.	Caṇḍakauśika.
+Cāṇ.	Cāṇakyaśataka.
+Caṇḍ. K.	Caṇḍakauśika.
 Chand. M.	Chandomañjarī.
-Chandr.	Candrāloka.
-Chāt.	Cātakāṣṭaka (In two parts.)
-Chola-Champū.	Edited by Dr. Raghavan.
+Candr.	Candrāloka.
+Cāt.	Cātakāṣṭaka (In two parts.)
+Cola-Campū.	Edited by Dr. Raghavan.
 CP.	Copper-plates.
 D. Bhāg.	Devībhāgavata.
 D. Purāṇa.	देवीपुराणम्  [Cologne]
@@ -88,7 +88,7 @@ Halāy.	Halāyudha.
 Hārīta	हारीत स्मृति, an ancient treatise in Dharmaśāstra. [Cologne]
 Hariv.	Harivaṃśa, (चित्रशाळा, पुणें, १९३६).
 Hastāmalaka Stotra	A generic work under Stotra category, by Hastāmalaka Ācārya, a disciple of Sankarācārya. [Cologne]
-Hch.	Harṣacarita.
+Hc.	Harṣacarita.
 Hem.	Hemacandra.
 I B.	Inscriptions of Bengal, Vol. III by N. G. Mujumdar.
 Ind. Ant.	Indian Antiquary, a series published by As. Soc. of Bombay [Cologne]
@@ -172,7 +172,7 @@ P.	Pāṇiniʼs Aṣṭādhyāyī.
 P. P.	Pārvatīpariṇaya.
 P. R.	Prasannarāghava.
 Pad. D.	Padāṅkadūta.
-Pañch.	Pañcarātra.
+Pañc.	Pañcarātra.
 Pari. Śekh.	Paribhāṣeṇḍūśekhara.
 Pbh.	Paribhāṣeṇḍūśekhara.
 Parṇāl.	Parṇālaparvatagrahaṇākhyāna.
@@ -193,7 +193,7 @@ R. G.	Rasagaṅgādhara, (Prof. R. B. Athavale).
 Rāj. P.	Rājapraśasti.
 Rāj. T.	Rājataraṅgiṇī.
 Rām.	Rāmāyaṇa, (Nirṇaya Sāgara, 1888).
-Rām. ch.	Rāmacaritam by Yuvarāja Kavi.
+Rām. c.	Rāmacaritam by Yuvarāja Kavi.
 Ras. M.	Rasamañjarī.
 Ratn.	Ratnāvalī, (Padhye, Yande, Manerikar & Co. Bombay, 1907).
 Ṛs.	Ṛtusaṃhāra.
@@ -204,7 +204,7 @@ Rv. Pr.	Ṛgveda Prātiśākhya.
 S. D.	Sāhityadarpaṇa.
 S. L.	Sudhālaharī (Published in the Kāvyamālā).
 Ś. Til.	Śṛṅgāratilaka.
-Śabda Ch.	Śabdacintāmaṇi (Sanskṛt-Gujrati Dictionary by Ramanabhai Nilkanth, 1899).
+Śabda C.	Śabdacintāmaṇi (Sanskṛt-Gujrati Dictionary by Ramanabhai Nilkanth, 1899).
 Śabdak.	Śabdakalpadruma.
 Śāhendra.	Śāhendravilāsa, edited by Dr. Raghavan.
 Śālihotra	Śālihotra of Bhoja, edited by Dr. E. D. Kulkarni.
@@ -346,7 +346,7 @@ Bharata	Bharatamuni, the author of नाट्यशास्त्रम्. I
 Bharata.	Bharatamuni, the author of नाट्यशास्त्रम्. In many of the Bharata citations, this work is intended. [Cologne]
 Bhartṛ. Mbh. Dīpikā	Bhartṛhari commentary महाभाष्यदीपिका. [Cologne]
 Bhūṣaṇā	A commentary by Śivarāma on दशकुमारचरितम्. This is used by Buhler in his ed. of दशकुमारचरितम्. Another commentary पदचन्द्रिका by Kavindra Sarasvati was also used by Buhler. [Cologne]
-Charaka-sūtrasthāna	Sūtrasthāna, the first of the 8 books in the चरक संहिता. [Cologne]
-Cholachampūkāvya	Cholachampū, edited by Dr. V. Raghavan, [Cologne]
-Cholachampū	Cholachampū, edited by Dr. V. Raghavan [Cologne]
-Chārudatta	It is one of the plays by the celebrated Bhāsa (who is recognised at par with Kalidāsa in Skt. Lit. History), whose works (13 plays, called भासनाटकचक्रम् as a whole) were unearthed only around 1910 in Trivandrum, Kerala. These are all printed under Trivandrum Sanskrit Series in those days. [Cologne]
+Caraka-sūtrasthāna	Sūtrasthāna, the first of the 8 books in the चरक संहिता. [Cologne]
+Colacampūkāvya	Colacampū, edited by Dr. V. Raghavan, [Cologne]
+Colacampū	Colacampū, edited by Dr. V. Raghavan [Cologne]
+Cārudatta	It is one of the plays by the celebrated Bhāsa (who is recognised at par with Kalidāsa in Skt. Lit. History), whose works (13 plays, called भासनाटकचक्रम् as a whole) were unearthed only around 1910 in Trivandrum, Kerala. These are all printed under Trivandrum Sanskrit Series in those days. [Cologne]
