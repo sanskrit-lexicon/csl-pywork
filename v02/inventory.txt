@@ -17,6 +17,7 @@
 ; --------------------------------------------------------------
 *:pywork/sqlite/redo.sh:T
 *:pywork/sqlite/sqlite.py:T
+*:pywork/sqlite/sqlite_txt.py:C
 ; --------------------------------------------------------------
 ; files for updating web/sqlite.  OLD - changed 12-16-2020
 ; All but redo.sh now Deleted (formerly T (template))

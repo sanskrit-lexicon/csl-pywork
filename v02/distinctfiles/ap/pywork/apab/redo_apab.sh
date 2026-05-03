@@ -1,5 +1,5 @@
 echo "remaking apab.sqlite"
 rm apab.sqlite
-sqlite3 apab.sqlite < apab.sql
+python3 ../sqlite/sqlite_txt.py apab_input.txt apab.sqlite apab
 echo "finished remaking apab.sqlite"
 chmod 0755 apab.sqlite
