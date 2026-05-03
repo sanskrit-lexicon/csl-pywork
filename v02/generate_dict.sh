@@ -96,7 +96,7 @@ in_hw0 { hw0_lines++; block = block "\n" $0; next }
 
 echo "regenerate $dict.xml and postxml files"
 output=$(sh redo_xml.sh 2>&1)
-printf "%s\n" "$output" | awk '
+printf "%s\n" "$output" | awk -v dict="$dict" '
 /BEGIN make_xml\.py$/ { in_xml=1; xml_line=0; print; next }
 /END make_xml\.py$/ { in_xml=0; print; next }
 /BEGIN xmllint_err$/ { in_xlint=1; next }
@@ -108,7 +108,9 @@ in_xml {
   if ($0 == "make_xml.py BEGINS !!!!!") ok=1
   if ($0 == "All records parsed by ET") ok=1
   if ($0 == "make_xml.py ENDS !!!!!") ok=1
+  if (dict == "vcp" && $0 ~ /^Unexpected <H>:/) ok=1
   if (ok) { print }
+  else { printf "\033[31m%s\033[0m\n", $0 }
   next
 }
 { print }
