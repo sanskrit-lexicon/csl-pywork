@@ -4,7 +4,8 @@
 """
 from __future__ import print_function
 import xml.etree.ElementTree as ET
-import sys, re,codecs
+import sys
+import re
 from hwparse import init_hwrecs,HW
 xmlroot = HW.dictcode  
 
@@ -44,7 +45,6 @@ def dig_to_xml(xin):
 def dbgout(dbg,s):
  if not dbg:
   return
- filedbg = "make_xml_dbg.txt"
  fout = open(filedbhg, 'a', encoding='utf-8')
  fout.write(s + '\n')
  fout.close()
@@ -92,7 +92,7 @@ def construct_xmlhead(hwrec):
  key2 = hwrec.k2
  key1 = hwrec.k1
  hom = hwrec.h
- if hom == None:
+ if hom is None:
   # no homonym
   h = "<key1>%s</key1><key2>%s</key2>" % (key1,key2)
  else:
@@ -103,7 +103,7 @@ def construct_xmltail(hwrec):
  L = hwrec.L
  pagecol = hwrec.pc
  tail = "<L>%s</L><pc>%s</pc>" % (L,pagecol)
- if hwrec.type == None:
+ if hwrec.type is None:
   # normal
   return tail
  # otherwise, also <hwtype n="type" ref="LP"
@@ -151,13 +151,13 @@ def construct_xmlstring(datalines,hwrec):
    if not m:
     print("xml_string ERROR at =",x.encode('utf-8'))
     exit(1)
-   head = m.group(1)
+   m.group(1)
    rest = m.group(2)
    x = rest
   datalines1.append(x)
  datalines = datalines1
  bodylines = [dig_to_xml(x) for x in datalines]
- if hwrec.type != None:
+ if hwrec.type is not None:
   bodylines = body_alt(bodylines,hwrec)
  body0 = ' '.join(bodylines)
  dbgout(dbg,"chk4: %s" % body0)
@@ -218,7 +218,6 @@ def make_xml(filedig,filehw,fileout):
   fout.write(line + '\n')
   nout = nout + 1
  # process hwrecs records one at a time and generate output
- nerr = 0
  for ihwrec,hwrec in enumerate(hwrecs):
   if ihwrec > 1000000: # 12 
    print("debug stopping")
@@ -229,7 +228,7 @@ def make_xml(filedig,filehw,fileout):
   # data is a string, which should be well-formed xml
   # try parsing this string to verify well-formed.
   try:
-   root = ET.fromstring(xmlstring.encode('utf-8'))
+   ET.fromstring(xmlstring.encode('utf-8'))
   except:
    out = "xml error: n=%s,m line=\n%s\n" %(nout+1,xmlstring)
    print(out.encode('utf-8'))

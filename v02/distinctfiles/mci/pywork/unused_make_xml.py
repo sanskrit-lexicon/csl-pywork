@@ -4,7 +4,8 @@
 """
 from __future__ import print_function
 import xml.etree.ElementTree as ET
-import sys, re,codecs
+import sys
+import re
 from hwparse import init_hwrecs,HW
 xmlroot = HW.dictcode  
 
@@ -79,7 +80,6 @@ def dig_to_xml(xin):
 def dbgout(dbg,s):
  if not dbg:
   return
- filedbg = "make_xml_dbg.txt"
  fout = open(filedbhg, 'a', encoding='utf-8')
  fout.write(s + '\n')
  fout.close()
@@ -127,7 +127,7 @@ def construct_xmlhead(hwrec):
  key2 = hwrec.k2
  key1 = hwrec.k1
  hom = hwrec.h
- if hom == None:
+ if hom is None:
   # no homonym
   h = "<key1>%s</key1><key2>%s</key2>" % (key1,key2)
  else:
@@ -138,7 +138,7 @@ def construct_xmltail(hwrec):
  L = hwrec.L
  pagecol = hwrec.pc
  tail = "<L>%s</L><pc>%s</pc>" % (L,pagecol)
- if hwrec.type == None:
+ if hwrec.type is None:
   # normal
   return tail
  # otherwise, also <hwtype n="type" ref="LP"
@@ -171,7 +171,6 @@ def body_alt(bodylines,hwrec):
 
 def construct_xmlstring(datalines,hwrec):
  dbg = False
- datalines1 = []
  # 1. h (head)
  h = construct_xmlhead(hwrec)
  dbgout(dbg,"head: %s" % h)  
@@ -180,7 +179,7 @@ def construct_xmlstring(datalines,hwrec):
  dbgout(dbg,"tail: %s" % tail)  
  #3. construct body
  bodylines = [dig_to_xml(x) for x in datalines]
- if hwrec.type != None:
+ if hwrec.type is not None:
   bodylines = body_alt(bodylines,hwrec)
  body0 = ' '.join(bodylines)
  dbgout(dbg,"chk4: %s" % body0)
@@ -248,7 +247,7 @@ def make_xml(filedig,filehw,fileout):
   # data is a string, which should be well-formed xml
   # try parsing this string to verify well-formed.
   try:
-   root = ET.fromstring(xmlstring.encode('utf-8'))
+   ET.fromstring(xmlstring.encode('utf-8'))
   except:
    outarr = []
    nerr = nerr + 1
