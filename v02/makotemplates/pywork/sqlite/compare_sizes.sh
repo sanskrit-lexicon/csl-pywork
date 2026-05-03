@@ -1,24 +1,53 @@
 #!/bin/bash
-BASEDIR="/Users/dhaval/Documents/GithubRepos/sanskrit-lexicon/csl-pywork/v02"
-LEXBASE="/Users/dhaval/Documents/GithubRepos/sanskrit-lexicon"
-SQLITE3="/opt/homebrew/opt/sqlite/bin/sqlite3"
+# Resolve sqlite3 CLI path
+# Strategy: env var > homebrew (macOS) > linuxbrew > system PATH
+if [ -n "$SQLITE3" ]; then
+    SQLITE3_CMD="$SQLITE3"
+elif [ -x /opt/homebrew/opt/sqlite/bin/sqlite3 ]; then
+    SQLITE3_CMD="/opt/homebrew/opt/sqlite/bin/sqlite3"
+elif [ -x /usr/local/opt/sqlite/bin/sqlite3 ]; then
+    SQLITE3_CMD="/usr/local/opt/sqlite/bin/sqlite3"
+elif [ -x /home/linuxbrew/.linuxbrew/bin/sqlite3 ]; then
+    SQLITE3_CMD="/home/linuxbrew/.linuxbrew/bin/sqlite3"
+else
+    SQLITE3_CMD=$(command -v sqlite3 2>/dev/null)
+    if [ -z "$SQLITE3_CMD" ]; then
+        echo "ERROR: sqlite3 not found. Install sqlite3 or set SQLITE3 env var."
+        exit 1
+    fi
+fi
+
+BASEDIR="$(cd "$(dirname "$0")/../../.." && pwd)"
+LEXBASE="$(dirname "$(dirname "$BASEDIR")")"
 TMPDIR=$(mktemp -d)
+trap "rm -rf '$TMPDIR'" EXIT
+
+# Portable file size: works on macOS (stat -f%z), Linux (stat -c%s), and BSD
+get_filesize() {
+    wc -c < "$1" | tr -d ' '
+}
 
 echo "SQLite versions:"
-echo "  CLI:     $($SQLITE3 --version | awk '{print $1}')"
-echo "  Python:  $(python3 -c 'import sqlite3; print(sqlite3.sqlite_version)')"
+echo "  CLI:     $($SQLITE3_CMD --version 2>/dev/null | awk '{print $1}')"
+echo "  Python:  $(python3 -c 'import sqlite3; print(sqlite3.sqlite_version)' 2>/dev/null)"
 echo ""
 
 compare_size() {
     local label="$1" dir="$2" ifile="$3" tbl="$4" sfile="$5"
     cd "$TMPDIR"
-    cp "$dir/$ifile" .
-    $SQLITE3 "orig_$tbl.sqlite" < "$dir/$sfile" > /dev/null 2>&1
-    python3 "$BASEDIR/makotemplates/pywork/sqlite/sqlite_txt.py" "$ifile" "new_$tbl.sqlite" "$tbl" > /dev/null 2>&1
-    orig_size=$(stat -f%z "orig_$tbl.sqlite")
-    new_size=$(stat -f%z "new_$tbl.sqlite")
+    if [ "$dir/$ifile" != "$TMPDIR/$ifile" ]; then
+        cp "$dir/$ifile" . 2>/dev/null || return
+    fi
+    $SQLITE3_CMD "orig_$tbl.sqlite" < "$dir/$sfile" > /dev/null 2>&1 || return
+    python3 "$BASEDIR/makotemplates/pywork/sqlite/sqlite_txt.py" "$ifile" "new_$tbl.sqlite" "$tbl" > /dev/null 2>&1 || return
+    orig_size=$(get_filesize "orig_$tbl.sqlite")
+    new_size=$(get_filesize "new_$tbl.sqlite")
     diff=$((orig_size - new_size))
-    rows=$($SQLITE3 "orig_$tbl.sqlite" "SELECT count(*) FROM $tbl;")
+    rows=$($SQLITE3_CMD "orig_$tbl.sqlite" "SELECT count(*) FROM $tbl;")
+    if [ -z "$rows" ] || [ "$rows" -eq 0 ]; then
+        printf "%-20s  rows=0       ERROR (no data loaded)\n" "$label"
+        return
+    fi
     avg_row=$((orig_size / rows))
     if [ "$diff" -eq 0 ]; then
         printf "%-20s  rows=%-7s  sqlite3=%-10s  python3=%-10s  diff=0       avg_row=%d\n" "$label" "$rows" "$orig_size" "$new_size" "$avg_row"
@@ -73,7 +102,24 @@ compare_size "mw keys" "$LEXBASE/mw/pywork/mwkeys" extract_keys_b.txt mwkeys mwk
 
 echo ""
 echo "=== Pattern F: tab links (3 cols) ==="
-compare_size "west mw tab" "$LEXBASE/mw/pywork/westmwtab" westmwtab_input.txt westmwtab westmwtab.sql
-compare_size "whit mw tab" "$LEXBASE/mw/pywork/whitmwtab" whitmwtab_input.txt whitmwtab whitmwtab.sql
+# These input files are generated dynamically by PHP
+if command -v php &> /dev/null; then
+    cp "$BASEDIR/distinctfiles/mw/pywork/westmwtab/dbinit.php" "$TMPDIR/"
+    cp "$BASEDIR/distinctfiles/mw/pywork/westmwtab/mwdp.xml" "$TMPDIR/"
+    cp "$BASEDIR/distinctfiles/mw/pywork/westmwtab/westmwtab.sql" "$TMPDIR/"
+    php "$TMPDIR/dbinit.php" "$TMPDIR/mwdp.xml" "$TMPDIR/westmwtab_input.txt" > /dev/null 2>&1
+    compare_size "west mw tab" "$TMPDIR" westmwtab_input.txt westmwtab westmwtab.sql
+
+    cp "$BASEDIR/distinctfiles/mw/pywork/whitmwtab/dbinit.php" "$TMPDIR/"
+    cp "$BASEDIR/distinctfiles/mw/pywork/whitmwtab/mwwhitmap.xml" "$TMPDIR/"
+    cp "$BASEDIR/distinctfiles/mw/pywork/whitmwtab/whitmwtab.sql" "$TMPDIR/"
+    php "$TMPDIR/dbinit.php" "$TMPDIR/mwwhitmap.xml" "$TMPDIR/whitmwtab_input.txt" > /dev/null 2>&1
+    compare_size "whit mw tab" "$TMPDIR" whitmwtab_input.txt whitmwtab whitmwtab.sql
+
+    rm -f "$TMPDIR/dbinit.php" "$TMPDIR/mwdp.xml" "$TMPDIR/mwwhitmap.xml" "$TMPDIR/westmwtab_input.txt" "$TMPDIR/whitmwtab_input.txt" "$TMPDIR/westmwtab.sql" "$TMPDIR/whitmwtab.sql"
+else
+    echo "west mw tab             SKIPPED (php not available)"
+    echo "whit mw tab             SKIPPED (php not available)"
+fi
 
 rm -rf "$TMPDIR"

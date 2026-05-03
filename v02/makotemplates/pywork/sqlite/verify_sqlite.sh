@@ -6,19 +6,53 @@
 
 set -e
 
-BASEDIR="/Users/dhaval/Documents/GithubRepos/sanskrit-lexicon/csl-pywork/v02"
-LEXBASE="/Users/dhaval/Documents/GithubRepos/sanskrit-lexicon"
-SQLITE3="/opt/homebrew/opt/sqlite/bin/sqlite3"
+# Resolve sqlite3 CLI path
+# Strategy: env var > homebrew (macOS) > linuxbrew > system PATH
+if [ -n "$SQLITE3" ]; then
+    SQLITE3_CMD="$SQLITE3"
+elif [ -x /opt/homebrew/opt/sqlite/bin/sqlite3 ]; then
+    SQLITE3_CMD="/opt/homebrew/opt/sqlite/bin/sqlite3"
+elif [ -x /usr/local/opt/sqlite/bin/sqlite3 ]; then
+    SQLITE3_CMD="/usr/local/opt/sqlite/bin/sqlite3"
+elif [ -x /home/linuxbrew/.linuxbrew/bin/sqlite3 ]; then
+    SQLITE3_CMD="/home/linuxbrew/.linuxbrew/bin/sqlite3"
+else
+    SQLITE3_CMD=$(command -v sqlite3 2>/dev/null)
+    if [ -z "$SQLITE3_CMD" ]; then
+        echo "ERROR: sqlite3 not found. Install sqlite3 or set SQLITE3 env var."
+        exit 1
+    fi
+fi
+
+BASEDIR="$(cd "$(dirname "$0")/../../.." && pwd)"
+LEXBASE="$(dirname "$(dirname "$BASEDIR")")"
 TMPDIR=$(mktemp -d)
 CONTENT_PASS=0; CONTENT_FAIL=0
 SCHEMA_PASS=0; SCHEMA_FAIL=0
 INDEX_PASS=0; INDEX_FAIL=0
 BINARY_PASS=0; BINARY_FAIL=0
 
-trap "rm -rf $TMPDIR" EXIT
+trap 'rm -rf "$TMPDIR"' EXIT
+
+# Portable MD5: works on macOS (md5 -q) and Linux (md5sum)
+get_md5() {
+    if command -v md5 &>/dev/null; then
+        md5 -q "$1" 2>/dev/null
+    elif command -v md5sum &>/dev/null; then
+        md5sum "$1" 2>/dev/null | awk '{print $1}'
+    else
+        echo ""
+    fi
+}
 
 echo "Working in: $TMPDIR"
-echo "SQLite versions: CLI=$($SQLITE3 --version | awk '{print $1}'), Python=$(python3 -c 'import sqlite3; print(sqlite3.sqlite_version)')"
+CLI_VERSION=$($SQLITE3_CMD --version 2>/dev/null | awk '{print $1}')
+PYTHON_VERSION=$(python3 -c 'import sqlite3; print(sqlite3.sqlite_version)' 2>/dev/null)
+echo "SQLite versions: CLI=$CLI_VERSION, Python=$PYTHON_VERSION"
+if [ "$CLI_VERSION" != "$PYTHON_VERSION" ]; then
+    echo "WARNING: Version mismatch may cause binary comparison failures."
+    echo "         Content/schema/index checks remain valid."
+fi
 echo ""
 
 compare_db() {
@@ -38,14 +72,16 @@ compare_db() {
         return
     fi
 
-    cp "$sql_dir/$input_file" "$TMPDIR/" 2>/dev/null
-    (cd "$TMPDIR" && $SQLITE3 "$orig_db" < "$sql_dir/$sql_file" > /dev/null 2>&1)
+    if [ "$sql_dir/$input_file" != "$TMPDIR/$input_file" ]; then
+        cp "$sql_dir/$input_file" "$TMPDIR/" 2>/dev/null
+    fi
+    (cd "$TMPDIR" && $SQLITE3_CMD "$orig_db" < "$sql_dir/$sql_file" > /dev/null 2>&1)
 
     python3 "$BASEDIR/makotemplates/pywork/sqlite/sqlite_txt.py" "$TMPDIR/$input_file" "$new_db" "$table" > /dev/null 2>&1
 
     # 1. Content comparison
-    orig_dump=$($SQLITE3 "$orig_db" "SELECT * FROM $table ORDER BY rowid;" 2>/dev/null)
-    new_dump=$($SQLITE3 "$new_db" "SELECT * FROM $table ORDER BY rowid;" 2>/dev/null)
+    orig_dump=$($SQLITE3_CMD "$orig_db" "SELECT * FROM $table ORDER BY rowid;" 2>/dev/null)
+    new_dump=$($SQLITE3_CMD "$new_db" "SELECT * FROM $table ORDER BY rowid;" 2>/dev/null)
     if [ "$orig_dump" = "$new_dump" ]; then
         echo "  content:   PASS"
         CONTENT_PASS=$((CONTENT_PASS + 1))
@@ -55,8 +91,8 @@ compare_db() {
     fi
 
     # 2. Schema comparison
-    orig_schema=$($SQLITE3 "$orig_db" ".schema" 2>/dev/null)
-    new_schema=$($SQLITE3 "$new_db" ".schema" 2>/dev/null)
+    orig_schema=$($SQLITE3_CMD "$orig_db" ".schema" 2>/dev/null)
+    new_schema=$($SQLITE3_CMD "$new_db" ".schema" 2>/dev/null)
     if [ "$orig_schema" = "$new_schema" ]; then
         echo "  schema:    PASS"
         SCHEMA_PASS=$((SCHEMA_PASS + 1))
@@ -66,8 +102,8 @@ compare_db() {
     fi
 
     # 3. Index comparison
-    orig_indexes=$($SQLITE3 "$orig_db" ".indexes" 2>/dev/null)
-    new_indexes=$($SQLITE3 "$new_db" ".indexes" 2>/dev/null)
+    orig_indexes=$($SQLITE3_CMD "$orig_db" ".indexes" 2>/dev/null)
+    new_indexes=$($SQLITE3_CMD "$new_db" ".indexes" 2>/dev/null)
     if [ "$orig_indexes" = "$new_indexes" ]; then
         echo "  indexes:   PASS"
         INDEX_PASS=$((INDEX_PASS + 1))
@@ -77,8 +113,8 @@ compare_db() {
     fi
 
     # 4. Binary comparison (MD5)
-    orig_md5=$(md5 -q "$orig_db" 2>/dev/null)
-    new_md5=$(md5 -q "$new_db" 2>/dev/null)
+    orig_md5=$(get_md5 "$orig_db")
+    new_md5=$(get_md5 "$new_db")
     if [ "$orig_md5" = "$new_md5" ]; then
         echo "  binary:    PASS"
         BINARY_PASS=$((BINARY_PASS + 1))
@@ -145,8 +181,27 @@ compare_db "mw tooltips" "$BASEDIR/distinctfiles/mw/pywork/mwauth" "tooltip.txt"
 compare_db "mw keys" "$LEXBASE/mw/pywork/mwkeys" "extract_keys_b.txt" "mwkeys" "mwkeys.sql"
 
 # Pattern F: tab links (3 cols: key, lnum, data)
-compare_db "west mw tab" "$LEXBASE/mw/pywork/westmwtab" "westmwtab_input.txt" "westmwtab" "westmwtab.sql"
-compare_db "whit mw tab" "$LEXBASE/mw/pywork/whitmwtab" "whitmwtab_input.txt" "whitmwtab" "whitmwtab.sql"
+# These input files are generated dynamically by PHP, so we create them first
+if command -v php &> /dev/null; then
+    cp "$BASEDIR/distinctfiles/mw/pywork/westmwtab/dbinit.php" "$TMPDIR/"
+    cp "$BASEDIR/distinctfiles/mw/pywork/westmwtab/mwdp.xml" "$TMPDIR/"
+    cp "$BASEDIR/distinctfiles/mw/pywork/westmwtab/westmwtab.sql" "$TMPDIR/"
+    php "$TMPDIR/dbinit.php" "$TMPDIR/mwdp.xml" "$TMPDIR/westmwtab_input.txt" > /dev/null 2>&1
+    compare_db "west mw tab" "$TMPDIR" "westmwtab_input.txt" "westmwtab" "westmwtab.sql"
+
+    cp "$BASEDIR/distinctfiles/mw/pywork/whitmwtab/dbinit.php" "$TMPDIR/"
+    cp "$BASEDIR/distinctfiles/mw/pywork/whitmwtab/mwwhitmap.xml" "$TMPDIR/"
+    cp "$BASEDIR/distinctfiles/mw/pywork/whitmwtab/whitmwtab.sql" "$TMPDIR/"
+    php "$TMPDIR/dbinit.php" "$TMPDIR/mwwhitmap.xml" "$TMPDIR/whitmwtab_input.txt" > /dev/null 2>&1
+    compare_db "whit mw tab" "$TMPDIR" "whitmwtab_input.txt" "whitmwtab" "whitmwtab.sql"
+
+    rm -f "$TMPDIR/dbinit.php" "$TMPDIR/mwdp.xml" "$TMPDIR/mwwhitmap.xml" "$TMPDIR/westmwtab_input.txt" "$TMPDIR/whitmwtab_input.txt" "$TMPDIR/westmwtab.sql" "$TMPDIR/whitmwtab.sql"
+else
+    echo "--- west mw tab ---"
+    echo "  SKIP (php not available to generate input file)"
+    echo "--- whit mw tab ---"
+    echo "  SKIP (php not available to generate input file)"
+fi
 
 echo ""
 echo "================================"
