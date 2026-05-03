@@ -9,20 +9,21 @@
   
 """
 from __future__ import print_function
-import sys, re,codecs
+import sys
+import re
 
 def make(filein,fileout):
  fp = open(filein, 'r', encoding='utf-8')
  fpout = open(fileout, 'w', encoding='utf-8')
 
- n=0;
- prevkey='';
- lnum1=0;
- nfound=0;
- nfound1=0;
- prevkey="";
- key='';
- keydata="";
+ n=0
+ prevkey=''
+ lnum1=0
+ nfound=0
+ nfound1=0
+ prevkey=""
+ key=''
+ keydata=""
 
  for line in fp:
   line = line.rstrip('\r\n')

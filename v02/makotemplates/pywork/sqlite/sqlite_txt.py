@@ -3,7 +3,10 @@ Create xxx.sqlite from tab-separated input files.
 Replaces: sqlite3 xxx.sqlite < xxx.sql
 """
 from __future__ import print_function
-import sys, re, os, sqlite3, time
+import sys
+import os
+import sqlite3
+import time
 
 SCHEMA_MAP = {
     'stcab': [

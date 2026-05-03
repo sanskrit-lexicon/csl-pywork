@@ -2,8 +2,7 @@
 # hw0.py 2017-05-19
 # input: xxxhw.txt 
 # output: xxxhw0.txt
-import re
-import sys,codecs
+import sys
 from hwparse import init_hwrecs
 
 def write(hw0recs,fileout):

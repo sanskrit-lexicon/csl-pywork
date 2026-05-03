@@ -5,7 +5,8 @@
  
 """
 from __future__ import print_function
-import sys, re,codecs
+import sys
+import re
 sys.path.append('../')  # pywork
 import hwparse
 def old_extract_keys(filein,fileout):

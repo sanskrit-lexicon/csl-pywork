@@ -4,7 +4,7 @@
    differs from that of pwg, in that it is absent in pwbib.txt
 """
 from __future__ import print_function
-import re,codecs,sys
+import sys
 if __name__ == "__main__":
  filebib = sys.argv[1]
  n = 0

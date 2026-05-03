@@ -1,8 +1,8 @@
 """ check_xml_tags.py (generic)
 """
 from __future__ import print_function
-import re,sys
-import codecs
+import re
+import sys
 
 def tagfreqs(lines):
  c = {} # counter

@@ -5,7 +5,8 @@
  Adds 'n="..."' attribute to selected <ls> elements
 """
 from __future__ import print_function
-import sys, re, codecs
+import sys
+import re
 sys.path.append('pwauth')
 from bibrec import Bibrec,init_bibrecs,prepare_bibrec_codes,match_best_prefix
 

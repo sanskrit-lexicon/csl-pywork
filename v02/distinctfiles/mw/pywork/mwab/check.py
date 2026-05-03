@@ -4,7 +4,7 @@
    This required for Cologne sqlite construction.
 """
 from __future__ import print_function
-import re,codecs,sys
+import sys
 if __name__ == "__main__":
  numfields = int(sys.argv[1])
  filein = sys.argv[2]

@@ -1,6 +1,7 @@
 """ format.py
 """
-import sys,re,codecs
+import sys
+import re
 
 class Abbrev(object):
  def __init__(self,line):

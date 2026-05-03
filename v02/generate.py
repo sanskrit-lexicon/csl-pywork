@@ -8,9 +8,10 @@
  10-11-2019 Special logic so mako can handle pywork/make_xml.py.
 """
 from __future__ import print_function
-import sys,re
-import codecs
-import os.path,time
+import sys
+import re
+import os.path
+import time
 from shutil import copyfile
 from dictparms import alldictparms,microversion
 # use mako templates

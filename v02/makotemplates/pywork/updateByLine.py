@@ -24,8 +24,8 @@
 """
 #
 from __future__ import print_function
-import re,sys
-import codecs
+import re
+import sys
 class Change(object):
  def __init__(self,n,oldline,newline):
   self.n = n

@@ -4,7 +4,8 @@
  
 """
 from __future__ import print_function
-import sys, re,codecs
+import sys
+import re
 
 def extract_keys_a(filein,fileout):
  fout = open(fileout, 'w', encoding='utf-8')
@@ -37,7 +38,7 @@ def extract_keys_a(filein,fileout):
   # Special handling for hcode=X[ABCE]
   if re.search(r'[ABCE]$',hcode):
    L2 = lnum
-   if not (key in keyhash):
+   if key not in keyhash:
     keyhash[key]=hcode
    continue
   # otherwise, put records into outarr

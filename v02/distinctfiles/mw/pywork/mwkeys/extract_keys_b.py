@@ -4,7 +4,8 @@
  
 """
 from __future__ import print_function
-import sys, re,codecs
+import sys
+import re
 import string
 pyversion2 = (sys.version_info[0] == 2)
 

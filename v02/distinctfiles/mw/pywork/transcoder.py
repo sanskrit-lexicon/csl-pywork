@@ -20,11 +20,9 @@ __date__ = '2011-12'
 # Python Standard Library
 import os
 import sys
-import codecs
 #import locale
 import re
 #import logging
-from unicodedata import normalize
 #from operator import itemgetter
 #from lxml import etree
 import xml.etree.ElementTree as ET
@@ -328,7 +326,7 @@ def transcoder_processString_match(line,n,m,fsmentry) :
   if (k != nedge)  : 
    return match
   match=edge
-  if (not 'regex' in fsmentry):
+  if ('regex' not in fsmentry):
    return match
   
   ##  additional logic when fsmentry['regex'] is DEVA or TAMIL

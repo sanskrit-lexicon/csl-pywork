@@ -4,7 +4,8 @@
    differs from that of pwg, in that it is absent in pwbib.txt
 """
 from __future__ import print_function
-import re,codecs,sys
+import re
+import sys
 
 class Bibrec(object):
  # Revised 12-11-2017 to recognize 'iast' attribute on <HI>

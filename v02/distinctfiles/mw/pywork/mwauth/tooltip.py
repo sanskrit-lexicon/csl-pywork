@@ -3,10 +3,11 @@
     04-04-2018.  
 """
 from __future__ import print_function
-import sys,re,codecs
+import sys
+import re
 sys.path.append('../')
 import transcoder
-transcoder.transcoder_set_dir("transcoder/");
+transcoder.transcoder_set_dir("transcoder/")
 
 class Unused_Link(object):
  def __init__(self,line):
