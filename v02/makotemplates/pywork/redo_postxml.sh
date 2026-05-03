@@ -8,7 +8,21 @@ echo ""
 # 1. Redo web/xxx.sqlite
 echo "BEGIN sqlite"
 cd sqlite
-sh redo.sh
+output=$(sh redo.sh 2>&1)
+printf "%s\n" "$output" | awk '
+{
+  ok=0
+  if ($0 ~ /^remaking .*\.sqlite from \.\..*\.xml with python\.\.\.$/) ok=1
+  if ($0 ~ /^sqlite\.py: dictionary code= .*$/) ok=1
+  if ($0 ~ /^[0-9]+ lines read from \.\.\/.*\.xml$/) ok=1
+  if ($0 ~ /^create_index takes [0-9.]+ seconds$/) ok=1
+  if ($0 ~ /^[0-9]+ rows written to .*\.sqlite$/) ok=1
+  if ($0 ~ /^[0-9.]+ seconds for batch size [0-9]+$/) ok=1
+  if ($0 ~ /^moving .*\.sqlite to web\/sqlite\/$/) ok=1
+  if (ok) { print }
+  else { printf "\033[31m%s\033[0m\n", $0 }
+}
+'
 cd ../ # back in pywork
 echo "END sqlite"
 # 2. redo db (query_dump) for advanced search

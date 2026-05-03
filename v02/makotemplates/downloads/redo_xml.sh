@@ -19,3 +19,4 @@ echo "create new ${dictlo}xml.zip"
 zip -rq ${dictlo}xml.zip xml
 # clean up. Remove xml directory
 rm -r xml
+echo "END: downloads/redo_xml.sh"

@@ -18,3 +18,4 @@ echo "create new ${dictlo}txt.zip"
 zip -rq ${dictlo}txt.zip txt
 # clean up. Remove txt directory
 rm -r txt
+echo "END: downloads/redo_txt.sh"

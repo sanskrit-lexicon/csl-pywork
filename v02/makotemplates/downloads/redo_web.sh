@@ -7,3 +7,4 @@ fi
 cd ../
 zip  -rq downloads/${dictlo}web1.zip web -x *pdfpages*
 cd downloads
+echo "END: downloads/redo_web1.sh"
