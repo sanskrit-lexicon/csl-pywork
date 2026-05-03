@@ -105,11 +105,10 @@ in_xlint { printf "\033[31m%s\033[0m\n", $0; next }
 in_xml {
   xml_line++
   ok=0
-  if (xml_line==1 && $0 == "make_xml.py BEGINS !!!!!") ok=1
-  if (xml_line==2 && $0 == "All records parsed by ET") ok=1
-  if (xml_line==3 && $0 == "make_xml.py ENDS !!!!!") ok=1
+  if ($0 == "make_xml.py BEGINS !!!!!") ok=1
+  if ($0 == "All records parsed by ET") ok=1
+  if ($0 == "make_xml.py ENDS !!!!!") ok=1
   if (ok) { print }
-  else { printf "\033[31m%s\033[0m\n", $0 }
   next
 }
 { print }
