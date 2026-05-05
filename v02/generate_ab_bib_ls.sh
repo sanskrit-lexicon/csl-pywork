@@ -286,9 +286,16 @@ EOF
 # Main
 ########################################################################
 if [ -n "$PYWORK_DIR" ]; then
-    dict=$(echo "$PYWORK_DIR" | awk -F'/' '{print $(NF-1)}')
+    # Strip trailing slash, then take the name of the parent directory
+    # e.g. ../../md/pywork -> md
+    _pywork="${PYWORK_DIR%/}"
+    dict=$(basename "$(dirname "$_pywork")")
+    # Validate against all known dictionaries
+    case " ap ap90 acc ae ben bhs bop bor bur cae ccs gra gst ieg inm krm lan mci md mw mw72 mwe mwauth pd pe pgn pui pw pwg pwkvn sch shs skd snp stc vcp vei wil yat " in
+        *" $dict "*) ;;
+        *) echo "ERROR: unrecognised dictionary '$dict' derived from path '$PYWORK_DIR'"; exit 1 ;;
+    esac
     # Determine which generators to run based on dictionary
-    # All dicts in the ab list get ab scripts
     case " ap ap90 ben bhs bur cae gra lan md mw pw pwg pwkvn stc " in
         *" $dict "*) generate_ab "$dict" ;;
     esac
