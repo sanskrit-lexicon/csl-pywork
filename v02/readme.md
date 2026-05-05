@@ -1,195 +1,150 @@
+# v02
 
-# Installation of Cologne sanskrit-lexicon from repositories
+The current, production version of the CSL code-generation pipeline.
 
-This describes in some detail how to install the Cologne sanskrit-lexicon from Github repositories.
-In addition to the 3-repository installation instructions described below, there are also 'optional'
-installations from repositories. 
-* csl-homepage   
-* csl-doc
-* csl-whitroot
-* csl-kale
-* csl-apidev
+---
 
- 
-## repository requirements
-The generate_dict.sh script requires local copies of 3 repositories:
+## Prerequisites
 
-* csl-pywork  (this repository)
-* csl-orig
-* csl-websanlexicon.
+- **Python 3** + `mako` (`pip install mako`)
+- **bash**, **sqlite3**, **xmllint** (libxml2-utils), **zip**
+- **php** (CLI + pdo + sqlite3) — for web display
+- **git**
+- A web server (apache2 or XAMPP) to serve displays locally
 
-All three repositories are in sibling directories in the file structure.
+---
 
-## generate_dict.sh usage
-sh generate_dict.sh `<dict>` `<outdir>`
+## Repository layout
 
-* `<dict>` is one of the Cologne dictionary codes. Usually lower case
-  * bur inm mwe pwg skd stc vcp acc ae ap90 ben bhs bop bor cae ccs gra gst ieg krm mci md mw72 mw pe pgn pui pw sch shs snp vei wil yat
-* `<outdir>`  The directory in which will be constructed subdirectories
-  named 'orig', 'pywork', 'web'. Note that the outdir will be created
-  if does not already exist in the file system.
-* Examples
-  * sh generate_dict.sh acc tempdir/acc
-  * sh generate_dict.sh mw ../../MWScan/2020
+All three sibling repositories must be checked out in the same parent directory:
 
-## Functional summary
-generate_dict.sh does 4 things:
-* `sh generate_orig.sh <dict> <outdir>`
-  * creates `<outdir>/orig` which contains digitization `<dict>.txt`
-  * uses inventory_orig.txt and dictparms
-* `sh generate_pywork.sh <dict> <outdir>`
-  * creates `<outdir>/pywork` which contains 
-    * programs to construct headword files such as `<dict>hw.txt`
-    * programs to construct xml file `<dict>.xml`
-    * programs to construct `<dict>.sqlite` database form of digitization
-      used by displays
-    * programs to construct ancillary information used by displays,
-      such as abbreviation expansions.
-    * files with information about the dictionary such as
-      * `<dict>header.xml` license in TEI format
-      * `<dict>.dtd` validation form of `<dict>.xml`
-  * creates `<outdir>/downloads` which contains 
-     download files (for txt, xml, and web)
-  * uses inventory.txt and dictparms.py of this (csl-pywork) repository to determine which files are
-    constructed for the given value of dictionary code `<dict>`
-    Source files are classifed as one of three types:
-    * C : file is copied from 'makotemplates' directory
-    * T : file in 'makotemplates' directory is treated as a template, with
-          various details depending on the parameter values in 'dictparms.py'
-          for the particular dictionary code `<dict>`.
-    * CD: The file is copied from the `distinctfiles/<dict>` directory
-* `sh generate_web.sh <dict> <outdir>`
-  * It creates `<outdir>/web` which contains programs and data for web displays.
-  * This script is located in and run from the csl-websanlexicon/v02 directory.
-    It uses inventory.txt and dictparms.py of csl-websanlexicon/v02; and
-    the associated files within 'makotemplates' and 'distinctfiles' subdirectories.
-* Runs various scripts in the constructed `<outdir>/pywork` directory:
-  * `sh redo_hw.sh` : remakes headword files 
-  * `sh redo_xml.sh` : 
-   * remakes `<dict>.xml`
-   * checks (using `xmllint`) that `<dict>.xml` validates against `<dict>.dtd`
-   * `sh redo_postxml.sh`  Runs additional scripts to update such things
-      as the abbreviation databases.  Only a few dictionaries have markup
-      required for such display enhancements.
-  * `sh redo_all.sh` in `<outdir>/downloads` directory recreates three
-     zip files for download (for digitization, xml form, and web directory).
-## Summary
-`sh generate_dict.sh <dict> <outdir>` creates a functional copy of the
-current digitization data and displays for the given dictionary. 
-The value of the 'outdir' should be a subdirectory of form 'x/y', such as
-given in the examples above.
-Then, if `<outdir>` is in the scope of a web server, a user may access the
-displays.   Let 'OUTDIR-URL' be the url corresponding to `<outdir>`.
-Then 'OUTDIR-URL/web' will bring up a menu of displays.
-
-
-## Software Prerequisites
-
-1. python  (python2.6.4 or above / python3.4.10 or above)
-   * Not all parts are python3 compatible as of 9/29/2019.
-   *  mako - `pip install mako`
-2. php  
-   * cli version required in addition to normal web server ver
-   * pdo driver
-3. git
-4. apache2 - To run the localhost.  
-5. bash shell
-   * git command-line tool
-   * sqlite3 command-line tool
-   * zip command-line tool
-
-## Initialization/Update of all dictionaries on Cologne server
-The script `redo_cologne_all.sh` installs all dictionaries.
-Dictionary xxx is installed into subdirectory XXXScan/2020 of scans directory.
-The process takes about 30 minutes and adds about 3Gigabytes of storage.
-
-## Initialization/Update of all dictionaries on XAMPP server
-The script `redo_xampp_all.sh` installs all dictionaries.
-
-The file system is assumed as:
-* htdocs   -- xampp server root directory
-  * cologne --  The name can be different; it should be a descendant
-    of htdocs, but need not be a child of htdocs.
-    * csl-orig  cloned from https://github.com/sanskrit-lexicon/csl-orig
-    * csl-pywork  cloned from https://github.com/sanskrit-lexicon/csl-pywork
-    * csl-websanlexicon  cloned from https://github.com/sanskrit-lexicon/csl-websanlexicon
-    * xxx1  (first dictionary installed), eg. acc
-    * xxx2  (second dictionary installed), eg. ae
-    * ...
-
-With this configuration, a localhost url for a given dictionary, say mw, is
-http://localhost/cologne/mw/web/.
-
-### Git Bash
-The installation under XAMPP server has been tested on Windows 10 using
-the GitBash terminal.  In addition to python (Python2.7.x with `mako` installed) , sqlite3.exe and
-zip.exe had to be installed.  Here is one way to do this:
-* **sqlite3** : From https://www.sqlite.org/download.html, download sqlite-tools-win32.
-  * extract the zip file, and put 'sqlite3.exe' into "/c/xampp/htdocs/sqlite3".
-    [This assumes the directory of your xampp installation is `C:\xampp`.
-  * Add "/c/xampp/htdocs/sqlite3" to the system variable 'Path'.
-    Here is [a link](https://www.architectryan.com/2018/03/17/add-to-the-path-on-windows-10/) that shows how to do this.
-  * When GitBash is restarted, the 'sqlite3' executable is available
-    try 'which sqlite3' in Git Bash terminal. You should see
-    `/c/xampp/sqlite3/sqlite3`.
-* **zip** 
-  * Download the [GoW installer](https://github.com/bmatzelle/gow/releases/download/v0.8.0/Gow-0.8.0.exe). (Gnu on Windows) 
-  * run the installer.
-  * copy the zip executable to our sqlite3 directory: In Git Bash terminal:
-    `cp "/c/Program Files (x86)/Gow/bin/zip.exe" /c/xampp/sqlite3/`
-  * restart Git Bash; try `which zip`, you should see `/c/xampp/sqlite3/zip`
-  * Note:  zip is only used to generate the '.zip' files in the 'downloads'
-    subdirectory of each dictionary.  For a personal Xampp installation, this
-    has little utility, and so 'zip' does not have to be installed.
-
-## Initialization/Update of all dictionaries on local Ubuntu machine.
-
-Tested on Bodhi Linux 5, a minimalist ubuntu based distro, on 20 Oct 2019.
-
-### Installing necessary packages on Ubuntu local machine.
-
-```bash
-sudo apt update
-sudo apt upgrade
-sudo apt install python-pip
-sudo pip install mako
-sudo apt install git
-sudo apt install apache2
-sudo apt install zip
-sudo apt install sqlite3
-sudo apt install php
-sudo apt install php-cli
-sudo apt install php-xml
-sudo apt install php-sqlite3
-sudo apt install libxml2-utils
-sudo apt service apache2 restart
+```
+cologne/
+  csl-orig/           ← source digitisation text files
+  csl-pywork/         ← this repo
+  csl-websanlexicon/  ← web display code generation
 ```
 
-### Downloading the necessary repositories.
+---
+
+## Quick start
 
 ```bash
+# Generate (or update) a single dictionary
+cd csl-pywork/v02
+sh generate_dict.sh mw ../../MWScan/2020
+
+# Generate all dictionaries on a Cologne server
+sh redo_cologne_all.sh
+
+# Generate all dictionaries on a local XAMPP server
+sh redo_xampp_all.sh
+
+# Update only dictionaries changed in csl-orig since last run
+sh redo_xampp_selective.sh
+```
+
+Dictionary codes (lowercase): `acc ae ap ap90 ben bhs bop bor bur cae ccs gra gst ieg inm krm lan mci md mw mw72 mwe pd pe pgn pui pw pwg pwkvn sch shs skd snp stc vcp vei wil yat` and newer additions `armh lrv abch acph acsj fri`.
+
+---
+
+## What `generate_dict.sh` does
+
+`sh generate_dict.sh <dict> <outdir>` builds a complete, self-contained dictionary installation at `<outdir>`:
+
+```
+outdir/
+  orig/       ← source text copied from csl-orig
+  pywork/     ← scripts for headwords, XML, SQLite
+  web/        ← display scripts (from csl-websanlexicon)
+  downloads/  ← zip archive generation scripts
+```
+
+It runs four stages in sequence:
+
+### Stage 1 — `generate_orig.sh`
+Copies `<dict>.txt`, `<dict>_hwextra.txt`, `<dict>header.xml`, and `<dict>-meta2.txt` from `csl-orig/v02/<dict>/` into `outdir/orig/` and `outdir/pywork/`.
+
+### Stage 2 — `generate_pywork.sh`
+Runs `generate.py` which reads `inventory.txt` and assembles `outdir/pywork/` by:
+- **Copying** (`C`) shared files from `makotemplates/`
+- **Rendering** (`T`) Mako templates in `makotemplates/` with the dictionary's parameters from `dictparms.py`
+- **Copying distinct** (`CD`) per-dictionary files from `distinctfiles/<dict>/pywork/`
+- **Deleting** (`D`) obsolete files that may exist from a previous generation
+
+### Stage 3 — `generate_web.sh` (runs from `csl-websanlexicon/v02`)
+Assembles `outdir/web/` using the same C/T/CD/D model from that repo's own `inventory.txt` and `makotemplates/`.
+
+Also runs `generate_ab_bib_ls.sh` to generate `redo.sh` and SQL scripts for abbreviation, tooltip, and bibliography tables into the appropriate `outdir/pywork/<dict>ab/` and `outdir/pywork/<dict>auth/` subdirectories.
+
+### Stage 4 — Execute the generated scripts
+Runs the assembled pipeline inside `outdir/pywork/`:
+
+| Script | Output |
+|---|---|
+| `redo_hw.sh` | `<dict>hw.txt` — headword list extracted from orig text |
+| `redo_xml.sh` | `<dict>.xml` — full XML, validated against `<dict>.dtd` via xmllint |
+| `redo_postxml.sh` | `web/sqlite/<dict>.sqlite`, abbreviation/tooltip/bib SQLite databases |
+| `downloads/redo_all.sh` | zip archives for txt, xml, and web |
+
+---
+
+## XAMPP file system layout (Windows)
+
+```
+htdocs/
+  cologne/
+    csl-orig/
+    csl-pywork/
+    csl-websanlexicon/
+    mw/           ← generated output for MW dictionary
+    acc/          ← generated output for ACC dictionary
+    ...
+```
+
+Local URL for a dictionary (e.g. MW): `http://localhost/cologne/mw/web/`
+
+### Installing sqlite3 and zip on Windows (Git Bash)
+
+**sqlite3**: Download `sqlite-tools-win32` from https://www.sqlite.org/download.html, extract `sqlite3.exe` to `C:\xampp\sqlite3\`, and add that directory to the system `Path`.
+
+**zip**: Install [GoW](https://github.com/bmatzelle/gow/releases/download/v0.8.0/Gow-0.8.0.exe) (Gnu on Windows), then copy `zip.exe` from `C:\Program Files (x86)\Gow\bin\` to your sqlite3 directory.
+
+---
+
+## Ubuntu installation
+
+```bash
+sudo apt install python3-pip git apache2 zip sqlite3 php php-cli php-xml php-sqlite3 libxml2-utils
+sudo pip3 install mako
+
 cd /var/www/html
-sudo mkdir cologne
-cd cologne
+sudo mkdir cologne && cd cologne
 sudo git clone https://github.com/sanskrit-lexicon/csl-orig.git
 sudo git clone https://github.com/sanskrit-lexicon/csl-pywork.git
 sudo git clone https://github.com/sanskrit-lexicon/csl-websanlexicon.git
-```
 
-### Regenerate all dictionaries for local usage.
-
-```bash
-cd csl-pywork/v02/
+cd csl-pywork/v02
 sudo bash redo_xampp_all.sh
 ```
 
-### Regenerate only the changed file based on changes in csl-orig repository for local usage.
+---
 
-This is mostly used for a cronjob to update files which are changed in csl-orig repository since the last usage.
+## Selective update (cron / auto-update)
 
-```bash
-cd csl-pywork/v02/
-sudo bash redo_xampp_selective.sh
+`redo_xampp_selective.sh` is designed to run automatically (e.g. at system boot via cron):
+
+```
+@reboot sleep 120 && bash /var/www/html/cologne/csl-pywork/v02/redo_xampp_selective.sh
 ```
 
+It tracks the last-processed `csl-orig` commit in `csl-orig/v02/.xampp_last_run`. On each run it:
 
+1. Pulls all relevant git repositories (csl-orig, csl-pywork, csl-websanlexicon, hwnorm1, csl-json, cologne-stardict)
+2. Finds `.txt` files changed in `csl-orig` since the last run
+3. Regenerates only affected dictionaries via `generate_dict.sh`
+4. Rebuilds Stardict files and pushes to `cologne-stardict` and `indic-dict/stardict-sanskrit`
+5. Rebuilds JSON files and pushes to `csl-json`
+6. Updates `csl-orig/.version` and refreshes the `csl-homepage`
+
+Prerequisites for selective update: sibling directories `cologne-stardict`, `csl-json`, `csl-homepage`, `hwnorm1`, and `indic-dict/stardict-sanskrit` must be present and have cached git credentials.
