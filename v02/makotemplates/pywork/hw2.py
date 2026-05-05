@@ -1,7 +1,13 @@
 # coding=utf-8
-# hw2.py 2017-05-18
-# input: xxxhw.txt 
-# output: xxxhw2.txt
+"""hw2.py — Mako template. Rendered per-dictionary by generate.py.
+   Input:  <dict>hw.txt  (headword file produced by hw.py)
+   Output: <dict>hw2.txt (headword variant: pc:k1:ln1,ln2:L per record)
+
+   hw2.txt is the 'key1' variant of the headword list, used by sanhw1
+   to build the cross-dictionary headword normalisation database.
+   Each record retains key1 (the transliterated display key) and drops key2.
+   Alternate-headword records carry an extra :type,LP field.
+"""
 import sys
 from hwparse import init_hwrecs
 

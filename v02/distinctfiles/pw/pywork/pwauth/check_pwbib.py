@@ -1,7 +1,12 @@
 # coding=utf-8
-"""bibrec.py
-   07-19-2018.  This is for pw. The ascode field
-   differs from that of pwg, in that it is absent in pwbib.txt
+"""check_pwbib.py  (pw)
+   Validates pwbib_input.txt before it is loaded into pwbib.sqlite.
+   Checks that every line has exactly 4 tab-separated fields and that
+   the id field (column 0) is unique across the file.
+
+   Usage: python3 check_pwbib.py <filein>
+     <filein>  tab-separated bibliography input file (e.g. pwbib_input.txt)
+   Exits cleanly with a summary; prints WARNINGs for any violations.
 """
 from __future__ import print_function
 import sys

@@ -1,4 +1,12 @@
-""" format.py
+"""format.py  (ben abbreviations)
+   Reformats the BEN abbreviation list from 'ABBREV = tooltip' notation
+   into the tab-separated '<id>ABBREV</id> <disp>tooltip</disp>' format
+   required by sqlite_txt.py to build benab.sqlite.
+
+   Usage: python3 format.py <filein> <fileout>
+     <filein>   abbreviation list, one entry per line: ABBREV = tooltip text
+                lines starting with ';' are treated as comments and skipped
+     <fileout>  tab-separated output: ABBREV<TAB><id>ABBREV</id> <disp>tip</disp>
 """
 import sys
 import re
