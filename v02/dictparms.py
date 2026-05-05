@@ -1,7 +1,18 @@
 # coding=utf-8
-# the version  is value
-# of contextvariable dictversion.
-# It is suffixed with this 'microversion', which should be #  changed often.
+"""dictparms.py
+   Central registry of all Cologne Sanskrit Lexicon dictionaries.
+   Imported by generate.py and used as the Mako template context for every
+   per-dictionary code generation run.
+
+   alldictparms: dict keyed by lowercase dictionary code (dictlo).
+     Each entry has: dictup (uppercase code), dictlo, dictname (full Unicode
+     title), and dictversion (used in generated file headers).
+   microversion: appended to dictversion in generated output so that minor
+     changes can be tracked without bumping the main version number.
+     Update this string whenever a cross-dictionary template change is made.
+"""
+# microversion is appended to dictversion in generated output.
+# Change it whenever a cross-dictionary template change is deployed.
 microversion = '.002'  # abch 11-19-2023
 alldictparms = {
  "gra": {

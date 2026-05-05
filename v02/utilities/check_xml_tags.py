@@ -1,4 +1,13 @@
-""" check_xml_tags.py (generic)
+"""check_xml_tags.py
+   Counts the frequency of every XML tag in a file and writes a sorted report.
+
+   Usage: python3 check_xml_tags.py <filein> <fileout>
+     <filein>   any text file containing XML-style tags
+     <fileout>  output file: one line per distinct tag, format: COUNT TAG
+                sorted alphabetically by tag name (ignoring the leading slash)
+
+   Useful for auditing which tags appear in a digitisation or XML file and
+   how often, as a first step when debugging DTD validation failures.
 """
 from __future__ import print_function
 import re

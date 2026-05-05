@@ -1,8 +1,21 @@
 # coding=utf-8
-""" make_xml.py
- Reads/Writes utf-8
- 11-14-2020. remove .encode('utf-8') .  For python3 coding
- 12-21-2023. md: (a) 🞄 for line break, (b) <ab>X</ab> -> <i><ab>X</ab></i>
+"""make_xml.py — Mako template. Rendered per-dictionary by generate.py.
+   Reads/Writes utf-8.
+
+   Inputs:  ../orig/<dict>.txt  (source digitisation)
+            <dict>hw.txt        (headword file produced by hw.py)
+   Output:  <dict>.xml          (full XML, validated against <dict>.dtd)
+
+   This file is processed by generate.py using special pre/post-processing
+   (mako_preprocess / mako_postprocess) rather than a plain Template render,
+   because the source text contains literal <%s> and </%s> XML tags that would
+   otherwise be interpreted as Mako tag syntax.  The workarounds are:
+     <%s>   ↔  !!!s!!!
+     </%s>  ↔  !!!/s!!!
+     ##     ↔  !!!##!!!
+
+   Per-dictionary logic is guarded by %if dictlo == '...' / %endif blocks.
+   See inventory.txt category T and the one.dtd template for the matching DTD.
 """
 from __future__ import print_function
 import xml.etree.ElementTree as ET
