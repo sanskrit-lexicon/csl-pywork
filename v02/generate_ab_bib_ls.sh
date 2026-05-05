@@ -98,7 +98,6 @@ EOF
             ;;
         pwg)
             cat > "$dir/redo.sh" <<EOF
-#python make_pwgab.py pwgab_prelim.txt pwgab_input.txt
 sh redo_${t}.sh
 mv ${t}.sqlite ../../web/sqlite/
 EOF
