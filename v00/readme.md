@@ -1,88 +1,76 @@
+# v00
 
-> This version v00 was the first development.  
-> It is superceded by the v02 version.
+> **Superseded.** This was the first experimental version. Use [`v02`](../v02/readme.md) for all current work.
 
-# v00 operating instructions
-# Install for the first time
+---
 
-This may take some time.
-If you want to keep it to the minimum for a local installation, you can use `git clone --depth 1` instead of `git clone`.
-That would not download unnecessary git history.
+## What was different in v00
+
+v00 used a `distinctscripts/` layout where each dictionary had its own subdirectory containing a hand-written `make_xml.py` and `xxx.dtd` — files that were considered too divergent to share across dictionaries. Shared scripts lived in `makotemplates/` and were either copied verbatim (`C`) or rendered as Mako templates (`T`), as recorded in `inventory.txt`.
+
+v02 replaced `distinctscripts/` with a `distinctfiles/` layout and moved `make_xml.py` and `xxx.dtd` into the template system (`T` category), eliminating most hand-maintained per-dictionary copies.
+
+---
+
+## Installation (historical reference)
+
+### First-time setup
 
 ```bash
-mkdir scans
-cd scans
-echo "STEP 1. CLONE THE WEB DISPLAY CODE BASE FROM GITHUB."
+mkdir scans && cd scans
+
 git clone https://github.com/sanskrit-lexicon/csl-websanlexicon.git
-cd csl-websanlexicon/v00
-bash redo_cologne_2020.sh
-cd ../..
-echo "STEP 2. CLONE THE PYWORK CODE BASE FROM GITHUB."
+cd csl-websanlexicon/v00 && bash redo_cologne_2020.sh && cd ../..
+
 git clone https://github.com/sanskrit-lexicon/csl-pywork.git
-cd csl-pywork/v00
-bash redo_cologne_2020.sh
-cd ../..
-echo "STEP 3. CLONE THE DICTIONARY TEXT FILES FROM GITHUB."
+cd csl-pywork/v00 && bash redo_cologne_2020.sh && cd ../..
+
 git clone https://github.com/sanskrit-lexicon/csl-orig.git
 ```
 
-# Subsequent updation
+### Subsequent updates
 
-It presumes that you are in the parent directory of csl-orig, csl-pywork and csl-websanlexicon.
-Because you have already cloned the repositories, all subsequent changes can be captured by simple `git pull origin master` for these three repositories.
+Run from the parent directory of all three repositories:
 
 ```bash
-echo "STEP 1. UPDATE THE WEB DISPLAY CODE BASE FROM GITHUB."
-cd csl-websanlexicon/v00
-git pull origin master
-bash redo_cologne_2020.sh
-echo "STEP 2. UPDATE THE PYWORK CODE BASE FROM GITHUB."
-cd ../../csl-pywork/v00
-git pull origin master
-bash redo_cologne_2020.sh
-echo "STEP 3. UPDATE THE DICTIONARY TEXT FILES FROM GITHUB."
-cd ../../csl-orig/v00
-git pull origin master
+cd csl-websanlexicon/v00 && git pull origin master && bash redo_cologne_2020.sh && cd ../..
+cd csl-pywork/v00       && git pull origin master && bash redo_cologne_2020.sh && cd ../..
+cd csl-orig/v00         && git pull origin master && cd ../..
 ```
 
-# Dictionary updation based on Correction form submission by user.
+### Regenerate one or all dictionaries
 
-1. Instead of the earlier changes by updateByLine.py method, the changes now onwards will be made directly to csl-orig/v00/csl-data/XXXScan/orig/xxx.txt file directly e.g. PWGScan/orig/pwg.txt file directly.
-2. On local machine, do `cd /path/to/csl-orig` and then `git pull origin master` to fetch any change made on github by any other user.
-3. Make necessary changes in local repository.
-4. Once a change is made, it would be added via `git add v00/csl-data/XXXScan/orig/xxx.txt` command.
-5. `git commit -m 'dictcode:lnum:old:new'` e.g. `git commit -m 'skd:29044:SuMllam:Sullam'`
-6. `git push origin master`
-
-# Install the changes for display.
-
-This pulls any changes from the github repositories and updates the dictionaries.
-Generates the xml and sqlite files.
-
-1. For regenerating all dictionaries.
 ```bash
-cd csl-pywork
-bash redo.sh
+# All dictionaries
+cd csl-pywork && bash redo.sh
+
+# Single dictionary (e.g. SKD)
+cd csl-pywork && bash redo.sh SKD
 ```
 
-or 
+`redo.sh` updates both `csl-websanlexicon/v00` and `csl-pywork/v00` from GitHub, then for each dictionary runs `redo_hw.sh` (headwords) and `redo_xml.sh` (XML + SQLite) inside the dictionary's `pywork/` directory.
 
-2. For regenerating for a particular dictionary e.g. SKD in our example
-```bash
-cd csl-pywork
-bash redo.sh SKD
-```
+---
 
-# XXX.txt and hwextra/xxx_hwextra.txt
+## Applying a correction from the correction form
 
-These files are taken from Cologne server (2013/2014 displays depending on the dictionary).
-The data is fetched on 23 Jul 2019.
-There is only one change pending in the correctionform.txt on this time.
-This change will be made in the 2020 version.
-```
-Case 24441: 07/21/2019 dict=MW, L= 141468, hw=plu, user=
-old = or plāvayati
-new = or plavayati
-status = PENDING
-```
+1. Edit `csl-orig/v00/csl-data/XXXScan/orig/xxx.txt` directly (e.g. `PWGScan/orig/pwg.txt`).
+2. `git pull origin master` first to pick up any concurrent changes.
+3. Stage the file: `git add v00/csl-data/XXXScan/orig/xxx.txt`
+4. Commit with a structured message: `git commit -m 'dictcode:lnum:old:new'`  
+   e.g. `git commit -m 'skd:29044:SuMllam:Sullam'`
+5. `git push origin master`
+6. Regenerate the display: `cd csl-pywork && bash redo.sh XXX`
 
+---
+
+## Source files
+
+Each dictionary's source data consists of two files in `csl-orig`:
+
+| File | Path |
+|---|---|
+| Main digitisation | `csl-orig/v00/csl-data/XXXScan/2020/orig/xxx.txt` |
+| Extra headwords | `csl-orig/v00/csl-data/XXXScan/2020/orig/hwextra/xxx_hwextra.txt` |
+
+`XXX` is the uppercase dictionary code; `xxx` is lowercase (e.g. `PWGScan`, `pwg`).
