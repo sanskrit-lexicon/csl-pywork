@@ -47,7 +47,8 @@ def dig_to_xml(xin):
 def dbgout(dbg,s):
  if not dbg:
   return
- fout = open(filedbhg, 'a', encoding='utf-8')
+ filedbg = "make_xml_dbg.txt"
+ fout = open(filedbg, 'a', encoding='utf-8')
  fout.write(s + '\n')
  fout.close()
 

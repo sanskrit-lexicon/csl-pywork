@@ -80,7 +80,7 @@ def dbgout(dbg,s):
  if not dbg:
   return
  filedbg = "make_xml_dbg.txt"
- fout = open(filedbhg, 'a', encoding='utf-8')
+ fout = open(filedbg, 'a', encoding='utf-8')
  fout.write(s + '\n')
  fout.close()
 
