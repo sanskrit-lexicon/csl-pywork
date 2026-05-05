@@ -1,3 +1,15 @@
+#!/bin/bash
+# redo_cologne_all.sh
+# Generates or updates all dictionaries using the Cologne server directory layout.
+#
+# Usage: sh redo_cologne_all.sh
+#
+# Each dictionary is installed into ../../XXXScan/2020/ relative to v02/
+# (e.g. MWScan/2020/, ACCScan/2020/).
+# Run from v02/. Takes ~30 minutes and requires ~3 GB of disk space for all dicts.
+#
+# See also: redo_xampp_all.sh for the flat XAMPP layout (../../<dict>/).
+
 sh generate_dict.sh acc  ../../ACCScan/2020/
 sh generate_dict.sh ae  ../../AEScan/2020/
 sh generate_dict.sh ap  ../../APScan/2020/

@@ -1,3 +1,19 @@
+#!/bin/bash
+# redo_xampp_selective.sh
+# Incrementally updates only the dictionaries that changed in csl-orig since
+# the last run, then propagates changes to Stardict, JSON, and homepage repos.
+#
+# Usage: sh redo_xampp_selective.sh
+#   (typically run via cron at system boot with a 120-second startup delay)
+#
+# Tracks progress via csl-orig/v02/.xampp_last_run (stores last-processed commit hash).
+# On each run: pulls all repos, diffs csl-orig, regenerates affected dicts,
+# rebuilds Stardict/JSON files, and updates the csl-homepage version display.
+#
+# Prerequisites: sibling dirs cologne-stardict, csl-json, csl-homepage, hwnorm1,
+# and indic-dict/stardict-sanskrit must exist with cached git credentials.
+# See readme_selective.md for a full step-by-step explanation.
+
 dt=$(date '+%Y%m%d%H%M%S');
 echo "Step 0. UPDATE RELEVANT GIT REPOSITORIES."
 cd /var/www/html/cologne/csl-pywork/v02

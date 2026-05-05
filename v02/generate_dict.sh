@@ -1,7 +1,25 @@
-# generate (update or initialize) orig, pywork, and web 
+#!/bin/bash
+# generate_dict.sh
+# Main entry point for generating or updating a complete dictionary installation.
+#
+# Usage: sh generate_dict.sh <dict> <outdir>
+#   <dict>    lowercase dictionary code (e.g. mw, skd, acc)
+#   <outdir>  target directory (created if it does not exist)
+#             e.g. ../../MWScan/2020  or  tempparent/mw
+#
+# Runs four stages in sequence:
+#   1. generate_orig.sh    — copies source text from csl-orig into outdir/orig/
+#   2. generate_pywork.sh  — assembles outdir/pywork/ from makotemplates/ and distinctfiles/
+#   3. generate_ab_bib_ls.sh — generates abbreviation/tooltip/bibliography redo scripts
+#   4. generate_web.sh     — assembles outdir/web/ (runs from csl-websanlexicon/v02)
+# Then executes the assembled scripts:
+#   redo_hw.sh    — builds xxxhw.txt headword file
+#   redo_xml.sh   — builds xxx.xml, validates against xxx.dtd, runs redo_postxml.sh
+#   downloads/redo_all.sh — builds zip download archives
+#
+# Prerequisites: csl-websanlexicon must be a sibling of csl-pywork.
+# generate (update or initialize) orig, pywork, and web
 # code for a given dictionary  (uses csl-websanlexicon/v02)
-#  usage: sh generate_dict.sh <dict> <parent-dir>
-#  The files are put into <parent-dir>.
 if [ -z "$1" ] || [ -z "$2" ]
   then
    echo "usage:  sh generate_dict.sh <dict> <parent-dir>"
