@@ -1,4 +1,19 @@
 #!/bin/bash
+# updateDistinctScripts.sh
+# Downloads per-dictionary xxx.dtd files from the live Cologne server into
+# the local distinctscripts/ directory.
+#
+# Usage: sh updateDistinctScripts.sh
+#   (no arguments; updates all dictionaries)
+#
+# Sources DTD files from XXXScan/2013/ (BUR INM MWE PWG SKD STC VCP)
+# or XXXScan/2014/ (all other dictionaries) on the Cologne server.
+# The make_xml.py download lines are currently commented out.
+#
+# Prerequisites: wget, network access to www.sanskrit-lexicon.uni-koeln.de.
+# Note: v00 is superseded by v02, which templates xxx.dtd rather than
+# downloading it.
+
 echo "Download unique scripts to each dictionary's pywork from live Cologne server to distinctscripts folder."
 scripts=(make_xml.py)
 dictsthirteen=(BUR INM MWE PWG SKD STC VCP)

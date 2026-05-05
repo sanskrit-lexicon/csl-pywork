@@ -1,3 +1,20 @@
+#!/bin/bash
+# redo_web_all.sh
+# Regenerates pywork scripts for all dictionaries and downloads each
+# dictionary's make_xml.py directly from the live Cologne server.
+#
+# Usage: sh redo_web_all.sh
+#   (no arguments; regenerates all dictionaries)
+#
+# Two-step process:
+#   1. Runs generate.py with inventory.txt and makotemplates/ to populate
+#      ../../<dict>/pywork/ with shared/templated scripts (flat XAMPP layout).
+#   2. Downloads the per-dictionary make_xml.py from the live Cologne server
+#      (XXXScan/2013/ or XXXScan/2014/ depending on the dictionary).
+#
+# Prerequisites: wget, network access to www.sanskrit-lexicon.uni-koeln.de.
+# Note: v00 is superseded by v02. Use v02/generate_dict.sh for current work.
+
 python generate.py gra inventory.txt  makotemplates ../../gra/pywork
 python generate.py bur inventory.txt  makotemplates ../../bur/pywork
 python generate.py cae inventory.txt  makotemplates ../../cae/pywork
