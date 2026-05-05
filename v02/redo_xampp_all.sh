@@ -1,3 +1,15 @@
+#!/bin/bash
+# redo_xampp_all.sh
+# Generates or updates all dictionaries using the flat XAMPP directory layout.
+#
+# Usage: sh redo_xampp_all.sh
+#
+# Each dictionary is installed into ../../<dict>/ relative to v02/
+# (e.g. ../../mw/, ../../acc/), which corresponds to cologne/<dict>/ under htdocs.
+# Run from v02/.
+#
+# See also: redo_cologne_all.sh for the Cologne server layout (../../XXXScan/2020/).
+
 sh generate_dict.sh acc  ../../acc
 sh generate_dict.sh ae  ../../ae
 sh generate_dict.sh ap90  ../../ap90

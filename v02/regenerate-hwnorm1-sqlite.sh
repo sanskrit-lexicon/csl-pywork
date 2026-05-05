@@ -1,4 +1,23 @@
 #!/bin/bash
+# regenerate-hwnorm1-sqlite.sh
+# Full pipeline to regenerate all dictionary displays, hwnorm1/hwnorm2 SQLite
+# databases, and optionally push results to GitHub.
+#
+# Usage: sh regenerate-hwnorm1-sqlite.sh [push]
+#   (no args)  regenerate everything locally, do not push
+#   push       also commit and push hwnorm1, hwnorm2, and csl-apidev to GitHub
+#
+# Steps:
+#   1. Pull csl-pywork, csl-orig, csl-websanlexicon, hwnorm1, hwnorm2, csl-apidev
+#   2. Install Python dependencies (mako, lxml, indic-transliteration) and apt packages
+#   3. Bootstrap pd/ directory (downloads pdtxt.zip from the Cologne server)
+#   4. Run redo_xampp_all.sh to regenerate all dictionary displays
+#   5. Run hwnorm1/sanhw1/redo.sh and move hwnorm1c.sqlite to csl-apidev
+#   6. Run hwnorm2 redo scripts
+#   7. If 'push': commit and push hwnorm1, hwnorm2, and csl-apidev
+#
+# Prerequisites: sibling dirs hwnorm1, hwnorm2, and csl-apidev must exist.
+# Assumes XAMPP-style layout (dictionaries at ../../<dict>/ relative to v02/).
 
 set -e
 
