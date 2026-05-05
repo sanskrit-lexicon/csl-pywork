@@ -1,3 +1,21 @@
+#!/bin/bash
+# cologne_test.sh
+# Checks that a freshly generated xxx.xml matches the original Cologne server XML.
+#
+# Usage: sh cologne_test.sh <dict> <outdir>
+#   <dict>    lowercase dictionary code (e.g. mw, skd)
+#   <outdir>  the output directory used when generate_dict.sh was run
+#             (e.g. ../../MWScan/2020)
+#
+# The "original" XML is taken from the Cologne server layout:
+#   XXXScan/2013/pywork/xxx.xml  for BUR INM MWE PWG SKD STC VCP
+#   XXXScan/2014/pywork/xxx.xml  for all other dictionaries
+#
+# Output: diff written to temp_xmldiffs/diff_xml_<dict>.txt
+#         line count of the diff printed to stdout (0 = identical)
+#
+# Prerequisites: temp_xmldiffs/ directory must exist before running.
+
 dictlo="$1"
 outdir="$2"
 pwd
