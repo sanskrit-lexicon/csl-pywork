@@ -169,7 +169,12 @@ select count(*) from ${tbl};
 .exit
 EOF
         # mwauthtooltips.sql has CRLF line endings
-        sed -i '' 's/$/\r/' "$dir/${tbl}.sql"
+        python3 -c "
+import sys
+f = sys.argv[1]
+text = open(f, 'rb').read().replace(b'\r\n', b'\n').replace(b'\n', b'\r\n')
+open(f, 'wb').write(text)
+" "$dir/${tbl}.sql"
     else
         cat > "$dir/tooltips.sql" <<EOF
 DROP TABLE if exists ${tbl};
@@ -251,7 +256,12 @@ pragma table_info (${bib});
 select count(*) from ${bib};
 .exit
 EOF
-        sed -i '' 's/$/\r/' "$dir/${bib}.sql"
+        python3 -c "
+import sys
+f = sys.argv[1]
+text = open(f, 'rb').read().replace(b'\r\n', b'\n').replace(b'\n', b'\r\n')
+open(f, 'wb').write(text)
+" "$dir/${bib}.sql"
     else
         cat > "$dir/${bib}.sql" <<EOF
 DROP TABLE if exists ${bib};
