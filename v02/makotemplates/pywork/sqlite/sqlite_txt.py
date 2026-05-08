@@ -29,6 +29,10 @@ SCHEMA_MAP = {
         '`id` VARCHAR(100)  UNIQUE',
         '`data` TEXT  NOT NULL',
     ],
+    'aeab': [
+        '`id` VARCHAR(100)  UNIQUE',
+        '`data` TEXT  NOT NULL',
+    ],
     'caeab': [
         '`id` VARCHAR(100)  UNIQUE',
         '`data` TEXT  NOT NULL',

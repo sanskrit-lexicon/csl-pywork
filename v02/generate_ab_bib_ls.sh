@@ -75,7 +75,7 @@ EOF
 
     # redo.sh - varies by dict
     case "$dict" in
-        ap|ap90|bur|lan|mw|stc)
+        ap|ap90|ae|bur|lan|mw|stc)
             cat > "$dir/redo.sh" <<EOF
 sh redo_${t}.sh
 mv ${t}.sqlite ../../web/sqlite/
@@ -108,7 +108,7 @@ EOF
 }
 
 ########################################################################
-# Pattern B: tooltip tables (ap, ap90, ben, bhs, gra, sch, mw)
+# Pattern B: tooltip tables (ap, ap90, ben, bhs, gra, sch, mw, ae)
 ########################################################################
 generate_tooltip() {
     local dict="$1"
@@ -296,10 +296,10 @@ if [ -n "$PYWORK_DIR" ]; then
         *) echo "ERROR: unrecognised dictionary '$dict' derived from path '$PYWORK_DIR'"; exit 1 ;;
     esac
     # Determine which generators to run based on dictionary
-    case " ap ap90 ben bhs bur cae gra lan md mw pw pwg pwkvn stc " in
+    case " ap ap90 ae ben bhs bur cae gra lan md mw pw pwg pwkvn stc " in
         *" $dict "*) generate_ab "$dict" ;;
     esac
-    case " ap ap90 ben bhs gra sch mw " in
+    case " ap ap90 ae ben bhs gra sch mw " in
         *" $dict "*) generate_tooltip "$dict" ;;
     esac
     case " pw pwg pwkvn " in
@@ -308,13 +308,13 @@ if [ -n "$PYWORK_DIR" ]; then
     echo "Done. Scripts generated for $dict."
 else
     echo "=== Generating abbreviation scripts ==="
-    for d in ap ap90 ben bhs bur cae gra lan md mw pw pwg pwkvn stc; do
+    for d in ap ap90 ae ben bhs bur cae gra lan md mw pw pwg pwkvn stc; do
         generate_ab "$d"
     done
 
     echo ""
     echo "=== Generating tooltip scripts ==="
-    for d in ap ap90 ben bhs gra sch mw; do
+    for d in ap ap90 ae ben bhs gra sch mw; do
         generate_tooltip "$d"
     done
 
