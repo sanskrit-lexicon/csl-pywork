@@ -474,6 +474,41 @@ def dig_to_xml_specific(x):
  return x
 %endif
 
+def parse_print_changes(x):
+    res = ""
+    i = 0
+    while i < len(x):
+        if x[i:i+2] == '{{':
+            start = i
+            i += 2
+            level = 2
+            while i < len(x) and level > 0:
+                if x[i] == '{':
+                    level += 1
+                elif x[i] == '}':
+                    level -= 1
+                i += 1
+            if level == 0:
+                tag_content = x[start+2:i-2]
+                if '->' in tag_content:
+                    parts = tag_content.split('->')
+                    old = parts[0]
+                    new = '->'.join(parts[1:])
+                    if old == '' and new != '':
+                        res += '<chg type="add" src="cdsl"><old></old><new>%s</new></chg>' % new
+                    elif old != '' and new == '':
+                        res += '<chg type="del" src="cdsl"><old>%s</old><new></new></chg>' % old
+                    else:
+                        res += '<chg type="chg" src="cdsl"><old>%s</old><new>%s</new></chg>' % (old, new)
+                else:
+                    res += x[start:i]
+            else:
+                res += x[start:i]
+        else:
+            res += x[i]
+            i += 1
+    return res
+
 def dig_to_xml_general(x):
 %if dictlo in ['abch', 'acph', 'acsj']:
  return x
@@ -524,6 +559,7 @@ def dig_to_xml(xin):
  x = xin
  x = dig_to_xml_general(x)
  x = dig_to_xml_specific(x)
+ x = parse_print_changes(x)
  return x
 
 def dbgout(dbg,s):

@@ -50,7 +50,7 @@ H1B | H2B | H3B | H4B | H1C | H2C | H3C | H4C | H1E | H2E | H3E | H4E)*>
 <!ELEMENT lb EMPTY>
 ## <!ELEMENT F (#PCDATA | br | symbol |i|div)*>
 <!ELEMENT F (#PCDATA  | %body_elts;)*>
-<!ELEMENT s (#PCDATA | br | srs | shortlong)*>
+<!ELEMENT s (#PCDATA | br | srs | shortlong | chg)*>
 <!ELEMENT H EMPTY>
 <!ELEMENT P EMPTY>
 ## <!ELEMENT b (#PCDATA | br | s | lb)*>
@@ -106,7 +106,7 @@ pwg requires also is
 lan requires also sup
 bhs requires also lang
   -->
-<!ELEMENT ls (#PCDATA |ab|s1|ns|is|i|sup|lang|lb)*>
+<!ELEMENT ls (#PCDATA |ab|s1|ns|is|i|sup|lang|lb | chg)*>
 <!ELEMENT ab (#PCDATA)> <!-- general abbreviation -->
 <!ELEMENT per (#PCDATA)> <!-- person 'abbreviation' (1., etc) -->
 <!ELEMENT lbinfo EMPTY>
