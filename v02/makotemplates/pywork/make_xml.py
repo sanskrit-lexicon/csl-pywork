@@ -491,15 +491,39 @@ def parse_print_changes(x):
             if level == 0:
                 tag_content = x[start+2:i-2]
                 if '->' in tag_content:
-                    parts = tag_content.split('->')
+                    if '||' in tag_content:
+                        change_part, meta_part = tag_content.split('||', 1)
+                    else:
+                        change_part = tag_content
+                        meta_part = None
+                    parts = change_part.split('->')
                     old = parts[0]
                     new = '->'.join(parts[1:])
                     if old == '' and new != '':
-                        res += '<chg type="add" src="cdsl"><old></old><new>%s</new></chg>' % new
+                        chg_type = 'add'
                     elif old != '' and new == '':
-                        res += '<chg type="del" src="cdsl"><old>%s</old><new></new></chg>' % old
+                        chg_type = 'del'
                     else:
-                        res += '<chg type="chg" src="cdsl"><old>%s</old><new>%s</new></chg>' % (old, new)
+                        chg_type = 'chg'
+                    attribs_dict = {'type': chg_type, 'src': 'cdsl'}
+                    if meta_part:
+                        meta_fields = meta_part.split('|')
+                        # {{OLD->NEW||DATE|SUBMITTER|REFERENCE|COMMENT}}
+                        if len(meta_fields) > 0 and meta_fields[0]:
+                            attribs_dict['date'] = meta_fields[0]
+                        if len(meta_fields) > 1 and meta_fields[1]:
+                            attribs_dict['user'] = meta_fields[1]
+                        if len(meta_fields) > 2 and meta_fields[2]:
+                            attribs_dict['href'] = meta_fields[2]
+                        if len(meta_fields) > 3 and meta_fields[3]:
+                            attribs_dict['note'] = meta_fields[3]
+                    attrib_str = ""
+                    for k in ['type', 'src', 'date', 'user', 'href', 'note']:
+                        if k in attribs_dict:
+                            # Use a simple replacement for double quotes to avoid breaking XML attributes
+                            val = attribs_dict[k].replace('"', '&quot;')
+                            attrib_str += ' %s="%s"' % (k, val)
+                    res += '<chg%s><old>%s</old><new>%s</new></chg>' % (attrib_str, old, new)
                 else:
                     res += x[start:i]
             else:

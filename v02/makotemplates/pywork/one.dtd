@@ -135,6 +135,10 @@ bhs requires also lang
 <!ATTLIST chg type CDATA #IMPLIED>
 <!ATTLIST chg n CDATA #IMPLIED>
 <!ATTLIST chg src CDATA #IMPLIED>
+<!ATTLIST chg date CDATA #IMPLIED>
+<!ATTLIST chg user CDATA #IMPLIED>
+<!ATTLIST chg href CDATA #IMPLIED>
+<!ATTLIST chg note CDATA #IMPLIED>
 <!ATTLIST hwtype n (alt | sub | fem | neu | n) #REQUIRED>
 <!ATTLIST hwtype ref CDATA #REQUIRED>
 <!-- 04-15-2024
