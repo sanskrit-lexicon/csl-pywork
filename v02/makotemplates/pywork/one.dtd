@@ -107,7 +107,7 @@ lan requires also sup
 bhs requires also lang
   -->
 <!ELEMENT ls (#PCDATA |ab|s1|ns|is|i|sup|lang|lb | chg)*>
-<!ELEMENT ab (#PCDATA)> <!-- general abbreviation -->
+<!ELEMENT ab (#PCDATA | chg)*> <!-- general abbreviation -->
 <!ELEMENT per (#PCDATA)> <!-- person 'abbreviation' (1., etc) -->
 <!ELEMENT lbinfo EMPTY>
 <!ELEMENT C EMPTY>
