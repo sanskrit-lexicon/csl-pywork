@@ -1,0 +1,8 @@
+
+readme.org for aeauth
+05-11-2026
+
+Modify tooltip.txt
+Rerun redo.sh
+
+
