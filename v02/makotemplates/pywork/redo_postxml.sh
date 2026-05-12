@@ -37,7 +37,7 @@ cd ../ # back to pywork
  cd ../ # back to pywork
 %endif
 # literary source.
-%if dictlo in ['mw','pw','pwg','ap90','ben','pwkvn','sch','gra','bhs','ap']:
+%if dictlo in ['mw','pw','pwg','ap90','ben','pwkvn','sch','gra','bhs','ap','ae']:
  cd ${dictlo}auth
  sh redo.sh
  cd ../ # back to pywork

@@ -62,11 +62,25 @@ def close_divs_krm(newline):
 %endif
 %if dictlo not in ['ap','skd','sch','md','shs','cae','wil','ap90','bur','acc','yat']:  # These have their own code
 def dig_to_xml_specific(x):
-%if dictlo in ['pw','pwg','ae','gst','ieg','mwe','pgn','pui','vei','mw72','snp','bor','mw','inm','bop','abch','acph','acsj']:
+%if dictlo in ['pw','pwg','gst','ieg','mwe','pgn','pui','vei','mw72','snp','bor','mw','inm','bop','abch','acph','acsj']:
  """ no changes particular to digitization"""
  return x
 %else:
  """ changes particular to digitization"""
+%endif
+%if dictlo == 'ae':
+ # 05-10-2026  New version of ae. Ref: https://github.com/sanskrit-lexicon/ApteES/issues/11
+ x = re.sub('⁅(.*?)⁆',r'<ab>\1</ab>',x)
+ x = re.sub('〔(.*?)〕',r'<ls>\1</ls>',x)
+ x = re.sub('<lex>(.*?)</lex>', r'<i><ab>\1</ab></i>',x)
+ x = x.replace('\t ➜✦\t ⇨◆',' ')
+ x = x.replace('\t ⇨✦━','<div n="lb"/>')
+ x = x.replace('\t ⇨✦\t ⇨◆','<div n="lb"/>')
+ x = x.replace('\t ➜✦',' ')
+ x = x.replace('\t ➜◆',' ')
+ x = x.replace('Ⓝ','<div n="lb"/>')
+ x = re.sub('\[Page.*?\]',' ',x)
+ x = re.sub(r'[⒈⒉]', '', x)  # 22 pairs of 'homonyms'.
 %endif
 %if dictlo == 'mw':
  # 08-21-2024 <s1 n="X">Y</s1> -> <ab n="X">Y</ab>
@@ -94,7 +108,7 @@ def dig_to_xml_specific(x):
  x = x.replace('<F>','<div n="F">');
  return x
 %endif
-%if dictlo not in ['vcp']:
+%if dictlo not in ['vcp','ae']:
  # There are a couple entries with an <H> element.
  # Just remove these lines
  if x.startswith('<H>'):
@@ -110,7 +124,7 @@ def dig_to_xml_specific(x):
 %else:
  x = re.sub(r'<P>','<div n="P">',x) # 2322 cases
 %endif
-%if dictlo not in ['vcp']:
+%if dictlo not in ['vcp','ae']:
  #if '<g></g>' in x: # once only. Already converted in stc.txt
  # x = x.replace('<g></g>','<lang n="greek"></lang>')
  #x = re.sub(r'<Picture>','<div n="Picture">',x) # 71 cases
@@ -122,7 +136,7 @@ def dig_to_xml_specific(x):
  x = re.sub(r'<Picture>','<div n="Picture">',x) # 71 cases
 %endif
  # markup like <C1>x1<C2>x2...  indicates tabular data in vcp.
-%if dictlo not in ['vcp']:
+%if dictlo not in ['vcp','ae']:
  #x = re.sub(r'<C([0-9]+)>',r'<C n="\1"/>',x)
 %else:
  x = re.sub(r'<C([0-9]+)>',r'<C n="\1"/>',x)
@@ -133,7 +147,7 @@ def dig_to_xml_specific(x):
 %else:
  x = x.replace('--',u'—')  #597 cases
 %endif
-%if dictlo not in ['vcp']:
+%if dictlo not in ['vcp','ae']:
  #{^X^}  superscript
  x = re.sub(r'{\^(.*?)\^}',r'<sup>\1</sup>',x)
 %endif
@@ -541,7 +555,11 @@ def dig_to_xml_general(x):
  # xml requires that an ampersand be represented by &amp; entity
  x = x.replace('&','&amp;')
  # remove broken bar.  In xxx.txt, this usu. indicates a headword end
+%if dictlo in ['ae']:
+ x = x.replace(u'¦','')  # always '¦,' in ae.txt
+%else:
  x = x.replace(u'¦',' ')
+%endif
  # bold, italic, and Sanskrit markup converted to xml forms.
 %if dictlo in ['ben','ccs','mci','stc','bhs','gra','pe','gst','ieg','mwe','pgn','pui','vei','pd','mw72','snp','bor','krm','inm','skd','bop','vcp']:
  # These are not applicable to vcp, but do no harm
@@ -1131,7 +1149,7 @@ def construct_xmlstring(datalines,hwrec):
   datalines1.append(x)
  datalines = datalines1
 %endif
-%if dictlo in ['ae','bor','mwe']: 
+%if dictlo in ['bor','mwe']: # 'ae' removed 05-10-2026
  for i,x in enumerate(datalines):
   if i == 0:
    pass

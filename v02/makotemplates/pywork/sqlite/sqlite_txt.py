@@ -73,6 +73,10 @@ SCHEMA_MAP = {
         '`key` VARCHAR(20) NOT NULL',
         '`data` VARCHAR(20000) NOT NULL',
     ],
+    'aeauthtooltips': [
+        '`key` VARCHAR(20) NOT NULL',
+        '`data` VARCHAR(20000) NOT NULL',
+    ],
     'schauthtooltips': [
         '`key` VARCHAR(20) NOT NULL',
         '`data` VARCHAR(20000) NOT NULL',
