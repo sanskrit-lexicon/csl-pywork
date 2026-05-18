@@ -361,6 +361,9 @@ def dig_to_xml_specific(x):
   # drop the initial '.²'
   # and start <div n="1">
   x = '<div n="1">' + x[2:]
+ elif re.search(u'^[.]²[abcdef]',x):
+  # a sub-division coded with a letter, handled by basicadjust.php
+  x = " " + x
  elif re.search(r'^[.]E[.]',x):
   # an Etymology division
   # drop the initial '.'
