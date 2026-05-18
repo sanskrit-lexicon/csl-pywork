@@ -979,6 +979,19 @@ def construct_xmlstring(datalines,hwrec):
   datalines1.append(x)
  datalines = datalines1
 %endif
+%if dictlo in ['wil']:
+ for i,x in enumerate(datalines):
+  if i == 0:
+   pass
+  elif x.strip() == '':
+   pass
+  elif x.startswith(('[Page', '.')):
+   pass
+  else:
+   x = '<lb/>' + x
+  datalines1.append(x)
+ datalines = datalines1
+%endif
 %if dictlo in ['skd','vcp']: # 'shs', removed 12-19-2025
  for i,x in enumerate(datalines):
   if i == 0:
