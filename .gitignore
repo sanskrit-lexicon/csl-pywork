@@ -5,3 +5,5 @@ temp*
 *~
 __pycache__*
 .DS_Store
+v02/distinctfiles/pd/pywork/*
+
