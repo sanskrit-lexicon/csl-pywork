@@ -1,54 +1,791 @@
-Abl.	<id>Abl.</id> <disp>Ablativ - ablative (case)</disp>
-Absol.	<id>Absol.</id> <disp>Absolutiv - absolutive (case)</disp>
-Acc.	<id>Acc.</id> <disp>Accusativ - accusative (case)</disp>
-Act.	<id>Act.</id> <disp>Activ - active </disp>
-Adv.	<id>Adv.</id> <disp>Adverb - adverb</disp>
-adv.	<id>adv.</id> <disp>adverbial? - adverbial</disp>
-Aor.	<id>Aor.</id> <disp>Aorist - aorist</disp>
-Bein.	<id>Bein.</id> <disp>Beiname - epithet, by name</disp>
-Bed.	<id>Bed.</id> <disp>Bedeutungen(?) - meanings</disp>
-Beinn.	<id>Beinn.</id> <disp>Beinamen - epithets, by names</disp>
-Caus.	<id>Caus.</id> <disp>Causativ - causative</disp>
-Comm.	<id>Comm.</id> <disp>Commentar? - commentary</disp>
-Conj.	<id>Conj.</id> <disp>Conjunctiv? - subjunctive (mood)</disp>
-dass.	<id>dass.</id> <disp>dasselbe - the same</disp>
-d. i.	<id>d. i.</id> <disp>das ist - i.e. id est - that is</disp>
-Dat.	<id>Dat.</id> <disp>Dativ - dative (case)</disp>
-Denom.	<id>Denom.</id> <disp>Denominativ? - denominative</disp>
-Desid.	<id>Desid.</id> <disp>Desiderativ - desiderative</disp>
-Du.	<id>Du.</id> <disp>Dual - dual </disp>
-Gen.	<id>Gen.</id> <disp>Genitiv - genitive (case)</disp>
-Inf.	<id>Inf.</id> <disp>Infinitiv - infinitive</disp>
-Infin.	<id>Infin.</id> <disp>Infinitiv - infinitive</disp>
-Instr.	<id>Instr.</id> <disp>Instrumental - instrumental (case)</disp>
-Intens.	<id>Intens.</id> <disp>Intensiv - intensive</disp>
-Interj.	<id>Interj.</id> <disp>Interjection - interjection </disp>
-Loc.	<id>Loc.</id> <disp>Locativ - locative case</disp>
-Med.	<id>Med.</id> <disp>Medizin - medicine</disp>
-Metron.	<id>Metron.</id> <disp>Metronym - metronym</disp>
-N.	<id>N.</id> <disp>Namen? - name</disp>
-N.ag.	<id>N.ag.</id> <disp>? - ?</disp>
-N.pr.	<id>N.pr.</id> <disp>Nomen proprium? - proper noun</disp>
-Nom.	<id>Nom.</id> <disp>Nominativ - nominative (case)</disp>
-Nom.abstr.	<id>Nom.abstr.</id> <disp>Nomen abstractum - abstract noun</disp>
-Nom.ag.	<id>Nom.ag.</id> <disp>Nomen agentis - nomen agentis</disp>
-Nomin.	<id>Nomin.</id> <disp>Nominativ - nominative (case)</disp>
-Partic.	<id>Partic.</id> <disp>Participium - participle</disp>
-Pass.	<id>Pass.</id> <disp>Passiv - passive</disp>
-Patron.	<id>Patron.</id> <disp>Patronym - patronym</disp>
-Patronn.	<id>Patronn.</id> <disp>Patronymen - patronyms</disp>
-Pl.	<id>Pl.</id> <disp>Plural - plural</disp>
-Potent.	<id>Potent.</id> <disp>Potentialis - potential mood</disp>
-Präp.	<id>Präp.</id> <disp>Präposition - preposition</disp>
-s.u.	<id>s.u.</id> <disp>siehe unten?/unter? - see below/under</disp>
-Sg.	<id>Sg.</id> <disp>Singular - singular</disp>
-Subst.	<id>Subst.</id> <disp>Substantiv - noun</disp>
-v.l.	<id>v.l.</id> <disp>vide licet - that us to say, namely</disp>
-Vgl.	<id>Vgl.</id> <disp>Vergleiche - compare</disp>
-Voc.	<id>Voc.</id> <disp>Vocativ - vocative (case)</disp>
-Adj.	<id>Adj.</id> <disp>Adjectiv - adjective</disp>
-adj.	<id>adj.</id> <disp>adjectivisch - adjective</disp>
-f.	<id>f.</id> <disp>femininum - feminine</disp>
-Indecl.	<id>Indecl.</id> <disp>Indeclinabilum - indeclinable</disp>
-m.	<id>m.</id> <disp>masculinum - masculine</disp>
-n.	<id>n.</id> <disp>neutrum - neuter</disp>
+a. a. O.	<id>a. a. O.</id> <disp>am angeführten Ort - in the place cited (op. cit.)</disp>  <N>390</N> CHECKED
+a. O.	<id>a. O.</id> <disp>am Ort - at the place cited</disp>  <N>3</N> CHECKED
+a. St.	<id>a. St.</id> <disp>an der Stelle - in the passage</disp> <INFER/> <N>5</N> UNCHECKED
+aa.	<id>aa.</id> <disp>? - ?</disp> <INFER/> <N>1</N> UNCHECKED
+abgedr.	<id>abgedr.</id> <disp>abgedruckt - printed</disp>  <N>1</N> CHECKED
+abgel.	<id>abgel.</id> <disp>abgeleitet - derived</disp>  <N>1</N> CHECKED
+abgiebt.	<id>abgiebt.</id> <disp>abgibt - gives (older orthography)</disp>  <N>2</N> UNCHECKED
+Abl.	<id>Abl.</id> <disp>Ablativ - ablative (case)</disp>  <N>6</N> CHECKED
+abl.	<id>abl.</id> <disp>Ablativ - ablative (case)</disp>  <N>564</N> CHECKED
+ablat.	<id>ablat.</id> <disp>ablativ - ablative</disp>  <N>41</N> CHECKED
+Ableitt.	<id>Ableitt.</id> <disp>Ableitungen - derivations</disp>  <N>5</N> CHECKED
+Abschn.	<id>Abschn.</id> <disp>Abschnitt - section</disp>  <N>1</N> CHECKED
+absol.	<id>absol.</id> <disp>Absolutiv - absolutive (case)</disp>  <N>263</N> CHECKED
+absolut.	<id>absolut.</id> <disp>Absolutiv - absolutive (case)</disp>  <N>52</N> CHECKED
+abstr.	<id>abstr.</id> <disp>abstrakt - abstract</disp>  <N>31</N> CHECKED
+abw.	<id>abw.</id> <disp>abweichend - deviating</disp>  <N>1</N> UNCHECKED
+Acc.	<id>Acc.</id> <disp>Accusativ - accusative (case)</disp>  <N>18</N> CHECKED
+acc.	<id>acc.</id> <disp>Accusativ - accusative (case)</disp>  <N>2622</N> CHECKED
+acc. ag.	<id>acc. ag.</id> <disp>accusativus agentis - accusative of agent</disp>  <N>1</N> CHECKED
+accusat.	<id>accusat.</id> <disp>Accusativ - accusative</disp>  <N>1</N> CHECKED
+act.	<id>act.</id> <disp>Activ - active </disp>  <N>955</N> CHECKED
+Adhy.	<id>Adhy.</id> <disp>Adhyāya - chapter (Sanskrit text division)</disp>  <N>1</N> CHECKED
+adj.	<id>adj.</id> <disp>adjectivisch - adjective</disp>  <N>0</N> CHECKED
+adj. comp.	<id>adj. comp.</id> <disp>adjektivisches Compositum - adjectival compound</disp>  <N>1398</N> CHECKED
+Adj. compp.	<id>Adj. compp.</id> <disp>Adjektivische Composita - adjectival compounds</disp>  <N>1</N> CHECKED
+adject.	<id>adject.</id> <disp>adjektivisch - adjective</disp>  <N>3</N> CHECKED
+adjj.	<id>adjj.</id> <disp>adjektivisch (Plural) - adjectives</disp>  <N>53</N> CHECKED
+Adnn.	<id>Adnn.</id> <disp>Adnomina - qualifying nouns/adjectives</disp> <INFER/> <N>2</N> UNCHECKED
+Adnott.	<id>Adnott.</id> <disp>Adnotationen - annotations</disp>  <N>1</N> UNCHECKED
+adv.	<id>adv.</id> <disp>Adverb adverb</disp>  <N>0</N> CHECKED
+adv. compp.	<id>adv. compp.</id> <disp>adverbiale Composita - adverbial compounds</disp>  <N>2</N> CHECKED
+adverb.	<id>adverb.</id> <disp>adverbial - adverbial</disp>  <N>2</N> CHECKED
+adverb. comp.	<id>adverb. comp.</id> <disp>adverbiales Compositum - adverbial compound</disp>  <N>4</N> CHECKED
+adverbb.	<id>adverbb.</id> <disp>adverbialia - adverbials</disp>  <N>1</N> CHECKED
+advv.	<id>advv.</id> <disp>Adverbien - adverbs</disp>  <N>20</N> CHECKED
+alleg.	<id>alleg.</id> <disp>allegorisch - allegorical</disp>  <N>1</N> CHECKED
+allg.	<id>allg.</id> <disp>allgemein - in general</disp>  <N>2</N> CHECKED
+allgem.	<id>allgem.</id> <disp>allgemein - in general</disp>  <N>3</N> CHECKED
+Allgem.	<id>Allgem.</id> <disp>allgemein - in general</disp>  <N>1</N> CHECKED
+alphab.	<id>alphab.</id> <disp>alphabetisch - alphabetical</disp>  <N>1</N> CHECKED
+an.	<id>an.</id> <disp>anders? - otherwise </disp> <INFER/> <N>39</N> UNCHECKED
+anderndemonstrr.	<id>anderndemonstrr.</id> <disp>an anderen Demonstrativen - to other demonstratives</disp> <INFER/> <N>1</N> UNCHECKED
+aneig.	<id>aneig.</id> <disp>uneigentlich - figurative</disp> <N>1</N> CHECKED
+Anf.	<id>Anf.</id> <disp>Anfang - beginning</disp>  <N>197</N> CHECKED
+Ang.	<id>Ang.</id> <disp>Angabe - statement / indication</disp>  <N>13</N> UNCHECKED
+angebl.	<id>angebl.</id> <disp>angeblich - allegedly</disp>  <N>15</N> CHECKED
+angef.	<id>angef.</id> <disp>angeführt - cited</disp>  <N>3</N> CHECKED
+anl.	<id>anl.</id> <disp>anlautend - initial (phonetics)</disp>  <N>1</N> UNCHECKED
+Anm.	<id>Anm.</id> <disp>Anmerkung - annotation, note</disp>  <N>33</N> CHECKED
+Anmm.	<id>Anmm.</id> <disp>Anmerkungen - annotations, notes</disp>  <N>3</N> CHECKED
+Annott.	<id>Annott.</id> <disp>Annotationen - annotations</disp>  <N>1</N> CHECKED
+anom.	<id>anom.</id> <disp>anomal - anomalous</disp>  <N>4</N> CHECKED
+anomal.	<id>anomal.</id> <disp>anomal - anomalous</disp>  <N>1</N> CHECKED
+Ant.	<id>Ant.</id> <disp>Antike - antiquity</disp> <INFER/> <N>1</N> UNCHECKED
+aor.	<id>aor.</id> <disp>Aorist - aorist</disp>  <N>173</N> CHECKED
+Aor.	<id>Aor.</id> <disp>Aorist - aorist</disp>  <N>1</N> CHECKED
+Appell.	<id>Appell.</id> <disp>Appellativum - appellative / common noun</disp>  <N>3</N> UNCHECKED
+appell.	<id>appell.</id> <disp>appellativ - appellative</disp>  <N>13</N> UNCHECKED
+appellat.	<id>appellat.</id> <disp>appellativ - appellative</disp>  <N>2</N> UNCHECKED
+Appos.	<id>Appos.</id> <disp>Apposition - apposition</disp>  <N>1</N> CHECKED
+appos.	<id>appos.</id> <disp>Apposition - apposition</disp>  <N>1</N> CHECKED
+arch.	<id>arch.</id> <disp>archaisch - archaic</disp>  <N>1</N> CHECKED
+Arithm.	<id>Arithm.</id> <disp>Arithmetik - arithmetic</disp>  <N>3</N> CHECKED
+Art.	<id>Art.</id> <disp>Artikel - article (entry)</disp>  <N>33</N> UNCHECKED
+Assimil.	<id>Assimil.</id> <disp>Assimilation - assimilation</disp>  <N>2</N> UNCHECKED
+astr.	<id>astr.</id> <disp>Astronomie - astronomy</disp>  <N>60</N> CHECKED
+astrol.	<id>astrol.</id> <disp>Astrologie - astrology</disp>  <N>46</N> CHECKED
+Astrol.	<id>Astrol.</id> <disp>Astrologie - astrology</disp>  <N>75</N> CHECKED
+astrolog.	<id>astrolog.</id> <disp>astrologisch - astrological</disp>  <N>1</N> CHECKED
+astron.	<id>astron.</id> <disp>Astronomie - astronomy</disp>  <N>16</N> CHECKED
+Astron.	<id>Astron.</id> <disp>Astronomie - astronomy</disp>  <N>4</N> CHECKED
+astronom.	<id>astronom.</id> <disp>astronomisch - astronomical</disp>  <N>2</N> CHECKED
+attribut.	<id>attribut.</id> <disp>attributiv - attributive</disp>  <N>1</N> UNCHECKED
+aufgef.	<id>aufgef.</id> <disp>aufgefasst - understood (as)</disp>  <N>2</N> UNCHECKED
+Aufl.	<id>Aufl.</id> <disp>Auflage - edition / printing</disp>  <N>59</N> CHECKED
+Augm.	<id>Augm.</id> <disp>Augment - augment (verbal prefix a-)</disp>  <N>2</N> UNCHECKED
+Ausdr.	<id>Ausdr.</id> <disp>Ausdruck - expression</disp>  <N>1</N> UNCHECKED
+Ausg.	<id>Ausg.</id> <disp>Ausgabe - edition</disp>  <N>1442</N> CHECKED
+ausg.	<id>ausg.</id> <disp>ausgegeben / ausgesprochen - issued / pronounced</disp> <INFER/> <N>4</N> UNCHECKED
+ausgeh.	<id>ausgeh.</id> <disp>ausgehend - ending in</disp>  <N>5</N> UNCHECKED
+ausgez.	<id>ausgez.</id> <disp>ausgezeichnet - distinguished / marked</disp>  <N>2</N> UNCHECKED
+Ausgg.	<id>Ausgg.</id> <disp>Ausgaben - editions</disp>  <N>204</N> CHECKED
+Ausl.	<id>Ausl.</id> <disp>Auslaut - final sound (phonetics)</disp>  <N>1</N> UNCHECKED
+auslaut.	<id>auslaut.</id> <disp>auslautend - final (phonetics)</disp>  <N>1</N> UNCHECKED
+Ausn.	<id>Ausn.</id> <disp>Ausnahme - exception</disp>  <N>1</N> UNCHECKED
+ausnahmsw.	<id>ausnahmsw.</id> <disp>ausnahmsweise - exceptionally</disp>  <N>1</N> UNCHECKED
+Aut.	<id>Aut.</id> <disp>Autor - author</disp>  <N>383</N> CHECKED
+Autor.	<id>Autor.</id> <disp>Autoren - authors</disp>  <N>13</N> CHECKED
+Autorr.	<id>Autorr.</id> <disp>Autoren - authors</disp>  <N>8</N> CHECKED
+Autt.	<id>Autt.</id> <disp>Auctores - authors (Latin)</disp>  <N>34</N> CHECKED
+Bde.	<id>Bde.</id> <disp>Bänd - volume</disp>  <N>2</N> CHECKED
+Bed.	<id>Bed.</id> <disp>Bedeutung - meaning</disp>  <N>1978</N> CHECKED
+bed.	<id>bed.</id> <disp>Bedeutung - meaning</disp>  <N>20</N> CHECKED
+Bedd.	<id>Bedd.</id> <disp>Bedeutungen - meanings</disp>  <N>189</N> CHECKED
+Bedeut.	<id>Bedeut.</id> <disp>Bedeutung - meaning</disp>  <N>7</N> CHECKED
+Bedeutt.	<id>Bedeutt.</id> <disp>Bedeutungen - meanings</disp>  <N>11</N> CHECKED
+beg.	<id>beg.</id> <disp>beginnt - begins</disp>  <N>1</N> UNCHECKED
+beim.	<id>beim.</id> <disp>Beiname? - epithet  / (preposition) at the</disp> <INFER/> <N>5</N> UNCHECKED
+Beim.	<id>Beim.</id> <disp>Beiname? - epithet</disp>  <N>1</N> UNCHECKED
+Bein.	<id>Bein.</id> <disp>Beiname - epithet, by name</disp>  <N>2625</N> CHECKED
+Beinn.	<id>Beinn.</id> <disp>Beinamen - epithets</disp>  <N>52</N> CHECKED
+Beis.	<id>Beis.</id> <disp>Beisatz - apposition / addition</disp>  <N>1</N> UNCHECKED
+Beisatz.	<id>Beisatz.</id> <disp>Beisatz - apposition</disp>  <N>1</N> UNCHECKED
+Beisp.	<id>Beisp.</id> <disp>Beispiel - example</disp>  <N>8</N> CHECKED
+Beispp.	<id>Beispp.</id> <disp>Beispiele - examples</disp>  <N>2</N> CHECKED
+Beiw.	<id>Beiw.</id> <disp>Beiwort - adjective / attribute</disp>  <N>633</N> UNCHECKED
+Beiww.	<id>Beiww.</id> <disp>beiwohner - attendants</disp>  <N>53</N> CHECKED
+Bemerk.	<id>Bemerk.</id> <disp>Bemerkung - remark</disp>  <N>1</N> UNCHECKED
+Berl.	<id>Berl.</id> <disp>Berliner - Berlin (manuscript / library)</disp>  <N>8</N> UNCHECKED
+Berl. Mpt	<id>Berl. Mpt</id> <disp>Berliner Manuskript - Berlin manuscript</disp>  <N>1</N> UNCHECKED
+bes.	<id>bes.</id> <disp>Besonders  - special, particular</disp>  <N>438</N> CHECKED
+Bes.	<id>Bes.</id> <disp>Besonders  - special, particular</disp>  <N>12</N> CHECKED
+beschr.	<id>beschr.</id> <disp>beschrieben - described</disp>  <N>1</N> UNCHECKED
+besond.	<id>besond.</id> <disp>besonders - especially</disp>  <N>2</N> UNCHECKED
+Besond.	<id>Besond.</id> <disp>besonders - especially</disp>  <N>2</N> UNCHECKED
+bespr.	<id>bespr.</id> <disp>besprochen - discussed</disp>  <N>1</N> UNCHECKED
+best.	<id>best.</id> <disp>bestimmte - a certain (kind of)</disp>  <N>6591</N> CHECKED
+betr.	<id>betr.</id> <disp>betreffend - concerning</disp>  <N>1</N> UNCHECKED
+Bez.	<id>Bez.</id> <disp>Bezeichnung - designation</disp>  <N>4263</N> CHECKED
+bez.	<id>bez.</id> <disp>Bezugnahme - Reference</disp>  <N>4</N> CHECKED
+Bezz.	<id>Bezz.</id> <disp>Bezeichnungen - designations</disp>  <N>13</N> UNCHECKED
+Bild.	<id>Bild.</id> <disp>Bildung - formation</disp>  <N>3</N> UNCHECKED
+Bildl.	<id>Bildl.</id> <disp>bildlich - figurative</disp>  <N>10</N> CHECKED
+bildl.	<id>bildl.</id> <disp>bildlich - figurative</disp>  <N>19</N> CHECKED
+bisw.	<id>bisw.</id> <disp>bisweilen - sometimes</disp>  <N>2</N> UNCHECKED
+buddh.	<id>buddh.</id> <disp>Buddhism - Buddhism</disp>  <N>178</N> CHECKED
+Buddh.	<id>Buddh.</id> <disp>Buddhism - Buddhism</disp>  <N>11</N> CHECKED
+buddhist.	<id>buddhist.</id> <disp>buddhistisch - Buddhist</disp>  <N>1</N> CHECKED
+Calc. Ausg.	<id>Calc. Ausg.</id> <disp>Calcuttaer Ausgabe - Calcutta edition</disp>  <N>156</N> CHECKED
+Capp.	<id>Capp.</id> <disp>Capita - chapters (Latin pl.)</disp>  <N>1</N> UNCHECKED
+card.	<id>card.</id> <disp>cardinal - cardinal (number)</disp>  <N>1</N> UNCHECKED
+cas.	<id>cas.</id> <disp>casus - case (Latin)</disp>  <N>6</N> UNCHECKED
+cass.	<id>cass.</id> <disp>casus - cases (Latin pl.)</disp>  <N>6</N> UNCHECKED
+Casusverh.	<id>Casusverh.</id> <disp>Casusverhältnis - case-relation</disp>  <N>1</N> UNCHECKED
+Caus.	<id>Caus.</id> <disp>Causativ - causative</disp>  <N>10</N> CHECKED
+caus.	<id>caus.</id> <disp>Causativ - causative</disp>  <N>3646</N> CHECKED
+causat.	<id>causat.</id> <disp>Causativ - causative</disp>  <N>1</N> CHECKED
+causs.	<id>causs.</id> <disp>causativa - causatives</disp>  <N>1</N> UNCHECKED
+cfr.	<id>cfr.</id> <disp>confer - compare (Latin)</disp>  <N>1</N> CHECKED
+Char.	<id>Char.</id> <disp>Charakter - character</disp>  <N>1</N> UNCHECKED
+Cit.	<id>Cit.</id> <disp>Citation - citation</disp>  <N>243</N> CHECKED
+cit.	<id>cit.</id> <disp>citiert - cited</disp>  <N>4</N> CHECKED
+class.	<id>class.</id> <disp>klassisch - classical</disp>  <N>1</N> UNCHECKED
+coll.	<id>coll.</id> <disp>Collectiv - collective, collectively</disp>  <N>22</N> CHECKED
+collect.	<id>collect.</id> <disp>Collectiv - collective, collectively</disp>  <N>27</N> CHECKED
+Comm.	<id>Comm.</id> <disp>Commentar - commentary</disp>  <N>2058</N> CHECKED
+Comment.	<id>Comment.</id> <disp>Commentar - commentary</disp>  <N>1</N> CHECKED
+Commentat.	<id>Commentat.</id> <disp>Commentator - commentator</disp>  <N>1</N> CHECKED
+Commentatt.	<id>Commentatt.</id> <disp>Commentatoren - commentators</disp>  <N>5</N> UNCHECKED
+Commentt.	<id>Commentt.</id> <disp>Commentare - commentaries</disp>  <N>13</N> CHECKED
+comp.	<id>comp.</id> <disp>Compositum - compound</disp>  <N>2082</N> CHECKED
+Comp.	<id>Comp.</id> <disp>Compositum - compound</disp>  <N>32</N> CHECKED
+compar.	<id>compar.</id> <disp>Comparativ - comparative</disp>  <N>229</N> CHECKED
+Compar.	<id>Compar.</id> <disp>Comparativ - comparative</disp>  <N>2</N> CHECKED
+comparat.	<id>comparat.</id> <disp>Comparativ - comparative</disp>  <N>9</N> CHECKED
+compon.	<id>compon.</id> <disp>Componente - component</disp>  <N>75</N> CHECKED
+compos.	<id>compos.</id> <disp>Compositum - compound</disp>  <N>4</N> UNCHECKED
+compp.	<id>compp.</id> <disp>composita - compounds</disp>  <N>128</N> CHECKED
+Compp.	<id>Compp.</id> <disp>Composita - compounds</disp>  <N>8</N> CHECKED
+concr.	<id>concr.</id> <disp>konkret - concrete</disp>  <N>24</N> UNCHECKED
+condit.	<id>condit.</id> <disp>konditional / Conditionalis - conditional</disp>  <N>14</N> UNCHECKED
+Condit.	<id>Condit.</id> <disp>Conditionalis - conditional</disp>  <N>1</N> CHECKED
+conj.	<id>conj.</id> <disp>Conjunctiv - subjunctive (mood)</disp>  <N>45</N> CHECKED
+Conj.	<id>Conj.</id> <disp>Conjunctiv - subjunctive (mood)</disp>  <N>160</N> CHECKED
+Conjj.	<id>Conjj.</id> <disp>Conjunctive - conjunctives</disp>  <N>1</N> CHECKED
+Conjug.	<id>Conjug.</id> <disp>Conjugation - conjugation</disp>  <N>1</N> CHECKED
+conjunct.	<id>conjunct.</id> <disp>Conjunctiv - subjunctive</disp>  <N>1</N> UNCHECKED
+Constr.	<id>Constr.</id> <disp>Construction - construction</disp>  <N>3</N> UNCHECKED
+constr.	<id>constr.</id> <disp>construiert - construed</disp>  <N>3</N> UNCHECKED
+coord.	<id>coord.</id> <disp>koordiniert - coordinated</disp>  <N>1</N> UNCHECKED
+cop.	<id>cop.</id> <disp>Kopula - copula</disp>  <N>4</N> UNCHECKED
+copul.	<id>copul.</id> <disp>Copulativ - copulative</disp>  <N>10</N> CHECKED
+copul. comp.	<id>copul. comp.</id> <disp>kopulatives Compositum - copulative compound (dvandva)</disp>  <N>13</N> CHECKED
+copulat.	<id>copulat.</id> <disp>kopulativ - copulative</disp>  <N>7</N> CHECKED
+Corigg.	<id>Corigg.</id> <disp>Corrigenda - corrections (Latin)</disp> <INFER/> <N>2</N> UNCHECKED
+Corr.	<id>Corr.</id> <disp>Corrigendum - correction (Latin)</disp>  <N>5</N> CHECKED
+Correl.	<id>Correl.</id> <disp>Correlativ - correlative</disp>  <N>12</N> CHECKED
+correl.	<id>correl.</id> <disp>Correlativ - correlative</disp>  <N>9</N> CHECKED
+correlat.	<id>correlat.</id> <disp>Correlativ - correlative</disp>  <N>1</N> CHECKED
+Correlat.	<id>Correlat.</id> <disp>Correlativ - correlative</disp>  <N>1</N> CHECKED
+Corrig.	<id>Corrig.</id> <disp>Corrigendum - correction (Latin)</disp>  <N>1</N> CHECKED
+Corrigg.	<id>Corrigg.</id> <disp>Corrigenda - corrections (Latin pl.)</disp>  <N>77</N> CHECKED
+corrigg.	<id>corrigg.</id> <disp>corrigenda - corrigenda</disp>  <N>2</N> UNCHECKED
+Cultus.	<id>Cultus.</id> <disp>Cultus - cult / ritual practice</disp>  <N>1</N> UNCHECKED
+D.	<id>D.</id> <disp>Daselbst - in the same place (ibid.)</disp> <INFER/> <N>38</N> CHECKED
+d.	<id>d.</id> <disp>der / die / das - the (definite article — ambiguous)</disp> <INFER/> <N>72</N> CHECKED
+d. f. W.	<id>d. f. W.</id> <disp>das folgende Wort - the following word</disp>  <N>2</N> UNCHECKED
+d. fg. W.	<id>d. fg. W.</id> <disp>das folgende Wort - the following word</disp>  <N>3</N> CHECKED
+d. folg. W.	<id>d. folg. W.</id> <disp>das folgende Wort - the following word</disp>  <N>17</N> CHECKED
+d. h.	<id>d. h.</id> <disp>das heisst - that means</disp>  <N>378</N> CHECKED
+d. i.	<id>d. i.</id> <disp>das ist - i.e. id est - that is</disp>  <N>1441</N> CHECKED
+d. l. W.	<id>d. l. W.</id> <disp>das letzte Wort - the last word</disp> <INFER/> <N>1</N> CHECKED
+d. St.	<id>d. St.</id> <disp>die Stelle - the passage</disp>  <N>82</N> UNCHECKED
+d. vorherg. W.	<id>d. vorherg. W.</id> <disp>das vorhergehende Wort - the preceding word</disp>  <N>2</N> CHECKED
+d. W.	<id>d. W.</id> <disp>das Wort - the word</disp>  <N>44</N> CHECKED
+d. Ww.	<id>d. Ww.</id> <disp>die Wörter - the words</disp>  <N>11</N> CHECKED
+da.	<id>da.</id> <disp>daselbst - in the same place</disp>  <N>3</N> UNCHECKED
+dag.	<id>dag.</id> <disp>dagegen - on the other hand</disp>  <N>1</N> UNCHECKED
+danom. abstr.	<id>danom. abstr.</id> <disp>denominales Abstraktum - denominal abstract noun</disp> <INFER/> <N>1</N> UNCHECKED
+Das.	<id>Das.</id> <disp>daselbst - at that same place</disp>  <N>2</N> CHECKED
+das.	<id>das.</id> <disp>daselbst - at that same place</disp>  <N>56</N> CHECKED
+dass.	<id>dass.</id> <disp>dasselbe - the same</disp>  <N>3827</N> CHECKED
+Dat.	<id>Dat.</id> <disp>Dativ - dative (case)</disp>  <N>1</N> CHECKED
+dat.	<id>dat.</id> <disp>Dativ - dative (case)</disp>  <N>466</N> CHECKED
+datt.	<id>datt.</id> <disp>Dative - datives</disp>  <N>1</N> CHECKED
+dazw.	<id>dazw.</id> <disp>dazwischen - between</disp>  <N>2</N> CHECKED
+dd.	<id>dd.</id> <disp>die beiden - the two</disp>  <N>3</N> UNCHECKED
+dd. Ww.	<id>dd. Ww.</id> <disp>die beiden Wörter - the two words</disp>  <N>2</N> CHECKED
+Dec.	<id>Dec.</id> <disp>December - December</disp>  <N>1</N> CHECKED
+decl.	<id>decl.</id> <disp>Declination - declension</disp>  <N>3</N> CHECKED
+Decl.	<id>Decl.</id> <disp>Declination - declension</disp>  <N>30</N> CHECKED
+Declin.	<id>Declin.</id> <disp>Declination - declension</disp>  <N>31</N> CHECKED
+declin.	<id>declin.</id> <disp>Declination - declension</disp>  <N>2</N> CHECKED
+defect.	<id>defect.</id> <disp>defectiv - defective</disp>  <N>1</N> UNCHECKED
+defin.	<id>defin.</id> <disp>definit - definite</disp>  <N>2</N> UNCHECKED
+dem.	<id>dem.</id> <disp>Demonstrativ - demonstrative</disp>  <N>6</N> UNCHECKED
+demin.	<id>demin.</id> <disp>Deminutiv - diminutive</disp>  <N>61</N> CHECKED
+deminn.	<id>deminn.</id> <disp>Deminutive - diminutives</disp>  <N>1</N> CHECKED
+demonstr.	<id>demonstr.</id> <disp>Demonstrativ - demonstrative</disp>  <N>14</N> CHECKED
+demonstratt.	<id>demonstratt.</id> <disp>Demonstrativa - demonstratives</disp>  <N>1</N> CHECKED
+demonstrr.	<id>demonstrr.</id> <disp>Demonstrativa - demonstratives</disp>  <N>2</N> CHECKED
+dems.	<id>dems.</id> <disp>demselben - to the same</disp>  <N>3</N> UNCHECKED
+Denom.	<id>Denom.</id> <disp>Denominativ - denominative</disp>  <N>3</N> CHECKED
+denom.	<id>denom.</id> <disp>Denominativ - denominative</disp>  <N>268</N> CHECKED
+denomin.	<id>denomin.</id> <disp>denominativ - denominative</disp>  <N>5</N> CHECKED
+denominn.	<id>denominn.</id> <disp>denominativa - denominatives</disp>  <N>1</N> CHECKED
+denomm.	<id>denomm.</id> <disp>denominativa - denominatives</disp>  <N>2</N> CHECKED
+dergen.	<id>dergen.</id> <disp>dergleichen (Genitiv) - of the like</disp> <INFER/> <N>1</N> UNCHECKED
+dergl.	<id>dergl.</id> <disp>dergleichen - the like, similar</disp>  <N>33</N> CHECKED
+deriv.	<id>deriv.</id> <disp>Derivat - derivative</disp>  <N>1</N> UNCHECKED
+derivv.	<id>derivv.</id> <disp>Derivata - derivatives</disp>  <N>1</N> UNCHECKED
+Derivv.	<id>Derivv.</id> <disp>Derivata - derivatives</disp>  <N>1</N> UNCHECKED
+ders.	<id>ders.</id> <disp>derselben - the same</disp>  <N>312</N> CHECKED
+Ders.	<id>Ders.</id> <disp>derselbe - the same (m.)</disp>  <N>1</N> CHECKED
+derselb.	<id>derselb.</id> <disp>derselbe - the same</disp>  <N>3</N> CHECKED
+des.	<id>des.</id> <disp>desselben - of the same</disp>  <N>10</N> CHECKED
+desgl.	<id>desgl.</id> <disp>desgleichen - likewise</disp>  <N>876</N> CHECKED
+Desid.	<id>Desid.</id> <disp>Desiderativ - desiderative</disp>  <N>9</N> CHECKED
+desid.	<id>desid.</id> <disp>Desiderativ - desiderative</disp>  <N>748</N> CHECKED
+desider.	<id>desider.</id> <disp>Desiderativ - desiderative</disp>  <N>6</N> CHECKED
+dess.	<id>dess.</id> <disp>desselben - of the same</disp>  <N>2</N> CHECKED
+desselb.	<id>desselb.</id> <disp>desselben - of the same</disp>  <N>1</N> CHECKED
+dgl.	<id>dgl.</id> <disp>desgleichen - likewise</disp>  <N>62</N> CHECKED
+dies.	<id>dies.</id> <disp>dieser - this</disp>  <N>34</N> CHECKED
+dies. St.	<id>dies. St.</id> <disp>diese Stelle - this passage</disp>  <N>1</N> UNCHECKED
+diesem.	<id>diesem.</id> <disp>diesem - to this</disp>  <N>1</N> CHECKED
+diess.	<id>diess.</id> <disp>dieses (older sp.) - this (n., older sp.)</disp>  <N>133</N> UNCHECKED
+Dioscor.	<id>Dioscor.</id> <disp>Dioscorides - Dioscorides (Greek pharmacologist)</disp>  <N>1</N> UNCHECKED
+dist.	<id>dist.</id> <disp>Distich - distich</disp>  <N>1</N> UNCHECKED
+Dist.	<id>Dist.</id> <disp>Distich - distich (two-line verse)</disp>  <N>1</N> UNCHECKED
+distr.	<id>distr.</id> <disp>distributiv - distributive</disp>  <N>1</N> UNCHECKED
+distrib.	<id>distrib.</id> <disp>distributiv - distributive</disp>  <N>1</N> UNCHECKED
+dopp.	<id>dopp.</id> <disp>doppelt - double</disp>  <N>51</N> CHECKED
+Dramat.	<id>Dramat.</id> <disp>Dramatik - drama / dramatic literature</disp>  <N>6</N> UNCHECKED
+Du.	<id>Du.</id> <disp>Dual - dual </disp>  <N>5</N> CHECKED
+du.	<id>du.</id> <disp>Dual - dual </disp>  <N>477</N> CHECKED
+ebd.	<id>ebd.</id> <disp>ebenda - in the same place</disp>  <N>1</N> UNCHECKED
+eben.	<id>eben.</id> <disp>ebenso - likewise</disp>  <N>5</N> UNCHECKED
+ebend.	<id>ebend.</id> <disp>ebenda - ibid. (ibidem) - in the same source</disp>  <N>2412</N> CHECKED
+ed.	<id>ed.</id> <disp>- edition</disp>  <N>96</N> CHECKED
+edend.	<id>edend.</id> <disp>edendum - to be edited</disp>  <N>1</N> UNCHECKED
+eig.	<id>eig.</id> <disp>eigentlich - literally</disp>  <N>214</N> CHECKED
+Eig.	<id>Eig.</id> <disp>eigentlich - literally</disp>  <N>2</N> CHECKED
+Eigenn.	<id>Eigenn.</id> <disp>Eigenname - proper name</disp>  <N>1</N> CHECKED
+eigentl.	<id>eigentl.</id> <disp>eigentlich - literally</disp>  <N>5</N> CHECKED
+einf.	<id>einf.</id> <disp>einfach - simple</disp>  <N>3</N> UNCHECKED
+Einl.	<id>Einl.</id> <disp>Einleitung - introduction</disp>  <N>483</N> CHECKED
+Einsch.	<id>Einsch.</id> <disp>Einschiebsel - insertion</disp>  <N>1</N> UNCHECKED
+Einschieb.	<id>Einschieb.</id> <disp>Einschiebung - insertion</disp>  <N>9</N> UNCHECKED
+einschl.	<id>einschl.</id> <disp>einschließlich - inclusively</disp>  <N>1</N> UNCHECKED
+einz.	<id>einz.</id> <disp>einzeln - individual / single</disp>  <N>1</N> UNCHECKED
+elid.	<id>elid.</id> <disp>elidiert - elided</disp>  <N>1</N> UNCHECKED
+ellipt.	<id>ellipt.</id> <disp>elliptisch - elliptic</disp>  <N>1</N> UNCHECKED
+Emend.	<id>Emend.</id> <disp>Emendation - emendation</disp>  <N>1</N> UNCHECKED
+encl.	<id>encl.</id> <disp>enklitisch - enclitic</disp>  <N>1</N> UNCHECKED
+enclit.	<id>enclit.</id> <disp>enklitisch - enclitic</disp>  <N>3</N> UNCHECKED
+End.	<id>End.</id> <disp>Endung - ending</disp>  <N>3</N> UNCHECKED
+engl.	<id>engl.</id> <disp>englisch - English</disp>  <N>6</N> CHECKED
+enklit.	<id>enklit.</id> <disp>enklitisch - enclitic</disp>  <N>12</N> CHECKED
+entspr.	<id>entspr.</id> <disp>entspricht - corresponds to</disp>  <N>16</N> CHECKED
+Epith.	<id>Epith.</id> <disp>Epitheton - epithet</disp>  <N>1</N> UNCHECKED
+erg.	<id>erg.</id> <disp>ergänze - supply (imperative)</disp>  <N>4</N> UNCHECKED
+Erg.	<id>Erg.</id> <disp>Ergänzung - supplement / completion</disp>  <N>1</N> UNCHECKED
+Ergänz.	<id>Ergänz.</id> <disp>Ergänzung - supplement</disp>  <N>3</N> UNCHECKED
+Erkl.	<id>Erkl.</id> <disp>Erklärung - explanation</disp>  <N>250</N> CHECKED
+erkl.	<id>erkl.</id> <disp>erklärt - explained</disp>  <N>1</N> CHECKED
+Erkll.	<id>Erkll.</id> <disp>Erklärungen - explanations</disp>  <N>21</N> CHECKED
+Erklär.	<id>Erklär.</id> <disp>Erklärung - explanation</disp>  <N>6</N> CHECKED
+Erklärr.	<id>Erklärr.</id> <disp>Erklärungen - explanations</disp>  <N>1</N> CHECKED
+Erll.	<id>Erll.</id> <disp>Erklärungen - explanations (variant)</disp>  <N>17</N> CHECKED
+Erläutt.	<id>Erläutt.</id> <disp>Erläuterungen - elucidations</disp>  <N>3</N> CHECKED
+Es.	<id>Es.</id> <disp>? - ?</disp> <INFER/> <N>2</N> UNCHECKED
+etc.	<id>etc.</id> <disp>et cetera - and so forth</disp>  <N>48</N> CHECKED
+etym.	<id>etym.</id> <disp>Etymologie - etymology</disp>  <N>42</N> CHECKED
+Etym.	<id>Etym.</id> <disp>Etymologie - etymology</disp>  <N>35</N> CHECKED
+etymol.	<id>etymol.</id> <disp>Etymologie - etymology</disp>  <N>2</N> CHECKED
+euph.	<id>euph.</id> <disp>Euphemismus - euphemism</disp>  <N>1</N> CHECKED
+euphem.	<id>euphem.</id> <disp>Euphemismus - euphemism</disp>  <N>18</N> CHECKED
+Euphem.	<id>Euphem.</id> <disp>Euphemismus - euphemism</disp>  <N>1</N> CHECKED
+explet.	<id>explet.</id> <disp>expletiv - expletive</disp>  <N>1</N> CHECKED
+f.	<id>f.</id> <disp>femininum - feminine</disp>  <N>0</N> CHECKED
+fehlerh.	<id>fehlerh.</id> <disp>fehlerhaft - erroneous</disp>  <N>1</N> CHECKED
+Fem.	<id>Fem.</id> <disp>femininum - feminine</disp>  <N>3</N> CHECKED
+femm.	<id>femm.</id> <disp>feminina - feminines</disp>  <N>1</N> CHECKED
+fg.	<id>fg.</id> <disp>folgend - following</disp>  <N>591</N> CHECKED
+fgg.	<id>fgg.</id> <disp>folgende - the following (pl.)</disp>  <N>591</N> CHECKED
+fgg. Ww.	<id>fgg. Ww.</id> <disp>folgende Wörter - following words</disp>  <N>1</N> CHECKED
+fig.	<id>fig.</id> <disp>figürlich - figurative</disp>  <N>1</N> CHECKED
+fin.	<id>fin.</id> <disp>finit - finite</disp>  <N>14</N> CHECKED
+folg.	<id>folg.</id> <disp>folgend - following</disp>  <N>264</N> CHECKED
+Folg.	<id>Folg.</id> <disp>Folgendes - the following</disp>  <N>1</N> CHECKED
+folg. W.	<id>folg. W.</id> <disp>folgendes Wort - the following word</disp>  <N>8</N> CHECKED
+folg. Ww.	<id>folg. Ww.</id> <disp>folgende Wörter - the following words</disp>  <N>2</N> CHECKED
+folgend.	<id>folgend.</id> <disp>folgend - following</disp>  <N>3</N> CHECKED
+folgg.	<id>folgg.</id> <disp>folgende - the following (pl.)</disp>  <N>22</N> CHECKED
+folgg. Ww.	<id>folgg. Ww.</id> <disp>folgende Wörter - the following words</disp>  <N>2</N> CHECKED
+franz.	<id>franz.</id> <disp>französisch - French</disp>  <N>5</N> CHECKED
+fut.	<id>fut.</id> <disp>Futurum - Future (tense)</disp>  <N>216</N> CHECKED
+Fut.	<id>Fut.</id> <disp>Futurum - Future (tense)</disp>  <N>2</N> CHECKED
+futt.	<id>futt.</id> <disp>Futura - futures</disp>  <N>1</N> CHECKED
+geb.	<id>geb.</id> <disp>geboren - born</disp>  <N>1</N> UNCHECKED
+gebr.	<id>gebr.</id> <disp>gebraucht - used</disp>  <N>1</N> UNCHECKED
+geder.	<id>geder.</id> <disp>gedeutet? - interpreted (?)</disp> <INFER/> <N>1</N> UNCHECKED
+gedr.	<id>gedr.</id> <disp>gedruckte - printed</disp>  <N>572</N> CHECKED
+Gegend.	<id>Gegend.</id> <disp>Gegende - region</disp> <INFER/> <N>6</N> CHECKED
+Gegens.	<id>Gegens.</id> <disp>Gegensatz - contrast</disp>  <N>1235</N> CHECKED
+Gegenss.	<id>Gegenss.</id> <disp>Gegensätze - opposites</disp>  <N>1</N> CHECKED
+Gegenst.	<id>Gegenst.</id> <disp>Gegenstand - object</disp>  <N>1</N> UNCHECKED
+gehör.	<id>gehör.</id> <disp>gehörig - belonging to</disp>  <N>1</N> UNCHECKED
+Gen.	<id>Gen.</id> <disp>Genitiv - genitive (case)</disp>  <N>8</N> CHECKED
+gen.	<id>gen.</id> <disp>Genitiv - genitive (case)</disp>  <N>1101</N> CHECKED
+genit.	<id>genit.</id> <disp>Genitiv - genitive</disp>  <N>1</N> CHECKED
+genitt.	<id>genitt.</id> <disp>Genitive - genitives</disp>  <N>1</N> CHECKED
+genn.	<id>genn.</id> <disp>genera - genders / kinds</disp> <INFER/> <N>2</N> UNCHECKED
+geogr.	<id>geogr.</id> <disp>geographisch - geographical</disp>  <N>2</N> CHECKED
+Geom.	<id>Geom.</id> <disp>Geometrie - geometry</disp>  <N>4</N> CHECKED
+ger.	<id>ger.</id> <disp>Gerundium - gerund</disp>  <N>6</N> CHECKED
+Gerichtsspr.	<id>Gerichtsspr.</id> <disp>Gerichtssprache - legal language</disp>  <N>3</N> CHECKED
+gerund.	<id>gerund.</id> <disp>Gerundium - gerund</disp>  <N>42</N> CHECKED
+Geschl.	<id>Geschl.</id> <disp>Geschlecht - gender / lineage</disp>  <N>1</N> UNCHECKED
+geschr.	<id>geschr.</id> <disp>geschrieben - written</disp>  <N>36</N> CHECKED
+gespr.	<id>gespr.</id> <disp>gesprochen - spoken</disp>  <N>1</N> CHECKED
+gew.	<id>gew.</id> <disp>gewöhnlich - usually</disp>  <N>25</N> CHECKED
+gezwung.	<id>gezwung.</id> <disp>gezwungen - forced</disp>  <N>1</N> UNCHECKED
+Gr.	<id>Gr.</id> <disp>Grammatik - grammar</disp> <INFER/> <N>4</N> CHECKED
+Gramm.	<id>Gramm.</id> <disp>Grammatik - grammar</disp>  <N>47</N> CHECKED
+gramm.	<id>gramm.</id> <disp>Grammatik - grammar</disp>  <N>57</N> CHECKED
+grammat.	<id>grammat.</id> <disp>grammatisch - grammatical</disp>  <N>7</N> CHECKED
+Grammat.	<id>Grammat.</id> <disp>Grammatik - grammar</disp>  <N>1</N> CHECKED
+Hamb. Hdschrr.	<id>Hamb. Hdschrr.</id> <disp>Hamburger Handschriften - Hamburg manuscripts</disp>  <N>1</N> CHECKED
+Handschr.	<id>Handschr.</id> <disp>Handschrift - manuscript</disp>  <N>9</N> CHECKED
+Handschrr.	<id>Handschrr.</id> <disp>Handschrift - manuscript</disp>  <N>14</N> CHECKED
+Hdchr.	<id>Hdchr.</id> <disp>Handschrift - manuscript (variant spelling)</disp> <INFER/> <N>1</N> UNCHECKED
+Hdschr.	<id>Hdschr.</id> <disp>Handschrift - manuscript</disp>  <N>169</N> CHECKED
+Hdschrr.	<id>Hdschrr.</id> <disp>Handschrifte - manuscripts</disp>  <N>146</N> CHECKED
+Hdsichr.	<id>Hdsichr.</id> <disp>Handschrift - manuscript (likely typo)</disp> <INFER/> <N>1</N> UNCHECKED
+Hem.	<id>Hem.</id> <disp>Hemacandra - Hemacandra (Sanskrit lexicographer)</disp> <INFER/> <N>2</N> UNCHECKED
+herausg.	<id>herausg.</id> <disp>herausgegeben - edited by</disp>  <N>6</N> CHECKED
+Hypokor.	<id>Hypokor.</id> <disp>Hypokoristikum - hypocoristic (term of endearment)</disp>  <N>1</N> UNCHECKED
+Hypokorr.	<id>Hypokorr.</id> <disp>Hypokoristiken - hypocoristics</disp>  <N>1</N> UNCHECKED
+i. e.	<id>i. e.</id> <disp>id est - that is (Latin)</disp>  <N>5</N> CHECKED
+ibid.	<id>ibid.</id> <disp>ibidem - in the same place (Latin)</disp>  <N>32</N> CHECKED
+id.	<id>id.</id> <disp>idem - the same (Latin)</disp>  <N>27</N> CHECKED
+ident.	<id>ident.</id> <disp>identisch - identical</disp>  <N>2</N> UNCHECKED
+identif.	<id>identif.</id> <disp>identifiziert - identified</disp>  <N>11</N> UNCHECKED
+Identif.	<id>Identif.</id> <disp>Identifikation - identification</disp>  <N>1</N> UNCHECKED
+Imacc.	<id>Imacc.</id> <disp>Imaccusativ - in the Accusative</disp> <INFER/> <N>1</N> CHECKED
+imp.	<id>imp.</id> <disp>Imperativ - imperative</disp>  <N>2</N> CHECKED
+imper.	<id>imper.</id> <disp>Imperativ - imperative</disp>  <N>19</N> CHECKED
+imperat.	<id>imperat.</id> <disp>Imperativ - imperative</disp>  <N>87</N> CHECKED
+imperf.	<id>imperf.</id> <disp>Imperfectum - imperfect</disp>  <N>61</N> CHECKED
+Imperf.	<id>Imperf.</id> <disp>Imperfektum - imperfect tense</disp>  <N>1</N> CHECKED
+impers.	<id>impers.</id> <disp>impersonal - impersonal</disp>  <N>257</N> UNCHECKED
+imperson.	<id>imperson.</id> <disp>impersonal - impersonal</disp>  <N>1</N> UNCHECKED
+Impl.	<id>Impl.</id> <disp>Implizit - implicit </disp> <INFER/> <N>1</N> UNCHECKED
+incl.	<id>incl.</id> <disp>inklusive - inclusive</disp>  <N>2</N> UNCHECKED
+incomp.	<id>incomp.</id> <disp>incompositum - non-compound</disp>  <N>1</N> UNCHECKED
+Incomp.	<id>Incomp.</id> <disp>Incompositum - non-compound</disp>  <N>1</N> UNCHECKED
+ind.	<id>ind.</id> <disp>indisch / Indikativ - Indian / indicative</disp> <INFER/> <N>34</N> UNCHECKED
+Ind.	<id>Ind.</id> <disp>Indien / indisch - India / Indian</disp> <INFER/> <N>77</N> UNCHECKED
+indecl.	<id>indecl.</id> <disp>Indeclinabilum - indeclinable</disp>  <N>139</N> CHECKED
+indecll.	<id>indecll.</id> <disp>indeclinabilia - indeclinables</disp>  <N>4</N> CHECKED
+Indecll.	<id>Indecll.</id> <disp>Indeclinabilia - indeclinables</disp>  <N>1</N> CHECKED
+indef.	<id>indef.</id> <disp>Indefiniter - indefinite</disp>  <N>9</N> CHECKED
+indefin.	<id>indefin.</id> <disp>indefinit - indefinite</disp>  <N>4</N> CHECKED
+indic.	<id>indic.</id> <disp>Indikativ - indicative</disp>  <N>2</N> UNCHECKED
+Inf.	<id>Inf.</id> <disp>Infinitiv - infinitive</disp>  <N>1</N> CHECKED
+inf.	<id>inf.</id> <disp>Infinitiv - infinitive</disp>  <N>94</N> CHECKED
+infin.	<id>infin.</id> <disp>Infinitiv - infinitive</disp>  <N>266</N> CHECKED
+Infin.	<id>Infin.</id> <disp>Infinitiv - infinitive</disp>  <N>1</N> CHECKED
+infinit.	<id>infinit.</id> <disp>Infinitiv - infinitive</disp>  <N>5</N> CHECKED
+Inhaltsv.	<id>Inhaltsv.</id> <disp>Inhaltsverzeichnis - table of contents</disp>  <N>1</N> CHECKED
+Inhaltsverz.	<id>Inhaltsverz.</id> <disp>Inhaltsverzeichnis - table of contents</disp>  <N>3</N> CHECKED
+insb.	<id>insb.</id> <disp>insbesondere - in particular</disp>  <N>5</N> CHECKED
+insbes.	<id>insbes.</id> <disp>insbesondere - in particular</disp>  <N>427</N> CHECKED
+Insbes.	<id>Insbes.</id> <disp>insbesondere - in particular</disp>  <N>52</N> CHECKED
+Inschr.	<id>Inschr.</id> <disp>Inschrift - inscription</disp>  <N>559</N> CHECKED
+Inschrr.	<id>Inschrr.</id> <disp>Inschriften - inscriptions</disp>  <N>1</N> CHECKED
+insens.	<id>insens.</id> <disp>in sensu - in the sense (of) (Latin)</disp>  <N>2</N> UNCHECKED
+Instr.	<id>Instr.</id> <disp>Instrumental - instrumental (case)</disp>  <N>11</N> CHECKED
+instr.	<id>instr.</id> <disp>Instrumental - instrumental (case)</disp>  <N>981</N> CHECKED
+instrans.	<id>instrans.</id> <disp>intransitiv (typo) - intransitive (likely typo)</disp> <INFER/> <N>1</N> UNCHECKED
+instrr.	<id>instrr.</id> <disp>Instrumentalia - instrumentals</disp>  <N>2</N> CHECKED
+Intens.	<id>Intens.</id> <disp>Intensiv - intensive</disp>  <N>2</N> CHECKED
+intens.	<id>intens.</id> <disp>Intensiv - intensive</disp>  <N>438</N> CHECKED
+Interj.	<id>Interj.</id> <disp>Interjection - interjection </disp>  <N>3</N> CHECKED
+interj.	<id>interj.</id> <disp>Interjection - interjection </disp>  <N>0</N> CHECKED
+Interpol.	<id>Interpol.</id> <disp>Interpolation - interpolation</disp>  <N>1</N> UNCHECKED
+Interpr.	<id>Interpr.</id> <disp>Interpretation - interpretation</disp>  <N>1</N> UNCHECKED
+interr.	<id>interr.</id> <disp>Interrogativ - interrogative</disp>  <N>21</N> CHECKED
+interrog.	<id>interrog.</id> <disp>Interrogativ - interrogative</disp>  <N>13</N> CHECKED
+interrogatt.	<id>interrogatt.</id> <disp>interrogativa - interrogatives</disp>  <N>1</N> CHECKED
+interrogg.	<id>interrogg.</id> <disp>interrogativa - interrogatives</disp>  <N>1</N> CHECKED
+intr.	<id>intr.</id> <disp>intransitiv - intransitive</disp>  <N>7</N> UNCHECKED
+intrans.	<id>intrans.</id> <disp>intransitiv - intransitive</disp>  <N>92</N> CHECKED
+intransit.	<id>intransit.</id> <disp>intransitiv - intransitive</disp>  <N>6</N> CHECKED
+Jahrh.	<id>Jahrh.</id> <disp>jahrhundert - century</disp>  <N>18</N> CHECKED
+Jmd.	<id>Jmd.</id> <disp>Jmden - someone</disp>  <N>6</N> CHECKED
+jur.	<id>jur.</id> <disp>juridisch - juridical / legal</disp>  <N>4</N> UNCHECKED
+Kap.	<id>Kap.</id> <disp>Kapitel - chapter</disp>  <N>4</N> UNCHECKED
+Kat.	<id>Kat.</id> <disp>Katalog - catalog</disp>  <N>3</N> UNCHECKED
+Kl.	<id>Kl.</id> <disp>Klasse - (verb) class</disp>  <N>11</N> UNCHECKED
+körperl.	<id>körperl.</id> <disp>körperlich - bodily</disp>  <N>1</N> UNCHECKED
+lang.	<id>lang.</id> <disp>langer Vocal / Sprache - long vowel / language</disp> <INFER/> <N>1</N> UNCHECKED
+Lexicc.	<id>Lexicc.</id> <disp>Lexici - lexica (Latin gen.pl.)</disp>  <N>1</N> UNCHECKED
+Lexicogr.	<id>Lexicogr.</id> <disp>Lexicograph - lexicographer</disp>  <N>2</N> CHECKED
+Lexicogrr.	<id>Lexicogrr.</id> <disp>Lexicographen - lexicographers</disp>  <N>37</N> CHECKED
+Lexx.	<id>Lexx.</id> <disp>Lexica - lexica (Latin pl.)</disp>  <N>1</N> UNCHECKED
+Lit.	<id>Lit.</id> <disp>Literatur - literature</disp>  <N>3</N> UNCHECKED
+lith.	<id>lith.</id> <disp>lithografisch - lithographic</disp>  <N>13</N> CHECKED
+Litt.	<id>Litt.</id> <disp>literarisch - literary</disp>  <N>1</N> UNCHECKED
+liturg.	<id>liturg.</id> <disp>liturgisch - liturgical</disp>  <N>11</N> CHECKED
+Loc.	<id>Loc.</id> <disp>Locativ - locative case</disp>  <N>9</N> CHECKED
+loc.	<id>loc.</id> <disp>Locativ - locative case</disp>  <N>1249</N> CHECKED
+locc.	<id>locc.</id> <disp>Locativa - locatives</disp>  <N>3</N> UNCHECKED
+log.	<id>log.</id> <disp>logisch - logical</disp>  <N>2</N> UNCHECKED
+m.	<id>m.</id> <disp>masculinum - masculine</disp>  <N>0</N> CHECKED
+mannigf.	<id>mannigf.</id> <disp>mannigfaltig - manifold / various</disp>  <N>1</N> UNCHECKED
+Mannsn.	<id>Mannsn.</id> <disp>Mannsname - man&#39;s name</disp>  <N>1</N> UNCHECKED
+masc.	<id>masc.</id> <disp>masculinum - masculine</disp>  <N>207</N> CHECKED
+Math.	<id>Math.</id> <disp>Mathematik - mathematics</disp>  <N>3</N> CHECKED
+math.	<id>math.</id> <disp>Mathematik - mathematics</disp>  <N>1</N> CHECKED
+mathem.	<id>mathem.</id> <disp>Mathematik - mathematics</disp>  <N>7</N> CHECKED
+Mathem.	<id>Mathem.</id> <disp>Mathematik - mathematics</disp>  <N>3</N> CHECKED
+Mathemm.	<id>Mathemm.</id> <disp>Mathematiker - mathematicians</disp>  <N>8</N> CHECKED
+med.	<id>med.</id> <disp>Medizin - medicine</disp>  <N>1933</N> CHECKED
+medic.	<id>medic.</id> <disp>medicinisch - medicinal / medical</disp>  <N>67</N> CHECKED
+Medic.	<id>Medic.</id> <disp>medicinisch - medicinal / medical</disp>  <N>1</N> CHECKED
+met.	<id>met.</id> <disp>metonymisch / metaphorisch - metonymical / metaphorical</disp> <INFER/> <N>1</N> UNCHECKED
+meton.	<id>meton.</id> <disp>metonymisch - metonymical</disp>  <N>1</N> UNCHECKED
+metonym.	<id>metonym.</id> <disp>metonymisch - metonymical</disp>  <N>1</N> UNCHECKED
+metr.	<id>metr.</id> <disp>metrisch - metrical</disp>  <N>3</N> UNCHECKED
+metron.	<id>metron.</id> <disp>Metronym - metronym</disp>  <N>214</N> CHECKED
+metronn.	<id>metronn.</id> <disp>Metronyme - metronyms</disp>  <N>1</N> CHECKED
+mineral.	<id>mineral.</id> <disp>mineralogisch - mineralogical</disp>  <N>1</N> UNCHECKED
+mitact.	<id>mitact.</id> <disp>mit dem Activum - with the active voice</disp>  <N>1</N> UNCHECKED
+mitfolg.	<id>mitfolg.</id> <disp>mit folgendem - with following</disp>  <N>1</N> UNCHECKED
+moral.	<id>moral.</id> <disp>moralisch - moral</disp>  <N>3</N> UNCHECKED
+Mpt.	<id>Mpt.</id> <disp>Manuskript - manuscript</disp>  <N>3</N> UNCHECKED
+Mspt.	<id>Mspt.</id> <disp>Manuskript - manuscript</disp>  <N>1</N> UNCHECKED
+Mss.	<id>Mss.</id> <disp>manuskripte - manuscripts</disp>  <N>2</N> CHECKED
+musik.	<id>musik.</id> <disp>Musikalität, musikalisch  - music, musicla</disp>  <N>32</N> CHECKED
+myst.	<id>myst.</id> <disp>mystisch - mystical</disp>  <N>22</N> CHECKED
+myth.	<id>myth.</id> <disp>mythologisch - mythological</disp>  <N>2</N> CHECKED
+Myth.	<id>Myth.</id> <disp>Mythologie - mythology</disp>  <N>1</N> CHECKED
+Mythol.	<id>Mythol.</id> <disp>Mythologie - mythology</disp>  <N>3</N> CHECKED
+mythol.	<id>mythol.</id> <disp>mythologisch - mythological</disp>  <N>2</N> CHECKED
+N.	<id>N.</id> <disp>Namen - name</disp>  <N>5372</N> CHECKED
+n.	<id>n.</id> <disp>neutrum - neuter</disp>  <N>0</N> CHECKED
+n. abstr.	<id>n. abstr.</id> <disp>nomen abstractum - abstract noun</disp>  <N>1</N> CHECKED
+N. abstr.	<id>N. abstr.</id> <disp>Nomen abstractum - abstract noun</disp>  <N>1</N> CHECKED
+N. appell.	<id>N. appell.</id> <disp>Nomen appellativum - appellative / common noun</disp>  <N>1</N> UNCHECKED
+n. Chr.	<id>n. Chr.</id> <disp>nach Christus - after Christ</disp>  <N>1</N> CHECKED
+N. pr.	<id>N. pr.</id> <disp>Nomen proprium - proper noun</disp>  <N>17791</N> CHECKED
+n. pr.	<id>n. pr.</id> <disp>nomen proprium - proper noun</disp>  <N>40</N> CHECKED
+N. Pr.	<id>N. Pr.</id> <disp>Nomen proprium - proper noun</disp>  <N>5</N> CHECKED
+N.N.	<id>N.N.</id> <disp>nomwn nominandum - name to be named</disp>  <N>1</N> CHECKED
+nachf.	<id>nachf.</id> <disp>nachfolgend - subsequent</disp>  <N>2</N> CHECKED
+nachfolg.	<id>nachfolg.</id> <disp>nachfolgend - subsequent</disp>  <N>1</N> CHECKED
+Nachk.	<id>Nachk.</id> <disp>Nachkomme - descendant</disp>  <N>1</N> UNCHECKED
+Nachtr.	<id>Nachtr.</id> <disp>Nachtrag - addendum</disp>  <N>1</N> CHECKED
+Nachtrr.	<id>Nachtrr.</id> <disp>Nachträge - addenda</disp>  <N>2</N> CHECKED
+nam.	<id>nam.</id> <disp>namentlich - especially / by name</disp>  <N>8</N> CHECKED
+namentl.	<id>namentl.</id> <disp>namentlich - especially / by name</disp>  <N>11</N> CHECKED
+Nebenf.	<id>Nebenf.</id> <disp>Nebenform - secondary / variant form</disp>  <N>1</N> CHECKED
+neg.	<id>neg.</id> <disp>negativ - negative</disp>  <N>8</N> CHECKED
+Neg.	<id>Neg.</id> <disp>Negativ - negative</disp>  <N>17</N> CHECKED
+negat.	<id>negat.</id> <disp>negativ - negative</disp>  <N>4</N> CHECKED
+Negat.	<id>Negat.</id> <disp>Negativ - negative</disp>  <N>2</N> CHECKED
+neutr.	<id>neutr.</id> <disp>Neutrum - neuter</disp>  <N>276</N> CHECKED
+niedrig.	<id>niedrig.</id> <disp>niedrig - low / base (style)</disp> <INFER/> <N>3</N> UNCHECKED
+Nn.	<id>Nn.</id> <disp>Nomina - names</disp>  <N>4</N> CHECKED
+Nn. prr.	<id>Nn. prr.</id> <disp>Nomina propria - proper nouns (Latin pl.)</disp>  <N>8</N> CHECKED
+Nom.	<id>Nom.</id> <disp>Nominativ - nominative (case)</disp>  <N>2</N> CHECKED
+nom.	<id>nom.</id> <disp>Nominativ - nominative (case)</disp>  <N>619</N> CHECKED
+nom. abst.	<id>nom. abst.</id> <disp>nomen abstractum - abstract noun</disp>  <N>2</N> CHECKED
+Nom. abstr.	<id>Nom. abstr.</id> <disp>Nomen abstractum - abstract noun</disp>  <N>12</N> CHECKED
+nom. abstr.	<id>nom. abstr.</id> <disp>Nomen abstractum - abstract noun</disp>  <N>1442</N> CHECKED
+nom. abstract.	<id>nom. abstract.</id> <disp>nomen abstractum - abstract noun</disp>  <N>1</N> CHECKED
+Nom. act.	<id>Nom. act.</id> <disp>Nomen actionis - action noun</disp>  <N>6</N> CHECKED
+nom. act.	<id>nom. act.</id> <disp>nomen actionis - action noun</disp>  <N>388</N> CHECKED
+nom. ag.	<id>nom. ag.</id> <disp>nomen agentis - agent noun</disp>  <N>965</N> CHECKED
+Nom. appell.	<id>Nom. appell.</id> <disp>Nomen appellativum - common noun</disp>  <N>3</N> CHECKED
+nom. card.	<id>nom. card.</id> <disp>nomen cardinale - cardinal number</disp>  <N>2</N> CHECKED
+nom. gent.	<id>nom. gent.</id> <disp>nomen gentile - gentilic noun</disp>  <N>2</N> CHECKED
+nom. ord.	<id>nom. ord.</id> <disp>nomen ordinale - ordinal number</disp>  <N>1</N> UNCHECKED
+nom. ordin.	<id>nom. ordin.</id> <disp>nomen ordinale - ordinal number</disp>  <N>1</N> UNCHECKED
+Nom. pr.	<id>Nom. pr.</id> <disp>Nomen proprium - proper noun</disp>  <N>13</N> CHECKED
+nom. pr.	<id>nom. pr.</id> <disp>nomen proprium - proper noun</disp>  <N>6</N> CHECKED
+Nomen pr.	<id>Nomen pr.</id> <disp>Nomen proprium - proper noun</disp>  <N>2</N> CHECKED
+nomin.	<id>nomin.</id> <disp>Nominativ - nominative (case)</disp>  <N>1</N> CHECKED
+Nomina ag.	<id>Nomina ag.</id> <disp>Nomina agentis - agent nouns</disp>  <N>1</N> CHECKED
+nomm.	<id>nomm.</id> <disp>nomina - nouns</disp>  <N>7</N> UNCHECKED
+nomm. antret.	<id>nomm. antret.</id> <disp>nominibus antretend - attaching to nouns</disp> <INFER/> <N>1</N> UNCHECKED
+Nov.	<id>Nov.</id> <disp>November - November</disp>  <N>1</N> CHECKED
+num.	<id>num.</id> <disp>Numerale - numeral</disp>  <N>2</N> UNCHECKED
+num. ordin.	<id>num. ordin.</id> <disp>numerale ordinale - ordinal number</disp>  <N>1</N> UNCHECKED
+näml.	<id>näml.</id> <disp>nämlich - namely</disp>  <N>70</N> CHECKED
+Obj.	<id>Obj.</id> <disp>Objekt - object</disp>  <N>1</N> CHECKED
+obj.	<id>obj.</id> <disp>Objekt - object</disp>  <N>347</N> CHECKED
+obl.	<id>obl.</id> <disp>Obliquus - oblique case</disp>  <N>2</N> UNCHECKED
+od.	<id>od.</id> <disp>oder - or</disp>  <N>4</N> UNCHECKED
+omin.	<id>omin.</id> <disp>Omen - omen</disp> <INFER/> <N>2</N> UNCHECKED
+onomat.	<id>onomat.</id> <disp>Onomatopöie - onomatopoeia</disp>  <N>21</N> CHECKED
+onomatop.	<id>onomatop.</id> <disp>Onomatopöie - onomatopoeia</disp>  <N>96</N> CHECKED
+opt.	<id>opt.</id> <disp>Optativ - optative</disp>  <N>2</N> UNCHECKED
+ord.	<id>ord.</id> <disp>Ordinalzahl - ordinal number</disp>  <N>1</N> UNCHECKED
+Ort.	<id>Ort.</id> <disp>ortschaft - locality</disp>  <N>1</N> CHECKED
+Ortsadv.	<id>Ortsadv.</id> <disp>Ortsadverb - locative adverb</disp>  <N>2</N> CHECKED
+Ortsadvv.	<id>Ortsadvv.</id> <disp>Ortsadverbien - locative adverbs</disp>  <N>1</N> CHECKED
+oxyt.	<id>oxyt.</id> <disp>Oxyton - oxytone</disp>  <N>425</N> CHECKED
+oxyton.	<id>oxyton.</id> <disp>oxytoniert - oxytone-accented</disp>  <N>1</N> UNCHECKED
+p.	<id>p.</id> <disp>pagina - page (Latin)</disp>  <N>61</N> CHECKED
+Padap.	<id>Padap.</id> <disp>Padapāṭha - Padapāṭha (Vedic word-by-word recitation)</disp>  <N>1</N> CHECKED
+Par. Mpt	<id>Par. Mpt</id> <disp>Pariser Manuskript - Paris manuscript</disp>  <N>1</N> UNCHECKED
+parall.	<id>parall.</id> <disp>Parallelstelle - parallel passage</disp>  <N>1</N> UNCHECKED
+Parenth.	<id>Parenth.</id> <disp>Parenthese - parenthesis</disp>  <N>1</N> UNCHECKED
+parox.	<id>parox.</id> <disp>Paroxyton - paroxytone</disp>  <N>200</N> CHECKED
+paroxyt.	<id>paroxyt.</id> <disp>Paroxyton - paroxytone</disp>  <N>5</N> CHECKED
+part.	<id>part.</id> <disp>Particip - participle</disp>  <N>144</N> CHECKED
+Part.	<id>Part.</id> <disp>Participium - participle</disp>  <N>4</N> CHECKED
+part. fut. pass.	<id>part. fut. pass.</id> <disp>Participium futuri passivi - future passive participle</disp>  <N>23</N> CHECKED
+Partic.	<id>Partic.</id> <disp>Participium - participle</disp>  <N>6</N> CHECKED
+partic.	<id>partic.</id> <disp>Participium - participle</disp>  <N>2331</N> CHECKED
+particc.	<id>particc.</id> <disp>Participia - participles</disp>  <N>4</N> CHECKED
+Participialfut.	<id>Participialfut.</id> <disp>Participialfuturum - participial future</disp>  <N>3</N> CHECKED
+partit.	<id>partit.</id> <disp>Partitiv - partitive</disp>  <N>1</N> UNCHECKED
+pass.	<id>pass.</id> <disp>Passiv - passive</disp>  <N>1162</N> CHECKED
+patr.	<id>patr.</id> <disp>Patronymikum - patronymic</disp>  <N>14</N> UNCHECKED
+Patron.	<id>Patron.</id> <disp>Patronym - patronym</disp>  <N>2</N> CHECKED
+patron.	<id>patron.</id> <disp>Patronym - patronym</disp>  <N>2094</N> CHECKED
+patronn.	<id>patronn.</id> <disp>Patronymen - patronyms</disp>  <N>11</N> CHECKED
+perf.	<id>perf.</id> <disp>Perfektum - perfect tense</disp>  <N>106</N> CHECKED
+periphr.	<id>periphr.</id> <disp>periphrastisch - periphrastic</disp>  <N>4</N> UNCHECKED
+perisp.	<id>perisp.</id> <disp>perispomeniert - perispomenon-accented</disp>  <N>22</N> UNCHECKED
+pers.	<id>pers.</id> <disp>Person / persisch - person / Persian</disp> <INFER/> <N>34</N> CHECKED
+Pers.	<id>Pers.</id> <disp>Person - person (grammatical)</disp> <INFER/> <N>3</N> UNCHECKED
+person.	<id>person.</id> <disp>Personal- - personal</disp>  <N>10</N> UNCHECKED
+Person.	<id>Person.</id> <disp>Person - person</disp>  <N>4</N> UNCHECKED
+personif.	<id>personif.</id> <disp>Personifikation - personification</disp>  <N>130</N> CHECKED
+Personif.	<id>Personif.</id> <disp>Personifikation - personification</disp>  <N>30</N> CHECKED
+personific.	<id>personific.</id> <disp>Personifikation - personification</disp>  <N>1</N> CHECKED
+Phil.	<id>Phil.</id> <disp>Philosophie - philosophy </disp> <INFER/> <N>1</N> CHECKED
+philos.	<id>philos.</id> <disp>Philosophie - philosophy</disp>  <N>21</N> CHECKED
+Philos.	<id>Philos.</id> <disp>Philosophie - philosophy</disp>  <N>4</N> CHECKED
+pl.	<id>pl.</id> <disp>Plural - plural</disp>  <N>3857</N> CHECKED
+Pl.	<id>Pl.</id> <disp>Plural - plural</disp>  <N>6</N> CHECKED
+pleon.	<id>pleon.</id> <disp>pleonastisch - pleonastic</disp>  <N>3</N> CHECKED
+plur.	<id>plur.</id> <disp>Plural - plural</disp>  <N>36</N> CHECKED
+poet.	<id>poet.</id> <disp>poetisch - poetic</disp>  <N>2</N> UNCHECKED
+porox.	<id>porox.</id> <disp>paroxyton (typo) - paroxytone (typo)</disp> <INFER/> <N>1</N> UNCHECKED
+pos.	<id>pos.</id> <disp>Positiv - positive (degree)</disp>  <N>3</N> UNCHECKED
+posit.	<id>posit.</id> <disp>Positiv - positive (degree)</disp>  <N>1</N> UNCHECKED
+poss.	<id>poss.</id> <disp>Possessiv - possessive</disp>  <N>3</N> UNCHECKED
+postp.	<id>postp.</id> <disp>Postposition - postposition</disp>  <N>1</N> UNCHECKED
+pot.	<id>pot.</id> <disp>Potentialis - potential mood</disp>  <N>12</N> CHECKED
+potent.	<id>potent.</id> <disp>Potentialis - potential mood</disp>  <N>72</N> CHECKED
+praed.	<id>praed.</id> <disp>Praedikat - predicate</disp>  <N>23</N> CHECKED
+praep.	<id>praep.</id> <disp>Praeposition - preposition</disp>  <N>94</N> CHECKED
+Praep.	<id>Praep.</id> <disp>Praeposition - preposition</disp>  <N>2</N> CHECKED
+praepos.	<id>praepos.</id> <disp>Praeposition - preposition</disp>  <N>1</N> CHECKED
+praeposs.	<id>praeposs.</id> <disp>Praepositiones - prepositions</disp>  <N>1</N> CHECKED
+praepp.	<id>praepp.</id> <disp>Praepositionen - prepositions</disp>  <N>25</N> CHECKED
+praes.	<id>praes.</id> <disp>Praesens - present (tense)</disp>  <N>221</N> CHECKED
+praet.	<id>praet.</id> <disp>Präteritum - preterite</disp>  <N>167</N> CHECKED
+prec.	<id>prec.</id> <disp>Precativ - precative / benedictive</disp>  <N>25</N> UNCHECKED
+precat.	<id>precat.</id> <disp>Precativ - precative</disp>  <N>2</N> CHECKED
+prim.	<id>prim.</id> <disp>primär - primary</disp>  <N>1</N> UNCHECKED
+priv.	<id>priv.</id> <disp>privativ - privative</disp>  <N>15</N> CHECKED
+prohib.	<id>prohib.</id> <disp>Prohibitiv - prohibitive</disp>  <N>1</N> UNCHECKED
+pron.	<id>pron.</id> <disp>Pronomen - pronoun</disp>  <N>73</N> CHECKED
+Pron.	<id>Pron.</id> <disp>Pronomen - pronoun</disp>  <N>1</N> CHECKED
+pron. rel.	<id>pron. rel.</id> <disp>pronomen relativum - relative pronoun</disp>  <N>6</N> CHECKED
+pron. subst.	<id>pron. subst.</id> <disp>pronomen substantivum - substantive pronoun</disp>  <N>4</N> CHECKED
+pronn.	<id>pronn.</id> <disp>Pronomina - pronouns</disp>  <N>1</N> CHECKED
+pronom.	<id>pronom.</id> <disp>pronominal - pronominal</disp>  <N>14</N> CHECKED
+pronomm.	<id>pronomm.</id> <disp>Pronomina - pronouns</disp>  <N>9</N> UNCHECKED
+Pronomm.	<id>Pronomm.</id> <disp>Pronomina - pronouns</disp>  <N>1</N> CHECKED
+propar.	<id>propar.</id> <disp>proparoxyton (variant) - proparoxytone</disp> <INFER/> <N>1</N> UNCHECKED
+proparax.	<id>proparax.</id> <disp>proparoxytone (typo) - proparoxytone (typo)</disp> <INFER/> <N>1</N> UNCHECKED
+proparox.	<id>proparox.</id> <disp>Proparoxyton - proparoxytone</disp>  <N>191</N> CHECKED
+proparoxyt.	<id>proparoxyt.</id> <disp>Proparoxyton - proparoxytone</disp>  <N>4</N> CHECKED
+properisp.	<id>properisp.</id> <disp>properispomeniert - properispomenon-accented</disp>  <N>1</N> UNCHECKED
+propr.	<id>propr.</id> <disp>proprium - proper</disp>  <N>1</N> UNCHECKED
+Pros.	<id>Pros.</id> <disp>Prosa - prose</disp>  <N>1</N> UNCHECKED
+prädic.	<id>prädic.</id> <disp>prädikativ - predicative</disp>  <N>1</N> UNCHECKED
+Präp.	<id>Präp.</id> <disp>Präposition - preposition</disp>  <N>3</N> CHECKED
+Präpp.	<id>Präpp.</id> <disp>Präpositionen - prepositions</disp>  <N>4</N> CHECKED
+präpp.	<id>präpp.</id> <disp>Präpositionen - prepositions</disp>  <N>1</N> CHECKED
+Randgl.	<id>Randgl.</id> <disp>Randglosse - marginal gloss</disp>  <N>8</N> UNCHECKED
+rathsam.	<id>rathsam.</id> <disp>rathsam - advisable (older orthography)</disp>  <N>1</N> UNCHECKED
+Rec.	<id>Rec.</id> <disp>Recension - recension (text version)</disp>  <N>23</N> CHECKED
+Rechtsspr.	<id>Rechtsspr.</id> <disp>Rechtssprache - legal language</disp>  <N>1</N> CHECKED
+recipr.	<id>recipr.</id> <disp>reciproc - reciprocal</disp>  <N>5</N> CHECKED
+redupl.	<id>redupl.</id> <disp>Reduplicativ - reduplicative</disp>  <N>13</N> CHECKED
+Redupl.	<id>Redupl.</id> <disp>Reduplicativ - reduplicative</disp>  <N>17</N> CHECKED
+reduplic.	<id>reduplic.</id> <disp>Reduplicativ - reduplicative</disp>  <N>5</N> CHECKED
+Reduplicat.	<id>Reduplicat.</id> <disp>Reduplikation - reduplication</disp>  <N>1</N> CHECKED
+refl.	<id>refl.</id> <disp>reflexiv - reflexive</disp>  <N>7</N> CHECKED
+reflex.	<id>reflex.</id> <disp>reflexiv - reflexive</disp>  <N>21</N> CHECKED
+reg.	<id>reg.</id> <disp>regelmäßig - regular</disp>  <N>4</N> UNCHECKED
+Rel.	<id>Rel.</id> <disp>Relativ - relative</disp>  <N>4</N> CHECKED
+rel.	<id>rel.</id> <disp>relativ - relative</disp>  <N>44</N> CHECKED
+relat.	<id>relat.</id> <disp>Relativ - relative</disp>  <N>27</N> CHECKED
+relig.	<id>relig.</id> <disp>religiös - religious</disp>  <N>2</N> CHECKED
+Rell.	<id>Rell.</id> <disp>Relativa - relatives</disp>  <N>1</N> CHECKED
+resp.	<id>resp.</id> <disp>respektive - respectively</disp>  <N>10</N> CHECKED
+rever.	<id>rever.</id> <disp>reverentiell - reverential / honorific</disp>  <N>1</N> UNCHECKED
+rhet.	<id>rhet.</id> <disp>Rhetorik - rhetoric</disp>  <N>4</N> CHECKED
+Rhet.	<id>Rhet.</id> <disp>Rhetorik - rhetoric</disp>  <N>7</N> CHECKED
+S.	<id>S.</id> <disp>siehe - please refer, see</disp>  <N>422</N> CHECKED
+s.	<id>s.</id> <disp>siehe - see</disp>  <N>4638</N> CHECKED
+s. a.	<id>s. a.</id> <disp>siehe auch - see also</disp>  <N>3</N> CHECKED
+s. d.	<id>s. d.</id> <disp>siehe dort - look there</disp>  <N>231</N> CHECKED
+s. u.	<id>s. u.</id> <disp>siehe unter - see under</disp>  <N>3417</N> CHECKED
+S. u.	<id>S. u.</id> <disp>siehe unter - see under</disp>  <N>5</N> CHECKED
+s. v.	<id>s. v.</id> <disp>sub verbo (Latin) - see under the word</disp>  <N>34</N> CHECKED
+sc.	<id>sc.</id> <disp>scilicet (Latin) - that is to say, namely</disp>  <N>630</N> CHECKED
+Sch.	<id>Sch.</id> <disp>Scholion -  Scholiast or Commentator</disp>  <N>6847</N> CHECKED
+Schol.	<id>Schol.</id> <disp>Scholion - scholion</disp>  <N>6279</N> UNCHECKED
+Scholl.	<id>Scholl.</id> <disp>Scholiasten -  Scholiasts or Commentators</disp>  <N>38</N> CHECKED
+Schreib.	<id>Schreib.</id> <disp>Schreibung - spelling / writing</disp>  <N>1</N> CHECKED
+sg.	<id>sg.</id> <disp>Singular - singular</disp>  <N>936</N> CHECKED
+Sg.	<id>Sg.</id> <disp>Singular - singular</disp>  <N>5</N> CHECKED
+sic.	<id>sic.</id> <disp>sic - thus (in the original)</disp>  <N>3</N> UNCHECKED
+simpl.	<id>simpl.</id> <disp>simplex - simple (verb form)</disp>  <N>243</N> CHECKED
+sing.	<id>sing.</id> <disp>Singular - singular</disp>  <N>5</N> CHECKED
+sog.	<id>sog.</id> <disp>sogenannt - so-called</disp>  <N>24</N> CHECKED
+spec.	<id>spec.</id> <disp>speciell - specifically</disp>  <N>2</N> CHECKED
+spiel.	<id>spiel.</id> <disp>spielend (auf) - playing on (a word)</disp>  <N>4</N> CHECKED
+Spr.	<id>Spr.</id> <disp>Spruch - saying / verse (Indische Sprüche)</disp>  <N>5</N> UNCHECKED
+sprüchw.	<id>sprüchw.</id> <disp>sprichwörtlich - proverbial</disp>  <N>1</N> UNCHECKED
+st.	<id>st.</id> <disp>statt - instead of</disp>  <N>2401</N> CHECKED
+St.	<id>St.</id> <disp>Stelle - place / passage</disp> <INFER/> <N>22</N> UNCHECKED
+subj.	<id>subj.</id> <disp>Subjekt - subject</disp>  <N>117</N> CHECKED
+Subj.	<id>Subj.</id> <disp>Subjekt - subject</disp>  <N>1</N> CHECKED
+subst.	<id>subst.</id> <disp>Substantiv - noun</disp>  <N>891</N> CHECKED
+Subst.	<id>Subst.</id> <disp>Substantiv - noun</disp>  <N>1</N> CHECKED
+substt.	<id>substt.</id> <disp>Substantiva - nouns</disp>  <N>2</N> CHECKED
+suff.	<id>suff.</id> <disp>Suffix - suffix</disp>  <N>160</N> CHECKED
+Suff.	<id>Suff.</id> <disp>Suffix - suffix</disp>  <N>2</N> CHECKED
+superl.	<id>superl.</id> <disp>Superlativ - superlative</disp>  <N>264</N> CHECKED
+Superl.	<id>Superl.</id> <disp>Superlativ - superlative</disp>  <N>1</N> CHECKED
+superlat.	<id>superlat.</id> <disp>Superlativ - superlative</disp>  <N>13</N> CHECKED
+Suppl.	<id>Suppl.</id> <disp>Supplement - supplement</disp>  <N>44</N> CHECKED
+symb.	<id>symb.</id> <disp>symbolisch - symbolic</disp>  <N>1</N> CHECKED
+syn.	<id>syn.</id> <disp>Synonym - synonymous</disp>  <N>2</N> CHECKED
+Syn.	<id>Syn.</id> <disp>Synonym - synonym</disp>  <N>6</N> UNCHECKED
+synekd.	<id>synekd.</id> <disp>synekdochisch - synecdochic</disp>  <N>1</N> CHECKED
+Synonn.	<id>Synonn.</id> <disp>Synonyma - synonyms</disp>  <N>2</N> CHECKED
+tautol.	<id>tautol.</id> <disp>tautologisch - tautological</disp>  <N>2</N> CHECKED
+techn.	<id>techn.</id> <disp>technisch - technical</disp>  <N>2</N> UNCHECKED
+term.	<id>term.</id> <disp>Terminus - term</disp>  <N>1</N> CHECKED
+term. techn.	<id>term. techn.</id> <disp>terminus technicus - technical term</disp>  <N>1</N> CHECKED
+Th.	<id>Th.</id> <disp>Theil - part</disp>  <N>45</N> CHECKED
+Tit.	<id>Tit.</id> <disp>Titel - title</disp>  <N>3</N> CHECKED
+Titelbl.	<id>Titelbl.</id> <disp>Titelblatt - title page</disp>  <N>2</N> CHECKED
+trans.	<id>trans.</id> <disp>transitiv - transitive</disp>  <N>89</N> CHECKED
+transit.	<id>transit.</id> <disp>transitiv - transitive</disp>  <N>23</N> CHECKED
+Trigl.	<id>Trigl.</id> <disp>Triglotton / Trikāṇḍaśeṣa - trilingual list / Trikāṇḍaśeṣa</disp> <INFER/> <N>1</N> UNCHECKED
+trop.	<id>trop.</id> <disp>tropisch - figurative (trope)</disp>  <N>2</N> UNCHECKED
+u.	<id>u.</id> <disp>unter - under </disp>  <N>2270</N> CHECKED
+u. d.	<id>u. d.</id> <disp>und der/die/das - and the (ambiguous — see local list)</disp> <INFER/> <N>162</N> UNCHECKED
+u. s. w.	<id>u. s. w.</id> <disp>und so weiter - and so on, and so forth = etc.</disp>  <N>4342</N> CHECKED
+uberh.	<id>uberh.</id> <disp>überhaupt (older sp.) - in general (older spelling)</disp>  <N>1</N> CHECKED
+Ueberh.	<id>Ueberh.</id> <disp>überhaupt - in general (older spelling)</disp>  <N>4</N> CHECKED
+Uebers.	<id>Uebers.</id> <disp>uebersetzung - translation</disp>  <N>17</N> CHECKED
+Ueberschr.	<id>Ueberschr.</id> <disp>Überschrift - heading</disp>  <N>1</N> CHECKED
+Uebertr.	<id>Uebertr.</id> <disp>Übertragung - figurative sense </disp>  <N>58</N> CHECKED
+umwendend.	<id>umwendend.</id> <disp>umwendend - turning (towards)</disp> <INFER/> <N>1</N> CHECKED
+unbel.	<id>unbel.</id> <disp>unbelegt - not attested</disp>  <N>1</N> UNCHECKED
+unbest.	<id>unbest.</id> <disp>unbestimmt - indefinite, uncertain</disp>  <N>6</N> CHECKED
+uneig.	<id>uneig.</id> <disp>uneigentlich - unreal</disp>  <N>74</N> CHECKED
+Uneig.	<id>Uneig.</id> <disp>uneigentlich - unreal</disp>  <N>25</N> CHECKED
+ungedr.	<id>ungedr.</id> <disp>ungedrukte - unprinted</disp>  <N>2</N> CHECKED
+ungramm.	<id>ungramm.</id> <disp>ungrammatisch - ungrammatical</disp>  <N>1</N> CHECKED
+ungrammat.	<id>ungrammat.</id> <disp>ungrammatisch - ungrammatical</disp>  <N>2</N> CHECKED
+unpers.	<id>unpers.</id> <disp>unpersönlich - impersonal</disp>  <N>2</N> CHECKED
+unreg.	<id>unreg.</id> <disp>unregelmäßig - irregular</disp>  <N>3</N> CHECKED
+unregelm.	<id>unregelm.</id> <disp>unregelmäßig - irregular</disp>  <N>5</N> CHECKED
+unricht.	<id>unricht.</id> <disp>unrichtig - incorrect</disp>  <N>1</N> CHECKED
+Unterrschrr.	<id>Unterrschrr.</id> <disp>Unterschriften - signatures (likely typo)</disp> <INFER/> <N>1</N> UNCHECKED
+Untersch.	<id>Untersch.</id> <disp>Unterscheidung - distinction</disp>  <N>1</N> UNCHECKED
+Unterschr.	<id>Unterschr.</id> <disp>unterschrift  - caption, signature</disp>  <N>268</N> CHECKED
+Unterschrr.	<id>Unterschrr.</id> <disp>Unterschriften - captions, signatures</disp>  <N>144</N> CHECKED
+urpsr.	<id>urpsr.</id> <disp>ursprünglich (typo) - originally (typo of urspr.)</disp> <INFER/> <N>1</N> UNCHECKED
+urspr.	<id>urspr.</id> <disp>ursprünglich - originally</disp>  <N>87</N> CHECKED
+Urspr.	<id>Urspr.</id> <disp>ursprünglich - originally</disp>  <N>4</N> CHECKED
+ursprüngl.	<id>ursprüngl.</id> <disp>ursprünglich - originally</disp>  <N>3</N> CHECKED
+v. a.	<id>v. a.</id> <disp>vor allem - above all, especially</disp>  <N>6520</N> CHECKED
+v. l.	<id>v. l.</id> <disp>varia lectio - variant reading</disp>  <N>4965</N> CHECKED
+V. l.	<id>V. l.</id> <disp>varia lectio - variant reading</disp>  <N>1</N> CHECKED
+v. u.	<id>v. u.</id> <disp>von unten - line number counted from below, from the last line up</disp>  <N>1434</N> CHECKED
+Var.	<id>Var.</id> <disp>Variante - variant</disp>  <N>74</N> CHECKED
+var.	<id>var.</id> <disp>Variante - variant</disp>  <N>1</N> CHECKED
+var. l.	<id>var. l.</id> <disp>varia lectio - variant reading</disp>  <N>23</N> CHECKED
+Var. l.	<id>Var. l.</id> <disp>varia lectio - variant reading</disp>  <N>2</N> CHECKED
+Varr.	<id>Varr.</id> <disp>Varianten - variants</disp>  <N>6</N> CHECKED
+ved.	<id>ved.</id> <disp>vedisch - Vedic</disp>  <N>541</N> CHECKED
+verb.	<id>verb.</id> <disp>Verbum - verb</disp>  <N>10</N> CHECKED
+Verb.	<id>Verb.</id> <disp>Verbum - verb</disp>  <N>50</N> CHECKED
+verb. fin.	<id>verb. fin.</id> <disp>verbum finitum - finite verb</disp>  <N>30</N> CHECKED
+Verb. fin.	<id>Verb. fin.</id> <disp>Verbum finitum - finite verb</disp>  <N>1</N> CHECKED
+verbb.	<id>verbb.</id> <disp>Verba - verbs</disp>  <N>2</N> CHECKED
+Verbind.	<id>Verbind.</id> <disp>Verbindung - connection / combination</disp>  <N>30</N> CHECKED
+Verbindd.	<id>Verbindd.</id> <disp>Verbindungen - connections</disp>  <N>1</N> CHECKED
+verdopp.	<id>verdopp.</id> <disp>verdoppelung - doubling</disp>  <N>1</N> CHECKED
+Verf.	<id>Verf.</id> <disp>Verfasser - author</disp>  <N>2</N> CHECKED
+Verff.	<id>Verff.</id> <disp>Verfasser - authors (plural)</disp>  <N>1</N> CHECKED
+vergl.	<id>vergl.</id> <disp>vergleiche - compare</disp>  <N>5</N> CHECKED
+Vergl.	<id>Vergl.</id> <disp>Vergleiche - compare</disp>  <N>3</N> CHECKED
+Vern.	<id>Vern.</id> <disp>Vernachlässigung - neglect / omission</disp> <INFER/> <N>1</N> UNCHECKED
+versch.	<id>versch.</id> <disp>verschieden - different</disp>  <N>15</N> CHECKED
+verschied.	<id>verschied.</id> <disp>verschieden - different</disp>  <N>8</N> CHECKED
+Verz.	<id>Verz.</id> <disp>Verzeichnis - register / list</disp>  <N>3</N> CHECKED
+vgl.	<id>vgl.</id> <disp>Vergleiche - compare</disp>  <N>11538</N> CHECKED
+Vgl.	<id>Vgl.</id> <disp>Vergleiche - compare</disp>  <N>18304</N> CHECKED
+viell.	<id>viell.</id> <disp>vielleicht - perhaps</disp>  <N>646</N> CHECKED
+Viell.	<id>Viell.</id> <disp>vielleicht - perhaps</disp>  <N>141</N> CHECKED
+viz.	<id>viz.</id> <disp>videlicet - namely (Latin)</disp>  <N>2</N> CHECKED
+Voc.	<id>Voc.</id> <disp>Vocativ - vocative (case)</disp>  <N>3</N> CHECKED
+voc.	<id>voc.</id> <disp>Vocativ - vocative (case)</disp>  <N>229</N> CHECKED
+Volksn.	<id>Volksn.</id> <disp>Volksname - people&#39;s / tribe name</disp>  <N>1</N> UNCHECKED
+Vollst.	<id>Vollst.</id> <disp>vollständig - complete</disp>  <N>1</N> CHECKED
+vollst.	<id>vollst.</id> <disp>vollständig - complete</disp>  <N>5</N> CHECKED
+vom.	<id>vom.</id> <disp>vom - from the</disp>  <N>12</N> CHECKED
+vor.	<id>vor.</id> <disp>voriges - previous (entry)</disp>  <N>19</N> UNCHECKED
+vor. W.	<id>vor. W.</id> <disp>voriges Wort - previous (head)word</disp>  <N>1</N> UNCHECKED
+voran.	<id>voran.</id> <disp>vorangehend - preceding</disp>  <N>2</N> CHECKED
+vorang.	<id>vorang.</id> <disp>vorangehend - preceding</disp>  <N>50</N> CHECKED
+vorangeh.	<id>vorangeh.</id> <disp>vorangehend - preceding</disp>  <N>14</N> CHECKED
+vorherg.	<id>vorherg.</id> <disp>vorhergehend - preceding</disp>  <N>189</N> CHECKED
+vorherg. W.	<id>vorherg. W.</id> <disp>vorhergehendes Wort - preceding word</disp>  <N>1</N> CHECKED
+vorhergeh.	<id>vorhergeh.</id> <disp>vorhergehend - preceding</disp>  <N>4</N> CHECKED
+vorhergeh. Ww.	<id>vorhergeh. Ww.</id> <disp>vorhergehende Wörter - preceding words</disp>  <N>2</N> CHECKED
+vulg.	<id>vulg.</id> <disp>vulgär - vulgar / colloquial</disp>  <N>240</N> CHECKED
+Vulg.	<id>Vulg.</id> <disp>Vulgär - vulgar / colloquial</disp>  <N>1</N> CHECKED
+vv. ll.	<id>vv. ll.</id> <disp>variae lectiones - variant readings (pl.)</disp>  <N>2</N> CHECKED
+W.	<id>W.</id> <disp>Wort - word</disp> <INFER/> <N>192</N> UNCHECKED
+w.	<id>w.</id> <disp>Wort? - word? </disp> <INFER/> <N>12</N> UNCHECKED
+Weg.	<id>Weg.</id> <disp>wegen - because of</disp>  <N>4</N> UNCHECKED
+weibl.	<id>weibl.</id> <disp>weiblich - feminine</disp>  <N>2</N> CHECKED
+Wortm.	<id>Wortm.</id> <disp>Wortmasse? - word material (?)</disp> <INFER/> <N>1</N> UNCHECKED
+Ww.	<id>Ww.</id> <disp>Wörter - words</disp>  <N>2</N> CHECKED
+Wörterb.	<id>Wörterb.</id> <disp>Wörterbuch - dictionary</disp>  <N>3</N> CHECKED
+z.	<id>z.</id> <disp>zu - to</disp> <INFER/> <N>23</N> CHECKED
+Z.	<id>Z.</id> <disp>Zeile - line</disp>  <N>1667</N> CHECKED
+z. B.	<id>z. B.</id> <disp>zum Beispiel - for example</disp>  <N>504</N> CHECKED
+Zahladvv.	<id>Zahladvv.</id> <disp>Zahladverbien - numerical adverbs</disp>  <N>1</N> CHECKED
+Zahlw.	<id>Zahlw.</id> <disp>Zahlwort - numeral</disp>  <N>1</N> CHECKED
+Zeitww.	<id>Zeitww.</id> <disp>Zeitwörter - verbs</disp>  <N>1</N> UNCHECKED
+zugl.	<id>zugl.</id> <disp>zugleich - at the same time</disp>  <N>1</N> UNCHECKED
+Zus.	<id>Zus.</id> <disp>Zusatz - addition</disp>  <N>5</N> UNCHECKED
+zus.	<id>zus.</id> <disp>zusammen - together</disp>  <N>1</N> UNCHECKED
+Zusamm.	<id>Zusamm.</id> <disp>Zusammensetzung - composition</disp>  <N>3</N> UNCHECKED
+zusammen.	<id>zusammen.</id> <disp>zusammen - together</disp>  <N>15</N> UNCHECKED
+Zusammeng.	<id>Zusammeng.</id> <disp>zusammengezogen - contracted</disp>  <N>8</N> UNCHECKED
+zusammeng.	<id>zusammeng.</id> <disp>zusammengezogen - contracted</disp>  <N>22</N> UNCHECKED
+zusammengef.	<id>zusammengef.</id> <disp>zusammengefasst - summarized</disp>  <N>1</N> UNCHECKED
+zusammenges.	<id>zusammenges.</id> <disp>zusammengesetzt - compound (adj.)</disp>  <N>19</N> UNCHECKED
+zusammengez.	<id>zusammengez.</id> <disp>zusammengezogen - contracted</disp>  <N>3</N> CHECKED
+zusammengezog.	<id>zusammengezog.</id> <disp>zusammengezogen - contracted</disp>  <N>1</N> CHECKED
+Zusammenh.	<id>Zusammenh.</id> <disp>Zusammenhang - context</disp>  <N>3</N> CHECKED
+Zusammens.	<id>Zusammens.</id> <disp>Zusammensetzung - composition</disp>  <N>16</N> UNCHECKED
+Zusammenss.	<id>Zusammenss.</id> <disp>Zusammensetzungen - compositions</disp>  <N>2</N> UNCHECKED
+ähnl.	<id>ähnl.</id> <disp>ähnlich - similar</disp>  <N>1</N> UNCHECKED
+ält.	<id>ält.</id> <disp>älter - older</disp>  <N>3</N> UNCHECKED
+überh.	<id>überh.</id> <disp>überhaupt - in general</disp>  <N>602</N> CHECKED
+übers.	<id>übers.</id> <disp>übersetzt - translated</disp>  <N>3</N> UNCHECKED
+überth.	<id>überth.</id> <disp>überhaupt (typo) - in general (typo of überh.)</disp> <INFER/> <N>1</N> UNCHECKED
+übertr.	<id>übertr.</id> <disp>übertragen - transferred / metaphorical</disp>  <N>339</N> CHECKED
