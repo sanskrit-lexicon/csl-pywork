@@ -1,0 +1,97 @@
+name: CI
+
+# csl-pywork — central tooling monorepo for all CDSL dictionaries.
+# Contains generate.py + Mako templates + per-dictionary scripts in v00/ and v02/.
+# No external dependencies or test suite; CI validates syntax and core importability.
+
+on:
+  push:
+    branches: [master, main]
+  pull_request:
+    branches: [master, main]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  lint-python:
+    name: Lint Python scripts
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        python-version: ["3.10", "3.11", "3.12"]
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: ${{ matrix.python-version }}
+      - run: pip install ruff
+      - name: Critical syntax errors
+        run: ruff check --select=E9,F63,F7,F82 --output-format=github .
+      - name: Style report (warnings only — large legacy codebase)
+        run: ruff check --output-format=github . || true
+
+  smoke-import:
+    name: Smoke-import core modules
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+      - name: Install Mako (required by generate.py)
+        run: pip install mako
+      - name: dictparms.py imports cleanly
+        run: |
+          cd v02
+          python -c "import dictparms; assert len(dictparms.alldictparms) > 10, 'alldictparms should have >10 entries'; print(f'OK — {len(dictparms.alldictparms)} dicts registered')"
+      - name: generate.py parses without error
+        run: |
+          cd v02
+          python -c "import ast, pathlib; ast.parse(pathlib.Path('generate.py').read_text()); print('generate.py AST OK')"
+      - name: XML utilities importable
+        run: |
+          cd v02/utilities
+          python -c "import ast, pathlib
+          for f in pathlib.Path('.').glob('*.py'):
+              ast.parse(f.read_text())
+          print('All utility .py files parse OK')"
+
+  validate-dtd:
+    name: DTD/schema files parseable
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: DTD files are valid text (not binary)
+        run: |
+          fail=0
+          while IFS= read -r f; do
+            if ! python3 -c "open('$f', encoding='utf-8').read()" 2>/dev/null; then
+              echo "::error file=$f::not valid UTF-8"
+              fail=1
+            fi
+          done < <(find . -name "*.dtd" -not -path "./.git/*")
+          exit $fail
+
+  yaml-lint:
+    name: YAML lint
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+      - run: pip install pyyaml
+      - run: |
+          python -c "
+          import sys, glob, yaml
+          fail = 0
+          for f in glob.glob('**/*.yml', recursive=True) + glob.glob('**/*.yaml', recursive=True):
+              if '.git' in f: continue
+              try:
+                  yaml.safe_load(open(f, encoding='utf-8'))
+              except yaml.YAMLError as e:
+                  print(f'::error file={f}::{e}'); fail = 1
+          sys.exit(fail)
+          "
