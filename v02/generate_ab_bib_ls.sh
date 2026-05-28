@@ -2,7 +2,8 @@
 # generate_ab_bib_ls.sh
 # Generates redo.sh, redo_xxx.sh, and xxx.sql scripts for all abbreviation,
 # tooltip (ls), and bibliography tables.
-# Usage: sh generate_ab_bib_ls.sh [PYWORK_DIR]
+# Usage: sh generate_ab_bib_ls.sh [dict] [PYWORK_DIR]
+#   dict: optional lowercase dictionary code.
 #   PYWORK_DIR: optional target directory for generated scripts.
 #     If omitted, generates into distinctfiles/<dict>/pywork/.
 #     If provided (e.g. ../../md/pywork), generates into <dict>/{dict}ab/{dict}auth under it.
@@ -13,7 +14,31 @@ set -e
 BASEDIR="$(cd "$(dirname "$0")" && pwd)"
 cd "$BASEDIR"
 
-PYWORK_DIR="$1"
+# Global dictionary list
+DICT_LIST=" ap ap90 acc ae ben bhs bop bor bur cae ccs gra gst ieg inm krm lan mci md mw mw72 mwe mwauth pd pe pgn pui pw pwg pwkvn sch shs skd snp stc vcp vei wil yat "
+
+# Handle arguments
+if [ "$#" -ge 2 ]; then
+    dict="$1"
+    PYWORK_DIR="$2"
+elif [ "$#" -eq 1 ]; then
+    # Check if $1 is a known dictionary code
+    case $DICT_LIST in
+        *" $1 "*)
+            dict="$1"
+            PYWORK_DIR=""
+            ;;
+        *)
+            PYWORK_DIR="$1"
+            # Try to derive dict from path (e.g. path/to/md/pywork -> md)
+            _pywork="${PYWORK_DIR%/}"
+            dict=$(basename "$(dirname "$_pywork")")
+            ;;
+    esac
+else
+    dict=""
+    PYWORK_DIR=""
+fi
 
 ########################################################################
 # Helper: target directory resolver
@@ -75,7 +100,7 @@ EOF
 
     # redo.sh - varies by dict
     case "$dict" in
-        ap|ap90|bur|lan|mw|stc)
+        ap|ap90|ae|bur|lan|mw|stc)
             cat > "$dir/redo.sh" <<EOF
 sh redo_${t}.sh
 mv ${t}.sqlite ../../web/sqlite/
@@ -108,7 +133,7 @@ EOF
 }
 
 ########################################################################
-# Pattern B: tooltip tables (ap, ap90, ben, bhs, gra, sch, mw)
+# Pattern B: tooltip tables (ap, ap90, ben, bhs, gra, sch, mw, ae)
 ########################################################################
 generate_tooltip() {
     local dict="$1"
@@ -285,21 +310,18 @@ EOF
 ########################################################################
 # Main
 ########################################################################
-if [ -n "$PYWORK_DIR" ]; then
-    # Strip trailing slash, then take the name of the parent directory
-    # e.g. ../../md/pywork -> md
-    _pywork="${PYWORK_DIR%/}"
-    dict=$(basename "$(dirname "$_pywork")")
+if [ -n "$dict" ]; then
     # Validate against all known dictionaries
-    case " ap ap90 acc ae ben bhs bop bor bur cae ccs gra gst ieg inm krm lan mci md mw mw72 mwe mwauth pd pe pgn pui pw pwg pwkvn sch shs skd snp stc vcp vei wil yat " in
+    case $DICT_LIST in
         *" $dict "*) ;;
         *) echo "ERROR: unrecognised dictionary '$dict' derived from path '$PYWORK_DIR'"; exit 1 ;;
     esac
+
     # Determine which generators to run based on dictionary
-    case " ap ap90 ben bhs bur cae gra lan md mw pw pwg pwkvn stc " in
+    case " ap ap90 ae ben bhs bur cae gra lan md mw pw pwg pwkvn stc " in
         *" $dict "*) generate_ab "$dict" ;;
     esac
-    case " ap ap90 ben bhs gra sch mw " in
+    case " ap ap90 ae ben bhs gra sch mw " in
         *" $dict "*) generate_tooltip "$dict" ;;
     esac
     case " pw pwg pwkvn " in
@@ -308,13 +330,13 @@ if [ -n "$PYWORK_DIR" ]; then
     echo "Done. Scripts generated for $dict."
 else
     echo "=== Generating abbreviation scripts ==="
-    for d in ap ap90 ben bhs bur cae gra lan md mw pw pwg pwkvn stc; do
+    for d in ap ap90 ae ben bhs bur cae gra lan md mw pw pwg pwkvn stc; do
         generate_ab "$d"
     done
 
     echo ""
     echo "=== Generating tooltip scripts ==="
-    for d in ap ap90 ben bhs gra sch mw; do
+    for d in ap ap90 ae ben bhs gra sch mw; do
         generate_tooltip "$d"
     done
 

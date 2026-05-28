@@ -50,7 +50,7 @@ H1B | H2B | H3B | H4B | H1C | H2C | H3C | H4C | H1E | H2E | H3E | H4E)*>
 <!ELEMENT lb EMPTY>
 ## <!ELEMENT F (#PCDATA | br | symbol |i|div)*>
 <!ELEMENT F (#PCDATA  | %body_elts;)*>
-<!ELEMENT s (#PCDATA | br | srs | shortlong)*>
+<!ELEMENT s (#PCDATA | br | srs | shortlong | chg)*>
 <!ELEMENT H EMPTY>
 <!ELEMENT P EMPTY>
 ## <!ELEMENT b (#PCDATA | br | s | lb)*>
@@ -80,7 +80,7 @@ H1B | H2B | H3B | H4B | H1C | H2C | H3C | H4C | H1E | H2E | H3E | H4E)*>
 <!ELEMENT heb (#PCDATA) > <!-- Hebrew text, GRA-->
 <!ELEMENT tib (#PCDATA) > <!-- Tibetan text, bhs-->
 <!ELEMENT ger (#PCDATA | i | ab)* > <!-- German text, bhs-->
-<!ELEMENT fr (#PCDATA | i | ab)* > <!-- French text, bhs-->
+<!ELEMENT fr (#PCDATA | i | ab | chg)* > <!-- French text, bhs-->
 <!ELEMENT arab (#PCDATA) > <!-- Arabic text, PW, mw-->
 <!ELEMENT rus (#PCDATA) >  <!-- Russian text, PW-->
 <!ELEMENT mong (#PCDATA) >  <!-- Mongolian text, PW-->
@@ -106,8 +106,8 @@ pwg requires also is
 lan requires also sup
 bhs requires also lang
   -->
-<!ELEMENT ls (#PCDATA |ab|s1|ns|is|i|sup|lang|lb)*>
-<!ELEMENT ab (#PCDATA)> <!-- general abbreviation -->
+<!ELEMENT ls (#PCDATA |ab|s1|ns|is|i|sup|lang|lb | chg)*>
+<!ELEMENT ab (#PCDATA | chg)*> <!-- general abbreviation -->
 <!ELEMENT per (#PCDATA)> <!-- person 'abbreviation' (1., etc) -->
 <!ELEMENT lbinfo EMPTY>
 <!ELEMENT C EMPTY>
@@ -135,6 +135,10 @@ bhs requires also lang
 <!ATTLIST chg type CDATA #IMPLIED>
 <!ATTLIST chg n CDATA #IMPLIED>
 <!ATTLIST chg src CDATA #IMPLIED>
+<!ATTLIST chg date CDATA #IMPLIED>
+<!ATTLIST chg user CDATA #IMPLIED>
+<!ATTLIST chg href CDATA #IMPLIED>
+<!ATTLIST chg note CDATA #IMPLIED>
 <!ATTLIST hwtype n (alt | sub | fem | neu | n) #REQUIRED>
 <!ATTLIST hwtype ref CDATA #REQUIRED>
 <!-- 04-15-2024

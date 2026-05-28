@@ -29,6 +29,10 @@ SCHEMA_MAP = {
         '`id` VARCHAR(100)  UNIQUE',
         '`data` TEXT  NOT NULL',
     ],
+    'aeab': [
+        '`id` VARCHAR(100)  UNIQUE',
+        '`data` TEXT  NOT NULL',
+    ],
     'caeab': [
         '`id` VARCHAR(100)  UNIQUE',
         '`data` TEXT  NOT NULL',
@@ -66,6 +70,10 @@ SCHEMA_MAP = {
         '`data` TEXT  NOT NULL',
     ],
     'apauthtooltips': [
+        '`key` VARCHAR(20) NOT NULL',
+        '`data` VARCHAR(20000) NOT NULL',
+    ],
+    'aeauthtooltips': [
         '`key` VARCHAR(20) NOT NULL',
         '`data` VARCHAR(20000) NOT NULL',
     ],

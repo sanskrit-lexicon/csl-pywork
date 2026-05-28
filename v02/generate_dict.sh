@@ -52,7 +52,7 @@ echo "END generate_pywork.sh $dict $outdir"
 
 # Generate ab/bib/ls sqlite scripts directly into target pywork directory
 echo "BEGIN generate_ab_bib_ls.sh $dict $outdir"
-sh generate_ab_bib_ls.sh "$outdir/pywork"
+sh generate_ab_bib_ls.sh "$dict" "$outdir/pywork"
 echo "END generate_ab_bib_ls.sh $dict $outdir"
 
 # resolve $outdir to full path 

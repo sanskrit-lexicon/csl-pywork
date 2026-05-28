@@ -62,11 +62,23 @@ def close_divs_krm(newline):
 %endif
 %if dictlo not in ['ap','skd','sch','md','shs','cae','wil','ap90','bur','acc','yat']:  # These have their own code
 def dig_to_xml_specific(x):
-%if dictlo in ['pw','pwg','ae','gst','ieg','mwe','pgn','pui','vei','mw72','snp','bor','mw','inm','bop','abch','acph','acsj']:
+%if dictlo in ['pw','pwg','gst','ieg','mwe','pgn','pui','vei','mw72','snp','bor','mw','inm','bop','abch','acph','acsj']:
  """ no changes particular to digitization"""
  return x
 %else:
  """ changes particular to digitization"""
+%endif
+%if dictlo == 'ae':
+ # 05-11-2026  change notation.  Ref: https://github.com/sanskrit-lexicon/ApteES/issues/12
+ x = re.sub('<lex>(.*?)</lex>', r'<i><ab>\1</ab></i>',x)
+ x = x.replace('Ⓐ',' ')
+ x = x.replace('Ⓑ','<div n="lb"/>')
+ x = x.replace('Ⓒ',' ')
+ x = x.replace('Ⓓ',' ')
+ x = x.replace('Ⓔ','<div n="lb"/>')
+ x = x.replace('Ⓝ','<div n="lb"/>')
+ x = re.sub('\[Page.*?\]',' ',x)
+ x = re.sub(r'[⒈⒉]', '', x)  # 22 pairs of 'homonyms'.
 %endif
 %if dictlo == 'mw':
  # 08-21-2024 <s1 n="X">Y</s1> -> <ab n="X">Y</ab>
@@ -94,7 +106,7 @@ def dig_to_xml_specific(x):
  x = x.replace('<F>','<div n="F">');
  return x
 %endif
-%if dictlo not in ['vcp']:
+%if dictlo not in ['vcp','ae']:
  # There are a couple entries with an <H> element.
  # Just remove these lines
  if x.startswith('<H>'):
@@ -110,7 +122,7 @@ def dig_to_xml_specific(x):
 %else:
  x = re.sub(r'<P>','<div n="P">',x) # 2322 cases
 %endif
-%if dictlo not in ['vcp']:
+%if dictlo not in ['vcp','ae']:
  #if '<g></g>' in x: # once only. Already converted in stc.txt
  # x = x.replace('<g></g>','<lang n="greek"></lang>')
  #x = re.sub(r'<Picture>','<div n="Picture">',x) # 71 cases
@@ -122,7 +134,7 @@ def dig_to_xml_specific(x):
  x = re.sub(r'<Picture>','<div n="Picture">',x) # 71 cases
 %endif
  # markup like <C1>x1<C2>x2...  indicates tabular data in vcp.
-%if dictlo not in ['vcp']:
+%if dictlo not in ['vcp','ae']:
  #x = re.sub(r'<C([0-9]+)>',r'<C n="\1"/>',x)
 %else:
  x = re.sub(r'<C([0-9]+)>',r'<C n="\1"/>',x)
@@ -133,7 +145,7 @@ def dig_to_xml_specific(x):
 %else:
  x = x.replace('--',u'—')  #597 cases
 %endif
-%if dictlo not in ['vcp']:
+%if dictlo not in ['vcp','ae']:
  #{^X^}  superscript
  x = re.sub(r'{\^(.*?)\^}',r'<sup>\1</sup>',x)
 %endif
@@ -349,6 +361,9 @@ def dig_to_xml_specific(x):
   # drop the initial '.²'
   # and start <div n="1">
   x = '<div n="1">' + x[2:]
+ elif re.search(u'^[.]²[abcdef]',x):
+  # a sub-division coded with a letter, handled by basicadjust.php
+  x = " " + x
  elif re.search(r'^[.]E[.]',x):
   # an Etymology division
   # drop the initial '.'
@@ -474,6 +489,65 @@ def dig_to_xml_specific(x):
  return x
 %endif
 
+def parse_print_changes(x):
+    res = ""
+    i = 0
+    while i < len(x):
+        if x[i:i+2] == '{{':
+            start = i
+            i += 2
+            level = 2
+            while i < len(x) and level > 0:
+                if x[i] == '{':
+                    level += 1
+                elif x[i] == '}':
+                    level -= 1
+                i += 1
+            if level == 0:
+                tag_content = x[start+2:i-2]
+                if '->' in tag_content:
+                    if '||' in tag_content:
+                        change_part, meta_part = tag_content.split('||', 1)
+                    else:
+                        change_part = tag_content
+                        meta_part = None
+                    parts = change_part.split('->')
+                    old = parts[0]
+                    new = '->'.join(parts[1:])
+                    if old == '' and new != '':
+                        chg_type = 'add'
+                    elif old != '' and new == '':
+                        chg_type = 'del'
+                    else:
+                        chg_type = 'chg'
+                    attribs_dict = {'type': chg_type, 'src': 'cdsl'}
+                    if meta_part:
+                        meta_fields = meta_part.split('|')
+                        # {{OLD->NEW||DATE|SUBMITTER|REFERENCE|COMMENT}}
+                        if len(meta_fields) > 0 and meta_fields[0]:
+                            attribs_dict['date'] = meta_fields[0]
+                        if len(meta_fields) > 1 and meta_fields[1]:
+                            attribs_dict['user'] = meta_fields[1]
+                        if len(meta_fields) > 2 and meta_fields[2]:
+                            attribs_dict['href'] = meta_fields[2]
+                        if len(meta_fields) > 3 and meta_fields[3]:
+                            attribs_dict['note'] = meta_fields[3]
+                    attrib_str = ""
+                    for k in ['type', 'src', 'date', 'user', 'href', 'note']:
+                        if k in attribs_dict:
+                            # Use a simple replacement for double quotes to avoid breaking XML attributes
+                            val = attribs_dict[k].replace('"', '&quot;')
+                            attrib_str += ' %s="%s"' % (k, val)
+                    res += '<chg%s><old>%s</old><new>%s</new></chg>' % (attrib_str, old, new)
+                else:
+                    res += x[start:i]
+            else:
+                res += x[start:i]
+        else:
+            res += x[i]
+            i += 1
+    return res
+
 def dig_to_xml_general(x):
 %if dictlo in ['abch', 'acph', 'acsj']:
  return x
@@ -482,7 +556,11 @@ def dig_to_xml_general(x):
  # xml requires that an ampersand be represented by &amp; entity
  x = x.replace('&','&amp;')
  # remove broken bar.  In xxx.txt, this usu. indicates a headword end
+%if dictlo in ['ae']:
+ x = x.replace(u'¦','')  # always '¦,' in ae.txt
+%else:
  x = x.replace(u'¦',' ')
+%endif
  # bold, italic, and Sanskrit markup converted to xml forms.
 %if dictlo in ['ben','ccs','mci','stc','bhs','gra','pe','gst','ieg','mwe','pgn','pui','vei','pd','mw72','snp','bor','krm','inm','skd','bop','vcp']:
  # These are not applicable to vcp, but do no harm
@@ -524,6 +602,7 @@ def dig_to_xml(xin):
  x = xin
  x = dig_to_xml_general(x)
  x = dig_to_xml_specific(x)
+ x = parse_print_changes(x)
  return x
 
 def dbgout(dbg,s):
@@ -903,6 +982,19 @@ def construct_xmlstring(datalines,hwrec):
   datalines1.append(x)
  datalines = datalines1
 %endif
+%if dictlo in ['wil']:
+ for i,x in enumerate(datalines):
+  if i == 0:
+   pass
+  elif x.strip() == '':
+   pass
+  elif x.startswith(('[Page', '.')):
+   pass
+  else:
+   x = '<lb/>' + x
+  datalines1.append(x)
+ datalines = datalines1
+%endif
 %if dictlo in ['skd','vcp']: # 'shs', removed 12-19-2025
  for i,x in enumerate(datalines):
   if i == 0:
@@ -1071,7 +1163,7 @@ def construct_xmlstring(datalines,hwrec):
   datalines1.append(x)
  datalines = datalines1
 %endif
-%if dictlo in ['ae','bor','mwe']: 
+%if dictlo in ['bor','mwe']: # 'ae' removed 05-10-2026
  for i,x in enumerate(datalines):
   if i == 0:
    pass
