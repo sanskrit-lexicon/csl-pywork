@@ -28,9 +28,21 @@ jobs:
           python-version: ${{ matrix.python-version }}
       - run: pip install ruff
       - name: Critical syntax errors
-        run: ruff check --select=E9,F63,F7,F82 --output-format=github .
+        # Exclude Mako template files (.py extension but contain %if/%endif Mako syntax)
+        # and v00/distinctscripts (Python 2 legacy, not run in modern CI)
+        run: |
+          ruff check --select=E9,F63,F7,F82 --output-format=github \
+            --exclude=v00/makotemplates \
+            --exclude=v02/makotemplates \
+            --exclude=v00/distinctscripts \
+            .
       - name: Style report (warnings only — large legacy codebase)
-        run: ruff check --output-format=github . || true
+        run: |
+          ruff check --output-format=github \
+            --exclude=v00/makotemplates \
+            --exclude=v02/makotemplates \
+            --exclude=v00/distinctscripts \
+            . || true
 
   smoke-import:
     name: Smoke-import core modules
