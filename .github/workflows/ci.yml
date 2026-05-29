@@ -49,16 +49,22 @@ jobs:
             . || true
 
   test-updateByLine:
-    name: Unit tests — updateByLine.py
+    name: Unit tests — updateByLine.py + dictparms.py
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-python@v5
         with:
           python-version: "3.11"
-      - run: pip install pytest
-      - name: Run tests
-        run: python -m pytest tests/ -v
+      - run: pip install pytest pytest-cov
+      - name: Run tests with coverage
+        run: |
+          python -m pytest tests/ -v \
+            --cov=v02 \
+            --cov-report=term-missing \
+            --cov-config=.coveragerc
+      - name: Coverage gate (v02 directly-imported modules)
+        run: python -m coverage report --fail-under=70
 
   smoke-import:
     name: Smoke-import core modules
