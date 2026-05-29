@@ -4,7 +4,22 @@
       "Bash(git add *)",
       "Bash(git commit -m ' *)",
       "Bash(git push *)",
-      "PowerShell(python fix_typo.py)"
+      "PowerShell(python fix_typo.py)",
+      "Bash(git checkout *)",
+      "Bash(gh pr *)",
+      "Bash(git merge --no-ff update-readme -m ' *)",
+      "Bash(git branch *)",
+      "Bash(git merge --no-ff update-v02-readme -m ' *)",
+      "Bash(git merge --no-ff update-v00-readme -m ' *)",
+      "Bash(git merge --no-ff update-readme-selective -m ' *)",
+      "Bash(git merge --no-ff update-v00-analysis -m ' *)",
+      "Bash(git rm *)",
+      "Bash(git merge --no-ff update-issue32-readme -m ' *)",
+      "Bash(git merge --no-ff document-cologne-test -m ' *)",
+      "Bash(git merge --no-ff document-xmlchk-xampp -m ' *)",
+      "Bash(git merge --no-ff document-v02-scripts -m ' *)",
+      "Bash(git merge --no-ff document-v00-scripts -m ' *)",
+      "Bash(git merge --no-ff document-v02-python -m ' *)"
     ]
   }
 }
