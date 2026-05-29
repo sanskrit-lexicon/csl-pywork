@@ -48,6 +48,12 @@ Dictionary codes (lowercase): `acc ae ap ap90 ben bhs bop bor bur cae ccs gra gs
 
 ---
 
+## Applying corrections
+
+For the end-to-end workflow of *correcting* a dictionary (snapshot → apply → validate → audit → commit), see **[csl-corrections/docs/correction-workflow.md](https://github.com/sanskrit-lexicon/csl-corrections/blob/master/docs/correction-workflow.md)**. The sections below describe only the *generation* pipeline that the correction workflow drives in its regeneration step.
+
+---
+
 ## What `generate_dict.sh` does
 
 `sh generate_dict.sh <dict> <outdir>` builds a complete, self-contained dictionary installation at `<outdir>`:

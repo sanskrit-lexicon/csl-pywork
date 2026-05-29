@@ -6,6 +6,12 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 **csl-pywork** is a Sanskrit Lexicon **data-store** repository — part of the Cologne Digital Sanskrit Lexicon (CDSL) infrastructure.
 
+## Correction Workflow
+
+When applying corrections that flow through this pipeline, follow the authoritative **[csl-corrections/docs/correction-workflow.md](https://github.com/sanskrit-lexicon/csl-corrections/blob/master/docs/correction-workflow.md)**. It documents the full sequence (snapshot → apply → regenerate via `generate_dict.sh` → validate via `xmlchk_xampp.sh` → audit → commit) with all scripts in this repo as the tooling reference.
+
+The build pipeline itself is documented in [v02/readme.md](v02/readme.md).
+
 ## Repo Category
 
 `data-store` — see the [tooling runbook](https://github.com/sanskrit-lexicon/csl-observatory/blob/main/runbook/cologne-tooling-runbook.md) for category-specific conventions.
