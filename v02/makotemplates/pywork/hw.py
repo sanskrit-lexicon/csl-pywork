@@ -92,7 +92,7 @@ class Hwextra(object):
    self.h = d['h']
  
 def init_hwextra(filein):
- with open(filein, 'r', encoding='utf-8') as f:
+ with open(filein, 'r', encoding='utf-8-sig') as f:
   recs = [Hwextra(line) for line in f if not line.startswith(';')]
  return recs
 
@@ -147,7 +147,7 @@ class Entry(object):
 
 def init_entries(filein):
  # slurp lines
- with open(filein, 'r', encoding='utf-8') as f:
+ with open(filein, 'r', encoding='utf-8-sig') as f:
   lines = [line.rstrip('\r\n') for line in f]
  recs=[]  # list of Entry objects
  inentry = False  
@@ -305,7 +305,7 @@ def write_entries_kosha(entries,fileout):
 
 def init_entries_kosha(filein):
  # slurp lines
- with open(filein, 'r', encoding='utf-8') as f:
+ with open(filein, 'r', encoding='utf-8-sig') as f:
   lines = [line.rstrip('\r\n') for line in f]
  recs=[]  # list of Entry objects
  inentry = False  
