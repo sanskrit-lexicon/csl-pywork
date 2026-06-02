@@ -33,18 +33,26 @@ jobs:
       - name: ElementTree-parse every committed .xml
         run: |
           python - <<'PY'
-          import xml.etree.ElementTree as ET, pathlib, sys
-          fail = 0; n = 0
+          import xml.etree.ElementTree as ET, pathlib, re, sys
+          # Mako templates carry a .xml extension but are not XML; many repo .xml
+          # files are multi-root data fragments (tab maps), not standalone docs.
+          # Skip templates; wrap the rest so a fragment's content is still checked
+          # for well-formedness without failing on the lack of a single root.
+          fail = 0; n = 0; skipped = 0
           for f in pathlib.Path('.').rglob('*.xml'):
-              if '.git' in f.parts:
+              if '.git' in f.parts or 'makotemplates' in f.parts:
+                  skipped += 1
                   continue
               n += 1
+              txt = f.read_text(encoding='utf-8', errors='replace')
+              txt = re.sub(r'^\s*<\?xml[^>]*\?>', '', txt)
+              txt = re.sub(r'<!DOCTYPE[^>]*>', '', txt)
               try:
-                  ET.parse(f)
+                  ET.fromstring(f"<_root>{txt}</_root>")
               except ET.ParseError as e:
                   print(f"::error file={f}::XML not well-formed: {e}")
                   fail = 1
-          print(f"checked {n} committed .xml files")
+          print(f"checked {n} committed .xml files ({skipped} Mako templates skipped)")
           sys.exit(fail)
           PY
 
