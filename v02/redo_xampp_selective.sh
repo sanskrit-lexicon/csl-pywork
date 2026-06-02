@@ -14,9 +14,14 @@
 # and indic-dict/stardict-sanskrit must exist with cached git credentials.
 # See readme_selective.md for a full step-by-step explanation.
 
+# Base directory holding the sibling CDSL repos. Override with CSL_BASE for
+# non-server installs, e.g.  CSL_BASE=/home/me/cologne sh redo_xampp_selective.sh
+# Defaults to the production server layout (backward-compatible).
+BASE="${CSL_BASE:-/var/www/html/cologne}"
+
 dt=$(date '+%Y%m%d%H%M%S');
 echo "Step 0. UPDATE RELEVANT GIT REPOSITORIES."
-cd /var/www/html/cologne/csl-pywork/v02
+cd "$BASE/csl-pywork/v02"
 git pull origin master
 cd ../../csl-homepage
 git pull origin master

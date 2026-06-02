@@ -1,0 +1,94 @@
+name: XML parse
+
+# D3 (csl-pywork#51): wire the full make_xml XML-parse check into CI.
+# Two layers:
+#   1. committed-xml  — every committed *.xml is well-formed (fast, always runs).
+#   2. dict-xml-build — actually assemble a small dictionary (mci) from the v02
+#      templates and assert the generated mci.xml parses via ElementTree
+#      ("All records parsed by ET"). This catches markup breakage that the
+#      source-level guard in csl-orig (BOM/UTF-8/<L>-balance) cannot.
+
+on:
+  push:
+    branches: [master, main]
+    paths:
+      - 'v02/**'
+      - '.github/workflows/xml-parse.yml'
+  pull_request:
+    branches: [master, main]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  committed-xml:
+    name: Committed XML is well-formed
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+      - name: ElementTree-parse every committed .xml
+        run: |
+          python - <<'PY'
+          import xml.etree.ElementTree as ET, pathlib, sys
+          fail = 0; n = 0
+          for f in pathlib.Path('.').rglob('*.xml'):
+              if '.git' in f.parts:
+                  continue
+              n += 1
+              try:
+                  ET.parse(f)
+              except ET.ParseError as e:
+                  print(f"::error file={f}::XML not well-formed: {e}")
+                  fail = 1
+          print(f"checked {n} committed .xml files")
+          sys.exit(fail)
+          PY
+
+  dict-xml-build:
+    name: Full make_xml build + ET parse (mci)
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout csl-pywork
+        uses: actions/checkout@v4
+        with:
+          path: csl-pywork
+      - name: Checkout csl-orig (sparse — mci only)
+        uses: actions/checkout@v4
+        with:
+          repository: sanskrit-lexicon/csl-orig
+          path: csl-orig
+          sparse-checkout: v02/mci
+      - name: Checkout csl-websanlexicon
+        uses: actions/checkout@v4
+        with:
+          repository: sanskrit-lexicon/csl-websanlexicon
+          path: csl-websanlexicon
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+      - name: Install build dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install mako lxml
+          sudo apt-get update && sudo apt-get install -y libxml2-utils
+      - name: Assemble mci + build XML (make_xml)
+        working-directory: csl-pywork/v02
+        # The gate is the parse assertion below, not this script's exit code:
+        # generate_dict.sh also runs web/downloads stages that are irrelevant to
+        # the XML-parse check, so don't let an unrelated late-stage hiccup fail CI.
+        run: |
+          sh generate_dict.sh mci tempparent/mci 2>&1 | tee build.log || true
+      - name: Assert mci.xml was produced and parses via ElementTree
+        working-directory: csl-pywork/v02
+        run: |
+          xml="$(find tempparent/mci -name 'mci.xml' 2>/dev/null | head -1)"
+          if [ -z "$xml" ]; then
+            echo "::error::make_xml did not produce mci.xml — XML build failed"
+            echo "---- tail of build.log ----"; tail -40 build.log || true
+            exit 1
+          fi
+          python -c "import xml.etree.ElementTree as ET; ET.parse('$xml'); print('$xml: All records parsed by ET — OK')"
