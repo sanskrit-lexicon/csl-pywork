@@ -3,10 +3,13 @@
  Reads/Writes utf-8
 """
 from __future__ import print_function
-import xml.etree.ElementTree as ET
-import sys
+
 import re
-from hwparse import init_hwrecs,HW
+import sys
+import xml.etree.ElementTree as ET
+
+from hwparse import HW, init_hwrecs
+
 xmlroot = HW.dictcode  
 
 def dig_to_xml_specific(x):
@@ -20,10 +23,10 @@ def dig_to_xml_specific(x):
  #  Also, remove the '||' -- aesthetic choice
  x = x.replace('||','<div n="2">')
  # change '--' to mdash
- x = x.replace('--',u'—')
+ x = x.replace('--','—')
  # We want most mdashes to start a div. but not all.
  # Restricting to the desired group is tricky. Here is a try.
- x = re.sub(u'(— *[A-Z])',r'<div n="3">\1',x)
+ x = re.sub('(— *[A-Z])',r'<div n="3">\1',x)
  return x
 
 def dig_to_xml_general(x):
@@ -31,7 +34,7 @@ def dig_to_xml_general(x):
  # xml requires that an ampersand be represented by &amp; entity
  x = x.replace('&','&amp;')
  # remove broken bar.  In xxx.txt, this usu. indicates a headword end
- x = x.replace(u'¦',' ') 
+ x = x.replace('¦',' ') 
  # bold, italic, and Sanskrit markup converted to xml forms.
  x = re.sub(r'{@','<b>',x)
  x = re.sub(r'@}','</b>',x)
@@ -194,7 +197,7 @@ def get_datalines(hwrec,inlines):
 
 def make_xml(filedig,filehw,fileout):
  # slurp txt file into list of lines
- with open(filein, 'r', encoding='utf-8') as f:
+ with open(filein, encoding='utf-8') as f:
     inlines = [line.rstrip('\r\n') for line in f]
  # parse xxxhw.txt 
  hwrecs = init_hwrecs(filehw)
@@ -219,7 +222,7 @@ def make_xml(filedig,filehw,fileout):
   # try parsing this string to verify well-formed.
   try:
    ET.fromstring(xmlstring.encode('utf-8'))
-  except:
+  except Exception:
    outarr = []
    nerr = nerr + 1
    out = "<!-- xml error #%s: L = %s, hw = %s-->" %(nerr,hwrec.L,hwrec.k1)
