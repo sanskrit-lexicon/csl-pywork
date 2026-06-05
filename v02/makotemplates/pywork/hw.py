@@ -10,7 +10,7 @@
 """
 from __future__ import print_function
 import re
-import sys,codecs
+import sys
 # next parses key-value pairs coded as <key>val<key1>val1...
 
 from parseheadline import parseheadline
@@ -129,7 +129,7 @@ class Entry(object):
   for line0 in self.datalines:
    line = re.sub(r'</?s>','',line0)  # 10-22-2023
    m = re.search(r'^<eid>(.*?)<syns>(.*)$',line)
-   if m == None:
+   if m is None:
     continue
    syns_str = m.group(2)
    syn_items = syns_str.split(',')
@@ -219,7 +219,7 @@ def write_hwrecs(hwrecs,fileout):
     if key not in hwrec:
      continue
     val = hwrec[key]
-    if val == None:
+    if val is None:
      continue
     kvpart = ('<' + '%s>%s') %(key,val)
     kvparts.append(kvpart)
@@ -274,7 +274,7 @@ def entry_to_hwrec_Lbody(entry):
  d['ln2'] = entry.linenum2
  text = entry.datalines[0] # first data line
  m = re.search('{{Lbody=(.*?)}}',text)
- if m == None:
+ if m is None:
   return d
  LP = m.group(1)  # parent L id
  if LP not in Entry.Ldict:

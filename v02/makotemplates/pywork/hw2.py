@@ -9,7 +9,9 @@
    Alternate-headword records carry an extra :type,LP field.
 """
 import sys
+
 from hwparse import init_hwrecs
+
 
 def write(hw2recs,fileout):
  with open(fileout, 'w', encoding='utf-8') as f:
@@ -25,7 +27,7 @@ def extract_hw2_helper(rec):
  k1 = rec.k1
  L = rec.L
  out1 = '%s:%s:%s,%s:%s' %(pc,k1,ln1,ln2,L)
- if rec.type == None:
+ if rec.type is None:
   out2 = ''
  else:
   # For alternate headwords, one more field  type,LP

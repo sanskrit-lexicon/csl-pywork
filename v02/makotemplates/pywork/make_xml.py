@@ -19,7 +19,8 @@
 """
 from __future__ import print_function
 import xml.etree.ElementTree as ET
-import sys, re,codecs
+import re
+import sys
 from hwparse import init_hwrecs,HW
 xmlroot = HW.dictcode
 
@@ -103,7 +104,7 @@ def dig_to_xml_specific(x):
 %endif
 %if dictlo == 'krm':
  x = x.replace('</F>','')
- x = x.replace('<F>','<div n="F">');
+ x = x.replace('<F>','<div n="F">')
  return x
 %endif
 %if dictlo not in ['vcp','ae']:
@@ -667,7 +668,7 @@ def construct_xmlhead(hwrec):
  key2 = hwrec.k2
  key1 = hwrec.k1
  hom = hwrec.h
- if hom == None:
+ if hom is None:
   # no homonym
   h = "<key1>%s</key1><key2>%s</key2>" % (key1,key2)
  else:
@@ -678,7 +679,7 @@ def construct_xmltail(hwrec):
  L = hwrec.L
  pagecol = hwrec.pc
  tail = "<L>%s</L><pc>%s</pc>" % (L,pagecol)
- if hwrec.type == None:
+ if hwrec.type is None:
   # normal
   return tail
  # otherwise, also <hwtype n="type" ref="LP"
@@ -729,7 +730,6 @@ def body_inm(lines):
    newline = '<div n="lb">' + line
   newlines.append(newline)
  # phase 1: append <sup> lines to previous line
- nsup=0
  for idx,line in enumerate(newlines):
   if line.startswith('<sup>'): # footnote marker
    idx0 = len(ans0) - 1
@@ -750,7 +750,6 @@ def body_inm(lines):
 def body_bop(lines):
  ans0 = []
  # phase 1: append <sup> lines to previous line
- nsup=0
  for idx,line in enumerate(lines):
   if line.startswith('<sup>'): # footnote marker
    idx0 = len(ans0) - 1
@@ -772,7 +771,6 @@ def body_bop(lines):
 def construct_xmlstring_1(datalines,hwrec):
  # for koshas like anhk
  dbg = False
- datalines1 = []
  # 1. h (head)
  h = construct_xmlhead(hwrec)
  dbgout(dbg,"head: %s" % h)
@@ -814,9 +812,8 @@ kaRwakaM romaharze syAt sUcyagre kzudravEriRi .. 3 ..
  # add formatting to hwdetails
  hwdetails1 = []
  for i,x in enumerate(hwdetails):
-  yerr = '<div> %s -->' % x
   m = re.search(r'<k1>(.*?)<meanings>(.*?)$',x)
-  if m == None:  # error condition
+  if m is None:  # error condition
    y = '<!-- ERROR wrong form: %s -->' %x
    hwdetails1.append(y)
   else:
@@ -856,7 +853,6 @@ def construct_xmlstring_2_helper(syns):
 def construct_xmlstring_2(datalines,hwrec):
  # for koshas like abch
  dbg = False
- datalines1 = []
  # 1. h (head)
  h = construct_xmlhead(hwrec)
  dbgout(dbg,"head: %s" % h)
@@ -898,9 +894,8 @@ constructed html
  # add formatting to hwdetails
  hwdetails1 = []
  for i,x in enumerate(hwdetails):
-  yerr = '<div> %s -->' % x
   m = re.search(r'<eid>(.*?)<syns>(.*?)$',x)
-  if m == None:  # error condition
+  if m is None:  # error condition
    y = '<!-- ERROR wrong form: %s -->' %x
    hwdetails1.append(y)
    continue
@@ -918,7 +913,7 @@ constructed html
  # Assume exactly 1 info line
  info = infos[0]
  m = re.search(r'<info kvvv="(.*?)"/>',info)
- if m != None:
+ if m is not None:
   kvvv_val = m.group(1) # value of kvvv
   info_str = "<s>%s</s>" % kvvv_val
  # string form
@@ -951,7 +946,7 @@ def construct_xmlstring(datalines,hwrec):
  # if hwrec has a homonym value hval, append <info hui="hval"/> to
  # last line of datalines
  hom = hwrec.h
- if hom != None:
+ if hom is not None:
   hui = '<info hui="%s"/>' % hom
   lastdataline = datalines[-1] + hui
   datalines[-1] = lastdataline
@@ -1177,7 +1172,7 @@ def construct_xmlstring(datalines,hwrec):
  datalines = datalines1
 %endif
  bodylines = [dig_to_xml(x) for x in datalines]
- if hwrec.type != None:
+ if hwrec.type is not None:
   bodylines = body_alt(bodylines,hwrec)
 %if dictlo == 'inm':
  bodylines = body_inm(bodylines)
@@ -1234,7 +1229,7 @@ def get_datalines1(hw,datalines):
  ans= []
  for line in datalines:
   m = re.search(r'<k1>(.*?)<meanings>(.*?)$',line)
-  if m == None: # keep verselines
+  if m is None: # keep verselines
    ans.append(line)
    continue
   # keep line only when hw matches one of the headwords of line
@@ -1304,8 +1299,8 @@ def make_xml(filein,filehw,fileout):
   # data is a string, which should be well-formed xml
   # try parsing this string to verify well-formed.
   try:
-   root = ET.fromstring(xmlstring)
-  except:
+   ET.fromstring(xmlstring)
+  except Exception:
    # 01-09-2021. Remove conditional err messaging
    # since some Python versions (e.g. 2.7.5) give false occasions
    nerr = nerr + 1

@@ -3,7 +3,8 @@
    Create xxx.sqlite from xxx.xml
 """
 from __future__ import print_function
-import sys,re,codecs;
+import re
+import sys
 import sqlite3
 import time  # for performance checks
 def remove(fileout):
@@ -71,7 +72,7 @@ def insert_batch(c,conn,tabname,rows):
   sql = 'INSERT INTO %s VALUES (?,?,?)' % tabname
   try:
    c.executemany(sql,rows)
-  except sqlite3.IntegrityError as e:
+  except sqlite3.IntegrityError:
    seen = set()
    for i,row in enumerate(rows):
     if row[1] in seen:
