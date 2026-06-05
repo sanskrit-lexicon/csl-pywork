@@ -18,7 +18,7 @@ if [ -z "$1" ] || [ -z "$2" ]
    exit 1
   else
     dict=$(echo "$1" | tr '[:lower:]' '[:upper:]') # Uppercase
-    outdir=$2
+    outdir="${2%/}"
 fi
 
 dictlo=$(echo "$dict" | tr '[:upper:]' '[:lower:]') # Lowercase

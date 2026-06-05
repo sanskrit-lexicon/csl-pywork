@@ -20,7 +20,7 @@ if [ -z "$1" ] || [ -z "$2" ]
    exit 1
   else
     dict=$1  # assume this is lowercase
-    outdir=$2
+    outdir="${2%/}"
 fi
 
  python3 generate.py "$dict" inventory.txt  makotemplates distinctfiles/${dict} $outdir
