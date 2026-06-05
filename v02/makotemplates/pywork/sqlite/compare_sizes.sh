@@ -17,7 +17,7 @@ else
     fi
 fi
 
-BASEDIR="$(cd "$(dirname "$0")/../../.." && pwd)"
+BASEDIR="$(cd "$(dirname "$0")/../../.." >/dev/null && pwd)"
 LEXBASE="$(dirname "$(dirname "$BASEDIR")")"
 TMPDIR=$(mktemp -d)
 trap "rm -rf '$TMPDIR'" EXIT

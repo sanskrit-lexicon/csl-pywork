@@ -22,7 +22,7 @@
 set -e
 
 cd "$(dirname "${BASH_SOURCE[0]}")"
-WORKSPACE=$(cd ../.. && pwd)
+WORKSPACE=$(cd ../.. >/dev/null && pwd)
 
 DO_PUSH=false
 if [ "$1" = "push" ]; then

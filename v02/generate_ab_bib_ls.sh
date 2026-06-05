@@ -11,7 +11,7 @@
 
 set -e
 
-BASEDIR="$(cd "$(dirname "$0")" && pwd)"
+BASEDIR="$(cd "$(dirname "$0")" >/dev/null && pwd)"
 cd "$BASEDIR"
 
 # Global dictionary list

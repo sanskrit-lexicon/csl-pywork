@@ -26,7 +26,7 @@ echo "END hw0.py"
 #echo "construct xxxhw0.txt"
 %if dictlo == 'mw':
 echo "construct mwkeys.sqlite"
-cd mwkeys
+cd mwkeys > /dev/null
 sh redo.sh
 %endif
 echo "END  redo_hw.sh"

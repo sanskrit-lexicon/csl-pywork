@@ -4,7 +4,7 @@ if [ -f ${dictlo}web1.zip ]
  echo "remove old ${dictlo}web1.zip"
  rm ${dictlo}web1.zip
 fi
-cd ../
+cd ../ > /dev/null
 zip  -rq downloads/${dictlo}web1.zip web -x *pdfpages*
-cd downloads
+cd downloads > /dev/null
 echo "END: downloads/redo_web1.sh"
