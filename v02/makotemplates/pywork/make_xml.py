@@ -61,7 +61,7 @@ def close_divs_krm(newline):
  return newline
 
 %endif
-%if dictlo not in ['ap','skd','sch','md','shs','cae','wil','ap90','bur','acc','yat']:  # These have their own code
+%if dictlo not in ['ap','skd','sch','md','shs','cae','wil','ap90','bur','acc','yat','pwkvn']:  # These have their own code
 def dig_to_xml_specific(x):
 %if dictlo in ['pw','pwg','gst','ieg','mwe','pgn','pui','vei','mw72','snp','bor','mw','inm','bop','abch','acph','acsj']:
  """ no changes particular to digitization"""
@@ -934,7 +934,6 @@ constructed html
 def construct_xmlstring(datalines,hwrec):
  # non-kosha dictionaries
  dbg = False
- datalines1 = []
  # 1. h (head)
  h = construct_xmlhead(hwrec)
  dbgout(dbg,"head: %s" % h)
@@ -952,6 +951,7 @@ def construct_xmlstring(datalines,hwrec):
   datalines[-1] = lastdataline
 %endif 
 %if dictlo in ['sch']:
+ datalines1 = []
  # To mimic current display of Sch, we remove the 'head' from first line:
  # Sept. 2021.  Head has two parts {#X#} N? {%Y%} : (N optional).
  # Remove only {#X#}
@@ -971,6 +971,7 @@ def construct_xmlstring(datalines,hwrec):
  datalines = datalines1
 %endif
 %if dictlo in ['acc']:
+ datalines1 = []
  for i,x in enumerate(datalines):
   if (i != 0) and not x.startswith('<'):
    x = '<br/>' + x
@@ -978,6 +979,7 @@ def construct_xmlstring(datalines,hwrec):
  datalines = datalines1
 %endif
 %if dictlo in ['wil']:
+ datalines1 = []
  for i,x in enumerate(datalines):
   if i == 0:
    pass
@@ -991,6 +993,7 @@ def construct_xmlstring(datalines,hwrec):
  datalines = datalines1
 %endif
 %if dictlo in ['skd','vcp']: # 'shs', removed 12-19-2025
+ datalines1 = []
  for i,x in enumerate(datalines):
   if i == 0:
    pass
@@ -1008,6 +1011,7 @@ def construct_xmlstring(datalines,hwrec):
 %endif
 %if dictlo in ['mdxxx']:
  # Since dictlo never is mdxxx, this coded not executed.
+ datalines1 = []
  # code retained in this file for information out 12-21-2023
  for i,x in enumerate(datalines):
   if i == 0:
@@ -1022,6 +1026,7 @@ def construct_xmlstring(datalines,hwrec):
  datalines = datalines1
 %endif
 %if dictlo in ['md']:
+ datalines1 = []
  # revision of 12-21-2023.
  # 🞄 01F784  (Black Slightly Small Circle) gets turned into new lines
  circle = '🞄'
@@ -1039,6 +1044,7 @@ def construct_xmlstring(datalines,hwrec):
  datalines = datalines1
 %endif
 %if dictlo in ['pe','pgn','pui','vei']:
+ datalines1 = []
  for i,x in enumerate(datalines):
   if i == 0:
    pass
@@ -1055,6 +1061,7 @@ def construct_xmlstring(datalines,hwrec):
  datalines = datalines1
 %endif
 %if dictlo in ['snp']:
+ datalines1 = []
  for i,x in enumerate(datalines):
   if i == 0:
    pass
@@ -1071,6 +1078,7 @@ def construct_xmlstring(datalines,hwrec):
 %endif
 
 %if dictlo in ['mw72']:
+ datalines1 = []
  for i,x in enumerate(datalines):
   if i == 0:
    pass
@@ -1084,6 +1092,7 @@ def construct_xmlstring(datalines,hwrec):
  datalines = datalines1
 %endif
 %if dictlo in ['yat']:
+ datalines1 = []
  for i,x in enumerate(datalines):
   if i == 0:
    pass
@@ -1097,6 +1106,7 @@ def construct_xmlstring(datalines,hwrec):
  datalines = datalines1
 %endif
 %if dictlo in ['ben','bhs']: 
+ datalines1 = []
  for i,x in enumerate(datalines):
   if i == 0:
    pass
@@ -1110,6 +1120,7 @@ def construct_xmlstring(datalines,hwrec):
  datalines = datalines1
 %endif
 %if dictlo in ['bop']:
+ datalines1 = []
  for i,x in enumerate(datalines):
   if i == 0:
    pass
@@ -1127,6 +1138,7 @@ def construct_xmlstring(datalines,hwrec):
  datalines = datalines1
 %endif
 %if dictlo in ['gst','ieg','mci']:
+ datalines1 = []
  for i,x in enumerate(datalines):
   if i == 0:
    pass
@@ -1142,6 +1154,7 @@ def construct_xmlstring(datalines,hwrec):
  datalines = datalines1
 %endif
 %if dictlo in ['krm']:
+ datalines1 = []
  for i,x in enumerate(datalines):
   if i == 0:
    pass
@@ -1159,6 +1172,7 @@ def construct_xmlstring(datalines,hwrec):
  datalines = datalines1
 %endif
 %if dictlo in ['bor','mwe']: # 'ae' removed 05-10-2026
+ datalines1 = []
  for i,x in enumerate(datalines):
   if i == 0:
    pass
@@ -1224,6 +1238,11 @@ def xml_header(xmlroot):
  return lines
 
 %if dictlo in ['abch', 'acph', 'acsj']:
+def get_k1(s):
+ """extract headword key from a string like 'nAsA-strI'"""
+ parts = s.split('-')
+ return parts[0]
+
 def get_datalines1(hw,datalines):
  # used for abch
  ans= []
