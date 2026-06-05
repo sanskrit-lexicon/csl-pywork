@@ -77,7 +77,7 @@ def dig_to_xml_specific(x):
  x = x.replace('Ⓓ',' ')
  x = x.replace('Ⓔ','<div n="lb"/>')
  x = x.replace('Ⓝ','<div n="lb"/>')
- x = re.sub('\[Page.*?\]',' ',x)
+ x = re.sub(r'\[Page.*?\]',' ',x)
  x = re.sub(r'[⒈⒉]', '', x)  # 22 pairs of 'homonyms'.
 %endif
 %if dictlo == 'mw':
