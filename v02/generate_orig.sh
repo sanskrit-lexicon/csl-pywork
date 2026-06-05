@@ -9,6 +9,7 @@
 # Reads inventory_orig.txt to determine which files to copy, then runs
 # generate.py against csl-orig/v02/<dict>/ as the source.
 # Populates outdir/orig/ (xxx.txt) and outdir/pywork/ (hwextra, header, meta files).
+unset CDPATH
 if [ -z "$1" ] || [ -z "$2" ]
   then
    echo "usage:  sh generate_orig.sh <dict> <parent-dir>"

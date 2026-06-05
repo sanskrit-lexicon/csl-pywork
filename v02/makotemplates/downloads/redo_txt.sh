@@ -1,3 +1,4 @@
+unset CDPATH
 echo "BEGIN: downloads/redo_txt.sh"
 if [ -f ${dictlo}txt.zip ]
  then

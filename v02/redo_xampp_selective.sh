@@ -19,6 +19,7 @@
 # Defaults to the production server layout (backward-compatible).
 BASE="${CSL_BASE:-/var/www/html/cologne}"
 
+unset CDPATH
 dt=$(date '+%Y%m%d%H%M%S');
 echo "Step 0. UPDATE RELEVANT GIT REPOSITORIES."
 cd "$BASE/csl-pywork/v02"

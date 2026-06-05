@@ -10,6 +10,7 @@
 #
 # See also: redo_xampp_all.sh for the flat XAMPP layout (../../<dict>/).
 
+unset CDPATH
 sh generate_dict.sh acc  ../../ACCScan/2020/
 sh generate_dict.sh ae  ../../AEScan/2020/
 sh generate_dict.sh ap  ../../APScan/2020/

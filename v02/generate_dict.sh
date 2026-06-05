@@ -20,6 +20,7 @@
 # Prerequisites: csl-websanlexicon must be a sibling of csl-pywork.
 # generate (update or initialize) orig, pywork, and web
 # code for a given dictionary  (uses csl-websanlexicon/v02)
+unset CDPATH
 if [ -z "$1" ] || [ -z "$2" ]
   then
    echo "usage:  sh generate_dict.sh <dict> <parent-dir>"

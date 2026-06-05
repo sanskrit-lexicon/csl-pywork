@@ -10,6 +10,7 @@
 #
 # See also: redo_cologne_all.sh for the Cologne server layout (../../XXXScan/2020/).
 
+unset CDPATH
 sh generate_dict.sh acc  ../../acc
 sh generate_dict.sh ae  ../../ae
 sh generate_dict.sh ap90  ../../ap90

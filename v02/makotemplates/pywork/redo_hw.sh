@@ -1,3 +1,4 @@
+unset CDPATH
 echo "BEGIN redo_hw.sh"
 echo "construct xxxhw.txt"
 %if (dictlo == 'mw') and cologne_flag: # use python3

@@ -20,6 +20,7 @@
 # Assumes XAMPP-style layout (dictionaries at ../../<dict>/ relative to v02/).
 
 set -e
+unset CDPATH
 
 cd "$(dirname "${BASH_SOURCE[0]}")"
 WORKSPACE=$(cd ../.. >/dev/null && pwd)

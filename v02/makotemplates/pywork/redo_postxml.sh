@@ -1,7 +1,7 @@
 # 
 # 0. copy xxxheader.xml from pywork to web
+unset CDPATH
 echo "BEGIN pywork/redo_postxml.sh"
-pwd
 echo "cp ${dictlo}header.xml ../web/"
 cp ${dictlo}header.xml ../web/
 echo ""

@@ -1,3 +1,4 @@
+unset CDPATH
 echo "BEGIN redo_xml.sh"
 
 echo "construct ${dictlo}.xml..."

@@ -10,6 +10,7 @@
 # Run from csl-pywork/v02 directory.
 
 set -e
+unset CDPATH
 
 BASEDIR="$(cd "$(dirname "$0")" >/dev/null && pwd)"
 cd "$BASEDIR"

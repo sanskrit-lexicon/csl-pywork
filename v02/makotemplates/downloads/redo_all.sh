@@ -1,3 +1,4 @@
+unset CDPATH
 output=$(sh redo_txt.sh 2>&1)
 printf "%s\n" "$output" | awk '
 /BEGIN: downloads\/redo_txt\.sh$/ { in_txt=1; txt_line=0; print; next }

@@ -11,6 +11,7 @@
 #   T  — rendered as a Mako template using dict parameters from dictparms.py
 #   CD — copied verbatim from distinctfiles/<dict>/pywork/
 #   D  — deleted from outdir if present (removes obsolete files)
+unset CDPATH
 if [ -z "$1" ] || [ -z "$2" ]
   then
    echo "usage:  sh generate_orig.sh <dict> <parent-dir>"
