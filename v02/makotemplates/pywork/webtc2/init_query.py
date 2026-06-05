@@ -9,17 +9,17 @@
   
 """
 from __future__ import print_function
-import sys
+
 import re
+import sys
+
 
 def make(filein,fileout):
- fp = open(filein, 'r', encoding='utf-8')
+ fp = open(filein, encoding='utf-8')
  fpout = open(fileout, 'w', encoding='utf-8')
 
  n=0
  prevkey=''
- lnum1=0
- nfound=0
  nfound1=0
  prevkey=""
  key=''
@@ -33,7 +33,6 @@ def make(filein,fileout):
    n = n + 1
    key=m.group(1)
    body = m.group(2)
-   L=m.group(3)
    data1 = query_line(body)
    data2 = query_sanskrit(body)
    #data2 = "" # currently, no good way to distinguish Sanskrit words.

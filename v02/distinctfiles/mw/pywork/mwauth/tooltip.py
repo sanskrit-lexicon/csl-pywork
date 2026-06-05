@@ -3,10 +3,13 @@
     04-04-2018.  
 """
 from __future__ import print_function
-import sys
+
 import re
+import sys
+
 sys.path.append('../')
 import transcoder
+
 transcoder.transcoder_set_dir("transcoder/")
 
 class Unused_Link(object):
@@ -39,7 +42,7 @@ class Unused_Link(object):
   outarr = []
   try:
    outarr.append(self.authrec.cologneid)
-  except:
+  except Exception:
    print("Link.toString error:",self.line.encode('utf-8'))
    exit(1)
   outarr.append(self.linkkey)
@@ -71,7 +74,7 @@ class Auth(object):
   self.line = line
   try:
    (self.cologneid,self.iastcode,self.authkey,self.authtype,self.authdata) = line.split('\t')
-  except:
+  except Exception:
    print('ERROR Auth.__init__: line=',line.encode('utf-8'))
    exit(1)
 
@@ -97,7 +100,6 @@ class Auth(object):
    m = re.search(r'<expandMW>(.*?)</expandMW>',self.authdata)
    s = m.group(1)
   # reformat this string
-  s0 = s
   for tag in ['au','ti','litcat','subti']:
    regex = '</?%s>' % tag
    s = re.sub(regex,'',s)
@@ -120,7 +122,7 @@ class Auth(object):
   return type1
 
 def create_authrecs(filein):
- with open(filein, 'r', encoding='utf-8') as f:
+ with open(filein, encoding='utf-8') as f:
   recs = [Auth(x) for x in f if x.rstrip()!= '' and not x.startswith(';')]
  return recs
 def capitalize(x,tranout):

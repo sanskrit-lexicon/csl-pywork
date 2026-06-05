@@ -5,8 +5,11 @@
    python xmlvalidate.py <xmlfilename> <dtdfilename>
 """
 from __future__ import print_function
-from lxml import etree
+
 import sys
+
+from lxml import etree
+
 
 def validate(xmlfile,dtdfile):
  dtd = etree.DTD(dtdfile)

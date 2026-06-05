@@ -4,9 +4,11 @@
  
 """
 from __future__ import print_function
-import sys
+
 import re
 import string
+import sys
+
 pyversion2 = (sys.version_info[0] == 2)
 
 # Note 'L' and '|' and 'Z' and 'V' are not present
@@ -32,14 +34,14 @@ def slp_cmp(a,b):
   #b1 = string.translate(b,trantable)
   a1 = translate_one(a)
   b1 = translate_one(b)
- except:
+ except Exception:
   print("slp_cmp error: a=",a,"b=",b)
   exit(1)
- return cmp(a1,b1)
+ return (a1 > b1) - (a1 < b1)
 
 def extract_keys_b(filein,fileout):
  fout = open(fileout, 'w', encoding='utf-8')
- f = open(filein, 'r', encoding='utf-8')
+ f = open(filein, encoding='utf-8')
  n = 0 # number of lines read
  # state variables
  keyhash = {}

@@ -4,13 +4,15 @@
    This required for Cologne sqlite construction.
 """
 from __future__ import print_function
+
 import sys
+
 if __name__ == "__main__":
  numfields = int(sys.argv[1])
  filein = sys.argv[2]
  n = 0
  d = {}
- with open(filein, 'r', encoding='utf-8') as f:
+ with open(filein, encoding='utf-8') as f:
   for i,line in enumerate(f):
    line = line.rstrip('\r\n')
    lnum = i+1

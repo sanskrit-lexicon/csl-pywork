@@ -5,7 +5,7 @@
     array of HW records.
 """
 from __future__ import print_function
-import re,codecs
+
 from parseheadline import parseheadline
 class HW(object):
  Ldict = {}  # dictionary into all HW records, key = L

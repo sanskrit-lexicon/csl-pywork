@@ -19,9 +19,11 @@ __date__ = '2011-12'
 
 # Python Standard Library
 import os
-import sys
+
 #import locale
 import re
+import sys
+
 #import logging
 #from operator import itemgetter
 #from lxml import etree
@@ -56,7 +58,6 @@ def transcoder_fsm(sfrom,to) :
  if (fromto in transcoder_fsmarr) :
   return
  regexCode=None
- regexpairs = [('slp1','deva'),('hkt','tamil')]
  if sfrom.startswith('slp1') and to.startswith('deva'):
   regexCode = 'slp1_deva'
  elif sfrom.startswith('deva') and to.startswith('slp1'):
@@ -116,7 +117,7 @@ def transcoder_fsm(sfrom,to) :
   startStates = re.split(",",sval)
   x = e.find("out") # out = the transformation of the input
   outval = x.text
-  if (outval == None):  # apparently parser returns this from <out></out>
+  if outval is None:  # apparently parser returns this from <out></out>
    outval=''
   x = e.find("next") # next state, this is optional. Its absence means use sval
   if x is not None:
@@ -271,7 +272,6 @@ def transcoder_processString(line,from1,to) :
    n += 1
    continue
   isubs = states[c]  
-  best=""
   nbest=0
   bestFE = None
   for isub in isubs :
@@ -285,17 +285,17 @@ def transcoder_processString(line,from1,to) :
      k=j
      j=nstartStates
     j += 1
-   if (k == -1) :continue
+   if (k == -1):
+    continue
    match = transcoder_processString_match(line,n,m,fsmentry)
    nmatch=len(match)
    ##   echo "chk2: n=n, c='c', nmatch=nmatch<br>\n"
    #out = "chk2: n=%s, c='%s', nmatch=%s" %(n,c,nmatch)
    #print(out.encode('utf-8'))
    if (nmatch > nbest) :
-    best = match
-    nbest=nmatch
-    bestFE=fsmentry
-   
+     nbest=nmatch
+     bestFE=fsmentry
+    
   if (bestFE) :
    result += bestFE['out']
    n += nbest

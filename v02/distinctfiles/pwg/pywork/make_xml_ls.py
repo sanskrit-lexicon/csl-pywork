@@ -8,10 +8,13 @@
  Adds 'n="..."' attribute to selected <ls> elements
 """
 from __future__ import print_function
-import sys
+
 import re
+import sys
+
 sys.path.append('pwgauth')
-from bibrec import Bibrec,init_bibrecs,prepare_bibrec_codes,match_best_prefix
+from bibrec import Bibrec, init_bibrecs, match_best_prefix, prepare_bibrec_codes
+
 
 def adjust_ls_old(line,lsdict):
  #global ncalls
@@ -38,7 +41,7 @@ def adjust_ls(line,dcodes):
   m = re.search(r'<ls>(.*?)</ls>',ls)
   abbrv = m.group(1)
   code = match_best_prefix(abbrv,dcodes)
-  if code == None:
+  if code is None:
    continue
   rec = Bibrec.d[code]  # the underlying Bibrec object
   n = rec.lineid
@@ -52,7 +55,7 @@ def adjust_ls(line,dcodes):
 def make_xmlfun(filein,dcodes,fileout):
  # slurp txt file into list of lines
  nadj = 0
- with open(filein, 'r', encoding='utf-8') as f:
+ with open(filein, encoding='utf-8') as f:
   with open(fileout, 'w', encoding='utf-8') as fout:
    for line in f:
     line1 = adjust_ls(line,dcodes)

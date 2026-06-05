@@ -3,9 +3,10 @@ Create xxx.sqlite from tab-separated input files.
 Replaces: sqlite3 xxx.sqlite < xxx.sql
 """
 from __future__ import print_function
-import sys
+
 import os
 import sqlite3
+import sys
 import time
 
 SCHEMA_MAP = {
@@ -201,7 +202,7 @@ if __name__ == '__main__':
     c = conn.cursor()
     create_table(c, conn, tabname, columns)
 
-    with open(filein, 'r', encoding='utf-8') as f:
+    with open(filein, encoding='utf-8') as f:
         lines = [line.rstrip('\r\n') for line in f]
     print(len(lines), 'lines read from', filein)
 

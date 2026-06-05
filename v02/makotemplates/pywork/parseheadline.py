@@ -6,8 +6,10 @@
  Note that the order of the <key>value pairs is not relevant.
 """
 from __future__ import print_function
-import sys
+
 import re
+import sys
+
 # Make code python2, python3 compatible.
 if sys.version_info[0] > 2:
     xrange = range
@@ -34,7 +36,7 @@ def test():
   ntest = idx+1
   try:
    result = parseheadline(line)
-  except:
+  except Exception:
    result = 'Error from parseheadline'
   # generate array of lines for output
   outarr =[]

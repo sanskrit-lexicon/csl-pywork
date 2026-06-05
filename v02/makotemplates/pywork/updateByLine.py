@@ -24,8 +24,11 @@
 """
 #
 from __future__ import print_function
+
 import re
 import sys
+
+
 class Change(object):
  def __init__(self,n,oldline,newline):
   self.n = n
@@ -65,9 +68,8 @@ class Change(object):
 
 def init_changein(changein ):
  changes = [] # ret
- f = open(changein, 'r', encoding='utf-8')
+ f = open(changein, encoding='utf-8')
  n = 0
- sep='XXXX'
  for line in f:
   line = line.rstrip('\r\n')
   if line.startswith(';'):  # skip comment line
@@ -88,7 +90,7 @@ def update(filein,changein,fileout):
  # determine change structure from changein file
  changes = init_changein(changein)
  # initialize input records
- with open(filein, 'r', encoding='utf-8') as f:
+ with open(filein, encoding='utf-8') as f:
   # recs is a list of lines, to accomodate 'ins' and 'del'
   recs = [[line.rstrip('\n\r')] for line in f]
   print(len(recs),"lines read from",filein)
@@ -100,7 +102,7 @@ def update(filein,changein,fileout):
   irec = lnum - 1 # since lnum assumed to start at 1
   try:
    oldrec = recs[irec]
-  except:
+  except Exception:
    print("lnum error: ",change.lnumstr)
    exit(1)
   # oldrec is a list of lines, typically with just 1 line.

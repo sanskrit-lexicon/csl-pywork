@@ -10,8 +10,10 @@
    how often, as a first step when debugging DTD validation failures.
 """
 from __future__ import print_function
+
 import re
 import sys
+
 
 def tagfreqs(lines):
  c = {} # counter
@@ -37,7 +39,7 @@ def write_tags(d,fileout):
 if __name__=="__main__":
  filein = sys.argv[1]
  fileout = sys.argv[2]
- with open(filein, 'r', encoding='utf-8') as f:
+ with open(filein, encoding='utf-8') as f:
   lines = [x.rstrip('\r\n') for x in f]
  d = tagfreqs(lines)
  write_tags(d,fileout)

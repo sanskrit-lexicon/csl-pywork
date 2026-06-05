@@ -8,8 +8,9 @@
                 lines starting with ';' are treated as comments and skipped
      <fileout>  tab-separated output: ABBREV<TAB><id>ABBREV</id> <disp>tip</disp>
 """
-import sys
 import re
+import sys
+
 
 class Abbrev(object):
  def __init__(self,line):
@@ -19,7 +20,7 @@ class Abbrev(object):
   self.tooltip = tooltip.strip()
 
 def init_recs(filein):
- with open(filein, 'r', encoding='utf-8') as f:
+ with open(filein, encoding='utf-8') as f:
   recs = [Abbrev(line) for line in f if not line.startswith(';')]
  print(len(recs),"records read from",filein)
  return recs

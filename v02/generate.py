@@ -8,16 +8,21 @@
  10-11-2019 Special logic so mako can handle pywork/make_xml.py.
 """
 from __future__ import print_function
-import sys
-import re
+
 import os.path
+import re
+
+# Use string.Template for
+import string
+import sys
 import time
 from shutil import copyfile
-from dictparms import alldictparms,microversion
+
+from dictparms import alldictparms, microversion
+
 # use mako templates
 from mako.template import Template
-# Use string.Template for
-import string  
+
 
 def get_cologne_flag():
  path = os.path.abspath(__file__)  # full path of this file
@@ -54,7 +59,7 @@ def makedirs(dirname,inventory):
    os.makedirs(dirname)
   #except FileExistsError:  # requires Python 3.3+
   # ref: https://stackoverflow.com/questions/273192/how-can-i-safely-create-a-nested-directory
-  except:  #IOError:
+  except Exception:  #IOError:
    # directory already exists
    #print(dirname,'already exists')
    pass
@@ -87,14 +92,14 @@ def init_inventory_distinct(filein,dictcode):
      space-delimited. e.g. *:${dictlo}.txt orig/${dictlo}.txt:CD
  """
  ans = []
- with open(filein, 'r', encoding='utf-8') as f:
+ with open(filein, encoding='utf-8') as f:
   for ix,x in enumerate(f):
    if x.startswith(';'): # comment
     continue 
    x = x.rstrip('\r\n')
    try:
     (dictcodes_str,filename_template_str,category) = x.split(':')
-   except:
+   except Exception:
     print('ERROR parsing',filein,'at line',ix+1)
     print('line=',x)
     exit(1)
@@ -146,7 +151,7 @@ def mako_postprocess(text):
  return text1
 
 def mako_special_handling(filein,dictparms):
- with open(filein, 'r', encoding='utf-8') as f:
+ with open(filein, encoding='utf-8') as f:
   text = f.read()
  text1 = mako_preprocess(text)
  template = Template(text1)
@@ -188,7 +193,7 @@ if __name__=="__main__":
    newfile = "%s/%s" %(newdir,filename_new)
    try:
     copyfile(filename1,newfile)
-   except:
+   except Exception:
     print('generate.py. ERROR CD copyfile. filename1=%s, newfile=%s' %
           (filename1,newfile))
     exit(1)
@@ -213,6 +218,6 @@ if __name__=="__main__":
     pass
     #print('WARNING: %s does not exist -- cannot delete'%newfile)
   else:
-   print("unexpected inventory category:",category,filename)
+   print("unexpected inventory category:",category,filename_old)
    exit(1)
 

@@ -3,8 +3,10 @@
    12-14-2017
 """
 from __future__ import print_function
+
 import re
 import sys
+
 
 class Bibrec(object):
  # Revised 12-11-2017 to recognize 'iast' attribute on <HI>
@@ -16,7 +18,7 @@ class Bibrec(object):
   try:
    lineid = m.group(1)
    body = m.group(2)
-  except:
+  except Exception:
    print("abbrv4 Bibrec init error: line=\n",line.encode('utf-8'))
    exit(1)
   self.lineid=lineid
@@ -56,7 +58,7 @@ class Bibrec(object):
   self.entryflag=True
 
 def init_bibrecs(filein):
- with open(filein, 'r', encoding='utf-8') as f:
+ with open(filein, encoding='utf-8') as f:
   recs=[]
   for x in f:
    if x.startswith(';'):
@@ -108,7 +110,7 @@ if __name__ == "__main__":
  bibrecs = init_bibrecs(filebib)
  print(len(bibrecs),"records from",filebib)
  dcodes = prepare_bibrec_codes(bibrecs)
- with open(filetest, 'r', encoding='utf-8') as f:
+ with open(filetest, encoding='utf-8') as f:
   txts = [x.rstrip('\r\n') for x in f]
  for txt in txts:
   ans = match_best_prefix(txt,dcodes)

@@ -5,13 +5,17 @@
  
 """
 from __future__ import print_function
-import sys
+
 import re
+import sys
+
 sys.path.append('../')  # pywork
 import hwparse
+
+
 def old_extract_keys(filein,fileout):
  fout = open(fileout, 'w', encoding='utf-8')
- f = open(filein, 'r', encoding='utf-8')
+ f = open(filein, encoding='utf-8')
  n = 0 # number of lines read
  nout = 0 # Number of lines written
  for line in f:
