@@ -1,4 +1,5 @@
 #!/usr/bin/python
+# Usage: python all_tags.py ../makotemplates/pywork/one.dtd res
 import xml.etree.ElementTree as ET
 import re,sys
 import os.path
@@ -66,6 +67,10 @@ def write_tags(fileout):
   for out in outarr: f.write(out + '\n')
 #-----------------------------------------------------
 if __name__=="__main__":
+ if len(sys.argv)!=3:
+  print('Usage: python all_tags.py <dtd_file> <output_prefix>')
+  print('Example: python all_tags.py ../makotemplates/pywork/one.dtd res')
+  sys.exit(1)
  filedtd = sys.argv[1]
  fileout = sys.argv[2]
  with open(filedtd,"r") as f:
