@@ -44,10 +44,14 @@
 000001 pw   <F>
 000038 pwg  <F>
 011133 vei  <F>
+013568 abch <H1>
 049822 acc  <H1>
+001513 acph <H1>
+000638 acsj <H1>
 011359 ae   <H1>
 049547 ap   <H1>
 034882 ap90 <H1>
+007907 armh <H1>
 017310 ben  <H1>
 017839 bhs  <H1>
 008961 bop  <H1>
@@ -55,11 +59,14 @@
 019776 bur  <H1>
 040069 cae  <H1>
 030010 ccs  <H1>
+008155 fri  <H1>
 012785 gra  <H1>
 006780 gst  <H1>
 007907 ieg  <H1>
 012647 inm  <H1>
 002061 krm  <H1>
+004944 lan  <H1>
+053441 lrv  <H1>
 002643 mci  <H1>
 020749 md   <H1>
 032116 mw   <H1>
@@ -71,6 +78,7 @@
 017512 pui  <H1>
 170556 pw   <H1>
 123366 pwg  <H1>
+024976 pwkvn <H1>
 029125 sch  <H1>
 047326 shs  <H1>
 042531 skd  <H1>
@@ -102,10 +110,14 @@
 000015 mw   <H4C>
 000001 mw   <H4E>
 000049 acc  <H>
+013568 abch <L>
 049822 acc  <L>
+001513 acph <L>
+000638 acsj <L>
 011359 ae   <L>
 090841 ap   <L>
 034882 ap90 <L>
+007907 armh <L>
 017310 ben  <L>
 017839 bhs  <L>
 008961 bop  <L>
@@ -113,11 +125,14 @@
 019776 bur  <L>
 040069 cae  <L>
 030010 ccs  <L>
+008155 fri  <L>
 012785 gra  <L>
 006780 gst  <L>
 007907 ieg  <L>
 012647 inm  <L>
 002061 krm  <L>
+004944 lan  <L>
+053441 lrv  <L>
 002643 mci  <L>
 020749 md   <L>
 286560 mw   <L>
@@ -129,6 +144,7 @@
 017512 pui  <L>
 170556 pw   <L>
 123366 pwg  <L>
+024976 pwkvn <L>
 029125 sch  <L>
 047326 shs  <L>
 042531 skd  <L>
@@ -147,9 +163,11 @@
 000308 bhs  <ab n>
 000022 bur  <ab n>
 001219 gra  <ab n>
+000005 lan  <ab n>
 000032 md   <ab n>
 013018 mw   <ab n>
 001365 pw   <ab n>
+000296 pwkvn <ab n>
 000002 sch  <ab n>
 000019 stc  <ab n>
 000006 wil  <ab n>
@@ -161,10 +179,12 @@
 065443 bur  <ab>
 025564 cae  <ab>
 049244 gra  <ab>
+013211 lan  <ab>
 046924 md   <ab>
 186220 mw   <ab>
 112119 pw   <ab>
 185581 pwg  <ab>
+006254 pwkvn <ab>
 080366 stc  <ab>
 067791 wil  <ab>
 000048 mw   <arab lang>
@@ -180,16 +200,21 @@
 029320 gra  <b>
 054070 inm  <b>
 002068 krm  <b>
+015273 lan  <b>
 006386 mci  <b>
 045347 md   <b>
 056209 pd   <b>
 025158 stc  <b>
 009085 vei  <b>
 000363 mw   <bio>
+013568 abch <body>
 049822 acc  <body>
+001513 acph <body>
+000638 acsj <body>
 011359 ae   <body>
 090841 ap   <body>
 034882 ap90 <body>
+007907 armh <body>
 017310 ben  <body>
 017839 bhs  <body>
 008961 bop  <body>
@@ -197,11 +222,14 @@
 019776 bur  <body>
 040069 cae  <body>
 030010 ccs  <body>
+008155 fri  <body>
 012785 gra  <body>
 006780 gst  <body>
 007907 ieg  <body>
 012647 inm  <body>
 002061 krm  <body>
+004944 lan  <body>
+053441 lrv  <body>
 002643 mci  <body>
 020749 md   <body>
 286560 mw   <body>
@@ -213,6 +241,7 @@
 017512 pui  <body>
 170556 pw   <body>
 123366 pwg  <body>
+024976 pwkvn <body>
 029125 sch  <body>
 047326 shs  <body>
 042531 skd  <body>
@@ -226,10 +255,12 @@
 000155 md   <bot>
 009258 mw   <bot>
 008531 pw   <bot>
+000040 pwkvn <bot>
 002274 snp  <bot>
 003883 wil  <bot>
 039234 acc  <br>
 003597 ap90 <br>
+031244 armh <br>
 017570 bop  <br>
 000001 mw   <br>
 024748 yat  <br>
@@ -241,10 +272,13 @@
 000090 bor  <chg date>
 000211 cae  <chg date>
 000087 ccs  <chg date>
+000002 fri  <chg date>
 000061 gra  <chg date>
 000084 ieg  <chg date>
 000106 inm  <chg date>
 000002 krm  <chg date>
+000009 lan  <chg date>
+000037 lrv  <chg date>
 000136 mci  <chg date>
 000005 md   <chg date>
 000006 mw   <chg date>
@@ -254,6 +288,7 @@
 000228 pe   <chg date>
 000034 pgn  <chg date>
 001424 pw   <chg date>
+000014 pwkvn <chg date>
 000038 sch  <chg date>
 000013 shs  <chg date>
 000114 skd  <chg date>
@@ -269,11 +304,14 @@
 000090 bor  <chg href>
 000316 cae  <chg href>
 000091 ccs  <chg href>
+000002 fri  <chg href>
 000047 gra  <chg href>
 000042 gst  <chg href>
 000084 ieg  <chg href>
 000106 inm  <chg href>
 000002 krm  <chg href>
+000009 lan  <chg href>
+000037 lrv  <chg href>
 000136 mci  <chg href>
 000004 md   <chg href>
 000006 mw   <chg href>
@@ -283,6 +321,7 @@
 000227 pe   <chg href>
 000034 pgn  <chg href>
 001424 pw   <chg href>
+000014 pwkvn <chg href>
 000035 sch  <chg href>
 000013 shs  <chg href>
 000114 skd  <chg href>
@@ -304,6 +343,7 @@
 000005 ieg  <chg note>
 000027 inm  <chg note>
 000002 krm  <chg note>
+000010 lrv  <chg note>
 000001 mci  <chg note>
 000005 md   <chg note>
 000014 mw72 <chg note>
@@ -311,6 +351,7 @@
 000407 pd   <chg note>
 000006 pe   <chg note>
 000186 pw   <chg note>
+000003 pwkvn <chg note>
 000015 sch  <chg note>
 000096 skd  <chg note>
 000017 stc  <chg note>
@@ -326,11 +367,14 @@
 000090 bor  <chg src>
 000316 cae  <chg src>
 000091 ccs  <chg src>
+000002 fri  <chg src>
 000494 gra  <chg src>
 000042 gst  <chg src>
 000084 ieg  <chg src>
 000106 inm  <chg src>
 000002 krm  <chg src>
+000009 lan  <chg src>
+000037 lrv  <chg src>
 000136 mci  <chg src>
 000005 md   <chg src>
 000045 mw   <chg src>
@@ -340,6 +384,7 @@
 000228 pe   <chg src>
 000034 pgn  <chg src>
 001424 pw   <chg src>
+000014 pwkvn <chg src>
 000038 sch  <chg src>
 000013 shs  <chg src>
 000114 skd  <chg src>
@@ -356,11 +401,14 @@
 000090 bor  <chg type>
 000316 cae  <chg type>
 000091 ccs  <chg type>
+000002 fri  <chg type>
 000494 gra  <chg type>
 000042 gst  <chg type>
 000084 ieg  <chg type>
 000106 inm  <chg type>
 000002 krm  <chg type>
+000009 lan  <chg type>
+000037 lrv  <chg type>
 000136 mci  <chg type>
 000005 md   <chg type>
 000045 mw   <chg type>
@@ -370,6 +418,7 @@
 000228 pe   <chg type>
 000034 pgn  <chg type>
 001424 pw   <chg type>
+000014 pwkvn <chg type>
 000038 sch  <chg type>
 000013 shs  <chg type>
 000114 skd  <chg type>
@@ -383,11 +432,14 @@
 000001 bor  <chg user>
 000316 cae  <chg user>
 000091 ccs  <chg user>
+000002 fri  <chg user>
 000057 gra  <chg user>
 000042 gst  <chg user>
 000084 ieg  <chg user>
 000104 inm  <chg user>
 000001 krm  <chg user>
+000009 lan  <chg user>
+000037 lrv  <chg user>
 000136 mci  <chg user>
 000005 md   <chg user>
 000006 mw   <chg user>
@@ -397,6 +449,7 @@
 000227 pe   <chg user>
 000034 pgn  <chg user>
 001423 pw   <chg user>
+000014 pwkvn <chg user>
 000038 sch  <chg user>
 000013 shs  <chg user>
 000105 skd  <chg user>
@@ -413,11 +466,14 @@
 000271 bor  <chg>
 001326 cae  <chg>
 000417 ccs  <chg>
+000008 fri  <chg>
 001139 gra  <chg>
 000126 gst  <chg>
 000341 ieg  <chg>
 000449 inm  <chg>
 000009 krm  <chg>
+000036 lan  <chg>
+000158 lrv  <chg>
 000545 mci  <chg>
 000024 md   <chg>
 000102 mw   <chg>
@@ -427,6 +483,7 @@
 000916 pe   <chg>
 000136 pgn  <chg>
 005881 pw   <chg>
+000059 pwkvn <chg>
 000164 sch  <chg>
 000052 shs  <chg>
 000543 skd  <chg>
@@ -438,6 +495,8 @@
 000993 md   <cl>
 131015 ap90 <div n="1">
 027210 bor  <div n="1">
+023013 fri  <div n="1">
+000116 lan  <div n="1">
 000005 mw   <div n="1">
 081079 pw   <div n="1">
 064325 pwg  <div n="1">
@@ -446,6 +505,7 @@
 031678 acc  <div n="2">
 099597 ap   <div n="2">
 005176 bur  <div n="2">
+002097 lan  <div n="2">
 039785 pw   <div n="2">
 023939 pwg  <div n="2">
 053132 shs  <div n="2">
@@ -475,6 +535,7 @@
 001016 ieg  <div n="P">
 001666 inm  <div n="P">
 000277 krm  <div n="P">
+002074 lrv  <div n="P">
 001879 mci  <div n="P">
 001219 mw   <div n="P">
 000064 mw72 <div n="P">
@@ -512,6 +573,7 @@
 002825 pw   <div n="m">
 000018 pw   <div n="o">
 003190 cae  <div n="p">
+000746 lan  <div n="p">
 000004 mw   <div n="p">
 008990 pw   <div n="p">
 009227 pwg  <div n="p">
@@ -523,10 +585,22 @@
 013894 bor  <div n="xe">
 013894 bor  <div n="xs">
 100814 ap   <div name>
+013568 abch <div>
+001513 acph <div>
+000638 acsj <div>
 100814 ap   <div>
 002216 sch  <div>
 000409 bhs  <ed>
 000031 vcp  <edit type="hw">
+013592 abch <eid>
+001531 acph <eid>
+000640 acsj <eid>
+036377 abch <entrydetail>
+011605 acph <entrydetail>
+000851 acsj <entrydetail>
+013568 abch <entrydetails>
+001513 acph <entrydetails>
+000638 acsj <entrydetails>
 002723 mw   <etym>
 000313 bhs  <fr>
 000001 md   <fr>
@@ -537,10 +611,14 @@
 000010 md   <gk>
 001168 mw   <gk>
 000100 pw   <gk>
+013568 abch <h>
 049822 acc  <h>
+001513 acph <h>
+000638 acsj <h>
 011359 ae   <h>
 090841 ap   <h>
 034882 ap90 <h>
+007907 armh <h>
 017310 ben  <h>
 017839 bhs  <h>
 008961 bop  <h>
@@ -548,11 +626,14 @@
 019776 bur  <h>
 040069 cae  <h>
 030010 ccs  <h>
+008155 fri  <h>
 012785 gra  <h>
 006780 gst  <h>
 007907 ieg  <h>
 012647 inm  <h>
 002061 krm  <h>
+004944 lan  <h>
+053441 lrv  <h>
 002643 mci  <h>
 020749 md   <h>
 286560 mw   <h>
@@ -564,6 +645,7 @@
 017512 pui  <h>
 170556 pw   <h>
 123366 pwg  <h>
+024976 pwkvn <h>
 029125 sch  <h>
 047326 shs  <h>
 042531 skd  <h>
@@ -583,6 +665,8 @@
 002239 gra  <hom>
 000025 gst  <hom>
 004298 inm  <hom>
+000209 lan  <hom>
+008065 lrv  <hom>
 000319 mci  <hom>
 002283 md   <hom>
 017441 mw   <hom>
@@ -592,8 +676,15 @@
 007339 pui  <hom>
 018479 pw   <hom>
 006582 pwg  <hom>
+001987 pwkvn <hom>
 001150 stc  <hom>
 000314 vei  <hom>
+013592 abch <hwdetail>
+001531 acph <hwdetail>
+000640 acsj <hwdetail>
+013568 abch <hwdetails>
+001513 acph <hwdetails>
+000638 acsj <hwdetails>
 001373 acc  <i>
 025909 ae   <i>
 041032 ap   <i>
@@ -609,6 +700,8 @@
 020733 ieg  <i>
 077898 inm  <i>
 000002 krm  <i>
+013122 lan  <i>
+056404 lrv  <i>
 031658 mci  <i>
 132696 md   <i>
 000199 mw   <i>
@@ -620,6 +713,7 @@
 023359 pui  <i>
 223061 pw   <i>
 198303 pwg  <i>
+012024 pwkvn <i>
 040973 sch  <i>
 000007 shs  <i>
 001227 snp  <i>
@@ -628,9 +722,11 @@
 009751 wil  <i>
 056190 yat  <i>
 010446 mw   <info cp>
+008065 lrv  <info hui>
 015765 mw   <info hui>
 008012 pw   <info hui>
 006499 pwg  <info hui>
+000916 pwkvn <info hui>
 261703 mw   <info lex>
 000374 mw   <info lexcat>
 006672 mw   <info n>
@@ -656,15 +752,22 @@
 030221 sch  <info>
 000011 ap   <is n>
 000164 pw   <is n>
+000015 pwkvn <is n>
 000338 inm  <is>
 000002 mw   <is>
 034083 pw   <is>
 053949 pwg  <is>
+001215 pwkvn <is>
 000033 pw   <iw>
+000004 pwkvn <iw>
+013568 abch <key1>
 049822 acc  <key1>
+001513 acph <key1>
+000638 acsj <key1>
 011359 ae   <key1>
 090841 ap   <key1>
 034882 ap90 <key1>
+007907 armh <key1>
 017310 ben  <key1>
 017839 bhs  <key1>
 008961 bop  <key1>
@@ -672,11 +775,14 @@
 019776 bur  <key1>
 040069 cae  <key1>
 030010 ccs  <key1>
+008155 fri  <key1>
 012785 gra  <key1>
 006780 gst  <key1>
 007907 ieg  <key1>
 012647 inm  <key1>
 002061 krm  <key1>
+004944 lan  <key1>
+053441 lrv  <key1>
 002643 mci  <key1>
 020749 md   <key1>
 286560 mw   <key1>
@@ -688,6 +794,7 @@
 017512 pui  <key1>
 170556 pw   <key1>
 123366 pwg  <key1>
+024976 pwkvn <key1>
 029125 sch  <key1>
 047326 shs  <key1>
 042531 skd  <key1>
@@ -697,10 +804,14 @@
 003834 vei  <key1>
 044577 wil  <key1>
 045206 yat  <key1>
+013568 abch <key2>
 049822 acc  <key2>
+001513 acph <key2>
+000638 acsj <key2>
 011359 ae   <key2>
 090841 ap   <key2>
 034882 ap90 <key2>
+007907 armh <key2>
 017310 ben  <key2>
 017839 bhs  <key2>
 008961 bop  <key2>
@@ -708,11 +819,14 @@
 019776 bur  <key2>
 040069 cae  <key2>
 030010 ccs  <key2>
+008155 fri  <key2>
 012785 gra  <key2>
 006780 gst  <key2>
 007907 ieg  <key2>
 012647 inm  <key2>
 002061 krm  <key2>
+004944 lan  <key2>
+053441 lrv  <key2>
 002643 mci  <key2>
 020749 md   <key2>
 286560 mw   <key2>
@@ -724,6 +838,7 @@
 017512 pui  <key2>
 170556 pw   <key2>
 123366 pwg  <key2>
+024976 pwkvn <key2>
 029125 sch  <key2>
 047326 shs  <key2>
 042531 skd  <key2>
@@ -746,15 +861,19 @@
 000068 mw72 <lang n="arabic">
 000117 pwg  <lang n="arabic">
 000004 wil  <lang n="arabic">
+007671 fri  <lang n="czech">
+007671 fri  <lang n="english">
 001243 ben  <lang n="greek">
 001353 bop  <lang n="greek">
 000670 bur  <lang n="greek">
 000003 cae  <lang n="greek">
 000013 gst  <lang n="greek">
 000001 inm  <lang n="greek">
+001012 lan  <lang n="greek">
 001658 mw72 <lang n="greek">
 000004 pw   <lang n="greek">
 000344 pwg  <lang n="greek">
+000004 pwkvn <lang n="greek">
 000005 sch  <lang n="greek">
 000001 snp  <lang n="greek">
 000001 stc  <lang n="greek">
@@ -764,6 +883,7 @@
 000011 mw72 <lang n="meter">
 000002 pwg  <lang n="mongolian">
 000003 pwg  <lang n="oldhebrew">
+007671 fri  <lang n="russian">
 000023 pwg  <lang n="russian">
 000001 mw72 <lang n="slavic">
 000001 gst  <lang script="Arabic">
@@ -775,6 +895,7 @@
 004102 mw   <lang>
 000279 pw   <lang>
 000003 pwg  <lang>
+000059 pwkvn <lang>
 000157 bhs  <lat>
 000003 md   <lat>
 059783 md   <lb>
@@ -785,6 +906,7 @@
 050550 ap90 <lbinfo n>
 009895 bur  <lbinfo n>
 004245 ccs  <lbinfo n>
+001435 lan  <lbinfo n>
 007649 stc  <lbinfo n>
 001430 mw   <lex type="hw">
 000850 mw   <lex type="hwalt">
@@ -800,14 +922,17 @@
 200125 mw   <lex>
 206819 pw   <lex>
 131191 pwg  <lex>
+015346 pwkvn <lex>
 053028 wil  <lex>
 000934 mw   <listinfo n>
 006347 ap   <ls n>
 005599 ap90 <ls n>
 000103 gra  <ls n>
+005912 lan  <ls n>
 008829 mw   <ls n>
 011263 pw   <ls n>
 201404 pwg  <ls n>
+001951 pwkvn <ls n>
 000249 sch  <ls n>
 001141 ae   <ls>
 071088 ap   <ls>
@@ -816,10 +941,12 @@
 048419 bhs  <ls>
 000526 bor  <ls>
 002524 gra  <ls>
+020042 lrv  <ls>
 000058 md   <ls>
 319231 mw   <ls>
 098362 pw   <ls>
 571166 pwg  <ls>
+016538 pwkvn <ls>
 030792 sch  <ls>
 000230 wil  <ls>
 000109 skd  <mark n="H">
@@ -835,11 +962,14 @@
 000090 bor  <new>
 000316 cae  <new>
 000091 ccs  <new>
+000002 fri  <new>
 000375 gra  <new>
 000042 gst  <new>
 000084 ieg  <new>
 000106 inm  <new>
 000002 krm  <new>
+000009 lan  <new>
+000037 lrv  <new>
 000136 mci  <new>
 000005 md   <new>
 000041 mw   <new>
@@ -849,6 +979,7 @@
 000228 pe   <new>
 000034 pgn  <new>
 001424 pw   <new>
+000014 pwkvn <new>
 000038 sch  <new>
 000013 shs  <new>
 000114 skd  <new>
@@ -869,11 +1000,14 @@
 000090 bor  <old>
 000316 cae  <old>
 000091 ccs  <old>
+000002 fri  <old>
 000494 gra  <old>
 000042 gst  <old>
 000084 ieg  <old>
 000106 inm  <old>
 000002 krm  <old>
+000009 lan  <old>
+000037 lrv  <old>
 000136 mci  <old>
 000005 md   <old>
 000045 mw   <old>
@@ -883,6 +1017,7 @@
 000228 pe   <old>
 000034 pgn  <old>
 001424 pw   <old>
+000014 pwkvn <old>
 000038 sch  <old>
 000013 shs  <old>
 000114 skd  <old>
@@ -892,10 +1027,14 @@
 000298 wil  <old>
 000214 yat  <old>
 000556 mw   <pb n>
+013568 abch <pc>
 049822 acc  <pc>
+001513 acph <pc>
+000638 acsj <pc>
 011359 ae   <pc>
 090841 ap   <pc>
 034882 ap90 <pc>
+007907 armh <pc>
 017310 ben  <pc>
 017839 bhs  <pc>
 008961 bop  <pc>
@@ -903,11 +1042,14 @@
 019776 bur  <pc>
 040069 cae  <pc>
 030010 ccs  <pc>
+008155 fri  <pc>
 012785 gra  <pc>
 006780 gst  <pc>
 007907 ieg  <pc>
 012647 inm  <pc>
 002061 krm  <pc>
+004944 lan  <pc>
+053441 lrv  <pc>
 002643 mci  <pc>
 020749 md   <pc>
 286560 mw   <pc>
@@ -919,6 +1061,7 @@
 017512 pui  <pc>
 170556 pw   <pc>
 123366 pwg  <pc>
+024976 pwkvn <pc>
 029125 sch  <pc>
 047326 shs  <pc>
 042531 skd  <pc>
@@ -937,10 +1080,14 @@
 002550 mw   <s1 n>
 005596 bur  <s1 slp1>
 053063 mw   <s1>
+063537 abch <s>
 053602 acc  <s>
+014649 acph <s>
+002129 acsj <s>
 072856 ae   <s>
 264454 ap   <s>
 144628 ap90 <s>
+031244 armh <s>
 022199 ben  <s>
 039691 bop  <s>
 089402 bor  <s>
@@ -949,6 +1096,7 @@
 046582 ccs  <s>
 049792 gst  <s>
 073684 krm  <s>
+090153 lrv  <s>
 000002 mci  <s>
 021178 md   <s>
 363892 mw   <s>
@@ -960,6 +1108,7 @@
 000003 pui  <s>
 317650 pw   <s>
 577068 pwg  <s>
+040701 pwkvn <s>
 209089 shs  <s>
 534214 skd  <s>
 582910 vcp  <s>
@@ -976,6 +1125,7 @@
 004494 gst  <sup>
 006942 inm  <sup>
 009298 krm  <sup>
+003414 lan  <sup>
 000497 mci  <sup>
 001665 pd   <sup>
 001924 pgn  <sup>
@@ -985,10 +1135,17 @@
 011135 vei  <sup>
 012375 acc  <symbol n>
 000001 wil  <symbol n>
+013592 abch <syns>
+001531 acph <syns>
+000640 acsj <syns>
+013568 abch <tail>
 049822 acc  <tail>
+001513 acph <tail>
+000638 acsj <tail>
 011359 ae   <tail>
 090841 ap   <tail>
 034882 ap90 <tail>
+007907 armh <tail>
 017310 ben  <tail>
 017839 bhs  <tail>
 008961 bop  <tail>
@@ -996,11 +1153,14 @@
 019776 bur  <tail>
 040069 cae  <tail>
 030010 ccs  <tail>
+008155 fri  <tail>
 012785 gra  <tail>
 006780 gst  <tail>
 007907 ieg  <tail>
 012647 inm  <tail>
 002061 krm  <tail>
+004944 lan  <tail>
+053441 lrv  <tail>
 002643 mci  <tail>
 020749 md   <tail>
 286560 mw   <tail>
@@ -1012,6 +1172,7 @@
 017512 pui  <tail>
 170556 pw   <tail>
 123366 pwg  <tail>
+024976 pwkvn <tail>
 029125 sch  <tail>
 047326 shs  <tail>
 042531 skd  <tail>

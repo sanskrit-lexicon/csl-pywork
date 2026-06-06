@@ -1,3 +1,19 @@
+013568 abch <H1>
+013568 abch <L>
+013568 abch <body>
+013568 abch <div>
+013592 abch <eid>
+036377 abch <entrydetail>
+013568 abch <entrydetails>
+013568 abch <h>
+013592 abch <hwdetail>
+013568 abch <hwdetails>
+013568 abch <key1>
+013568 abch <key2>
+013568 abch <pc>
+063537 abch <s>
+013592 abch <syns>
+013568 abch <tail>
 000033 acc  <F>
 049822 acc  <H1>
 000049 acc  <H>
@@ -23,6 +39,38 @@
 053602 acc  <s>
 012375 acc  <symbol n>
 049822 acc  <tail>
+001513 acph <H1>
+001513 acph <L>
+001513 acph <body>
+001513 acph <div>
+001531 acph <eid>
+011605 acph <entrydetail>
+001513 acph <entrydetails>
+001513 acph <h>
+001531 acph <hwdetail>
+001513 acph <hwdetails>
+001513 acph <key1>
+001513 acph <key2>
+001513 acph <pc>
+014649 acph <s>
+001531 acph <syns>
+001513 acph <tail>
+000638 acsj <H1>
+000638 acsj <L>
+000638 acsj <body>
+000638 acsj <div>
+000640 acsj <eid>
+000851 acsj <entrydetail>
+000638 acsj <entrydetails>
+000638 acsj <h>
+000640 acsj <hwdetail>
+000638 acsj <hwdetails>
+000638 acsj <key1>
+000638 acsj <key2>
+000638 acsj <pc>
+002129 acsj <s>
+000640 acsj <syns>
+000638 acsj <tail>
 011359 ae   <H1>
 011359 ae   <L>
 000003 ae   <ab n>
@@ -113,6 +161,16 @@
 144628 ap90 <s>
 000670 ap90 <span style>
 034882 ap90 <tail>
+007907 armh <H1>
+007907 armh <L>
+007907 armh <body>
+031244 armh <br>
+007907 armh <h>
+007907 armh <key1>
+007907 armh <key2>
+007907 armh <pc>
+031244 armh <s>
+007907 armh <tail>
 017310 ben  <H1>
 017310 ben  <L>
 065519 ben  <ab>
@@ -274,6 +332,26 @@
 030010 ccs  <pc>
 046582 ccs  <s>
 030010 ccs  <tail>
+008155 fri  <H1>
+008155 fri  <L>
+008155 fri  <body>
+000002 fri  <chg date>
+000002 fri  <chg href>
+000002 fri  <chg src>
+000002 fri  <chg type>
+000002 fri  <chg user>
+000008 fri  <chg>
+023013 fri  <div n="1">
+008155 fri  <h>
+008155 fri  <key1>
+008155 fri  <key2>
+007671 fri  <lang n="czech">
+007671 fri  <lang n="english">
+007671 fri  <lang n="russian">
+000002 fri  <new>
+000002 fri  <old>
+008155 fri  <pc>
+008155 fri  <tail>
 000003 gra  <F>
 012785 gra  <H1>
 012785 gra  <L>
@@ -417,6 +495,57 @@
 073684 krm  <s>
 009298 krm  <sup>
 002061 krm  <tail>
+004944 lan  <H1>
+004944 lan  <L>
+000005 lan  <ab n>
+013211 lan  <ab>
+015273 lan  <b>
+004944 lan  <body>
+000009 lan  <chg date>
+000009 lan  <chg href>
+000009 lan  <chg src>
+000009 lan  <chg type>
+000009 lan  <chg user>
+000036 lan  <chg>
+000116 lan  <div n="1">
+002097 lan  <div n="2">
+000746 lan  <div n="p">
+004944 lan  <h>
+000209 lan  <hom>
+013122 lan  <i>
+004944 lan  <key1>
+004944 lan  <key2>
+001012 lan  <lang n="greek">
+001435 lan  <lbinfo n>
+005912 lan  <ls n>
+000009 lan  <new>
+000009 lan  <old>
+004944 lan  <pc>
+003414 lan  <sup>
+004944 lan  <tail>
+053441 lrv  <H1>
+053441 lrv  <L>
+053441 lrv  <body>
+000037 lrv  <chg date>
+000037 lrv  <chg href>
+000010 lrv  <chg note>
+000037 lrv  <chg src>
+000037 lrv  <chg type>
+000037 lrv  <chg user>
+000158 lrv  <chg>
+002074 lrv  <div n="P">
+053441 lrv  <h>
+008065 lrv  <hom>
+056404 lrv  <i>
+008065 lrv  <info hui>
+053441 lrv  <key1>
+053441 lrv  <key2>
+020042 lrv  <ls>
+000037 lrv  <new>
+000037 lrv  <old>
+053441 lrv  <pc>
+090153 lrv  <s>
+053441 lrv  <tail>
 002643 mci  <H1>
 002643 mci  <L>
 006386 mci  <b>
@@ -787,6 +916,38 @@
 577068 pwg  <s>
 000088 pwg  <span>
 123366 pwg  <tail>
+024976 pwkvn <H1>
+024976 pwkvn <L>
+000296 pwkvn <ab n>
+006254 pwkvn <ab>
+024976 pwkvn <body>
+000040 pwkvn <bot>
+000014 pwkvn <chg date>
+000014 pwkvn <chg href>
+000003 pwkvn <chg note>
+000014 pwkvn <chg src>
+000014 pwkvn <chg type>
+000014 pwkvn <chg user>
+000059 pwkvn <chg>
+024976 pwkvn <h>
+001987 pwkvn <hom>
+012024 pwkvn <i>
+000916 pwkvn <info hui>
+000015 pwkvn <is n>
+001215 pwkvn <is>
+000004 pwkvn <iw>
+024976 pwkvn <key1>
+024976 pwkvn <key2>
+000004 pwkvn <lang n="greek">
+000059 pwkvn <lang>
+015346 pwkvn <lex>
+001951 pwkvn <ls n>
+016538 pwkvn <ls>
+000014 pwkvn <new>
+000014 pwkvn <old>
+024976 pwkvn <pc>
+040701 pwkvn <s>
+024976 pwkvn <tail>
 029125 sch  <H1>
 029125 sch  <L>
 000002 sch  <ab n>

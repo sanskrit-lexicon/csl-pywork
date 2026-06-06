@@ -55,14 +55,14 @@ def write_tags(fileout):
   k23d=sorted(c23[i].keys())
   for j in k23d:
    outarr.append('%06d %-04s %s'%(c23[i][j],i,j))
- with open("%s23.txt"%(fileout),'w','utf-8') as f:
+ with open("%s23.txt"%(fileout),'w',encoding='utf-8') as f:
   for out in outarr: f.write(out + '\n')
  outarr=[]; k32=sorted(c32.keys())
  for i in k32:
   k32d=sorted(c32[i].keys())
   for j in k32d:
    outarr.append('%06d %-04s %s'%(c32[i][j],j,i))
- with open("%s32.txt"%(fileout),'w','utf-8') as f:
+ with open("%s32.txt"%(fileout),'w',encoding='utf-8') as f:
   for out in outarr: f.write(out + '\n')
 #-----------------------------------------------------
 if __name__=="__main__":
