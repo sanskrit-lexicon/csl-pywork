@@ -3,6 +3,7 @@
 <!-- 01-22-2024. For dictlo = pe, Exclude the further 'pe' tag.-->
 <!-- 02-05-2024. Change pe tag to per, and remove logic re dictlo = pe -->
 <!-- 01-14-2026. sab element added for ap -->
+<!-- 06-12-2026. add 's' as child of 'ls'  for pwg -->
 %if dictlo not in ('mw','ap'):
 <!ELEMENT  ${dictlo} (H1)*>
 <!ELEMENT H1 (h,body,tail) >
@@ -106,7 +107,7 @@ pwg requires also is
 lan requires also sup
 bhs requires also lang
   -->
-<!ELEMENT ls (#PCDATA |ab|s1|ns|is|i|sup|lang|lb | chg)*>
+<!ELEMENT ls (#PCDATA |ab|s1|ns|is|i|sup|lang|lb | chg|s)*>
 <!ELEMENT ab (#PCDATA | chg)*> <!-- general abbreviation -->
 <!ELEMENT per (#PCDATA)> <!-- person 'abbreviation' (1., etc) -->
 <!ELEMENT lbinfo EMPTY>
