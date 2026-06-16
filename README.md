@@ -46,7 +46,7 @@ pie title Open issues by severity
 
 Follows the [Cologne tooling-repo taxonomy](https://github.com/sanskrit-lexicon/csl-observatory/blob/main/runbook/cologne-tooling-runbook.md):
 
-- **17 type labels** across 5 categories
+- **9 type labels** across 5 categories
 - **4 severity levels**: trivial, minor, major, critical
 - **5 milestones**: API Stability, User Experience, Data Quality, Developer Experience, Community
 - **Domain labels** scoped to data-store: `domain:schema`, `domain:migration`, `domain:integrity`, `domain:storage`

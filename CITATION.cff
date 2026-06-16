@@ -2,6 +2,13 @@ cff-version: 1.2.0
 type: software
 title: csl-pywork
 message: If you use this software, please cite it.
+authors:
+  - family-names: Funderburk
+    given-names: Jim
+  - family-names: Patel
+    given-names: Dhaval
+  - family-names: Gasūns
+    given-names: Mārcis
 license: GPL-3.0
 repository-code: https://github.com/sanskrit-lexicon/csl-pywork
 keywords:
