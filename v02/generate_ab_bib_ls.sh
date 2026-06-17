@@ -16,7 +16,7 @@ BASEDIR="$(cd "$(dirname "$0")" >/dev/null && pwd)"
 cd "$BASEDIR"
 
 # Global dictionary list
-DICT_LIST=" ap ap90 acc ae ben bhs bop bor bur cae ccs gra gst ieg inm krm lan mci md mw mw72 mwe mwauth pd pe pgn pui pw pwg pwkvn sch shs skd snp stc vcp vei wil yat "
+DICT_LIST=" abch acph acsj nmmb ap ap90 acc ae ben bhs bop bor bur cae ccs gra gst ieg inm krm lan mci md mw mw72 mwe mwauth pd pe pgn pui pw pwg pwkvn sch shs skd snp stc vcp vei wil yat "
 
 # Handle arguments
 if [ "$#" -ge 2 ]; then
