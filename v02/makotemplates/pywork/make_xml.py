@@ -882,10 +882,21 @@ constructed html
   elif x.startswith('<'):
    hwdetails.append(x)
   else:
-   entrydetails.append(x)
+    entrydetails.append(x)
  # add formatting to entrydetails
  entrydetails1 = []
  for i,x in enumerate(entrydetails):
+  # For nmmb, handle ;l{XXXX} line number references
+  if HW.dictcode == 'nmmb':
+   m_lnum = re.match(r';l\{(\d+)\}', x)
+   if m_lnum:
+    lnum_val = m_lnum.group(1)
+    if entrydetails1:
+     last = entrydetails1[-1]
+     lnum_ref = ' (paNkti-%s)' % lnum_val
+     last_with_lnum = last.replace('</s></entrydetail>', lnum_ref + '</s></entrydetail>')
+     entrydetails1[-1] = last_with_lnum
+    continue
   y = '<s>%s</s>' % x
   z = '<entrydetail>%s</entrydetail>' % y
   entrydetails1.append(z)
