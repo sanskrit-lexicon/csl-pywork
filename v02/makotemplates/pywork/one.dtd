@@ -64,7 +64,7 @@ H1B | H2B | H3B | H4B | H1C | H2C | H3C | H4C | H1E | H2E | H3E | H4E)*>
 <!ELEMENT old (#PCDATA  | %body_elts;)*>
 <!ELEMENT new (#PCDATA  | %body_elts;)*>
 <!ELEMENT span (#PCDATA  | %body_elts;)*>
-%if dictlo in ['abch', 'acph', 'acsj']:
+%if dictlo in ['abch', 'acph', 'acsj', 'nmmb']:
 <!ELEMENT tail (L,pc)>
 %else:
 <!ELEMENT tail (#PCDATA | L | pc |hwtype|info|listinfo)*>

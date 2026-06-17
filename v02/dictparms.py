@@ -282,7 +282,7 @@ alldictparms = {
   "nmmb": {
    "dictup":"NMMB",
    "dictlo":"nmmb",
-   "dictname":"Nāmamālikā of Bhoja, 1955",
+   "dictname":"Nāmamālikā of Bhoja",
    "dictversion":"03",
   },
 }
