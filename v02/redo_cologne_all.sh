@@ -55,4 +55,5 @@ sh generate_dict.sh abch  ../../ABCHScan/2023/
 sh generate_dict.sh acph  ../../ACPHScan/2023/
 sh generate_dict.sh acsj  ../../ACSJScan/2023/
 sh generate_dict.sh fri  ../../FRIScan/2025/
+sh generate_dict.sh nmmb ../../NMMBScan/2026/
 

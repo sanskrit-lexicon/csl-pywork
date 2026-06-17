@@ -36,8 +36,8 @@ H1B | H2B | H3B | H4B | H1C | H2C | H3C | H4C | H1E | H2E | H3E | H4E)*>
 <!ELEMENT key1 (#PCDATA) >
 <!ELEMENT key2 (#PCDATA )>
 <!ELEMENT hom (#PCDATA)>
-%if dictlo in ['abch', 'acph', 'acsj']:
-<!ELEMENT body (div,hwdetails,entrydetails)>
+%if dictlo in ['abch', 'acph', 'acsj', 'nmmb']:
+<!ELEMENT body (div?,hwdetails,entrydetails)>
 <!ELEMENT hwdetails (hwdetail)*>
 <!ELEMENT hwdetail (eid,syns)>
 <!ELEMENT eid (#PCDATA) >

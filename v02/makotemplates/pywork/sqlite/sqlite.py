@@ -25,7 +25,7 @@ def get_dict_code(fileout):
  return code
 
 def create_table(c,conn,dictlo):
-%if dictlo in ['abch', 'acph', 'acsj']:
+%if dictlo in ['abch', 'acph', 'acsj', 'nmmb']:
  template = '''
 CREATE TABLE %s (
  key VARCHAR(100)  NOT NULL,
@@ -85,7 +85,7 @@ def insert_batch(c,conn,tabname,rows):
      raise e2
   conn.commit()
 
-%if dictlo in ['abch', 'acph', 'acsj']:
+%if dictlo in ['abch', 'acph', 'acsj', 'nmmb']:
 def sort_lines(lines):
  slp_from = "aAiIuUfFxXeEoOMHkKgGNcCjJYwWqQRtTdDnpPbBmyrlvSzsh"
  slp_to =   "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvw"

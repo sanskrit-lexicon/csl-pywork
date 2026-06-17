@@ -279,5 +279,10 @@ alldictparms = {
   "dictname":"Frisch Sanskrit Reader Vocabulary, 1956",
   "dictversion":"02",
  },
-
+  "nmmb": {
+   "dictup":"NMMB",
+   "dictlo":"nmmb",
+   "dictname":"Nāmamālikā of Bhoja, 1955",
+   "dictversion":"03",
+  },
 }

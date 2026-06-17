@@ -63,7 +63,7 @@ def close_divs_krm(newline):
 %endif
 %if dictlo not in ['ap','skd','sch','md','shs','cae','wil','ap90','bur','acc','yat','pwkvn']:  # These have their own code
 def dig_to_xml_specific(x):
-%if dictlo in ['pw','pwg','gst','ieg','mwe','pgn','pui','vei','mw72','snp','bor','mw','inm','bop','abch','acph','acsj']:
+%if dictlo in ['pw','pwg','gst','ieg','mwe','pgn','pui','vei','mw72','snp','bor','mw','inm','bop','abch','acph','acsj', 'nmmb']:
  """ no changes particular to digitization"""
  return x
 %else:
@@ -550,7 +550,7 @@ def parse_print_changes(x):
     return res
 
 def dig_to_xml_general(x):
-%if dictlo in ['abch', 'acph', 'acsj']:
+%if dictlo in ['abch', 'acph', 'acsj', 'nmmb']:
  return x
 %endif
  """ These changes likely apply to ALL digitizations"""
@@ -836,7 +836,7 @@ kaRwakaM romaharze syAt sUcyagre kzudravEriRi .. 3 ..
  #5. Close the <div> elements
  # data = close_divs(data)
  return data
-%elif dictlo in ['abch', 'acph', 'acsj']:
+%elif dictlo in ['abch', 'acph', 'acsj', 'nmmb']:
 def construct_xmlstring_2_helper(syns):
  # syns = a,b,c ...
  # each syn is either k1 or k1-gender
@@ -851,7 +851,7 @@ def construct_xmlstring_2_helper(syns):
  return synk1s
 
 def construct_xmlstring_2(datalines,hwrec):
- # for koshas like abch
+ # for koshas like abch, nmmb
  dbg = False
  # 1. h (head)
  h = construct_xmlhead(hwrec)
@@ -910,19 +910,24 @@ constructed html
   z = '<hwdetail>%s</hwdetail>' % y
   hwdetails1.append(z)
  # add formatting to info(s)
- # Assume exactly 1 info line
- info = infos[0]
- m = re.search(r'<info kvvv="(.*?)"/>',info)
- if m is not None:
-  kvvv_val = m.group(1) # value of kvvv
-  info_str = "<s>%s</s>" % kvvv_val
+ # Assume at most 1 info line
+ info_str = ""
+ if len(infos) > 0:
+  info = infos[0]
+  m = re.search(r'<info kvvv="(.*?)"/>',info)
+  if m is not None:
+   kvvv_val = m.group(1) # value of kvvv
+   info_str = "<s>%s</s>" % kvvv_val
  # string form
  hwdetails_str = ''.join(hwdetails1)
  # construct body0, by combining hwdetails and entrydetails
  bodya = '<hwdetails>' + hwdetails_str + '</hwdetails>'
  bodyb = '<entrydetails>' + entrydetails_str +'</entrydetails>'
- bodyc = '<div>%s</div>' % info_str  # put it into a div
- body = bodyc + bodya + bodyb
+ if info_str != "":
+  bodyc = '<div>%s</div>' % info_str  # put it into a div
+  body = bodyc + bodya + bodyb
+ else:
+  body = bodya + bodyb
  
  dbgout(dbg,"body: %s" % body)
  #4. construct result
@@ -1237,14 +1242,14 @@ def xml_header(xmlroot):
  lines = [x.strip() for x in lines if x.strip()!='']
  return lines
 
-%if dictlo in ['abch', 'acph', 'acsj']:
+%if dictlo in ['abch', 'acph', 'acsj', 'nmmb']:
 def get_k1(s):
  """extract headword key from a string like 'nAsA-strI'"""
  parts = s.split('-')
  return parts[0]
 
 def get_datalines1(hw,datalines):
- # used for abch
+ # used for abch, nmmb
  ans= []
  for line in datalines:
   m = re.search(r'<k1>(.*?)<meanings>(.*?)$',line)
@@ -1277,7 +1282,7 @@ def get_datalines(hwrec,inlines):
  idx1 = n1 - 1
  idx2 = n2 - 1
  datalines = inlines[idx1:idx2+1]
-%if dictlo in ['abch', 'acph', 'acsj']:
+%if dictlo in ['abch', 'acph', 'acsj', 'nmmb']:
  # restrict further to the hwdetails that mention this hw
  hw = hwrec.k1
  datalines = get_datalines1(hw,datalines)
@@ -1308,7 +1313,7 @@ def make_xml(filein,filehw,fileout):
   # construct output
 %if dictlo in ['anhk']:
   xmlstring = construct_xmlstring_1(datalines,hwrec)
-%elif dictlo in ['abch', 'acph', 'acsj']:
+%elif dictlo in ['abch', 'acph', 'acsj', 'nmmb']:
   # using abch form
   xmlstring = construct_xmlstring_2(datalines,hwrec)
 %else:
