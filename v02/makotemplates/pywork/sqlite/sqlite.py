@@ -148,7 +148,7 @@ if __name__ == "__main__":
   lines = [line.rstrip('\r\n') for line in f]
   print(len(lines),'lines read from',filein)
 
-%if dictlo in ['abch', 'acph', 'acsj']:
+%if dictlo in ['abch', 'acph', 'acsj', 'nmmb']:
  rows = sort_lines(lines)
  nrow = len(rows)
  batch = []
