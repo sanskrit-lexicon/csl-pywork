@@ -31,7 +31,7 @@ H1B | H2B | H3B | H4B | H1C | H2C | H3C | H4C | H1E | H2E | H3E | H4E)*>
 <!ELEMENT H3E (h,body,tail) >
 <!ELEMENT H4E (h,body,tail) >
 %endif
-<!ENTITY % body_elts "b | i | s |div | alt | symbol | F |  br | H | root |lb | P | lang | sup | pic | ls |ab|lbinfo|s1|lex|vlex|C|Poem|note|nsi |sic|is|bot|VN|type|hom|mark|edit|bio|etym|pb|pc|pcol|shortlong|srs|info|ns|span|per|chg|old|new|gk|heb|iw|zoo|tib|ger|fr|ed|ms|lat|toch|arab|rus|mong|cl|listinfo|sab" >
+<!ENTITY % body_elts "b | i | s |div | alt | symbol | F |  br | H | root |lb | P | lang | sup | pic | ls |ab|lbinfo|s1|lex|vlex|C|Poem|note|nsi |sic|is|bot|VN|type|hom|mark|edit|bio|etym|pb|pc|pcol|shortlong|srs|info|ns|span|per|chg|old|new|gk|heb|iw|zoo|tib|ger|fr|ed|ms|lat|toch|arab|rus|mong|ocs|mng|abot|pe|azoo|enum|zen|num|cl|listinfo|sab" >
 <!ELEMENT h  (key1,key2,hom?)>
 <!ELEMENT key1 (#PCDATA) >
 <!ELEMENT key2 (#PCDATA )>
@@ -73,6 +73,7 @@ H1B | H2B | H3B | H4B | H1C | H2C | H3C | H4C | H1E | H2E | H3E | H4E)*>
 <!ELEMENT pc (#PCDATA) >
 <!ELEMENT cl (#PCDATA) > <!-- 12-20-2023. md. <cl>III</cl> 3rd class verb -->
 <!ELEMENT iw (#PCDATA) >
+<!ATTLIST iw n CDATA #IMPLIED>
 <!ELEMENT hwtype EMPTY>
 <!ELEMENT alt (#PCDATA | s)*>
 <!ELEMENT sup (#PCDATA |s)*>
@@ -85,6 +86,14 @@ H1B | H2B | H3B | H4B | H1C | H2C | H3C | H4C | H1E | H2E | H3E | H4E)*>
 <!ELEMENT arab (#PCDATA) > <!-- Arabic text, PW, mw-->
 <!ELEMENT rus (#PCDATA) >  <!-- Russian text, PW-->
 <!ELEMENT mong (#PCDATA) >  <!-- Mongolian text, PW-->
+<!ELEMENT ocs (#PCDATA) >  <!-- Old Church Slavonic text, PWG-->
+<!ELEMENT mng (#PCDATA) >  <!-- meaning indicator, PWG-->
+<!ELEMENT abot (#PCDATA) >  <!-- botanical authority abbreviation, PWG-->
+<!ELEMENT pe (#PCDATA) >  <!-- person ending/verbal ending, PWG-->
+<!ELEMENT azoo (#PCDATA) >  <!-- zoological authority abbreviation, PWG-->
+<!ELEMENT enum (#PCDATA) >  <!-- enumeration marker, PWG-->
+<!ELEMENT zen (#PCDATA) >  <!-- Zend/Avestan text, PWG-->
+<!ELEMENT num (#PCDATA) >  <!-- number abbreviation, PWG-->
 <!ELEMENT ed (#PCDATA) > <!-- edition bhs-->
 <!ELEMENT ms (#PCDATA) > <!-- manuscript bhs-->
 <!ELEMENT lat (#PCDATA | i | ab)* > <!-- latin text, bhs-->
@@ -107,7 +116,7 @@ pwg requires also is
 lan requires also sup
 bhs requires also lang
   -->
-<!ELEMENT ls (#PCDATA |ab|s1|ns|is|i|sup|lang|lb | chg|s)*>
+<!ELEMENT ls (#PCDATA |ab|s1|ns|is|i|sup|lang|lb | chg|s|lex)*>
 <!ELEMENT ab (#PCDATA | chg)*> <!-- general abbreviation -->
 <!ELEMENT per (#PCDATA)> <!-- person 'abbreviation' (1., etc) -->
 <!ELEMENT lbinfo EMPTY>
@@ -123,6 +132,7 @@ bhs requires also lang
 <!ELEMENT sab (#PCDATA | %body_elts; )* >
 <!ELEMENT bio (#PCDATA )* >
 <!ELEMENT zoo (#PCDATA | %body_elts; )* >
+<!ATTLIST zoo n CDATA #IMPLIED>
 <!ELEMENT pb (#PCDATA) >
 <!ELEMENT pcol (#PCDATA) >
 <!ELEMENT shortlong EMPTY>
@@ -130,7 +140,7 @@ bhs requires also lang
 
 <!ATTLIST symbol n CDATA #REQUIRED>
 <!ATTLIST div name CDATA #IMPLIED>
-<!ATTLIST div n (P | 2 | 3 | lb |pfx |1 | I | xe | xs |p|H|P1|HI|F|NI|m|o|4|v|E|Poem|Picture|lex|to|vp|Q|TS|Pf|W) #IMPLIED>
+<!ATTLIST div n (P | 2 | 3 | lb |pfx |1 | I | xe | xs |p|H|P1|HI|F|NI|m|o|4|v|E|Poem|Picture|lex|to|vp|Q|TS|Pf|W|conj|zz|yy|pW|pp) #IMPLIED>
 <!ATTLIST span style CDATA #IMPLIED>
 <!ATTLIST span class CDATA #IMPLIED>
 <!ATTLIST chg type CDATA #IMPLIED>
