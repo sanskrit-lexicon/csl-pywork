@@ -716,7 +716,7 @@ var.	<id>var.</id> <disp>Variante - variant</disp>  <N>1</N> CHECKED
 var. l.	<id>var. l.</id> <disp>varia lectio - variant reading</disp>  <N>23</N> CHECKED
 Var. l.	<id>Var. l.</id> <disp>varia lectio - variant reading</disp>  <N>2</N> CHECKED
 Varr.	<id>Varr.</id> <disp>Varianten - variants</disp>  <N>6</N> CHECKED
-ved.	<id>ved.</id> <disp>vedisch - Vedic</disp>  <N>541</N> CHECKED
+ved.	<id>ved.</id> <disp>vedisch - Vedic (Sanskrit)</disp>  <N>541</N> CHECKED
 verb.	<id>verb.</id> <disp>Verbum - verb</disp>  <N>10</N> CHECKED
 Verb.	<id>Verb.</id> <disp>Verbum - verb</disp>  <N>50</N> CHECKED
 verb. fin.	<id>verb. fin.</id> <disp>verbum finitum - finite verb</disp>  <N>30</N> CHECKED
@@ -789,3 +789,48 @@ Zusammenss.	<id>Zusammenss.</id> <disp>Zusammensetzungen - compositions</disp>  
 übers.	<id>übers.</id> <disp>übersetzt - translated</disp>  <N>3</N> UNCHECKED
 überth.	<id>überth.</id> <disp>überhaupt (typo) - in general (typo of überh.)</disp> <INFER/> <N>1</N> UNCHECKED
 übertr.	<id>übertr.</id> <disp>übertragen - transferred / metaphorical</disp>  <N>339</N> CHECKED
+afgh.	<id>afgh.</id> <disp>Afghan</disp>
+Afghan.	<id>Afghan.</id> <disp>Afghan</disp>
+ahd.	<id>ahd.</id> <disp>Old High German</disp>
+altpers.	<id>altpers.</id> <disp>Old Persian</disp>
+arab.	<id>arab.</id> <disp>Arabic</disp>
+Arab.	<id>Arab.</id> <disp>Arabic</disp>
+Beng.	<id>Beng.</id> <disp>Bengali</disp>
+beng.	<id>beng.</id> <disp>Bengali</disp>
+bengal.	<id>bengal.</id> <disp>Bengali</disp>
+Bengal.	<id>Bengal.</id> <disp>Bengali</disp>
+Chin.	<id>Chin.</id> <disp>Chinese</disp>
+chines.	<id>chines.</id> <disp>Chinese</disp>
+deutsche	<id>deutsche</id> <disp>German</disp>
+ep.	<id>ep.</id> <disp>Epic (Sanskrit)</disp>
+goth.	<id>goth.</id> <disp>Gothic</disp>
+griech.	<id>griech.</id> <disp>Greek</disp>
+hind.	<id>hind.</id> <disp>Hindustani</disp>
+Hindi	<id>Hindi</id> <disp>Hindī</disp>
+hindust.	<id>hindust.</id> <disp>Hindustani</disp>
+Hindust.	<id>Hindust.</id> <disp>Hindustani</disp>
+Hindī	<id>Hindī</id> <disp>Hindī</disp>
+illir.	<id>illir.</id> <disp>Illyrian</disp>
+klass.	<id>klass.</id> <disp>Classic (Sanskrit)</disp>
+lat.	<id>lat.</id> <disp>Latin</disp>
+lit.	<id>lit.</id> <disp>Lithuanian</disp>
+litt.	<id>litt.</id> <disp>Lithuanian</disp>
+litth.	<id>litth.</id> <disp>Lithuanian</disp>
+mahr.	<id>mahr.</id> <disp>Mahrāttā</disp>
+mahratt.	<id>mahratt.</id> <disp>Mahrāttā</disp>
+mongol.	<id>mongol.</id> <disp>Mangolian</disp>
+māgadh.	<id>māgadh.</id> <disp>Māgadhī</disp>
+nachved.	<id>nachved.</id> <disp>Post-Vedic (Sanskrit)</disp>
+neulat.	<id>neulat.</id> <disp>New Latin</disp>
+nhd.	<id>nhd.</id> <disp>New High German</disp>
+prākr.	<id>prākr.</id> <disp>Prākṛt</disp>
+Prākrit	<id>Prākrit</id> <disp>Prākṛt</disp>
+Prākṛt	<id>Prākṛt</id> <disp>Prākṛt</disp>
+russ.	<id>russ.</id> <disp>Russian</disp>
+schwed.	<id>schwed.</id> <disp>Swedish</disp>
+slav.	<id>slav.</id> <disp>Slavic</disp>
+tib.	<id>tib.</id> <disp>Tibetan</disp>
+Tibet.	<id>Tibet.</id> <disp>Tibetan</disp>
+tibet.	<id>tibet.</id> <disp>Tibetan</disp>
+zend.	<id>zend.</id> <disp>Zend (Avestan)</disp>
+Zend	<id>Zend</id> <disp>Zend (Avestan)</disp>

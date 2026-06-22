@@ -1,9 +1,8 @@
 
-pwgab.sqlite
+06-21-2026  These instructions not applicable.
 
-# 12-14-2017  pwgab_prelim.txt is a copy of pwab_prelim.txt.
-#  Currently, most abbreviations are NOT marked.
-python make_pwgab.py pwgab_prelim.txt pwgab_input.txt
+pwgab_input.txt is the list of 'global' abbreviations.
+python check.py pwgab_input.txt
+checks various details of pwgab_input.txt and notes problems.
+Problems should be fixed before regenerating the displays for pwg.
 
-# redo.sh does above, creates pwgab.sqlite, and copies to web/sqlite/
-sh redo.sh
