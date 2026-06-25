@@ -65,6 +65,9 @@ def close_divs_krm(newline):
 def dig_to_xml_specific(x):
 %if dictlo in ['pw','pwg','gst','ieg','mwe','pgn','pui','vei','mw72','snp','bor','mw','inm','bop','abch','acph','acsj', 'nmmb']:
  """ no changes particular to digitization"""
+%if dictlo == 'ieg':
+ x = re.sub(r'<P>','<div n="P">',x)
+%endif
  return x
 %else:
  """ changes particular to digitization"""
