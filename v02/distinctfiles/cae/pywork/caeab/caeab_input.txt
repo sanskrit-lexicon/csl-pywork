@@ -91,6 +91,7 @@ t.	<id>t.</id> <disp>time</disp>
 superl.	<id>superl.</id> <disp>superlative</disp>
 s.v.	<id>s.v.</id> <disp>sub voce</disp>
 trans.	<id>trans.</id> <disp>transitive</disp>
+v.	<id>v.</id> <disp>vide, see</disp>
 vocat.	<id>vocat.</id> <disp>vocative</disp>
 voc.	<id>voc.</id> <disp>vocative</disp>
 w.	<id>w.</id> <disp>with</disp>
