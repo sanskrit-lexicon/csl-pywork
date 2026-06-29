@@ -10,12 +10,12 @@ name: XML parse
 
 on:
   push:
-    branches: [master, main]
+    branches: [main]
     paths:
       - 'v02/**'
       - '.github/workflows/xml-parse.yml'
   pull_request:
-    branches: [master, main]
+    branches: [main]
   workflow_dispatch:
 
 permissions:
