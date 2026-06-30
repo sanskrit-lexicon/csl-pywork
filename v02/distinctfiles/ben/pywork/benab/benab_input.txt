@@ -25,7 +25,7 @@ anomal.	<id>anomal.</id> <disp>anomalous</disp>
 Anomal.	<id>Anomal.</id> <disp>anomalous</disp>
 aor.	<id>aor.</id> <disp>aorist</disp>
 Aor.	<id>Aor.</id> <disp>aorist</disp>
-ap.	<id>ap.</id> <disp>apud (in the works of)</disp>
+ap.	<id>ap.</id> <disp>apud (cited by)</disp>
 Arab.	<id>Arab.</id> <disp>Arabic</disp>
 Bahuvr.	<id>Bahuvr.</id> <disp>Bahuvrihi</disp>
 Ball.	<id>Ball.</id> <disp>Ballantyne</disp>
@@ -58,8 +58,7 @@ condit.	<id>condit.</id> <disp>conditional</disp>
 conj.	<id>conj.</id> <disp>conjugation</disp>
 conjunct.	<id>conjunct.</id> <disp>conjunction</disp>
 Coptic	<id>Coptic</id> <disp>Coptic</disp>
-corr.	<id>corr.</id> <disp>?</disp>
-Corr.	<id>Corr.</id> <disp>?</disp>
+corr.	<id>corr.</id> <disp>correct form</disp>
 d.	<id>d.</id> <disp>distich.</disp>
 D.A.	<id>D.A.</id> <disp>dative and accusative</disp>
 Danish	<id>Danish</id> <disp>Danish</disp>
@@ -102,8 +101,8 @@ Gorr.	<id>Gorr.</id> <disp>Gorresio</disp>
 Got.	<id>Got.</id> <disp>Gothic</disp>
 Goth.	<id>Goth.</id> <disp>Gothic.</disp>
 Gr.	<id>Gr.</id> <disp>Greek</disp>
-Gramm.	<id>Gramm.</id> <disp>grammar; Grammarians</disp>
-gramm.	<id>gramm.</id> <disp>grammar; grammatical</disp>
+Gramm.	<id>Gramm.</id> <disp>grammar</disp>
+gramm.	<id>gramm.</id> <disp>grammar</disp>
 Grammar.	<id>Grammar.</id> <disp>Grammarians.</disp>
 Haug.	<id>Haug.</id> <disp>Haug</disp>
 hypothet.	<id>hypothet.</id> <disp>hypothetical</disp>
@@ -158,7 +157,7 @@ MS.	<id>MS.</id> <disp>manuscript</disp>
 msc.	<id>msc.</id> <disp>masculine</disp>
 MSS.	<id>MSS.</id> <disp>manuscripts</disp>
 n.	<id>n.</id> <disp>neuter</disp>
-N.G.	<id>N.G.</id> <disp>New German ?</disp>
+N.G.	<id>N.G.</id> <disp>New German</disp>
 N.H.G.	<id>N.H.G.</id> <disp>New High German.</disp>
 N.N.L.	<id>N.N.L.</id> <disp>New Netherlandis or Dutch.</disp>
 N.V.	<id>N.V.</id> <disp>nominative and vocative</disp>
@@ -228,7 +227,6 @@ Ptcple.	<id>Ptcple.</id> <disp>participle</disp>
 q.	<id>q.</id> <disp>quod (which)</disp>
 q. v.	<id>q. v.</id> <disp>quod vide (which see)</disp>
 r.	<id>r.</id> <disp>reading</disp>
-rec.	<id>rec.</id> <disp>recensio (recension)</disp>
 rec. orn.	<id>rec. orn.</id> <disp>recensio ornatior (Kosegarten's ornate recension of Pañcatantra)</disp>
 red.	<id>red.</id> <disp>reduplicated</disp>
 redupl.	<id>redupl.</id> <disp>reduplicated</disp>
@@ -262,15 +260,14 @@ Superl.	<id>Superl.</id> <disp>superlative</disp>
 Superlat.	<id>Superlat.</id> <disp>superlative</disp>
 Suppl.	<id>Suppl.</id> <disp>supplement</disp>
 suppl.	<id>suppl.</id> <disp>supplement</disp>
-Swed.	<id>Swed.</id> <disp>Swedish.</disp>
 T.	<id>T.</id> <disp>Theodor (Benfey)</disp>
 Tacit.	<id>Tacit.</id> <disp>Tacitus</disp>
 transl.	<id>transl.</id> <disp>translation</disp>
 ult.	<id>ult.</id> <disp>ultimately</disp>
 v.	<id>v.</id> <disp>variant</disp>
 v. l.	<id>v. l.</id> <disp>varia lectio (variant reading)</disp>
-v. r.	<id>v. r.</id> <disp>variant reading (?)</disp>
-v.r.	<id>v.r.</id> <disp>variant reading (?)</disp>
+v. r.	<id>v. r.</id> <disp>variant reading</disp>
+v.r.	<id>v.r.</id> <disp>variant reading</disp>
 vb.	<id>vb.</id> <disp>verb</disp>
 vbs.	<id>vbs.</id> <disp>verbs</disp>
 ved.	<id>ved.</id> <disp>Vedic</disp>
@@ -278,7 +275,7 @@ Ved.	<id>Ved.</id> <disp>Vedic</disp>
 viz.	<id>viz.</id> <disp>videlicet (namely)</disp>
 voc.	<id>voc.</id> <disp>vocative</disp>
 vv. rr.	<id>vv. rr.</id> <disp>variae lectiones (variant readings)</disp>
-Will.	<id>Will.</id> <disp>Will</disp>
+Will.	<id>Will.</id> <disp>Williams (Monier)</disp>
 Wils.	<id>Wils.</id> <disp>Wilson</disp>
 Zend.	<id>Zend.</id> <disp>Zend (Avestan)</disp>
 Æol.	<id>Æol.</id> <disp>Aeolic</disp>
