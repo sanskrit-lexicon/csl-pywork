@@ -2,11 +2,11 @@
 
 csl-pywork is a tooling repository in the [Sanskrit Lexicon](https://github.com/sanskrit-lexicon) project.
 
-> Inherits the [Sanskrit Lexicon org-wide contribution standard](https://github.com/sanskrit-lexicon/COLOGNE/blob/master/CONTRIBUTING.md). This file documents anything **repo-specific** on top of it.
+> Inherits the [Sanskrit Lexicon org-wide contribution standard](https://github.com/sanskrit-lexicon/COLOGNE/blob/main/CONTRIBUTING.md). This file documents anything **repo-specific** on top of it.
 
 ## Issue taxonomy
 
-This repo uses the **Cologne tooling-repo taxonomy** (not the dictionary taxonomy). Each issue gets one type, one severity, one milestone — labels are defined in [COLOGNE/CONTRIBUTING.md](https://github.com/sanskrit-lexicon/COLOGNE/blob/master/CONTRIBUTING.md#issue-taxonomy--tooling-repos).
+This repo uses the **Cologne tooling-repo taxonomy** (not the dictionary taxonomy). Each issue gets one type, one severity, one milestone — labels are defined in [COLOGNE/CONTRIBUTING.md](https://github.com/sanskrit-lexicon/COLOGNE/blob/main/CONTRIBUTING.md#issue-taxonomy--tooling-repos).
 
 ## Pull requests
 
