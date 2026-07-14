@@ -7,6 +7,7 @@ omit =
     v02/distinctfiles/**
     v02/utilities/**
     v02/generate.py
+    v02/redo_xampp_selective.py
     tests/**
 
 [report]

@@ -1,97 +1,20 @@
 #!/bin/bash
 # redo_xampp_selective.sh
-# Incrementally updates only the dictionaries that changed in csl-orig since
-# the last run, then propagates changes to Stardict, JSON, and homepage repos.
+# Compatibility wrapper around the Python 3 driver (csl-pywork#53). Kept as
+# the cron entry point so the deployed crontab line never has to change:
 #
-# Usage: sh redo_xampp_selective.sh
-#   (typically run via cron at system boot with a 120-second startup delay)
+#   @reboot sleep 120 && bash /var/www/html/cologne/csl-pywork/v02/redo_xampp_selective.sh
 #
-# Tracks progress via csl-orig/v02/.xampp_last_run (stores last-processed commit hash).
-# On each run: pulls all repos, diffs csl-orig, regenerates affected dicts,
-# rebuilds Stardict/JSON files, and updates the csl-homepage version display.
+# For manual runs, dry-runs, or anything beyond the production defaults, call
+# the driver directly instead — it has real flags (--dry-run, --no-push,
+# --skip-pull, --dict, --stop-after, --manifest, ...). See
+# `python3 redo_xampp_selective.py --help` and readme_selective.md.
 #
-# Prerequisites: sibling dirs cologne-stardict, csl-json, csl-homepage, hwnorm1,
-# and indic-dict/stardict-sanskrit must exist with cached git credentials.
-# See readme_selective.md for a full step-by-step explanation.
+# CSL_BASE / CSL_INDIC_BASE still override the server paths for non-server
+# installs, same as before this wrapper existed:
+#   CSL_BASE=/home/me/cologne CSL_INDIC_BASE=/home/me/indic-dict \
+#     sh redo_xampp_selective.sh
 
-# Base directory holding the sibling CDSL repos. Override with CSL_BASE for
-# non-server installs, e.g.  CSL_BASE=/home/me/cologne sh redo_xampp_selective.sh
-# Defaults to the production server layout (backward-compatible).
-BASE="${CSL_BASE:-/var/www/html/cologne}"
-
-unset CDPATH
-dt=$(date '+%Y%m%d%H%M%S');
-echo "Step 0. UPDATE RELEVANT GIT REPOSITORIES."
-cd "$BASE/csl-pywork/v02"
-git pull origin master
-cd ../../csl-homepage
-git pull origin master
-cd ../csl-websanlexicon
-git pull origin master
-cd ../hwnorm1
-git pull origin master
-cd ../csl-json
-git pull
-cd ../cologne-stardict
-git pull
-cd ../csl-orig
-git pull origin master
-echo "STEP 1. SELECT THE FILES TO BE HANDLED BASED ON GIT LOG OF CSL-ORIG REPOSITORY."
-touch v02/.xampp_last_run
-git diff --name-only `(cat v02/.xampp_last_run)`..`(git rev-parse HEAD)` | grep -oP '[\/]\K([^\/]*)(?=[.]txt)' > v02/.files_changed
-ls -a v02 | cat | grep '^[^.]*$' > v02/.valid_dicts
-# See https://unix.stackexchange.com/questions/398142/common-lines-between-two-files
-comm -12 <(sort v02/.files_changed) <(sort v02/.valid_dicts) > v02/.files_to_handle
-rm v02/.files_changed
-rm v02/.valid_dicts
-
-echo "STEP 2. GENERATE DICTIONARIES FOR LOCAL DISPLAY."
-cd ../csl-pywork/v02
-while read dict;
-do
-	sh generate_dict.sh $dict  ../../$dict
-done < ../../csl-orig/v02/.files_to_handle
-
-echo "STEP 3. GENERATE STARDICT FILES."
-cd ../../cologne-stardict
-cp ../hwnorm1/sanhw1/hwnorm1c.txt input/hwnorm1c.txt
-while read dict;
-do
-	python2 make_babylon.py $dict 0
-	python2 make_babylon.py $dict 1
-	git add output/
-	git add production/
-	git commit -m "$dict update $dt"
-done < ../csl-orig/v02/.files_to_handle
-git push
-
-echo "STEP 4. UPDATE FOR STARDICT-SANSKRIT-DICTIONARY-UPDATER."
-cd ../../indic-dict/stardict-sanskrit
-git pull origin master
-cd ../../cologne/cologne-stardict
-bash move_to_stardict.sh
-cd ../../indic-dict/stardict-sanskrit
-git add .
-git commit -m "update $dt"
-git push origin master
-
-echo "STEP 5. GENERATE JSON FILES."
-cd ../../cologne/csl-json
-while read dict;
-do
-	python2 json_from_babylon.py $dict
-	git add ashtadhyayi.com/
-	git commit -m "$dict update $dt"
-done < ../csl-orig/v02/.files_to_handle
-git push
-
-echo "STEP 6. UPDATE THE .XAMPP_LAST_RUN AND .VERSION FILE."
-cd ../csl-orig
-git rev-parse HEAD > v02/.xampp_last_run
-echo "2.0.`git log | grep '^commit' | wc -l`" > .version
-
-echo "STEP 7. UPDATE HOMEPAGE TO DISPLAY TODAY'S DATE."
-cd ../csl-homepage
-bash redo_xampp.sh
-cd ../csl-pywork/v02
-
+set -e
+HERE="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
+exec python3 "$HERE/redo_xampp_selective.py" "$@"
