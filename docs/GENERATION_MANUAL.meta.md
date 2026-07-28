@@ -1,6 +1,6 @@
 # GENERATION_MANUAL.md — metadoc
 
-_Created: 28-07-2026 · Last updated: 28-07-2026_
+_Created: 28-07-2026 · Last updated: 29-07-2026_
 
 ## Purpose
 
@@ -32,6 +32,17 @@ workflow's regeneration step.
   as in the sibling
   [csl-websanlexicon WEB_FRONTEND_MANUAL](https://github.com/sanskrit-lexicon/csl-websanlexicon/blob/main/docs/WEB_FRONTEND_MANUAL.md)
   (H1782).
+- **Dual-run graft (29-07-2026):** H1783 was executed twice in parallel by two
+  Fable 5 (`claude-fable-5`) sessions (H214-class claim-race; second pass in
+  [PR #71](https://github.com/sanskrit-lexicon/csl-pywork/pull/71), closed with
+  adjudication). The passes were reconciled as inter-annotator data: the
+  merged manual ([PR #70](https://github.com/sanskrit-lexicon/csl-pywork/pull/70))
+  absorbed the second pass's verified deltas — metaline/L/k1-k2/SLP1 glossary
+  rows, `KeyError`/`ERROR CD copyfile`/missing-input symptom rows, CI workflow
+  specifics (`xml-parse.yml`, `readme-guard.yml` README markers), the
+  `updateByLine.py` audit-summary line, `--dry-run`, and the cosmetic-quirks
+  list. Every grafted claim was re-verified against the scripts before
+  inclusion.
 
 ## Improvement backlog (ranked)
 
@@ -64,5 +75,6 @@ workflow's regeneration step.
 | Date | Change | Actor |
 |---|---|---|
 | 28-07-2026 | Initial authoring (H1783) | Fable 5 (`claude-fable-5`) |
+| 29-07-2026 | Dual-run adjudication graft from PR #71's parallel pass | Fable 5 (`claude-fable-5`) |
 
 _Dr. Mārcis Gasūns_
