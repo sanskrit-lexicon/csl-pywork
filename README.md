@@ -1,6 +1,10 @@
 # csl-pywork
 
-_Created: 15-05-2026 · Last updated: 11-07-2026_
+_Created: 15-05-2026 · Last updated: 28-07-2026_
+
+**Operator manual:** [docs/GENERATION_MANUAL.md](https://github.com/sanskrit-lexicon/csl-pywork/blob/main/docs/GENERATION_MANUAL.md) —
+regenerate a dictionary end-to-end (stages, validation, `updateByLine.py`
+change files, troubleshooting) without reading every script.
 
 CDSL **data-store** repository in the Sanskrit Lexicon project — the template for
 the per-dictionary `pywork` build tree, and the canonical home of the shared CDSL
