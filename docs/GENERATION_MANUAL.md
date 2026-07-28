@@ -127,10 +127,12 @@ Windows notes that bite in practice:
   (`python3` → `python`) before running anything.
 - Run the `.sh` scripts under **Git Bash** (or WSL/apache-less bash), never
   PowerShell/cmd.
-- Line endings: the repo has no `.gitattributes` yet
-  ([issue #52](https://github.com/sanskrit-lexicon/csl-pywork/issues/52)) —
-  keep generated and change files **LF**, and never introduce a UTF-8 BOM
-  (see §7 traps).
+- Line endings: the repo's
+  [`.gitattributes`](https://github.com/sanskrit-lexicon/csl-pywork/blob/main/.gitattributes)
+  normalises `.sh`/`.py`/`.txt`/`.tsv`/`.yml` to **LF**
+  ([issue #52](https://github.com/sanskrit-lexicon/csl-pywork/issues/52) tracks
+  the remaining scope) — keep generated and change files LF, and never
+  introduce a UTF-8 BOM (see §7 traps).
 
 ---
 
@@ -512,7 +514,7 @@ is likewise an older broad-regeneration script kept for reference.
   (parse the `<L>`-line metadata) are the two most commonly vendored helpers
   after `updateByLine.py`.
 - **Known open debt:** [issue #52](https://github.com/sanskrit-lexicon/csl-pywork/issues/52)
-  (no `.gitattributes`), [issue #53](https://github.com/sanskrit-lexicon/csl-pywork/issues/53)
+  (`.gitattributes` scope — the file itself exists, §3), [issue #53](https://github.com/sanskrit-lexicon/csl-pywork/issues/53)
   (modernise `redo_xampp_selective.sh`), [issue #63](https://github.com/sanskrit-lexicon/csl-pywork/issues/63)
   (master/main branch confusion — the default branch is `main`).
 - **Improvement backlog for this manual:** see

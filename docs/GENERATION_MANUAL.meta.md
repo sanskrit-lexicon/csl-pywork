@@ -76,5 +76,6 @@ workflow's regeneration step.
 |---|---|---|
 | 28-07-2026 | Initial authoring (H1783) | Fable 5 (`claude-fable-5`) |
 | 29-07-2026 | Dual-run adjudication graft from PR #71's parallel pass | Fable 5 (`claude-fable-5`) |
+| 29-07-2026 | Residual salvage from the PR #71 session: fixed the §3 claim that no `.gitattributes` exists (it does, on `main`), reworded the §13 known-debt row accordingly, synced `CITATION.cff` `version`/`date-released` to the v0.2.1 release | Fable 5 (`claude-fable-5`) |
 
 _Dr. Mārcis Gasūns_
