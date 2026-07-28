@@ -1,6 +1,6 @@
 # csl-pywork
 
-_Created: 15-05-2026 · Last updated: 11-07-2026_
+_Created: 15-05-2026 · Last updated: 28-07-2026_
 
 CDSL **data-store** repository in the Sanskrit Lexicon project — the template for
 the per-dictionary `pywork` build tree, and the canonical home of the shared CDSL
@@ -11,6 +11,8 @@ repos across the org, so a fix belongs here first — pull from
 [`v02/`](https://github.com/sanskrit-lexicon/csl-pywork/tree/main/v02) (and
 [`v00/makotemplates/`](https://github.com/sanskrit-lexicon/csl-pywork/tree/main/v00/makotemplates)
 for the older `updateByLine.py` / `parseheadline.py`).
+
+**Operator manual:** [docs/GENERATION_MANUAL.md](https://github.com/sanskrit-lexicon/csl-pywork/blob/main/docs/GENERATION_MANUAL.md) — regenerate a dictionary end-to-end (`generate_dict.sh` → headwords → XML → SQLite → downloads), validate it, and apply the `updateByLine.py` change-file format, from one document.
 
 <!-- BEGIN MANUAL: overview -->
 `csl-pywork` contains the per-dictionary build scripts and templates used to

@@ -5,6 +5,11 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [0.2.0] - 2026-07-28
+
+### Added
+- Operator manual [docs/GENERATION_MANUAL.md](https://github.com/sanskrit-lexicon/csl-pywork/blob/main/docs/GENERATION_MANUAL.md) + companion metadoc (H1783): full `generate_dict.sh` stage map, csl-orig input contract, XML-validation green signals, vendor rule, `updateByLine.py` change-file format with BOM/CRLF traps, v00-vs-v02 guidance, symptom→cause→cure table, glossary, maintainer appendix. README now links it as the docs index entry point.
+
 ## [0.1.0] - 2026-06-30
 
 ### Added
