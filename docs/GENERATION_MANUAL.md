@@ -1,6 +1,6 @@
 # csl-pywork generation manual — from csl-orig text to a served dictionary
 
-_Created: 28-07-2026 · Last updated: 28-07-2026_
+_Created: 28-07-2026 · Last updated: 29-07-2026_
 
 This is the operator manual for the **canonical CDSL dictionary-generation
 pipeline** that lives in this repository. It exists so that a new operator can
@@ -195,7 +195,9 @@ shared DTD template becomes each dictionary's `<dict>.dtd`).
 
 The Mako context comes from `dictparms.py`: `dictup`, `dictlo`, `dictname`,
 `dictversion`, plus a global `microversion` string appended to `dictversion` in
-generated headers. **Maintainers bump `microversion` whenever a
+generated headers, a generation date stamp (`dictmmddyyyy`), and the
+server-vs-local `cologne_flag`. A dictionary code missing from `dictparms.py`
+fails immediately (`KeyError: '<dict>'` — the registry is the gate). **Maintainers bump `microversion` whenever a
 cross-dictionary template change is deployed** — that is how template-level
 changes are tracked in generated output without touching each dictionary's
 version.
@@ -344,6 +346,10 @@ Semantics and traps, in the order they will bite you:
 - **After applying:** regenerate the dictionary (`generate_dict.sh`) and
   validate (§6) — a change that produces well-formed text can still break XML
   or headword extraction downstream.
+- **The run summary is your audit line.** A successful run prints
+  `N records written to <output>` plus a count per transaction type
+  (`new`/`ins`/`del`) — quote it when parking a correction in the
+  csl-corrections queue.
 
 Regression coverage for this engine lives in
 [`tests/test_updateByLine.py`](https://github.com/sanskrit-lexicon/csl-pywork/blob/main/tests/test_updateByLine.py) —
@@ -401,7 +407,8 @@ is likewise an older broad-regeneration script kept for reference.
   the homepage. Extra sibling repos + cached git credentials required — see
   [`v02/readme_selective.md`](https://github.com/sanskrit-lexicon/csl-pywork/blob/main/v02/readme_selective.md)
   and [`v02/readme.md`](https://github.com/sanskrit-lexicon/csl-pywork/blob/main/v02/readme.md).
-  Modernisation of this script is tracked in
+  `python3 redo_xampp_selective.py --dry-run` rehearses a run without touching
+  anything. Modernisation of this script is tracked in
   [issue #53](https://github.com/sanskrit-lexicon/csl-pywork/issues/53).
 
 ---
@@ -413,6 +420,9 @@ is likewise an older broad-regeneration script kept for reference.
 | Red lines in `generate_dict.sh` output | The awk whitelists flag any unexpected line | Read the red text — it is the actual error; plain lines are known-good |
 | `usage: sh generate_dict.sh <dict> <parent-dir>` | Missing/empty arguments | Pass lowercase dict code + target dir |
 | Stage 4 fails, `<out>/web/` missing or empty | `csl-websanlexicon` is not a sibling checkout | Clone it next to csl-pywork; see §2 layout |
+| `KeyError: '<dict>'` from `generate.py` | Code not registered in [`dictparms.py`](https://github.com/sanskrit-lexicon/csl-pywork/blob/main/v02/dictparms.py) | Add the registry entry (§13 adding a dictionary) |
+| `generate.py. ERROR CD copyfile. filename1=distinctfiles/<dict>/…` | An `inventory.txt` row promises a per-dict file `distinctfiles/<dict>/pywork/` doesn't have | Create the file, or take the dict code off that inventory row |
+| Stage 1 red output about a missing input file | `csl-orig/v02/<dict>/` lacks one of the four §4 files | Fix the csl-orig side first — those four files are the whole input contract |
 | `ModuleNotFoundError: mako` | Mako not installed | `pip install mako` |
 | `python3: command not found` (Windows Git Bash) | Windows Python installs as `python` | Put a `python3` shim on `PATH` |
 | `xmllint: command not found` | libxml2-utils absent (typical on Windows) | Rely on the ET parse + `xmlchk_xampp.sh`/`xmlvalidate.py` (§6), or install libxml2 |
@@ -422,7 +432,8 @@ is likewise an older broad-regeneration script kept for reference.
 | `Expected EVEN number of lines` | A change pair lost its partner, or a comment lacks the leading `;` | Fix the change file pairing |
 | First line of a source file misbehaves in `hw.py`-era scripts | UTF-8 BOM in the input | Strip the BOM; keep all pipeline files BOM-less |
 | `sqlite3`/`zip: command not found` (Windows) | CLI tools not on `PATH` | Install per [`v02/readme.md`](https://github.com/sanskrit-lexicon/csl-pywork/blob/main/v02/readme.md) §XAMPP |
-| Output looks stale / fix not visible | Regeneration not rerun, or csl-orig checkout behind | `git -C ../csl-orig pull`, rerun `generate_dict.sh`; on servers check `.xampp_last_run` |
+| Output looks stale / fix not visible | Regeneration not rerun, csl-orig checkout behind, or you regenerated into a different `<outdir>` than the one the web server serves | `git -C ../csl-orig pull`, rerun `generate_dict.sh` into the served path (`../../<dict>` under XAMPP); on servers check `.xampp_last_run` |
+| Recurring benign red lines for one dictionary | The awk whitelists only know the standard progress lines | Read them once; if genuinely benign and recurring, extend the whitelist in `generate_dict.sh` or the stage template |
 | `Unexpected <H>:` lines for `vcp` | Known, whitelisted quirk of that dictionary | Ignore (plain, not red) |
 | Edits to a generated `<out>/pywork/` file keep disappearing | You edited generated output; C/T/CD/D reassembly overwrites it | Move the change into `makotemplates/` (shared), `distinctfiles/<dict>/` (per-dict), or csl-orig (content) |
 
@@ -433,6 +444,11 @@ is likewise an older broad-regeneration script kept for reference.
 | Term | Meaning |
 |---|---|
 | **dict code** | Lowercase dictionary identifier (`mw`, `pwg`, `skd`, …) keying everything: input dir, dictparms entry, output tree |
+| **metaline** | The `<L>16850<pc>292-3<k1>visarga<k2>visarga<h>1` key-value line opening every entry in `<dict>.txt`, parsed by `parseheadline.py`; key order is irrelevant |
+| **L / L-number** | Stable entry identifier within a dictionary (the `<L>` field) |
+| **k1 / k2** | Headword keys — `k1` the lookup key, `k2` a variant/display form, SLP1-encoded |
+| **pc / h** | Page-column reference into the printed scan / homonym number |
+| **SLP1** | The ASCII transliteration scheme the source texts use for Sanskrit |
 | **orig** | `<out>/orig/` — the copied source digitisation text; also shorthand for csl-orig itself |
 | **pywork** | `<out>/pywork/` — the generated per-dictionary build directory (scripts + derived artifacts); the repo is its template |
 | **hw / hwextra** | Headword list `<dict>hw.txt` extracted by `hw.py`; `_hwextra.txt` supplies headwords not present in the text |
@@ -459,18 +475,32 @@ is likewise an older broad-regeneration script kept for reference.
   [`test_dictparms.py`](https://github.com/sanskrit-lexicon/csl-pywork/blob/main/tests/test_dictparms.py)
   (registry integrity),
   [`test_redo_xampp_selective.py`](https://github.com/sanskrit-lexicon/csl-pywork/blob/main/tests/test_redo_xampp_selective.py).
-  CI additionally runs a committed-XML well-formedness check (Mako templates
-  skipped) and a full `make_xml` XML-parse job.
+  CI ([`ci.yml`](https://github.com/sanskrit-lexicon/csl-pywork/blob/main/.github/workflows/ci.yml))
+  additionally runs a committed-XML well-formedness check via
+  [`xml-parse.yml`](https://github.com/sanskrit-lexicon/csl-pywork/blob/main/.github/workflows/xml-parse.yml)
+  (skips Mako templates, tolerates multi-root fragments by design), and
+  [`readme-guard.yml`](https://github.com/sanskrit-lexicon/csl-pywork/blob/main/.github/workflows/readme-guard.yml)
+  protects the README's regeneration-safe markers — content inside the
+  `BEGIN MANUAL: overview` block is hand-maintained; content outside it may be
+  tool-refreshed.
+- **Adding a dictionary:** register the code in `dictparms.py` first —
+  `generate.py` indexes `alldictparms[dictcode]`, so an unregistered code is an
+  immediate `KeyError`. Then create `distinctfiles/<dict>/pywork/` with the
+  per-dict files, add the code to the explicit (non-`*`) `inventory.txt` rows
+  that apply, extend the dict lists in
+  [`generate_ab_bib_ls.sh`](https://github.com/sanskrit-lexicon/csl-pywork/blob/main/v02/generate_ab_bib_ls.sh)
+  and `redo_postxml.sh`'s conditionals if it has ab/ls/auth tables, and confirm
+  the four §4 input files exist in csl-orig.
+- **Cosmetic quirks** (observed 28-07-2026, none load-bearing):
+  `generate_pywork.sh`'s usage message says `generate_orig.sh`;
+  `xmlchk_xampp.sh` depends on an out-of-repo `../../xmlvalidate.py` while the
+  same file ships in-repo (§6 documents the copy step); the root `redo.sh` and
+  `dbg_test.txt` are legacy residue.
 - **Template changes:** any edit under `v02/makotemplates/` that affects all
   dictionaries ⇒ bump `microversion` in
   [`dictparms.py`](https://github.com/sanskrit-lexicon/csl-pywork/blob/main/v02/dictparms.py)
   in the same commit, then re-vendor to consuming repos (§8). Test-render at
   least one dictionary into `tempparent/` before pushing.
-- **Adding a dictionary:** add its entry to `dictparms.py`, create
-  `distinctfiles/<dict>/` with its per-dict files, extend the dict list in
-  [`generate_ab_bib_ls.sh`](https://github.com/sanskrit-lexicon/csl-pywork/blob/main/v02/generate_ab_bib_ls.sh)
-  if it has ab/ls/auth tables, and confirm the four §4 input files exist in
-  csl-orig.
 - **Utilities:**
   [`v02/utilities/`](https://github.com/sanskrit-lexicon/csl-pywork/tree/main/v02/utilities) —
   `xmlvalidate.py` (lxml DTD check), `check_xml_tags.py` / `all_tags.py`
