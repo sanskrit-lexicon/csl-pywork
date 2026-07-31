@@ -1,5 +1,15 @@
 # Changelog
 
+## [Unreleased]
+
+## [0.2.2] - 2026-07-31
+### Fixed
+- **H1783 residual salvage:** fix .gitattributes claim, sync CITATION.cff to v0.2.1 (#75).
+
+### Changed
+- **Session journal:** H1783 completion recorded in .ai_state.md (#76).
+
+
 All notable changes to this project will be documented in this file.
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
