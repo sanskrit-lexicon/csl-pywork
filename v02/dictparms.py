@@ -285,4 +285,10 @@ alldictparms = {
    "dictname":"Nāmamālikā of Bhoja",
    "dictversion":"03",
   },
+  "nybj": {
+   "dictup":"NYBJ",
+   "dictlo":"nybj",
+   "dictname":"Nyāyakośa of Bhīmācārya Jhaḻakīkara",
+   "dictversion":"03",
+  }
 }

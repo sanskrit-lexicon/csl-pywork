@@ -24,7 +24,7 @@ import sys
 from hwparse import init_hwrecs,HW
 xmlroot = HW.dictcode
 
-%if dictlo in ['skd','vcp','armh']:
+%if dictlo in ['skd','vcp','armh', 'nybj']:
 def adjust_slp1(x):
  # in skd, all text is Devanagari.  But, the text is skd.txt does not use
  #  the {#..#} markup to denote Devanagari.
@@ -153,7 +153,14 @@ def dig_to_xml_specific(x):
  #{^X^}  superscript
  x = re.sub(r'{\^(.*?)\^}',r'<sup>\1</sup>',x)
 %endif
-%if dictlo in ['vcp']:
+%if dictlo == 'nybj':
+ # footnote reference markers [^N] -> <sup>N</sup>   (N = digit, * or +)
+ x = re.sub(r'\[\^([^\]]+)\]', r'<sup>\1</sup>', x)
+ # footnote element <f id="N">...</f> -> <F><sup>N</sup>...</F>
+ x = re.sub(r'<f id="([^"]*)">', r'<F><sup>\1</sup> ', x)
+ x = x.replace('</f>', '</F>')
+%endif
+%if dictlo in ['vcp', 'nybj']:
  x = adjust_slp1(x) # add <s> markup to text
 %endif
 %if dictlo in ['armh']:
@@ -566,7 +573,7 @@ def dig_to_xml_general(x):
  x = x.replace(u'¦',' ')
 %endif
  # bold, italic, and Sanskrit markup converted to xml forms.
-%if dictlo in ['ben','ccs','mci','stc','bhs','gra','pe','gst','ieg','mwe','pgn','pui','vei','pd','mw72','snp','bor','krm','inm','skd','bop','vcp']:
+%if dictlo in ['ben','ccs','mci','stc','bhs','gra','pe','gst','ieg','mwe','pgn','pui','vei','pd','mw72','snp','bor','krm','inm','skd','bop','vcp','nybj']:
  # These are not applicable to vcp, but do no harm
 %endif
 %if dictlo == 'mw':
