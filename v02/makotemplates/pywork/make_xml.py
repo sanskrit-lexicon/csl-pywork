@@ -159,6 +159,12 @@ def dig_to_xml_specific(x):
  # footnote element <f id="N">...</f> -> <F><sup>N</sup>...</F>
  x = re.sub(r'<f id="([^"]*)">', r'<F><sup>\1</sup> ', x)
  x = x.replace('</f>', '</F>')
+ # [ka], [Ka], [ga], ... meaning-division markers -> <div n="1">[ka]
+ # (single-token bracket not starting with '^' denotes a separate meaning)
+ # markers inside footnote elements <F>...</F> are left unchanged
+ x = re.sub(r'(<F>.*?</F>)|(\[[A-Za-z0-9]+\])',
+            lambda m: m.group(0) if m.group(1) else '<div n="1">' + m.group(0),
+            x, flags=re.S)
 %endif
 %if dictlo in ['vcp', 'nybj']:
  x = adjust_slp1(x) # add <s> markup to text
