@@ -1,52 +1,68 @@
 # CLAUDE.md
 
-This file provides guidance to Claude Code (claude.ai/code) when working with code in this repository.
+_Created: 06-05-2026 · Last updated: 16-08-2026_
 
-## Project Overview
+**csl-pywork** is the Cologne **generator**. It turns
+[csl-orig](https://github.com/sanskrit-lexicon/csl-orig) digitised text into
+per-dictionary XML, headword lists, SQLite, downloads, and the files the
+[csl-websanlexicon](https://github.com/sanskrit-lexicon/csl-websanlexicon)
+web frontend needs. Production pipeline: [`v02/`](https://github.com/sanskrit-lexicon/csl-pywork/tree/main/v02)
+([`v02/readme.md`](https://github.com/sanskrit-lexicon/csl-pywork/blob/main/v02/readme.md)).
+`v00/` is historical.
 
-**csl-pywork** is a Sanskrit Lexicon **data-store** repository — part of the Cologne Digital Sanskrit Lexicon (CDSL) infrastructure.
+Sibling checkouts must share a parent directory:
 
-## Correction Workflow
+```
+cologne/
+  csl-orig/
+  csl-pywork/          ← this repo
+  csl-websanlexicon/   ← required sibling (web templates)
+```
 
-When applying corrections that flow through this pipeline, follow the authoritative **[csl-corrections/docs/correction-workflow.md](https://github.com/sanskrit-lexicon/csl-corrections/blob/main/docs/correction-workflow.md)**. It documents the full sequence (snapshot → apply → regenerate via `generate_dict.sh` → validate via `xmlchk_xampp.sh` → audit → commit) with all scripts in this repo as the tooling reference.
+## What to run
 
-The build pipeline itself is documented in [v02/readme.md](v02/readme.md).
+```sh
+cd v02
+sh generate_dict.sh mw ../../MWScan/2020
+```
 
-## Repo Category
+`generate_dict.sh <dict> <outdir>` copies orig → renders Mako templates →
+runs [`make_xml.py`](https://github.com/sanskrit-lexicon/csl-pywork/blob/main/v02/makotemplates/pywork/make_xml.py)
+→ builds SQLite / downloads / web support. Batch: `redo_xampp_all.sh` (local)
+or `redo_cologne_all.sh` (server).
 
-`data-store` — see the [tooling runbook](https://github.com/sanskrit-lexicon/csl-observatory/blob/main/runbook/cologne-tooling-runbook.md) for category-specific conventions.
+**Windows / no XAMPP:**
 
-## GitHub Issue Conventions
+- `generate_dict.sh` calls `python3`. If only `python` is on PATH, put a
+  wrapper ahead of it: `echo '#!/bin/bash\npython "$@"' > /tmp/pybin/python3`
+  and prepend `/tmp/pybin` to `PATH`.
+- Install Mako: `pip install mako`.
+- `xmllint` is often missing. The validate signal is then
+  `make_xml.py` printing **`All records parsed by ET`**.
 
-This repository uses the **Cologne tooling-repo taxonomy**. All issues must have:
-- **Exactly one type label** (9 options)
-- **Exactly one severity label** (4 levels)
-- **One milestone** (5 options)
+Corrections that *drive* this generator follow
+[csl-corrections/docs/correction-workflow.md](https://github.com/sanskrit-lexicon/csl-corrections/blob/main/docs/correction-workflow.md)
+— snapshot → apply → regenerate here → validate → audit. Do not invent a
+second sequence.
 
-### Type Labels
-- `bug` — Code defect (wrong output, broken contract)
-- `feature` — Net-new capability
-- `enhancement` — Improvement to existing capability
-- `performance` — Speed, memory, throughput optimization
-- `tech-debt` — Refactoring, cleanup, dependency updates
-- `security` — CVE, auth issue, credential exposure
-- `documentation` — Prose docs, API docs, comments
-- `infrastructure` — CI/CD, deploy, data pipelines, build tooling
-- `question` — Research, proposals, open discussions
+`updateByLine.py` / `parseheadline.py` live here and are **vendored**
+(copied, never forked-and-edited) into dictionary repos. A shared-script
+fix belongs in this repo first.
 
-### Severity Labels
-- `trivial` — Cosmetic, < 1 hour
-- `minor` — Single function/component
-- `major` — Multiple files, design decision
-- `critical` — Blocks users, data loss/security CVE
+## Do not
 
-### Milestones
-- **API Stability** — performance, security, regressions
-- **User Experience** — bugs, features, enhancements
-- **Data Quality** — data-pipeline issues, integrity
-- **Developer Experience** — tech-debt, infrastructure, docs
-- **Community** — questions, proposals, discussions
+- Commit or push [csl-orig](https://github.com/sanskrit-lexicon/csl-orig)
+  source. Queue via
+  [`/cologne-correction-queue`](https://github.com/gasyoun/claude-config/blob/main/commands/cologne-correction-queue.md).
+- Edit a vendored copy of `make_xml.py` / `updateByLine.py` inside a
+  dictionary repo and leave this tree stale.
+- Write a UTF-8 BOM.
 
-## Cross-Repo Coordination
+## Primer
 
-The org-level project [Tooling Roadmap](https://github.com/orgs/sanskrit-lexicon/projects/9) tracks tool work across all repositories.
+[SANSKRIT_CONTEXT_PRIMER.md](https://github.com/gasyoun/github-spine/blob/main/SANSKRIT_CONTEXT_PRIMER.md).
+
+Issues use the Cologne taxonomy — see
+[`/cologne-issue-runbook`](https://github.com/gasyoun/claude-config/blob/main/commands/cologne-issue-runbook.md).
+
+_Dr. Mārcis Gasūns_
