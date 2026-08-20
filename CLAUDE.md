@@ -1,6 +1,6 @@
 # CLAUDE.md
 
-_Created: 06-05-2026 · Last updated: 16-08-2026_
+_Created: 06-05-2026 · Last updated: 20-08-2026_
 
 **csl-pywork** is the Cologne **generator**. It turns
 [csl-orig](https://github.com/sanskrit-lexicon/csl-orig) digitised text into
@@ -29,7 +29,9 @@ sh generate_dict.sh mw ../../MWScan/2020
 `generate_dict.sh <dict> <outdir>` copies orig → renders Mako templates →
 runs [`make_xml.py`](https://github.com/sanskrit-lexicon/csl-pywork/blob/main/v02/makotemplates/pywork/make_xml.py)
 → builds SQLite / downloads / web support. Batch: `redo_xampp_all.sh` (local)
-or `redo_cologne_all.sh` (server).
+or `redo_cologne_all.sh` (server). After a generate, DTD-validate with
+[`xmlchk_xampp.sh`](https://github.com/sanskrit-lexicon/csl-pywork/blob/main/v02/xmlchk_xampp.sh)
+`<dict>` (XAMPP layout).
 
 **Windows / no XAMPP:**
 
