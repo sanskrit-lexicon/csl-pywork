@@ -76,7 +76,10 @@ if $DO_PUSH; then
     git config user.name "HWNORM1 BOT"
     git config user.email "actions@github.com"
     TIMESTAMP=$(date +%Y%m%d-%H%M%S)
-    if git diff --quiet; then
+    # H3638 P15: `git diff --quiet` cannot see UNTRACKED generated files
+    # (brand-new outputs yielded "No changes to commit" and hwnorm1/hwnorm2/
+    # apidev went silently stale). git status --porcelain sees them.
+    if [ -z "$(git status --porcelain)" ]; then
         echo "No changes to commit in hwnorm1"
     else
         git add -A
@@ -99,7 +102,10 @@ if $DO_PUSH; then
     git config user.name "HWNORM1 BOT"
     git config user.email "actions@github.com"
     TIMESTAMP=$(date +%Y%m%d-%H%M%S)
-    if git diff --quiet; then
+    # H3638 P15: `git diff --quiet` cannot see UNTRACKED generated files
+    # (brand-new outputs yielded "No changes to commit" and hwnorm1/hwnorm2/
+    # apidev went silently stale). git status --porcelain sees them.
+    if [ -z "$(git status --porcelain)" ]; then
         echo "No changes to commit in hwnorm2"
     else
         git add -A
@@ -115,7 +121,10 @@ if $DO_PUSH; then
     git config user.name "HWNORM1 BOT"
     git config user.email "actions@github.com"
     TIMESTAMP=$(date +%Y%m%d-%H%M%S)
-    if git diff --quiet; then
+    # H3638 P15: `git diff --quiet` cannot see UNTRACKED generated files
+    # (brand-new outputs yielded "No changes to commit" and hwnorm1/hwnorm2/
+    # apidev went silently stale). git status --porcelain sees them.
+    if [ -z "$(git status --porcelain)" ]; then
         echo "No changes to commit in csl-apidev"
     else
         git add -A
