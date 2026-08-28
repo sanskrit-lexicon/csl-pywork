@@ -1332,8 +1332,8 @@ def make_xml(filein,filehw,fileout):
   nout = nout + 1
  # process hwrecs records one at a time and generate output
  nerr = 0
-  for ihwrec,hwrec in enumerate(hwrecs):
-   datalines = get_datalines(hwrec,inlines)
+ for ihwrec,hwrec in enumerate(hwrecs):
+  datalines = get_datalines(hwrec,inlines)
   # construct output
 %if dictlo in ['anhk']:
   xmlstring = construct_xmlstring_1(datalines,hwrec)

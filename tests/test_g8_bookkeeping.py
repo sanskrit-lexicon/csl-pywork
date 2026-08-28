@@ -57,10 +57,30 @@ def workspace(tmp_path):
     return ws
 
 
+def _git_ident(path):
+    """CI runners have no global git identity — set a per-repo one."""
+    _git(["config", "user.email", "test@test"], path)
+    _git(["config", "user.name", "test"], path)
+
+
 def _healthy_remote(tmp_path, name):
     bare = tmp_path / f"{name}.git"
     subprocess.run(["git", "init", "-q", "--bare", str(bare)], check=True, capture_output=True)
     return bare
+
+
+def _seed_upstream(tmp_path, name):
+    """Push one upstream commit to the bare remote via a throwaway seed clone."""
+    bare = tmp_path / f"{name}.git"
+    clone = tmp_path / f"{name}-seed"
+    subprocess.run(
+        ["git", "clone", "-q", str(bare), str(clone)], check=True, capture_output=True
+    )
+    _git_ident(clone)
+    (clone / "new.txt").write_text("x\n", encoding="utf-8")
+    _git(["add", "-A"], clone)
+    _git(["commit", "-q", "-m", "upstream change"], clone)
+    _git(["push", "-q"], clone)
 
 
 class TestRefreshCslAggregation:
@@ -68,15 +88,7 @@ class TestRefreshCslAggregation:
         for name in ("csl-orig", "csl-pywork", "csl-app"):
             _init_repo(workspace / name, remote=_healthy_remote(tmp_path, name))
             # new upstream commit so the pull actually does something
-            bare = tmp_path / f"{name}.git"
-            clone = tmp_path / f"{name}-seed"
-            subprocess.run(
-                ["git", "clone", "-q", str(bare), str(clone)], check=True, capture_output=True
-            )
-            (clone / "new.txt").write_text("x\n", encoding="utf-8")
-            _git(["add", "-A"], clone)
-            _git(["commit", "-q", "-m", "upstream change"], clone)
-            _git(["push", "-q"], clone)
+            _seed_upstream(tmp_path, name)
 
         # the script pulls every one of its 12 repos; the missing ones must be
         # reported as FAIL (missing), so only assert on the ones we created.
@@ -91,15 +103,7 @@ class TestRefreshCslAggregation:
     def test_failed_pull_is_named_and_exit_nonzero(self, workspace, tmp_path):
         good = _init_repo(workspace / "csl-orig", remote=_healthy_remote(tmp_path, "csl-orig"))
         # healthy repo gets an upstream commit so its pull is a real success
-        clone = tmp_path / "csl-orig-seed"
-        subprocess.run(
-            ["git", "clone", "-q", str(tmp_path / "csl-orig.git"), str(clone)],
-            check=True, capture_output=True,
-        )
-        (clone / "new.txt").write_text("x\n", encoding="utf-8")
-        _git(["add", "-A"], clone)
-        _git(["commit", "-q", "-m", "upstream change"], clone)
-        _git(["push", "-q"], clone)
+        _seed_upstream(tmp_path, "csl-orig")
 
         # dead-remote repo: pull must fail
         dead = _init_repo(workspace / "csl-pywork")
