@@ -76,7 +76,7 @@ if $DO_PUSH; then
     git config user.name "HWNORM1 BOT"
     git config user.email "actions@github.com"
     TIMESTAMP=$(date +%Y%m%d-%H%M%S)
-    if git diff --quiet; then
+    if [ -z "$(git status --porcelain)" ]; then
         echo "No changes to commit in hwnorm1"
     else
         git add -A
@@ -99,7 +99,7 @@ if $DO_PUSH; then
     git config user.name "HWNORM1 BOT"
     git config user.email "actions@github.com"
     TIMESTAMP=$(date +%Y%m%d-%H%M%S)
-    if git diff --quiet; then
+    if [ -z "$(git status --porcelain)" ]; then
         echo "No changes to commit in hwnorm2"
     else
         git add -A
@@ -115,7 +115,7 @@ if $DO_PUSH; then
     git config user.name "HWNORM1 BOT"
     git config user.email "actions@github.com"
     TIMESTAMP=$(date +%Y%m%d-%H%M%S)
-    if git diff --quiet; then
+    if [ -z "$(git status --porcelain)" ]; then
         echo "No changes to commit in csl-apidev"
     else
         git add -A

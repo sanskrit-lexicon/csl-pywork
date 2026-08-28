@@ -2,6 +2,17 @@
 
 ## [Unreleased]
 
+### Fixed
+
+- **G8 bookkeeping (H3638, H3487 audit):** `refresh_csl.sh` now reports per-repo
+  OK/FAIL and exits nonzero naming failed pulls (a dead network on repo 3 was
+  indistinguishable from success); `regenerate-hwnorm1-sqlite.sh` commit gates
+  use `git status --porcelain` so untracked generated files actually commit
+  (hwnorm1/hwnorm2/apidev no longer silently go stale); dead `>1000000` debug
+  cutoff removed from the v02 `make_xml` template; literal junk row no longer
+  written into every `query_dump.txt`. 8 sandbox tests in
+  `tests/test_g8_bookkeeping.py`.
+
 ## [0.2.2] - 2026-07-31
 ### Fixed
 - **H1783 residual salvage:** fix .gitattributes claim, sync CITATION.cff to v0.2.1 (#75).

@@ -55,7 +55,6 @@ def make(filein,fileout):
 
  # print last one
  fpout.write('%s :: %s\t%s\n' %(prevkey,keysanskrit,keydata))
- fpout.write("prevkey :: keysanskrit\tkeydata\n")
  fp.close()
  fpout.close()
 
