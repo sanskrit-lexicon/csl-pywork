@@ -24,6 +24,10 @@ def make(filein,fileout):
  prevkey=""
  key=''
  keydata=""
+ # P10 (H3487 audit): keysanskrit was only initialized inside the first
+ # matching branch, so a file with zero <H> records crashed with NameError
+ # after the output file was open (leaving an empty/partial query_dump.txt).
+ keysanskrit=""
 
  for line in fp:
   line = line.rstrip('\r\n')
@@ -53,8 +57,10 @@ def make(filein,fileout):
      keydata = data1
      keysanskrit = data2
 
- # print last one
- fpout.write('%s :: %s\t%s\n' %(prevkey,keysanskrit,keydata))
+ # print last one (only when at least one record was read; on a zero-record
+ # file prevkey is still "" and writing it would emit a junk ` :: \t ` row)
+ if prevkey != "":
+  fpout.write('%s :: %s\t%s\n' %(prevkey,keysanskrit,keydata))
  fp.close()
  fpout.close()
 
