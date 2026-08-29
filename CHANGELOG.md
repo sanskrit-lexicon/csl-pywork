@@ -1,6 +1,30 @@
 # Changelog
 
 ## [Unreleased]
+### Added
+- **G3 webtc2 generation-time search index (H3633, H3487 audit):** the
+  webtc2 stage now builds `query_dump.sqlite3` alongside `query_dump.txt`
+  (new `pywork/webtc2/build_query_index.py`, shipped for every dictionary
+  via `inventory.txt`; wired into `webtc2/redo.sh`). The index stores each
+  dump line's byte offset (usable with `fseek`) plus the hyphen-stripped
+  line text and the dump size it was built from. csl-websanlexicon's
+  `querymodel.php` consults it and falls back to the flat file when absent
+  or stale, replacing the per-request linear `fgets` scan
+  (audit W10, prior audit D4). Full-dump scans on MW/PWG sample queries
+  drop ~2.4-6x with identical top-100 results (parity transcript in
+  csl-websanlexicon `tests/webtc2_parity/`).
+
+### Fixed
+- **P10 (H3487 audit, G3/H3633):** `init_query.py` initialized
+  `keysanskrit` only inside the first matching branch, so a file with zero
+  `<H>` records crashed with `NameError` after opening the output file,
+  and `webtc2/redo.sh` (no `set -e`) shipped the empty dump anyway. The
+  variable is now initialized up front, the final record is only written
+  when at least one record was read (no zero-record junk row), and
+  `webtc2/redo.sh` is fail-closed (`set -e`), so a dump and its index are
+  never moved into the web tree half-built. 7 sandbox tests in
+  `tests/test_h3633_webtc2_index.py`.
+
 ### Fixed
 - **G1 fail-closed validation (H3631):** `xmlvalidate.py` now exits nonzero on
   DTD-validation failure (P2). `make_xml.py` exits nonzero when malformed
