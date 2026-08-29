@@ -1,6 +1,21 @@
 # Changelog
 
 ## [Unreleased]
+### Fixed
+- **G1 fail-closed validation (H3631):** `xmlvalidate.py` now exits nonzero on
+  DTD-validation failure (P2). `make_xml.py` exits nonzero when malformed
+  records are detected instead of shipping them with exit 0 (P3), and writes
+  output via temp-file + atomic rename so a mid-loop crash no longer truncates
+  the previous good `<dict>.xml` (P4). `redo_xml.sh` gates `redo_postxml.sh`
+  on the make_xml + xmllint exit status instead of printing red and proceeding
+  (P1). `generate_dict.sh` checks every stage's exit status and every `cd`,
+  printing a red STOP line and exiting nonzero instead of falling through on a
+  half-assembled tree (P5, O2).
+
+### Changed
+- **CI (H3631):** `xml-parse.yml` dict build is now a 6-dict matrix (mci,
+  abch, gst, ae, cae, acc) and gates on the pipeline exit status, which the
+  fail-closed `generate_dict.sh` now makes meaningful.
 
 ### Fixed
 

@@ -22,6 +22,7 @@ def validate(xmlfile,dtdfile):
   errmsg=dtd.error_log.filter_from_errors()[0]
   print("Problem validating")
   print(errmsg)
+  sys.exit(1)
 
 if __name__ == "__main__":
  if len(sys.argv) != 3:

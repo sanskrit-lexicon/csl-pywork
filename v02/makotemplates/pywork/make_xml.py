@@ -19,6 +19,7 @@
 """
 from __future__ import print_function
 import xml.etree.ElementTree as ET
+import os
 import re
 import sys
 from hwparse import init_hwrecs,HW
@@ -1322,8 +1323,12 @@ def make_xml(filein,filehw,fileout):
     inlines = [line.rstrip('\r\n') for line in f]
  # parse xxxhw.txt
  hwrecs = init_hwrecs(filehw)
- # open output xml file
- fout = open(fileout, 'w', encoding='utf-8')
+ # open output xml file.
+ # P4: write to a temp file and rename into place only after the full
+ # record loop succeeds, so a mid-loop crash leaves the previous good
+ # <dict>.xml intact instead of truncating it.
+ fileout_tmp = fileout + '.tmp'
+ fout = open(fileout_tmp, 'w', encoding='utf-8')
  nout = 0  # count of lines written to fout
  # generate xml header lines
  lines = xml_header(xmlroot)
@@ -1373,16 +1378,26 @@ def make_xml(filein,filehw,fileout):
  out = "</%s>\n" % xmlroot
  fout.write(out)
  fout.close()
+ # P4: the completed file replaces the old one atomically, only on success
+ os.replace(fileout_tmp, fileout)
  if (nerr == 0):
   print("All records parsed by ET")
  else:
   print("WARNING: make_xml.py:",nerr,"records records not parsed by ET")
+  # P3: malformed records must fail the pipeline, not ship in <dict>.xml
+  sys.exit(1)
 if __name__=="__main__":
  print('make_xml.py BEGINS !!!!!')
  filein = sys.argv[1] # xxx.txt
  # filein1 = xxxhw.txt for dictlo = mw; for other dictlo, filein1 = xxxhw2.txt
  filein1 = sys.argv[2]
  fileout = sys.argv[3] # xxx.xml
- make_xml(filein,filein1,fileout)
+ try:
+  make_xml(filein,filein1,fileout)
+ except Exception:
+  # P4: crash cleanup — drop the partial temp file, keep the previous good XML
+  if os.path.exists(fileout + '.tmp'):
+   os.remove(fileout + '.tmp')
+  raise
  print('make_xml.py ENDS !!!!!')
  
