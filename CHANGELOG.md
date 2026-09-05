@@ -1,3 +1,5 @@
+_Created: 30-06-2026 · Last updated: 05-09-2026_
+
 # Changelog
 
 ## [Unreleased]
@@ -108,3 +110,5 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - 2026-06-02 infra: parameterise refresh-script base path (M1/D2); add full make_xml XML-parse CI (D3)
 - 2026-06-01 PD distinct files
 - 2026-05-30 fix: read sources with utf-8-sig so a leading BOM can't break hw.py
+
+_Dr. Mārcis Gasūns_

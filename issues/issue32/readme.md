@@ -1,3 +1,5 @@
+_Created: 06-05-2026 · Last updated: 05-09-2026_
+
 # Issue 32 — Replace `<pe>` tag with `<per>`
 
 **Ref:** https://github.com/sanskrit-lexicon/csl-pywork/issues/32
@@ -70,3 +72,5 @@ sh generate_dict.sh gra ../../GRAScan/2020
 sh generate_dict.sh md  ../../MDScan/2020
 sh generate_dict.sh pe  ../../PEScan/2020
 ```
+
+_Dr. Mārcis Gasūns_

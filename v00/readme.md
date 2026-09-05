@@ -1,6 +1,8 @@
+_Created: 23-07-2019 · Last updated: 05-09-2026_
+
 # v00
 
-> **Superseded.** This was the first experimental version. Use [`v02`](../v02/readme.md) for all current work.
+> **Superseded.** This was the first experimental version. Use [`v02`](https://github.com/sanskrit-lexicon/csl-pywork/blob/main/v02/readme.md) for all current work.
 
 ---
 
@@ -74,3 +76,5 @@ Each dictionary's source data consists of two files in `csl-orig`:
 | Extra headwords | `csl-orig/v00/csl-data/XXXScan/2020/orig/hwextra/xxx_hwextra.txt` |
 
 `XXX` is the uppercase dictionary code; `xxx` is lowercase (e.g. `PWGScan`, `pwg`).
+
+_Dr. Mārcis Gasūns_

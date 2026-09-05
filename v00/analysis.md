@@ -1,3 +1,5 @@
+_Created: 20-07-2019 · Last updated: 05-09-2026_
+
 # v00 template analysis
 
 > **Historical.** This document records the per-file decisions made during v00 development about which `pywork` scripts needed to be Mako templates (`T`) versus plain copies (`C`). It informed the `inventory.txt` classification used in both v00 and v02.
@@ -53,3 +55,5 @@ Parses `<key>val<key1>val1...` encoded lines into key-value dictionaries. No per
 ### `updateByLine.py`
 
 Applies line-based corrections to dictionary text files. No per-dictionary differences; copied verbatim for all dictionaries.
+
+_Dr. Mārcis Gasūns_
