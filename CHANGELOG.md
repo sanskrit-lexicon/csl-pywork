@@ -1,4 +1,4 @@
-_Created: 30-06-2026 · Last updated: 05-09-2026_
+_Created: 30-06-2026 · Last updated: 06-09-2026_
 
 # Changelog
 
@@ -50,9 +50,17 @@ _Created: 30-06-2026 · Last updated: 05-09-2026_
   indistinguishable from success); `regenerate-hwnorm1-sqlite.sh` commit gates
   use `git status --porcelain` so untracked generated files actually commit
   (hwnorm1/hwnorm2/apidev no longer silently go stale); dead `>1000000` debug
-  cutoff removed from the v02 `make_xml` template; literal junk row no longer
+  cutoff removed from the v02 `make_xml` template;   literal junk row no longer
   written into every `query_dump.txt`. 8 sandbox tests in
   `tests/test_g8_bookkeeping.py`.
+
+### Fixed
+- **P8 fail-closed abbreviation sqlite (H4227, H3487 audit):**
+  `sqlite/sqlite_txt.py` treated a column-count mismatch as a WARNING and
+  dropped the row with exit 0, so the built ab/bib/tooltip sqlite could be
+  silently short rows. Input is now validated BEFORE the output sqlite is
+  created: any mismatched line is an error, the run exits nonzero, and no
+  database is written (same contract as `sqlite.py`).
 
 ## [0.2.2] - 2026-07-31
 ### Fixed
