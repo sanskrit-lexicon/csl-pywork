@@ -7,37 +7,37 @@ if [ -z "$1" ]
   then
 	dicts=(BUR INM MWE PWG SKD STC VCP ACC AE AP90 AP BEN BHS BOP BOR CAE CCS GRA GST IEG KRM MCI MD MW72 MW PD PE PGN PUI PW SCH SHS SNP VEI WIL YAT LAN ARMH)
   else
-    dicts=($(echo "$1" | tr '[:lower:]' '[:upper:]')) # Uppercase
+    dicts=("$(echo "$1" | tr '[:lower:]' '[:upper:]')") # Uppercase
 fi
 
 # Go to scans folder
-cd ..
+cd .. || exit 1
 echo "INFO - STEP 1. UPDATE THE WEB DISPLAY CODE BASE FROM GITHUB."
-cd csl-websanlexicon/v00
-git pull origin master
+cd csl-websanlexicon/v00 || exit 1
+git pull --ff-only origin main || exit 1
 if [ -z "$1" ]
   then
   bash redo_cologne_2020.sh
   else
-  bash redo_cologne_2020.sh $1
+  bash redo_cologne_2020.sh "$1"
 fi
 echo ""
 echo ""
 echo "INFO - STEP 2. UPDATE THE PYWORK CODE BASE FROM GITHUB."
-cd ../../csl-pywork/v00
-git pull origin master
+cd ../../csl-pywork/v00 || exit 1
+git pull --ff-only origin main || exit 1
 if [ -z "$1" ]
   then
   bash redo_cologne_2020.sh
   else
-  bash redo_cologne_2020.sh $1
+  bash redo_cologne_2020.sh "$1"
 fi
 echo ""
 echo ""
 echo "INFO - STEP 3. UPDATE THE DICTIONARY TEXT FILES FROM GITHUB."
-cd ../../csl-orig/v00
-git pull origin master
-cd ../..
+cd ../../csl-orig/v00 || exit 1
+git pull --ff-only origin main || exit 1
+cd ../.. || exit 1
 echo ""
 echo ""
 
@@ -46,12 +46,12 @@ echo "${dicts[*]}"
 echo ""
 echo ""
 
-for dict in ${dicts[*]}
+for dict in "${dicts[@]}"
 do
 	# ${dict,,} stands for lowercase.
 	echo "INFO - STEP 4. REGENERATION FOR $dict"
 	echo ""
-	cd "$dict"Scan/2020/pywork/
+	cd "$dict"Scan/2020/pywork/ || { echo "WARNING - ${dict}Scan/2020/pywork not found, skipping $dict"; continue; }
 	echo "INFO - STEP 4A. REGENERATING HEADWORDS FOR $dict"
 	sh redo_hw.sh
 	echo ""
@@ -64,5 +64,5 @@ do
 	echo ""
 done
 
-cd csl-pywork
+cd csl-pywork || exit 1
 
