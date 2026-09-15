@@ -1,6 +1,6 @@
 # csl-pywork
 
-_Created: 15-05-2026 · Last updated: 28-07-2026_
+_Created: 15-05-2026 · Last updated: 15-09-2026_
 
 **Operator manual:** [docs/GENERATION_MANUAL.md](https://github.com/sanskrit-lexicon/csl-pywork/blob/main/docs/GENERATION_MANUAL.md) —
 regenerate a dictionary end-to-end (stages, validation, `updateByLine.py`
@@ -58,6 +58,10 @@ csl-orig source -> generate_orig.sh -> generate_pywork.sh -> generate_web.sh -> 
 
 The root `redo.sh` is an older broad regeneration script that pulls sibling
 repositories and rebuilds selected dictionaries in a Cologne/XAMPP-style layout.
+Since 15-09-2026 ([#91](https://github.com/sanskrit-lexicon/csl-pywork/pull/91)) it pulls
+`main` with `git pull --ff-only` and stops if a sibling folder is missing or a pull
+fails, rather than rebuilding from stale code; see
+[v00/readme.md](https://github.com/sanskrit-lexicon/csl-pywork/blob/main/v00/readme.md).
 
 ## Per-dictionary conventions
 

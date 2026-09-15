@@ -1,4 +1,4 @@
-_Created: 23-07-2019 · Last updated: 05-09-2026_
+_Created: 23-07-2019 · Last updated: 15-09-2026_
 
 # v00
 
@@ -35,10 +35,12 @@ git clone https://github.com/sanskrit-lexicon/csl-orig.git
 Run from the parent directory of all three repositories:
 
 ```bash
-cd csl-websanlexicon/v00 && git pull origin master && bash redo_cologne_2020.sh && cd ../..
-cd csl-pywork/v00       && git pull origin master && bash redo_cologne_2020.sh && cd ../..
-cd csl-orig/v00         && git pull origin master && cd ../..
+cd csl-websanlexicon/v00 && git pull --ff-only origin main && bash redo_cologne_2020.sh && cd ../..
+cd csl-pywork/v00       && git pull --ff-only origin main && bash redo_cologne_2020.sh && cd ../..
+cd csl-orig/v00         && git pull --ff-only origin main && cd ../..
 ```
+
+All three repositories use `main`. csl-websanlexicon and csl-orig have no `master` branch any more, and the `master` left in csl-pywork is stale (June 2026), so `git pull origin master` either fails or merges old code.
 
 ### Regenerate one or all dictionaries
 
@@ -52,16 +54,18 @@ cd csl-pywork && bash redo.sh SKD
 
 `redo.sh` updates both `csl-websanlexicon/v00` and `csl-pywork/v00` from GitHub, then for each dictionary runs `redo_hw.sh` (headwords) and `redo_xml.sh` (XML + SQLite) inside the dictionary's `pywork/` directory.
 
+**If `redo.sh` stops early (since 15-09-2026, [#91](https://github.com/sanskrit-lexicon/csl-pywork/pull/91)):** it exits when a sibling folder (`csl-websanlexicon/v00`, `csl-pywork/v00`, `csl-orig/v00`) is missing or its `git pull --ff-only origin main` fails, instead of carrying on and rebuilding from stale code. Fix the folder it names, or pull that repository by hand, then rerun. A dictionary whose `<DICT>Scan/2020/pywork/` folder is missing is skipped with a `WARNING` line; the others still run.
+
 ---
 
 ## Applying a correction from the correction form
 
 1. Edit `csl-orig/v00/csl-data/XXXScan/orig/xxx.txt` directly (e.g. `PWGScan/orig/pwg.txt`).
-2. `git pull origin master` first to pick up any concurrent changes.
+2. `git pull --ff-only origin main` first to pick up any concurrent changes.
 3. Stage the file: `git add v00/csl-data/XXXScan/orig/xxx.txt`
 4. Commit with a structured message: `git commit -m 'dictcode:lnum:old:new'`  
    e.g. `git commit -m 'skd:29044:SuMllam:Sullam'`
-5. `git push origin master`
+5. `git push origin main`
 6. Regenerate the display: `cd csl-pywork && bash redo.sh XXX`
 
 ---
