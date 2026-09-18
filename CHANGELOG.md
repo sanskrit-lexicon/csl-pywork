@@ -16,6 +16,7 @@ _Created: 30-06-2026 · Last updated: 05-09-2026_
   drop ~2.4-6x with identical top-100 results (parity transcript in
   csl-websanlexicon `tests/webtc2_parity/`).
 
+- Added a root `AGENTS.md` agent-entrypoint stub (H4634): names itself the agent entrypoint, links [CLAUDE.md](CLAUDE.md), points at the [Uprava org standard](https://github.com/gasyoun/Uprava/blob/main/AGENTS.md).
 ### Fixed
 - **P10 (H3487 audit, G3/H3633):** `init_query.py` initialized
   `keysanskrit` only inside the first matching branch, so a file with zero
