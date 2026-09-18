@@ -1,6 +1,6 @@
 # CLAUDE.md
 
-_Created: 06-05-2026 · Last updated: 05-09-2026_
+_Created: 06-05-2026 · Last updated: 13-09-2026_
 
 **csl-pywork** is the Cologne **generator**. It turns
 [csl-orig](https://github.com/sanskrit-lexicon/csl-orig) digitised text into
@@ -47,7 +47,9 @@ Corrections that *drive* this generator follow
 — snapshot → apply → regenerate here → validate → audit. Do not invent a
 second sequence.
 
-`updateByLine.py` / `parseheadline.py` live here and are **vendored**
+[`updateByLine.py`](https://github.com/sanskrit-lexicon/csl-pywork/blob/main/v02/makotemplates/pywork/updateByLine.py)
+/ [`parseheadline.py`](https://github.com/sanskrit-lexicon/csl-pywork/blob/main/v02/makotemplates/pywork/parseheadline.py)
+live at `v02/makotemplates/pywork/` and are **vendored**
 (copied, never forked-and-edited) into dictionary repos. A shared-script
 fix belongs in this repo first.
 
