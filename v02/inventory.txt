@@ -33,6 +33,8 @@
 ; init_query.py was a template in websanlexicon -- but no template code found
 ; check for equivalence in skd
 *:pywork/webtc2/init_query.py:C
+; H3633 (G3): generation-time webtc2 search index builder
+*:pywork/webtc2/build_query_index.py:C
 *:pywork/webtc2/redo.sh:T
 ; 10-11-2019: Changed make_xml.py from 'CD' to 'T'
 *:pywork/make_xml.py:T

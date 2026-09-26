@@ -36,46 +36,64 @@ DICT_UPPER=$(echo "$dict" | tr '[:lower:]' '[:upper:]')
 printf "\033[34mGENERATING %s DICTIONARY DISPLAY AT %s\033[0m\n" "$DICT_UPPER" "$outdir"
 
 curdir=`pwd`  # so we can get back here
+# P5: fail-closed helper — print a red STOP marker (visible to red-line
+# gates such as csl-orig scripts/check_generate_dict.sh) and exit nonzero
+# so callers never build on a half-assembled tree.
+fail_exit() {
+  cd "$curdir" 2>/dev/null
+  printf "\033[31mSTOP generate_dict.sh: %s\033[0m\n" "$1"
+  exit 1
+}
 # generate_orig.sh must be executed with 'bash'
 echo "BEGIN generate_orig.sh $dict $outdir"
 output=$(bash generate_orig.sh "$dict" "$outdir" 2>&1)
+stage_status=$?
 if [ -n "$output" ]; then
   printf "\033[31m%s\033[0m\n" "$output"
 fi
 echo "END generate_orig.sh $dict $outdir"
+if [ $stage_status -ne 0 ]; then fail_exit "generate_orig.sh exited with status $stage_status"; fi
 
 echo "BEGIN generate_pywork.sh $dict $outdir"
 output=$(sh generate_pywork.sh "$dict" "$outdir" 2>&1)
+stage_status=$?
 if [ -n "$output" ]; then
   printf "\033[31m%s\033[0m\n" "$output"
 fi
 echo "END generate_pywork.sh $dict $outdir"
+if [ $stage_status -ne 0 ]; then fail_exit "generate_pywork.sh exited with status $stage_status"; fi
 
 # Generate ab/bib/ls sqlite scripts directly into target pywork directory
 echo "BEGIN generate_ab_bib_ls.sh $dict $outdir"
 sh generate_ab_bib_ls.sh "$dict" "$outdir/pywork"
+stage_status=$?
 echo "END generate_ab_bib_ls.sh $dict $outdir"
+if [ $stage_status -ne 0 ]; then fail_exit "generate_ab_bib_ls.sh exited with status $stage_status"; fi
 
-# resolve $outdir to full path 
+# resolve $outdir to full path
 fullpath=`readlink -f $outdir`
+if [ ! -d "$fullpath" ]; then fail_exit "readlink -f $outdir failed"; fi
 
-cd ../../csl-websanlexicon/v02
+cd ../../csl-websanlexicon/v02 || fail_exit "cd ../../csl-websanlexicon/v02 failed"
 
 echo "BEGIN generate_web.sh $dict $outdir"
 output=$(sh generate_web.sh "$dict" "$fullpath" 2>&1)
+stage_status=$?
 if [ -n "$output" ]; then
   printf "\033[31m%s\033[0m\n" "$output"
 fi
 echo "END generate_web.sh $dict $outdir"
+if [ $stage_status -ne 0 ]; then fail_exit "generate_web.sh exited with status $stage_status"; fi
 
-cd $curdir # back here
+cd $curdir || fail_exit "cd back to $curdir failed"
 # ---------------------------------------------------------
 # Recompute derived files
 echo ""
 echo "BEGIN execution of pywork code at $outdir/pywork"
-cd $outdir/pywork
+cd $outdir/pywork || fail_exit "cd $outdir/pywork failed"
 echo "regenerate $dict headwords"
 output=$(sh redo_hw.sh 2>&1)
+redo_hw_status=$?
 printf "%s\n" "$output" | awk '
 /BEGIN hw\.py$/ { in_hw=1; hw_sub=0; sub_depth=0; print; next }
 /BEGIN hw\.py / { if (in_hw) { hw_sub=1 } else { in_hw=1; hw_sub=0; print } next }
@@ -118,8 +136,11 @@ in_hw0 { hw0_lines++; block = block "\n" $0; next }
 { print }
 '
 
+if [ $redo_hw_status -ne 0 ]; then fail_exit "redo_hw.sh exited with status $redo_hw_status"; fi
+
 echo "regenerate $dict.xml and postxml files"
 output=$(sh redo_xml.sh 2>&1)
+redo_xml_status=$?
 printf "%s\n" "$output" | awk -v dict="$dict" '
 /BEGIN make_xml\.py$/ { in_xml=1; xml_line=0; print; next }
 /END make_xml\.py$/ { in_xml=0; print; next }
@@ -140,12 +161,18 @@ in_xml {
 { print }
 '
 
+if [ $redo_xml_status -ne 0 ]; then fail_exit "redo_xml.sh exited with status $redo_xml_status"; fi
+
 sh redo_postxml.sh
+stage_status=$?
+if [ $stage_status -ne 0 ]; then fail_exit "redo_postxml.sh exited with status $stage_status"; fi
 cd $curdir  # back to v02
 # Recompute downloads directory
 echo "regenerate downloads "
-cd $outdir/downloads
+cd $outdir/downloads || fail_exit "cd $outdir/downloads failed"
 sh redo_all.sh
-cd $curdir # back to v02
+stage_status=$?
+if [ $stage_status -ne 0 ]; then fail_exit "downloads/redo_all.sh exited with status $stage_status"; fi
+cd $curdir || fail_exit "cd back to $curdir failed" # back to v02
 echo "*****************************************************"
 

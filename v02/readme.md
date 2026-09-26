@@ -1,3 +1,5 @@
+_Created: 29-09-2019 · Last updated: 05-09-2026_
+
 # v02
 
 The current, production version of the CSL code-generation pipeline.
@@ -154,3 +156,5 @@ It tracks the last-processed `csl-orig` commit in `csl-orig/v02/.xampp_last_run`
 6. Updates `csl-orig/.version` and refreshes the `csl-homepage`
 
 Prerequisites for selective update: sibling directories `cologne-stardict`, `csl-json`, `csl-homepage`, `hwnorm1`, and `indic-dict/stardict-sanskrit` must be present and have cached git credentials.
+
+_Dr. Mārcis Gasūns_

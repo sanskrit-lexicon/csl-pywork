@@ -1,6 +1,71 @@
+_Created: 30-06-2026 · Last updated: 24-09-2026_
+
 # Changelog
 
 ## [Unreleased]
+### Added
+- **215 `[Cologne Addition]` pwgbib entries appended (H5465):** the
+  pwgauth bibliography `v02/distinctfiles/pwg/pywork/pwgauth/pwgbib_input.txt`
+  grew 2844 → 3059 records — one `[Cologne Addition]` row per true-unknown
+  `<ls>` string of the Andhrabharati-vs-CDSL full-auto diff, ids
+  `c.2180`–`c.2394` continuing the existing `c.*` append block; tooltips by
+  evidence tier (15 confident Western series/edition expansions, 5 guesses,
+  40 full-title identity marks `X = X. ?`, 155 `= ?`); case preserved,
+  NFC + whitespace collapse only; `check_pwbib.py` passes on the merged
+  file. Source artifacts + per-string audit TSV: csl-observatory
+  `data/pwg_scan_index_tracker/andhrabharati_ls_diff/` (PRs #235/#236);
+  diff documentation + pwg.txt defect proposals: PWG issue #240. Deep
+  per-string classification: PWG handoff H5466.
+- **G3 webtc2 generation-time search index (H3633, H3487 audit):** the
+  webtc2 stage now builds `query_dump.sqlite3` alongside `query_dump.txt`
+  (new `pywork/webtc2/build_query_index.py`, shipped for every dictionary
+  via `inventory.txt`; wired into `webtc2/redo.sh`). The index stores each
+  dump line's byte offset (usable with `fseek`) plus the hyphen-stripped
+  line text and the dump size it was built from. csl-websanlexicon's
+  `querymodel.php` consults it and falls back to the flat file when absent
+  or stale, replacing the per-request linear `fgets` scan
+  (audit W10, prior audit D4). Full-dump scans on MW/PWG sample queries
+  drop ~2.4-6x with identical top-100 results (parity transcript in
+  csl-websanlexicon `tests/webtc2_parity/`).
+
+- Added a root `AGENTS.md` agent-entrypoint stub (H4634): names itself the agent entrypoint, links [CLAUDE.md](CLAUDE.md), points at the [Uprava org standard](https://github.com/gasyoun/Uprava/blob/main/AGENTS.md).
+### Fixed
+- **P10 (H3487 audit, G3/H3633):** `init_query.py` initialized
+  `keysanskrit` only inside the first matching branch, so a file with zero
+  `<H>` records crashed with `NameError` after opening the output file,
+  and `webtc2/redo.sh` (no `set -e`) shipped the empty dump anyway. The
+  variable is now initialized up front, the final record is only written
+  when at least one record was read (no zero-record junk row), and
+  `webtc2/redo.sh` is fail-closed (`set -e`), so a dump and its index are
+  never moved into the web tree half-built. 7 sandbox tests in
+  `tests/test_h3633_webtc2_index.py`.
+
+### Fixed
+- **G1 fail-closed validation (H3631):** `xmlvalidate.py` now exits nonzero on
+  DTD-validation failure (P2). `make_xml.py` exits nonzero when malformed
+  records are detected instead of shipping them with exit 0 (P3), and writes
+  output via temp-file + atomic rename so a mid-loop crash no longer truncates
+  the previous good `<dict>.xml` (P4). `redo_xml.sh` gates `redo_postxml.sh`
+  on the make_xml + xmllint exit status instead of printing red and proceeding
+  (P1). `generate_dict.sh` checks every stage's exit status and every `cd`,
+  printing a red STOP line and exiting nonzero instead of falling through on a
+  half-assembled tree (P5, O2).
+
+### Changed
+- **CI (H3631):** `xml-parse.yml` dict build is now a 6-dict matrix (mci,
+  abch, gst, ae, cae, acc) and gates on the pipeline exit status, which the
+  fail-closed `generate_dict.sh` now makes meaningful.
+
+### Fixed
+
+- **G8 bookkeeping (H3638, H3487 audit):** `refresh_csl.sh` now reports per-repo
+  OK/FAIL and exits nonzero naming failed pulls (a dead network on repo 3 was
+  indistinguishable from success); `regenerate-hwnorm1-sqlite.sh` commit gates
+  use `git status --porcelain` so untracked generated files actually commit
+  (hwnorm1/hwnorm2/apidev no longer silently go stale); dead `>1000000` debug
+  cutoff removed from the v02 `make_xml` template; literal junk row no longer
+  written into every `query_dump.txt`. 8 sandbox tests in
+  `tests/test_g8_bookkeeping.py`.
 
 ## [0.2.2] - 2026-07-31
 ### Fixed
@@ -58,3 +123,5 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - 2026-06-02 infra: parameterise refresh-script base path (M1/D2); add full make_xml XML-parse CI (D3)
 - 2026-06-01 PD distinct files
 - 2026-05-30 fix: read sources with utf-8-sig so a leading BOM can't break hw.py
+
+_Dr. Mārcis Gasūns_

@@ -1,39 +1,31 @@
-echo "Going to sanskrit-lexicon directory"
-cd ../..
-pwd
-cd csl-orig
-echo "Updating csl-orig"
-git pull
-echo "Updating csl-pywork"
-cd ../csl-pywork
-git pull
-echo "Updating csl-websanlexicon"
-cd ../csl-websanlexicon
-git pull
-echo "Updating csl-corrections"
-cd ../csl-corrections
-git pull
-echo "Updating csl-apidev"
-cd ../csl-apidev
-git pull
-echo "Updating csl-doc"
-cd ../csl-doc
-git pull
-echo "Updating csl-homepage"
-cd ../csl-homepage
-git pull
-echo "Updating hwnorm1"
-cd ../hwnorm1
-git pull
-echo "Updating hwnorm2"
-cd ../hwnorm2
-git pull
-echo "Updating cologne-stardict"
-cd ../cologne-stardict
-git pull
-echo "Updating csl-lslink"
-cd ../csl-lslink
-git pull
-echo "Updating csl-app"
-cd ../csl-app
-git pull
+#!/bin/sh
+# refresh_csl.sh — pull every Cologne sibling repo; report per-repo status;
+# exit nonzero if ANY pull failed (H3487 G8 / finding P14).
+#
+# Run from the v02/ directory of a csl-pywork checkout whose parent contains
+# the sibling repos (csl-orig, hwnorm1, ...). A dead network on repo 3 is now
+# distinguishable from success: every repo is reported OK/FAIL and the script
+# exits 1 naming the failures.
+cd ../.. || exit 1
+BASE=$(pwd)
+FAILED=""
+for repo in csl-orig csl-pywork csl-websanlexicon csl-corrections csl-apidev \
+            csl-doc csl-homepage hwnorm1 hwnorm2 cologne-stardict csl-lslink csl-app; do
+    echo "Updating $repo"
+    if [ ! -d "$BASE/$repo" ]; then
+        echo "FAIL $repo (directory missing)"
+        FAILED="$FAILED $repo"
+        continue
+    fi
+    if git -C "$BASE/$repo" pull; then
+        echo "OK   $repo"
+    else
+        echo "FAIL $repo"
+        FAILED="$FAILED $repo"
+    fi
+done
+if [ -n "$FAILED" ]; then
+    echo "refresh_csl: FAILED pulls:$FAILED"
+    exit 1
+fi
+echo "refresh_csl: all repos up to date"

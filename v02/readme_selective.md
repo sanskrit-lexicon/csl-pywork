@@ -1,8 +1,10 @@
+_Created: 13-09-2021 · Last updated: 05-09-2026_
+
 # Selective update (`redo_xampp_selective.py`)
 
 Regenerates only the dictionaries that have changed in `csl-orig` since the last run. As of the
 csl-pywork#53 modernization, the canonical implementation is the Python 3 driver
-[`redo_xampp_selective.py`](redo_xampp_selective.py); `redo_xampp_selective.sh` is now a thin
+[`redo_xampp_selective.py`](https://github.com/sanskrit-lexicon/csl-pywork/blob/main/v02/redo_xampp_selective.py); `redo_xampp_selective.sh` is now a thin
 compatibility wrapper that calls it with the production server defaults, so cron entry points
 never had to change:
 
@@ -92,7 +94,7 @@ For each dictionary code in `.files_to_handle`:
 sh generate_dict.sh <dict> ../../<dict>
 ```
 
-Runs the full four-stage pipeline (orig → pywork → web → hw/xml/sqlite/downloads). See [`readme.md`](readme.md) for details.
+Runs the full four-stage pipeline (orig → pywork → web → hw/xml/sqlite/downloads). See [`readme.md`](https://github.com/sanskrit-lexicon/csl-pywork/blob/main/v02/readme.md) for details.
 
 ### Step 3 — Rebuild Stardict files
 
@@ -120,3 +122,5 @@ Writes the current `csl-orig` HEAD commit hash to `csl-orig/v02/.xampp_last_run`
 ### Step 7 — Refresh the homepage
 
 Runs `csl-homepage/redo_xampp.sh`, which reads `csl-orig/.version` and injects the version number and today's date into the homepage.
+
+_Dr. Mārcis Gasūns_
