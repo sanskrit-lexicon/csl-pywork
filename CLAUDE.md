@@ -2,7 +2,7 @@
 
 _Created: 06-05-2026 · Last updated: 04-10-2026_
 
-**csl-pywork** is the Cologne **generator**. It turns
+**csl-pywork** — this repo is the Cologne **generator**. It turns
 [csl-orig](https://github.com/sanskrit-lexicon/csl-orig) digitised text into
 per-dictionary XML, headword lists, SQLite, downloads, and the files the
 [csl-websanlexicon](https://github.com/sanskrit-lexicon/csl-websanlexicon)
@@ -19,7 +19,7 @@ cologne/
   csl-websanlexicon/   ← required sibling (web templates)
 ```
 
-## What to run
+## How to run
 
 ```sh
 cd v02
@@ -42,6 +42,9 @@ or `redo_cologne_all.sh` (server). After a generate, DTD-validate with
 - `xmllint` is often missing. The validate signal is then
   `make_xml.py` printing **`All records parsed by ET`**.
 
+Tests: `python -m pytest tests/ -v` — 276 tests, offline, ~6s (the CI
+`test-updateByLine` job runs the same command).
+
 Corrections that *drive* this generator follow
 [csl-corrections/docs/correction-workflow.md](https://github.com/sanskrit-lexicon/csl-corrections/blob/main/docs/correction-workflow.md)
 — snapshot → apply → regenerate here → validate → audit. Do not invent a
@@ -55,7 +58,7 @@ fix belongs in this repo first.
 
 ## PWG authority data state (24-09-2026, H5465)
 
-[`v02/distinctfiles/pw/pywork/pwgauth/pwgbib_input.txt`](https://github.com/sanskrit-lexicon/csl-pywork/blob/main/v02/distinctfiles/pw/pywork/pwgauth/pwgbib_input.txt)
+[`v02/distinctfiles/pwg/pywork/pwgauth/pwgbib_input.txt`](https://github.com/sanskrit-lexicon/csl-pywork/blob/main/v02/distinctfiles/pwg/pywork/pwgauth/pwgbib_input.txt)
 carries 215 appended `[Cologne Addition]` entries for the true-unknown PWG
 `ls` strings ([#94](https://github.com/sanskrit-lexicon/csl-pywork/pull/94)) —
 first-class rows, not noise; the changelog entry sits under
