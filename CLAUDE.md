@@ -1,6 +1,6 @@
 # CLAUDE.md
 
-_Created: 06-05-2026 · Last updated: 13-09-2026_
+_Created: 06-05-2026 · Last updated: 04-10-2026_
 
 **csl-pywork** is the Cologne **generator**. It turns
 [csl-orig](https://github.com/sanskrit-lexicon/csl-orig) digitised text into
@@ -52,6 +52,14 @@ second sequence.
 live at `v02/makotemplates/pywork/` and are **vendored**
 (copied, never forked-and-edited) into dictionary repos. A shared-script
 fix belongs in this repo first.
+
+## PWG authority data state (24-09-2026, H5465)
+
+[`v02/distinctfiles/pw/pywork/pwgauth/pwgbib_input.txt`](https://github.com/sanskrit-lexicon/csl-pywork/blob/main/v02/distinctfiles/pw/pywork/pwgauth/pwgbib_input.txt)
+carries 215 appended `[Cologne Addition]` entries for the true-unknown PWG
+`ls` strings ([#94](https://github.com/sanskrit-lexicon/csl-pywork/pull/94)) —
+first-class rows, not noise; the changelog entry sits under
+`[Unreleased]/Added` ([#95](https://github.com/sanskrit-lexicon/csl-pywork/pull/95)).
 
 ## Do not
 
