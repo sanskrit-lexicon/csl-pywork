@@ -19,7 +19,7 @@ workflow's regeneration step.
 ## Provenance
 
 - Authored 28-07-2026 under handoff
-  [H1783](https://github.com/gasyoun/Uprava/blob/main/handoffs/H1783-Fable_csl-pywork_dict-generation-operator-manual_28.07.26.md)
+  [H1783](https://github.com/gasyoun/Uprava/blob/main/handoffs/archive/H1783-Fable_csl-pywork_dict-generation-operator-manual_28.07.26.md)
   by Fable 5 (`claude-fable-5`); handoff minted by Grok 4.5 (`grok-4.5`) as #2
   of the H1782–H1786 "code-heavy / docs-thin Cologne engines" batch.
 - Every stage claim was verified against the scripts at commit `d53d7f2`
