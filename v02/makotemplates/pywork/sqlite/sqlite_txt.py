@@ -197,23 +197,32 @@ if __name__ == '__main__':
     columns = SCHEMA_MAP[tabname]
     num_cols = len(columns)
 
-    remove(fileout)
-    conn = sqlite3.connect(fileout)
-    c = conn.cursor()
-    create_table(c, conn, tabname, columns)
-
     with open(filein, encoding='utf-8') as f:
         lines = [line.rstrip('\r\n') for line in f]
     print(len(lines), 'lines read from', filein)
 
-    nrow = 0
+    # H4227 P8 (H3487 audit): a column-count mismatch is a data error, not a
+    # warning. Validate BEFORE creating the output sqlite, so a bad input
+    # exits nonzero and leaves no short-row database behind — same contract
+    # as sqlite.py.
     rows = []
+    nbad = 0
     for line in lines:
         parts = line.split('\t')
         if len(parts) != num_cols:
-            print('WARNING: expected %d columns, got %d in line: %s' % (num_cols, len(parts), line))
-            continue
-        rows.append(tuple(parts))
+            nbad += 1
+            if nbad <= 10:
+                print('ERROR: expected %d columns, got %d in line: %s' % (num_cols, len(parts), line))
+        else:
+            rows.append(tuple(parts))
+    if nbad > 0:
+        print('sqlite_txt.py FATAL: %d of %d lines in %s do not have %d tab-separated columns; no sqlite written' % (nbad, len(lines), filein, num_cols))
+        sys.exit(1)
+
+    remove(fileout)
+    conn = sqlite3.connect(fileout)
+    c = conn.cursor()
+    create_table(c, conn, tabname, columns)
 
     insert_rows(c, conn, tabname, rows)
     nrow = len(rows)
