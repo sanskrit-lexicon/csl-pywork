@@ -1,9 +1,21 @@
-_Created: 30-06-2026 · Last updated: 06-09-2026_
+_Created: 30-06-2026 · Last updated: 24-09-2026_
 
 # Changelog
 
 ## [Unreleased]
 ### Added
+- **215 `[Cologne Addition]` pwgbib entries appended (H5465):** the
+  pwgauth bibliography `v02/distinctfiles/pwg/pywork/pwgauth/pwgbib_input.txt`
+  grew 2844 → 3059 records — one `[Cologne Addition]` row per true-unknown
+  `<ls>` string of the Andhrabharati-vs-CDSL full-auto diff, ids
+  `c.2180`–`c.2394` continuing the existing `c.*` append block; tooltips by
+  evidence tier (15 confident Western series/edition expansions, 5 guesses,
+  40 full-title identity marks `X = X. ?`, 155 `= ?`); case preserved,
+  NFC + whitespace collapse only; `check_pwbib.py` passes on the merged
+  file. Source artifacts + per-string audit TSV: csl-observatory
+  `data/pwg_scan_index_tracker/andhrabharati_ls_diff/` (PRs #235/#236);
+  diff documentation + pwg.txt defect proposals: PWG issue #240. Deep
+  per-string classification: PWG handoff H5466.
 - **G3 webtc2 generation-time search index (H3633, H3487 audit):** the
   webtc2 stage now builds `query_dump.sqlite3` alongside `query_dump.txt`
   (new `pywork/webtc2/build_query_index.py`, shipped for every dictionary
@@ -16,6 +28,7 @@ _Created: 30-06-2026 · Last updated: 06-09-2026_
   drop ~2.4-6x with identical top-100 results (parity transcript in
   csl-websanlexicon `tests/webtc2_parity/`).
 
+- Added a root `AGENTS.md` agent-entrypoint stub (H4634): names itself the agent entrypoint, links [CLAUDE.md](CLAUDE.md), points at the [Uprava org standard](https://github.com/gasyoun/Uprava/blob/main/AGENTS.md).
 ### Fixed
 - **P10 (H3487 audit, G3/H3633):** `init_query.py` initialized
   `keysanskrit` only inside the first matching branch, so a file with zero
@@ -50,7 +63,7 @@ _Created: 30-06-2026 · Last updated: 06-09-2026_
   indistinguishable from success); `regenerate-hwnorm1-sqlite.sh` commit gates
   use `git status --porcelain` so untracked generated files actually commit
   (hwnorm1/hwnorm2/apidev no longer silently go stale); dead `>1000000` debug
-  cutoff removed from the v02 `make_xml` template;   literal junk row no longer
+  cutoff removed from the v02 `make_xml` template; literal junk row no longer
   written into every `query_dump.txt`. 8 sandbox tests in
   `tests/test_g8_bookkeeping.py`.
 

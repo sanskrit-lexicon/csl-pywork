@@ -166,6 +166,11 @@ def dig_to_xml_specific(x):
  x = re.sub(r'(<F>.*?</F>)|(\[[A-Za-z0-9]+\])',
             lambda m: m.group(0) if m.group(1) else '<div n="1">' + m.group(0),
             x, flags=re.S)
+ # page-number markers ;p{0001} -> [Page0001], so that adjust_slp1
+ # (which protects [Page...]) leaves them untranscoded and the display
+ # renders them as page links.  Must come after the meaning-division rule
+ # above, which would otherwise wrap [Page...] in <div n="1">.
+ x = re.sub(r';p\{([0-9]{4})\}', r'[Page\1]', x)
 %endif
 %if dictlo in ['vcp', 'nybj']:
  x = adjust_slp1(x) # add <s> markup to text

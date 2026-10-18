@@ -56,5 +56,5 @@ sh generate_dict.sh acph  ../../acph
 sh generate_dict.sh acsj  ../../acsj
 sh generate_dict.sh fri  ../../fri
 sh generate_dict.sh nmmb ../../nmmb
-
+sh generate_dict.sh nybj ../../nybj
 
