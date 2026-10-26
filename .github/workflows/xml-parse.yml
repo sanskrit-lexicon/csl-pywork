@@ -28,7 +28,7 @@ jobs:
     name: Committed XML is well-formed
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v7
+      - uses: actions/checkout@v7.0.1
       - uses: actions/setup-python@v7.1.0
         with:
           python-version: "3.11"
@@ -70,17 +70,17 @@ jobs:
         dict: [mci, abch, gst, ae, cae, acc]
     steps:
       - name: Checkout csl-pywork
-        uses: actions/checkout@v7
+        uses: actions/checkout@v7.0.1
         with:
           path: csl-pywork
       - name: Checkout csl-orig (sparse — ${{ matrix.dict }} only)
-        uses: actions/checkout@v7
+        uses: actions/checkout@v7.0.1
         with:
           repository: sanskrit-lexicon/csl-orig
           path: csl-orig
           sparse-checkout: v02/${{ matrix.dict }}
       - name: Checkout csl-websanlexicon
-        uses: actions/checkout@v7
+        uses: actions/checkout@v7.0.1
         with:
           repository: sanskrit-lexicon/csl-websanlexicon
           path: csl-websanlexicon
