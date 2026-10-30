@@ -1,6 +1,6 @@
 # CLAUDE.md
 
-_Created: 06-05-2026 · Last updated: 04-10-2026_
+_Created: 06-05-2026 · Last updated: 30-10-2026 (H7474 verified-no-change truth refresh)_
 
 **csl-pywork** — this repo is the Cologne **generator**. It turns
 [csl-orig](https://github.com/sanskrit-lexicon/csl-orig) digitised text into
