@@ -42,7 +42,7 @@ or `redo_cologne_all.sh` (server). After a generate, DTD-validate with
 - `xmllint` is often missing. The validate signal is then
   `make_xml.py` printing **`All records parsed by ET`**.
 
-Tests: `python -m pytest tests/ -v` — 276 tests, offline, ~6s (the CI
+Tests: `python -m pytest tests/ -v` — 276 tests, offline, ~37s measured (the CI
 `test-updateByLine` job runs the same command).
 
 Corrections that *drive* this generator follow
