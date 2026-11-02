@@ -4,6 +4,14 @@ _Created: 30-06-2026 · Last updated: 24-09-2026_
 
 ## [Unreleased]
 ### Added
+- **Nightly bug hunt csl-pywork 02-11-2026:** repo-wide hunt over `v02/` drivers,
+  `scripts/` changelog guards, webtc2 index builder and shells — 276 tests green,
+  no secrets, **0 HIGH** (auto-fix lane not triggered); 2 MEDIUM
+  (`redo_cologne_all.sh` ignores per-dict failures and exits 0 on a partial
+  regeneration; `xmlchk_xampp.sh` points at an unshipped `../../xmlvalidate.py`
+  path), 3 LOW, and one static lead (changelog-guard sha `.strip('0 \t')`)
+  refuted by live A/B and documented so it is never "fixed". Full report:
+  [BUGHUNT-FINDINGS-csl-pywork-02.11.2026.md](BUGHUNT-FINDINGS-csl-pywork-02.11.2026.md).
 - **215 `[Cologne Addition]` pwgbib entries appended (H5465):** the
   pwgauth bibliography `v02/distinctfiles/pwg/pywork/pwgauth/pwgbib_input.txt`
   grew 2844 → 3059 records — one `[Cologne Addition]` row per true-unknown
