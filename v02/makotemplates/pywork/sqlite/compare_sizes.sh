@@ -34,7 +34,7 @@ echo ""
 
 compare_size() {
     local label="$1" dir="$2" ifile="$3" tbl="$4" sfile="$5"
-    cd "$TMPDIR"
+    cd "$TMPDIR" || return 1
     if [ "$dir/$ifile" != "$TMPDIR/$ifile" ]; then
         cp "$dir/$ifile" . 2>/dev/null || return
     fi

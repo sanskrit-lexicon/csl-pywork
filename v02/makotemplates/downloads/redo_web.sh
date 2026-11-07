@@ -7,5 +7,5 @@ if [ -f ${dictlo}web1.zip ]
 fi
 cd ../ > /dev/null
 zip  -rq downloads/${dictlo}web1.zip web -x *pdfpages*
-cd downloads > /dev/null
+cd downloads > /dev/null || exit 1
 echo "END: downloads/redo_web1.sh"

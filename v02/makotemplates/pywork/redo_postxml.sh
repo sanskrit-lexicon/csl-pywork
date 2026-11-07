@@ -7,7 +7,7 @@ cp ${dictlo}header.xml ../web/
 echo ""
 # 1. Redo web/xxx.sqlite
 echo "BEGIN sqlite"
-cd sqlite
+cd sqlite || exit 1
 output=$(sh redo.sh 2>&1)
 printf "%s\n" "$output" | awk '
 {
@@ -26,30 +26,30 @@ printf "%s\n" "$output" | awk '
 cd ../ # back in pywork
 echo "END sqlite"
 # 2. redo db (query_dump) for advanced search
-cd webtc2
+cd webtc2 || exit 1
 sh redo.sh
 cd ../ # back to pywork
 # For applicable dictionaries, update other web/sqlite databases
 # abbreviations
 %if dictlo in ['ben','stc','bur','cae','mw','pw','pwg','lan','gra','ap90','pwkvn','bhs','md','ap','ae']:
- cd ${dictlo}ab
+ cd ${dictlo}ab || exit 1
  sh redo.sh
  cd ../ # back to pywork
 %endif
 # literary source.
 %if dictlo in ['mw','pw','pwg','ap90','ben','pwkvn','sch','gra','bhs','ap','ae']:
- cd ${dictlo}auth
+ cd ${dictlo}auth || exit 1
  sh redo.sh
  cd ../ # back to pywork
 %endif
 # two extra links dbs for mw
 %if dictlo == 'mw':
  # Westergaard DAtupAWa links
- cd westmwtab
+ cd westmwtab || exit 1
  sh redo.sh
  cd ../ # back to pywork
  # Whitney roots links.
- cd whitmwtab
+ cd whitmwtab || exit 1
  sh redo.sh
  cd ../ # back to pywork
 %endif
