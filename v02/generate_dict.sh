@@ -40,7 +40,7 @@ curdir=`pwd`  # so we can get back here
 # gates such as csl-orig scripts/check_generate_dict.sh) and exit nonzero
 # so callers never build on a half-assembled tree.
 fail_exit() {
-  cd "$curdir" 2>/dev/null
+  cd "$curdir" 2>/dev/null || exit 1
   printf "\033[31mSTOP generate_dict.sh: %s\033[0m\n" "$1"
   exit 1
 }
@@ -166,7 +166,7 @@ if [ $redo_xml_status -ne 0 ]; then fail_exit "redo_xml.sh exited with status $r
 sh redo_postxml.sh
 stage_status=$?
 if [ $stage_status -ne 0 ]; then fail_exit "redo_postxml.sh exited with status $stage_status"; fi
-cd $curdir  # back to v02
+cd $curdir || exit 1 # back to v02
 # Recompute downloads directory
 echo "regenerate downloads "
 cd $outdir/downloads || fail_exit "cd $outdir/downloads failed"
