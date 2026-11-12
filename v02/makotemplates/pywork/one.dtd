@@ -4,6 +4,7 @@
 <!-- 02-05-2024. Change pe tag to per, and remove logic re dictlo = pe -->
 <!-- 01-14-2026. sab element added for ap -->
 <!-- 06-12-2026. add 's' as child of 'ls'  for pwg -->
+<!-- 11-12-2026. Skip the PWG 'pe' tag when dictlo = pe: it redefines the root element 'pe' -->
 %if dictlo not in ('mw','ap'):
 <!ELEMENT  ${dictlo} (H1)*>
 <!ELEMENT H1 (h,body,tail) >
@@ -89,7 +90,9 @@ H1B | H2B | H3B | H4B | H1C | H2C | H3C | H4C | H1E | H2E | H3E | H4E)*>
 <!ELEMENT ocs (#PCDATA) >  <!-- Old Church Slavonic text, PWG-->
 <!ELEMENT mng (#PCDATA) >  <!-- meaning indicator, PWG-->
 <!ELEMENT abot (#PCDATA) >  <!-- botanical authority abbreviation, PWG-->
+%if dictlo != 'pe':
 <!ELEMENT pe (#PCDATA) >  <!-- person ending/verbal ending, PWG-->
+%endif
 <!ELEMENT azoo (#PCDATA) >  <!-- zoological authority abbreviation, PWG-->
 <!ELEMENT enum (#PCDATA) >  <!-- enumeration marker, PWG-->
 <!ELEMENT zen (#PCDATA) >  <!-- Zend/Avestan text, PWG-->
